@@ -2,7 +2,10 @@
   "id": "marine-velvet",
   "source": "https://humble.fish/community/index.php?threads/marine-velvet-disease.12/",
   "author": "Humblefish",
-  "name": {"en": "Marine Velvet Disease", "hu": "Tengeri bársonybetegség (velvet)"},
+  "name": {
+    "en": "Marine Velvet Disease",
+    "hu": "Tengeri bársonybetegség (velvet)"
+  },
   "scientific": "Amyloodinium ocellatum",
   "category": "parasite-protozoan",
   "summary": {
@@ -33,8 +36,23 @@
       "Gyors elhullás, néha még a látható pöttyök előtt (kopoltyúfertőzés)"
     ]
   },
-  "body_areas": ["skin", "fins", "gills", "behavior", "color"],
-  "appearance": ["dusty-coating", "white-spots", "rapid-breathing", "flashing-scratching", "not-eating", "darkening", "hiding", "lethargy"],
+  "body_areas": [
+    "skin",
+    "fins",
+    "gills",
+    "behavior",
+    "color"
+  ],
+  "appearance": [
+    "dusty-coating",
+    "white-spots",
+    "rapid-breathing",
+    "flashing-scratching",
+    "not-eating",
+    "darkening",
+    "hiding",
+    "lethargy"
+  ],
   "speed": "sudden-fast",
   "lethality": "very-high",
   "contagious": true,
@@ -65,7 +83,10 @@
   "treatments": [
     {
       "treatment_id": "hydrogen-peroxide-bath",
-      "name": {"en": "Hydrogen peroxide bath", "hu": "Hidrogén-peroxidos fürdő"},
+      "name": {
+        "en": "Hydrogen peroxide bath",
+        "hu": "Hidrogén-peroxidos fürdő"
+      },
       "priority": "first-line",
       "details": {
         "en": "Step 1 temporary relief (most preferred option): 30 minute hydrogen peroxide bath before moving the fish to QT. Relief only, not a cure.",
@@ -74,7 +95,10 @@
     },
     {
       "treatment_id": "formalin",
-      "name": {"en": "Formalin bath", "hu": "Formalinos fürdő"},
+      "name": {
+        "en": "Formalin bath",
+        "hu": "Formalinos fürdő"
+      },
       "priority": "alternative",
       "details": {
         "en": "Step 1 temporary relief alternative: 45-60 minute formalin bath.",
@@ -83,7 +107,10 @@
     },
     {
       "treatment_id": "freshwater-dip",
-      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés"},
+      "name": {
+        "en": "Freshwater dip",
+        "hu": "Édesvizes merítés"
+      },
       "priority": "alternative",
       "details": {
         "en": "Step 1 temporary relief alternative: 5 minute freshwater dip.",
@@ -91,8 +118,11 @@
       }
     },
     {
-      "treatment_id": "ruby-reef-rally",
-      "name": {"en": "Ruby Reef Rally (Rally PRO) bath", "hu": "Ruby Reef Rally (Rally PRO) fürdő"},
+      "treatment_id": "acriflavine",
+      "name": {
+        "en": "Ruby Reef Rally (Rally PRO) bath",
+        "hu": "Ruby Reef Rally (Rally PRO) fürdő"
+      },
       "priority": "alternative",
       "details": {
         "en": "Step 1 temporary relief alternative: 90 minute bath using Ruby Reef Rally.",
@@ -101,7 +131,10 @@
     },
     {
       "treatment_id": "nitrofurazone",
-      "name": {"en": "Nitrofuracin Green Powder or Methylene Blue bath (optional)", "hu": "Nitrofuracin Green Powder vagy Methylene Blue fürdő (opcionális)"},
+      "name": {
+        "en": "Nitrofuracin Green Powder or Methylene Blue bath (optional)",
+        "hu": "Nitrofuracin Green Powder vagy Methylene Blue fürdő (opcionális)"
+      },
       "priority": "supportive",
       "details": {
         "en": "Optional second bath before quarantine if the fish shows signs of a secondary bacterial infection.",
@@ -110,7 +143,10 @@
     },
     {
       "treatment_id": "chloroquine-phosphate",
-      "name": {"en": "Chloroquine phosphate (in QT)", "hu": "Chloroquine phosphate (QT-ben)"},
+      "name": {
+        "en": "Chloroquine phosphate (in QT)",
+        "hu": "Chloroquine phosphate (QT-ben)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Step 2 quarantine tank treatment (pick one). See the forum's chloroquine phosphate protocol for dosing.",
@@ -119,7 +155,10 @@
     },
     {
       "treatment_id": "copper",
-      "name": {"en": "Copper (in QT)", "hu": "Réz (QT-ben)"},
+      "name": {
+        "en": "Copper (in QT)",
+        "hu": "Réz (QT-ben)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Step 2 quarantine tank treatment (pick one). See the forum's copper treatment protocol for dosing.",
@@ -128,7 +167,10 @@
     },
     {
       "treatment_id": "ttm",
-      "name": {"en": "Tank Transfer Method (two of its versions)", "hu": "Tank Transfer Method (TTM, két változata)"},
+      "name": {
+        "en": "Tank Transfer Method (two of its versions)",
+        "hu": "Tank Transfer Method (TTM, két változata)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Step 2 alternative: two versions of TTM will eliminate velvet (see the TTM all-versions thread).",
@@ -137,7 +179,10 @@
     },
     {
       "treatment_id": "fallow-period",
-      "name": {"en": "Fallow period (display tank)", "hu": "Hal nélküli időszak (fallow) a bemutató akváriumban"},
+      "name": {
+        "en": "Fallow period (display tank)",
+        "hu": "Hal nélküli időszak (fallow) a bemutató akváriumban"
+      },
       "priority": "first-line",
       "details": {
         "en": "Keep the display tank fishless for 6 weeks to starve velvet out.",
@@ -146,7 +191,10 @@
     },
     {
       "treatment_id": "disease-management",
-      "name": {"en": "Disease management (UV, diatom filter, ozone + nutrition)", "hu": "Betegség-menedzsment (UV, diatóma szűrő, ózon + táplálás)"},
+      "name": {
+        "en": "Disease management (UV, diatom filter, ozone + nutrition)",
+        "hu": "Betegség-menedzsment (UV, diatóma szűrő, ózon + táplálás)"
+      },
       "priority": "not-recommended",
       "details": {
         "en": "Velvet usually cannot be managed like ich. Management is only possibly achieved by diluting free swimmers with UV sterilizer, diatom filter or ozone, combined with good nutrition, vitamins and probiotics to boost immunity.",
@@ -167,31 +215,119 @@
     ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/velvetscope-png.98749/", "caption": {"en": "Velvet (Amyloodinium ocellatum) under the microscope", "hu": "Velvet (Amyloodinium ocellatum) mikroszkóp alatt"}},
-    {"url": "https://humble.fish/community/attachments/20220315_183029-jpg.89027/", "caption": {"en": "Fish with the dusty/powdery appearance typical of velvet", "hu": "Hal a velvetre jellemző poros, hamvas bevonattal"}},
-    {"url": "https://humble.fish/community/attachments/velvet-2-jpeg.89030/", "caption": {"en": "Velvet infestation: fine white dust over body and fins", "hu": "Velvet fertőzés: finom fehér por a testen és az úszókon"}},
-    {"url": "https://humble.fish/community/attachments/velvet-2-jpg.36588/", "caption": {"en": "Yellow Tang with velvet under blue lights", "hu": "Velvetes Yellow Tang kék fényben"}},
-    {"url": "https://humble.fish/community/attachments/velvet-1-jpeg.98754/", "caption": {"en": "On light-colored fish the white dots are often mostly visible on the fins", "hu": "Világos színű halakon a fehér pöttyök gyakran főleg az úszókon látszanak"}},
-    {"url": "https://humble.fish/community/attachments/life-cycle-of-velvet-jpeg.98753/", "caption": {"en": "Life cycle of velvet", "hu": "A velvet életciklusa"}}
+    {
+      "url": "https://humble.fish/community/attachments/velvetscope-png.98749/",
+      "caption": {
+        "en": "Velvet (Amyloodinium ocellatum) under the microscope",
+        "hu": "Velvet (Amyloodinium ocellatum) mikroszkóp alatt"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/20220315_183029-jpg.89027/",
+      "caption": {
+        "en": "Fish with the dusty/powdery appearance typical of velvet",
+        "hu": "Hal a velvetre jellemző poros, hamvas bevonattal"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/velvet-2-jpeg.89030/",
+      "caption": {
+        "en": "Velvet infestation: fine white dust over body and fins",
+        "hu": "Velvet fertőzés: finom fehér por a testen és az úszókon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/velvet-2-jpg.36588/",
+      "caption": {
+        "en": "Yellow Tang with velvet under blue lights",
+        "hu": "Velvetes Yellow Tang kék fényben"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/velvet-1-jpeg.98754/",
+      "caption": {
+        "en": "On light-colored fish the white dots are often mostly visible on the fins",
+        "hu": "Világos színű halakon a fehér pöttyök gyakran főleg az úszókon látszanak"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/life-cycle-of-velvet-jpeg.98753/",
+      "caption": {
+        "en": "Life cycle of velvet",
+        "hu": "A velvet életciklusa"
+      }
+    }
   ],
+  "cover": 2,
   "related_links": [
-    {"title": "The difference between Ich and Velvet", "url": "https://humble.fish/community/index.php?threads/the-difference-between-ich-velvet.532/"},
-    {"title": "Marine Ich", "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"},
-    {"title": "Gill Flukes", "url": "https://humble.fish/community/index.php?threads/flukes.7/"},
-    {"title": "Hydrogen Peroxide", "url": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/"},
-    {"title": "Formalin", "url": "https://humble.fish/community/index.php?threads/formalin.19/"},
-    {"title": "Freshwater Dip", "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"},
-    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
-    {"title": "Chloroquine phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
-    {"title": "Copper treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
-    {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
-    {"title": "Bacterial Infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
-    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
-    {"title": "Vitamins & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"},
-    {"title": "Disease eradication vs disease management", "url": "https://humble.fish/community/index.php?threads/disease-eradication-vs-disease-management-new.914/"},
-    {"title": "Ruby Reef Rally PRO", "url": "https://rubyreef.com/products/rally-pro"},
-    {"title": "SRAC Publication 4705: Amyloodinium ocellatum", "url": "https://fisheries.tamu.edu/files/2013/09/SRAC-Publication-No.-4705-Amyloodinium-ocellatum-an-Important-Parasite-of-Cultured-Marine-Fish.pdf"},
-    {"title": "Amyloodinium Infections of Marine Fish", "url": "https://agrilife.org/fisheries2/files/2013/09/Amyloodinium-Infections-of-Marine-Fish.pdf"}
+    {
+      "title": "The difference between Ich and Velvet",
+      "url": "https://humble.fish/community/index.php?threads/the-difference-between-ich-velvet.532/"
+    },
+    {
+      "title": "Marine Ich",
+      "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"
+    },
+    {
+      "title": "Gill Flukes",
+      "url": "https://humble.fish/community/index.php?threads/flukes.7/"
+    },
+    {
+      "title": "Hydrogen Peroxide",
+      "url": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/"
+    },
+    {
+      "title": "Formalin",
+      "url": "https://humble.fish/community/index.php?threads/formalin.19/"
+    },
+    {
+      "title": "Freshwater Dip",
+      "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"
+    },
+    {
+      "title": "Quarantine",
+      "url": "https://humble.fish/community/index.php?threads/quarantine.2/"
+    },
+    {
+      "title": "Chloroquine phosphate",
+      "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"
+    },
+    {
+      "title": "Copper treatment",
+      "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"
+    },
+    {
+      "title": "Tank Transfer Method (all versions)",
+      "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"
+    },
+    {
+      "title": "Bacterial Infections",
+      "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"
+    },
+    {
+      "title": "Methylene Blue",
+      "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"
+    },
+    {
+      "title": "Vitamins & Herbal Remedies",
+      "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"
+    },
+    {
+      "title": "Disease eradication vs disease management",
+      "url": "https://humble.fish/community/index.php?threads/disease-eradication-vs-disease-management-new.914/"
+    },
+    {
+      "title": "Ruby Reef Rally PRO",
+      "url": "https://rubyreef.com/products/rally-pro"
+    },
+    {
+      "title": "SRAC Publication 4705: Amyloodinium ocellatum",
+      "url": "https://fisheries.tamu.edu/files/2013/09/SRAC-Publication-No.-4705-Amyloodinium-ocellatum-an-Important-Parasite-of-Cultured-Marine-Fish.pdf"
+    },
+    {
+      "title": "Amyloodinium Infections of Marine Fish",
+      "url": "https://agrilife.org/fisheries2/files/2013/09/Amyloodinium-Infections-of-Marine-Fish.pdf"
+    }
   ],
   "notes": {
     "en": "Once velvet has spread over the body the fish is heavily infected and the prognosis is bleak, so treatment must start at the first behavioral signs. On yellow or light-colored fish velvet can be hard to see; look at the fish from an angle rather than straight from the side. Some fish may develop acquired immunity or partial resistance.",

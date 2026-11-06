@@ -2,7 +2,10 @@
   "id": "bacterial-infections",
   "source": "https://humble.fish/community/index.php?threads/bacterial-infections.120/",
   "author": "Humblefish",
-  "name": {"en": "Bacterial Infections", "hu": "Bakteriális fertőzések"},
+  "name": {
+    "en": "Bacterial Infections",
+    "hu": "Bakteriális fertőzések"
+  },
   "scientific": "Various Gram-negative and Gram-positive bacteria (e.g. Vibrio, Streptococcus)",
   "category": "bacterial",
   "summary": {
@@ -10,15 +13,47 @@
     "hu": "A káros baktériumok a legtöbb akváriumban jelen vannak, de az egészséges immunrendszer és a jó vízminőség általában kordában tartja őket. A fertőzés jellemzően sebből vagy harapásnyomból indul, és gyakran másodlagos parazitás vagy férgességi fertőzés, stressz, rossz víz vagy hiányos táplálkozás mellett. Tengeri halaknál a Gram-negatív fertőzések a leggyakoribbak és a virulensebbek. Ha a támogató kezelés nem elég, a fő kezelés széles spektrumú antibiotikum."
   },
   "symptoms": {
-    "en": ["Redness or open sores/wounds", "White film or fungus-like growth on the body", "Frayed fins, fin and tail rot", "Cloudy eyes", "Bloating (possible internal infection)", "Discoloration"],
-    "hu": ["Kipirosodás vagy nyílt sebek", "Fehér hártya vagy penészszerű kinövés a testen", "Rongyos úszók, úszó- és farokrothadás", "Zavaros szem", "Puffadás (belső fertőzésre utalhat)", "Elszíneződés"]
+    "en": [
+      "Redness or open sores/wounds",
+      "White film or fungus-like growth on the body",
+      "Frayed fins, fin and tail rot",
+      "Cloudy eyes",
+      "Bloating (possible internal infection)",
+      "Discoloration"
+    ],
+    "hu": [
+      "Kipirosodás vagy nyílt sebek",
+      "Fehér hártya vagy penészszerű kinövés a testen",
+      "Rongyos úszók, úszó- és farokrothadás",
+      "Zavaros szem",
+      "Puffadás (belső fertőzésre utalhat)",
+      "Elszíneződés"
+    ]
   },
-  "body_areas": ["skin", "fins", "eyes", "body-shape", "color"],
-  "appearance": ["lesions-ulcers", "red-streaks", "slime-mucus", "cotton-tufts", "fin-rot", "cloudy-eye", "bloating", "hemorrhage"],
+  "body_areas": [
+    "skin",
+    "fins",
+    "eyes",
+    "body-shape",
+    "color"
+  ],
+  "appearance": [
+    "lesions-ulcers",
+    "red-streaks",
+    "slime-mucus",
+    "cotton-tufts",
+    "fin-rot",
+    "cloudy-eye",
+    "bloating",
+    "hemorrhage"
+  ],
   "speed": "days",
   "lethality": "medium",
   "contagious": true,
-  "commonly_affected": {"en": "Any marine fish, especially stressed, injured, malnourished or parasite-infested fish", "hu": "Bármely tengeri hal, különösen a stresszes, sérült, alultáplált vagy parazitával fertőzött egyedek"},
+  "commonly_affected": {
+    "en": "Any marine fish, especially stressed, injured, malnourished or parasite-infested fish",
+    "hu": "Bármely tengeri hal, különösen a stresszes, sérült, alultáplált vagy parazitával fertőzött egyedek"
+  },
   "distinguish": {
     "en": [
       "A white cauliflower-like growth on fins and spines is most likely Lymphocystis (benign virus), not bacteria.",
@@ -37,39 +72,218 @@
   },
   "life_cycle": null,
   "treatments": [
-    {"treatment_id": "improve-water-quality", "name": {"en": "Clean water, low stress, good nutrition", "hu": "Tiszta víz, alacsony stressz, jó táplálás"}, "priority": "supportive", "details": {"en": "Keep water clean, tank adequately sized and stress-free; separate fighting fish before wounds worsen. Sometimes the immune system clears the infection on its own.", "hu": "Tiszta víz, megfelelő méretű és stresszmentes akvárium; a verekedő halakat válaszd szét, mielőtt a sebek súlyosbodnak. Néha az immunrendszer magától legyőzi a fertőzést."}},
-    {"treatment_id": "diet-improvement", "name": {"en": "Vitamins, probiotics and Beta-glucan soaked food", "hu": "Vitaminokkal, probiotikumokkal és béta-glükánnal áztatott eleség"}, "priority": "supportive", "details": {"en": "Feed live foods, nori and frozen seafood, soaked with vitamins, probiotics and Beta-glucan to boost immunity.", "hu": "Élő eleség, nori és fagyasztott tengeri eleség vitaminokkal, probiotikumokkal és béta-glükánnal áztatva az immunrendszer erősítésére."}},
-    {"treatment_id": "medicated-food", "name": {"en": "Antibiotic-laced food (reef-safe)", "hu": "Antibiotikumos eleség (zátonyakváriumban is)"}, "priority": "first-line", "details": {"en": "For fish in a reef: in a shot glass mix ~1/8 tsp Kanaplex, 1-2 scoops Seachem Focus (binder, protects corals/inverts), 1 Tbsp pellets or frozen food and a few drops of saltwater or vitamins. Soak 30 min, feed 1-2 times daily (no more than 2). Refrigerate or freeze leftovers.", "hu": "Zátonyakváriumban lévő halnál: egy kupicában keverj össze kb. 1/8 teáskanál Kanaplexet, 1-2 adag Seachem Focust (kötőanyag, védi a korallokat/gerincteleneket), 1 evőkanál granulátumot vagy fagyasztott eleséget és néhány csepp sós vizet vagy vitamint. 30 percig áztasd, naponta 1-2 alkalommal etesd (legfeljebb 2). A maradékot hűtsd vagy fagyaszd le."}},
-    {"treatment_id": "broad-spectrum-antibiotics", "name": {"en": "Broad-spectrum antibiotics in QT", "hu": "Széles spektrumú antibiotikum QT-ben"}, "priority": "first-line", "details": {"en": "Move the fish to QT and dose antibiotics if it looks really bad or is a newly acquired fish showing infection. When both Gram-positive and Gram-negative bacteria are present, kanamycin combined with nitrofurazone is suggested.", "hu": "Ha a hal nagyon rossz állapotban van, vagy újonnan beszerzett és fertőzés jeleit mutatja, tedd QT-be és adagolj antibiotikumot. Ha Gram-pozitív és Gram-negatív baktérium is jelen van, kanamicin és nitrofurazon kombinációja javasolt."}},
-    {"treatment_id": "ciprofloxacin", "name": {"en": "Ciprofloxacin bath", "hu": "Ciprofloxacin fürdő"}, "priority": "alternative", "details": {"en": "1-2 hour bath at 250 mg per gallon, repeated every 24 hours for 7 days. Methylene Blue can be added to increase efficacy. (Enrofloxacin is similar but only known dosing is 10-20 mg/gal daily.)", "hu": "1-2 órás fürdő, 250 mg/gallon adaggal, 24 óránként ismételve 7 napig. Metilénkék hozzáadása növeli a hatékonyságot. (Az enrofloxacin hasonló, de csak napi 10-20 mg/gallon adagolás ismert.)"}},
-    {"treatment_id": "nitrofurazone", "name": {"en": "Nitrofuracin Green Powder bath", "hu": "Nitrofuracin Green Powder fürdő"}, "priority": "alternative", "details": {"en": "100 mg per gallon for a 30 minute bath.", "hu": "100 mg/gallon, 30 perces fürdő."}},
-    {"treatment_id": "acriflavine", "name": {"en": "Ruby Reef Rally bath", "hu": "Ruby Reef Rally fürdő"}, "priority": "alternative", "details": {"en": "90 minute bath.", "hu": "90 perces fürdő."}},
-    {"treatment_id": "methylene-blue", "name": {"en": "Methylene Blue bath", "hu": "Metilénkék fürdő"}, "priority": "alternative", "details": {"en": "30 minute bath.", "hu": "30 perces fürdő."}},
-    {"treatment_id": "antibiotic-bath", "name": {"en": "Single antibiotic bath at double dose", "hu": "Egyetlen antibiotikum fürdő dupla adaggal"}, "priority": "alternative", "details": {"en": "Almost any single antibiotic can be used as a 30-35 minute bath at double dosage.", "hu": "Szinte bármely antibiotikum használható 30-35 perces fürdőként, dupla adagban."}}
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {
+        "en": "Clean water, low stress, good nutrition",
+        "hu": "Tiszta víz, alacsony stressz, jó táplálás"
+      },
+      "priority": "supportive",
+      "details": {
+        "en": "Keep water clean, tank adequately sized and stress-free; separate fighting fish before wounds worsen. Sometimes the immune system clears the infection on its own.",
+        "hu": "Tiszta víz, megfelelő méretű és stresszmentes akvárium; a verekedő halakat válaszd szét, mielőtt a sebek súlyosbodnak. Néha az immunrendszer magától legyőzi a fertőzést."
+      }
+    },
+    {
+      "treatment_id": "diet-improvement",
+      "name": {
+        "en": "Vitamins, probiotics and Beta-glucan soaked food",
+        "hu": "Vitaminokkal, probiotikumokkal és béta-glükánnal áztatott eleség"
+      },
+      "priority": "supportive",
+      "details": {
+        "en": "Feed live foods, nori and frozen seafood, soaked with vitamins, probiotics and Beta-glucan to boost immunity.",
+        "hu": "Élő eleség, nori és fagyasztott tengeri eleség vitaminokkal, probiotikumokkal és béta-glükánnal áztatva az immunrendszer erősítésére."
+      }
+    },
+    {
+      "treatment_id": "medicated-food",
+      "name": {
+        "en": "Antibiotic-laced food (reef-safe)",
+        "hu": "Antibiotikumos eleség (zátonyakváriumban is)"
+      },
+      "priority": "first-line",
+      "details": {
+        "en": "For fish in a reef: in a shot glass mix ~1/8 tsp Kanaplex, 1-2 scoops Seachem Focus (binder, protects corals/inverts), 1 Tbsp pellets or frozen food and a few drops of saltwater or vitamins. Soak 30 min, feed 1-2 times daily (no more than 2). Refrigerate or freeze leftovers.",
+        "hu": "Zátonyakváriumban lévő halnál: egy kupicában keverj össze kb. 1/8 teáskanál Kanaplexet, 1-2 adag Seachem Focust (kötőanyag, védi a korallokat/gerincteleneket), 1 evőkanál granulátumot vagy fagyasztott eleséget és néhány csepp sós vizet vagy vitamint. 30 percig áztasd, naponta 1-2 alkalommal etesd (legfeljebb 2). A maradékot hűtsd vagy fagyaszd le."
+      }
+    },
+    {
+      "treatment_id": "antibiotics",
+      "name": {
+        "en": "Broad-spectrum antibiotics in QT",
+        "hu": "Széles spektrumú antibiotikum QT-ben"
+      },
+      "priority": "first-line",
+      "details": {
+        "en": "Move the fish to QT and dose antibiotics if it looks really bad or is a newly acquired fish showing infection. When both Gram-positive and Gram-negative bacteria are present, kanamycin combined with nitrofurazone is suggested.",
+        "hu": "Ha a hal nagyon rossz állapotban van, vagy újonnan beszerzett és fertőzés jeleit mutatja, tedd QT-be és adagolj antibiotikumot. Ha Gram-pozitív és Gram-negatív baktérium is jelen van, kanamicin és nitrofurazon kombinációja javasolt."
+      }
+    },
+    {
+      "treatment_id": "antibiotics",
+      "name": {
+        "en": "Ciprofloxacin bath",
+        "hu": "Ciprofloxacin fürdő"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "1-2 hour bath at 250 mg per gallon, repeated every 24 hours for 7 days. Methylene Blue can be added to increase efficacy. (Enrofloxacin is similar but only known dosing is 10-20 mg/gal daily.)",
+        "hu": "1-2 órás fürdő, 250 mg/gallon adaggal, 24 óránként ismételve 7 napig. Metilénkék hozzáadása növeli a hatékonyságot. (Az enrofloxacin hasonló, de csak napi 10-20 mg/gallon adagolás ismert.)"
+      }
+    },
+    {
+      "treatment_id": "nitrofurazone",
+      "name": {
+        "en": "Nitrofuracin Green Powder bath",
+        "hu": "Nitrofuracin Green Powder fürdő"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "100 mg per gallon for a 30 minute bath.",
+        "hu": "100 mg/gallon, 30 perces fürdő."
+      }
+    },
+    {
+      "treatment_id": "acriflavine",
+      "name": {
+        "en": "Ruby Reef Rally bath",
+        "hu": "Ruby Reef Rally fürdő"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "90 minute bath.",
+        "hu": "90 perces fürdő."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {
+        "en": "Methylene Blue bath",
+        "hu": "Metilénkék fürdő"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "30 minute bath.",
+        "hu": "30 perces fürdő."
+      }
+    },
+    {
+      "treatment_id": "antibiotics",
+      "name": {
+        "en": "Single antibiotic bath at double dose",
+        "hu": "Egyetlen antibiotikum fürdő dupla adaggal"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "Almost any single antibiotic can be used as a 30-35 minute bath at double dosage.",
+        "hu": "Szinte bármely antibiotikum használható 30-35 perces fürdőként, dupla adagban."
+      }
+    }
   ],
   "prevention": {
-    "en": ["Quarantine and prophylactically treat all new fish so parasites never reach the display", "Maintain clean water and a stress-free, properly sized tank", "Separate quarreling fish early", "Provide proper nutrition with vitamins, probiotics and Beta-glucan", "UV sterilizer or ozone may reduce bacteria in the water column", "Keep nitrates around 10-20 ppm, good gas exchange and low organics"],
-    "hu": ["Minden új halat karanténozz és kezelj megelőzően, hogy a paraziták ne jussanak a fő akváriumba", "Tiszta víz, stresszmentes és megfelelő méretű akvárium", "A veszekedő halakat időben válaszd szét", "Megfelelő táplálás vitaminokkal, probiotikumokkal és béta-glükánnal", "UV-sterilizátor vagy ózon csökkentheti a vízben lévő baktériumok számát", "Nitrát kb. 10-20 ppm, jó gázcsere és alacsony szervesanyag-terhelés"]
+    "en": [
+      "Quarantine and prophylactically treat all new fish so parasites never reach the display",
+      "Maintain clean water and a stress-free, properly sized tank",
+      "Separate quarreling fish early",
+      "Provide proper nutrition with vitamins, probiotics and Beta-glucan",
+      "UV sterilizer or ozone may reduce bacteria in the water column",
+      "Keep nitrates around 10-20 ppm, good gas exchange and low organics"
+    ],
+    "hu": [
+      "Minden új halat karanténozz és kezelj megelőzően, hogy a paraziták ne jussanak a fő akváriumba",
+      "Tiszta víz, stresszmentes és megfelelő méretű akvárium",
+      "A veszekedő halakat időben válaszd szét",
+      "Megfelelő táplálás vitaminokkal, probiotikumokkal és béta-glükánnal",
+      "UV-sterilizátor vagy ózon csökkentheti a vízben lévő baktériumok számát",
+      "Nitrát kb. 10-20 ppm, jó gázcsere és alacsony szervesanyag-terhelés"
+    ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/20180602_174016-2-jpeg.98772/", "caption": {"en": "Fish with a bacterial infection", "hu": "Bakteriális fertőzéses hal"}},
-    {"url": "https://humble.fish/community/attachments/3236270effa96e727e53067af365a4e5-1024x767-jpeg.98779/", "caption": {"en": "Fish with a bacterial infection", "hu": "Bakteriális fertőzéses hal"}},
-    {"url": "https://humble.fish/community/attachments/0dc75fba-f8e0-4978-a3d1-73472cbf707a-jpeg.98775/", "caption": {"en": "Fish with a bacterial infection", "hu": "Bakteriális fertőzéses hal"}},
-    {"url": "https://humble.fish/community/attachments/eye-bacterial-3-jpeg.98776/", "caption": {"en": "Bacterial eye infection", "hu": "Bakteriális szemfertőzés"}},
-    {"url": "https://humble.fish/community/attachments/fin_rot_1_-jpeg.98777/", "caption": {"en": "Fin rot", "hu": "Úszórothadás"}},
-    {"url": "https://humble.fish/community/attachments/20328e80_vbattach160250-jpeg.98778/", "caption": {"en": "Fish with a bacterial infection", "hu": "Bakteriális fertőzéses hal"}}
+    {
+      "url": "https://humble.fish/community/attachments/20180602_174016-2-jpeg.98772/",
+      "caption": {
+        "en": "Fish with a bacterial infection",
+        "hu": "Bakteriális fertőzéses hal"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/3236270effa96e727e53067af365a4e5-1024x767-jpeg.98779/",
+      "caption": {
+        "en": "Fish with a bacterial infection",
+        "hu": "Bakteriális fertőzéses hal"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/0dc75fba-f8e0-4978-a3d1-73472cbf707a-jpeg.98775/",
+      "caption": {
+        "en": "Fish with a bacterial infection",
+        "hu": "Bakteriális fertőzéses hal"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/eye-bacterial-3-jpeg.98776/",
+      "caption": {
+        "en": "Bacterial eye infection",
+        "hu": "Bakteriális szemfertőzés"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/fin_rot_1_-jpeg.98777/",
+      "caption": {
+        "en": "Fin rot",
+        "hu": "Úszórothadás"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/20328e80_vbattach160250-jpeg.98778/",
+      "caption": {
+        "en": "Fish with a bacterial infection",
+        "hu": "Bakteriális fertőzéses hal"
+      }
+    }
   ],
   "related_links": [
-    {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"},
-    {"title": "Lymphocystis", "url": "https://humble.fish/lymphocystis/"},
-    {"title": "Uronema", "url": "https://humble.fish/uronema/"},
-    {"title": "Vitamins, Probiotics & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"},
-    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
-    {"title": "Disease eradication vs disease management", "url": "https://humble.fish/community/index.php?threads/disease-eradication-vs-disease-management-new.914/"},
-    {"title": "Methylene Blue", "url": "https://humble.fish/methylene-blue/"},
-    {"title": "Gram stain example image", "url": "https://humble.fish/community/attachments/gram_stain_01-jpeg.77640/"},
-    {"title": "Bacterial Diseases of Fish (Merck Vet Manual)", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fishes/bacterial-diseases-of-fish"},
-    {"title": "Use of Antibiotics in Ornamental Fish Aquaculture", "url": "https://edis.ifas.ufl.edu/publication/FA084"}
+    {
+      "title": "Antibiotics",
+      "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"
+    },
+    {
+      "title": "Lymphocystis",
+      "url": "https://humble.fish/lymphocystis/"
+    },
+    {
+      "title": "Uronema",
+      "url": "https://humble.fish/uronema/"
+    },
+    {
+      "title": "Vitamins, Probiotics & Herbal Remedies",
+      "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"
+    },
+    {
+      "title": "Quarantine",
+      "url": "https://humble.fish/community/index.php?threads/quarantine.2/"
+    },
+    {
+      "title": "Disease eradication vs disease management",
+      "url": "https://humble.fish/community/index.php?threads/disease-eradication-vs-disease-management-new.914/"
+    },
+    {
+      "title": "Methylene Blue",
+      "url": "https://humble.fish/methylene-blue/"
+    },
+    {
+      "title": "Gram stain example image",
+      "url": "https://humble.fish/community/attachments/gram_stain_01-jpeg.77640/"
+    },
+    {
+      "title": "Bacterial Diseases of Fish (Merck Vet Manual)",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fishes/bacterial-diseases-of-fish"
+    },
+    {
+      "title": "Use of Antibiotics in Ornamental Fish Aquaculture",
+      "url": "https://edis.ifas.ufl.edu/publication/FA084"
+    }
   ],
   "notes": {
     "en": "Whether an infection is contagious depends on the bacterial species and the condition of tankmates. Medicated food in a reef must use a binder (Seachem Focus, agar or unflavored gelatin). Thread has 5 pages; content taken mainly from the first post and author replies on page 1.",

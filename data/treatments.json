@@ -1,0 +1,1452 @@
+{
+  "treatments": [
+    {
+      "id": "copper",
+      "type": "medication",
+      "name": {"en": "Copper treatment", "hu": "Rezes kezelés"},
+      "aka": ["Copper Power", "Cupramine", "Coppersafe", "Cuprion", "copper sulfate", "chelated copper", "ionic copper"],
+      "source": "https://humble.fish/community/index.php?threads/copper-treatment.17/",
+      "summary": {
+        "en": "Copper is the standard quarantine-tank medication against marine ich and marine velvet. It must be held at a precise therapeutic level, verified with a test kit, for a set number of days in a bare-bottom QT.",
+        "hu": "A réz a standard karantén (QT) gyógyszer a tengeri ich (marine ich) és a tengeri velvet ellen. Pontos terápiás szinten kell tartani, tesztkészlettel ellenőrizve, meghatározott ideig, aljzat nélküli QT-ben."
+      },
+      "treats": ["marine-ich", "marine-velvet"],
+      "dosage": {
+        "en": "Therapeutic levels by product: copper sulfate 0.20 ppm, Cuprion 0.20 ppm, Cupramine 0.5 ppm (Seachem or Salifert test kit); Coppersafe 2.0 ppm, Copper Power 2.2-2.3 ppm (Hanna checker only; later sticky update: 2.5 ppm per manufacturer for copper-resistant parasites, or 2.0 ppm for copper-sensitive species). Test with the Hanna HI702. Chelated copper (Coppersafe/Copper Power) can be added at 2.0 ppm immediately; take about 48 hours to reach 2.2-2.3 ppm Copper Power. Copper sulfate, Cuprion and Cupramine should be ramped up slowly over several days.",
+        "hu": "Terápiás szintek termékenként: rézszulfát 0,20 ppm, Cuprion 0,20 ppm, Cupramine 0,5 ppm (Seachem vagy Salifert teszt); Coppersafe 2,0 ppm, Copper Power 2,2-2,3 ppm (csak Hanna checkerrel mérve; későbbi frissítés: 2,5 ppm a gyártó ajánlása szerint rézrezisztens parazitáknál, illetve 2,0 ppm rézérzékeny fajoknál). Mérés Hanna HI702-vel. Kelátos réz (Coppersafe/Copper Power) azonnal adagolható 2,0 ppm-re; a Copper Power kb. 48 óra alatt emelendő 2,2-2,3 ppm-re. Rézszulfát, Cuprion és Cupramine több nap alatt, lassan emelendő."
+      },
+      "duration": {
+        "en": "Traditional: 30 days at therapeutic level (clock starts only once level is reached; restarts if the level drops out of range). Alternative: 14 days at full therapeutic level, then move only the fish to a copper-free observation tank. Afterwards observe 2-4 weeks.",
+        "hu": "Hagyományos: 30 nap terápiás szinten (az óra csak a szint elérésekor indul; ha a szint kiesik a tartományból, újraindul). Alternatíva: 14 nap teljes terápiás szinten, majd csak a halat kell rézmentes megfigyelő tankba áttenni. Utána 2-4 hét megfigyelés."
+      },
+      "steps": {
+        "en": [
+          "Set up a bare-bottom QT without rock at reef temperature (77-80°F).",
+          "Bring copper to the therapeutic level for the product used and verify with the correct test kit (Hanna HI702 for chelated copper).",
+          "Start the copper clock only when the therapeutic level is reached; test regularly and keep the level in range the entire time.",
+          "Either hold 30 days, or after 14 days transfer only the fish (no water/equipment) to a copper-free observation tank at least 10 feet away; do not lower copper before transfer.",
+          "No ramp-down is needed; remove copper with water changes, Cuprisorb or Polyfilter.",
+          "Observe for 2-4 weeks; sterilize the QT between batches since it may still contain tomonts."
+        ],
+        "hu": [
+          "Állíts be aljzat és kő nélküli QT-t zátony hőmérsékleten (77-80°F / 25-27°C).",
+          "Emeld a rezet a termékre jellemző terápiás szintre, és ellenőrizd a megfelelő teszttel (kelátos réznél Hanna HI702).",
+          "A rézórát csak a terápiás szint elérésekor indítsd; rendszeresen mérj, és végig tartsd a szintet a tartományban.",
+          "Vagy tartsd 30 napig, vagy 14 nap után csak a halat (víz/eszköz nélkül) tedd át legalább 3 méterre lévő rézmentes megfigyelő tankba; átrakás előtt ne csökkentsd a rezet.",
+          "Fokozatos leépítés nem kell; a rezet vízcserével, Cuprisorbbal vagy Polyfilterrel távolítsd el.",
+          "Figyeld meg 2-4 hétig; a QT-t a csoportok között sterilizáld, mert tomontok maradhatnak benne."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Copper is toxic; exceeding the therapeutic level can kill fish.",
+          "Rock and other materials absorb copper and can make levels drop unexpectedly.",
+          "Reduced appetite and lethargy are common; complete loss of appetite suggests a copper-sensitive fish - switch treatment.",
+          "Coppersafe is not recommended due to inconsistent bottles; Copper Power is recommended.",
+          "Copper may only suppress Brooklynella and flukes, not eradicate them.",
+          "Ionic copper (e.g. Cupramine) reacts negatively with ammonia reducers; Prime is reported safe with Copper Power.",
+          "Not reef safe - use only in a QT."
+        ],
+        "hu": [
+          "A réz mérgező; a terápiás szint túllépése halálos lehet.",
+          "A kő és más anyagok megkötik a rezet, ezért a szint váratlanul csökkenhet.",
+          "Az étvágycsökkenés és bágyadtság gyakori; a teljes étvágytalanság rézérzékenységre utal - válts más kezelésre.",
+          "A Coppersafe nem ajánlott a palackok közötti eltérések miatt; a Copper Power ajánlott.",
+          "A réz a Brooklynellát és a flukes-okat legfeljebb visszaszorítja, nem irtja ki.",
+          "Az ionos réz (pl. Cupramine) rosszul reagál az ammónia-semlegesítőkkel; a Prime a Copper Powerrel biztonságosnak mondott.",
+          "Nem zátonybiztos - csak QT-ben használd."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Hanna HI702 Copper HR checker", "url": "https://www.hannainst.com/hi702-copper-hr.html"},
+        {"title": "New info regarding Hanna copper/ammonia checkers", "url": "https://humble.fish/community/index.php?threads/new-info-regarding-hanna-copper-ammonia-checkers.14097/"},
+        {"title": "Explaining the 14 days in copper method", "url": "https://humble.fish/community/index.php?threads/explaining-the-14-days-in-copper-method.7603/"},
+        {"title": "New recommendation for chelated copper", "url": "https://humble.fish/community/index.php?threads/new-recommendation-for-chelated-copper.6796/"},
+        {"title": "Copper Power calculator (FisHotel)", "url": "https://fishotel.com/quarantine-help/"},
+        {"title": "Aerosol transmission", "url": "https://humble.fish/community/index.php?threads/aerosol-transmission.1615/"},
+        {"title": "DIY copper med", "url": "https://humble.fish/community/index.php?threads/diy-copper-med.483/"},
+        {"title": "Use of Copper in Marine Aquaculture and Aquarium Systems (UF/IFAS)", "url": "https://edis.ifas.ufl.edu/pdf/FA/FA16500.pdf"}
+      ]
+    },
+    {
+      "id": "chloroquine-phosphate",
+      "type": "medication",
+      "name": {"en": "Chloroquine phosphate", "hu": "Klorokin-foszfát"},
+      "aka": ["CP", "chloroquine"],
+      "source": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/",
+      "summary": {
+        "en": "A broad antiparasitic used by prolonged immersion in a QT against ich, velvet, Brooklynella and Uronema. Effective but expensive, hard to source, and degraded by biofiltration and carbon.",
+        "hu": "Széles spektrumú parazitaellenes szer, QT-ben tartós fürdetéssel alkalmazzák ich, velvet, Brooklynella és Uronema ellen. Hatékony, de drága, nehezen beszerezhető, és a biológiai szűrés és az aktív szén lebontja/eltávolítja."
+      },
+      "treats": ["marine-ich", "marine-velvet", "brooklynella", "uronema"],
+      "dosage": {
+        "en": "Standard 10 mg/L (40 mg/gal); for Brooklynella and as a buffer against biodegradation 15 mg/L (60 mg/gal); for Uronema only 20 mg/L (80 mg/gal). Protocol #1 (preferred, bare QT without biofilter): 10-15 mg/L, dose replacement water before adding. Protocol #2 (established QT with biofilter): start at 10 mg/L (40 mg/gal) and add 1 mg/L (4 mg/gal) daily. Tablets: 250 mg ≈ 150 mg base, 500 mg ≈ 300 mg base.",
+        "hu": "Standard 10 mg/L (40 mg/gallon); Brooklynella ellen és a biológiai lebomlás ellensúlyozására 15 mg/L (60 mg/gallon); csak Uronema ellen 20 mg/L (80 mg/gallon). 1. protokoll (ajánlott, biofilter nélküli csupasz QT): 10-15 mg/L, a pótvizet hozzáadás előtt kell dózisolni. 2. protokoll (bejáratott QT biofilterrel): induló 10 mg/L (40 mg/gallon), majd naponta +1 mg/L (4 mg/gallon). Tabletta: 250 mg ≈ 150 mg bázis, 500 mg ≈ 300 mg bázis."
+      },
+      "duration": {
+        "en": "10-14 days at 78-80°F; may end at 10 days if side effects appear. Then move to an observation tank at least 10 ft (3 m) away.",
+        "hu": "10-14 nap 78-80°F (25,5-26,5°C) hőmérsékleten; mellékhatás esetén 10 napnál befejezhető. Ezután megfigyelő tankba, legalább 3 m-re."
+      },
+      "steps": {
+        "en": [
+          "Prefer a bare-bottom, rockless QT with no biological filtration at 78-80°F.",
+          "Dose 10-15 mg/L (40-60 mg/gal); verify base content of tablets before dosing.",
+          "Do water changes as needed with replacement water pre-dosed with CP; control ammonia with Prime or Amquel every 24-48 hours and monitor with an ammonia alert badge.",
+          "Run no carbon (and avoid filter pads that remove CP).",
+          "Treat 10-14 days, then transfer only the fish to a clean observation tank at least 10 ft away, reusing nothing from the QT."
+        ],
+        "hu": [
+          "Lehetőleg aljzat és kő nélküli, biológiai szűrés nélküli QT, 78-80°F.",
+          "Adagolj 10-15 mg/L-t (40-60 mg/gallon); tablettánál előbb ellenőrizd a bázistartalmat.",
+          "Szükség szerint cserélj vizet előre CP-vel kezelt pótvízzel; az ammóniát Prime-mal vagy Amquellel kezeld 24-48 óránként, és ammónia-jelzővel figyeld.",
+          "Ne használj aktív szenet (és CP-t megkötő szűrőbetétet sem).",
+          "10-14 napig kezelj, majd csak a halat tedd át tiszta megfigyelő tankba legalább 3 m-re, a QT-ből semmit ne használj újra."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Powder is heat- and light-sensitive; store cool and dark.",
+          "Rapidly removed by carbon and some filter pads.",
+          "Biodegradation makes dosing in an established QT or DT unpredictable.",
+          "Toxicity reported with longer exposure and when moving fish directly from copper to CP or vice versa.",
+          "Sensitive: anthias (lyretails least), hippo tangs, seahorses and pipefish, Coris, Paracheilinus and Pseudocheilinus wrasses.",
+          "20 mg/L causes reduced appetite and lethargy.",
+          "Unlikely to eliminate internal (intracellular) Uronema."
+        ],
+        "hu": [
+          "A por hő- és fényérzékeny; hűvös, sötét helyen tárold.",
+          "Az aktív szén és egyes szűrőbetétek gyorsan eltávolítják.",
+          "A biológiai lebomlás miatt bejáratott QT-ben vagy DT-ben az adagolás kiszámíthatatlan.",
+          "Toxicitásról számoltak be hosszabb kezelésnél, illetve ha a halat közvetlenül rézből CP-be teszik vagy fordítva.",
+          "Érzékeny fajok: anthias (a lyretail a legkevésbé), hippo tang (Paracanthurus hepatus), csikóhalak és tűhalak, Coris, Paracheilinus és Pseudocheilinus ajakoshalak.",
+          "20 mg/L-nél étvágycsökkenés és bágyadtság várható.",
+          "A belső (sejten belüli) Uronemát valószínűleg nem irtja ki."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Biodegradation: are bacteria rendering your quarantine process useless?", "url": "https://humble.fish/community/index.php?threads/biodegradation-are-bacteria-rendering-your-quarantine-process-useless.2210/"},
+        {"title": "Chloroquine sensitivity by species (UltimateReef)", "url": "https://www.ultimatereef.net/threads/chloroquine-phosphate-treatment-which-fish.816416/#post-7675844"},
+        {"title": "Seachem Ammonia Alert", "url": "https://www.seachem.com/ammonia-alert.php"},
+        {"title": "Aerosol transmission", "url": "https://humble.fish/community/index.php?threads/aerosol-transmission.1615/"}
+      ]
+    },
+    {
+      "id": "formalin",
+      "type": "medication",
+      "name": {"en": "Formalin", "hu": "Formalin"},
+      "aka": ["formaldehyde 37%", "Parasite-S"],
+      "source": "https://humble.fish/community/index.php?threads/formalin.19/",
+      "summary": {
+        "en": "Formalin (37% formaldehyde) is used as a short bath or as prolonged in-tank immersion against surface parasites. Repeated baths and/or in-tank treatment can eradicate velvet, Brooklynella, Uronema, flukes and black ich.",
+        "hu": "A formalin (37%-os formaldehid) rövid fürdőként vagy tartós, tankon belüli kezelésként használható a bőrfelszíni paraziták ellen. Ismételt fürdőkkel és/vagy tankon belüli kezeléssel a velvet, Brooklynella, Uronema, flukes és black ich teljesen felszámolható."
+      },
+      "treats": ["marine-velvet", "brooklynella", "uronema", "flukes", "black-ich"],
+      "dosage": {
+        "en": "Bath: premix into saltwater - first post 1 ml/gal (250 ppm); sensitive/very sick fish 0.8 ml/gal (200 ppm) or 0.6 ml/gal (150 ppm); later update sets the standard bath at 0.6 ml/gal (12 drops/gal) for about 45 minutes. Prolonged immersion: 0.9-1 ml per 10 gallons daily in a bare QT (~25 ppm) - 0.9 ml if copper is present, 1 ml without copper; sensitive/very sick fish 0.5 ml per 10 gal (~12.5 ppm). Dosages apply only to marine systems above 70°F (21°C).",
+        "hu": "Fürdő: sós vízbe előre bekeverve - az első poszt szerint 1 ml/gallon (250 ppm); érzékeny/nagyon beteg halnál 0,8 ml/gallon (200 ppm) vagy 0,6 ml/gallon (150 ppm); egy későbbi frissítés a standard fürdőt 0,6 ml/gallon (12 csepp/gallon) dózisban, kb. 45 percben adja meg. Tartós kezelés: naponta 0,9-1 ml / 10 gallon csupasz QT-ben (~25 ppm) - réz jelenlétében 0,9 ml, réz nélkül 1 ml; érzékeny/nagyon beteg halnál 0,5 ml / 10 gallon (~12,5 ppm). A dózisok csak 21°C (70°F) feletti tengeri rendszerekre érvényesek."
+      },
+      "duration": {
+        "en": "Bath 30-60 minutes (standard ~45 min). In-tank: daily for 7-10 days.",
+        "hu": "Fürdő 30-60 perc (standard kb. 45 perc). Tankon belül: naponta 7-10 napig."
+      },
+      "steps": {
+        "en": [
+          "Use a large glass bowl or food-grade plastic bucket with saltwater matching the source tank's temperature, pH and salinity.",
+          "Premix the formalin into the water before adding the fish; never add formalin with the fish already in.",
+          "Aerate vigorously throughout.",
+          "Bath the fish for up to 60 minutes if tolerated (standard ~45 min); shorten to 30 minutes if breathing becomes labored.",
+          "Move the fish to a new, sterile QT afterwards to avoid reinfection."
+        ],
+        "hu": [
+          "Használj nagy üvegtálat vagy élelmiszeripari műanyag vödröt, a forrástank hőmérsékletével, pH-jával és sótartalmával egyező sós vízzel.",
+          "A formalint a hal behelyezése előtt keverd be; soha ne adj formalint a vízhez, amikor a hal már benne van.",
+          "Végig erőteljesen levegőztess.",
+          "Fürdesd a halat legfeljebb 60 percig, ha bírja (standard kb. 45 perc); ha nehezen lélegzik, rövidítsd 30 percre.",
+          "Utána tedd a halat új, steril QT-be, hogy elkerüld az újrafertőződést."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Formaldehyde is a known carcinogen; wear waterproof gloves and a face mask.",
+          "Rapidly lowers dissolved oxygen and is harsh on gills; aeration is critical.",
+          "Do not use on fish with red sores or open wounds.",
+          "Use a product with 37% formaldehyde and 10-15% methanol; shelf life ~6 months after opening; store above 40°F (5°C).",
+          "Anecdotal (unproven) reports of fish dying 18-24 months after exposure.",
+          "Purchase is prohibited in some areas."
+        ],
+        "hu": [
+          "A formaldehid ismert rákkeltő; viselj vízálló kesztyűt és maszkot.",
+          "Gyorsan csökkenti az oldott oxigént és megterheli a kopoltyút; a levegőztetés kritikus.",
+          "Ne használd vörös sebes vagy nyílt sebű halon.",
+          "37% formaldehidet és 10-15% metanolt tartalmazó terméket használj; felbontás után kb. 6 hónapig jó; 5°C (40°F) felett tárold.",
+          "Nem bizonyított, anekdotikus beszámolók szerint egyes halak 18-24 hónappal a kezelés után elpusztulnak.",
+          "Egyes helyeken a beszerzése tiltott."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Parasite-S (Syndel)", "url": "https://www.syndel.com/parasite-s.html"},
+        {"title": "Use of Formalin to Control Fish Parasites (UF/IFAS)", "url": "https://edis.ifas.ufl.edu/publication/VM061"},
+        {"title": "Formalin safety: indoor residential use, PPE and other considerations", "url": "https://humble.fish/community/threads/formalin-safety-indoor-residential-use-ppe-and-other-considerations.21900/"},
+        {"title": "Marine Parasites treatment calendar", "url": "http://www.marineparasites.com/paratreatmentcal.html"}
+      ]
+    },
+    {
+      "id": "praziquantel",
+      "type": "medication",
+      "name": {"en": "Praziquantel", "hu": "Prazikvantel"},
+      "aka": ["PraziPro", "API General Cure", "Fritz Paracleanse", "Sera Tremazol", "Fluke Solve", "prazi"],
+      "source": "https://humble.fish/community/index.php?threads/praziquantel.25/",
+      "summary": {
+        "en": "A dewormer for flukes (monogeneans), black ich (turbellarians) and intestinal worms. It kills worms but not eggs, so a second dose timed with the BeNeZe tool is required.",
+        "hu": "Féregűző szer flukes (monogenea), black ich (turbellaria) és bélférgek ellen. A férgeket megöli, a petéket nem, ezért a BeNeZe eszközzel időzített második adag szükséges."
+      },
+      "treats": ["flukes", "black-ich", "internal-problems"],
+      "dosage": {
+        "en": "Commercial products: follow the label, except time the second dose with the BeNeZe tool (select all three parasite options, set tank temperature in °C). Powder (dissolved with ethyl alcohol or liquid DMSO): QT 2.0-2.5 mg/L for at least 24 hours; 6-hour bath 7.5 mg/L; 3-hour bath 10 mg/L (temperature control, heavy aeration). Food soak (powder, General Cure or Paracleanse, not PraziPro): 1 tbsp food + 1 scoop (~1/8 tsp) medication + 1-2 scoops Seachem Focus + pinch of Epsom salt + a few drops saltwater/vitamins.",
+        "hu": "Kereskedelmi termékek: a címke szerint, kivéve, hogy a második adagot a BeNeZe eszközzel időzítsd (mindhárom parazita-opciót jelöld be, a hőmérsékletet °C-ban add meg). Por (etil-alkohollal vagy folyékony DMSO-val oldva): QT-ben 2,0-2,5 mg/L legalább 24 óráig; 6 órás fürdő 7,5 mg/L; 3 órás fürdő 10 mg/L (hőmérséklet-szabályozással, erős levegőztetéssel). Gyógyszeres eleség (por, General Cure vagy Paracleanse, PraziPro nem): 1 evőkanál eleség + 1 adagolókanál (~1/8 teáskanál) gyógyszer + 1-2 adag Seachem Focus + csipet keserűsó + pár csepp sós víz/vitamin."
+      },
+      "duration": {
+        "en": "Two treatments; second dose per BeNeZe schedule. Food soak: feed daily for 2-3 weeks.",
+        "hu": "Két kezelés; a második a BeNeZe ütemezés szerint. Gyógyszeres eleség: naponta 2-3 hétig."
+      },
+      "steps": {
+        "en": [
+          "Add strong aeration (air stones on high or a wavemaker aimed at the surface) before dosing.",
+          "Dose per product instructions (or powder dose above).",
+          "Optional 25% water change before the second dose.",
+          "Give the second dose at the interval calculated by BeNeZe for your temperature.",
+          "For baths: move the fish to a clean QT after each bath; repeat bath and transfer per BeNeZe.",
+          "To remove, run carbon and do water changes."
+        ],
+        "hu": [
+          "Adagolás előtt biztosíts erős levegőztetést (légkövek maximumon vagy a felszínre irányított áramoltató).",
+          "Adagolj a termék útmutatója szerint (vagy a fenti pordózissal).",
+          "A második adag előtt opcionálisan 25%-os vízcsere.",
+          "A második adagot a BeNeZe által az adott hőmérsékletre számolt időközzel add.",
+          "Fürdőnél: minden fürdő után tiszta QT-be tedd a halat; a fürdőt és az áthelyezést a BeNeZe szerint ismételd.",
+          "Eltávolításhoz használj aktív szenet és cserélj vizet."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Depletes oxygen; increase gas exchange, especially if water clouds.",
+          "Appetite suppression for a day or two.",
+          "Wrasses can be sensitive.",
+          "Praziquantel-resistant worms exist; alternatives: hyposalinity, formalin, fenbendazole.",
+          "In a reef: generally considered reef safe but anemones and SPS may bleach, LPS/softies may retract, snails occasionally affected; skimmer may overskim for about a week."
+        ],
+        "hu": [
+          "Oxigént von el; fokozd a gázcserét, főleg ha a víz bezavarosodik.",
+          "Egy-két napig étvágycsökkenést okozhat.",
+          "Az ajakoshalak (wrasse) érzékenyek lehetnek.",
+          "Léteznek prazikvantel-rezisztens férgek; alternatívák: hyposalinity, formalin, fenbendazol.",
+          "Zátonyban: általában zátonybiztosnak tartják, de az anemonák és SPS korallok kifehéredhetnek, az LPS/lágykorallok behúzódhatnak, csigák néha érintettek; a fehérjefölöző kb. egy hétig túlhabozhat."
+        ]
+      },
+      "reef_safe": true,
+      "images": [],
+      "related_links": [
+        {"title": "BeNeZe tool", "url": "https://beneze.cawthron.org.nz/"},
+        {"title": "PraziPro (Hikari)", "url": "https://www.hikariusa.com/water_quality_folder/prazipro.html"},
+        {"title": "Use DMSO to dissolve medications", "url": "https://humble.fish/community/index.php?threads/use-dmso-to-dissolve-medications.4809/"},
+        {"title": "Fenbendazole", "url": "https://humble.fish/community/index.php?threads/fenbendazole.18/"}
+      ]
+    },
+    {
+      "id": "fenbendazole",
+      "type": "medication",
+      "name": {"en": "Fenbendazole", "hu": "Fenbendazol"},
+      "aka": ["Panacur"],
+      "source": "https://humble.fish/community/index.php?threads/fenbendazole.18/",
+      "summary": {
+        "en": "A dewormer for monogenean flukes and intestinal worms, including those resistant to praziquantel. Used as a bath, in the QT or as a food soak; not reef safe.",
+        "hu": "Féregűző monogenea flukes és bélférgek ellen, a prazikvantel-rezisztenseket is beleértve. Fürdőként, QT-ben vagy gyógyszeres eleségként használják; nem zátonybiztos."
+      },
+      "treats": ["flukes", "internal-problems"],
+      "dosage": {
+        "en": "Fluke bath (per Noga): 25 mg/L (95 mg/gallon) for 12 hours, fully dissolved before adding fish. Intestinal worms in QT: 2 mg/L (7.6 mg/gallon) once a week for 3 weeks. Food soak: 1 tbsp food + 1/16 tsp fenbendazole + 1/8 tsp Seachem Focus (or gelatin/agar) + pinch of Epsom salt + a few drops saltwater/vitamins, soak 30 min.",
+        "hu": "Flukes fürdő (Noga szerint): 25 mg/L (95 mg/gallon) 12 órán át, a halak behelyezése előtt teljesen feloldva. Bélférgek QT-ben: 2 mg/L (7,6 mg/gallon) hetente egyszer, 3 hétig. Gyógyszeres eleség: 1 evőkanál eleség + 1/16 teáskanál fenbendazol + 1/8 teáskanál Seachem Focus (vagy zselatin/agar) + csipet keserűsó + pár csepp sós víz/vitamin, 30 perc áztatás."
+      },
+      "duration": {
+        "en": "Bath: 12 hours, repeated about a week later (time with BeNeZe). Food soak: usually three feedings are enough.",
+        "hu": "Fürdő: 12 óra, kb. egy hét múlva ismételve (BeNeZe-vel időzítve). Gyógyszeres eleség: általában három etetés elég."
+      },
+      "steps": {
+        "en": [
+          "Dissolve fenbendazole fully (DMSO preferred, or ethyl alcohol).",
+          "Bath at 25 mg/L for 12 hours with heavy aeration and temperature control.",
+          "Move the fish to a new QT after the bath to prevent reinfection.",
+          "Repeat bath and transfer about a week later, timed with BeNeZe (all three parasite options, temperature in °C)."
+        ],
+        "hu": [
+          "Oldd fel teljesen a fenbendazolt (DMSO ajánlott, vagy etil-alkohol).",
+          "Fürdess 25 mg/L-ben 12 órán át erős levegőztetéssel és hőmérséklet-szabályozással.",
+          "A fürdő után tedd a halat új QT-be az újrafertőződés elkerülésére.",
+          "Kb. egy hét múlva ismételd a fürdőt és az áthelyezést, BeNeZe szerint időzítve (mindhárom parazita-opció, hőmérséklet °C-ban)."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Not reef safe, even soaked in food.",
+          "Later reports: killed octocorals, bristle worms, hydroids and some leather corals; possible ammonia/nitrite spikes.",
+          "Some fish act off and refuse food for 24-48 hours; wrasses are the main concern."
+        ],
+        "hu": [
+          "Nem zátonybiztos, eleségbe áztatva sem.",
+          "Későbbi beszámolók: elpusztított octokorallokat, sörteférgeket, hidroidokat és néhány bőrkorallt; ammónia/nitrit kiugrás lehetséges.",
+          "Egyes halak 24-48 óráig furcsán viselkednek és nem esznek; főleg az ajakoshalak (wrasse) érzékenyek."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "BeNeZe tool", "url": "https://beneze.cawthron.org.nz/"},
+        {"title": "Seahorse.com fenbendazole FAQ", "url": "https://seahorse.com/faqs/fenbendazole-panacur/"},
+        {"title": "Use DMSO to dissolve medications", "url": "https://humble.fish/community/index.php?threads/use-dmso-to-dissolve-medications.4809/"}
+      ]
+    },
+    {
+      "id": "metroplex",
+      "type": "medication",
+      "name": {"en": "Metronidazole", "hu": "Metronidazol"},
+      "aka": ["Seachem Metroplex", "metro", "API General Cure", "Fritz Paracleanse"],
+      "source": "https://humble.fish/community/index.php?threads/metronidazole.24/",
+      "summary": {
+        "en": "An antiprotozoal used in water or as a food soak against internal flagellates and Brooklynella. Against Uronema it only cleanses water and tank surfaces; infected fish are usually treated with formalin or possibly chloroquine.",
+        "hu": "Protozoon-ellenes szer, vízbe adagolva vagy gyógyszeres eleségként belső ostorosok és Brooklynella ellen. Uronema esetén csak a vizet és a tankfelületeket tisztítja; a fertőzött halat általában formalinnal vagy esetleg klorokinnal kezelik."
+      },
+      "treats": ["internal-problems", "brooklynella", "uronema"],
+      "dosage": {
+        "en": "In water: 25 mg/gal every 48 hours (every 24 hours for severe cases), 25% water change before each dose. Seachem Metroplex alternative (QT protocol): 2 scoops per 10 gallons. Food soak: 1 tbsp food + 1 scoop (~1/8 tsp) medication + 1 scoop Seachem Focus + pinch of Epsom salt + several drops saltwater/vitamins (weight-based: 0.50% of food weight).",
+        "hu": "Vízben: 25 mg/gallon 48 óránként (súlyos esetben 24 óránként), minden adag előtt 25%-os vízcsere. Seachem Metroplex alternatíva (QT protokoll): 2 adagolókanál / 10 gallon. Gyógyszeres eleség: 1 evőkanál eleség + 1 adagolókanál (~1/8 teáskanál) gyógyszer + 1 adag Seachem Focus + csipet keserűsó + pár csepp sós víz/vitamin (tömeg alapján: az eleség tömegének 0,50%-a)."
+      },
+      "duration": {
+        "en": "In water 10-14 days. Food soak daily for 2-4 weeks or until symptoms clear.",
+        "hu": "Vízben 10-14 nap. Gyógyszeres eleség naponta 2-4 hétig vagy a tünetek megszűnéséig."
+      },
+      "steps": {
+        "en": [
+          "Mix food, medication, Focus (or agar/unflavored gelatin), Epsom salt and a few drops of saltwater/vitamins into a slurry.",
+          "Soak 30 minutes, then feed; refrigerate or freeze leftovers.",
+          "Feed daily for 2-4 weeks; run carbon in a display to catch leached medication.",
+          "For water dosing (QT/FOWLR only): water change 25%, dose 25 mg/gal, repeat every 48 h (24 h if severe) for 10-14 days; large water change at the end."
+        ],
+        "hu": [
+          "Keverd pépesre az eleséget, a gyógyszert, a Focust (vagy agart/ízesítetlen zselatint), a keserűsót és pár csepp sós vizet/vitamint.",
+          "Áztasd 30 percig, majd etesd; a maradékot hűtsd vagy fagyaszd.",
+          "Etesd naponta 2-4 hétig; display tankban használj aktív szenet a kioldódó gyógyszer ellen.",
+          "Vízbe adagolásnál (csak QT/FOWLR): 25% vízcsere, 25 mg/gallon, ismétlés 48 óránként (súlyosnál 24) 10-14 napig; a végén nagy vízcsere."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Water dosing is not reef safe (QT or FOWLR only); food soaking is considered an acceptable risk.",
+          "Rarely, fish react negatively.",
+          "Store powder in the freezer; heat and light degrade it; breaks down in water in about 24-48 hours.",
+          "Once red sores from Uronema appear, the fish is generally considered untreatable."
+        ],
+        "hu": [
+          "A vízbe adagolás nem zátonybiztos (csak QT vagy FOWLR); a gyógyszeres eleség elfogadható kockázatnak számít.",
+          "Ritkán a halak rosszul reagálnak rá.",
+          "A port fagyasztóban tárold; a hő és fény lebontja; vízben kb. 24-48 óra alatt lebomlik.",
+          "Ha az Uronema okozta vörös sebek megjelentek, a hal általában gyógyíthatatlannak számít."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Seachem Metroplex", "url": "https://www.seachem.com/metroplex.php"},
+        {"title": "Seachem Focus", "url": "https://www.seachem.com/focus.php"},
+        {"title": "Medicated feed (Hikari)", "url": "https://www.hikariusa.com/articles/medicatedfeed.html"},
+        {"title": "Use of Antibiotics in Ornamental Fish Aquaculture (UF/IFAS FA084)", "url": "https://edis.ifas.ufl.edu/publication/FA084"}
+      ]
+    },
+    {
+      "id": "antibiotics",
+      "type": "medication",
+      "name": {"en": "Antibiotics (overview)", "hu": "Antibiotikumok (áttekintés)"},
+      "aka": ["ciprofloxacin", "enrofloxacin", "Nitrofuracin Green Powder", "Sulfa TMP", "Kanaplex", "Metroplex", "Neoplex", "Sulfaplex", "Maracyn", "Maracyn 2"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Antibiotics only control bacterial population growth so the fish's immune system can clear the infection, which is often secondary to parasites. Use a broad-spectrum (gram+ and gram-) drug, preferably pharmaceutical grade, for 7-14 consecutive days.",
+        "hu": "Az antibiotikumok csak a baktériumok szaporodását fékezik, hogy a hal immunrendszere leküzdhesse a fertőzést, amely gyakran paraziták után másodlagos. Széles spektrumú (gram+ és gram-) szert használj, lehetőleg gyógyszerészeti minőségűt, 7-14 egymást követő napig."
+      },
+      "treats": ["bacterial-infections", "eye-problems", "internal-problems"],
+      "dosage": {
+        "en": "In order of preference: 1) Ciprofloxacin: 250 mg/gal, 1-2 hour bath every 24 h for 7 days (methylene blue may be added). 2) Enrofloxacin: 2.5-5 mg/L daily for 7 days in QT or as a 5-hour bath. 3) Nitrofuracin Green Powder: 100 mg/gal, 30-minute bath. 4) Sulfa TMP: 1/4 tsp per 10 gal every 24 h, 25% water change before each dose. 5) Kanamycin + nitrofurazone + metronidazole (Kanaplex + Metroplex). 6) Neomycin (Neoplex), sulfathiazole (Sulfaplex). 7) Erythromycin (Maracyn) for eye infections, optionally with minocycline (Maracyn 2) or Kanaplex. Most QT antibiotics (kanamycin, nitrofurazone, sulfathiazole, neomycin) can be double-dosed in a 30-35 minute bath. Injection: enrofloxacin 6.14-9.69 mg/kg; most other antibiotics 4-10 mg/kg; dexamethasone 1-2 mg/kg.",
+        "hu": "Preferencia-sorrendben: 1) Ciprofloxacin: 250 mg/gallon, 1-2 órás fürdő 24 óránként 7 napig (metilénkék hozzáadható). 2) Enrofloxacin: 2,5-5 mg/L naponta 7 napig QT-ben vagy 5 órás fürdőként. 3) Nitrofuracin Green Powder: 100 mg/gallon, 30 perces fürdő. 4) Sulfa TMP: 1/4 teáskanál / 10 gallon 24 óránként, minden adag előtt 25% vízcsere. 5) Kanamicin + nitrofurazon + metronidazol (Kanaplex + Metroplex). 6) Neomicin (Neoplex), szulfatiazol (Sulfaplex). 7) Eritromicin (Maracyn) szemfertőzésre, opcionálisan minociklinnel (Maracyn 2) vagy Kanaplexszel. A legtöbb QT antibiotikum (kanamicin, nitrofurazon, szulfatiazol, neomicin) dupla dózisban 30-35 perces fürdőként is adható. Injekció: enrofloxacin 6,14-9,69 mg/kg; a legtöbb más antibiotikum 4-10 mg/kg; dexametazon 1-2 mg/kg."
+      },
+      "duration": {
+        "en": "7-14 consecutive days, even if the fish improves early. Food soak daily for 10-14 days.",
+        "hu": "7-14 egymást követő nap, akkor is, ha a hal korábban javul. Gyógyszeres eleség naponta 10-14 napig."
+      },
+      "steps": {
+        "en": [
+          "Choose a broad-spectrum antibiotic and weigh doses on a digital scale.",
+          "For baths: aerate the bath water at least 30 minutes beforehand and keep aeration and temperature steady.",
+          "For internal infections, food soak: 1 tbsp food + 1 scoop (~1/8 tsp) medication + 1-2 scoops Seachem Focus + a few drops saltwater/vitamins; soak 30 min, feed daily 10-14 days (neomycin, kanamycin, metronidazole work well).",
+          "Treat for the full 7-14 days."
+        ],
+        "hu": [
+          "Válassz széles spektrumú antibiotikumot, és digitális mérlegen mérd ki az adagot.",
+          "Fürdőnél: a fürdővizet legalább 30 percig levegőztesd előtte, és tartsd stabilan a levegőztetést és a hőmérsékletet.",
+          "Belső fertőzésnél gyógyszeres eleség: 1 evőkanál eleség + 1 adagolókanál (~1/8 teáskanál) gyógyszer + 1-2 adag Seachem Focus + pár csepp sós víz/vitamin; 30 perc áztatás, naponta 10-14 napig (neomicin, kanamicin, metronidazol jól bevált).",
+          "Kezelj végig, 7-14 napig."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Combining antibiotics is controversial: strains liver and kidneys, increases side effects and lowers oxygen; only mix for severe infections and increase gas exchange.",
+          "Copper and chloroquine can reduce antibiotic effectiveness.",
+          "Drawbacks: appetite suppression, oxygen depletion, harsh on some fish, slow action.",
+          "Antibiotics can harm the biofilter (nitrifying bacteria); Nitrofuracin Green's methylene blue can kill it.",
+          "Dosages are from a hobbyist forum; confirm against labels or a fish veterinarian."
+        ],
+        "hu": [
+          "Az antibiotikumok kombinálása vitatott: megterheli a májat és vesét, fokozza a mellékhatásokat és csökkenti az oxigént; csak súlyos fertőzésnél keverd, és fokozd a gázcserét.",
+          "A réz és a klorokin csökkentheti az antibiotikumok hatását.",
+          "Hátrányok: étvágycsökkenés, oxigénhiány, egyes halakra megterhelő, lassú hatás.",
+          "Az antibiotikumok károsíthatják a biofiltert (nitrifikáló baktériumok); a Nitrofuracin Green metilénkékje elpusztíthatja.",
+          "A dózisok hobbifórumról származnak; ellenőrizd a címkén vagy halorvossal."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Use of Antibiotics in Ornamental Fish Aquaculture (UF/IFAS FA084)", "url": "https://edis.ifas.ufl.edu/publication/FA084"},
+        {"title": "Medication dosing guide", "url": "https://humble.fish/community/threads/medication-dosing-guide.1124/"},
+        {"title": "Bacterial infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
+        {"title": "Aquarium Medications Part 2", "url": "https://www.americanaquariumproducts.com/AquariumMedication2.html"}
+      ]
+    },
+    {
+      "id": "kanaplex",
+      "type": "medication",
+      "name": {"en": "Kanamycin (Kanaplex)", "hu": "Kanamicin (Kanaplex)"},
+      "aka": ["Seachem Kanaplex", "kanamycin sulfate"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Kanamycin is a broad-spectrum antibiotic that works best combined with nitrofurazone and metronidazole (aquarium alternative: Seachem Kanaplex + Metroplex). It can be used in a QT with a working biofilter and works as a food soak for internal infections.",
+        "hu": "A kanamicin széles spektrumú antibiotikum, amely nitrofurazonnal és metronidazollal kombinálva hat a legjobban (akvarisztikai alternatíva: Seachem Kanaplex + Metroplex). Működő biofilteres QT-ben is használható, és belső fertőzésre gyógyszeres eleségként is bevált."
+      },
+      "treats": ["bacterial-infections", "eye-problems", "internal-problems"],
+      "dosage": {
+        "en": "No specific dose given in the thread; follow product instructions. Dose at the same time as nitrofurazone. Can be double-dosed in a 30-35 minute bath. Food soak: 1 tbsp food + 1 scoop (~1/8 tsp) medication + 1-2 scoops Seachem Focus.",
+        "hu": "A fórum nem ad konkrét dózist; a termék útmutatója szerint. A nitrofurazonnal egy időben adagold. Dupla dózisban 30-35 perces fürdőként is adható. Gyógyszeres eleség: 1 evőkanál eleség + 1 adagolókanál (~1/8 teáskanál) gyógyszer + 1-2 adag Seachem Focus."
+      },
+      "duration": {"en": "7-14 consecutive days.", "hu": "7-14 egymást követő nap."},
+      "steps": {"en": [], "hu": []},
+      "warnings": {
+        "en": ["Combining antibiotics strains the fish's organs and lowers oxygen; increase gas exchange.", "Suitable substitute for minocycline alongside erythromycin for eye infections."],
+        "hu": ["Az antibiotikumok kombinálása megterheli a hal szerveit és csökkenti az oxigént; fokozd a gázcserét.", "Szemfertőzésnél az eritromicin mellett a minociklin megfelelő helyettesítője."]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Seachem Kanaplex", "url": "https://www.seachem.com/kanaplex.php"},
+        {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"}
+      ]
+    },
+    {
+      "id": "nitrofurazone",
+      "type": "medication",
+      "name": {"en": "Nitrofurazone", "hu": "Nitrofurazon"},
+      "aka": ["Nitrofuracin Green Powder (with methylene blue)", "NFG"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Nitrofurazone is an antibiotic used together with kanamycin (dosed at the same time) and metronidazole for bacterial infections. Nitrofuracin Green Powder combines it with methylene blue and is used as a bath.",
+        "hu": "A nitrofurazon antibiotikum, amelyet kanamicinnel (egy időben adagolva) és metronidazollal együtt használnak bakteriális fertőzésekre. A Nitrofuracin Green Powder metilénkékkel kombinálja, és fürdőként alkalmazzák."
+      },
+      "treats": ["bacterial-infections"],
+      "dosage": {
+        "en": "Nitrofuracin Green Powder: 100 mg/gal, 30-minute bath. Plain nitrofurazone: no specific dose in the thread; can be double-dosed in a 30-35 minute bath.",
+        "hu": "Nitrofuracin Green Powder: 100 mg/gallon, 30 perces fürdő. Önálló nitrofurazon: a fórum nem ad konkrét dózist; dupla dózisban 30-35 perces fürdőként adható."
+      },
+      "duration": {"en": "7-14 consecutive days.", "hu": "7-14 egymást követő nap."},
+      "steps": {"en": [], "hu": []},
+      "warnings": {
+        "en": ["Nitrofuracin Green is best used in a QT without a working biofilter - its methylene blue can kill nitrifying bacteria."],
+        "hu": ["A Nitrofuracin Green biofilter nélküli QT-ben ajánlott - a benne lévő metilénkék elpusztíthatja a nitrifikáló baktériumokat."]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Nitrofuracin Green (FisHotel)", "url": "https://fishotel.com/product/nitrofuracin-green/"},
+        {"title": "Nitrofuracin Green (Everything Aquatic)", "url": "https://everythingaquatic.net/product/nitrofuracin-green/"}
+      ]
+    },
+    {
+      "id": "erythromycin",
+      "type": "medication",
+      "name": {"en": "Erythromycin (Maracyn)", "hu": "Eritromicin (Maracyn)"},
+      "aka": ["Maracyn"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Described as the best antibiotic choice for eye infections. Its spectrum can be widened with minocycline (Maracyn 2) or Kanaplex.",
+        "hu": "A fórum szerint a legjobb antibiotikum szemfertőzésekre. A spektruma minociklinnel (Maracyn 2) vagy Kanaplexszel bővíthető."
+      },
+      "treats": ["eye-problems", "bacterial-infections"],
+      "dosage": {"en": null, "hu": null},
+      "duration": {"en": "7-14 consecutive days.", "hu": "7-14 egymást követő nap."},
+      "steps": {"en": [], "hu": []},
+      "warnings": {"en": [], "hu": []},
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Erythromycin (Everything Aquatic)", "url": "https://everythingaquatic.net/product/erythromycin/"}
+      ]
+    },
+    {
+      "id": "minocycline",
+      "type": "medication",
+      "name": {"en": "Minocycline (Maracyn 2)", "hu": "Minociklin (Maracyn 2)"},
+      "aka": ["Maracyn 2"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Used alongside erythromycin to widen the antibacterial spectrum, e.g. for eye infections. Kanamycin (Kanaplex) is a suitable substitute.",
+        "hu": "Az eritromicin mellett az antibakteriális spektrum szélesítésére használják, pl. szemfertőzésnél. A kanamicin (Kanaplex) megfelelő helyettesítő."
+      },
+      "treats": ["eye-problems", "bacterial-infections"],
+      "dosage": {"en": null, "hu": null},
+      "duration": {"en": "7-14 consecutive days.", "hu": "7-14 egymást követő nap."},
+      "steps": {"en": [], "hu": []},
+      "warnings": {"en": [], "hu": []},
+      "reef_safe": false,
+      "images": [],
+      "related_links": []
+    },
+    {
+      "id": "acriflavine",
+      "type": "medication",
+      "name": {"en": "Acriflavine (Ruby Reef Rally)", "hu": "Akriflavin (Ruby Reef Rally)"},
+      "aka": ["Ruby Reef Rally Pro", "NT Labs Marine Anti-Bacterial"],
+      "source": "https://humble.fish/community/index.php?threads/acriflavine.14/",
+      "summary": {
+        "en": "An antiseptic bath for mild bacterial infections and open wounds that also gives temporary relief from velvet and Brooklynella; experimental against Uronema. Rally Pro also contains aminoacridine and a little formalin.",
+        "hu": "Antiszeptikus fürdő enyhe bakteriális fertőzésekre és nyílt sebekre, amely átmeneti enyhülést ad velvet és Brooklynella esetén is; Uronema ellen kísérleti. A Rally Pro aminoakridint és kevés formalint is tartalmaz."
+      },
+      "treats": ["bacterial-infections", "marine-velvet", "brooklynella", "uronema"],
+      "dosage": {
+        "en": "Bath: 3 ml per gallon of saltwater for 90 minutes with heater and heavy aeration. Experimental in-tank (Uronema): 3 ml/gal every 24 hours for at least 5 days in the QT, alongside Copper Power at 2.2-2.3 ppm for 30 days.",
+        "hu": "Fürdő: 3 ml / gallon sós víz 90 percig, fűtővel és erős levegőztetéssel. Kísérleti tankon belüli (Uronema): 3 ml/gallon 24 óránként legalább 5 napig QT-ben, közben Copper Power 2,2-2,3 ppm 30 napig."
+      },
+      "duration": {
+        "en": "Bacterial infections: bath every 24 hours for at least 7 days (some need 14-21). Suspected Uronema (red sores): daily bath for 14 days.",
+        "hu": "Bakteriális fertőzés: fürdő 24 óránként legalább 7 napig (néha 14-21). Gyanított Uronema (vörös sebek): napi fürdő 14 napig."
+      },
+      "steps": {
+        "en": [
+          "Prepare fresh saltwater with fresh medication at 3 ml/gal, heated and heavily aerated.",
+          "Bath the fish 90 minutes.",
+          "Move the fish to a QT after each bath (a new QT each time is ideal).",
+          "For velvet/Brooklynella follow with a prolonged immersion treatment in QT."
+        ],
+        "hu": [
+          "Készíts friss sós vizet friss gyógyszerrel 3 ml/gallon dózisban, fűtve és erősen levegőztetve.",
+          "Fürdesd a halat 90 percig.",
+          "Minden fürdő után tedd QT-be (ideális, ha mindig új QT-be).",
+          "Velvet/Brooklynella esetén folytasd tartós QT-kezeléssel."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Antiseptic for mild infections only.",
+          "Can foul water with prolonged use; do a large water change and run carbon afterwards.",
+          "At 3 ml/gal it can harm biological filtration; watch ammonia.",
+          "Full range of effects and side effects not completely understood."
+        ],
+        "hu": [
+          "Csak enyhe fertőzésekre való antiszeptikum.",
+          "Hosszabb használatnál ronthatja a vízminőséget; utána nagy vízcsere és aktív szén.",
+          "3 ml/gallon dózisnál károsíthatja a biológiai szűrést; figyeld az ammóniát.",
+          "A hatások és mellékhatások teljes köre nem ismert."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Ruby Reef Rally Pro", "url": "https://rubyreef.com/products/rally-pro"},
+        {"title": "NT Labs Marine Anti-Bacterial", "url": "https://www.nt-labs.com/browse-products/indoor/marine/anti-bacterial"}
+      ]
+    },
+    {
+      "id": "methylene-blue",
+      "type": "medication",
+      "name": {"en": "Methylene blue", "hu": "Metilénkék"},
+      "aka": ["MB", "Nitrofuracin Green Powder (contains MB)"],
+      "source": "https://humble.fish/community/index.php?threads/methylene-blue.23/",
+      "summary": {
+        "en": "Considered one of the best 'first response' treatments for a sick fish: treats ammonia burn, abrasions, cuts and open wounds, with mild antiparasitic, antibacterial and antifungal effects, and may detoxify cyanide. Use in a simple QT or as a bath.",
+        "hu": "A beteg hal egyik legjobb 'elsősegély' kezelése: ammóniaégést, horzsolásokat, vágásokat és nyílt sebeket kezel, enyhe parazita-, baktérium- és gombaellenes hatással, és esetleg méregteleníti a cianidot. Egyszerű QT-ben vagy fürdőként használd."
+      },
+      "treats": ["bacterial-infections"],
+      "dosage": {
+        "en": "2.303% solution. 30-minute bath (6 ppm): 1 ml per gallon or 1 teaspoon per 5 gallons. QT (3 ppm): 0.5 ml per gallon or 1 teaspoon per 10 gallons every 48 hours, water change before each dose. In a freshwater dip optionally 0.5 ml per gallon.",
+        "hu": "2,303%-os oldat. 30 perces fürdő (6 ppm): 1 ml/gallon vagy 1 teáskanál / 5 gallon. QT (3 ppm): 0,5 ml/gallon vagy 1 teáskanál / 10 gallon 48 óránként, minden adag előtt vízcsere. Édesvizes merítésnél opcionálisan 0,5 ml/gallon."
+      },
+      "duration": {
+        "en": "Bath 30 minutes; QT treatment for 10 days.",
+        "hu": "Fürdő 30 perc; QT-kezelés 10 napig."
+      },
+      "steps": {
+        "en": ["Aerate heavily during treatment.", "Wear rubber gloves when handling."],
+        "hu": ["A kezelés alatt erősen levegőztess.", "Kezeléskor viselj gumikesztyűt."]
+      },
+      "warnings": {
+        "en": [
+          "Can destroy nitrifying bacteria (biofilter); use in a simple QT or as a dip/bath.",
+          "Stains plastic, silicone, clothing and skin."
+        ],
+        "hu": [
+          "Elpusztíthatja a nitrifikáló baktériumokat (biofilter); egyszerű QT-ben vagy fürdőként használd.",
+          "Megfesti a műanyagot, szilikont, ruhát és bőrt."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Methylene blue info (American Aquarium Products)", "url": "http://www.americanaquariumproducts.com/AquariumMedication3.html#methylene_blue"},
+        {"title": "Nitrofuracin Green (FisHotel)", "url": "https://fishotel.com/product/nitrofuracin-green/"}
+      ]
+    },
+    {
+      "id": "hydrogen-peroxide-bath",
+      "type": "procedure",
+      "name": {"en": "Hydrogen peroxide (H2O2) bath", "hu": "Hidrogén-peroxidos (H2O2) fürdő"},
+      "aka": ["H2O2 bath", "peroxide dip"],
+      "source": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/",
+      "summary": {
+        "en": "A 30-minute bath in 3% hydrogen peroxide diluted to about 150 ppm that gives temporary relief from velvet and Brooklynella. It is used as a pre-QT bath and as the chemical step in Hybrid TTM; follow up with QT treatment.",
+        "hu": "30 perces fürdő kb. 150 ppm-re hígított 3%-os hidrogén-peroxidban, amely átmeneti enyhülést ad velvet és Brooklynella esetén. QT előtti fürdőként és a Hybrid TTM vegyszeres lépéseként használják; utána QT-kezelés szükséges."
+      },
+      "treats": ["marine-velvet", "brooklynella", "flukes", "uronema"],
+      "dosage": {
+        "en": "Target 150 ppm using 3% USP H2O2: 1.25 ml per 1 cup saltwater, or 5 ml per liter, or 20 ml per gallon. Test strips can verify at least 100 ppm. (Hybrid TTM notes 75 ppm cited for flukes.)",
+        "hu": "Cél 150 ppm, 3%-os USP H2O2-vel: 1,25 ml / 1 csésze sós víz, vagy 5 ml / liter, vagy 20 ml / gallon. Tesztcsíkkal legalább 100 ppm ellenőrizhető. (A Hybrid TTM szerint flukes ellen 75 ppm-et említenek.)"
+      },
+      "duration": {"en": "30 minutes.", "hu": "30 perc."},
+      "steps": {
+        "en": [
+          "Prepare saltwater matching source temperature and salinity (pH matching optional if both above 7.5); aerate heavily at least 1 hour, or use unmedicated DT/QT water.",
+          "Measure the saltwater into a large glass bowl (or food-grade bucket) and record the exact volume; ensure room to swim.",
+          "Add 3% H2O2 with a syringe at the dosage above; stir with a plastic spoon or airstone.",
+          "Add the fish (heater optional); watch closely and remove if distressed.",
+          "After 30 minutes move the fish to a QT for further treatment."
+        ],
+        "hu": [
+          "Készíts a forrásvízzel egyező hőmérsékletű és sótartalmú sós vizet (pH egyeztetés opcionális, ha mindkettő 7,5 felett van); legalább 1 órán át erősen levegőztesd, vagy használj gyógyszermentes DT/QT vizet.",
+          "Mérd ki a sós vizet nagy üvegtálba (vagy élelmiszeripari vödörbe), és jegyezd fel a pontos mennyiséget; legyen helye úszni a halnak.",
+          "Fecskendővel add hozzá a 3%-os H2O2-t a fenti dózisban; keverd műanyag kanállal vagy légkővel.",
+          "Tedd be a halat (fűtő opcionális); figyeld szorosan, és vedd ki, ha stresszes.",
+          "30 perc után tedd a halat QT-be további kezelésre."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Do not use on fish with red sores, wounds or obvious infections; can slow healing and worsen scarring.",
+          "Glass preferred over cheap plastic, which may react with peroxide.",
+          "Check the fish-peroxide compatibility list first."
+        ],
+        "hu": [
+          "Ne használd vörös sebes, sebesült vagy láthatóan fertőzött halon; lassíthatja a gyógyulást és ronthatja a hegesedést.",
+          "Üveg ajánlott olcsó műanyag helyett, amely reagálhat a peroxiddal.",
+          "Előbb nézd meg a hal-peroxid kompatibilitási listát."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Fish + peroxide compatibility list", "url": "https://humble.fish/community/index.php?threads/fish-peroxide-compatibility-list.1789/"},
+        {"title": "Black molly quarantine", "url": "https://humble.fish/community/index.php?threads/black-molly-quarantine.55/"},
+        {"title": "UF/IFAS hydrogen peroxide guide (FA157)", "url": "http://edis.ifas.ufl.edu/fa157"}
+      ]
+    },
+    {
+      "id": "h2o2-reef-dosing",
+      "type": "method",
+      "name": {"en": "In-tank peroxide (H2O2) dosing in a reef tank", "hu": "Peroxid (H2O2) adagolás zátonymedencében"},
+      "aka": ["peroxide dosing", "H2O2 DT dosing"],
+      "source": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/",
+      "summary": {
+        "en": "An experimental, use-at-your-own-risk schedule of frequent 3% H2O2 doses into the display tank to target free-swimming parasite stages (ich/velvet type) during an outbreak. Not a substitute for quarantine.",
+        "hu": "Kísérleti, saját felelősségre alkalmazható módszer: gyakori 3%-os H2O2 adagolás a display tankba a szabadon úszó parazitastádiumok (ich/velvet típus) ellen kitöréskor. Nem helyettesíti a karantént."
+      },
+      "treats": ["marine-ich", "marine-velvet"],
+      "dosage": {
+        "en": "3% H2O2: Week 1: 1 ml per 8 gallons 3x/day; Week 2: 1 ml per 5 gallons 3x/day; Week 3+: 1 ml per 5 gallons 3x/day plus overnight dosing (double one daytime dose, split over 6 hours at 15-minute intervals = 24 doses). Times: 9 am, 3 pm, 9 pm and 12-6 am. Example 100 gal: 12.5 ml, then 20 ml, then 20 ml 3x/day + 40 ml over 6 h (24 x ~1.7 ml).",
+        "hu": "3% H2O2: 1. hét: 1 ml / 8 gallon naponta 3x; 2. hét: 1 ml / 5 gallon naponta 3x; 3. héttől: 1 ml / 5 gallon naponta 3x plusz éjszakai adagolás (egy nappali adag duplája 6 órára elosztva, 15 perces közökkel = 24 adag). Időpontok: 9:00, 15:00, 21:00 és 0-6 óra. Példa 100 gallonra: 12,5 ml, majd 20 ml, majd 20 ml naponta 3x + 40 ml 6 órára elosztva (24 x ~1,7 ml)."
+      },
+      "duration": {
+        "en": "Keep the week-3 regimen at least 6 more weeks after reaching it with no visible infection; about 9 weeks minimum total.",
+        "hu": "A 3. heti adagolást tartsd még legalább 6 hétig onnantól, hogy elérted és nincs látható fertőzés; összesen legalább kb. 9 hét."
+      },
+      "steps": {
+        "en": [
+          "Start with a fresh bottle of 3% H2O2 (about 3 years from manufacture, 6 months after opening).",
+          "Dose straight from the bottle using a doser capable of at least 27 doses; use opaque tubing.",
+          "Run a UV sterilizer (increases effectiveness) and carbon (removes oxidation byproducts).",
+          "Follow the weekly schedule above.",
+          "Do not try to measure peroxide in the water - a steady measurable level suggests overdosing."
+        ],
+        "hu": [
+          "Kezdj friss 3%-os H2O2 palackkal (gyártástól kb. 3 év, felbontás után 6 hónap).",
+          "Közvetlenül a palackból adagolj legalább 27 adagra képes adagolóval; használj átlátszatlan csövet.",
+          "Működtess UV-sterilizálót (növeli a hatást) és aktív szenet (eltávolítja az oxidációs melléktermékeket).",
+          "Kövesd a fenti heti ütemtervet.",
+          "Ne mérd a peroxidot a vízben - ha folyamatosan mérhető, valószínűleg túladagolsz."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Experimental - use at your own risk.",
+          "Do not mix other medications with peroxide.",
+          "Losses of snails, shrimp, urchins, a clam and soft corals have been reported.",
+          "Do not send water samples for testing while dosing."
+        ],
+        "hu": [
+          "Kísérleti - saját felelősségre.",
+          "Ne keverj más gyógyszert a peroxiddal.",
+          "Csigák, garnélák, tengerisünök, egy kagyló és lágykorallok elhullásáról számoltak be.",
+          "Adagolás alatt ne küldj vízmintát vizsgálatra."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Dosing spreadsheet by smsreef", "url": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/post-93635"},
+        {"title": "Dosing spreadsheet by danberger", "url": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/post-294950"}
+      ]
+    },
+    {
+      "id": "ttm",
+      "type": "method",
+      "name": {"en": "Tank Transfer Method (TTM)", "hu": "Tank Transfer Method (TTM, tankáthelyezéses módszer)"},
+      "aka": ["TTM", "standard TTM"],
+      "source": "https://humble.fish/community/index.php?threads/tank-transfer-method.26/",
+      "summary": {
+        "en": "A chemical-free method that eliminates marine ich by moving the fish to a clean, sterile tank every 72 hours or less, before encysted tomonts can release new theronts. It treats ich only - not velvet, Brooklynella, flukes or other diseases.",
+        "hu": "Vegyszermentes módszer, amely a tengeri ich-et úgy szünteti meg, hogy a halat legfeljebb 72 óránként tiszta, steril tankba teszik át, mielőtt a betokozódott tomontok új theront-okat bocsátanának ki. Csak az ich-et kezeli - a velvetet, Brooklynellát, flukes-t és más betegségeket nem."
+      },
+      "treats": ["marine-ich"],
+      "dosage": {"en": null, "hu": null},
+      "duration": {
+        "en": "At least 12 days with a minimum of four transfers (Day 1 -> 4 -> 7 -> 10 -> 13). 24-28°C (76-82°F), salinity 27-35 ppt (1.020-1.026 SG).",
+        "hu": "Legalább 12 nap, minimum négy áthelyezéssel (1. -> 4. -> 7. -> 10. -> 13. nap). 24-28°C (76-82°F), sótartalom 27-35 ppt (1,020-1,026 SG)."
+      },
+      "steps": {
+        "en": [
+          "Equipment: two tanks or buckets (e.g. two 10-gallon tanks), each with its own heater, thermometer, air stone with airline tubing and PVC elbows as hides; never share equipment between them. A plastic colander (square works best) can replace a net.",
+          "Keep temperature at 24-28°C (76-82°F) and salinity at 27-35 ppt (1.020-1.026 SG).",
+          "Day 1: place the fish in the first transfer tank.",
+          "Day 4: transfer the fish to the second, freshly prepared tank. Match temperature and salinity; no acclimation needed - catch and release, carrying as little water as possible.",
+          "Immediately after each transfer sanitize the old tank and all its equipment with bleach or vinegar, rinse well and let everything air dry thoroughly (a fan helps).",
+          "Day 7: transfer again to a clean, dry, refilled tank.",
+          "Day 10: transfer again.",
+          "Day 13: final transfer - the fish should now be ich-free; move into clean QT/observation or the display.",
+          "Never exceed 72 hours between transfers (time of day does not matter). Control ammonia with Amquel or Prime if needed, since no medications are present.",
+          "Optional: give praziquantel or fenbendazole during TTM spaced 6 days apart; use antibiotics if there is a bacterial infection."
+        ],
+        "hu": [
+          "Eszközök: két tank vagy vödör (pl. két 10 gallonos tank), mindegyikhez saját fűtő, hőmérő, légkő légcsővel és PVC könyökök búvóhelynek; az eszközöket soha ne használd közösen. Háló helyett műanyag szűrőtál (szögletes a legjobb) is használható.",
+          "Tartsd a hőmérsékletet 24-28°C-on (76-82°F), a sótartalmat 27-35 ppt-n (1,020-1,026 SG).",
+          "1. nap: tedd a halat az első áthelyező tankba.",
+          "4. nap: tedd át a halat a második, frissen előkészített tankba. A hőmérséklet és sótartalom egyezzen; akklimatizáció nem kell - fogd ki és engedd át, minél kevesebb vizet vive át.",
+          "Minden áthelyezés után azonnal fertőtlenítsd a régi tankot és minden eszközét hipóval vagy ecettel, öblítsd ki alaposan, és hagyd teljesen megszáradni (ventilátor segít).",
+          "7. nap: újabb áthelyezés tiszta, száraz, újratöltött tankba.",
+          "10. nap: újabb áthelyezés.",
+          "13. nap: utolsó áthelyezés - a hal ekkor már ich-mentes; tedd tiszta QT/megfigyelő tankba vagy a display-be.",
+          "Két áthelyezés között soha ne teljen el 72 óránál több (a napszak mindegy). Szükség esetén az ammóniát Amquellel vagy Prime-mal kezeld, mivel nincs gyógyszer a vízben.",
+          "Opcionálisan: TTM alatt prazikvantel vagy fenbendazol adható 6 nap különbséggel; bakteriális fertőzés esetén antibiotikum."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Treats marine ich only - not velvet, Brooklynella, flukes or other diseases.",
+          "Never exceed 72 hours between transfers; minimum 12 days total and at least four transfers (more if transfers are more frequent).",
+          "Vinegar sterilizes through drying; bleach is detoxified through drying - tanks must be fully dry before reuse.",
+          "Can be costly if using all new saltwater; netting every 3 days is time-consuming and somewhat stressful for fish."
+        ],
+        "hu": [
+          "Csak a tengeri ich-et kezeli - a velvetet, Brooklynellát, flukes-t és más betegségeket nem.",
+          "Két áthelyezés között soha ne teljen el 72 óránál több; összesen legalább 12 nap és legalább négy áthelyezés (gyakoribb áthelyezésnél több).",
+          "Az ecet a száradással sterilizál, a hipó a száradással semlegesítődik - a tankoknak újrahasználat előtt teljesen száraznak kell lenniük.",
+          "Drága lehet, ha mindig új sós vizet használsz; a háromnaponkénti befogás időigényes és némileg stresszes a halaknak."
+        ]
+      },
+      "reef_safe": null,
+      "images": [
+        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of the three TTM versions (Standard, Velvet, Hybrid)", "hu": "A három TTM változat (Standard, Velvet, Hybrid) összehasonlító táblázata"}},
+        {"url": "https://humble.fish/community/attachments/19817318939533p-jpg.98897/", "caption": {"en": "Plastic colander used instead of a net for catching fish", "hu": "Háló helyett használt műanyag szűrőtál a halak befogásához"}}
+      ],
+      "related_links": [
+        {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
+        {"title": "Velvet TTM", "url": "https://humble.fish/community/index.php?threads/velvet-ttm.14912/"},
+        {"title": "Hybrid TTM", "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-to-treat-all-parasites.87/"},
+        {"title": "Amquel", "url": "https://www.kordon.com/kordon/products/water-conditioner/amquel"},
+        {"title": "Seachem Prime", "url": "https://www.seachem.com/prime.php"}
+      ]
+    },
+    {
+      "id": "velvet-ttm",
+      "type": "method",
+      "name": {"en": "Velvet TTM", "hu": "Velvet TTM"},
+      "aka": ["36-hour TTM"],
+      "source": "https://humble.fish/community/index.php?threads/velvet-ttm.14912/",
+      "summary": {
+        "en": "A chemical-free TTM schedule with 36-hour transfers at the start, designed to eliminate both marine ich and marine velvet. Velvet tomonts can release infective dinospores about 48 hours after dropping off, so early transfers must come every 36 hours.",
+        "hu": "Vegyszermentes TTM ütemezés, az elején 36 órás áthelyezésekkel, amely a tengeri ich-et és a tengeri velvetet is megszünteti. A velvet tomontjai a leválás után kb. 48 órával bocsátanak ki fertőző rajzókat, ezért az elején 36 óránként kell áthelyezni."
+      },
+      "treats": ["marine-ich", "marine-velvet"],
+      "dosage": {"en": null, "hu": null},
+      "duration": {
+        "en": "13 days, six transfers. 24-28°C (76-82°F), salinity 27-35 ppt (1.020-1.026 SG).",
+        "hu": "13 nap, hat áthelyezés. 24-28°C (76-82°F), sótartalom 27-35 ppt (1,020-1,026 SG)."
+      },
+      "steps": {
+        "en": [
+          "Learn the standard TTM basics first (equipment, sterilizing and drying tanks between transfers).",
+          "Day 1: place the fish in the first tank.",
+          "Day 2: first transfer (at 36 hours).",
+          "Day 4: second transfer (36 hours).",
+          "Day 5: third transfer (36 hours).",
+          "Day 7: fourth transfer (36 hours).",
+          "Day 10: fifth transfer (71 hours).",
+          "Day 13: sixth and final transfer (71 hours)."
+        ],
+        "hu": [
+          "Előbb ismerd meg a standard TTM alapjait (eszközök, a tankok fertőtlenítése és szárítása az áthelyezések között).",
+          "1. nap: tedd a halat az első tankba.",
+          "2. nap: első áthelyezés (36 óra után).",
+          "4. nap: második áthelyezés (36 óra).",
+          "5. nap: harmadik áthelyezés (36 óra).",
+          "7. nap: negyedik áthelyezés (36 óra).",
+          "10. nap: ötödik áthelyezés (71 óra).",
+          "13. nap: hatodik, utolsó áthelyezés (71 óra)."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Velvet trophonts can stay on a fish up to 96 hours, which is why several 36-hour transfers are needed.",
+          "Only return to 71-72 hour transfers near the end, when only ich may remain."
+        ],
+        "hu": [
+          "A velvet trofontjai akár 96 óráig is a halon maradhatnak, ezért kell több 36 órás áthelyezés.",
+          "Csak a végén térj vissza a 71-72 órás áthelyezésekre, amikor már csak ich maradhat."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Tank Transfer Method", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method.26/"},
+        {"title": "Marine velvet disease", "url": "https://humble.fish/community/index.php?threads/marine-velvet-disease.12/"}
+      ]
+    },
+    {
+      "id": "hybrid-ttm",
+      "type": "method",
+      "name": {"en": "Hybrid Tank Transfer Method (Hybrid TTM)", "hu": "Hybrid Tank Transfer Method (Hybrid TTM)"},
+      "aka": ["Hybrid TTM", "TTM + H2O2", "TTM + formalin"],
+      "source": "https://humble.fish/community/index.php?threads/hybrid-ttm-to-treat-more-parasites.87/",
+      "summary": {
+        "en": "Standard 72-hour TTM combined with two short chemical baths (hydrogen peroxide or formalin) exactly 6 days apart, so that surface parasites TTM alone misses are also removed. It is humblefish's favorite quarantine option; the author notes the approach is still partly theoretical.",
+        "hu": "A standard 72 órás TTM kombinálva két rövid vegyszeres fürdővel (hidrogén-peroxid vagy formalin), pontosan 6 nap különbséggel, hogy a TTM által egymagában nem kezelt felszíni parazitákat is eltávolítsa. Humblefish kedvenc karanténmódszere; a szerző szerint részben még elméleti."
+      },
+      "treats": ["marine-ich", "marine-velvet", "brooklynella", "flukes", "uronema"],
+      "dosage": {
+        "en": "H2O2 bath: 30 minutes (author's experiments used 75 ppm and 150 ppm; standard bath 150 ppm = 20 ml of 3% per gallon; 75 ppm cited for flukes). Formalin bath: 45 minutes at the standard bath dose (37% formaldehyde; standard 0.6 ml per gallon).",
+        "hu": "H2O2 fürdő: 30 perc (a szerző kísérletei 75 és 150 ppm-mel; standard fürdő 150 ppm = 20 ml 3%-os / gallon; flukes ellen 75 ppm-et említ). Formalin fürdő: 45 perc standard fürdődózisban (37% formaldehid; standard 0,6 ml/gallon)."
+      },
+      "duration": {
+        "en": "13 days: transfers on Days 4, 7, 10 and 13; chemical baths before the Day 4 and Day 10 transfers (6 days apart). 24-28°C (76-82°F), 27-35 ppt (1.020-1.026 SG).",
+        "hu": "13 nap: áthelyezés a 4., 7., 10. és 13. napon; vegyszeres fürdő a 4. és 10. napi áthelyezés előtt (6 nap különbséggel). 24-28°C (76-82°F), 27-35 ppt (1,020-1,026 SG)."
+      },
+      "steps": {
+        "en": [
+          "Prepare TTM equipment (two tanks, each with its own heater, thermometer, air stone, hides) and bath supplies (3% H2O2 or 37% formalin, glass bowl/food-grade bucket, syringe).",
+          "Keep temperature 24-28°C (76-82°F) and salinity 27-35 ppt (1.020-1.026 SG).",
+          "Day 1: place the fish in the initial transfer tank (QT).",
+          "Day 4: give a chemical bath (H2O2 30 min or formalin 45 min), then transfer to a new clean tank.",
+          "Day 7: transfer to a new clean tank (no bath).",
+          "Day 10: give the second chemical bath, then transfer to a new clean tank.",
+          "Day 13: final transfer to a new clean tank - done.",
+          "After each transfer sterilize and fully dry the old tank and equipment; match temperature/salinity so no acclimation is needed, and move as little water as possible.",
+          "Alternative timing: the first bath may be given before QT on Day 1 if the second is given 6 days later, before the Day 7 transfer.",
+          "Afterwards keep the fish in a clean, sterile QT/observation tank (a black molly can be used to test for surviving pathogens); sterilize tanks after treatment."
+        ],
+        "hu": [
+          "Készítsd elő a TTM eszközöket (két tank, mindegyikhez saját fűtő, hőmérő, légkő, búvóhely) és a fürdő kellékeit (3%-os H2O2 vagy 37%-os formalin, üvegtál/élelmiszeripari vödör, fecskendő).",
+          "Tartsd a hőmérsékletet 24-28°C-on (76-82°F), a sótartalmat 27-35 ppt-n (1,020-1,026 SG).",
+          "1. nap: tedd a halat a kezdő áthelyező tankba (QT).",
+          "4. nap: vegyszeres fürdő (H2O2 30 perc vagy formalin 45 perc), majd áthelyezés új, tiszta tankba.",
+          "7. nap: áthelyezés új, tiszta tankba (fürdő nélkül).",
+          "10. nap: második vegyszeres fürdő, majd áthelyezés új, tiszta tankba.",
+          "13. nap: utolsó áthelyezés új, tiszta tankba - kész.",
+          "Minden áthelyezés után fertőtlenítsd és teljesen szárítsd meg a régi tankot és eszközeit; a hőmérséklet és sótartalom egyezzen, így nem kell akklimatizálni, és minél kevesebb vizet vigyél át.",
+          "Alternatív időzítés: az első fürdő a QT előtt, az 1. napon is adható, ha a második 6 nappal később, a 7. napi áthelyezés előtt történik.",
+          "Utána tartsd a halat tiszta, steril QT/megfigyelő tankban (black molly használható a túlélő kórokozók kimutatására); a kezelés után sterilizáld a tankokat."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "The baths do not kill ich trophonts (they likely don't penetrate the skin) - the 72-hour transfers are still required for ich.",
+          "Main targets of the baths are velvet and Brooklynella; flukes and Uronema only possibly, if the infestation is light.",
+          "Never go more than 72 hours between transfers; the two baths must be exactly 6 days apart.",
+          "Avoid H2O2 and formalin on fish with open wounds or obvious infection; H2O2 may slow healing and worsen scarring.",
+          "Check H2O2 compatibility for the species before use.",
+          "Formalin must be 37% formaldehyde and is a known carcinogen.",
+          "The author describes the method as theoretical and in need of more study."
+        ],
+        "hu": [
+          "A fürdők nem ölik meg az ich trofontjait (valószínűleg nem hatolnak át a bőrön) - az ich miatt a 72 órás áthelyezések továbbra is szükségesek.",
+          "A fürdők fő célpontja a velvet és a Brooklynella; flukes és Uronema csak esetleg, enyhe fertőzésnél.",
+          "Két áthelyezés között soha ne teljen el 72 óránál több; a két fürdő között pontosan 6 nap legyen.",
+          "Ne használj H2O2-t és formalint nyílt sebű vagy láthatóan fertőzött halon; a H2O2 lassíthatja a gyógyulást és ronthatja a hegesedést.",
+          "Használat előtt ellenőrizd a faj H2O2-tűrését.",
+          "A formalin 37%-os formaldehid legyen; ismert rákkeltő.",
+          "A szerző szerint a módszer elméleti, és további vizsgálatot igényel."
+        ]
+      },
+      "reef_safe": null,
+      "images": [
+        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of Standard, Velvet and Hybrid TTM", "hu": "A Standard, Velvet és Hybrid TTM összehasonlító táblázata"}}
+      ],
+      "related_links": [
+        {"title": "Tank Transfer Method", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method.26/"},
+        {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
+        {"title": "Hydrogen peroxide bath", "url": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/"},
+        {"title": "Formalin", "url": "https://humble.fish/community/index.php?threads/formalin.19/"},
+        {"title": "Fish + peroxide compatibility list", "url": "https://humble.fish/community/index.php?threads/fish-peroxide-compatibility-list.1789/"},
+        {"title": "Black molly quarantine", "url": "https://humble.fish/community/index.php?threads/black-molly-quarantine.55/"},
+        {"title": "Use of Formalin to Control Fish Parasites (Texas A&M)", "url": "http://fisheries.tamu.edu/files/2013/09/Use-of-Formalin-to-Control-Fish-Parasites.pdf"}
+      ]
+    },
+    {
+      "id": "hyposalinity",
+      "type": "method",
+      "name": {"en": "Hyposalinity (osmotic shock therapy)", "hu": "Hyposalinity (alacsony sótartalmú kezelés)"},
+      "aka": ["hypo", "OST"],
+      "source": "https://humble.fish/community/index.php?threads/hyposalinity.22/",
+      "summary": {
+        "en": "A chemical-free treatment that holds salinity at SG 1.009 to kill marine ich and flukes by osmotic shock. Gentle on most fish but difficult to execute correctly; it does not eliminate velvet, Brooklynella or Uronema.",
+        "hu": "Vegyszermentes kezelés, amely a sótartalmat SG 1,009-en tartva ozmotikus sokkal pusztítja a tengeri ich-et és a flukes-t. A legtöbb halnak kíméletes, de nehéz helyesen kivitelezni; a velvetet, Brooklynellát és Uronemát nem szünteti meg."
+      },
+      "treats": ["marine-ich", "flukes"],
+      "dosage": {
+        "en": "Target SG 1.009 (about 12 ppt), held constant; temperature 26-28°C (78-82°F); keep pH from staying below 7.5.",
+        "hu": "Cél SG 1,009 (kb. 12 ppt), állandóan tartva; hőmérséklet 26-28°C (78-82°F); a pH ne maradjon tartósan 7,5 alatt."
+      },
+      "duration": {
+        "en": "Ich: 30 consecutive days at 1.009. Flukes: at least 10 consecutive days (some species up to 35 days). Lower to 1.009 over 48 hours.",
+        "hu": "Ich: 30 egymást követő nap 1,009-en. Flukes: legalább 10 egymást követő nap (egyes fajoknál akár 35 nap). Az 1,009-re csökkentés 48 óra alatt."
+      },
+      "steps": {
+        "en": [
+          "Confirm the parasite is ich or flukes.",
+          "Place the fish in a QT matching the source tank's SG and temperature.",
+          "Lower SG gradually over 48 hours to 1.009, measured with a perfectly calibrated refractometer or other accurate tester; an auto top-off is strongly recommended.",
+          "Hold 1.009 constantly (30 days for ich, at least 10 days for flukes); if SG creeps up even slightly, restart the clock.",
+          "Test pH often and raise it with commercial buffer or baked baking soda (300°F for 1 hour) in small amounts.",
+          "If treating a display tank, first remove all corals and inverts."
+        ],
+        "hu": [
+          "Győződj meg róla, hogy a parazita ich vagy flukes.",
+          "Tedd a halat a forrástankkal egyező SG-jű és hőmérsékletű QT-be.",
+          "48 óra alatt fokozatosan csökkentsd az SG-t 1,009-re, tökéletesen kalibrált refraktométerrel vagy más pontos műszerrel mérve; automata utántöltő erősen ajánlott.",
+          "Tartsd állandóan 1,009-en (ich: 30 nap, flukes: legalább 10 nap); ha az SG akár kicsit is emelkedik, az óra újraindul.",
+          "Gyakran mérd a pH-t, és kis adagokban emeld kereskedelmi pufferrel vagy sütőben kiszárított szódabikarbónával (150°C/300°F, 1 óra).",
+          "Display tank kezelésekor előbb távolíts el minden korallt és gerinctelent."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Difficult to execute correctly; hypo-resistant ich strains exist (Yambot 2003).",
+          "Often suppresses but does not eliminate velvet, Brooklynella and Uronema - becomes apparent after salinity is raised.",
+          "Possibly hypo-sensitive: anglers, anthias, dragonets, frogfish, gobies, lionfish, seahorses, wrasses.",
+          "Not compatible with corals and inverts; may kill some nitrifying bacteria."
+        ],
+        "hu": [
+          "Nehéz helyesen kivitelezni; léteznek hypo-rezisztens ich törzsek (Yambot 2003).",
+          "A velvetet, Brooklynellát és Uronemát gyakran csak visszaszorítja - ez a sótartalom visszaemelése után derül ki.",
+          "Lehetséges hypo-érzékeny halak: horgászhalak, anthias, dragonet (Synchiropus), békahalak, gébek, skorpióhalak (lionfish), csikóhalak, ajakoshalak.",
+          "Korallokkal és gerinctelenekkel nem kompatibilis; elpusztíthat nitrifikáló baktériumokat."
+        ]
+      },
+      "reef_safe": false,
+      "images": [],
+      "related_links": [
+        {"title": "Yambot 2003 study (hypo-resistant ich)", "url": "https://www.int-res.com/articles/dao2003/54/d054p147.pdf"}
+      ]
+    },
+    {
+      "id": "freshwater-dip",
+      "type": "procedure",
+      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés (freshwater dip)"},
+      "aka": ["FW dip"],
+      "source": "https://humble.fish/community/index.php?threads/freshwater-dip.20/",
+      "summary": {
+        "en": "A short osmotic-shock dip in pH-adjusted freshwater that gives temporary relief from some parasites and can dislodge flukes, turbellarians and parasitic crustaceans. It is chemical-free, buys time and helps confirm skin flukes, but is not a cure.",
+        "hu": "Rövid, ozmotikus sokkot okozó merítés pH-ra beállított édesvízben, amely átmeneti enyhülést ad egyes parazitáknál, és leválaszthatja a flukes-t, turbellariákat és élősködő rákokat. Vegyszermentes, időt nyer és segít a bőr-flukes megerősítésében, de nem gyógyít."
+      },
+      "treats": ["marine-velvet", "brooklynella", "uronema", "flukes", "black-ich"],
+      "dosage": {
+        "en": "Freshwater at pH about 8.0 (non-acidic, pH 7+ source), temperature-matched; optional methylene blue about 0.5 ml per gallon.",
+        "hu": "Kb. 8,0 pH-jú édesvíz (nem savas, legalább 7-es pH-jú forrás), egyező hőmérséklettel; opcionálisan metilénkék kb. 0,5 ml/gallon."
+      },
+      "duration": {
+        "en": "No more than 5 minutes; repeat dips allowed with 24-48 hours recovery between them.",
+        "hu": "Legfeljebb 5 perc; ismételhető, a merítések között 24-48 óra pihenővel."
+      },
+      "steps": {
+        "en": [
+          "Use RO/RODI with a little saltwater added (for accurate pH reading), clean freshwater aquarium water, or dechlorinated tap water.",
+          "Raise pH to about 8.0 with a buffer or baked baking soda (300°F, 1 hour), adding small amounts and testing.",
+          "Fill a dark (ideally black) bucket and heat to match the fish's source temperature.",
+          "Aerate heavily at least 30 minutes beforehand; reduce or stop aeration during the dip.",
+          "Optionally add methylene blue (about 0.5 ml per gallon).",
+          "Place the fish in and watch closely; initial panic is normal and tangs often 'play dead'. Gills should breathe heavily and the fish should stay upright.",
+          "Remove the fish if breathing slows or it won't right itself when chased (without touching); never exceed 5 minutes.",
+          "Look for white, sesame-seed-sized flukes on the bottom with a flashlight and magnifier; pipette samples from surface, middle and bottom for microscope checks.",
+          "Follow up with proper treatment in a QT."
+        ],
+        "hu": [
+          "Használj kevés sós vízzel kevert RO/RODI vizet (a pontos pH-méréshez), tiszta édesvizes akvárium vizét vagy klórtalanított csapvizet.",
+          "Emeld a pH-t kb. 8,0-ra pufferrel vagy kiszárított szódabikarbónával (150°C/300°F, 1 óra), kis adagokban, mérve.",
+          "Tölts meg egy sötét (ideálisan fekete) vödröt, és fűtsd a hal forrásvizének hőmérsékletére.",
+          "Legalább 30 percig erősen levegőztesd előtte; a merítés alatt csökkentsd vagy állítsd le a levegőztetést.",
+          "Opcionálisan adj hozzá metilénkéket (kb. 0,5 ml/gallon).",
+          "Tedd be a halat, és figyeld szorosan; a kezdeti pánik normális, a tangok gyakran 'halottnak tettetik magukat'. A kopoltyú erősen dolgozzon, a hal maradjon egyenesen.",
+          "Vedd ki a halat, ha a légzése lelassul, vagy terelésre (érintés nélkül) sem egyenesedik fel; soha ne lépd túl az 5 percet.",
+          "Keress fehér, szezámmag méretű flukes-t az alján zseblámpával és nagyítóval; pipettával vegyél mintát a felszínről, középről és az aljáról mikroszkópos vizsgálathoz.",
+          "Utána kezeld rendesen QT-ben."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Not a permanent fix - follow up with QT treatment.",
+          "Do not dip weak or dying fish.",
+          "If a fish loses equilibrium afterwards, hold it upright with gloves in front of a wavemaker on low.",
+          "Tiny gill flukes may not be visible during or after the dip."
+        ],
+        "hu": [
+          "Nem végleges megoldás - utána QT-kezelés kell.",
+          "Ne meríts gyenge vagy haldokló halat.",
+          "Ha utána a hal elveszti az egyensúlyát, kesztyűvel tartsd egyenesen egy alacsony fokozatú áramoltató előtt.",
+          "Az apró kopoltyú-flukes a merítés alatt és után sem feltétlenül látható."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Flukes under microscope", "url": "https://humble.fish/community/index.php?threads/flukes-under-microscope.7111/"},
+        {"title": "Black ich (turbellarians)", "url": "https://humble.fish/community/index.php?threads/black-ich.178/"}
+      ]
+    },
+    {
+      "id": "fallow-period",
+      "type": "method",
+      "name": {"en": "Fallow period (going fishless)", "hu": "Fallow periódus (halmentes időszak)"},
+      "aka": ["fallow", "going fishless"],
+      "source": "https://humble.fish/community/index.php?threads/new-ich-fallow-period.1824/",
+      "summary": {
+        "en": "Leaving the display tank without any fish so remaining ich parasites starve because theronts cannot find a host. All fish are removed and treated in quarantine meanwhile.",
+        "hu": "A display tankot halak nélkül hagyják, így a megmaradt ich paraziták elpusztulnak, mert a theront-ok nem találnak gazdát. Közben minden halat kivesznek és karanténban kezelnek."
+      },
+      "treats": ["marine-ich"],
+      "dosage": {"en": null, "hu": null},
+      "duration": {
+        "en": "6 weeks if the display can be held at 27°C (80.6°F); two studies suggest 2 weeks at 30°C (86°F), best for FOWLR systems.",
+        "hu": "6 hét, ha a display 27°C-on (80,6°F) tartható; két tanulmány szerint 30°C-on (86°F) 2 hét is elég, ez inkább FOWLR rendszerekhez ajánlott."
+      },
+      "steps": {
+        "en": [
+          "Catch ALL fish from the display and treat them in quarantine (copper, CP, TTM, etc.).",
+          "Raise and hold display temperature at 27°C (80.6°F) - or 30°C (86°F) in FOWLR.",
+          "Eliminate hypoxic or anaerobic areas in the display.",
+          "Keep the display fishless for the full period, then return only treated fish."
+        ],
+        "hu": [
+          "Fogd ki az ÖSSZES halat a display-ből, és kezeld őket karanténban (réz, CP, TTM stb.).",
+          "Emeld és tartsd a display hőmérsékletét 27°C-on (80,6°F) - FOWLR-ben 30°C-on (86°F).",
+          "Szüntesd meg az oxigénszegény vagy anaerob zónákat a display-ben.",
+          "Tartsd a display-t a teljes időszak alatt halmentesen, majd csak kezelt halakat tegyél vissza."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Lower temperature slows ich's life cycle; higher speeds it up. Strains may react differently.",
+          "A protomont entering a hypoxic/anaerobic area may go dormant - probably the main reason fallow periods fail.",
+          "30°C may not be safe for corals and inverts.",
+          "Tomonts can attach to some corals/inverts - see coral/invert quarantine time frames."
+        ],
+        "hu": [
+          "Alacsonyabb hőmérséklet lassítja, magasabb gyorsítja az ich életciklusát. A törzsek eltérően reagálhatnak.",
+          "Az oxigénszegény/anaerob zónába jutó protomont nyugalmi állapotba kerülhet - valószínűleg ez a fallow kudarcának fő oka.",
+          "A 30°C nem biztos, hogy biztonságos a koralloknak és gerincteleneknek.",
+          "A tomontok egyes korallokra/gerinctelenekre is rátapadhatnak - lásd a korall/gerinctelen karantén időtartamokat."
+        ]
+      },
+      "reef_safe": true,
+      "images": [],
+      "related_links": [
+        {"title": "Marine ich", "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"},
+        {"title": "Coral/invert quarantine time frames", "url": "https://humble.fish/community/index.php?threads/coral-invert-quarantine-time-frames.487/"}
+      ]
+    },
+    {
+      "id": "salvage-protocol",
+      "type": "procedure",
+      "name": {"en": "Salvage protocol for very sick fish", "hu": "Mentőprotokoll nagyon beteg halakhoz"},
+      "aka": [],
+      "source": "https://humble.fish/community/index.php?threads/salvage-protocol-for-treating-very-sick-fish.465/",
+      "summary": {
+        "en": "Supportive measures for a very sick fish (typically ich or velvet) that reduce metabolic demand, stress and immune-response damage to keep it alive until the parasite can be eradicated. Recommendations to be adjusted to the situation.",
+        "hu": "Támogató intézkedések nagyon beteg halnál (jellemzően ich vagy velvet), amelyek csökkentik az anyagcsere-igényt, a stresszt és az immunválasz okozta károsodást, hogy a hal életben maradjon a parazita felszámolásáig. Az ajánlások a helyzethez igazítandók."
+      },
+      "treats": ["marine-ich", "marine-velvet"],
+      "dosage": {
+        "en": "Dexamethasone 0.5 mg/kg intramuscular injection.",
+        "hu": "Dexametazon 0,5 mg/kg izomba adott injekcióként."
+      },
+      "duration": {"en": null, "hu": null},
+      "steps": {
+        "en": [
+          "Lower the temperature to 72°F for most tropical fish.",
+          "Lower salinity to SG 1.017 or lower.",
+          "Raise oxygen saturation above 150% by adding pure O2.",
+          "Turn the lights off.",
+          "Give an intramuscular injection of dexamethasone at 0.5 mg/kg."
+        ],
+        "hu": [
+          "Csökkentsd a hőmérsékletet 22°C-ra (72°F) a legtöbb trópusi halnál.",
+          "Csökkentsd a sótartalmat SG 1,017-re vagy az alá.",
+          "Tiszta O2 adagolásával emeld az oxigéntelítettséget 150% fölé.",
+          "Kapcsold le a világítást.",
+          "Adj izomba dexametazon injekciót 0,5 mg/kg dózisban."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "The author has used each technique but not all together.",
+          "Dexamethasone is a prescription drug - consult a veterinarian."
+        ],
+        "hu": [
+          "A szerző mindegyik technikát alkalmazta, de nem mindet együtt.",
+          "A dexametazon vényköteles - konzultálj állatorvossal."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": []
+    },
+    {
+      "id": "food-soaking",
+      "type": "procedure",
+      "name": {"en": "Medicated food soaking", "hu": "Gyógyszeres eleség áztatása"},
+      "aka": ["food soak", "medicated feed"],
+      "source": "https://humble.fish/community/index.php?threads/antibiotics.15/",
+      "summary": {
+        "en": "Binding medication into food to treat internal infections and intestinal worms; with a binder it is the most reef-friendly way to medicate. Used with metronidazole, kanamycin, neomycin, praziquantel (not PraziPro) and fenbendazole.",
+        "hu": "A gyógyszer eleségbe kötése belső fertőzések és bélférgek kezelésére; kötőanyaggal ez a legzátonybarátabb gyógyszerezési mód. Metronidazollal, kanamicinnel, neomicinnel, prazikvantellel (PraziPro nem) és fenbendazollal használják."
+      },
+      "treats": ["internal-problems", "bacterial-infections"],
+      "dosage": {
+        "en": "1 tbsp frozen food or pellets + 1 scoop (~1/8 tsp) medication (fenbendazole: 1/16 tsp) + 1-2 scoops Seachem Focus (or unflavored gelatin/agar) + optional pinch of Epsom salt + a few drops of saltwater or fish vitamins.",
+        "hu": "1 evőkanál fagyasztott eleség vagy granulátum + 1 adagolókanál (~1/8 teáskanál) gyógyszer (fenbendazol: 1/16 teáskanál) + 1-2 adag Seachem Focus (vagy ízesítetlen zselatin/agar) + opcionálisan csipet keserűsó + pár csepp sós víz vagy halvitamin."
+      },
+      "duration": {
+        "en": "Antibiotics 10-14 days; metronidazole 2-4 weeks; praziquantel 2-3 weeks; fenbendazole usually three feedings.",
+        "hu": "Antibiotikum 10-14 nap; metronidazol 2-4 hét; prazikvantel 2-3 hét; fenbendazol általában három etetés."
+      },
+      "steps": {
+        "en": [
+          "Combine food, medication, binder, Epsom salt and a few drops of saltwater/vitamins.",
+          "Stir into a slurry and soak 30 minutes.",
+          "Feed; refrigerate or freeze leftovers.",
+          "Repeat daily for the course length of the drug used."
+        ],
+        "hu": [
+          "Keverd össze az eleséget, a gyógyszert, a kötőanyagot, a keserűsót és pár csepp sós vizet/vitamint.",
+          "Keverd pépesre, és áztasd 30 percig.",
+          "Etesd meg; a maradékot hűtsd vagy fagyaszd.",
+          "Ismételd naponta az adott gyógyszer kúrájának hosszáig."
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Weight-based dosing is the proper method but impractical; this is a 'shotgun approach'.",
+          "Fenbendazole is not reef safe even as a food soak."
+        ],
+        "hu": [
+          "A tömeg alapú adagolás a helyes módszer, de nehezen kivitelezhető; ez egy 'sörétes' megközelítés.",
+          "A fenbendazol gyógyszeres eleségként sem zátonybiztos."
+        ]
+      },
+      "reef_safe": null,
+      "images": [],
+      "related_links": [
+        {"title": "Medicated feed (Hikari)", "url": "https://www.hikariusa.com/articles/medicatedfeed.html"},
+        {"title": "Seachem Focus", "url": "https://www.seachem.com/focus.php"}
+      ]
+    },
+    {
+      "id": "vitamins-probiotics",
+      "type": "medication",
+      "name": {"en": "Vitamins, probiotics and herbal remedies", "hu": "Vitaminok, probiotikumok és gyógynövényes szerek"},
+      "aka": ["Selcon", "Zoecon", "Vita-chem", "Aquaforest Fish V", "beta-glucan", "garlic", "LRS Foods"],
+      "source": "https://humble.fish/community/index.php?threads/vitamins-probiotics-herbal-remedies.27/",
+      "summary": {
+        "en": "Reef-safe supplements soaked into food to boost immunity, correct dietary deficiencies and promote healing. Beta-glucan helps return viruses like Lymphocystis to remission, and vitamins plus nori helped an HLLE case; herbal remedies rarely eradicate disease.",
+        "hu": "Eleségbe áztatott, zátonybiztos kiegészítők az immunitás erősítésére, a táplálkozási hiányok pótlására és a gyógyulás segítésére. A béta-glükán segít a vírusok, pl. a Lymphocystis nyugalmi állapotba juttatásában, a vitaminok és a nori pedig egy HLLE esetben segítettek; a gyógynövényes szerek ritkán szüntetik meg a betegséget."
+      },
+      "treats": ["hlle", "lymphocystis"],
+      "dosage": {
+        "en": "No specific doses; soak or saturate food, or bind with Seachem Focus. Example: Selcon and Zoecon on alternating days plus nori for HLLE; beta-glucan recipe mixes frozen cubes, Selcon and half a capsule of beta-glucan.",
+        "hu": "Konkrét dózis nincs; az eleséget áztasd be vagy kösd meg Seachem Focusszal. Példa: HLLE-nél Selcon és Zoecon váltott napokon plusz nori; a béta-glükán recept fagyasztott kockákat, Selcont és fél kapszula béta-glükánt kever."
+      },
+      "duration": {"en": null, "hu": null},
+      "steps": {"en": [], "hu": []},
+      "warnings": {
+        "en": [
+          "May create a false sense of security and delay proven treatments.",
+          "Herbal remedies rarely achieve 100% eradication; surviving fish may become asymptomatic carriers.",
+          "Garlic's antiparasitic use is hotly debated (appetite stimulation is better documented)."
+        ],
+        "hu": [
+          "Hamis biztonságérzetet kelthetnek és késleltethetik a bizonyított kezeléseket.",
+          "A gyógynövényes szerek ritkán érnek el 100%-os felszámolást; a túlélő halak tünetmentes hordozók lehetnek.",
+          "A fokhagyma parazitaellenes hatása erősen vitatott (az étvágyfokozó hatás jobban dokumentált)."
+        ]
+      },
+      "reef_safe": true,
+      "images": [],
+      "related_links": [
+        {"title": "Beta glucan as an immune stimulant in marine aquaria", "url": "https://reefs.com/magazine/beta-glucan-as-an-immune-stimulant-in-marine-aquaria/"},
+        {"title": "Fish nutrition: a way to avoid many problems", "url": "https://humble.fish/community/index.php?threads/fish-nutrition-a-way-to-avoid-many-problems.14469/"}
+      ]
+    }
+  ],
+  "quarantine": [
+    {
+      "id": "how-to-quarantine",
+      "name": {"en": "How to set up a quarantine tank", "hu": "Karanténtank (QT) beállítása"},
+      "source": "https://humble.fish/community/threads/quarantine.2/",
+      "summary": {
+        "en": "A QT is a simple, separate 10-30 gallon tank with heater, circulation and a lid, kept without rock so medications are not absorbed. Ammonia is controlled with a seeded biofilter, water changes or ammonia binders.",
+        "hu": "A QT egy egyszerű, különálló 10-30 gallonos tank fűtővel, áramoltatással és fedővel, kő nélkül, hogy ne kösse meg a gyógyszereket. Az ammóniát beoltott biofilterrel, vízcserével vagy ammóniamegkötővel kell kontrollálni."
+      },
+      "steps": {
+        "en": [
+          "Choose a 10-30 gallon tank (larger buffers ammonia and holds more fish; smaller is cheaper and easier).",
+          "Prepare saltwater and let it dissolve and circulate at least 24 hours before use.",
+          "Add heater, thermometer, circulation (small wavemaker, or air pump with air stone/sponge filter) and a lid (egg crate preferred; sew screen under it for tiny fish).",
+          "Add an ammonia alert badge; optionally an HOB filter with seeded biomedia, PVC elbows and plastic plants as hides, a simple LED light, a titanium grounding probe and pH/ammonia test kits.",
+          "Use a little sand if desired but no rock (it absorbs medications, especially copper); one or two small pieces of live rock from a disease-free tank may be used but must be removed before medicating.",
+          "Seed the biofilter: keep media in a high-flow area of the display sump for 2-3 months, or dose a bottled bacteria product at least one week before buying fish.",
+          "Ensure strong surface agitation for gas exchange, especially when medicating.",
+          "Monitor ammonia continuously; control it with water changes, or Amquel/Prime for 24-48 hours in an emergency."
+        ],
+        "hu": [
+          "Válassz 10-30 gallonos tankot (a nagyobb jobban puffereli az ammóniát és több halat fogad; a kisebb olcsóbb és egyszerűbb).",
+          "Készítsd el a sós vizet, és használat előtt legalább 24 órán át oldódjon és keringjen.",
+          "Tegyél bele fűtőt, hőmérőt, áramoltatást (kis áramoltató, vagy légpumpa légkővel/szivacsszűrővel) és fedőt (a tojásrács a legjobb; apró halaknál varrj alá hálót).",
+          "Tegyél be ammónia-jelzőt; opcionálisan HOB szűrőt beoltott biológiai töltettel, PVC könyököket és műanyag növényeket búvóhelynek, egyszerű LED lámpát, titán földelő szondát és pH/ammónia teszteket.",
+          "Kevés homok mehet, de kő ne (megköti a gyógyszereket, főleg a rezet); egy-két kis darab élő kő betegségmentes tankból használható, de gyógyszerezés előtt ki kell venni.",
+          "Oltsd be a biofiltert: tartsd a töltetet 2-3 hónapig a display sumpjának erős áramlású részén, vagy adagolj palackos baktériumot legalább egy héttel a halvásárlás előtt.",
+          "Biztosíts erős felszíni mozgást a gázcseréhez, főleg gyógyszerezéskor.",
+          "Folyamatosan figyeld az ammóniát; vízcserével, vészhelyzetben Amquellel/Prime-mal 24-48 órára kontrolláld."
+        ]
+      },
+      "equipment": {
+        "en": [
+          "10-30 gallon aquarium",
+          "Heater and thermometer",
+          "Small wavemaker or air pump with air stone / sponge filter",
+          "Lid (egg crate, glass, acrylic or screen)",
+          "Seachem Ammonia Alert badge",
+          "Pre-mixed saltwater (circulated 24+ hours)",
+          "Recommended: HOB filter (e.g. AquaClear, Seachem Tidal) with seeded biomedia (Seachem Matrix, Fluval Biomax, sponge, Bio-Wheel)",
+          "Recommended: PVC elbows and saltwater-safe plastic plants",
+          "Recommended: inexpensive LED light",
+          "Recommended: titanium grounding probe",
+          "Recommended: pH and ammonia test kits; Hanna Ammonia Checker (works with medications present)",
+          "Ammonia binders: Amquel or Prime",
+          "Bottled bacteria: Fritz Turbostart, Dr. Tim's Nitrifying Bacteria, Seachem Stability, Bio-Spira"
+        ],
+        "hu": [
+          "10-30 gallonos akvárium",
+          "Fűtő és hőmérő",
+          "Kis áramoltató vagy légpumpa légkővel / szivacsszűrővel",
+          "Fedő (tojásrács, üveg, akril vagy háló)",
+          "Seachem Ammonia Alert jelző",
+          "Előre kevert sós víz (24+ órán át keringetve)",
+          "Ajánlott: HOB szűrő (pl. AquaClear, Seachem Tidal) beoltott biológiai töltettel (Seachem Matrix, Fluval Biomax, szivacs, Bio-Wheel)",
+          "Ajánlott: PVC könyökök és sós vízálló műanyag növények",
+          "Ajánlott: olcsó LED lámpa",
+          "Ajánlott: titán földelő szonda",
+          "Ajánlott: pH és ammónia tesztek; Hanna Ammonia Checker (gyógyszer jelenlétében is működik)",
+          "Ammóniamegkötők: Amquel vagy Prime",
+          "Palackos baktérium: Fritz Turbostart, Dr. Tim's Nitrifying Bacteria, Seachem Stability, Bio-Spira"
+        ]
+      },
+      "warnings": {
+        "en": [
+          "Even trace ammonia is toxic.",
+          "No rock in the QT - it absorbs medications; rock exposed to disease must be sterilized in a 1:10 chlorine-to-water solution.",
+          "Ionic copper (e.g. Cupramine) reacts negatively with ammonia reducers; Prime is reported safe with Copper Power.",
+          "Ammonia test kits are unreliable with medications present - use the badge or Hanna checker.",
+          "Always use a lid."
+        ],
+        "hu": [
+          "Már a nyomnyi ammónia is mérgező.",
+          "Ne legyen kő a QT-ben - megköti a gyógyszereket; a betegséggel érintkezett követ 1:10 arányú klór-víz oldatban sterilizálni kell.",
+          "Az ionos réz (pl. Cupramine) rosszul reagál az ammóniamegkötőkkel; a Prime a Copper Powerrel biztonságosnak mondott.",
+          "Gyógyszer jelenlétében az ammóniatesztek megbízhatatlanok - használd a jelzőt vagy a Hanna checkert.",
+          "Mindig legyen fedő."
+        ]
+      }
+    },
+    {
+      "id": "observational-vs-chemoprophylaxis",
+      "name": {"en": "Observational quarantine vs. chemoprophylaxis", "hu": "Megfigyelő karantén vs. megelőző gyógyszerezés"},
+      "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
+      "summary": {
+        "en": "There is no perfect way to quarantine; the best approach is one you can sustain with a high success rate. Observational QT uses no routine medication but requires daily time to watch for signs of disease, while chemoprophylaxis medicates preventively.",
+        "hu": "Nincs tökéletes karanténmódszer; a legjobb az, amit fenn tudsz tartani és magas a sikerességi aránya. A megfigyelő QT nem alkalmaz rutinszerű gyógyszerezést, de napi időt igényel a betegségjelek figyelésére, míg a megelőző gyógyszerezés (chemoprophylaxis) preventíven kezel."
+      },
+      "steps": {
+        "en": [
+          "Decide whether you have enough daily time to observe behavior closely (observational QT) or prefer preventive medication (chemoprophylaxis).",
+          "For observational QT, keep fish in an unmedicated QT and treat only when signs of disease appear.",
+          "For chemoprophylaxis, follow the recommended prophylactic protocol."
+        ],
+        "hu": [
+          "Döntsd el, van-e elég napi időd a viselkedés alapos megfigyelésére (megfigyelő QT), vagy inkább megelőző gyógyszerezést választasz.",
+          "Megfigyelő QT-nél tartsd a halakat gyógyszermentes QT-ben, és csak betegségjelek esetén kezelj.",
+          "Megelőző gyógyszerezésnél kövesd az ajánlott profilaktikus protokollt."
+        ]
+      },
+      "equipment": {"en": [], "hu": []},
+      "warnings": {
+        "en": ["No QT protocol is 100% foolproof."],
+        "hu": ["Egyetlen QT protokoll sem 100%-ig biztos."]
+      }
+    },
+    {
+      "id": "pre-qt-baths",
+      "name": {"en": "Optional pre-QT baths", "hu": "Opcionális QT előtti fürdők"},
+      "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
+      "summary": {
+        "en": "After acclimation, new fish can receive two separate baths before entering QT: Bath #1 (H2O2 or formalin) kills external parasites and Bath #2 (methylene blue) acts as wound care and first response.",
+        "hu": "Akklimatizálás után az új halak két külön fürdőt kaphatnak a QT előtt: az 1. fürdő (H2O2 vagy formalin) a külső parazitákat öli, a 2. fürdő (metilénkék) sebkezelés és elsősegély."
+      },
+      "steps": {
+        "en": [
+          "Acclimate the fish.",
+          "If the fish arrived in good condition (no ammonia burn, clear bag water), do both baths; if ammonia burn or cloudy/foul bag water, do Bath #2 only.",
+          "Bath #1: H2O2 bath 30 minutes or formalin bath 45 minutes. Uronema-prone fish (chromis, anthias) should always get formalin.",
+          "Bath #2: methylene blue 30 minutes (alternative: Nitrofuracin Green Powder) - covers ammonia burn, abrasions, cuts, wounds; mild antiparasitic/antibacterial/antifungal.",
+          "Do the two baths separately - never combine them.",
+          "Place the fish in the QT."
+        ],
+        "hu": [
+          "Akklimatizáld a halat.",
+          "Ha jó állapotban érkezett (nincs ammóniaégés, tiszta a zacskó vize), mindkét fürdőt végezd el; ammóniaégés vagy zavaros/büdös zacskóvíz esetén csak a 2. fürdőt.",
+          "1. fürdő: H2O2 fürdő 30 perc vagy formalin fürdő 45 perc. Uronemára hajlamos halak (chromis, anthias) mindig formalint kapjanak.",
+          "2. fürdő: metilénkék 30 perc (alternatíva: Nitrofuracin Green Powder) - ammóniaégés, horzsolás, vágás, seb ellen; enyhe parazita-/baktérium-/gombaellenes hatás.",
+          "A két fürdőt külön végezd - soha ne kombináld.",
+          "Tedd a halat a QT-be."
+        ]
+      },
+      "equipment": {
+        "en": ["3% H2O2 or 37% formalin", "Methylene blue (2.303%) or Nitrofuracin Green Powder", "Glass bowl or food-grade bucket", "Air stone", "Syringe / measuring cup"],
+        "hu": ["3%-os H2O2 vagy 37%-os formalin", "Metilénkék (2,303%) vagy Nitrofuracin Green Powder", "Üvegtál vagy élelmiszeripari vödör", "Légkő", "Fecskendő / mérőpohár"]
+      },
+      "warnings": {
+        "en": ["Never combine Bath #1 and Bath #2.", "Skip Bath #1 for fish with ammonia burn or that arrived in foul water.", "Do not use H2O2 or formalin on fish with red sores or open wounds."],
+        "hu": ["Az 1. és 2. fürdőt soha ne kombináld.", "Ammóniaégéses vagy rossz vízben érkezett halnál hagyd ki az 1. fürdőt.", "Vörös sebes vagy nyílt sebű halon ne használj H2O2-t vagy formalint."]
+      }
+    },
+    {
+      "id": "prophylactic-protocol",
+      "name": {"en": "Recommended prophylactic QT protocol", "hu": "Ajánlott megelőző QT protokoll"},
+      "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
+      "summary": {
+        "en": "Humblefish's chemoprophylaxis protocol: chelated copper (Copper Power) against ich and velvet plus metronidazole or formalin against Brooklynella and Uronema, followed by observation and deworming with praziquantel.",
+        "hu": "Humblefish megelőző gyógyszeres protokollja: kelátos réz (Copper Power) ich és velvet ellen, plusz metronidazol vagy formalin Brooklynella és Uronema ellen, ezt követi megfigyelés és prazikvanteles féregtelenítés."
+      },
+      "steps": {
+        "en": [
+          "Place the fish directly into 2.0 ppm Copper Power; over 24-48 hours raise to the therapeutic 2.2-2.3 ppm, verified with a Hanna HI702 checker (covers ich and velvet).",
+          "Once copper is therapeutic add ONE of: metronidazole 25 mg/gal every 48 hours for 10 days (or Seachem Metroplex 2 scoops per 10 gallons), or formalin 0.9 ml per 10 gallons every 24 hours for 10 days (stronger option for Uronema-prone chromis and anthias).",
+          "After 14 days in copper move the fish to an observation tank, or after 30 days remove copper with water changes and Cuprisorb/Polyfilter and observe in the same tank. Keep about 10 ft between aquariums.",
+          "Observe 2-4 weeks (black mollies can help detect disease).",
+          "Deworm during observation with PraziPro, API General Cure or Fritz Paracleanse per the praziquantel guide.",
+          "Move to the display directly without drip acclimation only if temperature and salinity match exactly."
+        ],
+        "hu": [
+          "Tedd a halat közvetlenül 2,0 ppm Copper Powerbe; 24-48 óra alatt emeld a terápiás 2,2-2,3 ppm-re, Hanna HI702 checkerrel ellenőrizve (ich és velvet ellen).",
+          "Ha a réz terápiás szinten van, adj hozzá EGYET: metronidazol 25 mg/gallon 48 óránként 10 napig (vagy Seachem Metroplex 2 adagolókanál / 10 gallon), vagy formalin 0,9 ml / 10 gallon 24 óránként 10 napig (erősebb opció az Uronemára hajlamos chromis és anthias halaknak).",
+          "14 nap réz után tedd a halat megfigyelő tankba, vagy 30 nap után vízcserével és Cuprisorbbal/Polyfilterrel távolítsd el a rezet, és ugyanabban a tankban figyeld. Az akváriumok között kb. 3 m legyen.",
+          "Figyeld 2-4 hétig (black molly segíthet a betegség kimutatásában).",
+          "A megfigyelés alatt féregtelenítsd PraziPro, API General Cure vagy Fritz Paracleanse szerrel a prazikvantel útmutató szerint.",
+          "A display-be csepegtetéses akklimatizálás nélkül csak akkor tedd át, ha a hőmérséklet és a sótartalom pontosan egyezik."
+        ]
+      },
+      "equipment": {
+        "en": ["Copper Power", "Hanna HI702 copper checker", "Metronidazole / Seachem Metroplex or 37% formalin", "Cuprisorb or Polyfilter", "Separate observation tank", "Praziquantel product (PraziPro, General Cure, Paracleanse)"],
+        "hu": ["Copper Power", "Hanna HI702 rézmérő", "Metronidazol / Seachem Metroplex vagy 37%-os formalin", "Cuprisorb vagy Polyfilter", "Külön megfigyelő tank", "Prazikvantel készítmény (PraziPro, General Cure, Paracleanse)"]
+      },
+      "warnings": {
+        "en": [
+          "If flukes are present, deworm before parasite treatment.",
+          "Praziquantel with copper is possible but increase gas exchange due to possible bacterial blooms.",
+          "Treat bacterial infections promptly with antibiotics; most can be combined with copper.",
+          "Keep about 10 ft between aquariums to limit aerosol transmission.",
+          "The author does not prophylactically treat for intestinal worms unless symptoms appear.",
+          "No QT protocol is 100% foolproof."
+        ],
+        "hu": [
+          "Ha flukes van jelen, a parazitakezelés előtt féregtelenítsd.",
+          "Prazikvantel rézzel együtt adható, de fokozd a gázcserét a lehetséges baktériumvirágzás miatt.",
+          "A bakteriális fertőzést azonnal kezeld antibiotikummal; a legtöbb kombinálható rézzel.",
+          "Az akváriumok között kb. 3 m legyen az aeroszolos terjedés korlátozására.",
+          "A szerző tünetek nélkül nem kezel megelőzően bélférgek ellen.",
+          "Egyetlen QT protokoll sem 100%-ig biztos."
+        ]
+      }
+    },
+    {
+      "id": "alternative-qt-treatments",
+      "name": {"en": "Alternative QT treatment options", "hu": "Alternatív QT kezelési lehetőségek"},
+      "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
+      "summary": {
+        "en": "Alternatives to the copper-based protocol: chloroquine phosphate, fenbendazole, freshwater dips, hyposalinity and the tank transfer methods - Hybrid TTM being the author's favorite.",
+        "hu": "A rézalapú protokoll alternatívái: klorokin-foszfát, fenbendazol, édesvizes merítés, hyposalinity és a tankáthelyezéses módszerek - a szerző kedvence a Hybrid TTM."
+      },
+      "steps": {
+        "en": [
+          "Chloroquine phosphate: 40-60 mg/gal for 14 days, then transfer to a clean observation tank (ich, velvet, Brooklynella, Uronema).",
+          "Fenbendazole: for praziquantel-resistant flukes and gastrointestinal worms.",
+          "Freshwater dip: temporary relief for many parasites and worms; helps confirm skin flukes.",
+          "Hyposalinity: ich and flukes only.",
+          "Tank Transfer Method (Standard, Velvet, Hybrid): Hybrid TTM is the author's favorite."
+        ],
+        "hu": [
+          "Klorokin-foszfát: 40-60 mg/gallon 14 napig, majd áthelyezés tiszta megfigyelő tankba (ich, velvet, Brooklynella, Uronema).",
+          "Fenbendazol: prazikvantel-rezisztens flukes és bélférgek ellen.",
+          "Édesvizes merítés: átmeneti enyhülés sok parazitánál és féregnél; segít a bőr-flukes megerősítésében.",
+          "Hyposalinity: csak ich és flukes ellen.",
+          "Tank Transfer Method (Standard, Velvet, Hybrid): a szerző kedvence a Hybrid TTM."
+        ]
+      },
+      "equipment": {"en": [], "hu": []},
+      "warnings": {"en": [], "hu": []}
+    }
+  ]
+}

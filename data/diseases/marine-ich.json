@@ -2,7 +2,10 @@
   "id": "marine-ich",
   "source": "https://humble.fish/community/index.php?threads/marine-ich.11/",
   "author": "Humblefish",
-  "name": {"en": "Marine Ich (White Spot Disease)", "hu": "Tengeri ich (fehérpötty-betegség)"},
+  "name": {
+    "en": "Marine Ich (White Spot Disease)",
+    "hu": "Tengeri ich (fehérpötty-betegség)"
+  },
   "scientific": "Cryptocaryon irritans",
   "category": "parasite-protozoan",
   "summary": {
@@ -23,8 +26,17 @@
       "Nehéz / gyors légzés (folyadék gyűlik fel a kopoltyúban)"
     ]
   },
-  "body_areas": ["skin", "fins", "gills", "behavior"],
-  "appearance": ["white-spots", "flashing-scratching", "rapid-breathing"],
+  "body_areas": [
+    "skin",
+    "fins",
+    "gills",
+    "behavior"
+  ],
+  "appearance": [
+    "white-spots",
+    "flashing-scratching",
+    "rapid-breathing"
+  ],
   "speed": "days",
   "lethality": "high",
   "contagious": true,
@@ -51,7 +63,10 @@
   "treatments": [
     {
       "treatment_id": "copper",
-      "name": {"en": "Copper treatment", "hu": "Rézkezelés"},
+      "name": {
+        "en": "Copper treatment",
+        "hu": "Rézkezelés"
+      },
       "priority": "first-line",
       "details": {
         "en": "In a quarantine tank. Not for display tanks with corals/inverts; rock absorbs copper. See the Copper Treatment thread for dosing.",
@@ -60,7 +75,10 @@
     },
     {
       "treatment_id": "chloroquine-phosphate",
-      "name": {"en": "Chloroquine Phosphate", "hu": "Klorokin-foszfát"},
+      "name": {
+        "en": "Chloroquine Phosphate",
+        "hu": "Klorokin-foszfát"
+      },
       "priority": "first-line",
       "details": {
         "en": "In a quarantine tank. Most corals/inverts are intolerant. See the Chloroquine Phosphate thread for dosing.",
@@ -69,7 +87,10 @@
     },
     {
       "treatment_id": "hyposalinity",
-      "name": {"en": "Hyposalinity", "hu": "Hyposalinity (alacsony sótartalom)"},
+      "name": {
+        "en": "Hyposalinity",
+        "hu": "Hyposalinity (alacsony sótartalom)"
+      },
       "priority": "first-line",
       "details": {
         "en": "In a quarantine tank. Doing it in a display tank risks wiping out the biofilter and corals/inverts. See the Hyposalinity thread for the protocol.",
@@ -78,7 +99,10 @@
     },
     {
       "treatment_id": "ttm",
-      "name": {"en": "Tank Transfer Method (all versions)", "hu": "TTM (Tank Transfer Method, minden változat)"},
+      "name": {
+        "en": "Tank Transfer Method (all versions)",
+        "hu": "TTM (Tank Transfer Method, minden változat)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Moves fish to clean tanks before tomonts can release theronts. See the Tank Transfer Method thread.",
@@ -87,7 +111,10 @@
     },
     {
       "treatment_id": "fallow-period",
-      "name": {"en": "Fallow display tank", "hu": "Fallow időszak (hal nélküli DT)"},
+      "name": {
+        "en": "Fallow display tank",
+        "hu": "Fallow időszak (hal nélküli DT)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Remove ALL fish to QT for treatment and leave the display tank fishless for 6 weeks, provided the temperature can be raised to 27 C/80.6 F.",
@@ -96,7 +123,10 @@
     },
     {
       "treatment_id": "ich-management",
-      "name": {"en": "Management in display tank (UV, ozone, etc.)", "hu": "Kezelés helyett kontroll a DT-ben (UV, ózon stb.)"},
+      "name": {
+        "en": "Management in display tank (UV, ozone, etc.)",
+        "hu": "Kezelés helyett kontroll a DT-ben (UV, ózon stb.)"
+      },
       "priority": "alternative",
       "details": {
         "en": "Ich is sometimes managed rather than eradicated in a DT using a UV sterilizer, ozone, diatom filter, oxydator, herbal remedies, enhanced nutrition, etc. This does not eliminate the parasite.",
@@ -117,26 +147,99 @@
     ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/ich-2-jpeg.98766/", "caption": {"en": "Fish with marine ich", "hu": "Tengeri ichtől fertőzött hal"}},
-    {"url": "https://humble.fish/community/attachments/ich-3-jpeg.98767/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
-    {"url": "https://humble.fish/community/attachments/ich-2-jpg.36585/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
-    {"url": "https://humble.fish/community/attachments/ich-3-jpg.36586/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
-    {"url": "https://humble.fish/community/attachments/ichcyclegraph-jpeg.98768/", "caption": {"en": "Marine ich life cycle diagram (credit: Charles Raabe)", "hu": "A tengeri ich életciklusa (forrás: Charles Raabe)"}},
-    {"url": "https://humble.fish/community/attachments/table1_zpsfwf5goxj-jpg.98771/", "caption": {"en": "Table of timing for each life cycle stage", "hu": "Az egyes életciklus-stádiumok időtartamának táblázata"}}
+    {
+      "url": "https://humble.fish/community/attachments/ich-2-jpeg.98766/",
+      "caption": {
+        "en": "Fish with marine ich",
+        "hu": "Tengeri ichtől fertőzött hal"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/ich-3-jpeg.98767/",
+      "caption": {
+        "en": "Salt or sugar-like sprinkles on the body and fins",
+        "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/ich-2-jpg.36585/",
+      "caption": {
+        "en": "Salt or sugar-like sprinkles on the body and fins",
+        "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/ich-3-jpg.36586/",
+      "caption": {
+        "en": "Salt or sugar-like sprinkles on the body and fins",
+        "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/ichcyclegraph-jpeg.98768/",
+      "caption": {
+        "en": "Marine ich life cycle diagram (credit: Charles Raabe)",
+        "hu": "A tengeri ich életciklusa (forrás: Charles Raabe)"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/table1_zpsfwf5goxj-jpg.98771/",
+      "caption": {
+        "en": "Table of timing for each life cycle stage",
+        "hu": "Az egyes életciklus-stádiumok időtartamának táblázata"
+      }
+    }
   ],
+  "cover": 1,
   "related_links": [
-    {"title": "Ich eradication vs. ich management", "url": "https://humble.fish/community/index.php?threads/ich-eradication-vs-ich-management.28/"},
-    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
-    {"title": "Hyposalinity", "url": "https://humble.fish/community/index.php?threads/hyposalinity.22/"},
-    {"title": "Chloroquine Phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
-    {"title": "Copper treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
-    {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
-    {"title": "New ich fallow period", "url": "https://humble.fish/community/index.php?threads/new-ich-fallow-period.1824/"},
-    {"title": "Coral/invert quarantine time frames", "url": "https://humble.fish/community/index.php?threads/coral-invert-quarantine-time-frames.487/"},
-    {"title": "Aerosol transmission", "url": "https://humble.fish/community/index.php?threads/aerosol-transmission.1615/"},
-    {"title": "FA164: Cryptocaryon irritans Infections (Marine White Spot Disease) in Fish - UF/IFAS", "url": "https://edis.ifas.ufl.edu/publication/FA164"},
-    {"title": "ATJ's Marine Aquarium Site - Marine Ich", "url": "http://atj.net.au/marineaquaria/marineich.html"},
-    {"title": "Video: marine ich (YouTube)", "url": "https://www.youtube.com/watch?v=GOXbhdfj78M"}
+    {
+      "title": "Ich eradication vs. ich management",
+      "url": "https://humble.fish/community/index.php?threads/ich-eradication-vs-ich-management.28/"
+    },
+    {
+      "title": "Quarantine",
+      "url": "https://humble.fish/community/index.php?threads/quarantine.2/"
+    },
+    {
+      "title": "Hyposalinity",
+      "url": "https://humble.fish/community/index.php?threads/hyposalinity.22/"
+    },
+    {
+      "title": "Chloroquine Phosphate",
+      "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"
+    },
+    {
+      "title": "Copper treatment",
+      "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"
+    },
+    {
+      "title": "Tank Transfer Method (all versions)",
+      "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"
+    },
+    {
+      "title": "New ich fallow period",
+      "url": "https://humble.fish/community/index.php?threads/new-ich-fallow-period.1824/"
+    },
+    {
+      "title": "Coral/invert quarantine time frames",
+      "url": "https://humble.fish/community/index.php?threads/coral-invert-quarantine-time-frames.487/"
+    },
+    {
+      "title": "Aerosol transmission",
+      "url": "https://humble.fish/community/index.php?threads/aerosol-transmission.1615/"
+    },
+    {
+      "title": "FA164: Cryptocaryon irritans Infections (Marine White Spot Disease) in Fish - UF/IFAS",
+      "url": "https://edis.ifas.ufl.edu/publication/FA164"
+    },
+    {
+      "title": "ATJ's Marine Aquarium Site - Marine Ich",
+      "url": "http://atj.net.au/marineaquaria/marineich.html"
+    },
+    {
+      "title": "Video: marine ich (YouTube)",
+      "url": "https://www.youtube.com/watch?v=GOXbhdfj78M"
+    }
   ],
   "notes": {
     "en": "Updated 6-9-2023. Treating in the display tank is problematic: corals/inverts do not tolerate copper, chloroquine or hyposalinity, rock absorbs medications, and hyposalinity can wipe out the biofilter. Overlapping, unsynchronized stages (and multiple strains) can overwhelm a fish's immune system. Dosages for each treatment are in the linked treatment threads, not in this thread.",

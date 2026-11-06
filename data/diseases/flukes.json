@@ -2,7 +2,10 @@
   "id": "flukes",
   "source": "https://humble.fish/community/index.php?threads/flukes.7/",
   "author": "Humblefish",
-  "name": {"en": "Flukes (Monogeneans)", "hu": "Mételyek (Monogenea)"},
+  "name": {
+    "en": "Flukes (Monogeneans)",
+    "hu": "Mételyek (Monogenea)"
+  },
   "scientific": "Monogenea (Ancyrocephalidae, Gyrodactylidae, Capsalidae incl. Neobenedenia spp.)",
   "category": "parasite-worm",
   "summary": {
@@ -39,8 +42,27 @@
       "Egyes halakon egyáltalán nincs tünet"
     ]
   },
-  "body_areas": ["skin", "eyes", "mouth", "gills", "head", "fins", "behavior", "color"],
-  "appearance": ["cloudy-eye", "pale", "rapid-breathing", "flashing-scratching", "lethargy", "not-eating", "clamped-fins", "yawning", "head-shaking"],
+  "body_areas": [
+    "skin",
+    "eyes",
+    "mouth",
+    "gills",
+    "head",
+    "fins",
+    "behavior",
+    "color"
+  ],
+  "appearance": [
+    "cloudy-eye",
+    "pale",
+    "rapid-breathing",
+    "flashing-scratching",
+    "lethargy",
+    "not-eating",
+    "clamped-fins",
+    "yawning",
+    "head-shaking"
+  ],
   "speed": "days",
   "lethality": "medium",
   "contagious": true,
@@ -67,7 +89,10 @@
   "treatments": [
     {
       "treatment_id": "praziquantel",
-      "name": {"en": "Praziquantel (PraziPro)", "hu": "Praziquantel (PraziPro)"},
+      "name": {
+        "en": "Praziquantel (PraziPro)",
+        "hu": "Praziquantel (PraziPro)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Most common: dose 2.5 mg/L for 5-7 days, water change, then redose full amount for another 5-7 days; a 3rd and 4th round may be needed. Alternative: two 40-hour baths at 5 mg/L, 48 hours apart. Prazi dislodges flukes (they die after ~10 h). Very gentle on fish, but wrasses should not exceed 2.5 mg. Can suppress appetite and depletes oxygen - aerate well. Considered relatively reef safe (some feather dusters/worms may die). Finish with a large water change and carbon. A 2013 study found 82% effectiveness against Neobenedenia girellae.",
@@ -76,7 +101,10 @@
     },
     {
       "treatment_id": "hyposalinity",
-      "name": {"en": "Hyposalinity", "hu": "Hyposalinity (alacsony sótartalom)"},
+      "name": {
+        "en": "Hyposalinity",
+        "hu": "Hyposalinity (alacsony sótartalom)"
+      },
       "priority": "alternative",
       "details": {
         "en": "Research showed 15 ppt for 2 days eliminated juvenile and adult flukes; maintaining it for 5 days also prevented eggs from hatching.",
@@ -85,7 +113,10 @@
     },
     {
       "treatment_id": "formalin",
-      "name": {"en": "Formalin dip", "hu": "Formalinos fürdő"},
+      "name": {
+        "en": "Formalin dip",
+        "hu": "Formalinos fürdő"
+      },
       "priority": "alternative",
       "details": {
         "en": "Water below 70 F: 250 ppm for 30 minutes. Above 70 F or formalin-sensitive fish: 150 ppm for no more than 45 minutes. Repeat every 5-7 days. Aerate the dip water for at least one hour beforehand.",
@@ -94,7 +125,10 @@
     },
     {
       "treatment_id": "freshwater-dip",
-      "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdő"},
+      "name": {
+        "en": "Freshwater dip",
+        "hu": "Édesvízi fürdő"
+      },
       "priority": "supportive",
       "details": {
         "en": "Can be effective against skin flukes but not against gill flukes. Also used for diagnosis: after 3-5 minutes flukes turn opaque and fall off.",
@@ -117,20 +151,72 @@
     ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/encavzp-jpg.98875/", "caption": {"en": "Flukes on a fish", "hu": "Mételyek egy halon"}},
-    {"url": "https://humble.fish/community/attachments/skinflukes1-jpg.98876/", "caption": {"en": "Skin flukes on a fish", "hu": "Bőrmételyek egy halon"}},
-    {"url": "https://humble.fish/community/attachments/img_20200120_152222-jpg.943/", "caption": {"en": "Dead flukes in a freshwater dip", "hu": "Elpusztult mételyek édesvízi fürdőben"}},
-    {"url": "https://humble.fish/community/attachments/img_20200120_152203-jpg.944/", "caption": {"en": "Dead flukes in a freshwater dip", "hu": "Elpusztult mételyek édesvízi fürdőben"}},
-    {"url": "https://humble.fish/community/attachments/neobenedenia-png.98877/", "caption": {"en": "Adult Neobenedenia sp. detached from its host, under a microscope", "hu": "Gazdájáról levált felnőtt Neobenedenia sp. mikroszkóp alatt"}}
+    {
+      "url": "https://humble.fish/community/attachments/encavzp-jpg.98875/",
+      "caption": {
+        "en": "Flukes on a fish",
+        "hu": "Mételyek egy halon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/skinflukes1-jpg.98876/",
+      "caption": {
+        "en": "Skin flukes on a fish",
+        "hu": "Bőrmételyek egy halon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/img_20200120_152222-jpg.943/",
+      "caption": {
+        "en": "Dead flukes in a freshwater dip",
+        "hu": "Elpusztult mételyek édesvízi fürdőben"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/img_20200120_152203-jpg.944/",
+      "caption": {
+        "en": "Dead flukes in a freshwater dip",
+        "hu": "Elpusztult mételyek édesvízi fürdőben"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/neobenedenia-png.98877/",
+      "caption": {
+        "en": "Adult Neobenedenia sp. detached from its host, under a microscope",
+        "hu": "Gazdájáról levált felnőtt Neobenedenia sp. mikroszkóp alatt"
+      }
+    }
   ],
+  "cover": 1,
   "related_links": [
-    {"title": "Praziquantel", "url": "https://humble.fish/praziquantel/"},
-    {"title": "Hyposalinity", "url": "https://humble.fish/hyposalinity/"},
-    {"title": "Formalin", "url": "https://humble.fish/formalin/"},
-    {"title": "Freshwater dip", "url": "https://humble.fish/freshwater-dip/"},
-    {"title": "Monogenean Parasites of Fish (Texas A&M, PDF)", "url": "https://fisheries.tamu.edu/files/2013/09/Monogenean-Parasites-of-Fish.pdf"},
-    {"title": "Video: flukes (YouTube)", "url": "https://www.youtube.com/watch?v=mFpvW1iOnfU"},
-    {"title": "Video: flukes (YouTube)", "url": "https://www.youtube.com/watch?v=npt60HsPQG0"}
+    {
+      "title": "Praziquantel",
+      "url": "https://humble.fish/praziquantel/"
+    },
+    {
+      "title": "Hyposalinity",
+      "url": "https://humble.fish/hyposalinity/"
+    },
+    {
+      "title": "Formalin",
+      "url": "https://humble.fish/formalin/"
+    },
+    {
+      "title": "Freshwater dip",
+      "url": "https://humble.fish/freshwater-dip/"
+    },
+    {
+      "title": "Monogenean Parasites of Fish (Texas A&M, PDF)",
+      "url": "https://fisheries.tamu.edu/files/2013/09/Monogenean-Parasites-of-Fish.pdf"
+    },
+    {
+      "title": "Video: flukes (YouTube)",
+      "url": "https://www.youtube.com/watch?v=mFpvW1iOnfU"
+    },
+    {
+      "title": "Video: flukes (YouTube)",
+      "url": "https://www.youtube.com/watch?v=npt60HsPQG0"
+    }
   ],
   "notes": {
     "en": "Text written by Newsmyrna80 and reposted by Humblefish (updated 1/11/23). Fish may keep scratching after successful treatment while the skin heals from the hook wounds. Identifying the fluke family is helpful but not necessary for treatment. The original post also contains two uploaded videos (.mov) of flukes.",

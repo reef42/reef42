@@ -2,7 +2,10 @@
   "id": "uronema",
   "source": "https://humble.fish/community/index.php?threads/uronema.13/",
   "author": "Humblefish",
-  "name": {"en": "Uronema", "hu": "Uronema-fertőzés"},
+  "name": {
+    "en": "Uronema",
+    "hu": "Uronema-fertőzés"
+  },
   "scientific": "Uronema marinum",
   "category": "parasite-protozoan",
   "summary": {
@@ -25,8 +28,19 @@
       "Egyes halak tünetmentes hordozók"
     ]
   },
-  "body_areas": ["skin", "fins", "head", "behavior"],
-  "appearance": ["lesions-ulcers", "red-streaks", "hemorrhage", "lethargy", "not-eating"],
+  "body_areas": [
+    "skin",
+    "fins",
+    "head",
+    "behavior"
+  ],
+  "appearance": [
+    "lesions-ulcers",
+    "red-streaks",
+    "hemorrhage",
+    "lethargy",
+    "not-eating"
+  ],
   "speed": "sudden-fast",
   "lethality": "very-high",
   "contagious": true,
@@ -55,7 +69,10 @@
   "treatments": [
     {
       "treatment_id": "formalin",
-      "name": {"en": "Formalin (limit transmission in QT)", "hu": "Formalin (terjedés korlátozása QT-ben)"},
+      "name": {
+        "en": "Formalin (limit transmission in QT)",
+        "hu": "Formalin (terjedés korlátozása QT-ben)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Dose every 24 hours in QT for at least 10 days (FisHotel updated to 10-12 days). 25 ppm = 1 ml per 10 gallons without copper; 0.9 ml per 10 gallons when combined with copper. A 30-60 minute bath helps but continuous dosing is better. DO NOT use formalin on fish with red sores. Reported by FisHotel as the most reliable method (no fish slipped through in hundreds treated), but handle with great care.",
@@ -64,7 +81,10 @@
     },
     {
       "treatment_id": "chloroquine-phosphate",
-      "name": {"en": "Chloroquine phosphate (limit transmission in QT)", "hu": "Chloroquine phosphate (terjedés korlátozása QT-ben)"},
+      "name": {
+        "en": "Chloroquine phosphate (limit transmission in QT)",
+        "hu": "Chloroquine phosphate (terjedés korlátozása QT-ben)"
+      },
       "priority": "alternative",
       "details": {
         "en": "15-20 mg/L (60-80 mg/gal) for at least 2 weeks. Some fish do not tolerate 80 mg/gal. Cannot be tested for; moving fish from copper to CP is risky (they often stop eating). Usually will not save fish already showing red sores.",
@@ -72,8 +92,11 @@
       }
     },
     {
-      "treatment_id": "ruby-reef-rally",
-      "name": {"en": "Ruby Reef Rally + Copper Power (in QT)", "hu": "Ruby Reef Rally + Copper Power (QT-ben)"},
+      "treatment_id": "acriflavine",
+      "name": {
+        "en": "Ruby Reef Rally + Copper Power (in QT)",
+        "hu": "Ruby Reef Rally + Copper Power (QT-ben)"
+      },
       "priority": "alternative",
       "details": {
         "en": "Dose Rally 3 ml/gallon every 24 hours for at least 5 days while running Copper Power at 2.2-2.3 ppm for 30 days. Appears to prevent spread in the water. Rally at 3 ml/gallon harms biological filtration, so watch ammonia closely.",
@@ -81,8 +104,11 @@
       }
     },
     {
-      "treatment_id": "metronidazole",
-      "name": {"en": "Metronidazole food soak", "hu": "Metronidazolos táplálékáztatás"},
+      "treatment_id": "metroplex",
+      "name": {
+        "en": "Metronidazole food soak",
+        "hu": "Metronidazolos táplálékáztatás"
+      },
       "priority": "supportive",
       "details": {
         "en": "Soak food in metronidazole (recipe in the Metronidazole thread) to eliminate internal (intracellular) Uronema, alongside the transmission-limiting treatment.",
@@ -90,8 +116,11 @@
       }
     },
     {
-      "treatment_id": "rally-bath",
-      "name": {"en": "Ruby Reef Rally bath (fish with red sores)", "hu": "Ruby Reef Rally fürdő (vörös sebes halak)"},
+      "treatment_id": "acriflavine",
+      "name": {
+        "en": "Ruby Reef Rally bath (fish with red sores)",
+        "hu": "Ruby Reef Rally fürdő (vörös sebes halak)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Fish with visible red sores have been treated successfully with a daily 90 minute Rally bath at 3 ml/gallon (outside QT) for 14 days straight, while the QT itself is treated with copper.",
@@ -100,7 +129,10 @@
     },
     {
       "treatment_id": "tea-tree-oil-bath",
-      "name": {"en": "Tea tree oil bath (Standard Melafix)", "hu": "Teafaolajos fürdő (Standard Melafix)"},
+      "name": {
+        "en": "Tea tree oil bath (Standard Melafix)",
+        "hu": "Teafaolajos fürdő (Standard Melafix)"
+      },
       "priority": "first-line",
       "details": {
         "en": "Considered the best option for fish with red sores. Add 7.6 ml (20 ppm) of Standard Melafix (NOT the Marine version) per gallon of saltwater; aerate heavily because it depletes oxygen. Bath for 8 minutes (at least 5 minutes to count; up to 30 minutes if tolerated). Repeat every 48 hours for 3 treatments. Fish may 'fall asleep' or lie on their side (normal after 10+ minutes); remove immediately if a fish nose-dives and cannot lift itself. Afterwards move the fish to a clean QT with an antibiotic or Methylene Blue (requires two tanks and equipment sets to rotate). With only one QT, add Metronidazole and antibiotics after the bath; the trifecta (Metroplex + Kanaplex + Nitrofurazone) is best. Also helps with bacterial redness.",
@@ -109,7 +141,10 @@
     },
     {
       "treatment_id": "kanaplex",
-      "name": {"en": "Antibiotics trifecta (Metroplex + Kanaplex + Nitrofurazone)", "hu": "Antibiotikum trifecta (Metroplex + Kanaplex + Nitrofurazone)"},
+      "name": {
+        "en": "Antibiotics trifecta (Metroplex + Kanaplex + Nitrofurazone)",
+        "hu": "Antibiotikum trifecta (Metroplex + Kanaplex + Nitrofurazone)"
+      },
       "priority": "supportive",
       "details": {
         "en": "Used in QT after baths to limit reinfection and treat open wounds and the secondary bacterial infection.",
@@ -118,7 +153,10 @@
     },
     {
       "treatment_id": "methylene-blue",
-      "name": {"en": "Methylene Blue freshwater dip", "hu": "Methylene Blue-s édesvizes merítés"},
+      "name": {
+        "en": "Methylene Blue freshwater dip",
+        "hu": "Methylene Blue-s édesvizes merítés"
+      },
       "priority": "supportive",
       "details": {
         "en": "Methylene Blue in a 5 minute freshwater dip can provide temporary relief.",
@@ -127,7 +165,10 @@
     },
     {
       "treatment_id": "display-tank-treatment",
-      "name": {"en": "Display tank: metronidazole or hydrogen peroxide dosing", "hu": "Bemutató akvárium: metronidazol vagy hidrogén-peroxid adagolás"},
+      "name": {
+        "en": "Display tank: metronidazole or hydrogen peroxide dosing",
+        "hu": "Bemutató akvárium: metronidazol vagy hidrogén-peroxid adagolás"
+      },
       "priority": "alternative",
       "details": {
         "en": "Two possible (not guaranteed) ways to eliminate Uronema from a reef display: metronidazole dosing to the reef tank, or peroxide (H2O2) dosing for parasites. See linked how-to threads.",
@@ -136,7 +177,10 @@
     },
     {
       "treatment_id": "fallow-period",
-      "name": {"en": "Fallow period", "hu": "Hal nélküli időszak (fallow)"},
+      "name": {
+        "en": "Fallow period",
+        "hu": "Hal nélküli időszak (fallow)"
+      },
       "priority": "not-recommended",
       "details": {
         "en": "Does not work: Uronema is free-living and survives without fish.",
@@ -145,7 +189,10 @@
     },
     {
       "treatment_id": "euthanasia",
-      "name": {"en": "Euthanasia", "hu": "Eutanázia"},
+      "name": {
+        "en": "Euthanasia",
+        "hu": "Eutanázia"
+      },
       "priority": "supportive",
       "details": {
         "en": "If treatment fails, euthanasia is the most humane remaining option.",
@@ -170,30 +217,112 @@
     ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/uronema-jpg.98887/", "caption": {"en": "Uronema marinum", "hu": "Uronema marinum"}},
-    {"url": "https://humble.fish/community/attachments/uronema1-jpg.98888/", "caption": {"en": "Red sores caused by Uronema", "hu": "Uronema okozta vörös sebek"}},
-    {"url": "https://humble.fish/community/attachments/uronema2-jpg.98889/", "caption": {"en": "Red sores caused by Uronema", "hu": "Uronema okozta vörös sebek"}},
-    {"url": "https://humble.fish/community/index.php?attachments/img_4885-jpg.93666/", "caption": {"en": "Fish with Uronema red sores", "hu": "Hal Uronema okozta vörös sebekkel"}},
-    {"url": "https://humble.fish/community/attachments/5001010-jpg.92956/", "caption": {"en": "Tea tree oil bath product (Standard Melafix) used for Uronema", "hu": "Teafaolajos fürdőhöz használt készítmény (Standard Melafix)"}}
+    {
+      "url": "https://humble.fish/community/attachments/uronema-jpg.98887/",
+      "caption": {
+        "en": "Uronema marinum",
+        "hu": "Uronema marinum"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/uronema1-jpg.98888/",
+      "caption": {
+        "en": "Red sores caused by Uronema",
+        "hu": "Uronema okozta vörös sebek"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/uronema2-jpg.98889/",
+      "caption": {
+        "en": "Red sores caused by Uronema",
+        "hu": "Uronema okozta vörös sebek"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/index.php?attachments/img_4885-jpg.93666/",
+      "caption": {
+        "en": "Fish with Uronema red sores",
+        "hu": "Hal Uronema okozta vörös sebekkel"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/5001010-jpg.92956/",
+      "caption": {
+        "en": "Tea tree oil bath product (Standard Melafix) used for Uronema",
+        "hu": "Teafaolajos fürdőhöz használt készítmény (Standard Melafix)"
+      }
+    }
   ],
+  "cover": 1,
   "related_links": [
-    {"title": "Us vs Uronema", "url": "https://humble.fish/community/index.php?threads/us-vs-uronema.15259/"},
-    {"title": "I'm gonna kick Uronema's ass!", "url": "https://humble.fish/community/threads/im-gonna-kick-uronemas-ass.21161/"},
-    {"title": "Peroxide (H2O2) dosing for parasites in reef tank", "url": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/"},
-    {"title": "Metronidazole dosing to reef tank for Uronema", "url": "https://humble.fish/community/threads/how-to-metronidazole-dosing-to-reef-tank-for-uronema-and-possibly-other-ciliates.21546/"},
-    {"title": "Formalin", "url": "https://humble.fish/community/threads/formalin.19/"},
-    {"title": "Chloroquine phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
-    {"title": "Metronidazole", "url": "https://humble.fish/community/index.php?threads/metronidazole.24/"},
-    {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"},
-    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
-    {"title": "Bacterial Infections", "url": "https://humble.fish/community/threads/bacterial-infections.120/"},
-    {"title": "Fallow periods (going fishless)", "url": "https://humble.fish/community/index.php?threads/fallow-periods-going-fishless.32/"},
-    {"title": "Copper treatment", "url": "https://humble.fish/community/threads/copper-treatment.17/"},
-    {"title": "Quarantine", "url": "https://humble.fish/community/threads/quarantine.2/"},
-    {"title": "Freshwater Dip", "url": "https://humble.fish/community/threads/freshwater-dip.20/"},
-    {"title": "How to euthanize a fish", "url": "https://humble.fish/community/index.php?threads/euthanize-a-fish.2078/"},
-    {"title": "Antiparasitic Effects of Some Essential Oils on the Scuticociliate Uronema sp. (abstract)", "url": "https://www.researchgate.net/publication/287862971_Antiparasitic_Effects_of_Some_Essential_Oils_on_the_Scuticociliate_Uronema_Sp"},
-    {"title": "Standard Melafix (API)", "url": "https://apifishcare.com/product/melafix"}
+    {
+      "title": "Us vs Uronema",
+      "url": "https://humble.fish/community/index.php?threads/us-vs-uronema.15259/"
+    },
+    {
+      "title": "I'm gonna kick Uronema's ass!",
+      "url": "https://humble.fish/community/threads/im-gonna-kick-uronemas-ass.21161/"
+    },
+    {
+      "title": "Peroxide (H2O2) dosing for parasites in reef tank",
+      "url": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/"
+    },
+    {
+      "title": "Metronidazole dosing to reef tank for Uronema",
+      "url": "https://humble.fish/community/threads/how-to-metronidazole-dosing-to-reef-tank-for-uronema-and-possibly-other-ciliates.21546/"
+    },
+    {
+      "title": "Formalin",
+      "url": "https://humble.fish/community/threads/formalin.19/"
+    },
+    {
+      "title": "Chloroquine phosphate",
+      "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"
+    },
+    {
+      "title": "Metronidazole",
+      "url": "https://humble.fish/community/index.php?threads/metronidazole.24/"
+    },
+    {
+      "title": "Antibiotics",
+      "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"
+    },
+    {
+      "title": "Methylene Blue",
+      "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"
+    },
+    {
+      "title": "Bacterial Infections",
+      "url": "https://humble.fish/community/threads/bacterial-infections.120/"
+    },
+    {
+      "title": "Fallow periods (going fishless)",
+      "url": "https://humble.fish/community/index.php?threads/fallow-periods-going-fishless.32/"
+    },
+    {
+      "title": "Copper treatment",
+      "url": "https://humble.fish/community/threads/copper-treatment.17/"
+    },
+    {
+      "title": "Quarantine",
+      "url": "https://humble.fish/community/threads/quarantine.2/"
+    },
+    {
+      "title": "Freshwater Dip",
+      "url": "https://humble.fish/community/threads/freshwater-dip.20/"
+    },
+    {
+      "title": "How to euthanize a fish",
+      "url": "https://humble.fish/community/index.php?threads/euthanize-a-fish.2078/"
+    },
+    {
+      "title": "Antiparasitic Effects of Some Essential Oils on the Scuticociliate Uronema sp. (abstract)",
+      "url": "https://www.researchgate.net/publication/287862971_Antiparasitic_Effects_of_Some_Essential_Oils_on_the_Scuticociliate_Uronema_Sp"
+    },
+    {
+      "title": "Standard Melafix (API)",
+      "url": "https://apifishcare.com/product/melafix"
+    }
   ],
   "notes": {
     "en": "Merged from three threads: the main Uronema thread (Humblefish), 'Us vs Uronema' (Dierks, FisHotel) and 'I'm gonna kick Uronema's ass!' (Humblefish). Aquabiomics found some Uronema in 19% of tanks tested (a skewed sample, since tests are usually sent from tanks with problems). The Melafix bath was tested on many species (cardinals, gobies, wrasses, tangs, anthias, butterflies, angels, triggers and others) with one loss reported. The Rally protocols are still being tested.",

@@ -2,7 +2,10 @@
   "id": "brooklynella",
   "source": "https://humble.fish/community/index.php?threads/brooklynella.5/",
   "author": "Humblefish",
-  "name": {"en": "Brooklynella (Clownfish Disease)", "hu": "Brooklynella (bohóchal-betegség)"},
+  "name": {
+    "en": "Brooklynella (Clownfish Disease)",
+    "hu": "Brooklynella (bohóchal-betegség)"
+  },
   "scientific": "Brooklynella hostilis",
   "category": "parasite-protozoan",
   "summary": {
@@ -10,15 +13,49 @@
     "hu": "A Brooklynella hostilis egy csillós parazita, leggyakrabban bohóchalakon, ahol a bőr hámlónak, leválónak tűnik, ami valójában vastag fehér nyálka. Más halakat is megfertőzhet, általában a kopoltyúkban, és nagyon gyorsan ölhet. Az elsődleges kezelés 45-60 perces formalin fürdő, majd steril QT-be helyezés és utókezelés metronidazollal."
   },
   "symptoms": {
-    "en": ["Skin appears to peel or slough off (excess white mucus), especially on clownfish", "Thick white slime coating", "Rapid or labored breathing (gill involvement)", "On non-clownfish: mottled, blotchy, washed-out discoloration", "Ragged or discolored fins", "Cloudy eyes in advanced cases", "Puffers may inflate in late stages"],
-    "hu": ["A bőr hámlik vagy leválik (sok fehér nyálka), főleg bohóchalakon", "Vastag fehér nyálkaréteg", "Gyors vagy nehézkes légzés (kopoltyúérintettség)", "Nem bohóchalakon: foltos, márványos, kifakult elszíneződés", "Rongyos vagy elszíneződött úszók", "Előrehaladott esetben zavaros szem", "Gömbhalak a késői szakaszban felfújhatják magukat"]
+    "en": [
+      "Skin appears to peel or slough off (excess white mucus), especially on clownfish",
+      "Thick white slime coating",
+      "Rapid or labored breathing (gill involvement)",
+      "On non-clownfish: mottled, blotchy, washed-out discoloration",
+      "Ragged or discolored fins",
+      "Cloudy eyes in advanced cases",
+      "Puffers may inflate in late stages"
+    ],
+    "hu": [
+      "A bőr hámlik vagy leválik (sok fehér nyálka), főleg bohóchalakon",
+      "Vastag fehér nyálkaréteg",
+      "Gyors vagy nehézkes légzés (kopoltyúérintettség)",
+      "Nem bohóchalakon: foltos, márványos, kifakult elszíneződés",
+      "Rongyos vagy elszíneződött úszók",
+      "Előrehaladott esetben zavaros szem",
+      "Gömbhalak a késői szakaszban felfújhatják magukat"
+    ]
   },
-  "body_areas": ["skin", "gills", "fins", "eyes", "color", "behavior"],
-  "appearance": ["slime-mucus", "pale", "rapid-breathing", "fin-rot", "cloudy-eye", "lethargy", "not-eating"],
+  "body_areas": [
+    "skin",
+    "gills",
+    "fins",
+    "eyes",
+    "color",
+    "behavior"
+  ],
+  "appearance": [
+    "slime-mucus",
+    "pale",
+    "rapid-breathing",
+    "fin-rot",
+    "cloudy-eye",
+    "lethargy",
+    "not-eating"
+  ],
   "speed": "sudden-fast",
   "lethality": "very-high",
   "contagious": true,
-  "commonly_affected": {"en": "Clownfish most often; also tangs, puffers, angelfish and other fish (often in the gills)", "hu": "Leggyakrabban bohóchalak; emellett tangok, gömbhalak, császárhalak és más halak (gyakran a kopoltyúban)"},
+  "commonly_affected": {
+    "en": "Clownfish most often; also tangs, puffers, angelfish and other fish (often in the gills)",
+    "hu": "Leggyakrabban bohóchalak; emellett tangok, gömbhalak, császárhalak és más halak (gyakran a kopoltyúban)"
+  },
   "distinguish": {
     "en": [
       "On clownfish the peeling, sloughing white mucus is characteristic.",
@@ -36,36 +73,192 @@
     "hu": "Közvetlen életciklus: a csillós a halon él, táplálkozik és szaporodik, cisztás stádium nélkül. Főleg közvetlen érintkezéssel terjed, de a paraziták a vízbe is leválhatnak és más halakat fertőzhetnek. A cisztás stádium hiánya miatt könnyebb kiirtani; a fő akvárium haltalanítási ideje 6 hét."
   },
   "treatments": [
-    {"treatment_id": "formalin", "name": {"en": "Formalin bath", "hu": "Formalin fürdő"}, "priority": "first-line", "details": {"en": "45-60 minute bath, then transfer to a new/sterile QT. Follow with metronidazole every 48 hours for 10-14 days.", "hu": "45-60 perces fürdő, majd új/steril QT-be helyezés. Utána metronidazol 48 óránként 10-14 napig."}},
-    {"treatment_id": "acriflavine", "name": {"en": "Ruby Reef Rally bath", "hu": "Ruby Reef Rally fürdő"}, "priority": "alternative", "details": {"en": "90 minute bath. Tangs reportedly respond very well (a Tomini tang recovered after about 5 days of daily baths).", "hu": "90 perces fürdő. A tangok állítólag nagyon jól reagálnak (egy Tomini tang kb. 5 napnyi napi fürdetés után teljesen felépült)."}},
-    {"treatment_id": "hybrid-ttm", "name": {"en": "Hybrid TTM with H2O2 baths", "hu": "Hybrid TTM H2O2 fürdőkkel"}, "priority": "alternative", "details": {"en": "2 hydrogen peroxide baths 6 days apart via Hybrid TTM. There has been at least one reported failure to clear Brook this way.", "hu": "2 hidrogén-peroxidos fürdő 6 nap különbséggel Hybrid TTM keretében. Legalább egy esetben nem sikerült így kiirtani a Brookot."}},
-    {"treatment_id": "freshwater-dip", "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdetés"}, "priority": "alternative", "details": {"en": "5 minute dip, then move the fish to a clean/sterile QT.", "hu": "5 perces fürdetés, majd tiszta/steril QT-be helyezés."}},
-    {"treatment_id": "metronidazole", "name": {"en": "Metronidazole follow-up", "hu": "Metronidazol utókezelés"}, "priority": "supportive", "details": {"en": "After any dip or bath, dose every 48 hours for 10-14 days in the QT as insurance.", "hu": "Bármely fürdetés után 48 óránként adagold 10-14 napig a QT-ben biztosításként."}},
-    {"treatment_id": "chloroquine-phosphate", "name": {"en": "Chloroquine Phosphate", "hu": "Klorokin-foszfát"}, "priority": "alternative", "details": {"en": "Alternative follow-up: dose once at 60 mg/gal; author suggests keeping it for at least 2 weeks.", "hu": "Alternatív utókezelés: egyszeri 60 mg/gallon adag; a szerző szerint legalább 2 hétig tartsd fenn."}},
-    {"treatment_id": "fallow-period", "name": {"en": "Fallow display tank", "hu": "Fő akvárium haltalanítása"}, "priority": "supportive", "details": {"en": "Leave the display fishless for 6 weeks to starve Brook out.", "hu": "Hagyd a fő akváriumot 6 hétig hal nélkül, hogy a Brook elpusztuljon."}},
-    {"treatment_id": "copper", "name": {"en": "Copper / hyposalinity", "hu": "Réz / hiposzalinitás"}, "priority": "not-recommended", "details": {"en": "May suppress symptoms but neither fully eliminates Brook.", "hu": "Elnyomhatja a tüneteket, de egyik sem irtja ki teljesen a Brookot."}}
+    {
+      "treatment_id": "formalin",
+      "name": {
+        "en": "Formalin bath",
+        "hu": "Formalin fürdő"
+      },
+      "priority": "first-line",
+      "details": {
+        "en": "45-60 minute bath, then transfer to a new/sterile QT. Follow with metronidazole every 48 hours for 10-14 days.",
+        "hu": "45-60 perces fürdő, majd új/steril QT-be helyezés. Utána metronidazol 48 óránként 10-14 napig."
+      }
+    },
+    {
+      "treatment_id": "acriflavine",
+      "name": {
+        "en": "Ruby Reef Rally bath",
+        "hu": "Ruby Reef Rally fürdő"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "90 minute bath. Tangs reportedly respond very well (a Tomini tang recovered after about 5 days of daily baths).",
+        "hu": "90 perces fürdő. A tangok állítólag nagyon jól reagálnak (egy Tomini tang kb. 5 napnyi napi fürdetés után teljesen felépült)."
+      }
+    },
+    {
+      "treatment_id": "hybrid-ttm",
+      "name": {
+        "en": "Hybrid TTM with H2O2 baths",
+        "hu": "Hybrid TTM H2O2 fürdőkkel"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "2 hydrogen peroxide baths 6 days apart via Hybrid TTM. There has been at least one reported failure to clear Brook this way.",
+        "hu": "2 hidrogén-peroxidos fürdő 6 nap különbséggel Hybrid TTM keretében. Legalább egy esetben nem sikerült így kiirtani a Brookot."
+      }
+    },
+    {
+      "treatment_id": "freshwater-dip",
+      "name": {
+        "en": "Freshwater dip",
+        "hu": "Édesvízi fürdetés"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "5 minute dip, then move the fish to a clean/sterile QT.",
+        "hu": "5 perces fürdetés, majd tiszta/steril QT-be helyezés."
+      }
+    },
+    {
+      "treatment_id": "metroplex",
+      "name": {
+        "en": "Metronidazole follow-up",
+        "hu": "Metronidazol utókezelés"
+      },
+      "priority": "supportive",
+      "details": {
+        "en": "After any dip or bath, dose every 48 hours for 10-14 days in the QT as insurance.",
+        "hu": "Bármely fürdetés után 48 óránként adagold 10-14 napig a QT-ben biztosításként."
+      }
+    },
+    {
+      "treatment_id": "chloroquine-phosphate",
+      "name": {
+        "en": "Chloroquine Phosphate",
+        "hu": "Klorokin-foszfát"
+      },
+      "priority": "alternative",
+      "details": {
+        "en": "Alternative follow-up: dose once at 60 mg/gal; author suggests keeping it for at least 2 weeks.",
+        "hu": "Alternatív utókezelés: egyszeri 60 mg/gallon adag; a szerző szerint legalább 2 hétig tartsd fenn."
+      }
+    },
+    {
+      "treatment_id": "fallow-period",
+      "name": {
+        "en": "Fallow display tank",
+        "hu": "Fő akvárium haltalanítása"
+      },
+      "priority": "supportive",
+      "details": {
+        "en": "Leave the display fishless for 6 weeks to starve Brook out.",
+        "hu": "Hagyd a fő akváriumot 6 hétig hal nélkül, hogy a Brook elpusztuljon."
+      }
+    },
+    {
+      "treatment_id": "copper",
+      "name": {
+        "en": "Copper / hyposalinity",
+        "hu": "Réz / hiposzalinitás"
+      },
+      "priority": "not-recommended",
+      "details": {
+        "en": "May suppress symptoms but neither fully eliminates Brook.",
+        "hu": "Elnyomhatja a tüneteket, de egyik sem irtja ki teljesen a Brookot."
+      }
+    }
   ],
   "prevention": {
-    "en": ["Quarantine new fish, especially clownfish", "After treatment move fish to a sterile QT to prevent reinfection", "Keep the display fallow for 6 weeks after an outbreak"],
-    "hu": ["Az új halakat, különösen a bohóchalakat, karanténozd", "Kezelés után steril QT-be tedd a halat az újrafertőződés elkerülésére", "Kitörés után 6 hétig tartsd hal nélkül a fő akváriumot"]
+    "en": [
+      "Quarantine new fish, especially clownfish",
+      "After treatment move fish to a sterile QT to prevent reinfection",
+      "Keep the display fallow for 6 weeks after an outbreak"
+    ],
+    "hu": [
+      "Az új halakat, különösen a bohóchalakat, karanténozd",
+      "Kezelés után steril QT-be tedd a halat az újrafertőződés elkerülésére",
+      "Kitörés után 6 hétig tartsd hal nélkül a fő akváriumot"
+    ]
   },
   "images": [
-    {"url": "https://humble.fish/community/attachments/img_3526-jpg.98797/", "caption": {"en": "Early stage Brooklynella on a clownfish", "hu": "Korai stádiumú Brooklynella bohóchalon"}},
-    {"url": "https://humble.fish/community/attachments/935186d8d5753ad6490634c379e686f6-jpg.98798/", "caption": {"en": "Early stage Brooklynella", "hu": "Korai stádiumú Brooklynella"}},
-    {"url": "https://humble.fish/community/attachments/brooklynella-clownfish-jpeg.72523/", "caption": {"en": "Advanced Brooklynella on a clownfish", "hu": "Előrehaladott Brooklynella bohóchalon"}},
-    {"url": "https://humble.fish/community/attachments/brooklynella2-jpg.98799/", "caption": {"en": "Advanced Brooklynella", "hu": "Előrehaladott Brooklynella"}},
-    {"url": "https://humble.fish/community/index.php?attachments/835d7f83-e8de-4b55-99b6-9c864f88d7de-jpeg.882/", "caption": {"en": "Brooklynella on a Naso tang (presents differently on non-clownfish)", "hu": "Brooklynella Naso tangon (nem bohóchalakon másként jelentkezik)"}},
-    {"url": "https://humble.fish/community/attachments/purple-tang-brook-3-jpg.36584/", "caption": {"en": "Brooklynella on a Purple tang", "hu": "Brooklynella bíbor tangon"}}
+    {
+      "url": "https://humble.fish/community/attachments/img_3526-jpg.98797/",
+      "caption": {
+        "en": "Early stage Brooklynella on a clownfish",
+        "hu": "Korai stádiumú Brooklynella bohóchalon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/935186d8d5753ad6490634c379e686f6-jpg.98798/",
+      "caption": {
+        "en": "Early stage Brooklynella",
+        "hu": "Korai stádiumú Brooklynella"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/brooklynella-clownfish-jpeg.72523/",
+      "caption": {
+        "en": "Advanced Brooklynella on a clownfish",
+        "hu": "Előrehaladott Brooklynella bohóchalon"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/brooklynella2-jpg.98799/",
+      "caption": {
+        "en": "Advanced Brooklynella",
+        "hu": "Előrehaladott Brooklynella"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/index.php?attachments/835d7f83-e8de-4b55-99b6-9c864f88d7de-jpeg.882/",
+      "caption": {
+        "en": "Brooklynella on a Naso tang (presents differently on non-clownfish)",
+        "hu": "Brooklynella Naso tangon (nem bohóchalakon másként jelentkezik)"
+      }
+    },
+    {
+      "url": "https://humble.fish/community/attachments/purple-tang-brook-3-jpg.36584/",
+      "caption": {
+        "en": "Brooklynella on a Purple tang",
+        "hu": "Brooklynella bíbor tangon"
+      }
+    }
   ],
   "related_links": [
-    {"title": "Formalin", "url": "https://humble.fish/community/index.php?threads/formalin.19/"},
-    {"title": "Metronidazole", "url": "https://humble.fish/metronidazole/"},
-    {"title": "Acriflavine", "url": "https://humble.fish/community/index.php?threads/acriflavine.14/"},
-    {"title": "Hybrid TTM to treat more parasites", "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-to-treat-more-parasites.87/"},
-    {"title": "Freshwater Dip", "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"},
-    {"title": "Chloroquine Phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
-    {"title": "Hybrid TTM failed with brook", "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-failed-with-brook.3767/"},
-    {"title": "Ruby Reef Rally", "url": "https://rubyreef.com/products/rally-pro"}
+    {
+      "title": "Formalin",
+      "url": "https://humble.fish/community/index.php?threads/formalin.19/"
+    },
+    {
+      "title": "Metronidazole",
+      "url": "https://humble.fish/metronidazole/"
+    },
+    {
+      "title": "Acriflavine",
+      "url": "https://humble.fish/community/index.php?threads/acriflavine.14/"
+    },
+    {
+      "title": "Hybrid TTM to treat more parasites",
+      "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-to-treat-more-parasites.87/"
+    },
+    {
+      "title": "Freshwater Dip",
+      "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"
+    },
+    {
+      "title": "Chloroquine Phosphate",
+      "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"
+    },
+    {
+      "title": "Hybrid TTM failed with brook",
+      "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-failed-with-brook.3767/"
+    },
+    {
+      "title": "Ruby Reef Rally",
+      "url": "https://rubyreef.com/products/rally-pro"
+    }
   ],
   "notes": {
     "en": "A member report (AndyR83) describes a display-tank outbreak affecting puffers, clownfish, angels and others: puffers often 'puffed' in late stages, which preceded death within about 12 hours. Outbreaks in non-clownfish seem more common in the UK. Additional photos of an Arothron puffer and a Tomini tang are in the thread (attachments 57526-57530).",
