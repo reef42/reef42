@@ -1,0 +1,27 @@
+{
+  "general": [
+    {
+      "title": { "en": "humble.fish – Fish Diseases (index thread)", "hu": "humble.fish – Fish Diseases (jegyzék)" },
+      "url": "https://humble.fish/community/threads/fish-diseases.3/",
+      "note": { "en": "The disease index this site is built on.", "hu": "A betegségjegyzék, amelyre ez az oldal épül." }
+    },
+    {
+      "title": { "en": "humble.fish – Medications and Treatments", "hu": "humble.fish – Medications and Treatments" },
+      "url": "https://humble.fish/community/threads/medications-and-treatments.4/",
+      "note": { "en": "Medication and treatment method index.", "hu": "Gyógyszerek és kezelési módszerek jegyzéke." }
+    },
+    {
+      "title": { "en": "humble.fish – How To Quarantine", "hu": "humble.fish – How To Quarantine" },
+      "url": "https://humble.fish/community/threads/quarantine.2/"
+    },
+    {
+      "title": { "en": "humble.fish – Quarantine Strategies & Protocols", "hu": "humble.fish – Quarantine Strategies & Protocols" },
+      "url": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/"
+    },
+    {
+      "title": { "en": "Marine Fish Diseases and Parasites – pictorial guide (Chuck's Addiction)", "hu": "Marine Fish Diseases and Parasites – képes útmutató (Chuck's Addiction)" },
+      "url": "http://chucksaddiction.thefishestate.net/disease.html",
+      "note": { "en": "External picture guide linked from the humble.fish index.", "hu": "A humble.fish jegyzékből hivatkozott külső képes útmutató." }
+    }
+  ]
+}
