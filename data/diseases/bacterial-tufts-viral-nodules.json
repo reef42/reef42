@@ -1,0 +1,71 @@
+{
+  "id": "bacterial-tufts-viral-nodules",
+  "source": "https://humble.fish/community/index.php?threads/bacterial-tufts-viral-nodules.6799/",
+  "author": "Humblefish",
+  "name": {"en": "Bacterial Tufts & Viral Nodules", "hu": "Bakteriális pamacsok és vírusos csomók"},
+  "scientific": "Vibrio spp. (bacterial tufts); viral nodules similar to Lymphocystis",
+  "category": "bacterial",
+  "summary": {
+    "en": "Bacterial tufts are white bacterial growths on the skin that can start out resembling Ich or even Velvet and later look like Lymphocystis nodules. Viral nodules look almost identical. Both usually clear without medication given clean water, good nutrition and vitamin/Beta-glucan soaked food. Hippo and Naso tangs are most prone, especially right after copper treatment.",
+    "hu": "A bakteriális pamacsok fehér, bakteriális eredetű kinövések a bőrön, amelyek eleinte Ich-re vagy akár Velvetre hasonlítanak, később Lymphocystis csomókra. A vírusos csomók szinte ugyanígy néznek ki. Mindkettő általában gyógyszer nélkül elmúlik tiszta vízben, jó táplálással és vitaminnal/béta-glükánnal áztatott eleséggel. Leginkább a hippo és Naso tangok hajlamosak rá, főleg közvetlenül réz kezelés után."
+  },
+  "symptoms": {
+    "en": ["White dots or growths on the skin, from Ich-sized to Velvet-sized", "Thin, wiry white growths or thick raised white dots", "Growths may protrude, dangle or move in the water flow", "Spots persist for more than 7 days", "Usually along the lateral line or on the face, not on the eyes", "Fish typically keeps eating and behaving normally"],
+    "hu": ["Fehér pöttyök vagy kinövések a bőrön, Ich-től Velvet méretig", "Vékony, drótszerű fehér kinövések vagy vastag, kiemelkedő fehér pöttyök", "A kinövések kiállhatnak, lóghatnak vagy mozoghatnak az áramlásban", "A foltok 7 napnál tovább megmaradnak", "Általában az oldalvonal mentén vagy a fejen, a szemen nem", "A hal többnyire normálisan eszik és viselkedik"]
+  },
+  "body_areas": ["skin", "fins", "head"],
+  "appearance": ["white-spots", "cotton-tufts", "nodules-cauliflower"],
+  "speed": "weeks",
+  "lethality": "low",
+  "contagious": true,
+  "commonly_affected": {"en": "Hippo (Paracanthurus) tangs and Naso tangs, also pyramid butterflyfish; especially after copper treatment or stress from poor water or aggression", "hu": "Hippo (Paracanthurus) és Naso tangok, valamint piramis pillangóhalak; főleg réz kezelés után vagy rossz víz, agresszió okozta stressz esetén"},
+  "distinguish": {
+    "en": [
+      "Unlike Ich/Velvet trophonts, bacterial tufts usually stay on the fish for more than 7 days; parasite trophonts drop off within 7 days.",
+      "Tufts protrude outward and can dangle or sway in flow; Ich trophonts sit just under the outer skin layer.",
+      "Tufts do not appear on the eyes and are usually along the lateral line or face (unlike Cryptocaryon).",
+      "Under a microscope tufts stain as bacteria and no protozoans are visible.",
+      "Viral nodules look almost identical to bacterial tufts; Lymphocystis is the closest comparison."
+    ],
+    "hu": [
+      "Az Ich/Velvet trofontokkal ellentétben a bakteriális pamacsok általában 7 napnál tovább maradnak a halon; a parazita trofontok 7 napon belül leesnek.",
+      "A pamacsok kifelé állnak, lóghatnak vagy hullámozhatnak az áramlásban; az Ich trofontok közvetlenül a külső bőrréteg alatt ülnek.",
+      "A pamacsok nem jelennek meg a szemen, általában az oldalvonal mentén vagy a fejen vannak (a Cryptocaryonnal ellentétben).",
+      "Mikroszkóp alatt baktériumként festődnek, protozoon nem látható.",
+      "A vírusos csomók szinte azonosak a bakteriális pamacsokkal; a Lymphocystis a legközelebbi hasonlat."
+    ]
+  },
+  "life_cycle": null,
+  "treatments": [
+    {"treatment_id": "improve-water-quality", "name": {"en": "Clean water and proper nutrition", "hu": "Tiszta víz és megfelelő táplálás"}, "priority": "first-line", "details": {"en": "Medications are typically not needed. Clean water (good gas exchange, low organics, nitrates around 10-20 ppm), proper nutrition and food soaked with vitamins/Beta-glucan usually clear both issues.", "hu": "Gyógyszer általában nem szükséges. Tiszta víz (jó gázcsere, kevés szerves anyag, nitrát kb. 10-20 ppm), megfelelő táplálás és vitaminnal/béta-glükánnal áztatott eleség általában mindkét problémát megszünteti."}},
+    {"treatment_id": "diet-improvement", "name": {"en": "Vitamins and Beta-glucan food soaking", "hu": "Vitaminos és béta-glükános eleségáztatás"}, "priority": "supportive", "details": {"en": "Soak food with vitamins and Beta-glucan to support the immune system.", "hu": "Áztasd az eleséget vitaminokkal és béta-glükánnal az immunrendszer támogatására."}},
+    {"treatment_id": "kanaplex-metroplex", "name": {"en": "Kanaplex + Metroplex", "hu": "Kanaplex + Metroplex"}, "priority": "alternative", "details": {"en": "If symptoms persist, dose Kanaplex + Metroplex in a QT, or soak them into food.", "hu": "Ha a tünetek nem múlnak, adagolj Kanaplex + Metroplex kombinációt QT-ben, vagy áztasd az eleségbe."}}
+  ],
+  "prevention": {
+    "en": ["Keep excellent water quality and avoid aggression stress", "Feed a varied diet with vitamins and Beta-glucan", "Support the immune system of tangs after copper treatment"],
+    "hu": ["Kiváló vízminőség, kerüld az agresszióból eredő stresszt", "Változatos étrend vitaminokkal és béta-glükánnal", "Réz kezelés után támogasd a tangok immunrendszerét"]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/1990dd00-c0d9-46e2-b0a0-217fd61672d1-jpg.36701/", "caption": {"en": "White bacterial tufts on a fish", "hu": "Fehér bakteriális pamacsok egy halon"}},
+    {"url": "https://humble.fish/community/attachments/21ddbaaa-5659-475e-a1ce-6d86b8cc63ed-jpg.36702/", "caption": {"en": "White bacterial tufts on a fish", "hu": "Fehér bakteriális pamacsok egy halon"}},
+    {"url": "https://humble.fish/community/attachments/pyramid-1-jpg.36703/", "caption": {"en": "Tufts/nodules on a pyramid butterflyfish", "hu": "Pamacsok/csomók egy piramis pillangóhalon"}},
+    {"url": "https://humble.fish/community/attachments/pyramid-2-jpg.36704/", "caption": {"en": "Tufts/nodules on a pyramid butterflyfish", "hu": "Pamacsok/csomók egy piramis pillangóhalon"}},
+    {"url": "https://humble.fish/community/attachments/bt-jpg.36705/", "caption": {"en": "Bacterial tufts", "hu": "Bakteriális pamacsok"}},
+    {"url": "https://humble.fish/community/attachments/btside-jpg.36706/", "caption": {"en": "Bacterial tufts, side view", "hu": "Bakteriális pamacsok, oldalnézet"}}
+  ],
+  "related_links": [
+    {"title": "Bacterial Infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
+    {"title": "Marine Ich", "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"},
+    {"title": "Marine Velvet Disease", "url": "https://humble.fish/community/index.php?threads/marine-velvet-disease.12/"},
+    {"title": "Lymphocystis", "url": "https://humble.fish/community/index.php?threads/lymphocystis.10/"},
+    {"title": "Fish nutrition - a way to avoid many problems", "url": "https://humble.fish/community/index.php?threads/fish-nutrition-a-way-to-avoid-many-problems.14469/"},
+    {"title": "Vitamins, Probiotics & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-probiotics-herbal-remedies.27/"},
+    {"title": "Copper Treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
+    {"title": "Seachem Kanaplex", "url": "https://www.seachem.com/kanaplex.php"},
+    {"title": "Seachem Metroplex", "url": "https://www.seachem.com/metroplex.php"}
+  ],
+  "notes": {
+    "en": "Term 'bacterial tufts' credited to Dr. Charlie Gregory. Author confirms in replies that both can spread to other fish, but a healthy immune system should handle them. More photos exist in the thread (attachments 36707-36709, 113682, 113683).",
+    "hu": "A 'bakteriális pamacs' kifejezés Dr. Charlie Gregorytól származik. A szerző a válaszokban megerősíti, hogy mindkettő átterjedhet más halakra, de egy egészséges immunrendszer megbirkózik vele. A témában további fotók is vannak."
+  }
+}

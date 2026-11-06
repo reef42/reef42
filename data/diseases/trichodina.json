@@ -1,0 +1,114 @@
+{
+  "id": "trichodina",
+  "source": "https://humble.fish/community/index.php?threads/trichodina.192/",
+  "author": "Humblefish",
+  "name": {"en": "Trichodina", "hu": "Trichodina (kerekesállatka-fertőzés)"},
+  "scientific": "Trichodina spp.",
+  "category": "parasite-protozoan",
+  "summary": {
+    "en": "Trichodina is a ciliated protozoan ('flying saucer' under the microscope) found on the gills, skin and fins of fish. It is rarely a problem unless fish are weakened, diseased or kept in poor water quality, where high bacterial counts feed the parasite. It is easily killed by copper, formalin or a freshwater dip, and fish may recover on their own once conditions improve.",
+    "hu": "A Trichodina csillós egysejtű (mikroszkóp alatt „repülő csészealj”), amely a halak kopoltyúján, bőrén és úszóin él. Ritkán okoz gondot, kivéve legyengült, beteg vagy rossz vízminőségben tartott halaknál, ahol a magas baktériumszám táplálja a parazitát. Réz, formalin vagy édesvizes merítés könnyen elpusztítja, és a halak a körülmények javulásával maguktól is meggyógyulhatnak."
+  },
+  "symptoms": {
+    "en": [
+      "Scratching / flashing",
+      "Clamped fins",
+      "Heavy breathing",
+      "Heavy infections: greyish-white film over the body"
+    ],
+    "hu": [
+      "Vakarózás / villogás (flashing)",
+      "Összecsukott úszók",
+      "Erős légzés",
+      "Súlyos fertőzésnél: szürkésfehér hártya a testen"
+    ]
+  },
+  "body_areas": ["skin", "fins", "gills", "behavior"],
+  "appearance": ["flashing-scratching", "clamped-fins", "rapid-breathing", "slime-mucus", "grey-film"],
+  "speed": "days",
+  "lethality": "low",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Weakened or stressed fish kept in poor water quality; also lives on invertebrates (copepods, molluscs, snails)",
+    "hu": "Legyengült vagy stresszes, rossz vízminőségben tartott halak; gerinctelenekon (evezőlábú rákok, puhatestűek, csigák) is él"
+  },
+  "distinguish": {
+    "en": [
+      "Mostly behavioral symptoms (flashing, clamped fins, heavy breathing) without distinct spots; heavy cases show a greyish-white film rather than discrete white dots like ich or velvet.",
+      "Confirmation requires a microscope: the parasite looks like a 'flying saucer'.",
+      "Usually linked to poor water quality / weakened fish, unlike ich or velvet which attack healthy fish."
+    ],
+    "hu": [
+      "Főleg viselkedési tünetek (vakarózás, összecsukott úszók, erős légzés) jól látható pöttyök nélkül; súlyos esetben szürkésfehér hártya, nem különálló fehér pöttyök, mint az ichnél vagy velvetnél.",
+      "Megerősítéshez mikroszkóp kell: a parazita „repülő csészealjra” hasonlít.",
+      "Általában rossz vízminőséghez / legyengült halakhoz kötődik, ellentétben az ich-csel vagy velvettel, amelyek egészséges halakat is megtámadnak."
+    ]
+  },
+  "life_cycle": {
+    "en": "Direct life cycle: reproduces by simple binary fission on the host, with no encysted stage. Spreads by incidental contact between hosts, and can also be free-floating or actively swim between hosts. Feeds on bacteria, so it can persist without fish; there is no fallow period. About 70 marine species exist; most are nonpathogenic.",
+    "hu": "Közvetlen életciklus: a gazdán egyszerű kettéosztódással szaporodik, betokozódott stádium nélkül. A gazdák véletlen érintkezésével terjed, de szabadon is lebeghet a vízben, vagy aktívan átúszhat egyik gazdáról a másikra. Baktériumokkal táplálkozik, így halak nélkül is fennmarad; fallow időszak nincs. Kb. 70 tengeri faja ismert, többségük nem kórokozó."
+  },
+  "treatments": [
+    {
+      "treatment_id": "copper",
+      "name": {"en": "Copper", "hu": "Réz"},
+      "priority": "first-line",
+      "details": {
+        "en": "Trichodina is killed instantly once exposed to therapeutic copper levels.",
+        "hu": "A Trichodina terápiás rézkoncentrációnak kitéve azonnal elpusztul."
+      }
+    },
+    {
+      "treatment_id": "formalin",
+      "name": {"en": "Formalin bath", "hu": "Formalinos fürdő"},
+      "priority": "alternative",
+      "details": {
+        "en": "30 minute formalin bath.",
+        "hu": "30 perces formalinos fürdő."
+      }
+    },
+    {
+      "treatment_id": "freshwater-dip",
+      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés"},
+      "priority": "alternative",
+      "details": {
+        "en": "5 minute freshwater dip.",
+        "hu": "5 perces édesvizes merítés."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Improve water quality, diet and reduce stress", "hu": "Vízminőség, táplálás javítása és stressz csökkentése"},
+      "priority": "supportive",
+      "details": {
+        "en": "Fish are typically resistant when given a low-stress environment, good water quality and a nutritious diet; they may even recover without treatment once conditions improve.",
+        "hu": "A halak alacsony stresszű környezetben, jó vízminőség és tápláló étrend mellett általában ellenállók; a körülmények javulásával kezelés nélkül is felgyógyulhatnak."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Maintain good water quality (lower bacterial load means less food for the parasite)",
+      "Provide a nutritious diet and low-stress environment",
+      "Note: almost every tank eventually gets Trichodina via invertebrates, so prevention focuses on fish health rather than exclusion"
+    ],
+    "hu": [
+      "Jó vízminőség fenntartása (kisebb baktériumterhelés = kevesebb táplálék a parazitának)",
+      "Tápláló étrend és alacsony stresszű környezet",
+      "Megjegyzés: szinte minden akváriumba bekerül előbb-utóbb a Trichodina a gerinctelenekkel, ezért a megelőzés a halak egészségére fókuszál, nem a kizárásra"
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/trichodina_01-jpeg.98885/", "caption": {"en": "Trichodina under the microscope ('flying saucer' shape)", "hu": "Trichodina mikroszkóp alatt („repülő csészealj” forma)"}},
+    {"url": "https://humble.fish/community/attachments/medium_size-jpeg.98886/", "caption": {"en": "Trichodina organism, microscope view", "hu": "Trichodina, mikroszkópos kép"}}
+  ],
+  "related_links": [
+    {"title": "Copper treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
+    {"title": "Formalin", "url": "https://humble.fish/community/index.php?threads/formalin.19/"},
+    {"title": "Freshwater Dip", "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"}
+  ],
+  "notes": {
+    "en": "Some Trichodina species parasitize the urogenital system rather than the skin/gills. There is no fallow period because the organism can live on bacteria.",
+    "hu": "Egyes Trichodina fajok nem a bőrön/kopoltyún, hanem a húgy-ivarszervekben élősködnek. Fallow időszak nincs, mert a szervezet baktériumokból is megél."
+  }
+}

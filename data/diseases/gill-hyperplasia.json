@@ -1,0 +1,95 @@
+{
+  "id": "gill-hyperplasia",
+  "source": "https://humble.fish/community/index.php?threads/gill-hyperplasia.15239/",
+  "author": "Humblefish",
+  "name": {"en": "Gill Hyperplasia", "hu": "Kopoltyú-hiperplázia"},
+  "scientific": null,
+  "category": "other",
+  "summary": {
+    "en": "Gill hyperplasia is an abnormal increase in the number of cells of the gill epithelium, causing red or swollen gills and labored breathing. Excess mucus forms and impairs gill function. It is usually secondary to an underlying cause such as gill parasites, worms, bacteria or poor water quality, which must be fixed for the gills to recover.",
+    "hu": "A kopoltyú-hiperplázia a kopoltyúhám sejtjeinek kóros megszaporodása, amely vörös vagy duzzadt kopoltyút és nehézlégzést okoz. Túlzott nyálka képződik, ami rontja a kopoltyú működését. Általában egy kiváltó ok következménye (kopoltyúparaziták, férgek, baktériumok vagy rossz vízminőség), amelyet meg kell szüntetni a gyógyuláshoz."
+  },
+  "symptoms": {
+    "en": [
+      "Red or swollen gills",
+      "Labored / rapid breathing",
+      "Excess mucus on the gills"
+    ],
+    "hu": [
+      "Vörös vagy duzzadt kopoltyú",
+      "Nehéz / gyors légzés",
+      "Túlzott nyálka a kopoltyún"
+    ]
+  },
+  "body_areas": ["gills", "behavior"],
+  "appearance": ["rapid-breathing", "slime-mucus", "swollen-gills", "red-gills"],
+  "speed": "days",
+  "lethality": "medium",
+  "contagious": false,
+  "commonly_affected": {"en": null, "hu": null},
+  "distinguish": {
+    "en": [
+      "It is a tissue response rather than a disease in itself: look for the underlying pathogen (gill parasites such as ich or flukes, worms, bacteria) or a water quality problem."
+    ],
+    "hu": [
+      "Ez szöveti válasz, nem önálló betegség: keresni kell a kiváltó kórokozót (kopoltyúparaziták, pl. ich vagy mételyek, férgek, baktériumok) vagy a vízminőségi problémát."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "treat-underlying-cause",
+      "name": {"en": "Treat the underlying cause", "hu": "A kiváltó ok kezelése"},
+      "priority": "first-line",
+      "details": {
+        "en": "Resolve the root cause, e.g. chemical treatment or osmotic shock (hyposalinity) to eliminate parasites, worms or bacteria.",
+        "hu": "A kiváltó okot kell megszüntetni, pl. gyógyszeres kezeléssel vagy ozmotikus sokkal (hyposalinity) a paraziták, férgek vagy baktériumok ellen."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Improve water quality and oxygenation", "hu": "Vízminőség és oxigénellátás javítása"},
+      "priority": "first-line",
+      "details": {
+        "en": "Eliminate any toxins in the water and closely monitor oxygen levels.",
+        "hu": "Minden mérgező anyagot el kell távolítani a vízből, és szorosan figyelni kell az oxigénszintet."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {"en": "Methylene Blue", "hu": "Metilénkék"},
+      "priority": "supportive",
+      "details": {
+        "en": "Can help repair gill damage and improve oxygen transport to the cells. No dosage given in this thread (see the Methylene Blue thread).",
+        "hu": "Segíthet a kopoltyúkárosodás helyreállításában és javítja a sejtek oxigénellátását. A szál nem ad meg adagolást (lásd a metilénkék szálat)."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Maintain good water quality free of toxins, with adequate oxygen.",
+      "Quarantine and treat new fish for gill parasites."
+    ],
+    "hu": [
+      "Jó, méreganyagoktól mentes vízminőség és megfelelő oxigénszint fenntartása.",
+      "Új halak karanténozása (QT) és kezelése kopoltyúparaziták ellen."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/img_0524-jpeg.142548/", "caption": {"en": "Gill hyperplasia", "hu": "Kopoltyú-hiperplázia"}},
+    {"url": "https://humble.fish/community/index.php?attachments/dff03f54-c877-4517-8090-51b906b4a844-jpeg.16908/", "caption": {"en": "Gill hyperplasia", "hu": "Kopoltyú-hiperplázia"}},
+    {"url": "https://humble.fish/community/attachments/1237347-a6f02a16eee6ba65d7096e8366a50849-jpg.93698/", "caption": {"en": "Gill hyperplasia", "hu": "Kopoltyú-hiperplázia"}}
+  ],
+  "related_links": [
+    {"title": "Fish Diseases", "url": "https://humble.fish/community/index.php?threads/fish-diseases.3/"},
+    {"title": "Medications and Treatments", "url": "https://humble.fish/community/index.php?threads/medications-and-treatments.4/"},
+    {"title": "Hyposalinity", "url": "https://humble.fish/community/index.php?threads/hyposalinity.22/"},
+    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
+    {"title": "Gill Hyperplasia - WikiVet English", "url": "https://en.wikivet.net/Gill_Hyperplasia"},
+    {"title": "Gill Disease: A Distressing Situation - Koi & Aquarium Fish Diseases", "url": "https://fishdoc.co.uk/gill-disease-a-distressing-situation/"}
+  ],
+  "notes": {
+    "en": "The thread is a short overview; image captions are not given in the source (all three photos illustrate the condition).",
+    "hu": "A szál rövid áttekintés; a forrás nem ad képaláírásokat (mindhárom fotó az elváltozást mutatja)."
+  }
+}

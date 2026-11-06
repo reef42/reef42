@@ -1,0 +1,200 @@
+{
+  "id": "marine-velvet",
+  "source": "https://humble.fish/community/index.php?threads/marine-velvet-disease.12/",
+  "author": "Humblefish",
+  "name": {"en": "Marine Velvet Disease", "hu": "Tengeri bársonybetegség (velvet)"},
+  "scientific": "Amyloodinium ocellatum",
+  "category": "parasite-protozoan",
+  "summary": {
+    "en": "Velvet is a single-celled dinoflagellate parasite and one of the fastest killers in marine aquaria, able to wipe out most fish in a tank within days. It usually attacks the gills first, so fish may suffocate before the typical fine 'dust' appears on the body. Immediate action is critical: a relief dip or bath, followed by quarantine treatment with chloroquine phosphate, copper or TTM, and a 6-week fallow period for the display tank.",
+    "hu": "A velvet egysejtű dinoflagellata parazita, a tengeri akváriumok egyik leggyorsabban ölő betegsége, amely napok alatt kipusztíthatja a halak nagy részét. Általában először a kopoltyúkat támadja, így a hal megfulladhat, mielőtt a jellegzetes finom „por” megjelenne a testén. Azonnali beavatkozás szükséges: enyhítő fürdetés, majd QT-kezelés chloroquine phosphate-tal, rézzel vagy TTM-mel, a bemutató akváriumot pedig 6 hétig hal nélkül kell tartani (fallow)."
+  },
+  "symptoms": {
+    "en": [
+      "Reduced or complete loss of appetite",
+      "Heavy/rapid breathing",
+      "Scratching, flashing, head twitching, erratic swimming",
+      "Swimming into the flow of a powerhead, pump or wavemaker",
+      "Hiding behind rocks (velvet makes fish light sensitive)",
+      "Body may look 'dirty' or show dark areas just before spots appear",
+      "Tiny white 'sprinkles', sometimes only visible on the fins",
+      "Within hours to days a fine dusty or powdery coating spreads over the whole body",
+      "Rapid deaths, sometimes before any visible spots (gill infection)"
+    ],
+    "hu": [
+      "Csökkent vagy teljesen megszűnt étvágy",
+      "Erős/gyors légzés",
+      "Vakarózás, villogás (flashing), fejrángatás, rendszertelen úszás",
+      "A hal a szivattyú/áramlásképző sodrásába úszik",
+      "Elbújás a kövek mögé (a velvet fényérzékennyé teszi a halat)",
+      "A test „piszkosnak” tűnhet vagy sötét foltok jelennek meg közvetlenül a pöttyök előtt",
+      "Apró fehér „szórás”, néha csak az úszókon látható",
+      "Órák-napok alatt finom poros bevonat borítja el az egész testet",
+      "Gyors elhullás, néha még a látható pöttyök előtt (kopoltyúfertőzés)"
+    ]
+  },
+  "body_areas": ["skin", "fins", "gills", "behavior", "color"],
+  "appearance": ["dusty-coating", "white-spots", "rapid-breathing", "flashing-scratching", "not-eating", "darkening", "hiding", "lethargy"],
+  "speed": "sudden-fast",
+  "lethality": "very-high",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Virtually all marine fish; tangs (e.g. Yellow Tang) frequently shown. Survivors are usually clownfish and fish with a thick mucus layer such as wrasses and dragonets.",
+    "hu": "Gyakorlatilag minden tengeri hal; gyakran tangok (pl. Yellow Tang). A túlélők általában bohóchalak és vastag nyálkaréteggel rendelkező halak, például ajakos halak (wrasse) és dragonetek."
+  },
+  "distinguish": {
+    "en": [
+      "Vs Marine Ich (Cryptocaryon): velvet dots are much smaller (10-80 micrometers, perfectly round) and far more numerous; ich trophonts are oval and larger (48 x 27 to 452 x 360 micrometers).",
+      "Rule of thumb: if you can count the white dots it is probably ich; if they are too numerous to count it is most likely velvet.",
+      "Velvet looks like a fine dusting of powder, ich looks more like grains of salt.",
+      "Behavioral signs (heavy breathing, flashing, not eating) are shared with ich and gill flukes, so behavior alone cannot confirm velvet.",
+      "Velvet progresses much faster than ich and usually cannot be 'managed' the way ich sometimes is."
+    ],
+    "hu": [
+      "Tengeri ichhez (Cryptocaryon) képest: a velvet pöttyei jóval kisebbek (10-80 mikrométer, tökéletesen kerekek) és sokkal számosabbak; az ich trophontjai oválisak és nagyobbak (48 x 27-től 452 x 360 mikrométerig).",
+      "Ökölszabály: ha meg tudod számolni a fehér pöttyöket, valószínűleg ich; ha túl sok ahhoz, hogy megszámold, nagy eséllyel velvet.",
+      "A velvet finom porszórásra emlékeztet, az ich inkább sószemcsékre.",
+      "A viselkedési tünetek (erős légzés, vakarózás, étvágytalanság) az ich-csel és a kopoltyúférgekkel (gill flukes) közösek, így önmagukban nem igazolják a velvetet.",
+      "A velvet sokkal gyorsabban halad, mint az ich, és általában nem lehet úgy „együtt élni” vele, ahogy az ich-csel néha igen."
+    ]
+  },
+  "life_cycle": {
+    "en": "Similar to ich but faster: the full cycle is completed in about 4 days on average. Free-swimming stages are called dinospores (not theronts), are far more numerous than ich theronts, and remain infective for up to 15 days (ich theronts only 48 hours). Trophonts start small and grow on the fish before dropping off.",
+    "hu": "Hasonló az ich életciklusához, de gyorsabb: átlagosan kb. 4 nap alatt zajlik le. A szabadon úszó alakokat dinospóráknak hívják (nem theront), sokkal nagyobb számban vannak, mint az ich theront-jai, és akár 15 napig fertőzőképesek maradnak (az ich theront-jai csak 48 óráig). A trophontok kicsiként kezdenek, a halon nőnek, majd leesnek."
+  },
+  "treatments": [
+    {
+      "treatment_id": "hydrogen-peroxide-bath",
+      "name": {"en": "Hydrogen peroxide bath", "hu": "Hidrogén-peroxidos fürdő"},
+      "priority": "first-line",
+      "details": {
+        "en": "Step 1 temporary relief (most preferred option): 30 minute hydrogen peroxide bath before moving the fish to QT. Relief only, not a cure.",
+        "hu": "1. lépés, átmeneti enyhítés (legelőnyösebb opció): 30 perces hidrogén-peroxidos fürdő, mielőtt a hal QT-be kerül. Csak enyhít, nem gyógyít."
+      }
+    },
+    {
+      "treatment_id": "formalin",
+      "name": {"en": "Formalin bath", "hu": "Formalinos fürdő"},
+      "priority": "alternative",
+      "details": {
+        "en": "Step 1 temporary relief alternative: 45-60 minute formalin bath.",
+        "hu": "1. lépés, alternatív átmeneti enyhítés: 45-60 perces formalinos fürdő."
+      }
+    },
+    {
+      "treatment_id": "freshwater-dip",
+      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés"},
+      "priority": "alternative",
+      "details": {
+        "en": "Step 1 temporary relief alternative: 5 minute freshwater dip.",
+        "hu": "1. lépés, alternatív átmeneti enyhítés: 5 perces édesvizes merítés."
+      }
+    },
+    {
+      "treatment_id": "ruby-reef-rally",
+      "name": {"en": "Ruby Reef Rally (Rally PRO) bath", "hu": "Ruby Reef Rally (Rally PRO) fürdő"},
+      "priority": "alternative",
+      "details": {
+        "en": "Step 1 temporary relief alternative: 90 minute bath using Ruby Reef Rally.",
+        "hu": "1. lépés, alternatív átmeneti enyhítés: 90 perces fürdő Ruby Reef Rally-val."
+      }
+    },
+    {
+      "treatment_id": "nitrofurazone",
+      "name": {"en": "Nitrofuracin Green Powder or Methylene Blue bath (optional)", "hu": "Nitrofuracin Green Powder vagy Methylene Blue fürdő (opcionális)"},
+      "priority": "supportive",
+      "details": {
+        "en": "Optional second bath before quarantine if the fish shows signs of a secondary bacterial infection.",
+        "hu": "Opcionális második fürdő a QT előtt, ha a halon másodlagos bakteriális fertőzés jelei látszanak."
+      }
+    },
+    {
+      "treatment_id": "chloroquine-phosphate",
+      "name": {"en": "Chloroquine phosphate (in QT)", "hu": "Chloroquine phosphate (QT-ben)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Step 2 quarantine tank treatment (pick one). See the forum's chloroquine phosphate protocol for dosing.",
+        "hu": "2. lépés, QT-kezelés (válassz egyet). Az adagolást lásd a fórum chloroquine phosphate protokolljában."
+      }
+    },
+    {
+      "treatment_id": "copper",
+      "name": {"en": "Copper (in QT)", "hu": "Réz (QT-ben)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Step 2 quarantine tank treatment (pick one). See the forum's copper treatment protocol for dosing.",
+        "hu": "2. lépés, QT-kezelés (válassz egyet). Az adagolást lásd a fórum rézkezelési protokolljában."
+      }
+    },
+    {
+      "treatment_id": "ttm",
+      "name": {"en": "Tank Transfer Method (two of its versions)", "hu": "Tank Transfer Method (TTM, két változata)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Step 2 alternative: two versions of TTM will eliminate velvet (see the TTM all-versions thread).",
+        "hu": "2. lépés alternatívája: a TTM két változata felszámolja a velvetet (lásd a TTM összes változatáról szóló témát)."
+      }
+    },
+    {
+      "treatment_id": "fallow-period",
+      "name": {"en": "Fallow period (display tank)", "hu": "Hal nélküli időszak (fallow) a bemutató akváriumban"},
+      "priority": "first-line",
+      "details": {
+        "en": "Keep the display tank fishless for 6 weeks to starve velvet out.",
+        "hu": "A bemutató akváriumot 6 hétig hal nélkül kell tartani, hogy a velvet kiéheztetve elpusztuljon."
+      }
+    },
+    {
+      "treatment_id": "disease-management",
+      "name": {"en": "Disease management (UV, diatom filter, ozone + nutrition)", "hu": "Betegség-menedzsment (UV, diatóma szűrő, ózon + táplálás)"},
+      "priority": "not-recommended",
+      "details": {
+        "en": "Velvet usually cannot be managed like ich. Management is only possibly achieved by diluting free swimmers with UV sterilizer, diatom filter or ozone, combined with good nutrition, vitamins and probiotics to boost immunity.",
+        "hu": "A velvettel általában nem lehet úgy együtt élni, mint az ich-csel. Menedzselés legfeljebb úgy lehetséges, ha UV-sterilizálóval, diatóma szűrővel vagy ózonnal ritkítják a szabadon úszó alakokat, jó táplálással, vitaminokkal és probiotikumokkal kombinálva az immunrendszer erősítésére."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Quarantine all new fish before adding them to the display tank",
+      "Watch closely for early behavioral signs (gasping, swimming into flow, hiding) and start treatment immediately",
+      "After an outbreak, leave the display fishless for 6 weeks"
+    ],
+    "hu": [
+      "Minden új halat karanténozni kell (QT), mielőtt a bemutató akváriumba kerül",
+      "Figyelni kell a korai viselkedési jeleket (kapkodó légzés, áramlásba úszás, bujkálás), és azonnal kezelni kell",
+      "Kitörés után a bemutató akváriumot 6 hétig hal nélkül kell tartani"
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/velvetscope-png.98749/", "caption": {"en": "Velvet (Amyloodinium ocellatum) under the microscope", "hu": "Velvet (Amyloodinium ocellatum) mikroszkóp alatt"}},
+    {"url": "https://humble.fish/community/attachments/20220315_183029-jpg.89027/", "caption": {"en": "Fish with the dusty/powdery appearance typical of velvet", "hu": "Hal a velvetre jellemző poros, hamvas bevonattal"}},
+    {"url": "https://humble.fish/community/attachments/velvet-2-jpeg.89030/", "caption": {"en": "Velvet infestation: fine white dust over body and fins", "hu": "Velvet fertőzés: finom fehér por a testen és az úszókon"}},
+    {"url": "https://humble.fish/community/attachments/velvet-2-jpg.36588/", "caption": {"en": "Yellow Tang with velvet under blue lights", "hu": "Velvetes Yellow Tang kék fényben"}},
+    {"url": "https://humble.fish/community/attachments/velvet-1-jpeg.98754/", "caption": {"en": "On light-colored fish the white dots are often mostly visible on the fins", "hu": "Világos színű halakon a fehér pöttyök gyakran főleg az úszókon látszanak"}},
+    {"url": "https://humble.fish/community/attachments/life-cycle-of-velvet-jpeg.98753/", "caption": {"en": "Life cycle of velvet", "hu": "A velvet életciklusa"}}
+  ],
+  "related_links": [
+    {"title": "The difference between Ich and Velvet", "url": "https://humble.fish/community/index.php?threads/the-difference-between-ich-velvet.532/"},
+    {"title": "Marine Ich", "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"},
+    {"title": "Gill Flukes", "url": "https://humble.fish/community/index.php?threads/flukes.7/"},
+    {"title": "Hydrogen Peroxide", "url": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/"},
+    {"title": "Formalin", "url": "https://humble.fish/community/index.php?threads/formalin.19/"},
+    {"title": "Freshwater Dip", "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"},
+    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
+    {"title": "Chloroquine phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
+    {"title": "Copper treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
+    {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
+    {"title": "Bacterial Infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
+    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
+    {"title": "Vitamins & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"},
+    {"title": "Disease eradication vs disease management", "url": "https://humble.fish/community/index.php?threads/disease-eradication-vs-disease-management-new.914/"},
+    {"title": "Ruby Reef Rally PRO", "url": "https://rubyreef.com/products/rally-pro"},
+    {"title": "SRAC Publication 4705: Amyloodinium ocellatum", "url": "https://fisheries.tamu.edu/files/2013/09/SRAC-Publication-No.-4705-Amyloodinium-ocellatum-an-Important-Parasite-of-Cultured-Marine-Fish.pdf"},
+    {"title": "Amyloodinium Infections of Marine Fish", "url": "https://agrilife.org/fisheries2/files/2013/09/Amyloodinium-Infections-of-Marine-Fish.pdf"}
+  ],
+  "notes": {
+    "en": "Once velvet has spread over the body the fish is heavily infected and the prognosis is bleak, so treatment must start at the first behavioral signs. On yellow or light-colored fish velvet can be hard to see; look at the fish from an angle rather than straight from the side. Some fish may develop acquired immunity or partial resistance.",
+    "hu": "Ha a velvet már az egész testre kiterjedt, a hal súlyosan fertőzött és a kilátások rosszak, ezért a kezelést az első viselkedési jeleknél el kell kezdeni. Sárga vagy világos halakon a velvet nehezen látható; érdemes ferdén, nem egyenesen oldalról nézni a halat. Egyes halak szerzett immunitást vagy részleges ellenállást alakíthatnak ki."
+  }
+}

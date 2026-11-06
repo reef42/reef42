@@ -1,0 +1,68 @@
+{
+  "id": "black-ich",
+  "source": "https://humble.fish/community/index.php?threads/black-ich.178/",
+  "author": "Humblefish",
+  "name": {"en": "Black Ich (Turbellarians)", "hu": "Fekete pöttyös betegség (Black Ich, turbellária)"},
+  "scientific": "Paravortex sp., Piscinquilinus sp.",
+  "category": "parasite-worm",
+  "summary": {
+    "en": "Black Ich is an infestation of parasitic turbellarian flatworms, seen mostly on tangs/surgeonfish. The main sign is small black dots on the body. A single 2.5 mg/L praziquantel dose (PraziPro dosage) usually works, with a repeat one week later recommended.",
+    "hu": "A Black Ich parazita turbellária laposférgek okozta fertőzés, főleg tangokon/doktorhalakon. A fő tünet apró fekete pöttyök a testen. Általában egyetlen 2,5 mg/l prazikvantel adag (PraziPro adagolás) elegendő, egy hét múlva ismétléssel ajánlott."
+  },
+  "symptoms": {
+    "en": ["Small black dots or grains on the body and fins", "Larger dark spots deeper in the skin (Piscinquilinus)", "Possible permanent dark scarring after treatment"],
+    "hu": ["Apró fekete pöttyök vagy szemcsék a testen és úszókon", "Nagyobb, a bőrben mélyebben ülő sötét foltok (Piscinquilinus)", "Kezelés után maradandó sötét hegek lehetnek"]
+  },
+  "body_areas": ["skin", "fins"],
+  "appearance": ["black-spots"],
+  "speed": "days",
+  "lethality": "low",
+  "contagious": true,
+  "commonly_affected": {"en": "Tangs/surgeonfish (e.g. yellow tang, unicorn tang); unusual on other fish such as clownfish", "hu": "Tangok/doktorhalak (pl. sárga tang, unikornis tang); más halakon, pl. bohóchalakon szokatlan"},
+  "distinguish": {
+    "en": [
+      "Not to be confused with Clownfish Hyper-Melanization: those smudges are larger and occur almost only on clownfish; black spots on a clownfish are unlikely to be Black Ich.",
+      "Paravortex appears as small grain-like black spots; Piscinquilinus produces larger dark spots deep in the dermis.",
+      "Dark marks can remain after successful treatment because pigmented dermis stays after the parasite dies."
+    ],
+    "hu": [
+      "Ne keverd össze a bohóchalak hipermelanizációjával: azok a foltok nagyobbak és szinte csak bohóchalakon fordulnak elő; bohóchalon a fekete folt valószínűleg nem Black Ich.",
+      "A Paravortex apró, szemcseszerű fekete pöttyöket okoz; a Piscinquilinus nagyobb, a dermiszben mélyen ülő sötét foltokat.",
+      "Sikeres kezelés után is maradhatnak sötét foltok, mert a pigmentált dermisz megmarad a parazita pusztulása után."
+    ]
+  },
+  "life_cycle": {
+    "en": "Both genera are thought to have a single-host life cycle producing several juveniles, typically completed in about 10 days, though Piscinquilinus was shown to stay on a fish for at least 30 days. Parasites mature after leaving the fish and form a cocoon-like fibrous structure in the substrate, where they reproduce and re-infect fish. An infested display tank should therefore be treated too.",
+    "hu": "Mindkét nemzetségnek feltehetően egygazdás életciklusa van, több utóddal, és általában kb. 10 nap alatt zárul, bár a Piscinquilinus legalább 30 napig a halon maradt. A paraziták a halat elhagyva érnek ivaréretté, és az aljzatban gubószerű rostos képletet hoznak létre, ahol szaporodnak és újrafertőznek. Ezért a fertőzött fő akváriumot is kezelni kell."
+  },
+  "treatments": [
+    {"treatment_id": "praziquantel", "name": {"en": "Praziquantel (PraziPro)", "hu": "Prazikvantel (PraziPro)"}, "priority": "first-line", "details": {"en": "Single 2.5 mg/L dose, repeated after 7 days for extra assurance. PraziPro contains this dosage if you do not want to weigh and mix powder. Can be used in the display tank.", "hu": "Egyszeri 2,5 mg/l adag, 7 nap múlva ismételve a biztonság kedvéért. A PraziPro ezt az adagot tartalmazza, ha nem akarsz port mérni és keverni. A fő akváriumban is használható."}},
+    {"treatment_id": "formalin", "name": {"en": "Formalin bath", "hu": "Formalin fürdő"}, "priority": "alternative", "details": {"en": "45 to 60 minute bath, then transfer into a sterile QT.", "hu": "45-60 perces fürdő, utána steril QT-be helyezés."}},
+    {"treatment_id": "hyposalinity", "name": {"en": "Hyposalinity", "hu": "Hiposzalinitás"}, "priority": "alternative", "details": {"en": "1.009 SG for 35 days; kills both infective and free-living stages.", "hu": "1,009 SG 35 napig; a fertőző és a szabadon élő stádiumot is elpusztítja."}},
+    {"treatment_id": "freshwater-dip", "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdetés"}, "priority": "supportive", "details": {"en": "5 minute dip may only give temporary relief and does not eradicate the parasite.", "hu": "Az 5 perces fürdetés csak átmeneti enyhülést ad, nem irtja ki a parazitát."}}
+  ],
+  "prevention": {
+    "en": ["Quarantine new fish, especially tangs", "Treat an infested display tank with PraziPro because the parasite reproduces in the substrate"],
+    "hu": ["Az új halakat, különösen a tangokat, karanténozd", "Fertőzött fő akváriumot kezelj PraziPróval, mert a parazita az aljzatban szaporodik"]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/tangspots2-jpg.98791/", "caption": {"en": "Paravortex sp. on a tang", "hu": "Paravortex sp. egy tangon"}},
+    {"url": "https://humble.fish/community/attachments/vampiresurgeon-jpg.98792/", "caption": {"en": "Paravortex sp. on a tang", "hu": "Paravortex sp. egy tangon"}},
+    {"url": "https://humble.fish/community/attachments/black-ich-jpg.98793/", "caption": {"en": "Paravortex sp. on a tang", "hu": "Paravortex sp. egy tangon"}},
+    {"url": "https://humble.fish/community/attachments/dscf3019-1024x872-jpg.98794/", "caption": {"en": "Paravortex sp. on a tang", "hu": "Paravortex sp. egy tangon"}},
+    {"url": "https://humble.fish/community/attachments/sick_tang-jpg.98795/", "caption": {"en": "Paravortex sp. on a tang", "hu": "Paravortex sp. egy tangon"}},
+    {"url": "https://humble.fish/community/attachments/nasounicornisp51100321600pix-1024x768-jpg.98796/", "caption": {"en": "Unicorn tang with Piscinquilinus sp.", "hu": "Unikornis tang Piscinquilinus sp. fertőzéssel"}}
+  ],
+  "related_links": [
+    {"title": "Clownfish Hyper-Melanization", "url": "https://humble.fish/community/index.php?threads/clownfish-hyper-melanization.6/"},
+    {"title": "Praziquantel", "url": "https://humble.fish/praziquantel/"},
+    {"title": "Formalin", "url": "https://humble.fish/formalin/"},
+    {"title": "Hyposalinity", "url": "https://humble.fish/hyposalinity/"},
+    {"title": "Freshwater Dip", "url": "https://humble.fish/freshwater-dip/"},
+    {"title": "Quarantine", "url": "https://humble.fish/community/threads/quarantine.2/"}
+  ],
+  "notes": {
+    "en": "Research cited: Justine et al. 2008, 2009. In replies the author notes that usually only tangs are susceptible to turbellarians.",
+    "hu": "Hivatkozott kutatás: Justine és mtsai. 2008, 2009. A szerző a válaszokban megjegyzi, hogy turbelláriákra általában csak a tangok fogékonyak."
+  }
+}

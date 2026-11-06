@@ -1,0 +1,103 @@
+{
+  "id": "lymphocystis",
+  "source": "https://humble.fish/community/index.php?threads/lymphocystis.10/",
+  "author": "Humblefish",
+  "name": {"en": "Lymphocystis", "hu": "Lymphocystis"},
+  "scientific": "Lymphocystis disease virus (Iridoviridae)",
+  "category": "viral",
+  "summary": {
+    "en": "Lymphocystis is a virus that many fish carry for life, causing white, cauliflower-like wart growths, usually starting on the fins or spines. It can also grow internally, so symptoms are not always visible. There is no cure, but it is rarely fatal; vitamin-enriched food and pristine water help send it into remission.",
+    "hu": "A lymphocystis egy vírus, amelyet sok hal egész életén át hordoz; fehér, karfiolszerű, szemölcsös növedékeket okoz, általában az úszókon vagy tüskéken kezdődően. Belső szerveken is megjelenhet, így a tünetek nem mindig láthatók. Nincs gyógymódja, de ritkán halálos; a vitaminokkal dúsított eleség és a kiváló vízminőség segíti a tünetmentes állapot visszaállását."
+  },
+  "symptoms": {
+    "en": [
+      "White, beige or (rarely) black wart-like / cauliflower-like growths",
+      "Usually starts on fins/spines, may spread to the body",
+      "May start small (resembling ich) and then grow larger",
+      "Can grow internally, including on the gills",
+      "Symptoms come and go"
+    ],
+    "hu": [
+      "Fehér, bézs vagy (ritkán) fekete, szemölcs- / karfiolszerű növedékek",
+      "Általában az úszókon/tüskéken kezdődik, átterjedhet a testre",
+      "Kezdetben kicsi lehet (ichre hasonlít), majd megnő",
+      "Belső szerveken, köztük a kopoltyún is nőhet",
+      "A tünetek jönnek-mennek"
+    ]
+  },
+  "body_areas": ["fins", "skin", "gills"],
+  "appearance": ["nodules-cauliflower", "white-spots"],
+  "speed": "weeks",
+  "lethality": "low",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Many fish carry it; older or weakened fish are most at risk. (A photo shows an emperor angelfish.)",
+    "hu": "Sok hal hordozza; leginkább az idős vagy legyengült halak veszélyeztetettek. (Egy fotón császár angyalhal látható.)"
+  },
+  "distinguish": {
+    "en": [
+      "Can look like ich when small, but lymphocystis nodules keep growing in size - that is how you know it is not ich.",
+      "Growths are clustered, wart- or cauliflower-like, typically on fins/spines."
+    ],
+    "hu": [
+      "Kicsi korában ichre hasonlíthat, de a lymphocystis csomói tovább nőnek - ebből tudható, hogy nem ich.",
+      "A növedékek csoportosak, szemölcs- vagy karfiolszerűek, jellemzően az úszókon/tüskéken."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "none-needed",
+      "name": {"en": "No known cure", "hu": "Nincs ismert gyógymód"},
+      "priority": "first-line",
+      "details": {
+        "en": "No known cure or treatment exists. Lesions/nodules typically clear within 2-3 weeks, rarely months.",
+        "hu": "Nincs ismert gyógymód vagy kezelés. A léziók/csomók jellemzően 2-3 hét alatt eltűnnek, ritkán hónapokig tartanak."
+      }
+    },
+    {
+      "treatment_id": "diet-improvement",
+      "name": {"en": "Vitamin-enriched foods / Beta-glucan", "hu": "Vitaminnal dúsított eleség / béta-glükán"},
+      "priority": "supportive",
+      "details": {
+        "en": "Feeding vitamin-enriched foods may speed up recovery; food soaking Beta-glucan seems particularly effective.",
+        "hu": "A vitaminokkal dúsított eleség gyorsíthatja a gyógyulást; a béta-glükánba áztatott eleség különösen hatásosnak tűnik."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Pristine water conditions", "hu": "Kiváló vízminőség"},
+      "priority": "supportive",
+      "details": {
+        "en": "Maintaining pristine water helps send the virus back into remission.",
+        "hu": "A kiváló vízminőség fenntartása segít a vírust visszaszorítani."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Keep water conditions pristine and minimize stress.",
+      "Feed a varied, vitamin-enriched diet to support immunity."
+    ],
+    "hu": [
+      "Kiváló vízminőség fenntartása és a stressz minimalizálása.",
+      "Változatos, vitaminnal dúsított táplálás az immunitás támogatására."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/cauliflower-jpg.98879/", "caption": {"en": "Cauliflower-like lymphocystis growth", "hu": "Karfiolszerű lymphocystis növedék"}},
+    {"url": "https://humble.fish/community/attachments/sygfg3z-jpg.98880/", "caption": {"en": "Lymphocystis nodules on a fish", "hu": "Lymphocystis csomók egy halon"}},
+    {"url": "https://humble.fish/community/attachments/lymphocystis_emperor_angel_620px-jpg.98881/", "caption": {"en": "Lymphocystis on an emperor angelfish", "hu": "Lymphocystis császár angyalhalon"}},
+    {"url": "https://humble.fish/community/attachments/appzbvw-jpg.98882/", "caption": {"en": "Lymphocystis nodules on the fins", "hu": "Lymphocystis csomók az úszókon"}}
+  ],
+  "related_links": [
+    {"title": "Vitamins & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"},
+    {"title": "Marine Ich", "url": "https://humble.fish/community/index.php?threads/marine-ich.11/"},
+    {"title": "Beta-glucan as an immune stimulant in marine aquaria", "url": "https://reefs.com/magazine/beta-glucan-as-an-immune-stimulant-in-marine-aquaria/"},
+    {"title": "FA181: Lymphocystis Disease in Fish (UF/IFAS)", "url": "http://edis.ifas.ufl.edu/fa181"}
+  ],
+  "notes": {
+    "en": "Updated 6-10-2023. Image captions are not given in the source beyond filenames; captions are descriptive.",
+    "hu": "Frissítve: 2023.06.10. A forrás a fájlneveken túl nem ad képaláírást; a feliratok leíró jellegűek."
+  }
+}

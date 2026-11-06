@@ -1,0 +1,145 @@
+{
+  "id": "marine-ich",
+  "source": "https://humble.fish/community/index.php?threads/marine-ich.11/",
+  "author": "Humblefish",
+  "name": {"en": "Marine Ich (White Spot Disease)", "hu": "Tengeri ich (fehérpötty-betegség)"},
+  "scientific": "Cryptocaryon irritans",
+  "category": "parasite-protozoan",
+  "summary": {
+    "en": "Marine ich is a protozoan parasite whose main sign is salt- or sugar-like white sprinkles on the body and fins; it can also hide in the gills. Its life cycle (trophont, protomont, tomont, theront) is well studied, and only the free-swimming theront stage is vulnerable to treatment. It is treated in a quarantine tank with copper, chloroquine phosphate, hyposalinity or the tank transfer method, while the display tank is left fallow for 6 weeks at 80.6 F.",
+    "hu": "A tengeri ich egy egysejtű parazita, fő tünete a testen és úszókon megjelenő só- vagy cukorszerű fehér pöttyök; a kopoltyúban rejtve is jelen lehet. Életciklusa (trophont, protomont, tomont, theront) jól ismert, és csak a szabadon úszó theront stádium érzékeny a kezelésre. Karanténtankban (QT) kezelik rézzel, klorokin-foszfáttal, hyposalinityvel vagy TTM-mel, a fő akváriumot (DT) pedig 6 hétig hal nélkül (fallow) hagyják 27 C/80.6 F-on."
+  },
+  "symptoms": {
+    "en": [
+      "Salt- or sugar-like white sprinkles on the body and fins",
+      "White spots are not always visible - the parasite may be in the gills only",
+      "Flashing, scratching, twitching",
+      "Heavy / rapid breathing (fluid build-up in gills)"
+    ],
+    "hu": [
+      "Só- vagy cukorszerű fehér pöttyök a testen és az úszókon",
+      "A fehér pöttyök nem mindig láthatók - a parazita csak a kopoltyúban is lehet",
+      "Villanás (flashing), dörzsölődés, rángatózás",
+      "Nehéz / gyors légzés (folyadék gyűlik fel a kopoltyúban)"
+    ]
+  },
+  "body_areas": ["skin", "fins", "gills", "behavior"],
+  "appearance": ["white-spots", "flashing-scratching", "rapid-breathing"],
+  "speed": "days",
+  "lethality": "high",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "All marine fish; most often introduced by a newly acquired fish carrying trophonts.",
+    "hu": "Minden tengeri hal; leggyakrabban trophontokat hordozó új hal hurcolja be."
+  },
+  "distinguish": {
+    "en": [
+      "The white dots are the fish's mucus response around each trophont, not the parasite itself; dots resemble grains of salt or sugar.",
+      "Unlike lymphocystis, ich spots do not keep growing into larger cauliflower-like nodules.",
+      "Unlike flukes, ich tomonts can survive a long time off the fish (theronts may be released up to 72 days at 68 F), which is why a fallow period is needed."
+    ],
+    "hu": [
+      "A fehér pöttyök a hal nyálkás válaszreakciói az egyes trophontok körül, nem maga a parazita; só- vagy cukorszemcsére hasonlítanak.",
+      "A lymphocystisszel ellentétben az ich pöttyei nem nőnek nagyobb, karfiolszerű csomókká.",
+      "A mételyekkel ellentétben az ich tomontjai sokáig túlélnek a halon kívül (20 C-on akár 72 napig szabadulhatnak ki theront-ok), ezért kell fallow időszak."
+    ]
+  },
+  "life_cycle": {
+    "en": "Trophont (feeding stage under the epithelium, 48x27 to 452x360 micrometers) feeds 3-7 days, then drops off as a protomont, which crawls 2-18 hours to find a hard surface. It encysts as a tomont (cyst hardens in 8-12 hours) on rocks, substrate, glass, even some corals/inverts, and produces daughter tomites. These are released as free-swimming theronts: within about a week at 30 C/86 F, usually 2 weeks at 27 C/80.6 F (up to 35 days in one study), and up to 72 days at 20 C/68 F. Theronts infect fish and become trophonts. Only theronts are susceptible to copper and hyposalinity. Stages are rarely in sync; a strain dies out after ~100 generations (~4 years).",
+    "hu": "A trophont (táplálkozó stádium a hám alatt, 48x27 - 452x360 mikrométer) 3-7 napig táplálkozik, majd protomontként leválik, amely 2-18 órán át mászik kemény felületet keresve. Tomontként betokozódik (a ciszta 8-12 óra alatt keményedik meg) köveken, aljzaton, üvegen, akár korallokon/gerincteleneken, és leány-tomitákat termel. Ezek szabadon úszó theront-ként szabadulnak ki: 30 C-on kb. egy héten belül, 27 C-on általában 2 hét alatt (egy vizsgálatban akár 35 nap), 20 C-on akár 72 nap alatt. A theront-ok megfertőzik a halat és trophonttá válnak. Csak a theront-ok érzékenyek a rézre és a hyposalinityre. A stádiumok ritkán szinkronosak; egy törzs kb. 100 generáció (~4 év) után kihal."
+  },
+  "treatments": [
+    {
+      "treatment_id": "copper",
+      "name": {"en": "Copper treatment", "hu": "Rézkezelés"},
+      "priority": "first-line",
+      "details": {
+        "en": "In a quarantine tank. Not for display tanks with corals/inverts; rock absorbs copper. See the Copper Treatment thread for dosing.",
+        "hu": "Karanténtankban (QT). Korallos/gerinctelenes DT-ben nem használható; a kőzet megköti a rezet. Adagolás: lásd a rézkezelés szálat."
+      }
+    },
+    {
+      "treatment_id": "chloroquine-phosphate",
+      "name": {"en": "Chloroquine Phosphate", "hu": "Klorokin-foszfát"},
+      "priority": "first-line",
+      "details": {
+        "en": "In a quarantine tank. Most corals/inverts are intolerant. See the Chloroquine Phosphate thread for dosing.",
+        "hu": "Karanténtankban (QT). A legtöbb korall/gerinctelen nem tűri. Adagolás: lásd a klorokin-foszfát szálat."
+      }
+    },
+    {
+      "treatment_id": "hyposalinity",
+      "name": {"en": "Hyposalinity", "hu": "Hyposalinity (alacsony sótartalom)"},
+      "priority": "first-line",
+      "details": {
+        "en": "In a quarantine tank. Doing it in a display tank risks wiping out the biofilter and corals/inverts. See the Hyposalinity thread for the protocol.",
+        "hu": "Karanténtankban (QT). A DT-ben a biológiai szűrés és a korallok/gerinctelenek pusztulását kockáztatja. Protokoll: lásd a hyposalinity szálat."
+      }
+    },
+    {
+      "treatment_id": "ttm",
+      "name": {"en": "Tank Transfer Method (all versions)", "hu": "TTM (Tank Transfer Method, minden változat)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Moves fish to clean tanks before tomonts can release theronts. See the Tank Transfer Method thread.",
+        "hu": "A halakat tiszta tankokba költözteti, mielőtt a tomontok theront-okat bocsátanának ki. Lásd a TTM szálat."
+      }
+    },
+    {
+      "treatment_id": "fallow-period",
+      "name": {"en": "Fallow display tank", "hu": "Fallow időszak (hal nélküli DT)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Remove ALL fish to QT for treatment and leave the display tank fishless for 6 weeks, provided the temperature can be raised to 27 C/80.6 F.",
+        "hu": "MINDEN halat ki kell fogni és QT-ben kezelni, a DT-t pedig 6 hétig hal nélkül kell hagyni, ha a hőmérséklet 27 C/80.6 F-ra emelhető."
+      }
+    },
+    {
+      "treatment_id": "ich-management",
+      "name": {"en": "Management in display tank (UV, ozone, etc.)", "hu": "Kezelés helyett kontroll a DT-ben (UV, ózon stb.)"},
+      "priority": "alternative",
+      "details": {
+        "en": "Ich is sometimes managed rather than eradicated in a DT using a UV sterilizer, ozone, diatom filter, oxydator, herbal remedies, enhanced nutrition, etc. This does not eliminate the parasite.",
+        "hu": "Az ichet néha nem felszámolják, hanem kontrollálják a DT-ben UV-sterilizálóval, ózonnal, kovaföld-szűrővel, oxydatorral, gyógynövényes szerekkel, jobb táplálással stb. Ez nem szünteti meg a parazitát."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Quarantine all new fish (they most commonly introduce ich).",
+      "Quarantine corals/inverts, which can carry tomonts.",
+      "Avoid cross contamination by shared water, equipment or aerosol spray between tanks."
+    ],
+    "hu": [
+      "Minden új halat karanténba (QT) kell tenni (leggyakrabban ezek hurcolják be).",
+      "A korallokat/gerincteleneket is karanténozni kell, mert tomontokat hordozhatnak.",
+      "Kerülni kell a keresztfertőzést közös víz, eszközök vagy aeroszol (permet) útján a tankok között."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/ich-2-jpeg.98766/", "caption": {"en": "Fish with marine ich", "hu": "Tengeri ichtől fertőzött hal"}},
+    {"url": "https://humble.fish/community/attachments/ich-3-jpeg.98767/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
+    {"url": "https://humble.fish/community/attachments/ich-2-jpg.36585/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
+    {"url": "https://humble.fish/community/attachments/ich-3-jpg.36586/", "caption": {"en": "Salt or sugar-like sprinkles on the body and fins", "hu": "Só- vagy cukorszerű pöttyök a testen és az úszókon"}},
+    {"url": "https://humble.fish/community/attachments/ichcyclegraph-jpeg.98768/", "caption": {"en": "Marine ich life cycle diagram (credit: Charles Raabe)", "hu": "A tengeri ich életciklusa (forrás: Charles Raabe)"}},
+    {"url": "https://humble.fish/community/attachments/table1_zpsfwf5goxj-jpg.98771/", "caption": {"en": "Table of timing for each life cycle stage", "hu": "Az egyes életciklus-stádiumok időtartamának táblázata"}}
+  ],
+  "related_links": [
+    {"title": "Ich eradication vs. ich management", "url": "https://humble.fish/community/index.php?threads/ich-eradication-vs-ich-management.28/"},
+    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
+    {"title": "Hyposalinity", "url": "https://humble.fish/community/index.php?threads/hyposalinity.22/"},
+    {"title": "Chloroquine Phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
+    {"title": "Copper treatment", "url": "https://humble.fish/community/index.php?threads/copper-treatment.17/"},
+    {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
+    {"title": "New ich fallow period", "url": "https://humble.fish/community/index.php?threads/new-ich-fallow-period.1824/"},
+    {"title": "Coral/invert quarantine time frames", "url": "https://humble.fish/community/index.php?threads/coral-invert-quarantine-time-frames.487/"},
+    {"title": "Aerosol transmission", "url": "https://humble.fish/community/index.php?threads/aerosol-transmission.1615/"},
+    {"title": "FA164: Cryptocaryon irritans Infections (Marine White Spot Disease) in Fish - UF/IFAS", "url": "https://edis.ifas.ufl.edu/publication/FA164"},
+    {"title": "ATJ's Marine Aquarium Site - Marine Ich", "url": "http://atj.net.au/marineaquaria/marineich.html"},
+    {"title": "Video: marine ich (YouTube)", "url": "https://www.youtube.com/watch?v=GOXbhdfj78M"}
+  ],
+  "notes": {
+    "en": "Updated 6-9-2023. Treating in the display tank is problematic: corals/inverts do not tolerate copper, chloroquine or hyposalinity, rock absorbs medications, and hyposalinity can wipe out the biofilter. Overlapping, unsynchronized stages (and multiple strains) can overwhelm a fish's immune system. Dosages for each treatment are in the linked treatment threads, not in this thread.",
+    "hu": "Frissítve: 2023.06.09. A DT-ben történő kezelés problémás: a korallok/gerinctelenek nem tűrik a rezet, a klorokint és a hyposalinityt, a kőzet megköti a gyógyszereket, a hyposalinity pedig tönkreteheti a biológiai szűrést. Az egymást átfedő, nem szinkronos stádiumok (és több törzs) legyőzhetik a hal immunrendszerét. Az egyes kezelések adagolása a hivatkozott szálakban található, nem ebben."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "clownfish-hypermelanization",
+  "source": "https://humble.fish/community/index.php?threads/clownfish-hyper-melanization.6/",
+  "author": "Humblefish",
+  "name": {"en": "Clownfish Hyper-Melanization", "hu": "Bohóchalak hipermelanizációja"},
+  "scientific": null,
+  "category": "environmental",
+  "summary": {
+    "en": "Small black smudges, usually only on clownfish, caused by contact with an anemone or stinging coral. It is a condition rather than a disease and usually corrects itself. Rarely it can be fatal if the host anemone or coral refuses to accept the clownfish.",
+    "hu": "Apró fekete maszatos foltok, általában csak bohóchalakon, amelyeket anemónával vagy csalánzó koralllal való érintkezés okoz. Inkább állapot, mint betegség, és többnyire magától rendeződik. Ritkán végzetes lehet, ha a gazda anemóna vagy korall nem fogadja el a bohóchalat."
+  },
+  "symptoms": {
+    "en": ["Black smudges or dark patches on the body", "Spots larger than Black Ich dots", "Fish otherwise healthy, eating and behaving normally"],
+    "hu": ["Fekete maszatok vagy sötét foltok a testen", "A foltok nagyobbak a Black Ich pöttyöknél", "A hal egyébként egészséges, eszik és normálisan viselkedik"]
+  },
+  "body_areas": ["skin", "color"],
+  "appearance": ["black-spots", "darkening"],
+  "speed": "chronic",
+  "lethality": "low",
+  "contagious": false,
+  "commonly_affected": {"en": "Clownfish", "hu": "Bohóchalak"},
+  "distinguish": {
+    "en": [
+      "Smudges are larger than Black Ich (turbellarian) spots, and Black Ich is unusual on clownfish (mostly tangs).",
+      "Does not respond to medications; treatment with copper, PraziPro etc. produces no change."
+    ],
+    "hu": [
+      "A foltok nagyobbak a Black Ich (turbellária) pöttyöknél, és a Black Ich bohóchalakon szokatlan (főleg tangokon fordul elő).",
+      "Gyógyszerre nem reagál; réz, PraziPro stb. kezelés nem hoz változást."
+    ]
+  },
+  "life_cycle": null,
+  "treatments": [
+    {"treatment_id": "none-needed", "name": {"en": "No treatment needed", "hu": "Kezelés nem szükséges"}, "priority": "first-line", "details": {"en": "Usually self-corrects. Medications are pointless; one member's clownfish kept the marks for years despite many treatments but stayed healthy and spawned.", "hu": "Általában magától rendeződik. A gyógyszerezés értelmetlen; egy tag bohóchalain a foltok évekig megmaradtak sok kezelés ellenére, de egészségesek maradtak és ívtak."}},
+    {"treatment_id": "remove-stinging-host", "name": {"en": "Separate from the stinging anemone/coral", "hu": "Elválasztás a csalánzó anemónától/koralltól"}, "priority": "supportive", "details": {"en": "In rare cases it can be fatal if the anemone/coral does not accept the clownfish; consider separating them if the fish is being badly stung (not explicitly prescribed in the source).", "hu": "Ritkán végzetes lehet, ha az anemóna/korall nem fogadja el a bohóchalat; ha a halat erősen csalánozza, érdemes lehet szétválasztani őket (a forrás ezt nem írja elő kifejezetten)."}}
+  ],
+  "prevention": {
+    "en": ["Be aware that any anemone or coral (including mushrooms, zoanthids, GSP, leathers, palythoa or gorgonians) that dislikes a clownfish's attention can cause it"],
+    "hu": ["Bármely anemóna vagy korall (gombakorall, zoanthus, GSP, bőrkorall, palythoa, gorgónia is) okozhatja, ha nem tűri a bohóchal közeledését"]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/gallery_2631918_1196_82146-jpg.98871/", "caption": {"en": "Clownfish with hyper-melanization smudges", "hu": "Bohóchal hipermelanizációs foltokkal"}},
+    {"url": "https://humble.fish/community/attachments/post-30592-1252546873-jpg.98872/", "caption": {"en": "Clownfish with hyper-melanization smudges", "hu": "Bohóchal hipermelanizációs foltokkal"}},
+    {"url": "https://humble.fish/community/attachments/2mlv1og-jpg.98873/", "caption": {"en": "Clownfish with hyper-melanization smudges", "hu": "Bohóchal hipermelanizációs foltokkal"}},
+    {"url": "https://humble.fish/community/attachments/hypermelaninization1-jpg.98874/", "caption": {"en": "Clownfish with hyper-melanization smudges", "hu": "Bohóchal hipermelanizációs foltokkal"}}
+  ],
+  "related_links": [
+    {"title": "Black Ich", "url": "https://humble.fish/community/index.php?threads/black-ich.178/"}
+  ],
+  "notes": {
+    "en": "The exact cause (host rejection vs. clownfish mucus not picking up the anemone's chemical cues) is unknown according to the author. The second removal treatment item is an editorial inference; the source only says the condition usually self-corrects.",
+    "hu": "A szerző szerint a pontos ok (a gazda elutasítása vagy az, hogy a bohóchal nyálkája nem veszi fel az anemóna kémiai jeleit) nem ismert. A második kezelési pont szerkesztői következtetés; a forrás csak annyit mond, hogy az állapot többnyire magától rendeződik."
+  }
+}

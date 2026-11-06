@@ -1,0 +1,203 @@
+{
+  "start": "root",
+  "nodes": {
+    "root": {
+      "q": { "en": "What is the main thing you notice on your fish?", "hu": "Mi a legfeltűnőbb, amit a halon látsz?" },
+      "short": { "en": "Main sign?", "hu": "Fő tünet?" },
+      "help": { "en": "Pick the sign that stands out most. Look at the fish under white light, from the side, and check the fins and gills too.", "hu": "Válaszd a legszembetűnőbb jelet. Fehér fényben, oldalról nézd a halat, és nézd meg az úszókat és a kopoltyút is." },
+      "options": [
+        { "label": { "en": "Spots or dots", "hu": "Pöttyök, foltok" }, "hint": { "en": "White grains, fine dust or black specks on the body or fins", "hu": "Fehér szemcsék, finom por vagy fekete pöttyök a testen vagy az úszókon" }, "img": "marine-ich#1", "next": "n-spots" },
+        { "label": { "en": "Growths, lumps or tufts", "hu": "Kinövések, csomók, pamacsok" }, "hint": { "en": "Raised white or pinkish bumps, cottony tufts, cauliflower-like masses", "hu": "Kiemelkedő fehér vagy rózsaszínes dudorok, vattaszerű pamacsok, karfiolszerű képletek" }, "img": "lymphocystis#0", "next": "n-growth" },
+        { "label": { "en": "Coating, slime or colour patches", "hu": "Bevonat, nyálka vagy elszíneződés" }, "hint": { "en": "Thick mucus, grey film, peeling skin, pale or dark smudges", "hu": "Vastag nyálka, szürke hártya, hámló bőr, sápadt vagy sötét foltok" }, "img": "brooklynella#2", "next": "n-skin" },
+        { "label": { "en": "Sores, red areas or erosion", "hu": "Sebek, vörös területek vagy erózió" }, "hint": { "en": "Open wounds, bloody streaks, ragged fins, pits on the head", "hu": "Nyílt sebek, véres csíkok, rongyos úszók, gödrök a fejen" }, "img": "uronema#1", "next": "n-sores" },
+        { "label": { "en": "Eye problems", "hu": "Szemprobléma" }, "hint": { "en": "Cloudy, bulging or damaged eyes", "hu": "Homályos, kidülledő vagy sérült szem" }, "img": "eye-problems#0", "next": "n-eyes" },
+        { "label": { "en": "Breathing or behaviour only", "hu": "Csak légzés vagy viselkedés" }, "img": "gill-hyperplasia#0", "hint": { "en": "Fast breathing, scratching on rocks, hiding – but little visible on the body", "hu": "Gyors légzés, dörgölőzés a köveken, bujkálás – de a testen alig látszik valami" }, "next": "n-behave" },
+        { "label": { "en": "Belly, feces or weight", "hu": "Has, ürülék vagy testsúly" }, "hint": { "en": "Wasting away, swollen belly, white stringy poop", "hu": "Lesoványodás, duzzadt has, fehér, fonalszerű ürülék" }, "img": "internal-problems#0", "next": "n-body" }
+      ]
+    },
+
+    "n-spots": {
+      "q": { "en": "What do the spots look like?", "hu": "Milyenek a pöttyök?" },
+      "short": { "en": "Spot type?", "hu": "Milyen pöttyök?" },
+      "help": { "en": "Compare size and texture. Ich spots look like grains of salt; velvet looks like a fine dusting of powder.", "hu": "Hasonlítsd össze a méretet és a textúrát. Az ich pöttyei sószemcsékre hasonlítanak, a velvet finom porbevonatra." },
+      "options": [
+        { "label": { "en": "White grains like salt or sugar", "hu": "Fehér, só- vagy cukorszemcse-szerű pöttyök" }, "hint": { "en": "Distinct, raised dots (~1 mm). They may come and go over a few days.", "hu": "Jól elkülönülő, kiemelkedő pöttyök (~1 mm). Néhány nap alatt eltűnhetnek és visszajöhetnek." }, "img": "marine-ich#1", "next": "r-ich" },
+        { "label": { "en": "Very fine dust or powder", "hu": "Nagyon finom por, hintőpor-szerű bevonat" }, "hint": { "en": "Tiny dots, gold/white sheen, best seen with a flashlight from the side; often fast breathing", "hu": "Apró pöttyök, arany/fehér fény, oldalról zseblámpával látszik legjobban; gyakran gyors légzéssel" }, "img": "marine-velvet#2", "next": "r-velvet" },
+        { "label": { "en": "Black or dark pepper-like specks", "hu": "Fekete vagy sötét, borsszerű pöttyök" }, "hint": { "en": "Small black dots, often on tangs (especially Yellow tangs)", "hu": "Apró fekete pöttyök, gyakran doktorhalakon (főleg sárga doktorhalon)" }, "img": "black-ich#0", "next": "r-blackich" },
+        { "label": { "en": "Dark smudges on a clownfish", "hu": "Sötét foltok bohóchalon" }, "hint": { "en": "Irregular black patches, but the fish eats and behaves normally", "hu": "Szabálytalan fekete foltok, de a hal rendesen eszik és viselkedik" }, "img": "clownfish-hypermelanization#0", "next": "r-hypermel" }
+      ]
+    },
+    "r-ich": {
+      "result": ["marine-ich", "marine-velvet", "lymphocystis"],
+      "note": { "en": "Salt-grain spots are the classic sign of marine ich. If the fish is also breathing very fast or the spots look more like dust, treat it as velvet until proven otherwise – velvet kills much faster.", "hu": "A sószemcse-szerű pöttyök a tengeri ich klasszikus jelei. Ha a hal nagyon gyorsan is lélegzik, vagy a pöttyök inkább pornak tűnnek, kezeld velvetként, amíg ki nem zárható – a velvet sokkal gyorsabban öl." }
+    },
+    "r-velvet": {
+      "result": ["marine-velvet", "marine-ich", "brooklynella"],
+      "note": { "en": "Velvet is an emergency: fish can die within 1–3 days of the first visible signs. Act immediately.", "hu": "A velvet vészhelyzet: a halak az első látható jelek után 1–3 napon belül elpusztulhatnak. Azonnal cselekedj." }
+    },
+    "r-blackich": {
+      "result": ["black-ich", "clownfish-hypermelanization"],
+      "note": { "en": "Black ich is not ich at all – it is a small turbellarian worm, so ich medications will not help.", "hu": "A black ich valójában nem ich, hanem egy apró örvényféreg (turbellária), így az ich elleni gyógyszerek nem segítenek." }
+    },
+    "r-hypermel": {
+      "result": ["clownfish-hypermelanization", "black-ich", "brooklynella"],
+      "note": { "en": "Dark smudges on an otherwise healthy clownfish are usually harmless hyper-melanization. If the fish stops eating, breathes fast or produces thick slime, look at Brooklynella instead.", "hu": "Egyébként egészséges bohóchalon a sötét foltok általában ártalmatlan hiper-melanizációt jeleznek. Ha a hal nem eszik, gyorsan lélegzik vagy vastag nyálkát termel, inkább Brooklynellára gondolj." }
+    },
+
+    "n-growth": {
+      "q": { "en": "What do the growths look like?", "hu": "Milyenek a kinövések?" },
+      "short": { "en": "Growth type?", "hu": "Milyen kinövés?" },
+      "options": [
+        { "label": { "en": "Cauliflower- or wart-like clusters", "hu": "Karfiol- vagy szemölcsszerű csomók" }, "hint": { "en": "Grainy white/pink masses, usually on fins, slowly growing", "hu": "Szemcsés fehér/rózsaszín képletek, általában az úszókon, lassan növekednek" }, "img": "lymphocystis#0", "next": "r-lympho" },
+        { "label": { "en": "Small white cottony tufts or nodules", "hu": "Apró fehér, vattaszerű pamacsok vagy göbök" }, "hint": { "en": "One or a few soft tufts that stay in place for days or weeks", "hu": "Egy vagy néhány puha pamacs, amely napokig, hetekig a helyén marad" }, "img": "bacterial-tufts-viral-nodules#0", "next": "r-tufts" }
+      ]
+    },
+    "r-lympho": {
+      "result": ["lymphocystis", "bacterial-tufts-viral-nodules"],
+      "note": { "en": "Lymphocystis is a viral, mostly cosmetic condition that usually clears by itself with good water and diet.", "hu": "A lymphocystis vírusos, többnyire csak esztétikai probléma, amely jó vízminőség és táplálás mellett általában magától elmúlik." }
+    },
+    "r-tufts": {
+      "result": ["bacterial-tufts-viral-nodules", "lymphocystis", "marine-ich"],
+      "note": { "en": "Ich spots fall off within a few days; tufts and nodules stay in place much longer.", "hu": "Az ich pöttyei néhány napon belül leesnek; a pamacsok és göbök sokkal tovább a helyükön maradnak." }
+    },
+
+    "n-skin": {
+      "q": { "en": "Which best describes the skin?", "hu": "Melyik illik legjobban a bőr állapotára?" },
+      "short": { "en": "Skin look?", "hu": "Bőr kinézete?" },
+      "options": [
+        { "label": { "en": "Thick white slime, peeling skin", "hu": "Vastag fehér nyálka, hámló bőr" }, "hint": { "en": "Fish looks like it is shedding; fast breathing; very common in clownfish", "hu": "Mintha vedlene a hal; gyors légzés; bohóchalaknál nagyon gyakori" }, "img": "brooklynella#2", "next": "r-brook" },
+        { "label": { "en": "Greyish film, excess mucus, scratching", "hu": "Szürkés hártya, sok nyálka, dörgölőzés" }, "hint": { "en": "Cloudy, dull skin and flashing; progresses over days", "hu": "Homályos, fénytelen bőr és dörgölőzés; napok alatt súlyosbodik" }, "img": "flukes#1", "next": "r-film" },
+        { "label": { "en": "Powdery / dusty coating", "hu": "Poros, hintőporszerű bevonat" }, "hint": { "en": "Like the fish was dusted with flour or gold dust", "hu": "Mintha liszttel vagy aranyporral szórták volna be" }, "img": "marine-velvet#1", "next": "r-dust" },
+        { "label": { "en": "Pale, fingerprint-like smudges on a tang", "hu": "Sápadt, ujjlenyomatszerű foltok doktorhalon" }, "hint": { "en": "Patches that appear and disappear; fish acts normal", "hu": "Megjelenő és eltűnő foltok; a hal normálisan viselkedik" }, "img": "tang-fingerprint#0", "next": "r-fingerprint" }
+      ]
+    },
+    "r-brook": {
+      "result": ["brooklynella", "uronema", "bacterial-infections"],
+      "note": { "en": "Brooklynella can kill within a day or two. Formalin is the usual first-line treatment; copper does not work against it.", "hu": "A Brooklynella egy-két napon belül végezhet a hallal. A szokásos elsődleges kezelés a formalin; a réz nem hatásos ellene." }
+    },
+    "r-film": {
+      "result": ["flukes", "trichodina", "brooklynella"],
+      "note": { "en": "A freshwater dip is a useful diagnostic: flukes often fall off and become visible in the dip water.", "hu": "Az édesvízi fürdetés jó diagnosztikai eszköz: a mételyek gyakran leválnak, és láthatóvá válnak a fürdővízben." }
+    },
+    "r-dust": {
+      "result": ["marine-velvet", "brooklynella", "trichodina"],
+      "note": { "en": "A dusty coating plus fast breathing should be treated as velvet – an emergency.", "hu": "Poros bevonat gyors légzéssel együtt velvetként kezelendő – vészhelyzet." }
+    },
+    "r-fingerprint": {
+      "result": ["tang-fingerprint", "hlle", "black-ich"],
+      "note": { "en": "Tang fingerprint disease is generally harmless and often disappears without treatment.", "hu": "A tang fingerprint betegség általában ártalmatlan, és gyakran kezelés nélkül is elmúlik." }
+    },
+
+    "n-sores": {
+      "q": { "en": "What do the sores or damaged areas look like?", "hu": "Milyenek a sebek vagy sérült területek?" },
+      "short": { "en": "Sore type?", "hu": "Milyen seb?" },
+      "options": [
+        { "label": { "en": "Deep red ulcers, spreading very fast", "hu": "Mély vörös fekélyek, nagyon gyorsan terjednek" }, "hint": { "en": "Bloody holes that eat into the flesh within hours/days; often small fish or fish weakened by other treatments", "hu": "Véres lyukak, amelyek órák/napok alatt a húsba mélyednek; gyakran kis halaknál vagy más kezelésektől legyengült halaknál" }, "img": "uronema#1", "next": "r-uronema" },
+        { "label": { "en": "Frayed fins, red streaks, cloudy patches", "hu": "Rongyos úszók, vörös csíkok, homályos foltok" }, "hint": { "en": "Fin rot, reddened skin or ulcers developing over several days", "hu": "Úszórothadás, kipirosodott bőr vagy fekélyek, több nap alatt alakulnak ki" }, "img": "bacterial-infections#4", "next": "r-bact" },
+        { "label": { "en": "Pits and erosion on the head / lateral line", "hu": "Gödrök és erózió a fejen / oldalvonalon" }, "hint": { "en": "Shallow, pale pits that slowly enlarge over weeks or months; not bloody", "hu": "Sekély, sápadt gödrök, amelyek hetek-hónapok alatt lassan nőnek; nem véresek" }, "img": "hlle#0", "next": "r-hlle" }
+      ]
+    },
+    "r-uronema": {
+      "result": ["uronema", "bacterial-infections", "brooklynella"],
+      "note": { "en": "Uronema is extremely aggressive. Isolate the fish and start treatment immediately.", "hu": "Az Uronema rendkívül agresszív. Különítsd el a halat, és azonnal kezdd meg a kezelést." }
+    },
+    "r-bact": {
+      "result": ["bacterial-infections", "uronema"],
+      "note": { "en": "Bacterial infections are often secondary to stress, injury or another disease – look for and fix the underlying cause too.", "hu": "A bakteriális fertőzések gyakran másodlagosak (stressz, sérülés vagy más betegség következményei) – keresd meg és szüntesd meg az alapokot is." }
+    },
+    "r-hlle": {
+      "result": ["hlle", "tang-fingerprint", "bacterial-infections"],
+      "note": { "en": "HLLE develops slowly and is usually linked to environment and diet rather than a pathogen.", "hu": "A HLLE lassan alakul ki, és általában a környezettel és a táplálással függ össze, nem kórokozóval." }
+    },
+
+    "n-eyes": {
+      "q": { "en": "What is happening with the eye(s)?", "hu": "Mi történik a szemmel?" },
+      "short": { "en": "Eye sign?", "hu": "Szem tünete?" },
+      "options": [
+        { "label": { "en": "Cloudy or milky eye", "hu": "Homályos, tejszerű szem" }, "hint": { "en": "Whitish haze over one or both eyes", "hu": "Fehéres fátyol az egyik vagy mindkét szemen" }, "img": "eye-problems#0", "next": "r-cloudy" },
+        { "label": { "en": "Bulging eye (popeye)", "hu": "Kidülledő szem (popeye)" }, "hint": { "en": "The eye protrudes from the socket", "hu": "A szem kiemelkedik a szemüregből" }, "img": "eye-problems#5", "next": "r-popeye" },
+        { "label": { "en": "Tiny translucent ovals on the eye", "hu": "Apró, áttetsző oválisok a szemen" }, "hint": { "en": "Visible up close; often with scratching or rapid breathing", "hu": "Közelről láthatók; gyakran dörgölőzéssel vagy gyors légzéssel" }, "img": "eye-problems#2", "next": "r-eyeflukes" }
+      ]
+    },
+    "r-cloudy": {
+      "result": ["eye-problems", "flukes", "bacterial-infections"],
+      "note": { "en": "Cloudy eyes can be caused by injury, bacteria or eye flukes. A freshwater dip can help rule flukes in or out.", "hu": "A homályos szemet sérülés, baktérium vagy szemmételyek okozhatják. Az édesvízi fürdetés segíthet a mételyek kizárásában vagy megerősítésében." }
+    },
+    "r-popeye": {
+      "result": ["eye-problems", "bacterial-infections", "internal-problems"],
+      "note": { "en": "Popeye in one eye is often injury; in both eyes it points more to infection or an internal problem.", "hu": "Az egyoldali popeye gyakran sérülés; ha mindkét szem érintett, inkább fertőzésre vagy belső problémára utal." }
+    },
+    "r-eyeflukes": {
+      "result": ["flukes", "eye-problems"],
+      "note": { "en": "Praziquantel is the usual treatment for flukes.", "hu": "A mételyek szokásos kezelése a praziquantel." }
+    },
+
+    "n-behave": {
+      "q": { "en": "Which behaviour fits best?", "hu": "Melyik viselkedés illik leginkább?" },
+      "short": { "en": "Behaviour?", "hu": "Viselkedés?" },
+      "options": [
+        { "label": { "en": "Fast or heavy breathing", "hu": "Gyors vagy nehézkes légzés" }, "hint": { "en": "Gills moving rapidly, maybe gasping or hanging near the surface", "hu": "A kopoltyú gyorsan mozog, esetleg kapkod a levegő után vagy a felszín közelében lebeg" }, "next": "n-breath" },
+        { "label": { "en": "Scratching / flashing on rocks or sand", "hu": "Dörgölőzés a kövekhez vagy a homokhoz" }, "hint": { "en": "Darting and rubbing, with nothing obvious on the body", "hu": "Hirtelen rándulások és dörgölőzés, a testen nincs feltűnő elváltozás" }, "next": "n-flash" },
+        { "label": { "en": "Not eating, getting thin", "hu": "Nem eszik, soványodik" }, "hint": { "en": "Refuses food or eats but still wastes away", "hu": "Visszautasítja az ételt, vagy eszik, mégis lesoványodik" }, "next": "r-noteat" }
+      ]
+    },
+    "n-breath": {
+      "q": { "en": "How quickly is the fish getting worse?", "hu": "Milyen gyorsan romlik a hal állapota?" },
+      "short": { "en": "How fast?", "hu": "Milyen gyorsan?" },
+      "options": [
+        { "label": { "en": "Fast – hours to a day or two", "hu": "Gyorsan – órák, egy-két nap alatt" }, "hint": { "en": "Gasping, hiding, stops eating", "hu": "Levegő után kapkod, bujkál, nem eszik" }, "next": "r-fastbreath" },
+        { "label": { "en": "Slowly or not at all – weeks", "hu": "Lassan vagy egyáltalán nem – hetek óta" }, "hint": { "en": "Breathing is fast, but the fish still eats and acts fairly normal", "hu": "Gyorsan lélegzik, de még eszik és viszonylag normálisan viselkedik" }, "img": "gill-hyperplasia#0", "next": "r-slowbreath" }
+      ]
+    },
+    "r-fastbreath": {
+      "result": ["marine-velvet", "brooklynella", "flukes"],
+      "note": { "en": "Rapid breathing that gets worse quickly is a red flag for velvet (gills are attacked first). Also check water quality and oxygen.", "hu": "A gyorsan romló, szapora légzés velvetre utaló vészjel (először a kopoltyút támadja). Ellenőrizd a vízminőséget és az oxigénszintet is." }
+    },
+    "r-slowbreath": {
+      "result": ["gill-hyperplasia", "flukes", "trichodina"],
+      "note": { "en": "Gill hyperplasia often follows a previous gill parasite or irritation. It may persist after the original cause is gone.", "hu": "A kopoltyú-hiperplázia gyakran egy korábbi kopoltyúparazita vagy irritáció következménye. Az eredeti ok megszűnése után is megmaradhat." }
+    },
+    "n-flash": {
+      "q": { "en": "Do you see any of these as well?", "hu": "Ezek közül is látsz valamit?" },
+      "short": { "en": "Other signs?", "hu": "Egyéb jelek?" },
+      "options": [
+        { "label": { "en": "Cloudy eyes, yawning, head shaking, clamped fins", "hu": "Homályos szem, ásítás, fejrázás, összecsukott úszók" }, "img": "flukes#0", "next": "r-flukes" },
+        { "label": { "en": "Nothing else (yet)", "hu": "Semmi mást (egyelőre)" }, "hint": { "en": "Spots may appear in the next days – keep watching", "hu": "A pöttyök a következő napokban jelenhetnek meg – figyeld tovább" }, "next": "r-flash" }
+      ]
+    },
+    "r-flukes": {
+      "result": ["flukes", "trichodina", "eye-problems"],
+      "note": { "en": "Flukes are very common on new fish. A freshwater dip and praziquantel help confirm and treat.", "hu": "A mételyek nagyon gyakoriak az új halakon. Az édesvízi fürdetés és a praziquantel segít a megerősítésben és a kezelésben." }
+    },
+    "r-flash": {
+      "result": ["marine-ich", "flukes", "marine-velvet", "trichodina"],
+      "note": { "en": "Flashing without visible signs is often an early stage of ich, velvet or flukes. Watch closely for spots and breathing changes.", "hu": "A látható jelek nélküli dörgölőzés gyakran az ich, a velvet vagy a mételyek korai szakasza. Figyeld a pöttyöket és a légzés változását." }
+    },
+    "r-noteat": {
+      "result": ["internal-problems", "flukes", "marine-velvet"],
+      "note": { "en": "Loss of appetite has many causes. If the fish is wasting despite eating, internal parasites are likely.", "hu": "Az étvágytalanságnak sok oka lehet. Ha a hal evés ellenére soványodik, valószínűleg belső élősködői vannak." }
+    },
+
+    "n-body": {
+      "q": { "en": "What do you see?", "hu": "Mit látsz?" },
+      "short": { "en": "Body sign?", "hu": "Testi tünet?" },
+      "options": [
+        { "label": { "en": "Thin or sunken belly despite eating", "hu": "Sovány, beesett has evés ellenére" }, "next": "r-wasting" },
+        { "label": { "en": "White, stringy feces", "hu": "Fehér, fonalszerű ürülék" }, "img": "internal-problems#0", "next": "r-feces" },
+        { "label": { "en": "Swollen belly, bloating, abnormal swimming", "hu": "Duzzadt has, puffadás, rendellenes úszás" }, "next": "r-bloat" }
+      ]
+    },
+    "r-wasting": {
+      "result": ["internal-problems"],
+      "note": { "en": "Wasting while eating usually points to internal worms or protozoa.", "hu": "Az evés melletti soványodás általában bélférgekre vagy belső egysejtűekre utal." }
+    },
+    "r-feces": {
+      "result": ["internal-problems"],
+      "note": { "en": "White stringy feces is commonly linked to internal parasites.", "hu": "A fehér, fonalszerű ürülék gyakran belső élősködőkre utal." }
+    },
+    "r-bloat": {
+      "result": ["internal-problems", "bacterial-infections"],
+      "note": { "en": "Bloating can be constipation, internal infection or a swim bladder problem.", "hu": "A puffadás lehet székrekedés, belső fertőzés vagy úszóhólyag-probléma." }
+    }
+  }
+}

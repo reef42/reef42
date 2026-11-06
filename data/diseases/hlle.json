@@ -1,0 +1,114 @@
+{
+  "id": "hlle",
+  "source": "https://humble.fish/community/index.php?threads/hlle-head-lateral-line-erosion.8/",
+  "author": "Humblefish",
+  "name": {"en": "HLLE (Head & Lateral Line Erosion)", "hu": "HLLE (fej- és oldalvonal-erózió)"},
+  "scientific": null,
+  "category": "environmental",
+  "summary": {
+    "en": "HLLE is more a condition than a disease: the skin of the face and along the lateral line looks as if it is rotting or peeling away. It is usually reversible if the erosion is not too severe. Suspected causes are stray voltage, lignite carbon, nutritional deficiency and copper exposure, so all of them should be addressed.",
+    "hu": "A HLLE inkább állapot, mint betegség: az arc és az oldalvonal mentén a bőr úgy néz ki, mintha rothadna vagy hámlana. Ha az erózió nem túl súlyos, általában visszafordítható. Feltételezett okai a kóbor feszültség, a lignit alapú aktív szén, a táplálkozási hiány és a rézexpozíció, ezért mindegyiket érdemes kezelni."
+  },
+  "symptoms": {
+    "en": [
+      "Skin erosion / pitting on the face and head",
+      "Erosion along the lateral line",
+      "Sometimes erosion of fins and spines (fin erosion can be the main symptom in atypical cases)",
+      "Affected areas may appear white",
+      "Skin looks as if rotting or peeling off"
+    ],
+    "hu": [
+      "Bőrerózió / gödröcskék az arcon és a fejen",
+      "Erózió az oldalvonal mentén",
+      "Néha az úszók és tüskék eróziója (atipikus esetben az úszóerózió lehet a fő tünet)",
+      "Az érintett területek fehérek lehetnek",
+      "A bőr úgy néz ki, mintha rothadna vagy hámlana"
+    ]
+  },
+  "body_areas": ["head", "skin", "fins"],
+  "appearance": ["pitting-erosion", "lesions-ulcers", "pale"],
+  "speed": "chronic",
+  "lethality": "low",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "Tangs (e.g. yellow tang), especially after copper treatment.",
+    "hu": "Doktorhalak (pl. citromsárga doktorhal), különösen rézkezelés után."
+  },
+  "distinguish": {
+    "en": [
+      "Not caused by a contagious pathogen: erosion is concentrated on the face and lateral line rather than random spots or patches.",
+      "Develops slowly as pits/erosion, unlike the raised white dots of ich or the cauliflower-like nodules of lymphocystis."
+    ],
+    "hu": [
+      "Nem fertőző kórokozó okozza: az erózió az arcon és az oldalvonalon koncentrálódik, nem véletlenszerű foltokban.",
+      "Lassan alakul ki gödröcskék/erózió formájában, eltérően az ich kiemelkedő fehér pöttyeitől vagy a lymphocystis karfiolszerű csomóitól."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "check-stray-voltage",
+      "name": {"en": "Test for stray voltage", "hu": "Kóbor feszültség ellenőrzése"},
+      "priority": "first-line",
+      "details": {
+        "en": "Use a titanium ground probe and test the tank for stray voltage (research the difference between stray and induced voltage).",
+        "hu": "Titán földelő szondát kell használni, és mérni kell a kóbor feszültséget az akváriumban (érdemes utánanézni a kóbor és az indukált feszültség különbségének)."
+      }
+    },
+    {
+      "treatment_id": "avoid-lignite-carbon",
+      "name": {"en": "Stop using lignite carbon", "hu": "Lignit alapú szén elhagyása"},
+      "priority": "first-line",
+      "details": {
+        "en": "Do not use lignite carbon; use only premium grade carbon such as Rox 0.8.",
+        "hu": "Ne használjunk lignit alapú aktív szenet; csak prémium minőségűt, pl. Rox 0.8."
+      }
+    },
+    {
+      "treatment_id": "diet-improvement",
+      "name": {"en": "High quality diet and vitamins", "hu": "Minőségi táplálás és vitaminok"},
+      "priority": "first-line",
+      "details": {
+        "en": "Feed only high quality foods, e.g. clams, mussels, scallops, mysis shrimp, nori. Soaking food in fish vitamins (e.g. Selcon, Zoecon, Vita-chem) and feeding nori has reversed HLLE for some keepers.",
+        "hu": "Csak jó minőségű eleséget adjunk, pl. kagylót, fésűkagylót, mysis garnélát, nori algát. Egyeseknél a halvitaminokba (pl. Selcon, Zoecon, Vita-chem) áztatott eleség és a nori etetése visszafordította a HLLE-t."
+      }
+    },
+    {
+      "treatment_id": "copper",
+      "name": {"en": "Copper exposure (cause)", "hu": "Rézexpozíció (ok)"},
+      "priority": "supportive",
+      "details": {
+        "en": "Fish treated with copper (especially tangs) sometimes develop HLLE. It usually heals after treatment ends; soaking food in a vitamin supplement helps speed recovery.",
+        "hu": "A rézzel kezelt halaknál (főleg doktorhalaknál) néha HLLE alakul ki. A kezelés után általában gyógyul; a vitaminba áztatott eleség gyorsítja a felépülést."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Ground the tank / check for stray voltage.",
+      "Use only premium grade (non-lignite) carbon.",
+      "Feed a varied, high quality diet, with vitamin-soaked food.",
+      "Supplement vitamins during and after copper treatment, especially for tangs."
+    ],
+    "hu": [
+      "Az akvárium földelése / kóbor feszültség ellenőrzése.",
+      "Csak prémium (nem lignit) aktív szén használata.",
+      "Változatos, jó minőségű, vitaminnal dúsított eleség.",
+      "Vitamin-kiegészítés rézkezelés alatt és után, főleg doktorhalaknál."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/128653mini-picture_024-jpg.98763/", "caption": {"en": "HLLE on a fish's head", "hu": "HLLE egy hal fején"}},
+    {"url": "https://humble.fish/community/attachments/dsc_0010-1024x715-2-jpg.90908/", "caption": {"en": "HLLE erosion", "hu": "HLLE erózió"}},
+    {"url": "https://humble.fish/community/attachments/atypical-hlle-in-a-yellow-tang-fin-erosion-is-the-primary-symptom-1024x680-jpg.98764/", "caption": {"en": "Atypical HLLE in a yellow tang - fin erosion is the primary symptom", "hu": "Atipikus HLLE citromsárga doktorhalon - az úszóerózió a fő tünet"}},
+    {"url": "https://humble.fish/community/attachments/hlle-1-jpg.90910/", "caption": {"en": "Severe case of HLLE", "hu": "Súlyos HLLE eset"}},
+    {"url": "https://humble.fish/community/attachments/391dc5a5-fd09-49b8-be01-f9eccc2ae588-jpeg.90911/", "caption": {"en": "Severe case of HLLE", "hu": "Súlyos HLLE eset"}}
+  ],
+  "related_links": [
+    {"title": "Video: HLLE (YouTube)", "url": "https://www.youtube.com/watch?v=JscvNSKI5v0"}
+  ],
+  "notes": {
+    "en": "Updated 6-9-2023. HLLE has multiple suspected causes/theories, so it is wise to address all of them when fish show signs.",
+    "hu": "Frissítve: 2023.06.09. A HLLE-nek több feltételezett oka/elmélete van, ezért tünetek esetén érdemes mindegyiket kezelni."
+  }
+}

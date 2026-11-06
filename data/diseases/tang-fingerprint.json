@@ -1,0 +1,85 @@
+{
+  "id": "tang-fingerprint",
+  "source": "https://humble.fish/community/index.php?threads/tang-fingerprint-disease.70/",
+  "author": "Humblefish",
+  "name": {"en": "Tang Fingerprint Disease", "hu": "Tang ujjlenyomat-betegség"},
+  "scientific": null,
+  "category": "viral",
+  "summary": {
+    "en": "A poorly understood condition in which oval, fingerprint-like patches of discoloration appear on the sides of tangs and surgeonfish. It is believed to be viral, although no virus has been identified, and under good conditions it appears to be self-limiting. The author's own example cleared up overnight without any medication.",
+    "hu": "Kevéssé ismert állapot, amelynél ovális, ujjlenyomatszerű elszíneződések jelennek meg a tangok (doktorhalak) oldalán. Feltehetően vírusos eredetű, bár vírust még nem azonosítottak, és jó körülmények között magától elmúlik. A szerző saját esetében a tünet egyik napról a másikra, gyógyszer nélkül eltűnt."
+  },
+  "symptoms": {
+    "en": [
+      "Oval, fingerprint-like areas of discoloration on the sides of the body",
+      "Often a similar pattern on both sides of the fish",
+      "Fish usually keeps feeding well at first",
+      "Usually only one fish affected",
+      "Deaths can occur, but often resolves on its own"
+    ],
+    "hu": [
+      "Ovális, ujjlenyomatszerű elszíneződött foltok a test oldalán",
+      "Gyakran hasonló mintázat a hal mindkét oldalán",
+      "A hal kezdetben általában jól eszik",
+      "Általában csak egy hal érintett",
+      "Elhullás előfordulhat, de gyakran magától elmúlik"
+    ]
+  },
+  "body_areas": ["skin", "color"],
+  "appearance": ["discoloration-patches", "pale"],
+  "speed": "days",
+  "lethality": "low",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "Tangs and surgeonfish (example: Kole Tang)",
+    "hu": "Tangok és doktorhalak (példa: Kole Tang)"
+  },
+  "distinguish": {
+    "en": [
+      "Vs coral or anemone sting: a sting is unlikely to produce the same markings on both sides of the body.",
+      "Vs physical trauma: originally thought to be traumatic damage, but microscopic investigations failed to confirm this.",
+      "Unlike parasitic diseases, other fish in the tank are typically unaffected and the fish keeps eating."
+    ],
+    "hu": [
+      "Korall- vagy anemónacsípéshez képest: egy csípés valószínűleg nem okoz azonos mintázatot a test mindkét oldalán.",
+      "Fizikai sérüléshez képest: eredetileg sérülésnek gondolták, de mikroszkópos vizsgálatok ezt nem igazolták.",
+      "A parazitás betegségekkel ellentétben az akvárium többi hala általában nem érintett, és a hal tovább eszik."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "none-needed",
+      "name": {"en": "No medication; maintain ideal conditions", "hu": "Nincs gyógyszer; ideális körülmények fenntartása"},
+      "priority": "first-line",
+      "details": {
+        "en": "Given ideal conditions the disease appears to be self-limiting. In the author's case the discoloration was gone by the next morning without antibiotics or other medications.",
+        "hu": "Ideális körülmények között a betegség magától elmúlik. A szerző esetében az elszíneződés másnap reggelre eltűnt antibiotikum vagy más gyógyszer nélkül."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Good water quality and low stress", "hu": "Jó vízminőség és alacsony stressz"},
+      "priority": "supportive",
+      "details": {
+        "en": "Keep conditions ideal to support self-resolution.",
+        "hu": "Az ideális körülmények fenntartása segíti a spontán gyógyulást."
+      }
+    }
+  ],
+  "prevention": {
+    "en": ["Maintain ideal water conditions and a low-stress environment for tangs"],
+    "hu": ["Ideális vízparaméterek és alacsony stresszű környezet biztosítása a tangok számára"]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/img_2508-768x576-jpg.98883/", "caption": {"en": "Kole Tang with fingerprint-like discoloration (similar pattern appeared on both sides)", "hu": "Kole Tang ujjlenyomatszerű elszíneződéssel (hasonló minta mindkét oldalán)"}},
+    {"url": "https://humble.fish/community/attachments/img_2554-jpg.98884/", "caption": {"en": "The same fish the next morning: discoloration gone without medication", "hu": "Ugyanaz a hal másnap reggel: az elszíneződés gyógyszer nélkül eltűnt"}}
+  ],
+  "related_links": [
+    {"title": "Marine Fish Diseases and Parasites (Chuck's Addiction)", "url": "http://chucksaddiction.thefishestate.net/disease.html"}
+  ],
+  "notes": {
+    "en": "The author states he has no first-hand experience with this condition; the information is anecdotal and quoted from an external source. Cause is unconfirmed (suspected viral, no viral particles identified), so the category is tentative.",
+    "hu": "A szerző szerint nincs saját tapasztalata ezzel az állapottal; az információk anekdotikusak és külső forrásból származnak. Az ok nem igazolt (vírusos eredet gyanúja, vírusrészecskét nem azonosítottak), így a kategória csak feltételes."
+  }
+}

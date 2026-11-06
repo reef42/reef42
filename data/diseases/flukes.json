@@ -1,0 +1,139 @@
+{
+  "id": "flukes",
+  "source": "https://humble.fish/community/index.php?threads/flukes.7/",
+  "author": "Humblefish",
+  "name": {"en": "Flukes (Monogeneans)", "hu": "Mételyek (Monogenea)"},
+  "scientific": "Monogenea (Ancyrocephalidae, Gyrodactylidae, Capsalidae incl. Neobenedenia spp.)",
+  "category": "parasite-worm",
+  "summary": {
+    "en": "Flukes are parasitic flatworms (monogeneans) that attach to the skin, eyes or gills with hooks. Three families infect saltwater fish; the capsalid Neobenedenia is the most common in marine aquaria. They are nearly transparent, so diagnosis is usually made with a freshwater dip, and they are treated mainly with praziquantel, hyposalinity or formalin dips.",
+    "hu": "A mételyek horgokkal a bőrhöz, szemhez vagy kopoltyúhoz tapadó parazita laposférgek (Monogenea). Három családjuk fertőz tengeri halakat; a tengeri akváriumokban a leggyakoribb a Capsalidae családba tartozó Neobenedenia. Szinte átlátszóak, ezért a diagnózis általában édesvízi fürdetéssel történik, kezelésük főként praziquantellel, hyposalinityvel vagy formalinos fürdővel."
+  },
+  "symptoms": {
+    "en": [
+      "Lethargy, hiding in corners or behind rocks",
+      "Swimming near the water surface",
+      "Clamped fins",
+      "Loss of appetite",
+      "Head shaking, flashing, scratching",
+      "Yawning",
+      "Cloudy eyes",
+      "Faded skin color at attachment sites (often face, lips, eyes)",
+      "Swollen, pale gills with rapid breathing and gulping air at the surface (gill flukes)",
+      "Reduced tolerance of low oxygen",
+      "Frequent secondary infections",
+      "Some fish show no symptoms at all"
+    ],
+    "hu": [
+      "Bágyadtság, rejtőzködés a sarkokban vagy kövek mögött",
+      "Úszás a vízfelszín közelében",
+      "Összecsukott úszók",
+      "Étvágytalanság",
+      "Fejrázás, villanás (flashing), dörzsölődés",
+      "Ásítás",
+      "Zavaros szemek",
+      "Kifakult bőrszín a tapadási helyeken (gyakran arc, ajkak, szemek)",
+      "Duzzadt, sápadt kopoltyúk gyors légzéssel és levegő kapkodással a felszínen (kopoltyúmételyek)",
+      "Csökkent tűrőképesség alacsony oxigénszint mellett",
+      "Gyakori másodlagos fertőzések",
+      "Egyes halakon egyáltalán nincs tünet"
+    ]
+  },
+  "body_areas": ["skin", "eyes", "mouth", "gills", "head", "fins", "behavior", "color"],
+  "appearance": ["cloudy-eye", "pale", "rapid-breathing", "flashing-scratching", "lethargy", "not-eating", "clamped-fins", "yawning", "head-shaking"],
+  "speed": "days",
+  "lethality": "medium",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Neobenedenia is host specific, attacking angelfish, butterflyfish and elasmobranchs among others; wrasses are sensitive to higher praziquantel doses.",
+    "hu": "A Neobenedenia gazdaspecifikus: többek között angyalhalakat, pillangóshalakat és porcos halakat (elasmobranchs) támad; a wrasse-ok (ajakoshalak) érzékenyek a magasabb praziquantel adagra."
+  },
+  "distinguish": {
+    "en": [
+      "Unlike ich, flukes are clear and usually not visible as white dots; a 3-5 minute freshwater dip makes them turn opaque and drop off, confirming the diagnosis.",
+      "Neobenedenia can be seen with the naked eye (especially in a dip); other species need a microscope.",
+      "Unlike Cryptocaryon (ich), flukes and their eggs are not reported to lie dormant, and they cannot infect invertebrates or corals."
+    ],
+    "hu": [
+      "Az ichtől eltérően a mételyek átlátszóak, általában nem látszanak fehér pöttyökként; egy 3-5 perces édesvízi fürdőben átlátszatlanná válnak és leválnak, ami megerősíti a diagnózist.",
+      "A Neobenedenia szabad szemmel is látható (főleg fürdetéskor); más fajokhoz mikroszkóp kell.",
+      "A Cryptocaryonnal (ich) ellentétben a mételyek és petéik nem ismert, hogy nyugalmi állapotban túlélnének, és gerincteleneket vagy korallokat nem fertőznek."
+    ]
+  },
+  "life_cycle": {
+    "en": "At 78-79 F eggs hatch in 4-6 days. The ciliated larva (oncomiracidium) must find a host within 36 hours, crawls to its preferred site, hooks in and feeds for 17-19 days until it matures and starts laying eggs. At 34-36 F the cycle can take 5-6 months. Without a host the cycle can complete in a few days; adults survive up to 6 days off a host. Ancyrocephalidae (14 hooks, egg layers, prefer gills/esophagus), Gyrodactylidae (16 hooks, live bearers - 'Russian dolls'), Capsalidae (2 hooks, egg layers; Neobenedenia prefers face, lips, eyes).",
+    "hu": "78-79 F-on a peték 4-6 nap alatt kelnek ki. A csillós lárvának (oncomiracidium) 36 órán belül gazdát kell találnia, a kedvelt helyére mászik, megkapaszkodik és 17-19 napig táplálkozik, amíg ivaréretté válik és petézni kezd. 34-36 F-on a ciklus 5-6 hónapig is tarthat. Gazda nélkül a ciklus néhány nap alatt lezajlik; a felnőttek legfeljebb 6 napig élnek gazda nélkül. Ancyrocephalidae (14 horog, petéző, kopoltyút/nyelőcsövet kedveli), Gyrodactylidae (16 horog, elevenszülő - 'matrjoska'), Capsalidae (2 horog, petéző; a Neobenedenia az arcot, ajkakat, szemeket kedveli)."
+  },
+  "treatments": [
+    {
+      "treatment_id": "praziquantel",
+      "name": {"en": "Praziquantel (PraziPro)", "hu": "Praziquantel (PraziPro)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Most common: dose 2.5 mg/L for 5-7 days, water change, then redose full amount for another 5-7 days; a 3rd and 4th round may be needed. Alternative: two 40-hour baths at 5 mg/L, 48 hours apart. Prazi dislodges flukes (they die after ~10 h). Very gentle on fish, but wrasses should not exceed 2.5 mg. Can suppress appetite and depletes oxygen - aerate well. Considered relatively reef safe (some feather dusters/worms may die). Finish with a large water change and carbon. A 2013 study found 82% effectiveness against Neobenedenia girellae.",
+        "hu": "Leggyakoribb: 2,5 mg/l adag 5-7 napig, vízcsere, majd újra teljes adag további 5-7 napig; 3. és 4. kör is szükséges lehet. Alternatíva: két 40 órás fürdő 5 mg/l-es oldatban, 48 óra különbséggel. A Prazi leválasztja a mételyeket (kb. 10 óra után elpusztulnak). Nagyon kíméletes a halakhoz, de wrasse-oknál ne lépjük túl a 2,5 mg-ot. Csökkentheti az étvágyat és fogyasztja az oxigént - erős levegőztetés kell. Viszonylag reef-biztos (néhány féreg elpusztulhat). A végén nagy vízcsere és aktív szén. Egy 2013-as vizsgálat 82%-os hatékonyságot mutatott Neobenedenia girellae ellen."
+      }
+    },
+    {
+      "treatment_id": "hyposalinity",
+      "name": {"en": "Hyposalinity", "hu": "Hyposalinity (alacsony sótartalom)"},
+      "priority": "alternative",
+      "details": {
+        "en": "Research showed 15 ppt for 2 days eliminated juvenile and adult flukes; maintaining it for 5 days also prevented eggs from hatching.",
+        "hu": "Kutatások szerint 15 ppt 2 napig elpusztította a fiatal és felnőtt mételyeket; 5 napig fenntartva a peték kikelését is megakadályozta."
+      }
+    },
+    {
+      "treatment_id": "formalin",
+      "name": {"en": "Formalin dip", "hu": "Formalinos fürdő"},
+      "priority": "alternative",
+      "details": {
+        "en": "Water below 70 F: 250 ppm for 30 minutes. Above 70 F or formalin-sensitive fish: 150 ppm for no more than 45 minutes. Repeat every 5-7 days. Aerate the dip water for at least one hour beforehand.",
+        "hu": "70 F alatti víznél: 250 ppm 30 percig. 70 F felett vagy formalinérzékeny halaknál: 150 ppm legfeljebb 45 percig. 5-7 naponta ismételhető. A fürdővizet előtte legalább egy órán át levegőztetni kell."
+      }
+    },
+    {
+      "treatment_id": "freshwater-dip",
+      "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdő"},
+      "priority": "supportive",
+      "details": {
+        "en": "Can be effective against skin flukes but not against gill flukes. Also used for diagnosis: after 3-5 minutes flukes turn opaque and fall off.",
+        "hu": "Bőrmételyek ellen hatásos lehet, de kopoltyúmételyek ellen nem. Diagnózisra is használják: 3-5 perc után a mételyek átlátszatlanná válnak és leesnek."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Quarantine all new fish - some infected fish show no symptoms.",
+      "Monitor fish for 30 days after treatment; confirm eradication with freshwater dips, skin scrapes or fin clips (experienced keepers only).",
+      "Clean equipment with hot water and bleach and dry thoroughly.",
+      "Avoid cross contamination via hands, equipment, water and food."
+    ],
+    "hu": [
+      "Minden új halat karanténba (QT) kell tenni - egyes fertőzött halak tünetmentesek.",
+      "A kezelés után 30 napig figyelni kell a halakat; a mentességet édesvízi fürdővel, bőrkaparással vagy úszómintával lehet megerősíteni (csak tapasztaltaknak).",
+      "Az eszközöket forró vízzel és fehérítővel kell tisztítani, majd alaposan megszárítani.",
+      "Kerülni kell a keresztfertőzést kézzel, eszközökkel, vízzel és eleséggel."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/encavzp-jpg.98875/", "caption": {"en": "Flukes on a fish", "hu": "Mételyek egy halon"}},
+    {"url": "https://humble.fish/community/attachments/skinflukes1-jpg.98876/", "caption": {"en": "Skin flukes on a fish", "hu": "Bőrmételyek egy halon"}},
+    {"url": "https://humble.fish/community/attachments/img_20200120_152222-jpg.943/", "caption": {"en": "Dead flukes in a freshwater dip", "hu": "Elpusztult mételyek édesvízi fürdőben"}},
+    {"url": "https://humble.fish/community/attachments/img_20200120_152203-jpg.944/", "caption": {"en": "Dead flukes in a freshwater dip", "hu": "Elpusztult mételyek édesvízi fürdőben"}},
+    {"url": "https://humble.fish/community/attachments/neobenedenia-png.98877/", "caption": {"en": "Adult Neobenedenia sp. detached from its host, under a microscope", "hu": "Gazdájáról levált felnőtt Neobenedenia sp. mikroszkóp alatt"}}
+  ],
+  "related_links": [
+    {"title": "Praziquantel", "url": "https://humble.fish/praziquantel/"},
+    {"title": "Hyposalinity", "url": "https://humble.fish/hyposalinity/"},
+    {"title": "Formalin", "url": "https://humble.fish/formalin/"},
+    {"title": "Freshwater dip", "url": "https://humble.fish/freshwater-dip/"},
+    {"title": "Monogenean Parasites of Fish (Texas A&M, PDF)", "url": "https://fisheries.tamu.edu/files/2013/09/Monogenean-Parasites-of-Fish.pdf"},
+    {"title": "Video: flukes (YouTube)", "url": "https://www.youtube.com/watch?v=mFpvW1iOnfU"},
+    {"title": "Video: flukes (YouTube)", "url": "https://www.youtube.com/watch?v=npt60HsPQG0"}
+  ],
+  "notes": {
+    "en": "Text written by Newsmyrna80 and reposted by Humblefish (updated 1/11/23). Fish may keep scratching after successful treatment while the skin heals from the hook wounds. Identifying the fluke family is helpful but not necessary for treatment. The original post also contains two uploaded videos (.mov) of flukes.",
+    "hu": "A szöveget Newsmyrna80 írta, Humblefish tette közzé (frissítve: 2023.01.11.). A halak sikeres kezelés után is dörzsölődhetnek még, amíg a horgok okozta sebek gyógyulnak. A métely családjának azonosítása hasznos, de a kezeléshez nem szükséges. Az eredeti bejegyzés két feltöltött videót (.mov) is tartalmaz a mételyekről."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "eye-problems",
+  "source": "https://humble.fish/community/index.php?threads/eye-problems.4870/",
+  "author": "Humblefish",
+  "name": {"en": "Eye Problems (Cloudy Eye, Eye Flukes, Popeye)", "hu": "Szemproblémák (zavaros szem, szemmétely, kidülledt szem)"},
+  "scientific": null,
+  "category": "other",
+  "summary": {
+    "en": "Marine fish have three basic eye problems: bacterial eye infection (cloudiness), flukes in the eye, and popeye/eye swelling. Infections often self-correct if the fish eats well, but erythromycin and minocycline or kanamycin help when needed. Eye flukes need a freshwater dip before praziquantel, and popeye usually comes from injury and can be eased with Epsom salt.",
+    "hu": "A tengeri halaknak három alapvető szemproblémája van: bakteriális szemfertőzés (zavarosság), métely a szemben, és kidülledt szem/szemduzzanat. A fertőzés gyakran magától rendeződik, ha a hal jól eszik, de szükség esetén eritromicin és minociklin vagy kanamicin segít. Szemmételynél prazikvantel előtt édesvízi fürdetés kell, a kidülledt szem pedig általában sérülésből ered, és Epsom sóval enyhíthető."
+  },
+  "symptoms": {
+    "en": ["Cloudiness or white haze over one or both eyes (infection)", "Eye swollen or popped out", "Translucent oval objects on the eye (flukes)", "Swelling or protrusion around the eye after injury"],
+    "hu": ["Zavarosság vagy fehér fátyol az egyik vagy mindkét szemen (fertőzés)", "Duzzadt vagy kidülledt szem", "Áttetsző, ovális képletek a szemen (métely)", "Duzzanat vagy kidülledés a szem körül sérülés után"]
+  },
+  "body_areas": ["eyes"],
+  "appearance": ["cloudy-eye", "popeye"],
+  "speed": "days",
+  "lethality": "low",
+  "contagious": false,
+  "commonly_affected": {"en": "Any marine fish; eye flukes are often Neobenedenia sp.", "hu": "Bármely tengeri hal; a szemmétely gyakran Neobenedenia sp."},
+  "distinguish": {
+    "en": [
+      "Flukes in the eye look like translucent oval objects, while an infection is usually a single layered white or hazy growth over or under most of the eyeball.",
+      "Popeye is usually physical injury (e.g. bumping into rock); it may also be caused by parasites, flukes or bacteria.",
+      "Gas bubble disease is a similar but less common eye condition (swollen eyes, abnormal buoyancy, mass die-offs)."
+    ],
+    "hu": [
+      "A szemmétely áttetsző, ovális képletnek látszik, míg a fertőzés általában egyetlen, rétegzett fehér vagy ködös képlet a szemgolyó nagy része fölött vagy alatt.",
+      "A kidülledt szem többnyire fizikai sérülés (pl. kőnek ütközés); de okozhatják paraziták, métely vagy baktériumok is.",
+      "A gázbuborék-betegség hasonló, de ritkább szemprobléma (duzzadt szem, rendellenes úszás/lebegés, tömeges elhullás)."
+    ]
+  },
+  "life_cycle": null,
+  "treatments": [
+    {"treatment_id": "diet-improvement", "name": {"en": "Vitamin food soaking", "hu": "Vitaminos eleségáztatás"}, "priority": "supportive", "details": {"en": "Infections often self-correct if the fish eats and the underlying parasites/worms are treated; soak food with vitamins to boost immunity.", "hu": "A fertőzés gyakran magától elmúlik, ha a hal eszik és a háttérben álló parazitákat/férgeket kezelik; az immunitás erősítésére áztasd vitaminba az eleséget."}},
+    {"treatment_id": "erythromycin", "name": {"en": "Erythromycin (Maracyn 1)", "hu": "Eritromicin (Maracyn 1)"}, "priority": "first-line", "details": {"en": "For cloudy-eye infection; treats Gram-positive bacteria, which is what most eye infections are. Dose or soak into food.", "hu": "Zavaros szem fertőzésre; Gram-pozitív baktériumok ellen hat, és a legtöbb szemfertőzés ilyen. Adagold a vízbe vagy áztasd az eleségbe."}},
+    {"treatment_id": "minocycline", "name": {"en": "Minocycline (Maracyn 2) or Kanaplex", "hu": "Minociklin (Maracyn 2) vagy Kanaplex"}, "priority": "alternative", "details": {"en": "Treats Gram-negative bacteria; can be combined with erythromycin for a wider spectrum. Kanamycin (Kanaplex) is a suitable alternative to minocycline.", "hu": "Gram-negatív baktériumok ellen; eritromicinnel kombinálva szélesebb spektrumot ad. A kanamicin (Kanaplex) megfelelő alternatíva a minociklin helyett."}},
+    {"treatment_id": "freshwater-dip", "name": {"en": "Freshwater dip (eye flukes)", "hu": "Édesvízi fürdetés (szemmétely)"}, "priority": "first-line", "details": {"en": "5 minute freshwater dip before praziquantel to gently clear flukes from the eyes.", "hu": "5 perces édesvízi fürdetés prazikvantel előtt, hogy kíméletesen eltávolítsa a mételyeket a szemről."}},
+    {"treatment_id": "praziquantel", "name": {"en": "Praziquantel after dip", "hu": "Prazikvantel fürdetés után"}, "priority": "first-line", "details": {"en": "Use after the freshwater dip to eliminate remaining flukes on the body. Do not use it first for eye flukes: it makes flukes tremble before dislodging, which can damage the eye.", "hu": "Az édesvízi fürdetés után alkalmazd a testen maradt mételyek ellen. Szemmételynél ne ezzel kezdd: a mételyek leválás előtt remegnek, ami károsíthatja a szemet."}},
+    {"treatment_id": "epsom-salt", "name": {"en": "Epsom salt (popeye)", "hu": "Epsom só (kidülledt szem)"}, "priority": "first-line", "details": {"en": "1 tablespoon per 5 gallons every 48 hours, two or three times. Only USP/food-grade Epsom salt with no scents or surfactants. Display-tank safe. Controversial (magnesium sulfate is already abundant in seawater) but anecdotally effective.", "hu": "1 evőkanál / 5 gallon 48 óránként, két-három alkalommal. Csak USP/élelmiszer minőségű, illat- és felületaktív anyag mentes Epsom só. Fő akváriumban is biztonságos. Vitatott (a magnézium-szulfát a tengervízben amúgy is bőven van), de tapasztalatok szerint hatásos."}},
+    {"treatment_id": "needle-aspiration", "name": {"en": "Lancing / needle aspiration", "hu": "Szúrás / tűs leszívás"}, "priority": "alternative", "details": {"en": "Invasive option for persistent popeye: insert a hypodermic needle through the stretched tissue near the top of the eye (not the eye itself) and withdraw the plunger. Severe damage may require eye removal.", "hu": "Invazív lehetőség tartós kidülledésnél: a szem tetején lévő megfeszült szövetbe (nem magába a szembe) szúrj injekciós tűt és húzd vissza a dugattyút. Súlyos károsodásnál a szem eltávolítása is szükséges lehet."}}
+  ],
+  "prevention": {
+    "en": ["Treat underlying parasites and flukes promptly", "Avoid injuries from rockwork and aggression", "Support immunity with vitamins and good water quality"],
+    "hu": ["A háttérben álló parazitákat és mételyeket időben kezeld", "Kerüld a kövek és az agresszió okozta sérüléseket", "Vitaminokkal és jó vízminőséggel támogasd az immunrendszert"]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/index.php?attachments/badeye-jpg.8661/", "caption": {"en": "Cloudy eye from bacterial infection", "hu": "Bakteriális fertőzés okozta zavaros szem"}},
+    {"url": "https://humble.fish/community/index.php?attachments/img_20200612_084002-jpg.4197/", "caption": {"en": "Eye infection", "hu": "Szemfertőzés"}},
+    {"url": "https://humble.fish/community/attachments/1570761435143-png.22641/", "caption": {"en": "Flukes in the eye (translucent oval objects)", "hu": "Métely a szemben (áttetsző ovális képletek)"}},
+    {"url": "https://humble.fish/community/attachments/screenshot-2025-10-09-at-6-36-15-pm-png.155374/", "caption": {"en": "Close-up of a monogenean fluke attached to the bottom right of the eye", "hu": "Közeli kép a szem jobb alsó részére tapadt monogenea mételyről"}},
+    {"url": "https://humble.fish/community/attachments/img_0242-jpeg.155375/", "caption": {"en": "The same fluke detached after a freshwater dip", "hu": "Ugyanaz a métely édesvízi fürdetés után leválva"}},
+    {"url": "https://humble.fish/community/attachments/screen-shot-2021-04-06-at-3-24-19-pm-png.22657/", "caption": {"en": "Popeye / eye swelling", "hu": "Kidülledt szem / szemduzzanat"}}
+  ],
+  "related_links": [
+    {"title": "Bacterial Infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
+    {"title": "Flukes", "url": "https://humble.fish/community/index.php?threads/flukes.7/"},
+    {"title": "Freshwater Dip", "url": "https://humble.fish/community/index.php?threads/freshwater-dip.20/"},
+    {"title": "Praziquantel", "url": "https://humble.fish/community/index.php?threads/praziquantel.25/"},
+    {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"},
+    {"title": "Vitamins & Herbal Remedies", "url": "https://humble.fish/community/index.php?threads/vitamins-herbal-remedies.27/"},
+    {"title": "Streptococcus, Eye Infections in Fish", "url": "https://www.aquarium-pond-answers.com/2009/01/streptococcus-eye-infections.html"},
+    {"title": "Video: lancing popeye", "url": "https://youtu.be/kK7bl7gwC4g"},
+    {"title": "Video: fish eye removal", "url": "https://youtu.be/TeFySlymViI"},
+    {"title": "Toledo Zoo Fish Health Q&A: Gas Bubble Disease", "url": "https://reefs.com/magazine/toledo-zoo-fish-health-q-a-gas-bubble-disease/"},
+    {"title": "Gas Bubble Disease In Fish - Veterinary Vision Center", "url": "https://veterinaryvisioncenter.com/theres-something-in-the-water-gas-bubble-disease-in-fish/"}
+  ],
+  "notes": {
+    "en": "Author's practical rule from replies: Epsom salt to ease popeye swelling, then erythromycin if the eye turns cloudy (indicating infection). Popeye often self-heals if not caused by an untreated pathogen. Contagiousness depends on the underlying cause (flukes/bacteria can spread; injury-related popeye does not).",
+    "hu": "A szerző gyakorlati szabálya a válaszokból: Epsom só a kidülledés enyhítésére, majd eritromicin, ha a szem bezavarosodik (fertőzés jele). A kidülledt szem gyakran magától gyógyul, ha nem kezeletlen kórokozó okozza. A fertőzőképesség az októl függ (a métely/baktérium terjedhet, a sérülés okozta kidülledés nem)."
+  }
+}

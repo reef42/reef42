@@ -1,0 +1,202 @@
+{
+  "id": "uronema",
+  "source": "https://humble.fish/community/index.php?threads/uronema.13/",
+  "author": "Humblefish",
+  "name": {"en": "Uronema", "hu": "Uronema-fertőzés"},
+  "scientific": "Uronema marinum",
+  "category": "parasite-protozoan",
+  "summary": {
+    "en": "Uronema marinum is a free-living scuticociliate that causes red sores, most often on chromis damsels and anthias, and sometimes angelfish and butterflyfish. It lives and reproduces directly on the fish and can invade the body internally, in which case it is terminal. Because it feeds on bacteria, leftover food and detritus, there is no fallow period. The priority in QT is to stop it spreading to other fish. Fish that already have sores have much poorer odds.",
+    "hu": "Az Uronema marinum szabadon élő scuticociliata (csillós egysejtű), amely vörös sebeket okoz, leggyakrabban chromis halakon és anthiasokon, néha császárhalakon és pillangóhalakon. Közvetlenül a halon él és szaporodik, és a test belsejébe is behatolhat; ilyenkor halálos. Mivel baktériumokon, ételmaradékon és detrituszon is megél, fallow időszak nincs. A QT-ben a fő cél a más halakra való terjedés megakadályozása, mert a már sebes halak esélyei jóval rosszabbak."
+  },
+  "symptoms": {
+    "en": [
+      "Red sores / ulcers on the body",
+      "Redness and secondary bacterial infection around sores",
+      "Rapid deterioration and death, especially in chromis and anthias",
+      "Internal (intracellular) spread, including into the bloodstream and brain, is terminal",
+      "Some fish carry it without showing symptoms"
+    ],
+    "hu": [
+      "Vörös sebek / fekélyek a testen",
+      "Pirosság és másodlagos bakteriális fertőzés a sebek körül",
+      "Gyors állapotromlás és elhullás, különösen chromisoknál és anthiasoknál",
+      "A belső (sejten belüli) terjedés, akár a véráramba és az agyba, halálos",
+      "Egyes halak tünetmentes hordozók"
+    ]
+  },
+  "body_areas": ["skin", "fins", "head", "behavior"],
+  "appearance": ["lesions-ulcers", "red-streaks", "hemorrhage", "lethargy", "not-eating"],
+  "speed": "sudden-fast",
+  "lethality": "very-high",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Chromis damsels and anthias especially; occasionally angelfish and butterflyfish. Most other fish are protected by their immune system.",
+    "hu": "Főleg chromis halak és anthiasok; alkalmanként császárhalak és pillangóhalak. A legtöbb más halat az immunrendszere megvédi."
+  },
+  "distinguish": {
+    "en": [
+      "Vs bacterial infection: Uronema red sores are usually accompanied by a secondary bacterial infection, so both may be present; strongly suspect Uronema when red sores appear on chromis or anthias.",
+      "Vs ich/velvet: Uronema causes red open sores rather than white spots or dust.",
+      "Unlike ich or velvet, Uronema does not need a fish host, so a fallow period does not eradicate it.",
+      "Confirmation is possible under the microscope; Aquabiomics tank tests can also detect it."
+    ],
+    "hu": [
+      "Bakteriális fertőzéshez képest: az Uronema vörös sebeit általában másodlagos bakteriális fertőzés kíséri, így mindkettő jelen lehet; ha chromison vagy anthiason vörös seb jelenik meg, erősen gyanítható az Uronema.",
+      "Ich-hez/velvethez képest: az Uronema vörös, nyílt sebeket okoz, nem fehér pöttyöket vagy port.",
+      "Az ich-csel és velvettel ellentétben az Uronemának nincs szüksége gazdahalra, ezért a fallow időszak nem számolja fel.",
+      "Mikroszkóppal igazolható; az Aquabiomics akváriumtesztjei is kimutatják."
+    ]
+  },
+  "life_cycle": {
+    "en": "Direct life cycle: lives, feeds and reproduces directly on the fish with no encysted stage. Spreads through direct contact or via parasites dropping into the water column. It is free-living and can survive indefinitely in a tank on bacteria, uneaten food and possibly detritus. It can burrow deep into the fish, including the bloodstream and brain.",
+    "hu": "Közvetlen életciklus: közvetlenül a halon él, táplálkozik és szaporodik, betokozódott stádium nélkül. Közvetlen érintkezéssel vagy a vízbe kerülő parazitákon keresztül terjed. Szabadon élő, és baktériumokon, el nem fogyasztott ételen, esetleg detrituszon korlátlan ideig fennmarad az akváriumban. Mélyen befúródhat a halba, akár a véráramba és az agyba is."
+  },
+  "treatments": [
+    {
+      "treatment_id": "formalin",
+      "name": {"en": "Formalin (limit transmission in QT)", "hu": "Formalin (terjedés korlátozása QT-ben)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Dose every 24 hours in QT for at least 10 days (FisHotel updated to 10-12 days). 25 ppm = 1 ml per 10 gallons without copper; 0.9 ml per 10 gallons when combined with copper. A 30-60 minute bath helps but continuous dosing is better. DO NOT use formalin on fish with red sores. Reported by FisHotel as the most reliable method (no fish slipped through in hundreds treated), but handle with great care.",
+        "hu": "24 óránként adagolva QT-ben legalább 10 napig (a FisHotel frissítése szerint 10-12 napig). 25 ppm = 1 ml / 10 gallon réz nélkül; 0,9 ml / 10 gallon rézzel kombinálva. Egy 30-60 perces fürdő is segít, de a folyamatos adagolás jobb. Vörös sebes halon TILOS formalint használni. A FisHotel szerint a legmegbízhatóbb módszer (több száz kezelt halból egy sem csúszott át), de nagy óvatossággal kell kezelni."
+      }
+    },
+    {
+      "treatment_id": "chloroquine-phosphate",
+      "name": {"en": "Chloroquine phosphate (limit transmission in QT)", "hu": "Chloroquine phosphate (terjedés korlátozása QT-ben)"},
+      "priority": "alternative",
+      "details": {
+        "en": "15-20 mg/L (60-80 mg/gal) for at least 2 weeks. Some fish do not tolerate 80 mg/gal. Cannot be tested for; moving fish from copper to CP is risky (they often stop eating). Usually will not save fish already showing red sores.",
+        "hu": "15-20 mg/L (60-80 mg/gallon) legalább 2 hétig. Egyes halak nem bírják a 80 mg/gallont. A koncentráció nem mérhető; rézről CP-re váltani kockázatos (a halak gyakran abbahagyják az evést). A már vörös sebes halakat általában nem menti meg."
+      }
+    },
+    {
+      "treatment_id": "ruby-reef-rally",
+      "name": {"en": "Ruby Reef Rally + Copper Power (in QT)", "hu": "Ruby Reef Rally + Copper Power (QT-ben)"},
+      "priority": "alternative",
+      "details": {
+        "en": "Dose Rally 3 ml/gallon every 24 hours for at least 5 days while running Copper Power at 2.2-2.3 ppm for 30 days. Appears to prevent spread in the water. Rally at 3 ml/gallon harms biological filtration, so watch ammonia closely.",
+        "hu": "Rally adagolása 3 ml/gallon 24 óránként legalább 5 napig, közben Copper Power 2,2-2,3 ppm-en 30 napig. Úgy tűnik, megakadályozza a vízen keresztüli terjedést. A 3 ml/gallon Rally rontja a biológiai szűrést, ezért figyelni kell az ammóniát."
+      }
+    },
+    {
+      "treatment_id": "metronidazole",
+      "name": {"en": "Metronidazole food soak", "hu": "Metronidazolos táplálékáztatás"},
+      "priority": "supportive",
+      "details": {
+        "en": "Soak food in metronidazole (recipe in the Metronidazole thread) to eliminate internal (intracellular) Uronema, alongside the transmission-limiting treatment.",
+        "hu": "A táplálék metronidazolban áztatása (recept a Metronidazole témában) a belső (sejten belüli) Uronema felszámolására, a terjedést korlátozó kezelés mellett."
+      }
+    },
+    {
+      "treatment_id": "rally-bath",
+      "name": {"en": "Ruby Reef Rally bath (fish with red sores)", "hu": "Ruby Reef Rally fürdő (vörös sebes halak)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Fish with visible red sores have been treated successfully with a daily 90 minute Rally bath at 3 ml/gallon (outside QT) for 14 days straight, while the QT itself is treated with copper.",
+        "hu": "Látható vörös sebes halakat sikeresen kezeltek napi 90 perces Rally fürdővel 3 ml/gallon adaggal (a QT-n kívül) 14 egymást követő napon, miközben magát a QT-t rézzel kezelték."
+      }
+    },
+    {
+      "treatment_id": "tea-tree-oil-bath",
+      "name": {"en": "Tea tree oil bath (Standard Melafix)", "hu": "Teafaolajos fürdő (Standard Melafix)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Considered the best option for fish with red sores. Add 7.6 ml (20 ppm) of Standard Melafix (NOT the Marine version) per gallon of saltwater; aerate heavily because it depletes oxygen. Bath for 8 minutes (at least 5 minutes to count; up to 30 minutes if tolerated). Repeat every 48 hours for 3 treatments. Fish may 'fall asleep' or lie on their side (normal after 10+ minutes); remove immediately if a fish nose-dives and cannot lift itself. Afterwards move the fish to a clean QT with an antibiotic or Methylene Blue (requires two tanks and equipment sets to rotate). With only one QT, add Metronidazole and antibiotics after the bath; the trifecta (Metroplex + Kanaplex + Nitrofurazone) is best. Also helps with bacterial redness.",
+        "hu": "A vörös sebes halak számára a legjobb opciónak tartják. 1 gallon sós vízhez 7,6 ml (20 ppm) Standard Melafix (NEM a Marine változat); erős levegőztetés kell, mert csökkenti az oxigént. Fürdetés 8 percig (legalább 5 perc kell a sikerhez; jól tűrő halnál akár 30 perc). 48 óránként ismételve, összesen 3 kezelés. A hal „elalhat” vagy oldalára dőlhet (10+ perc után normális); ha orral lefelé zuhan és nem tud felemelkedni, azonnal ki kell venni. Utána tiszta QT-be kerüljön antibiotikummal vagy Methylene Blue-val (két tartály és két felszerelés kell a váltogatáshoz). Ha csak egy QT van, a fürdő után Metronidazole és antibiotikum kerüljön a QT-be; a trifecta (Metroplex + Kanaplex + Nitrofurazone) a legjobb. A bakteriális pirosságon is segít."
+      }
+    },
+    {
+      "treatment_id": "kanaplex",
+      "name": {"en": "Antibiotics trifecta (Metroplex + Kanaplex + Nitrofurazone)", "hu": "Antibiotikum trifecta (Metroplex + Kanaplex + Nitrofurazone)"},
+      "priority": "supportive",
+      "details": {
+        "en": "Used in QT after baths to limit reinfection and treat open wounds and the secondary bacterial infection.",
+        "hu": "A fürdők után a QT-ben alkalmazva a visszafertőződés korlátozására, valamint a nyílt sebek és a másodlagos bakteriális fertőzés kezelésére."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {"en": "Methylene Blue freshwater dip", "hu": "Methylene Blue-s édesvizes merítés"},
+      "priority": "supportive",
+      "details": {
+        "en": "Methylene Blue in a 5 minute freshwater dip can provide temporary relief.",
+        "hu": "Methylene Blue 5 perces édesvizes merítésben átmeneti enyhülést adhat."
+      }
+    },
+    {
+      "treatment_id": "display-tank-treatment",
+      "name": {"en": "Display tank: metronidazole or hydrogen peroxide dosing", "hu": "Bemutató akvárium: metronidazol vagy hidrogén-peroxid adagolás"},
+      "priority": "alternative",
+      "details": {
+        "en": "Two possible (not guaranteed) ways to eliminate Uronema from a reef display: metronidazole dosing to the reef tank, or peroxide (H2O2) dosing for parasites. See linked how-to threads.",
+        "hu": "Két lehetséges (nem garantált) módszer az Uronema felszámolására a zátonyakváriumból: metronidazol adagolása vagy hidrogén-peroxid (H2O2) adagolása. Lásd a hivatkozott útmutatókat."
+      }
+    },
+    {
+      "treatment_id": "fallow-period",
+      "name": {"en": "Fallow period", "hu": "Hal nélküli időszak (fallow)"},
+      "priority": "not-recommended",
+      "details": {
+        "en": "Does not work: Uronema is free-living and survives without fish.",
+        "hu": "Nem működik: az Uronema szabadon élő, halak nélkül is fennmarad."
+      }
+    },
+    {
+      "treatment_id": "euthanasia",
+      "name": {"en": "Euthanasia", "hu": "Eutanázia"},
+      "priority": "supportive",
+      "details": {
+        "en": "If treatment fails, euthanasia is the most humane remaining option.",
+        "hu": "Ha a kezelés sikertelen, az eutanázia a leghumánusabb megmaradt lehetőség."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Quarantine new fish, using formalin prophylactically to limit transmission",
+      "Keep the aquarium very clean with minimal detritus and uneaten food (removes the parasite's food sources)",
+      "If the display has Uronema, avoid stocking prone species (chromis, anthias, angelfish, butterflyfish)",
+      "Minimize fighting, nipping and rock scraping; injuries are when Uronema becomes dangerous",
+      "Keep fish healthy and well fed; healthy fish can coexist with Uronema in the tank"
+    ],
+    "hu": [
+      "Új halak karanténozása, a terjedés korlátozására megelőző formalin használatával",
+      "Nagyon tiszta akvárium minimális detritusszal és ételmaradékkal (megszünteti a parazita táplálékforrásait)",
+      "Ha a bemutató akváriumban Uronema van, kerülni kell a fogékony fajokat (chromis, anthias, császárhalak, pillangóhalak)",
+      "Verekedés, csipkedés és kövekhez dörzsölődés minimalizálása; a sérüléseknél válik veszélyessé az Uronema",
+      "A halak egészségének és jó táplálásának biztosítása; az egészséges halak együtt élhetnek az Uronemával"
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/uronema-jpg.98887/", "caption": {"en": "Uronema marinum", "hu": "Uronema marinum"}},
+    {"url": "https://humble.fish/community/attachments/uronema1-jpg.98888/", "caption": {"en": "Red sores caused by Uronema", "hu": "Uronema okozta vörös sebek"}},
+    {"url": "https://humble.fish/community/attachments/uronema2-jpg.98889/", "caption": {"en": "Red sores caused by Uronema", "hu": "Uronema okozta vörös sebek"}},
+    {"url": "https://humble.fish/community/index.php?attachments/img_4885-jpg.93666/", "caption": {"en": "Fish with Uronema red sores", "hu": "Hal Uronema okozta vörös sebekkel"}},
+    {"url": "https://humble.fish/community/attachments/5001010-jpg.92956/", "caption": {"en": "Tea tree oil bath product (Standard Melafix) used for Uronema", "hu": "Teafaolajos fürdőhöz használt készítmény (Standard Melafix)"}}
+  ],
+  "related_links": [
+    {"title": "Us vs Uronema", "url": "https://humble.fish/community/index.php?threads/us-vs-uronema.15259/"},
+    {"title": "I'm gonna kick Uronema's ass!", "url": "https://humble.fish/community/threads/im-gonna-kick-uronemas-ass.21161/"},
+    {"title": "Peroxide (H2O2) dosing for parasites in reef tank", "url": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/"},
+    {"title": "Metronidazole dosing to reef tank for Uronema", "url": "https://humble.fish/community/threads/how-to-metronidazole-dosing-to-reef-tank-for-uronema-and-possibly-other-ciliates.21546/"},
+    {"title": "Formalin", "url": "https://humble.fish/community/threads/formalin.19/"},
+    {"title": "Chloroquine phosphate", "url": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/"},
+    {"title": "Metronidazole", "url": "https://humble.fish/community/index.php?threads/metronidazole.24/"},
+    {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"},
+    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
+    {"title": "Bacterial Infections", "url": "https://humble.fish/community/threads/bacterial-infections.120/"},
+    {"title": "Fallow periods (going fishless)", "url": "https://humble.fish/community/index.php?threads/fallow-periods-going-fishless.32/"},
+    {"title": "Copper treatment", "url": "https://humble.fish/community/threads/copper-treatment.17/"},
+    {"title": "Quarantine", "url": "https://humble.fish/community/threads/quarantine.2/"},
+    {"title": "Freshwater Dip", "url": "https://humble.fish/community/threads/freshwater-dip.20/"},
+    {"title": "How to euthanize a fish", "url": "https://humble.fish/community/index.php?threads/euthanize-a-fish.2078/"},
+    {"title": "Antiparasitic Effects of Some Essential Oils on the Scuticociliate Uronema sp. (abstract)", "url": "https://www.researchgate.net/publication/287862971_Antiparasitic_Effects_of_Some_Essential_Oils_on_the_Scuticociliate_Uronema_Sp"},
+    {"title": "Standard Melafix (API)", "url": "https://apifishcare.com/product/melafix"}
+  ],
+  "notes": {
+    "en": "Merged from three threads: the main Uronema thread (Humblefish), 'Us vs Uronema' (Dierks, FisHotel) and 'I'm gonna kick Uronema's ass!' (Humblefish). Aquabiomics found some Uronema in 19% of tanks tested (a skewed sample, since tests are usually sent from tanks with problems). The Melafix bath was tested on many species (cardinals, gobies, wrasses, tangs, anthias, butterflies, angels, triggers and others) with one loss reported. The Rally protocols are still being tested.",
+    "hu": "Három téma összevonása: a fő Uronema téma (Humblefish), az „Us vs Uronema” (Dierks, FisHotel) és az „I'm gonna kick Uronema's ass!” (Humblefish). Az Aquabiomics a vizsgált akváriumok 19%-ában talált valamilyen Uronemát (torz minta, mert általában problémás akváriumokból küldenek tesztet). A Melafix fürdőt sok fajon tesztelték (kardinálishalak, gébek, ajakos halak, tangok, anthiasok, pillangóhalak, császárhalak, ravaszhalak stb.), egy elhullást jelentettek. A Rally protokollok tesztelése még folyamatban van."
+  }
+}

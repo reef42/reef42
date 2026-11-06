@@ -1,0 +1,260 @@
+{
+  "id": "internal-problems",
+  "source": "https://humble.fish/community/index.php?threads/internal-problems.9/",
+  "author": "Humblefish",
+  "name": {"en": "Internal Problems", "hu": "Belső problémák"},
+  "scientific": null,
+  "category": "other",
+  "summary": {
+    "en": "An overview of six basic internal problems of marine fish: intestinal worms, internal parasites (flagellates), internal bacterial infections, swim bladder disorder, spinal injury and constipation. Worms and flagellates have near-identical symptoms (white stringy feces, pinched stomach, weight loss despite eating), so treating for both is recommended. Medicated food soaking is the preferred way to deliver drugs to the gut.",
+    "hu": "Áttekintés a tengeri halak hat alapvető belső problémájáról: bélférgek, belső paraziták (ostorosok), belső bakteriális fertőzések, úszóhólyag-rendellenesség, gerincsérülés és székrekedés. A férgek és az ostorosok tünetei szinte azonosak (fehér, fonalas ürülék, beesett has, fogyás étvágy mellett), ezért mindkettő elleni kezelés javasolt. A gyógyszer a bélbe legjobban gyógyszeres eleségáztatással juttatható."
+  },
+  "symptoms": {
+    "en": [
+      "White stringy feces",
+      "Pinched (sunken) stomach",
+      "Faded coloration",
+      "Weight loss despite eating heartily",
+      "Internal redness, bloating, lumps or swollen areas (bacterial)",
+      "Swimming vertically tail-up, floating or unable to swim down (swim bladder)",
+      "Swimming vertically tail-down, lying on bottom, swirling (spinal injury)",
+      "Bloated stomach, anal obstruction, rectal prolapse, circling near surface (constipation)"
+    ],
+    "hu": [
+      "Fehér, fonalas ürülék",
+      "Beesett has",
+      "Kifakult színek",
+      "Fogyás bőséges evés mellett",
+      "Belső vörösség, puffadás, csomók vagy duzzanatok (bakteriális)",
+      "Függőleges úszás farokkal felfelé, lebegés, képtelen lefelé úszni (úszóhólyag)",
+      "Függőleges úszás farokkal lefelé, fenéken fekvés, örvénylő úszás (gerincsérülés)",
+      "Puffadt has, végbél elzáródás, végbélelőesés, körözés a felszín közelében (székrekedés)"
+    ]
+  },
+  "body_areas": ["feces", "body-shape", "color", "behavior"],
+  "appearance": ["white-feces", "thin-wasting", "pale", "bloating", "abnormal-swimming", "red-streaks"],
+  "speed": "weeks",
+  "lethality": "medium",
+  "contagious": true,
+  "commonly_affected": {
+    "en": "Swim bladder disorders mostly affect improperly decompressed deep-water species; wrasses (especially fairy and flasher wrasses) seem most prone to spinal injuries.",
+    "hu": "Az úszóhólyag-rendellenesség főleg a nem megfelelően dekompresszált mélyvízi fajokat érinti; a gerincsérülésre a wrasse-ok (főleg fairy és flasher wrasse-ok) a leghajlamosabbak."
+  },
+  "distinguish": {
+    "en": [
+      "Intestinal worms vs. flagellates: symptoms are nearly identical, so treat for both; flagellates are more virulent and can kill faster.",
+      "Swim bladder disorder: tail UP (rear half too buoyant); spinal injury: tail DOWN or lying on the bottom.",
+      "Bacterial internal infection shows redness, bloating and lumps rather than white stringy feces.",
+      "Constipation shows a bloated belly with visible anal obstruction or prolapse.",
+      "If symptoms persist after praziquantel, the worms may be nematodes, which praziquantel does not treat."
+    ],
+    "hu": [
+      "Bélférgek vs. ostorosok: a tünetek szinte azonosak, ezért mindkettő ellen kezelni kell; az ostorosok virulensebbek, gyorsabban ölhetnek.",
+      "Úszóhólyag-rendellenesség: farok FEL (a hátsó fél túl könnyű); gerincsérülés: farok LE vagy a fenéken fekszik.",
+      "A belső bakteriális fertőzés vörösséggel, puffadással és csomókkal jár, nem fehér fonalas ürülékkel.",
+      "Székrekedésnél puffadt has és látható végbél-elzáródás vagy -előesés jelentkezik.",
+      "Ha praziquantel után is maradnak a tünetek, a férgek fonálférgek (nematodák) lehetnek, amelyekre a praziquantel nem hat."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "fenbendazole",
+      "name": {"en": "Fenbendazole", "hu": "Fenbendazol"},
+      "priority": "first-line",
+      "details": {
+        "en": "Treatment of choice for intestinal worms; eliminates trematodes, cestodes and nematodes. Best given as medicated food soak.",
+        "hu": "Bélférgek elleni első választás; mételyek (trematodák), galandférgek (cestodák) és fonálférgek (nematodák) ellen hat. Legjobb gyógyszeres eleségáztatással adni."
+      }
+    },
+    {
+      "treatment_id": "praziquantel",
+      "name": {"en": "Praziquantel", "hu": "Praziquantel"},
+      "priority": "alternative",
+      "details": {
+        "en": "Alternative for intestinal worms; treats trematodes and cestodes only (not nematodes).",
+        "hu": "Alternatíva bélférgek ellen; csak mételyek és galandférgek ellen hat (fonálférgek ellen nem)."
+      }
+    },
+    {
+      "treatment_id": "levamisole",
+      "name": {"en": "Levamisole / Piperazine", "hu": "Levamizol / Piperazin"},
+      "priority": "alternative",
+      "details": {
+        "en": "Alternatives for intestinal worms; nematodes only.",
+        "hu": "Alternatívák bélférgek ellen; csak fonálférgekre hatnak."
+      }
+    },
+    {
+      "treatment_id": "metronidazole",
+      "name": {"en": "Metronidazole (e.g. Metroplex)", "hu": "Metronidazol (pl. Metroplex)"},
+      "priority": "first-line",
+      "details": {
+        "en": "Treatment of choice for internal flagellates. For internal bacterial infections and swim bladder infections, combine with Neomycin sulfate (e.g. Seachem Neoplex) in a medicated food slurry. Albendazole, flubendazole and mebendazole also show promise against flagellates.",
+        "hu": "Belső ostorosok elleni első választás. Belső bakteriális és úszóhólyag-fertőzésnél neomicin-szulfáttal (pl. Seachem Neoplex) kombinálva, gyógyszeres eleségpép formájában. Az albendazol, flubendazol és mebendazol is ígéretes az ostorosok ellen."
+      }
+    },
+    {
+      "treatment_id": "combo-dewormer",
+      "name": {"en": "API General Cure / Fritz Paracleanse", "hu": "API General Cure / Fritz Paracleanse"},
+      "priority": "alternative",
+      "details": {
+        "en": "Both contain praziquantel + metronidazole in one product - convenient for treating worms and flagellates together. Alternatively food soak different medications on alternate feedings.",
+        "hu": "Mindkettő praziquantelt + metronidazolt tartalmaz egy termékben - kényelmes a férgek és ostorosok együttes kezelésére. Másik lehetőség: különböző gyógyszerek áztatása váltakozó etetéseknél."
+      }
+    },
+    {
+      "treatment_id": "seachem-focus",
+      "name": {"en": "Seachem Focus (nitrofurantoin)", "hu": "Seachem Focus (nitrofurantoin)"},
+      "priority": "alternative",
+      "details": {
+        "en": "Alternative for internal bacterial infections; marketed as an antibacterial polymer for internal infections, active ingredient nitrofurantoin. Also usable as a food-soak binder.",
+        "hu": "Alternatíva belső bakteriális fertőzésre; belső fertőzések elleni antibakteriális polimerként forgalmazzák, hatóanyaga nitrofurantoin. Eleségáztatásnál kötőanyagként is használható."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {"en": "Methylene Blue", "hu": "Metilénkék"},
+      "priority": "alternative",
+      "details": {
+        "en": "For swim bladder infection: 30 minute Methylene Blue bath, or dose MB at half strength in a QT.",
+        "hu": "Úszóhólyag-fertőzésnél: 30 perces metilénkékes fürdő, vagy fél adag metilénkék a QT-ben."
+      }
+    },
+    {
+      "treatment_id": "swim-bladder-venting",
+      "name": {"en": "Venting the swim bladder", "hu": "Úszóhólyag légtelenítése"},
+      "priority": "alternative",
+      "details": {
+        "en": "If a gas bubble is visible, the air can be lanced out with a 30 gauge insulin syringe (read the linked guide first).",
+        "hu": "Ha gázbuborék látható, a levegő 30 G-s inzulinfecskendővel leszívható (előbb el kell olvasni a hivatkozott útmutatót)."
+      }
+    },
+    {
+      "treatment_id": "constipation-remedies",
+      "name": {"en": "Peas, Epsom salt, Kanaplex", "hu": "Borsó, keserűsó, Kanaplex"},
+      "priority": "first-line",
+      "details": {
+        "en": "For constipation: (a) feed peeled boiled green peas (high fiber), (b) sprinkle a pinch of Epsom salt into the food (laxative), (c) dose kanamycin (Seachem Kanaplex) in a QT - diarrhea is a known side effect.",
+        "hu": "Székrekedésre: (a) hámozott, főtt zöldborsó (magas rosttartalom), (b) egy csipet keserűsó (Epsom só) az eleségbe (hashajtó), (c) kanamicin (Seachem Kanaplex) a QT-ben - a hasmenés ismert mellékhatás."
+      }
+    },
+    {
+      "treatment_id": "food-soaking",
+      "name": {"en": "Medicated food soaking recipe", "hu": "Gyógyszeres eleségáztatás receptje"},
+      "priority": "supportive",
+      "details": {
+        "en": "Preferred over dosing the water for internal pathogens. Recipe: 1 tbsp food (frozen or pellets), 1 scoop (~1/8 tsp) medication, 1-2 scoops Seachem Focus or unflavored gelatin/agar as binder, a pinch of Epsom salt, several drops of saltwater or fish vitamins; stir into a slurry, soak 30 minutes, then feed. Refrigerate/freeze leftovers. Feed daily for 2-3 weeks; treat at least 2 weeks, symptoms may persist 3-4 weeks. The 'proper' way is dosing by weight; this is a practical 'shotgun approach'.",
+        "hu": "Belső kórokozóknál előnyösebb, mint a víz kezelése. Recept: 1 evőkanál eleség (fagyasztott vagy granulátum), 1 adagolókanál (~1/8 teáskanál) gyógyszer, 1-2 adagolókanál Seachem Focus vagy ízesítetlen zselatin/agar kötőanyagnak, egy csipet keserűsó, néhány csepp sós víz vagy halvitamin; pépesre keverni, 30 percig áztatni, majd etetni. A maradékot hűtőbe/fagyasztóba tenni. Naponta 2-3 hétig etetni; legalább 2 hétig kell kezelni, a tünetek 3-4 hétig is fennállhatnak. A 'helyes' adagolás tömeg alapján történik; ez egy gyakorlati, közelítő módszer."
+      }
+    }
+  ],
+  "subconditions": [
+    {
+      "name": {"en": "Intestinal worms", "hu": "Bélférgek"},
+      "symptoms": {
+        "en": ["White stringy feces", "Pinched stomach", "Faded coloration", "Weight loss despite eating heartily"],
+        "hu": ["Fehér, fonalas ürülék", "Beesett has", "Kifakult színek", "Fogyás bőséges evés mellett"]
+      },
+      "treatment": {
+        "en": "Fenbendazole (trematodes, cestodes, nematodes). Alternatives: praziquantel (trematodes & cestodes), levamisole or piperazine (nematodes only). Food soak 2-3 weeks.",
+        "hu": "Fenbendazol (mételyek, galandférgek, fonálférgek). Alternatívák: praziquantel (mételyek és galandférgek), levamizol vagy piperazin (csak fonálférgek). Eleségáztatás 2-3 hétig."
+      }
+    },
+    {
+      "name": {"en": "Internal parasites (flagellates)", "hu": "Belső paraziták (ostorosok)"},
+      "symptoms": {
+        "en": ["Same as intestinal worms: white stringy feces, pinched stomach, faded color, weight loss", "More virulent - can kill faster"],
+        "hu": ["Ugyanaz, mint a bélférgeknél: fehér fonalas ürülék, beesett has, kifakult szín, fogyás", "Virulensebb - gyorsabban ölhet"]
+      },
+      "treatment": {
+        "en": "Metronidazole; albendazole, flubendazole and mebendazole show promise. Treat for worms at the same time (e.g. General Cure or Paracleanse).",
+        "hu": "Metronidazol; az albendazol, flubendazol és mebendazol ígéretes. Egyidejűleg férgek ellen is kezelni kell (pl. General Cure vagy Paracleanse)."
+      }
+    },
+    {
+      "name": {"en": "Internal bacterial infection", "hu": "Belső bakteriális fertőzés"},
+      "symptoms": {
+        "en": ["Internal redness", "Bloating", "Lumps or swollen areas on the body", "Often linked to poor water quality"],
+        "hu": ["Belső vörösség", "Puffadás", "Csomók vagy duzzanatok a testen", "Gyakran rossz vízminőséggel függ össze"]
+      },
+      "treatment": {
+        "en": "Metronidazole combined with neomycin sulfate (e.g. Seachem Neoplex) in a medicated food slurry; alternative Seachem Focus (nitrofurantoin).",
+        "hu": "Metronidazol neomicin-szulfáttal (pl. Seachem Neoplex) kombinálva, gyógyszeres eleségpépben; alternatíva a Seachem Focus (nitrofurantoin)."
+      }
+    },
+    {
+      "name": {"en": "Swim bladder disorder", "hu": "Úszóhólyag-rendellenesség"},
+      "symptoms": {
+        "en": ["Swims vertically with tail up", "Stays near the surface or floats, cannot swim down", "Visible gas bubble near the swim bladder"],
+        "hu": ["Függőlegesen úszik, farokkal felfelé", "A felszín közelében marad vagy lebeg, nem tud lefelé úszni", "Látható gázbuborék az úszóhólyag táján"]
+      },
+      "treatment": {
+        "en": "Usually caused by improper decompression of deep-water species. Vent a gas bubble with a 30 gauge insulin syringe. For infection: 30 min Methylene Blue bath or half-strength MB in QT, or metronidazole + neomycin (Neoplex), also as food soak.",
+        "hu": "Általában mélyvízi fajok nem megfelelő dekompressziója okozza. A gázbuborék 30 G-s inzulinfecskendővel leszívható. Fertőzésnél: 30 perces metilénkékes fürdő vagy fél adag metilénkék QT-ben, vagy metronidazol + neomicin (Neoplex), eleségáztatással is."
+      }
+    },
+    {
+      "name": {"en": "Spinal injury", "hu": "Gerincsérülés"},
+      "symptoms": {
+        "en": ["Swims vertically with tail down", "Lies on the bottom", "Swims in a swirling motion"],
+        "hu": ["Függőlegesen úszik, farokkal lefelé", "A fenéken fekszik", "Örvénylő mozgással úszik"]
+      },
+      "treatment": {
+        "en": "No specific treatment; minor damage can heal but usually does not. Mostly caused by jumping into or ramming hard objects; theories also include flagellates/bacteria in the spinal canal or an unknown neurological condition.",
+        "hu": "Nincs specifikus kezelés; kisebb sérülés gyógyulhat, de többnyire nem. Leggyakrabban ugrás vagy kemény tárgynak ütközés okozza; elméletek szerint ostorosok/baktériumok a gerinccsatornában vagy ismeretlen neurológiai betegség is okozhatja."
+      }
+    },
+    {
+      "name": {"en": "Constipation", "hu": "Székrekedés"},
+      "symptoms": {
+        "en": ["Bloated stomach", "Obvious anal obstruction", "Rectal prolapse", "Erratic swimming, circling near the surface"],
+        "hu": ["Puffadt has", "Látható végbél-elzáródás", "Végbélelőesés", "Rendellenes úszás, körözés a felszín közelében"]
+      },
+      "treatment": {
+        "en": "Peeled boiled green peas; a pinch of Epsom salt in the food; or Kanaplex (kanamycin) in a QT (may cause diarrhea).",
+        "hu": "Hámozott főtt zöldborsó; egy csipet keserűsó az eleségben; vagy Kanaplex (kanamicin) QT-ben (hasmenést okozhat)."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Quarantine new fish and consider prophylactic deworming via food soak.",
+      "Maintain good water quality (poor water can cause or worsen internal infections).",
+      "Use a tight-fitting lid to reduce jumping injuries (spinal injury is often from jumping)."
+    ],
+    "hu": [
+      "Új halak karanténozása (QT), megelőző féreghajtás eleségáztatással.",
+      "Jó vízminőség fenntartása (a rossz víz okozhat vagy súlyosbíthat belső fertőzést).",
+      "Jól záró fedő az ugrás okozta sérülések csökkentésére (a gerincsérülés gyakran ugrásból ered)."
+    ]
+  },
+  "images": [
+    {"url": "https://humble.fish/community/attachments/screenshot_20191224-160109-png.615/", "caption": {"en": "Abnormal feces from a pink spot watchman goby, attributed to dying intestinal worms (from a reply in the thread)", "hu": "Rendellenes ürülék egy pink spot watchman gébtől, Humblefish szerint elpusztuló bélférgek okozták (a szál egyik válaszából)"}}
+  ],
+  "related_links": [
+    {"title": "Fenbendazole", "url": "https://humble.fish/community/index.php?threads/fenbendazole.18/"},
+    {"title": "Praziquantel", "url": "https://humble.fish/community/index.php?threads/praziquantel.25/"},
+    {"title": "Metronidazole", "url": "https://humble.fish/community/index.php?threads/metronidazole.24/"},
+    {"title": "Prazi resistant intestinal worms? (nematodes)", "url": "https://humble.fish/community/index.php?threads/prazi-resistant-intestinal-worms-nematodes.14721/"},
+    {"title": "More treatment options for internal parasites", "url": "https://humble.fish/community/index.php?threads/more-treatment-options-for-internal-parasites.461/"},
+    {"title": "Bacterial Infections", "url": "https://humble.fish/community/index.php?threads/bacterial-infections.120/"},
+    {"title": "Antibiotics", "url": "https://humble.fish/community/index.php?threads/antibiotics.15/"},
+    {"title": "Methylene Blue", "url": "https://humble.fish/community/index.php?threads/methylene-blue.23/"},
+    {"title": "Quarantine", "url": "https://humble.fish/community/index.php?threads/quarantine.2/"},
+    {"title": "Emergency fish operation: venting the swim bladder", "url": "http://www.reefedition.com/emergency-fish-operation-venting-swim-bladder/"},
+    {"title": "Unknown neurological wrasse disease (UNWD) - Reef2Reef", "url": "https://www.reef2reef.com/threads/unknown-neurological-wrasse-disease-unwd.901856/"},
+    {"title": "Levamisole / Piperazine - American Aquarium Products", "url": "https://www.americanaquariumproducts.com/AquariumMedication3.html#levamisol"},
+    {"title": "API General Cure", "url": "https://www.apifishcare.com/product/general-cure"},
+    {"title": "Fritz Paracleanse", "url": "https://fritzaquatics.com/products/fritz-paracleanse"},
+    {"title": "Seachem NeoPlex", "url": "https://www.seachem.com/neoplex.php"},
+    {"title": "Seachem Focus", "url": "https://www.seachem.com/focus.php"},
+    {"title": "Seachem KanaPlex", "url": "https://www.seachem.com/kanaplex.php"},
+    {"title": "Hikari - medicated feed", "url": "https://www.hikariusa.com/articles/medicatedfeed.html"},
+    {"title": "Video: internal problems (YouTube)", "url": "https://www.youtube.com/watch?v=vylfjuH8_AM"}
+  ],
+  "notes": {
+    "en": "Updated 2-24-23. The original post contains no symptom photos; the only image in the thread is a user's photo from a reply. Pathogens can show resistance to the preferred drug - switch to an alternative if symptoms persist. 'contagious' applies to worms/flagellates/bacteria, not to swim bladder, spinal injury or constipation.",
+    "hu": "Frissítve: 2023.02.24. Az eredeti bejegyzésben nincs tünetfotó; a szál egyetlen képe egy felhasználó válaszából származik. A kórokozók rezisztensek lehetnek az elsődleges gyógyszerre - tartós tünetek esetén alternatív szerre kell váltani. A 'fertőző' jelző a férgekre/ostorosokra/baktériumokra vonatkozik, az úszóhólyag-problémára, gerincsérülésre és székrekedésre nem."
+  }
+}
