@@ -30,7 +30,7 @@ The `.nojekyll` file makes Pages serve the files as-is.
 
 | File | Contents |
 | --- | --- |
-| `data/diseases/<id>.json` | One file per disease: symptoms, distinguishing features, treatments, images, source |
+| `data/diseases/<id>.json` | One file per disease: symptoms, distinguishing features, treatments, images (`cover` = index of the thumbnail image), source |
 | `data/manifest.json` | List of disease ids to load |
 | `data/treatments.json` | Medications, methods (TTM, Hybrid TTM, …) and quarantine protocols |
 | `data/tree.json` | The decision graph (questions, options, results) |

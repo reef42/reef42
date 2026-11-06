@@ -133,9 +133,9 @@ main.wide { max-width: none; }
 .hero { display: grid; grid-template-columns: 1.3fr 1fr; gap: 24px; align-items: center; margin-bottom: 24px; }
 .hero p.lead { font-size: 1.1rem; color: var(--muted); }
 .hero-art { display: flex; justify-content: center; }
-@media (max-width: 760px) { .hero { grid-template-columns: 1fr; } .hero-art { display: none; } }
+@media (max-width: 760px) { .hero { grid-template-columns: minmax(0, 1fr); } .hero-art { display: none; } }
 
-.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); }
 .tile {
   display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--text);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
@@ -149,9 +149,9 @@ main.wide { max-width: none; }
 
 /* Wizard */
 .wizard { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 24px; align-items: start; }
-@media (max-width: 900px) { .wizard { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .wizard { grid-template-columns: minmax(0, 1fr); } }
 .question h1 { font-size: clamp(1.3rem, 3vw, 1.75rem); }
-.options { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); margin-top: 16px; }
+.options { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr)); margin-top: 16px; }
 .option {
   display: flex; flex-direction: column; text-align: left; gap: 6px; cursor: pointer;
   font: inherit; color: var(--text); text-decoration: none;
@@ -180,13 +180,13 @@ main.wide { max-width: none; }
 .candidate .thumb { aspect-ratio: 1; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
 .candidate .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .candidate h3 { margin: 0 0 4px; font-size: 1.15rem; }
-@media (max-width: 560px) { .candidate { grid-template-columns: 1fr; } .candidate .thumb { aspect-ratio: 16 / 9; } }
+@media (max-width: 560px) { .candidate { grid-template-columns: minmax(0, 1fr); } .candidate .thumb { aspect-ratio: 16 / 9; } }
 
 /* Disease page */
 .detail-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: flex-start; }
 .sci { font-style: italic; color: var(--muted); margin: -4px 0 8px; }
 .cols { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 24px; }
-@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
 ul.clean { padding-left: 1.2em; margin: 0 0 1em; }
 ul.clean li { margin: 4px 0; }
 .gallery { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }

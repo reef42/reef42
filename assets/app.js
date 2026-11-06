@@ -63,7 +63,10 @@
     if (!ref) return null;
     const [id, idx] = String(ref).split('#');
     const d = state.diseases[id];
-    if (d && d.images && d.images.length) return d.images[Math.min(parseInt(idx || '0', 10) || 0, d.images.length - 1)];
+    if (d && d.images && d.images.length) {
+      const i = idx != null ? parseInt(idx, 10) || 0 : (d.cover || 0);
+      return d.images[Math.min(i, d.images.length - 1)];
+    }
     const tr = state.treatments[id];
     if (tr && tr.images && tr.images.length) return tr.images[0];
     return null;
