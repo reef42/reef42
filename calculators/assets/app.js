@@ -6,7 +6,6 @@
   const TANKLOG = 'reef42-tanklog-v1';
   const L_PER_USGAL = 3.785411784;
   const L_PER_UKGAL = 4.54609;
-  const TBSP_ML = 14.78676;
   const SW_DENSITY = 1.0234; // kg/L, 35 ppt at 25 °C (EOS-80)
   const MAX_PPT_PER_DAY = 1;
 
@@ -184,12 +183,14 @@
 
   /* ---------- Shared data ---------- */
 
+  // Salts sold in Hungarian reef shops; g/L of dry salt for 35 ppt.
   const BRANDS = [
     { v: 'redsea', n: 'Red Sea Salt', r: 37.7 },
     { v: 'coralpro', n: 'Red Sea Coral Pro', r: 38.2 },
-    { v: 'tm', n: 'Tropic Marin (Classic, Pro-Reef)', r: 38.5 },
+    { v: 'tm', n: 'Tropic Marin (Pro-Reef, Syn-Biotic, Bio-Actif)', r: 40 },
+    { v: 'af', n: 'Aquaforest Reef Salt', r: 41.4 },
+    { v: 'fm', n: 'Fauna Marin Professional Sea Salt', r: 39 },
     { v: 'io', n: 'Instant Ocean / Reef Crystals', r: 37.7, est: true },
-    { v: 'fritz', n: 'Fritz RPM Reef Pro Mix', r: 37.7, est: true },
     { v: 'custom', n: { en: 'Other (enter g/L)', hu: 'Egyéb (add meg: g/l)' } },
   ];
   const brandOpts = BRANDS.map((b) => ({ v: b.v, l: b.r
@@ -213,10 +214,12 @@
     rcSal: { t: 'ReefCalcs – Salinity converter', u: 'https://reefcalcs.com/calculators/salinity/' },
     rcWc: { t: 'ReefCalcs – Water change calculator', u: 'https://reefcalcs.com/calculators/water-change/' },
     unesco: { t: 'Fofonoff & Millard (1983): Algorithms for computation of fundamental properties of seawater, UNESCO Technical Papers in Marine Science 44 (PSS-78, EOS-80)', u: 'https://repository.oceanbestpractices.org/handle/11329/109' },
-    brsGfo: { t: 'Bulk Reef Supply – GFO instructions', u: 'https://www.bulkreefsupply.com/content/post/Granular-Ferric-Oxide-GFO-Instructions' },
-    brsHow: { t: 'Bulk Reef Supply – How much GFO does a reef tank need?', u: 'https://www.bulkreefsupply.com/content/post/how-much-gfo-does-a-reef-tank-need' },
-    brsHc: { t: 'Bulk Reef Supply – High Capacity GFO', u: 'https://bulkreefsupply.com/content/post/brstv-product-spotlight-bulk-reef-supply-high-capacity-gfo' },
+    tmSalt: { t: 'Tropic Marin – PRO-REEF Sea Salt (35 ml ≈ 37–40 g per litre for 32–35 ‰)', u: 'https://www.marinedepot.com/tropic-marin-pro-reef-salt' },
+    afSalt: { t: 'Aquaforest – Reef Salt (390 g per 10 L for 33 ppt)', u: 'https://aquaforest.eu/en/products/lab/salts/reef-salt/' },
+    fmSalt: { t: 'Fauna Marin Professional Sea Salt (38.5–39.5 g per litre for 35 psu, retailer copy)', u: 'https://www.rockncritters.co.uk/marine-salt/fauna-marin-professional-sea-salt/fm048' },
     seachem: { t: 'Seachem – PhosGuard', u: 'https://www.seachem.com/phosguard.php' },
+    phosnet: { t: 'Seachem – PhosNet dosing instructions', u: 'https://seachem.zendesk.com/hc/en-us/articles/115001609193-Info-Seachem-PhosNet-Dosing-Instructions' },
+    elimiphos: { t: 'Tropic Marin Elimi-Phos dosage (retailer copy of the instructions)', u: 'https://charterhouse-aquatics.com/products/tropic-marin-elimi-phos-200g' },
     rowa: { t: 'ROWAphos dosage (retailer copy of the D-D instructions)', u: 'https://www.aquaristikshop.com/aquaristic/ROWAphos/285000/' },
   };
 
@@ -342,10 +345,16 @@
         hu: ['só (g) = gyártói adag 35 ppt-hez (g/l) × cél ppt ÷ 35 × víz litere', 'SG ↔ ppt: UNESCO EOS-80, 25 °C (35 ppt = SG 1,0264)'],
       },
       notes: {
-        en: ['Mixing ratios vary between batches; always measure the finished water.', 'Instant Ocean, Reef Crystals and Fritz values are estimates: the makers publish only cup measures.'],
-        hu: ['A keverési arány gyártási tételenként változhat, a kész vizet mindig mérd meg.', 'Az Instant Ocean, Reef Crystals és Fritz értéke becslés: a gyártó csak bögrényi mennyiséget ad meg.'],
+        en: ['Mixing ratios vary between batches; always measure the finished water.',
+          'Instant Ocean and Reef Crystals are estimates: the maker publishes only cup measures.',
+          'Tropic Marin: 35 mL ≈ 37–40 g per litre gives 32–35 ‰, so 40 g/L is used for 35 ppt. Aquaforest: 39 g/L for 33 ppt, scaled to 35 ppt.',
+          'Not listed (for example H2Ocean, Blau, Sera, ReeFlowers): choose “Other” and enter the dose from the bucket.'],
+        hu: ['A keverési arány gyártási tételenként változhat, a kész vizet mindig mérd meg.',
+          'Az Instant Ocean és a Reef Crystals értéke becslés: a gyártó csak bögrényi mennyiséget ad meg.',
+          'Tropic Marin: 35 ml ≈ 37–40 g literenként 32–35 ‰-et ad, ezért 35 ppt-hez 40 g/l-rel számol. Aquaforest: 39 g/l 33 ppt-hez, 35 ppt-re arányosítva.',
+          'Ha a sód nincs a listán (pl. H2Ocean, Blau, Sera, ReeFlowers), válaszd az „Egyéb” lehetőséget, és add meg a dobozon szereplő adagot.'],
       },
-      sources: [SRC.rcSalt, SRC.unesco],
+      sources: [SRC.rcSalt, SRC.tmSalt, SRC.afSalt, SRC.fmSalt, SRC.unesco],
     },
     {
       id: 'directsalt',
@@ -412,7 +421,7 @@
         en: ['Change salinity by at most 1 ppt (about 0.001 SG) a day.', 'Brine stronger than about twice seawater may not dissolve well.'],
         hu: ['A sótartalmat naponta legfeljebb 1 ppt-vel (kb. 0,001 SG) változtasd.', 'A tengervíznél kb. kétszer töményebb sóoldat már rosszul oldódhat.'],
       },
-      sources: [SRC.rcDirect],
+      sources: [SRC.rcDirect, SRC.rcSalt, SRC.tmSalt, SRC.afSalt, SRC.fmSalt],
     },
     {
       id: 'sand',
@@ -423,12 +432,12 @@
         { id: 'W', kind: 'len', label: { en: 'Width (inside)', hu: 'Szélesség (belső)' } },
         { id: 'depth', kind: 'len', label: { en: 'Bed depth', hu: 'Homokágy vastagsága' } },
         { id: 'type', kind: 'sel', def: 'arag', wide: true, label: { en: 'Substrate', hu: 'Aljzat' }, opts: [
-          { v: 'arag', l: { en: 'Aragonite sand – 1.36 kg/L (85 lb/ft³)', hu: 'Aragonithomok – 1,36 kg/l (85 lb/ft³)' } },
+          { v: 'arag', l: { en: 'Aragonite or coral sand – about 1.36 kg/L', hu: 'Aragonit- vagy korallhomok – kb. 1,36 kg/l' } },
           { v: 'custom', l: { en: 'Other (enter density)', hu: 'Egyéb (add meg a sűrűséget)' } },
         ] },
         { id: 'dens', kind: 'dens', label: { en: 'Bulk density', hu: 'Halmazsűrűség' }, show: (v) => v.type === 'custom',
           hint: { en: 'Aragonite sands are usually 1.28–1.54 kg/L (80–96 lb/ft³).', hu: 'Az aragonithomok általában 1,28–1,54 kg/l (80–96 lb/ft³).' } },
-        { id: 'bag', kind: 'mass', def: 9.0718474, label: { en: 'Bag size', hu: 'Zsák mérete' }, hint: { en: 'Default: 20 lb bag.', hu: 'Alapérték: 20 font (9,07 kg) zsák.' } },
+        { id: 'bag', kind: 'mass', def: 10, label: { en: 'Bag size', hu: 'Zsák mérete' }, hint: { en: 'Common sizes: 5, 10 and 20 kg.', hu: 'Gyakori kiszerelés: 5, 10 és 20 kg.' } },
       ],
       compute(v) {
         const dens = v.type === 'custom' ? v.dens : 85 * 0.0160184634;
@@ -444,12 +453,14 @@
         return html;
       },
       formula: {
-        en: ['volume = length × width × depth', 'mass = volume × bulk density (aragonite sand 85 lb/ft³ = 1.36 kg/L)', 'bags = mass ÷ bag size, rounded up'],
-        hu: ['térfogat = hossz × szélesség × vastagság', 'tömeg = térfogat × halmazsűrűség (aragonithomok 85 lb/ft³ = 1,36 kg/l)', 'zsákok = tömeg ÷ zsákméret, felfelé kerekítve'],
+        en: ['volume = length × width × depth', 'mass = volume × bulk density (aragonite sand 85 lb/ft³ = 1.36 kg/L, CaribSea data)', 'bags = mass ÷ bag size, rounded up'],
+        hu: ['térfogat = hossz × szélesség × vastagság', 'tömeg = térfogat × halmazsűrűség (aragonithomok 85 lb/ft³ = 1,36 kg/l, CaribSea-adat)', 'zsákok = tömeg ÷ zsákméret, felfelé kerekítve'],
       },
       notes: {
-        en: ['Live sand is packed wet, so part of the bag weight is water: expect slightly less sand per bag.', 'Rock standing on the bottom reduces the sand needed.'],
-        hu: ['Az élő homokot vizesen csomagolják, a zsák súlyának egy része víz: zsákonként kicsit kevesebb homokkal számolj.', 'Az aljzaton álló kőzet csökkenti a szükséges homokot.'],
+        en: ['The density is a CaribSea figure for aragonite sand; other calcium carbonate sands (for example Aqua Medic coral sand) are similar, coarse coral gravel is lighter. If the brand gives its own figure, use “Other”.',
+          'Live sand is packed wet, so part of the bag weight is water: expect slightly less sand per bag.', 'Rock standing on the bottom reduces the sand needed.'],
+        hu: ['A sűrűség a CaribSea aragonithomokjának adata; más kalcium-karbonát homok (pl. Aqua Medic korallhomok) hasonló, a durva korallzúzalék könnyebb. Ha a gyártó megadja a sajátját, válaszd az „Egyéb” lehetőséget.',
+          'Az élő homokot vizesen csomagolják, a zsák súlyának egy része víz: zsákonként kicsit kevesebb homokkal számolj.', 'Az aljzaton álló kőzet csökkenti a szükséges homokot.'],
       },
       sources: [SRC.rcSand],
     },
@@ -459,10 +470,10 @@
       desc: { en: 'Starting dose of GFO and other phosphate removers for your water volume.', hu: 'GFO és más foszfátmegkötők kezdő adagja a víztérfogathoz.' },
       fields: [
         { id: 'V', kind: 'vol', chips: volChips, wide: true, label: { en: 'Water in the system', hu: 'Víz a rendszerben' } },
-        { id: 'media', kind: 'sel', def: 'brs', wide: true, label: { en: 'Media', hu: 'Szűrőanyag' }, opts: [
-          { v: 'brs', l: 'BRS GFO' },
-          { v: 'brshc', l: 'BRS GFO High Capacity' },
-          { v: 'rowa', l: 'D-D ROWAphos' },
+        { id: 'media', kind: 'sel', def: 'rowa', wide: true, label: { en: 'Media', hu: 'Szűrőanyag' }, opts: [
+          { v: 'rowa', l: { en: 'ROWAphos (ferric hydroxide)', hu: 'ROWAphos (vas-hidroxid)' } },
+          { v: 'elimiphos', l: { en: 'Tropic Marin Elimi-Phos (ferric hydroxide)', hu: 'Tropic Marin Elimi-Phos (vas-hidroxid)' } },
+          { v: 'phosnet', l: { en: 'Seachem PhosNet (GFO)', hu: 'Seachem PhosNet (GFO)' } },
           { v: 'phosguard', l: { en: 'Seachem PhosGuard (aluminium oxide)', hu: 'Seachem PhosGuard (alumínium-oxid)' } },
           { v: 'custom', l: { en: 'Other (enter dose per 100 L)', hu: 'Egyéb (adag 100 l-re)' } },
         ] },
@@ -473,17 +484,20 @@
         if (!pos(v.V)) return fill();
         const V = v.V;
         let html = '';
-        if (v.media === 'brs' || v.media === 'brshc') {
-          const galPerTbsp = v.media === 'brs' ? 4 : 8;
-          const tbsp = V / (galPerTbsp * L_PER_USGAL);
-          html += out({ en: 'Starting dose', hu: 'Kezdő adag' }, fmt(tbsp * TBSP_ML, 0) + ' ml',
-            { en: '≈ ' + fmt(tbsp, 1) + ' tablespoons (1 tbsp per ' + galPerTbsp + ' US gal)', hu: '≈ ' + fmt(tbsp, 1) + ' evőkanál (1 evőkanál / ' + galPerTbsp + ' US gal)' }, 'main');
+        if (v.media === 'elimiphos') {
+          html += out({ en: 'Dose', hu: 'Adag' }, fmt(V * 0.5, 0) + ' g',
+            { en: '100 g per 200 L; heavily loaded tanks start with 100 g per 500 L (' + fmt(V * 0.2, 0) + ' g) and increase slowly',
+              hu: '100 g 200 l-re; erősen terhelt akváriumban 100 g / 500 l-rel (' + fmt(V * 0.2, 0) + ' g) kezdj, és lassan emeld' }, 'main');
           html += steps([
-            { en: 'Rinse it in RO/DI water until the water runs clear.', hu: 'Öblítsd RO/DI vízben, amíg tisztán nem folyik.' },
-            { en: 'Use it in a reactor, with just enough flow to make the top of the bed tumble gently.', hu: 'Reaktorban használd, épp csak annyi áramlással, hogy a töltet teteje finoman mozogjon.' },
-            { en: 'Replace it when phosphate starts to rise again, typically every 4–8 weeks.', hu: 'Cseréld, ha a foszfát újra emelkedni kezd, jellemzően 4–8 hetente.' },
+            { en: 'Rinse it, then use it in a filter bag or reactor in good flow.', hu: 'Öblítsd ki, majd szűrőzsákban vagy reaktorban, jó áramlásban használd.' },
+            { en: 'Replace it when phosphate starts to rise again.', hu: 'Cseréld, ha a foszfát újra emelkedni kezd.' },
           ]);
-          html += note({ en: 'With high phosphate, start lower: BRS advises at most 0.5 ppm drop per 24 hours.', hu: 'Magas foszfátnál indíts kisebb adaggal: a BRS legfeljebb 0,5 ppm csökkenést javasol 24 óra alatt.' }, 'warn');
+        } else if (v.media === 'phosnet') {
+          html += out({ en: 'Dose', hu: 'Adag' }, fmt(V / L_PER_USGAL, 0) + ' g', { en: '1 g per US gallon (3.8 L) of seawater', hu: '1 g US gallononként (3,8 l) tengervízre' }, 'main');
+          html += steps([
+            { en: 'Test after about 4 days and replace it while the phosphate problem lasts.', hu: 'Kb. 4 nap után mérj, és cseréld, amíg a foszfátprobléma fennáll.' },
+          ]);
+          html += note({ en: 'Do not overdose: too fast a phosphate drop stresses sensitive invertebrates.', hu: 'Ne adagold túl: a túl gyors foszfátcsökkenés megviseli az érzékeny gerincteleneket.' }, 'warn');
         } else if (v.media === 'rowa') {
           html += out({ en: 'Dose', hu: 'Adag' }, fmt(V * 0.5, 0) + '–' + fmt(V * 1, 0) + ' g',
             { en: '100 g per 100–200 L of seawater; start with the lower amount', hu: '100 g 100–200 l tengervízre; az alsó értékkel kezdj' }, 'main');
@@ -506,16 +520,18 @@
         return html;
       },
       formula: {
-        en: ['BRS GFO: 1 tablespoon (14.8 mL) per 4 US gal (15.1 L) ≈ 0.98 mL/L', 'BRS High Capacity GFO: 1 tablespoon per 8 US gal ≈ 0.49 mL/L',
-          'ROWAphos: 100 g per 100–200 L of seawater = 0.5–1 g/L', 'Seachem PhosGuard: 85 mL per 200 L of seawater ≈ 0.43 mL/L'],
-        hu: ['BRS GFO: 1 evőkanál (14,8 ml) 4 US gallonra (15,1 l) ≈ 0,98 ml/l', 'BRS High Capacity GFO: 1 evőkanál 8 US gallonra ≈ 0,49 ml/l',
-          'ROWAphos: 100 g 100–200 l tengervízre = 0,5–1 g/l', 'Seachem PhosGuard: 85 ml 200 l tengervízre ≈ 0,43 ml/l'],
+        en: ['ROWAphos: 100 g per 100–200 L of seawater = 0.5–1 g/L', 'Tropic Marin Elimi-Phos: 100 g per 200 L = 0.5 g/L (heavy load: 100 g per 500 L = 0.2 g/L to start)',
+          'Seachem PhosNet: 1 g per US gallon ≈ 0.26 g/L', 'Seachem PhosGuard: 85 mL per 200 L of seawater ≈ 0.43 mL/L'],
+        hu: ['ROWAphos: 100 g 100–200 l tengervízre = 0,5–1 g/l', 'Tropic Marin Elimi-Phos: 100 g 200 l-re = 0,5 g/l (erős terhelésnél kezdésnek 100 g 500 l-re = 0,2 g/l)',
+          'Seachem PhosNet: 1 g US gallononként ≈ 0,26 g/l', 'Seachem PhosGuard: 85 ml 200 l tengervízre ≈ 0,43 ml/l'],
       },
       notes: {
-        en: ['Doses are the manufacturers’ starting recommendations. Follow your own measurements.'],
-        hu: ['Az adagok a gyártók kezdő ajánlásai. A saját méréseid alapján igazíts.'],
+        en: ['Doses are the manufacturers’ starting recommendations. Follow your own measurements; with high phosphate start lower and test often.',
+          'For other media sold here (for example Triton AL99, DSR PhosRem, Aquavitro Phosfiltrum, JBL PhosEx Ultra), choose “Other” and enter the dose from the label.'],
+        hu: ['Az adagok a gyártók kezdő ajánlásai. A saját méréseid alapján igazíts; magas foszfátnál kisebb adaggal kezdj, és mérj gyakran.',
+          'Más itthon kapható szűrőanyagnál (pl. Triton AL99, DSR PhosRem, Aquavitro Phosfiltrum, JBL PhosEx Ultra) válaszd az „Egyéb” lehetőséget, és add meg a címkén szereplő adagot.'],
       },
-      sources: [SRC.brsGfo, SRC.brsHc, SRC.brsHow, SRC.rowa, SRC.seachem],
+      sources: [SRC.rowa, SRC.elimiphos, SRC.phosnet, SRC.seachem],
     },
     {
       id: 'convert',
@@ -706,7 +722,8 @@
     const st = S.inputs[form.id] || {};
     const v = {};
     allFields(form).forEach((f) => {
-      const raw = st[f.id];
+      let raw = st[f.id];
+      if (f.kind === 'sel' && raw !== undefined && !f.opts.some((o) => o.v === raw)) raw = undefined; // option was removed
       v[f.id] = raw !== undefined ? raw : f.def !== undefined ? f.def : null;
     });
     return v;

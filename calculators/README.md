@@ -5,10 +5,10 @@ Bilingual (English / Hungarian) reef aquarium calculators. Static HTML/CSS/JS, n
 | Calculator | Route | What it does |
 | --- | --- | --- |
 | Aquarium volume | `#/volume` | Rectangular, cylinder, half-cylinder, hexagonal and bow-front tanks; glass thickness, water level, displacement, sump; water weight |
-| Salt mix | `#/saltmix` | Salt needed for new saltwater, per brand mixing ratio, scaled to the target salinity |
+| Salt mix | `#/saltmix` | Salt needed for new saltwater, per brand mixing ratio (Red Sea, Tropic Marin, Aquaforest, Fauna Marin, Instant Ocean or custom), scaled to the target salinity |
 | Salinity correction | `#/directsalt` | Raise salinity with dissolved salt or lower it with RO/DI, at most 1 ppt a day |
 | Sand bed | `#/sand` | Sand mass, volume and bags for a bed depth |
-| Phosphate media dose | `#/gfo` | Starting dose for BRS GFO, BRS High Capacity GFO, ROWAphos, Seachem PhosGuard or a custom rate |
+| Phosphate media dose | `#/gfo` | Starting dose for ROWAphos, Tropic Marin Elimi-Phos, Seachem PhosNet, Seachem PhosGuard or a custom rate |
 | Unit converters | `#/convert` | Salinity (ppt, SG at 25/20/15.6 °C, conductivity, density), hydrometer temperature correction, temperature, volume, alkalinity, phosphate, nitrate, nitrite, ammonia |
 | Water change | `#/waterchange` | Parameters after one or more changes; change size for a target nitrate |
 
@@ -21,3 +21,4 @@ Bilingual (English / Hungarian) reef aquarium calculators. Static HTML/CSS/JS, n
   salinity scale (Fofonoff & Millard 1983, UNESCO Technical Papers in Marine Science 44).
 - Every calculator has a "How it is calculated" section with the formula, notes and sources wherever the formula or the
   numbers are not common knowledge.
+- Product presets are limited to brands sold in Hungarian reef shops; anything else can be entered with the "Other" option.
