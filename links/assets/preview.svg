@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Links">
+  <rect width="320" height="180" fill="#0f1a1c"/>
+  <g fill="#142225" stroke="#2a4146">
+    <rect x="16" y="40" width="88" height="124" rx="8"/>
+    <rect x="116" y="40" width="88" height="124" rx="8"/>
+    <rect x="216" y="40" width="88" height="124" rx="8"/>
+  </g>
+  <g>
+    <rect x="16" y="14" width="44" height="14" rx="7" fill="#e4eff1"/>
+    <rect x="68" y="14" width="40" height="14" rx="7" fill="none" stroke="#2a4146"/>
+    <rect x="116" y="14" width="52" height="14" rx="7" fill="none" stroke="#2a4146"/>
+  </g>
+  <g fill="#0f2427"><rect x="17" y="41" width="86" height="54" rx="7"/><rect x="117" y="41" width="86" height="54" rx="7"/><rect x="217" y="41" width="86" height="54" rx="7"/></g>
+  <rect x="44" y="52" width="32" height="32" rx="8" fill="#3cc2cc"/>
+  <path d="M52 70 q8 -12 16 0 q-8 8 -16 0z" fill="#062327"/>
+  <rect x="144" y="52" width="32" height="32" rx="8" fill="#fff"/>
+  <circle cx="160" cy="68" r="9" fill="#f0a06a"/>
+  <rect x="244" y="52" width="32" height="32" rx="8" fill="#7a4bb3"/>
+  <rect x="252" y="64" width="16" height="8" rx="3" fill="#fff"/>
+  <g fill="#e4eff1"><rect x="26" y="106" width="56" height="7" rx="3"/><rect x="126" y="106" width="48" height="7" rx="3"/><rect x="226" y="106" width="60" height="7" rx="3"/></g>
+  <g fill="#9db3b8"><rect x="26" y="120" width="68" height="5" rx="2.5"/><rect x="26" y="130" width="50" height="5" rx="2.5"/><rect x="126" y="120" width="66" height="5" rx="2.5"/><rect x="126" y="130" width="40" height="5" rx="2.5"/><rect x="226" y="120" width="64" height="5" rx="2.5"/><rect x="226" y="130" width="46" height="5" rx="2.5"/></g>
+  <g fill="#3cc2cc"><rect x="26" y="148" width="40" height="5" rx="2.5"/><rect x="126" y="148" width="36" height="5" rx="2.5"/><rect x="226" y="148" width="44" height="5" rx="2.5"/></g>
+</svg>

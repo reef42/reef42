@@ -8,7 +8,7 @@ each tool lives in its own folder.
 | fishy doctor | [`fishy-doctor/`](fishy-doctor/) | Bilingual (English / Hungarian) fish disease identification and treatment guide based on humble.fish |
 | tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks and sharing; data stays in the browser |
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
-| links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries |
+| links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries (logos in `links/logos/`) |
 
 ## Running locally
 

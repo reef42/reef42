@@ -39,12 +39,6 @@
       border-radius: 999px; padding: 5px 12px; cursor: pointer;
     }
     .lang:hover { border-color: var(--text); }
-    .linksbtn {
-      display: inline-block; margin-top: 18px; padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px;
-      font-weight: 600; font-size: .95rem; text-decoration: none; transition: border-color .15s, background .15s;
-    }
-    .linksbtn:hover { border-color: var(--text); background: var(--card-hover); }
-    .linksbtn:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
     .lang:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
     main { flex: 1; padding-bottom: 48px; }
     .grid {
@@ -82,7 +76,6 @@
     <div>
       <h1>reef42</h1>
       <p class="lead" data-i18n="lead">tools for saltwater aquarium keepers</p>
-      <a class="linksbtn" href="links/" data-i18n="links">useful links: shops, communities →</a>
     </div>
     <button class="lang" id="lang" type="button" aria-label="Language"></button>
   </header>
@@ -119,6 +112,16 @@
           </div>
         </a>
       </li>
+      <li>
+        <a class="card" href="links/">
+          <img class="thumb" src="links/assets/preview.svg" alt="" width="320" height="180">
+          <div class="body">
+            <h2 data-i18n="linksTitle">links</h2>
+            <p data-i18n="links">hungarian and european shops, communities, manufacturers and tools for reef keepers.</p>
+            <span class="go" data-i18n="open">open →</span>
+          </div>
+        </a>
+      </li>
     </ul>
   </main>
 
@@ -137,7 +140,8 @@
           calcTitle: 'calculators',
           calculators: 'tank volume, salt mix, salinity correction, sand, phosphate media, water change and unit converters.',
           open: 'open →',
-          links: 'useful links: shops, communities →',
+          linksTitle: 'links',
+          links: 'hungarian and european shops, communities, manufacturers and tools for reef keepers.',
           feedback: 'feedback and ideas:',
           toggle: 'magyar',
           description: 'reef42 – tools for saltwater aquarium keepers.'
@@ -149,7 +153,8 @@
           calcTitle: 'kalkulátorok',
           calculators: 'akvárium térfogata, sókeverés, sótartalom-korrekció, homok, foszfátmegkötő, vízcsere és átváltók.',
           open: 'megnyitás →',
-          links: 'hasznos linkek: boltok, közösségek →',
+          linksTitle: 'linkek',
+          links: 'magyar és európai boltok, közösségek, gyártók és eszközök tengeri akvaristáknak.',
           feedback: 'visszajelzés, ötletek:',
           toggle: 'english',
           description: 'reef42 – eszközök tengeri akvaristáknak.'
