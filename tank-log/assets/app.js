@@ -34,9 +34,9 @@
   const BASIC = ['temp', 'sal', 'ph', 'kh', 'ca', 'mg', 'no3', 'po4'];
 
   const BUILTIN_TEMPLATES = [
-    { id: 'b-mixed', name: { en: 'Mixed reef', hu: 'Vegyes korallos' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [7, 9], ca: [400, 450], mg: [1250, 1400], no3: [2, 15], po4: [0.03, 0.1] } },
+    { id: 'b-mixed', name: { en: 'Mixed reef', hu: 'Vegyes korallos' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [7, 9], ca: [400, 450], mg: [1250, 1400], no3: [5, 50], po4: [0.06, 0.3] } },
     { id: 'b-sps', name: { en: 'SPS dominant', hu: 'SPS-domináns' }, p: { temp: [25, 26.5], sal: [34.5, 35.5], ph: [7.9, 8.4], kh: [7, 8.5], ca: [420, 450], mg: [1300, 1400], no3: [2, 10], po4: [0.02, 0.08], k: [380, 420] } },
-    { id: 'b-lps', name: { en: 'LPS / soft corals', hu: 'LPS / lágykorallok' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [8, 10], ca: [400, 450], mg: [1250, 1400], no3: [5, 20], po4: [0.05, 0.15] } },
+    { id: 'b-lps', name: { en: 'LPS / soft corals', hu: 'LPS / lágykorallok' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [8, 10], ca: [400, 450], mg: [1250, 1400], no3: [5, 50], po4: [0.06, 0.3] } },
     { id: 'b-fowlr', name: { en: 'Fish only (FOWLR)', hu: 'Csak halas (FOWLR)' }, p: { temp: [24, 26.5], sal: [33, 35.5], ph: [7.9, 8.4], kh: [7, 11], no3: [0, 40], po4: [0, 0.5], nh3: [0, 0.05], no2: [0, 0.2] } },
     { id: 'b-qt', name: { en: 'Quarantine tank', hu: 'Karantén' }, p: { temp: [24, 26.5], sal: [33, 35.5], ph: [7.9, 8.4], nh3: [0, 0.05], no2: [0, 0.2], no3: [0, 40], cu: [null, null] } },
     { id: 'b-empty', name: { en: 'Basic parameters, no ranges', hu: 'Alap paraméterek, tartomány nélkül' }, p: { temp: [null, null], sal: [null, null], ph: [null, null], kh: [null, null], ca: [null, null], mg: [null, null], no3: [null, null], po4: [null, null] } }
@@ -1010,6 +1010,8 @@
     const jump = (keys) => '<nav class="chips gjump">' + keys.map((k) => '<a class="chip" href="#/guide/' + esc(k) + '">' + esc(CATALOG[k][lang] || CATALOG[k].en) + '</a>').join('') + '</nav>';
     let h = '<div class="vhead"><h1>' + esc(t('guide')) + '</h1></div>' +
       '<p class="hint">' + esc(loc(guideData.intro)) + '</p>' +
+      (Array.isArray(guideData.sources) && guideData.sources.length ? '<ul class="gsrc hint">' + guideData.sources.map((x) =>
+        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a></li>').join('') + '</ul>' : '') +
       jump(inTank.concat(others));
     if (inTank.length) h += '<h2 class="gsub">' + esc(t('gInTank')) + '</h2><div class="ggrid">' + inTank.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
     if (others.length) h += '<h2 class="gsub">' + esc(t('gOther')) + '</h2><div class="ggrid">' + others.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
