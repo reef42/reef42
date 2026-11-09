@@ -116,7 +116,7 @@
           back: '← reef42', title: 'links', lead: 'shops, communities, manufacturers and tools for reef keepers',
           suggest: 'know a good link? tell us:', toggle: 'magyar', search: 'search…', type: 'type', all: 'all',
           hu: 'hungary', eu: 'europe', intl: 'international', any: 'all',
-          community: 'community', shop: 'shops', brand: 'manufacturers & labs', tools: 'tools & apps', learn: 'news & knowledge',
+          community: 'community', shop: 'shops', service: 'services', fresh: 'mainly freshwater', brand: 'manufacturers & labs', tools: 'tools & apps', learn: 'news & knowledge',
           count: '{n} links', none: 'no links match the filters.', soon: 'link coming soon', own: 'reef42', open: 'open →',
           docTitle: 'links – reef42'
         },
@@ -124,14 +124,14 @@
           back: '← reef42', title: 'linkek', lead: 'boltok, közösségek, gyártók és eszközök tengeri akvaristáknak',
           suggest: 'tudsz egy jó linket? írd meg:', toggle: 'english', search: 'keresés…', type: 'típus', all: 'mind',
           hu: 'magyarország', eu: 'európa', intl: 'nemzetközi', any: 'összes',
-          community: 'közösség', shop: 'boltok', brand: 'gyártók és laborok', tools: 'eszközök és appok', learn: 'hírek és tudás',
+          community: 'közösség', shop: 'boltok', service: 'szolgáltatás', fresh: 'főleg édesvízi', brand: 'gyártók és laborok', tools: 'eszközök és appok', learn: 'hírek és tudás',
           count: '{n} link', none: 'nincs a szűrésnek megfelelő link.', soon: 'link hamarosan', own: 'reef42', open: 'megnyitás →',
           docTitle: 'linkek – reef42'
         }
       };
       var TABS = ['hu', 'eu', 'intl', 'any'];
       var REGIONS = ['hu', 'eu', 'intl'];
-      var CATS = ['community', 'shop', 'brand', 'tools', 'learn'];
+      var CATS = ['community', 'shop', 'service', 'brand', 'tools', 'learn'];
       var COLORS = ['#0e7c86', '#7a4bb3', '#b0532a', '#2f7d32', '#9a3b5c', '#3b5ea8'];
       var LINKS = window.REEF42_LINKS || [];
       var KEY = 'reef42-lang';
@@ -192,9 +192,10 @@
 
       function cardHtml(l) {
         var logo = l.logo
-          ? '<span class="logo"><img src="' + esc(l.logo) + '" alt="" width="52" height="52" loading="lazy"></span>'
+          ? '<span class="logo"><img src="' + esc(l.logo) + '" alt="" width="52" height="52" loading="lazy"' + (l.logoZoom ? ' style="transform:scale(' + Number(l.logoZoom) + ')"' : '') + '></span>'
           : '<span class="logo mono" style="background:' + color(l.name) + '">' + esc(initials(l.name)) + '</span>';
         var badge = l.reef42 ? '<span class="badge own">' + esc(t('own')) + '</span>'
+          : l.fresh ? '<span class="badge">' + esc(t('fresh')) + '</span>'
           : '<span class="badge">' + esc(state.region === 'any' ? t(l.region) + (l.country ? ' · ' + l.country.toLowerCase() : '') : (l.country ? l.country.toLowerCase() : t(l.cat))) + '</span>';
         var body = '<span class="thumb">' + logo + badge + '</span><span class="body"><h2>' + esc(l.name) + '</h2><p>' + esc(l.desc[lang] || l.desc.en) +
           '</p><span class="go">' + esc(l.url ? host(l.url) + ' →' : t('soon')) + '</span></span>';
@@ -206,7 +207,7 @@
       function renderList() {
         var items = LINKS.filter(function (l) { return matches(l, false); });
         items.sort(function (a, b) {
-          return (b.reef42 ? 1 : 0) - (a.reef42 ? 1 : 0) || REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
+          return (b.reef42 ? 1 : 0) - (a.reef42 ? 1 : 0) || (a.fresh ? 1 : 0) - (b.fresh ? 1 : 0) || REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
             CATS.indexOf(a.cat) - CATS.indexOf(b.cat);
         });
         document.getElementById('count').textContent = t('count').replace('{n}', items.length);

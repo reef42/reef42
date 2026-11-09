@@ -1,22 +1,39 @@
 // reef42 link list. To add a link, copy an entry.
 // region: 'hu' (Hungary), 'eu' (Europe), 'intl' (international)
-// cat: 'community', 'shop', 'brand' (manufacturers and labs), 'tools', 'learn'
-// logo: small square image in logos/ (optional; initials are shown without it)
-// reef42: true marks reef42's own channels; an empty url shows the entry as "coming soon".
+// cat: 'community', 'shop', 'service', 'brand' (manufacturers and labs), 'tools', 'learn'
+// logo: small square image in logos/ (optional; initials are shown without it); logoZoom enlarges a logo with wide margins
+// reef42: true marks reef42's own channels (listed first, in this order); an empty url shows "coming soon".
+// fresh: true marks mainly freshwater shops; they are listed last.
 window.REEF42_LINKS = [
   {
-    name: 'Tengeri akvarista Discord', url: '', logo: 'logos/discord.com.png', region: 'hu', cat: 'community', reef42: true,
+    name: 'reef42', url: 'https://www.facebook.com/profile.php?id=61574750432340', logo: '../favicon.svg', region: 'hu', cat: 'community', reef42: true,
+    desc: { en: 'reef42 on Facebook: news about the tools and reef keeping.', hu: 'A reef42 Facebook-oldala: hírek az eszközökről és a tengeri akvarisztikáról.' },
+  },
+  {
+    name: 'Tengeri akvarista Facebook-csoport', url: 'https://www.facebook.com/groups/1409243863399463', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community', reef42: true,
+    desc: { en: 'Hungarian reef keepers’ Facebook group, run by reef42.', hu: 'Magyar tengeri akvaristák Facebook-csoportja, a reef42 gondozásában.' },
+  },
+  {
+    name: 'Tengeri akvarista Discord', url: 'https://discord.gg/k3KC28gCH4', logo: 'logos/discord.com.png', region: 'hu', cat: 'community', reef42: true,
     desc: { en: 'Hungarian reef keepers’ Discord server, run by reef42.', hu: 'Magyar tengeri akvaristák Discord-szervere, a reef42 gondozásában.' },
   },
   {
-    name: 'Tengeri akvarista Facebook-csoport', url: '', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community', reef42: true,
-    desc: { en: 'Hungarian reef keepers’ Facebook group, run by reef42.', hu: 'Magyar tengeri akvaristák Facebook-csoportja, a reef42 gondozásában.' },
+    name: 'PraxisReef', url: 'https://praxisreef.com/', logo: 'logos/praxisreef.com.png', region: 'hu', cat: 'tools',
+    desc: { en: 'Hungarian-made reef management platform: dashboard, water chemistry analysis, coral nutrition planning and an AI assistant.', hu: 'Magyar fejlesztésű zátonyakvárium-kezelő platform: áttekintő, vízkémiai elemzés, koralltáplálás-tervezés és AI-asszisztens.' },
+  },
+  {
+    name: 'Aquareef', url: 'https://www.aquareef.hu/', logo: 'logos/aquareef.hu.png', region: 'hu', cat: 'service',
+    desc: { en: 'Marine aquarium service: help choosing the right equipment, plus technology and accessories.', hu: 'Tengeri akvarisztikai szolgáltatás: segítség a megfelelő technika kiválasztásában, technika és kiegészítők.' },
   },
 
   // Hungarian shops
   {
-    name: 'Aquareef', url: 'https://www.aquareef.hu/', logo: 'logos/aquareef.hu.png', region: 'hu', cat: 'shop',
-    desc: { en: 'Marine aquarium equipment, salts, supplements and filter media.', hu: 'Tengeri akváriumtechnika, sók, adalékok és szűrőanyagok.' },
+    name: 'Korallgarázs', url: 'https://www.korallgarazs.hu/', logo: 'logos/korallgarazs.hu.png', logoZoom: 1.6, region: 'hu', cat: 'shop',
+    desc: { en: 'Marine specialist shop in Fót: live corals, marine fish and aquarium equipment.', hu: 'Fóti tengeri akvarisztikai szaküzlet: élő korallok, tengeri halak és akváriumtechnika.' },
+  },
+  {
+    name: 'Acropora tengeri akvarisztika', url: 'https://acropora.hu/', logo: 'logos/acropora.hu.png', region: 'hu', cat: 'shop',
+    desc: { en: 'Marine aquarium shop and webshop.', hu: 'Tengeri akvarisztikai bolt és webáruház.' },
   },
   {
     name: 'Korallosakvárium', url: 'https://korallosakvarium.hu/', logo: 'logos/korallosakvarium.hu.png', region: 'hu', cat: 'shop',
@@ -27,12 +44,12 @@ window.REEF42_LINKS = [
     desc: { en: 'Aquarium shop with marine salts and reef supplies.', hu: 'Akvarisztika tengeri sókkal és zátonyakváriumos kellékekkel.' },
   },
   {
-    name: 'Tropical Fish Debrecen', url: 'https://tropicalfish.hu/', logo: 'logos/tropicalfish.hu.png', region: 'hu', cat: 'shop',
-    desc: { en: 'Aquarium shop in Debrecen with marine salts, substrates and supplies.', hu: 'Debreceni akvarisztika tengeri sókkal, aljzatokkal és kellékekkel.' },
+    name: 'Tropical Fish Debrecen', url: 'https://tropicalfish.hu/', logo: 'logos/tropicalfish.hu.png', region: 'hu', cat: 'shop', fresh: true,
+    desc: { en: 'Mainly freshwater aquarium shop in Debrecen, with marine salts and substrates too.', hu: 'Főleg édesvízi debreceni akvarisztika, tengeri sókkal és aljzatokkal is.' },
   },
   {
-    name: 'AquaFauna', url: 'https://aquafauna.hu/', logo: 'logos/aquafauna.hu.png', region: 'hu', cat: 'shop',
-    desc: { en: 'Aquarium specialist shop, marine filter media and supplies too.', hu: 'Akvarisztikai szaküzlet, tengeri szűrőanyagokkal és kellékekkel is.' },
+    name: 'AquaFauna', url: 'https://aquafauna.hu/', logo: 'logos/aquafauna.hu.png', region: 'hu', cat: 'shop', fresh: true,
+    desc: { en: 'Mainly freshwater aquarium shop, with marine filter media and supplies too.', hu: 'Főleg édesvízi akvarisztikai szaküzlet, tengeri szűrőanyagokkal és kellékekkel is.' },
   },
   {
     name: 'Tropus Szeged', url: 'https://tropus-szeged.hu/', region: 'hu', cat: 'shop',
@@ -88,10 +105,6 @@ window.REEF42_LINKS = [
   },
 
   // Tools and apps
-  {
-    name: 'PraxisReef', url: 'https://praxisreef.com/', logo: 'logos/praxisreef.com.png', region: 'intl', cat: 'tools',
-    desc: { en: 'Reef management platform: dashboard, water chemistry analysis, coral nutrition planning and an AI assistant.', hu: 'Zátonyakvárium-kezelő platform: áttekintő, vízkémiai elemzés, koralltáplálás-tervezés és AI-asszisztens.' },
-  },
   {
     name: 'ReefCalcs', url: 'https://reefcalcs.com/', region: 'intl', cat: 'tools',
     desc: { en: 'Reef calculators with sources: volume, salt, dosing, conversions.', hu: 'Forrásokkal ellátott kalkulátorok: térfogat, só, adagolás, átváltások.' },
