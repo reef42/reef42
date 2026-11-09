@@ -7,7 +7,7 @@
   "category": "parasite-protozoan",
   "summary": {
     "en": "Trichodina is a ciliated protozoan ('flying saucer' under the microscope) found on the gills, skin and fins of fish. It is rarely a problem unless fish are weakened, diseased or kept in poor water quality, where high bacterial counts feed the parasite. It is easily killed by copper, formalin or a freshwater dip, and fish may recover on their own once conditions improve.",
-    "hu": "A Trichodina csillós egysejtű (mikroszkóp alatt „repülő csészealj”), amely a halak kopoltyúján, bőrén és úszóin él. Ritkán okoz gondot, kivéve legyengült, beteg vagy rossz vízminőségben tartott halaknál, ahol a magas baktériumszám táplálja a parazitát. Réz, formalin vagy édesvizes merítés könnyen elpusztítja, és a halak a körülmények javulásával maguktól is meggyógyulhatnak."
+    "hu": "A Trichodina csillós egysejtű (mikroszkóp alatt „repülő csészealj”), amely a halak kopoltyúján, bőrén és úszóin él. Ritkán okoz gondot, kivéve legyengült, beteg vagy rossz vízminőségben tartott halaknál, ahol a magas baktériumszám táplálja a parazitát. Réz, formalin vagy édesvízi fürdő könnyen elpusztítja, és a halak a körülmények javulásával maguktól is meggyógyulhatnak."
   },
   "symptoms": {
     "en": [
@@ -39,9 +39,9 @@
       "Usually linked to poor water quality / weakened fish, unlike ich or velvet which attack healthy fish."
     ],
     "hu": [
-      "Főleg viselkedési tünetek (vakarózás, összecsukott úszók, erős légzés) jól látható pöttyök nélkül; súlyos esetben szürkésfehér hártya, nem különálló fehér pöttyök, mint az ichnél vagy velvetnél.",
+      "Főleg viselkedési tünetek (vakarózás, összecsukott úszók, erős légzés) jól látható pöttyök nélkül; súlyos esetben szürkésfehér hártya, nem különálló fehér pöttyök, mint a darakórnál vagy bársonybetegségnél.",
       "Megerősítéshez mikroszkóp kell: a parazita „repülő csészealjra” hasonlít.",
-      "Általában rossz vízminőséghez / legyengült halakhoz kötődik, ellentétben az ich-csel vagy velvettel, amelyek egészséges halakat is megtámadnak."
+      "Általában rossz vízminőséghez / legyengült halakhoz kötődik, ellentétben a darakórral vagy bársonybetegséggel, amelyek egészséges halakat is megtámadnak."
     ]
   },
   "life_cycle": {
@@ -69,11 +69,11 @@
     },
     {
       "treatment_id": "freshwater-dip",
-      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés"},
+      "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdő"},
       "priority": "alternative",
       "details": {
         "en": "5 minute freshwater dip.",
-        "hu": "5 perces édesvizes merítés."
+        "hu": "5 perces édesvízi fürdő."
       }
     },
     {

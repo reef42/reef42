@@ -57,8 +57,8 @@
     ],
     "hu": [
       "Bakteriális fertőzéshez képest: az Uronema vörös sebeit általában másodlagos bakteriális fertőzés kíséri, így mindkettő jelen lehet; ha chromison vagy anthiason vörös seb jelenik meg, erősen gyanítható az Uronema.",
-      "Ich-hez/velvethez képest: az Uronema vörös, nyílt sebeket okoz, nem fehér pöttyöket vagy port.",
-      "Az ich-csel és velvettel ellentétben az Uronemának nincs szüksége gazdahalra, ezért a fallow időszak nem számolja fel.",
+      "Darakórhoz/bársonybetegséghez képest: az Uronema vörös, nyílt sebeket okoz, nem fehér pöttyöket vagy port.",
+      "A darakórral és bársonybetegséggel ellentétben az Uronemának nincs szüksége gazdahalra, ezért a fallow időszak nem számolja fel.",
       "Mikroszkóppal igazolható; az Aquabiomics akváriumtesztjei is kimutatják."
     ]
   },
@@ -155,12 +155,12 @@
       "treatment_id": "methylene-blue",
       "name": {
         "en": "Methylene Blue freshwater dip",
-        "hu": "Methylene Blue-s édesvizes merítés"
+        "hu": "Methylene Blue-s édesvízi fürdő"
       },
       "priority": "supportive",
       "details": {
         "en": "Methylene Blue in a 5 minute freshwater dip can provide temporary relief.",
-        "hu": "Methylene Blue 5 perces édesvizes merítésben átmeneti enyhülést adhat."
+        "hu": "Methylene Blue 5 perces édesvízi fürdőben átmeneti enyhülést adhat."
       }
     },
     {
@@ -326,6 +326,6 @@
   ],
   "notes": {
     "en": "Merged from three threads: the main Uronema thread (Humblefish), 'Us vs Uronema' (Dierks, FisHotel) and 'I'm gonna kick Uronema's ass!' (Humblefish). Aquabiomics found some Uronema in 19% of tanks tested (a skewed sample, since tests are usually sent from tanks with problems). The Melafix bath was tested on many species (cardinals, gobies, wrasses, tangs, anthias, butterflies, angels, triggers and others) with one loss reported. The Rally protocols are still being tested.",
-    "hu": "Három téma összevonása: a fő Uronema téma (Humblefish), az „Us vs Uronema” (Dierks, FisHotel) és az „I'm gonna kick Uronema's ass!” (Humblefish). Az Aquabiomics a vizsgált akváriumok 19%-ában talált valamilyen Uronemát (torz minta, mert általában problémás akváriumokból küldenek tesztet). A Melafix fürdőt sok fajon tesztelték (kardinálishalak, gébek, ajakos halak, tangok, anthiasok, pillangóhalak, császárhalak, ravaszhalak stb.), egy elhullást jelentettek. A Rally protokollok tesztelése még folyamatban van."
+    "hu": "Három téma összevonása: a fő Uronema téma (Humblefish), az „Us vs Uronema” (Dierks, FisHotel) és az „I'm gonna kick Uronema's ass!” (Humblefish). Az Aquabiomics a vizsgált akváriumok 19%-ában talált valamilyen Uronemát (torz minta, mert általában problémás akváriumokból küldenek tesztet). A Melafix fürdőt sok fajon tesztelték (kardinálishalak, gébek, ajakos halak, doktorhalak, anthiasok, pillangóhalak, császárhalak, ravaszhalak stb.), egy elhullást jelentettek. A Rally protokollok tesztelése még folyamatban van."
   }
 }

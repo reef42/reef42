@@ -54,7 +54,7 @@
   "contagious": true,
   "commonly_affected": {
     "en": "Clownfish most often; also tangs, puffers, angelfish and other fish (often in the gills)",
-    "hu": "Leggyakrabban bohóchalak; emellett tangok, gömbhalak, császárhalak és más halak (gyakran a kopoltyúban)"
+    "hu": "Leggyakrabban bohóchalak; emellett doktorhalak, gömbhalak, császárhalak és más halak (gyakran a kopoltyúban)"
   },
   "distinguish": {
     "en": [
@@ -65,7 +65,7 @@
     "hu": [
       "Bohóchalakon a hámló, leváló fehér nyálka jellegzetes.",
       "Más halakon másként jelenik meg (foltos, márványos elszíneződés, rongyos úszók), és összetéveszthető Gram-pozitív bakteriális fertőzéssel, pl. Streptococcusszal; mikroszkópos vizsgálat igazolja.",
-      "Kedvező körülmények között olyan gyorsan ölhet, mint a Velvet."
+      "Kedvező körülmények között olyan gyorsan ölhet, mint a bársonybetegség."
     ]
   },
   "life_cycle": {
@@ -94,7 +94,7 @@
       "priority": "alternative",
       "details": {
         "en": "90 minute bath. Tangs reportedly respond very well (a Tomini tang recovered after about 5 days of daily baths).",
-        "hu": "90 perces fürdő. A tangok állítólag nagyon jól reagálnak (egy Tomini tang kb. 5 napnyi napi fürdetés után teljesen felépült)."
+        "hu": "90 perces fürdő. A doktorhalak állítólag nagyon jól reagálnak (egy Tomini doktorhal kb. 5 napnyi napi fürdetés után teljesen felépült)."
       }
     },
     {
@@ -215,14 +215,14 @@
       "url": "https://humble.fish/community/index.php?attachments/835d7f83-e8de-4b55-99b6-9c864f88d7de-jpeg.882/",
       "caption": {
         "en": "Brooklynella on a Naso tang (presents differently on non-clownfish)",
-        "hu": "Brooklynella Naso tangon (nem bohóchalakon másként jelentkezik)"
+        "hu": "Brooklynella Naso doktorhalon (nem bohóchalakon másként jelentkezik)"
       }
     },
     {
       "url": "https://humble.fish/community/attachments/purple-tang-brook-3-jpg.36584/",
       "caption": {
         "en": "Brooklynella on a Purple tang",
-        "hu": "Brooklynella bíbor tangon"
+        "hu": "Brooklynella bíbor doktorhalon"
       }
     }
   ],
@@ -262,6 +262,6 @@
   ],
   "notes": {
     "en": "A member report (AndyR83) describes a display-tank outbreak affecting puffers, clownfish, angels and others: puffers often 'puffed' in late stages, which preceded death within about 12 hours. Outbreaks in non-clownfish seem more common in the UK. Additional photos of an Arothron puffer and a Tomini tang are in the thread (attachments 57526-57530).",
-    "hu": "Egy tag (AndyR83) beszámolója szerint egy fő akváriumi kitörés gömbhalakat, bohóchalakat, császárhalakat és másokat érintett: a gömbhalak a késői szakaszban gyakran felfújták magukat, ami kb. 12 órán belüli elhullást jelzett. Nem bohóchalaknál a kitörés az Egyesült Királyságban tűnik gyakoribbnak. A témában további fotók vannak egy Arothron gömbhalról és egy Tomini tangról."
+    "hu": "Egy tag (AndyR83) beszámolója szerint egy fő akváriumi kitörés gömbhalakat, bohóchalakat, császárhalakat és másokat érintett: a gömbhalak a késői szakaszban gyakran felfújták magukat, ami kb. 12 órán belüli elhullást jelzett. Nem bohóchalaknál a kitörés az Egyesült Királyságban tűnik gyakoribbnak. A témában további fotók vannak egy Arothron gömbhalról és egy Tomini doktorhalról."
   }
 }

@@ -3,22 +3,22 @@
   "source": "https://humble.fish/community/index.php?threads/bacterial-tufts-viral-nodules.6799/",
   "author": "Humblefish",
   "name": {"en": "Bacterial Tufts & Viral Nodules", "hu": "Bakteriális pamacsok és vírusos csomók"},
-  "scientific": "Vibrio spp. (bacterial tufts); viral nodules similar to Lymphocystis",
+  "scientific": {"en": "Vibrio spp. (bacterial tufts); viral nodules similar to Lymphocystis", "hu": "Vibrio spp. (bakteriális pamacsok); a Lymphocystishez hasonló vírusos csomók"},
   "category": "bacterial",
   "summary": {
     "en": "Bacterial tufts are white bacterial growths on the skin that can start out resembling Ich or even Velvet and later look like Lymphocystis nodules. Viral nodules look almost identical. Both usually clear without medication given clean water, good nutrition and vitamin/Beta-glucan soaked food. Hippo and Naso tangs are most prone, especially right after copper treatment.",
-    "hu": "A bakteriális pamacsok fehér, bakteriális eredetű kinövések a bőrön, amelyek eleinte Ich-re vagy akár Velvetre hasonlítanak, később Lymphocystis csomókra. A vírusos csomók szinte ugyanígy néznek ki. Mindkettő általában gyógyszer nélkül elmúlik tiszta vízben, jó táplálással és vitaminnal/béta-glükánnal áztatott eleséggel. Leginkább a hippo és Naso tangok hajlamosak rá, főleg közvetlenül réz kezelés után."
+    "hu": "A bakteriális pamacsok fehér, bakteriális eredetű kinövések a bőrön, amelyek eleinte darakórra vagy akár bársonybetegségre hasonlítanak, később Lymphocystis csomókra. A vírusos csomók szinte ugyanígy néznek ki. Mindkettő általában gyógyszer nélkül elmúlik tiszta vízben, jó táplálással és vitaminnal/béta-glükánnal áztatott eleséggel. Leginkább a hippo és Naso doktorhalak hajlamosak rá, főleg közvetlenül réz kezelés után."
   },
   "symptoms": {
     "en": ["White dots or growths on the skin, from Ich-sized to Velvet-sized", "Thin, wiry white growths or thick raised white dots", "Growths may protrude, dangle or move in the water flow", "Spots persist for more than 7 days", "Usually along the lateral line or on the face, not on the eyes", "Fish typically keeps eating and behaving normally"],
-    "hu": ["Fehér pöttyök vagy kinövések a bőrön, Ich-től Velvet méretig", "Vékony, drótszerű fehér kinövések vagy vastag, kiemelkedő fehér pöttyök", "A kinövések kiállhatnak, lóghatnak vagy mozoghatnak az áramlásban", "A foltok 7 napnál tovább megmaradnak", "Általában az oldalvonal mentén vagy a fejen, a szemen nem", "A hal többnyire normálisan eszik és viselkedik"]
+    "hu": ["Fehér pöttyök vagy kinövések a bőrön, darakórtól bársonybetegség méretig", "Vékony, drótszerű fehér kinövések vagy vastag, kiemelkedő fehér pöttyök", "A kinövések kiállhatnak, lóghatnak vagy mozoghatnak az áramlásban", "A foltok 7 napnál tovább megmaradnak", "Általában az oldalvonal mentén vagy a fejen, a szemen nem", "A hal többnyire normálisan eszik és viselkedik"]
   },
   "body_areas": ["skin", "fins", "head"],
   "appearance": ["white-spots", "cotton-tufts", "nodules-cauliflower"],
   "speed": "weeks",
   "lethality": "low",
   "contagious": true,
-  "commonly_affected": {"en": "Hippo (Paracanthurus) tangs and Naso tangs, also pyramid butterflyfish; especially after copper treatment or stress from poor water or aggression", "hu": "Hippo (Paracanthurus) és Naso tangok, valamint piramis pillangóhalak; főleg réz kezelés után vagy rossz víz, agresszió okozta stressz esetén"},
+  "commonly_affected": {"en": "Hippo (Paracanthurus) tangs and Naso tangs, also pyramid butterflyfish; especially after copper treatment or stress from poor water or aggression", "hu": "Hippo (Paracanthurus) és Naso doktorhalak, valamint piramis pillangóhalak; főleg réz kezelés után vagy rossz víz, agresszió okozta stressz esetén"},
   "distinguish": {
     "en": [
       "Unlike Ich/Velvet trophonts, bacterial tufts usually stay on the fish for more than 7 days; parasite trophonts drop off within 7 days.",
@@ -28,8 +28,8 @@
       "Viral nodules look almost identical to bacterial tufts; Lymphocystis is the closest comparison."
     ],
     "hu": [
-      "Az Ich/Velvet trofontokkal ellentétben a bakteriális pamacsok általában 7 napnál tovább maradnak a halon; a parazita trofontok 7 napon belül leesnek.",
-      "A pamacsok kifelé állnak, lóghatnak vagy hullámozhatnak az áramlásban; az Ich trofontok közvetlenül a külső bőrréteg alatt ülnek.",
+      "A darakór/bársonybetegség trofontokkal ellentétben a bakteriális pamacsok általában 7 napnál tovább maradnak a halon; a parazita trofontok 7 napon belül leesnek.",
+      "A pamacsok kifelé állnak, lóghatnak vagy hullámozhatnak az áramlásban; a darakór trofontok közvetlenül a külső bőrréteg alatt ülnek.",
       "A pamacsok nem jelennek meg a szemen, általában az oldalvonal mentén vagy a fejen vannak (a Cryptocaryonnal ellentétben).",
       "Mikroszkóp alatt baktériumként festődnek, protozoon nem látható.",
       "A vírusos csomók szinte azonosak a bakteriális pamacsokkal; a Lymphocystis a legközelebbi hasonlat."
@@ -43,7 +43,7 @@
   ],
   "prevention": {
     "en": ["Keep excellent water quality and avoid aggression stress", "Feed a varied diet with vitamins and Beta-glucan", "Support the immune system of tangs after copper treatment"],
-    "hu": ["Kiváló vízminőség, kerüld az agresszióból eredő stresszt", "Változatos étrend vitaminokkal és béta-glükánnal", "Réz kezelés után támogasd a tangok immunrendszerét"]
+    "hu": ["Kiváló vízminőség, kerüld az agresszióból eredő stresszt", "Változatos étrend vitaminokkal és béta-glükánnal", "Réz kezelés után támogasd a doktorhalak immunrendszerét"]
   },
   "images": [
     {"url": "https://humble.fish/community/attachments/1990dd00-c0d9-46e2-b0a0-217fd61672d1-jpg.36701/", "caption": {"en": "White bacterial tufts on a fish", "hu": "Fehér bakteriális pamacsok egy halon"}},

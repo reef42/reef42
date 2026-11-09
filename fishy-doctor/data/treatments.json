@@ -2,13 +2,14 @@
   "treatments": [
     {
       "id": "copper",
+      "availability": {"status":"available","hu":"A Seachem Cupramine az EU-ban akvarisztikai (főleg tengeri) webshopokban kapható, pl. holland és francia reef-boltok Magyarországra is szállítanak; egy hazai nagy webshopnál viszont 2024 óta kifutott termék. A Copper Power, az API Coppersafe és a Seachem Cuprion EU-s elérhetőségét nem sikerült ellenőrizni. EU-ban engedélyezett, recept nélküli rezes alternatíva pl. az Aquarium Münster ODIMOR (réz-szulfát + malachitzöld) és a JBL Oodinol Plus (rezet tartalmaz); rézteszt mindegyiknél kötelező.","en":"Seachem Cupramine is sold in EU aquarium (mainly marine) webshops, e.g. Dutch and French reef shops that ship to Hungary; one large Hungarian webshop has listed it as discontinued since 2024. EU availability of Copper Power, API Coppersafe and Seachem Cuprion could not be verified. EU-authorised, non-prescription copper alternatives include Aquarium Münster ODIMOR (copper sulfate + malachite green) and JBL Oodinol Plus (contains copper); a copper test kit is essential with all of them.","sources":["https://reef-aquarium-store.com/seachem-cupramine","https://www.recifart.com/de/behandlung/556-behandlung-gegen-oodinium-cupramine-250ml.html","https://greenaqua.hu/en/seachem-cupramine-50-ml.html","https://www.shop-meeresaquaristik.de/Heilmittel-und-Problemloeser/Heilmittel-fuer-Fische:::1066_1067.html","https://vetlabel.com/lib/vet/meds/odimor/","https://www.jbl.de/en-ba/press/detail/350"]},
       "type": "medication",
       "name": {"en": "Copper treatment", "hu": "Rezes kezelés"},
       "aka": ["Copper Power", "Cupramine", "Coppersafe", "Cuprion", "copper sulfate", "chelated copper", "ionic copper"],
       "source": "https://humble.fish/community/index.php?threads/copper-treatment.17/",
       "summary": {
         "en": "Copper is the standard quarantine-tank medication against marine ich and marine velvet. It must be held at a precise therapeutic level, verified with a test kit, for a set number of days in a bare-bottom QT.",
-        "hu": "A réz a standard karantén (QT) gyógyszer a tengeri ich (marine ich) és a tengeri velvet ellen. Pontos terápiás szinten kell tartani, tesztkészlettel ellenőrizve, meghatározott ideig, aljzat nélküli QT-ben."
+        "hu": "A réz a standard karantén (QT) gyógyszer a tengeri darakór (marine ich) és a tengeri bársonybetegség ellen. Pontos terápiás szinten kell tartani, tesztkészlettel ellenőrizve, meghatározott ideig, aljzat nélküli QT-ben."
       },
       "treats": ["marine-ich", "marine-velvet"],
       "dosage": {
@@ -72,13 +73,14 @@
     },
     {
       "id": "chloroquine-phosphate",
+      "availability": {"status":"prescription","hu":"A klorokin-foszfát Magyarországon humán gyógyszerként (Delagil 250 mg tabletta) érvényes engedéllyel rendelkezik, de orvosi rendelvényhez kötött (V), és az aktuális patikai készlet nem ellenőrzött. Akvarisztikai célra szánt, címkézett klorokin-termék EU-s webshopban nem került elő (not verified). Díszhalra csak állatorvos rendelheti 'off-label' módon; recept nélküli EU-s alternatíva Cryptocaryon/Amyloodinium ellen a rezes szerek (pl. ODIMOR, Seachem Cupramine).","en":"In Hungary chloroquine phosphate is authorised as a human medicine (Delagil 250 mg tablets) but is prescription-only (V); current pharmacy stock was not verified. No aquarium-labelled chloroquine product was found in EU webshops (not verified). For fish it can only be obtained via a vet's off-label prescription; non-prescription EU alternatives against Cryptocaryon/Amyloodinium are copper products (e.g. ODIMOR, Seachem Cupramine).","sources":["https://mediately.co/hu/drugs/0/delagil-250-mg-tabletta","https://ogyei.gov.hu/kiseroirat/bh/bh_0000016858_20260105080700.doc"]},
       "type": "medication",
       "name": {"en": "Chloroquine phosphate", "hu": "Klorokin-foszfát"},
       "aka": ["CP", "chloroquine"],
       "source": "https://humble.fish/community/index.php?threads/chloroquine-phosphate.16/",
       "summary": {
         "en": "A broad antiparasitic used by prolonged immersion in a QT against ich, velvet, Brooklynella and Uronema. Effective but expensive, hard to source, and degraded by biofiltration and carbon.",
-        "hu": "Széles spektrumú parazitaellenes szer, QT-ben tartós fürdetéssel alkalmazzák ich, velvet, Brooklynella és Uronema ellen. Hatékony, de drága, nehezen beszerezhető, és a biológiai szűrés és az aktív szén lebontja/eltávolítja."
+        "hu": "Széles spektrumú parazitaellenes szer, QT-ben tartós fürdetéssel alkalmazzák darakór, bársonybetegség, Brooklynella és Uronema ellen. Hatékony, de drága, nehezen beszerezhető, és a biológiai szűrés és az aktív szén lebontja/eltávolítja."
       },
       "treats": ["marine-ich", "marine-velvet", "brooklynella", "uronema"],
       "dosage": {
@@ -120,7 +122,7 @@
           "Az aktív szén és egyes szűrőbetétek gyorsan eltávolítják.",
           "A biológiai lebomlás miatt bejáratott QT-ben vagy DT-ben az adagolás kiszámíthatatlan.",
           "Toxicitásról számoltak be hosszabb kezelésnél, illetve ha a halat közvetlenül rézből CP-be teszik vagy fordítva.",
-          "Érzékeny fajok: anthias (a lyretail a legkevésbé), hippo tang (Paracanthurus hepatus), csikóhalak és tűhalak, Coris, Paracheilinus és Pseudocheilinus ajakoshalak.",
+          "Érzékeny fajok: anthias (a lyretail a legkevésbé), hippo doktorhal (Paracanthurus hepatus), csikóhalak és tűhalak, Coris, Paracheilinus és Pseudocheilinus ajakoshalak.",
           "20 mg/L-nél étvágycsökkenés és bágyadtság várható.",
           "A belső (sejten belüli) Uronemát valószínűleg nem irtja ki."
         ]
@@ -136,13 +138,14 @@
     },
     {
       "id": "formalin",
+      "availability": {"status":"limited","hu":"A formaldehid 1B kategóriás rákkeltő, ezért a REACH XVII. melléklet 28. pontja alapján a 37%-os formalin a lakosság számára nem értékesíthető; a Kordon Rid-Ich és a Parasite-S amerikai termékek, EU-s forgalmazásuk nem ellenőrzött. Engedélyezett díszhal-gyógyszerként viszont kapható formaldehid-tartalmú szer: a sera Costapur F (formaldehid + malachitzöld-oxalát) az EU-ban és hazai webshopban is elérhető. Az eSHa Exit nem formalint, hanem etakridint, metilénkéket és malachitzöldet tartalmaz; a JBL Punktol és a sera Omnisan hatóanyagát nem sikerült ellenőrizni.","en":"Formaldehyde is a category 1B carcinogen, so under REACH Annex XVII entry 28, 37% formalin may not be sold to the general public; Kordon Rid-Ich and Parasite-S are US products whose EU distribution was not verified. Formaldehyde-containing authorised ornamental-fish medicines do exist: sera Costapur F (formaldehyde + malachite green oxalate) is sold in the EU, including a Hungarian webshop. eSHa Exit contains ethacridine, methylene blue and malachite green, not formalin; the active ingredients of JBL Punktol and sera Omnisan were not verified.","sources":["https://europur.org/?p=6134","https://www.ihk.de/sbh/unternehmer/energie-umwelt/umwelt/gefahrstoffe/neue-beschraenkung-von-formaldehyd-5871186","https://medicines.health.europa.eu/veterinary/de/600000097999","https://greenaqua.hu/en/sera-costapur-50-ml-800-l-re.html","https://medicines.health.europa.eu/veterinary/hu/700000174691"]},
       "type": "medication",
       "name": {"en": "Formalin", "hu": "Formalin"},
       "aka": ["formaldehyde 37%", "Parasite-S"],
       "source": "https://humble.fish/community/index.php?threads/formalin.19/",
       "summary": {
         "en": "Formalin (37% formaldehyde) is used as a short bath or as prolonged in-tank immersion against surface parasites. Repeated baths and/or in-tank treatment can eradicate velvet, Brooklynella, Uronema, flukes and black ich.",
-        "hu": "A formalin (37%-os formaldehid) rövid fürdőként vagy tartós, tankon belüli kezelésként használható a bőrfelszíni paraziták ellen. Ismételt fürdőkkel és/vagy tankon belüli kezeléssel a velvet, Brooklynella, Uronema, flukes és black ich teljesen felszámolható."
+        "hu": "A formalin (37%-os formaldehid) rövid fürdőként vagy tartós, tankon belüli kezelésként használható a bőrfelszíni paraziták ellen. Ismételt fürdőkkel és/vagy tankon belüli kezeléssel a bársonybetegség, Brooklynella, Uronema, flukes és black ich teljesen felszámolható."
       },
       "treats": ["marine-velvet", "brooklynella", "uronema", "flukes", "black-ich"],
       "dosage": {
@@ -198,6 +201,7 @@
     },
     {
       "id": "praziquantel",
+      "availability": {"status":"limited","hu":"A PraziPro a Hikari (nem Seachem) amerikai terméke, EU-s bolti forgalmazását nem találtuk; az API General Cure, a Fritz Paracleanse és a Fluke Solve EU-s elérhetősége sem ellenőrzött. EU-s prazikvantel-tartalmú díszhal-szer a sera med Professional Tremazol (édes- és tengervízre) és az eSHa gdex; a JBL Gyrodol Németországban nem szabadon forgalmazható gyógyszer lett. Magyarországi bolti elérhetőségüket nem sikerült ellenőrizni.","en":"PraziPro is a US product of Hikari (not Seachem) and no EU retailer was found; EU availability of API General Cure, Fritz Paracleanse and Fluke Solve was not verified. EU praziquantel products for ornamental fish include sera med Professional Tremazol (fresh and marine) and eSHa gdex; JBL Gyrodol was moved to the non-free-sale medicines list in Germany. Hungarian retail availability was not verified.","sources":["https://www.hikariusa.com/img/pds/PDS_PraziPro.pdf","https://www.sera.de/en/product/pond/sera-med-professional-tremazol","https://www.jbl.de/cs-cz/press/detail/124","https://forum.aquariumcoop.com/topic/3784-european-equivalent-of-med-trio/","https://www.ultimatereef.net/threads/vets-prazi-part-2.290209/"]},
       "type": "medication",
       "name": {"en": "Praziquantel", "hu": "Prazikvantel"},
       "aka": ["PraziPro", "API General Cure", "Fritz Paracleanse", "Sera Tremazol", "Fluke Solve", "prazi"],
@@ -260,6 +264,7 @@
     },
     {
       "id": "fenbendazole",
+      "availability": {"status":"prescription","hu":"A fenbendazol az EU-ban kutyára, macskára és haszonállatra engedélyezett állatgyógyászati készítményként (pl. Panacur) létezik, ezek az EU-adatbázis szerint állatorvosi vényhez kötöttek. Díszhalra engedélyezett, fenbendazol-tartalmú akvarisztikai terméket nem találtunk (not verified). Halra csak állatorvos rendelheti off-label módon.","en":"In the EU fenbendazole exists as veterinary products authorised for dogs, cats and livestock (e.g. Panacur), which the EU database lists as subject to veterinary prescription. No fenbendazole aquarium product authorised for ornamental fish was found (not verified). For fish it is only obtainable via a vet's off-label prescription.","sources":["https://medicines.health.europa.eu/veterinary/en/600000063432","https://gesetze.legal/eu/vo_eu_2019_6/34"]},
       "type": "medication",
       "name": {"en": "Fenbendazole", "hu": "Fenbendazol"},
       "aka": ["Panacur"],
@@ -313,6 +318,7 @@
     },
     {
       "id": "metroplex",
+      "availability": {"status":"prescription","hu":"A metronidazol a 2019/6/EU rendelet szerint antimikrobiális (antiprotozoon) szer, az ilyen állatgyógyászati készítmények állatorvosi vényhez kötöttek, így a Seachem Metroplex szabályosan nem forgalmazható szabadon az EU-ban. EU-s webshopban nem találtuk, csak magánimportként (pl. eBay) bukkan fel. Bélflagelláták ellen EU-ban kapható alternatíva a sera med Professional Flagellol (hatóanyaga aminonitrotiazol, nem metronidazol); metronidazolt csak állatorvos rendelhet.","en":"Under Regulation (EU) 2019/6 metronidazole counts as an antimicrobial (antiprotozoal), and antimicrobial veterinary medicines are prescription-only, so Seachem Metroplex cannot lawfully be sold freely in the EU. It was not found in EU webshops, only as private imports (e.g. eBay). An EU-available alternative for intestinal flagellates is sera med Professional Flagellol (active ingredient aminonitrothiazole, not metronidazole); metronidazole itself only via a vet.","sources":["https://www.legislation.gov.uk/eur/2019/6/article/4/data.htm","https://gesetze.legal/eu/vo_eu_2019_6/34","https://www.ebay.de/itm/193968272037","https://vptserver1.uzh.ch/TAK/PDFSPC/06000000/06982501-AI-FR.pdf"]},
       "type": "medication",
       "name": {"en": "Metronidazole", "hu": "Metronidazol"},
       "aka": ["Seachem Metroplex", "metro", "API General Cure", "Fritz Paracleanse"],
@@ -369,6 +375,7 @@
     },
     {
       "id": "antibiotics",
+      "availability": {"status":"prescription","hu":"A 2019/6/EU rendelet 34. cikke szerint minden antimikrobiális állatgyógyászati készítmény állatorvosi vényköteles, ez díszhalakra is vonatkozik; a recept nélküli díszhal-gyógyszer mentesség (5. cikk (6)) csak nem vényköteles szerekre adható. Ezért a cipro-/enrofloxacin, a Nitrofuracin Green, a Sulfa TMP, a Neoplex, a Sulfaplex és a Maracyn termékek EU-ban szabályosan csak állatorvoson keresztül szerezhetők be, akvarisztikai boltban nem. Az enrofloxacin állatgyógyászati készítményként létezik (pl. kisállatokra), halra off-label rendelhető; a nitrofuránok élelmiszer-termelő állatokban tiltottak.","en":"Under Article 34 of Regulation (EU) 2019/6 all antimicrobial veterinary medicines are prescription-only, including for ornamental fish; the national exemption for pet-fish medicines (Art. 5(6)) only covers non-prescription products. So cipro-/enrofloxacin, Nitrofuracin Green, Sulfa TMP, Neoplex, Sulfaplex and Maracyn can lawfully be obtained in the EU only via a vet, not from aquarium shops. Enrofloxacin exists as an authorised veterinary medicine (e.g. for pets) and can be prescribed off-label for fish; nitrofurans are banned in food-producing animals.","sources":["https://gesetze.legal/eu/vo_eu_2019_6/34","https://gesetze.legal/eu/vo_eu_2019_6/5","https://www.legislation.gov.uk/eur/2019/6/article/4/data.htm","https://ages.at/en/human/nutrition-food/residues-contaminants-from-a-to-z/nitrofurans","https://ornamentalfish.org/wp-content/uploads/UK-Antibiotic-Regulations-an-explainer-Nov-2024.pdf"]},
       "type": "medication",
       "name": {"en": "Antibiotics (overview)", "hu": "Antibiotikumok (áttekintés)"},
       "aka": ["ciprofloxacin", "enrofloxacin", "Nitrofuracin Green Powder", "Sulfa TMP", "Kanaplex", "Metroplex", "Neoplex", "Sulfaplex", "Maracyn", "Maracyn 2"],
@@ -427,6 +434,7 @@
     },
     {
       "id": "kanaplex",
+      "availability": {"status":"prescription","hu":"A Seachem Kanaplex kanamicint, azaz antibiotikumot tartalmaz, így az EU-ban állatorvosi vényköteles kategóriába esik, és szabályos EU-s akvarisztikai forgalmazását nem találtuk (csak eBay-es importhirdetéseket). Magyarországon bolti forgalma nem ellenőrzött. Alternatívaként állatorvos által rendelt, engedélyezett állatgyógyászati antibiotikum jöhet szóba.","en":"Seachem Kanaplex contains kanamycin, an antibiotic, so in the EU it falls under veterinary prescription, and no lawful EU aquarium-retail listing was found (only eBay import listings). Hungarian retail availability was not verified. The alternative is an authorised veterinary antibiotic prescribed by a vet.","sources":["https://gesetze.legal/eu/vo_eu_2019_6/34","https://www.ebay.de/itm/353430572704"]},
       "type": "medication",
       "name": {"en": "Kanamycin (Kanaplex)", "hu": "Kanamicin (Kanaplex)"},
       "aka": ["Seachem Kanaplex", "kanamycin sulfate"],
@@ -455,6 +463,7 @@
     },
     {
       "id": "nitrofurazone",
+      "availability": {"status":"not-available","hu":"A Nitrofuracin Green Powder amerikai termék; nitrofurán-antibiotikumként az EU-ban vényköteles lenne, a nitrofuránok pedig élelmiszer-termelő állatokban kifejezetten tiltott anyagok (37/2010/EU rendelet 2. táblázat). EU-s forgalmazását nem találtuk. Alternatívát csak állatorvos rendelhet (engedélyezett állatgyógyászati antibiotikum).","en":"Nitrofuracin Green Powder is a US product; as a nitrofuran antibiotic it would be prescription-only in the EU, and nitrofurans are explicitly prohibited substances in food-producing animals (Reg. (EU) 37/2010, Table 2). No EU retail listing was found. Alternatives only via a vet (an authorised veterinary antibiotic).","sources":["https://ages.at/en/human/nutrition-food/residues-contaminants-from-a-to-z/nitrofurans","https://www.seafish.org/trade-and-regulation/regulation-in-aquaculture/legislation-on-veterinary-residues-in-aquaculture/banned-substances/","https://gesetze.legal/eu/vo_eu_2019_6/34"]},
       "type": "medication",
       "name": {"en": "Nitrofurazone", "hu": "Nitrofurazon"},
       "aka": ["Nitrofuracin Green Powder (with methylene blue)", "NFG"],
@@ -483,6 +492,7 @@
     },
     {
       "id": "erythromycin",
+      "availability": {"status":"prescription","hu":"A Maracyn (eritromicin) amerikai antibiotikumos termék, az EU-ban állatorvosi vényköteles kategóriába esne; EU-s akvarisztikai forgalmazását nem találtuk (not verified). Recept nélküli, díszhalra engedélyezett eritromicin-készítményről nincs adatunk; alternatívát állatorvos rendelhet.","en":"Maracyn (erythromycin) is a US antibiotic product and would be prescription-only in the EU; no EU aquarium-retail listing was found (not verified). No non-prescription erythromycin product authorised for ornamental fish is known to us; a vet can prescribe an alternative.","sources":["https://gesetze.legal/eu/vo_eu_2019_6/34"]},
       "type": "medication",
       "name": {"en": "Erythromycin (Maracyn)", "hu": "Eritromicin (Maracyn)"},
       "aka": ["Maracyn"],
@@ -504,6 +514,7 @@
     },
     {
       "id": "minocycline",
+      "availability": {"status":"prescription","hu":"A Maracyn 2 (minociklin) amerikai antibiotikumos termék, az EU-ban állatorvosi vényköteles kategóriába esne; EU-s forgalmazását nem találtuk (not verified). Halra csak állatorvos rendelhet antibiotikumot.","en":"Maracyn 2 (minocycline) is a US antibiotic product and would be prescription-only in the EU; no EU distribution was found (not verified). Antibiotics for fish only via a vet.","sources":["https://gesetze.legal/eu/vo_eu_2019_6/34"]},
       "type": "medication",
       "name": {"en": "Minocycline (Maracyn 2)", "hu": "Minociklin (Maracyn 2)"},
       "aka": ["Maracyn 2"],
@@ -523,13 +534,14 @@
     },
     {
       "id": "acriflavine",
+      "availability": {"status":"available","hu":"Az EU-ban több engedélyezett, recept nélküli díszhal-gyógyszer tartalmaz akriflavint (akriflavinium-kloridot) kombinációban, pl. az Aquarium Münster FAUNAMOR, a TetraMedica FungiStop plus és ContraIck plus, valamint az OASE AntiPilz (utóbbi rezet is tartalmaz, csak Németországban engedélyezett). A rokon etakridint tartalmazza az eSHa Exit. Az NT Labs akriflavin-termékei brit forgalmúak, a Ruby Reef Rally EU-s elérhetősége nem ellenőrzött, és a magyarországi bolti kínálatot sem sikerült ellenőrizni.","en":"Several EU-authorised, non-prescription ornamental-fish medicines contain acriflavine (acriflavinium chloride) in combination, e.g. Aquarium Münster FAUNAMOR, TetraMedica FungiStop plus and ContraIck plus, and OASE AntiPilz (which also contains copper and is authorised only in Germany). The related ethacridine is in eSHa Exit. NT Labs acriflavine products are UK-market items, EU availability of Ruby Reef Rally was not verified, and Hungarian retail stock was not verified.","sources":["https://medicines.health.europa.eu/veterinary/en/700000172912","https://medicines.health.europa.eu/veterinary/en/700000212316","https://medicines.health.europa.eu/veterinary/en/700000031425","https://medicines.health.europa.eu/veterinary/hu/700000174691","https://www.gardensite.co.uk/aquatics/nt-labs-acriflavin-koi-care-range.htm"]},
       "type": "medication",
       "name": {"en": "Acriflavine (Ruby Reef Rally)", "hu": "Akriflavin (Ruby Reef Rally)"},
       "aka": ["Ruby Reef Rally Pro", "NT Labs Marine Anti-Bacterial"],
       "source": "https://humble.fish/community/index.php?threads/acriflavine.14/",
       "summary": {
         "en": "An antiseptic bath for mild bacterial infections and open wounds that also gives temporary relief from velvet and Brooklynella; experimental against Uronema. Rally Pro also contains aminoacridine and a little formalin.",
-        "hu": "Antiszeptikus fürdő enyhe bakteriális fertőzésekre és nyílt sebekre, amely átmeneti enyhülést ad velvet és Brooklynella esetén is; Uronema ellen kísérleti. A Rally Pro aminoakridint és kevés formalint is tartalmaz."
+        "hu": "Antiszeptikus fürdő enyhe bakteriális fertőzésekre és nyílt sebekre, amely átmeneti enyhülést ad bársonybetegség és Brooklynella esetén is; Uronema ellen kísérleti. A Rally Pro aminoakridint és kevés formalint is tartalmaz."
       },
       "treats": ["bacterial-infections", "marine-velvet", "brooklynella", "uronema"],
       "dosage": {
@@ -551,7 +563,7 @@
           "Készíts friss sós vizet friss gyógyszerrel 3 ml/gallon dózisban, fűtve és erősen levegőztetve.",
           "Fürdesd a halat 90 percig.",
           "Minden fürdő után tedd QT-be (ideális, ha mindig új QT-be).",
-          "Velvet/Brooklynella esetén folytasd tartós QT-kezeléssel."
+          "Bársonybetegség/Brooklynella esetén folytasd tartós QT-kezeléssel."
         ]
       },
       "warnings": {
@@ -577,6 +589,7 @@
     },
     {
       "id": "methylene-blue",
+      "availability": {"status":"available","hu":"A metilénkék az EU-ban könnyen beszerezhető: akvarisztikai termékként (pl. a cseh Dajana Methylen Blue) és 1%-os oldatként online gyógyszertárakban, vegyszerként is. Kombinációban több engedélyezett díszhal-gyógyszerben szerepel (pl. eSHa Exit, FAUNAMOR). Recept nem kell; magyarországi bolti kínálatot nem ellenőriztünk.","en":"Methylene blue is easy to obtain in the EU: as an aquarium product (e.g. Czech Dajana Methylen Blue) and as a 1% solution from online pharmacies or chemical suppliers. It is also a component of several authorised ornamental-fish medicines (e.g. eSHa Exit, FAUNAMOR). No prescription needed; Hungarian retail stock was not checked.","sources":["https://m.rajenpets.cz/en/dajana-methylen-blue-100ml-p5217/","https://www.shop-apotheke.com/tiergesundheit/upmPMRP9U/aquarius-pro-life-methylenblau-1-reinst-usp-pharma-grade-ph-eur.htm","https://medicines.health.europa.eu/veterinary/hu/700000174691"]},
       "type": "medication",
       "name": {"en": "Methylene blue", "hu": "Metilénkék"},
       "aka": ["MB", "Nitrofuracin Green Powder (contains MB)"],
@@ -588,7 +601,7 @@
       "treats": ["bacterial-infections"],
       "dosage": {
         "en": "2.303% solution. 30-minute bath (6 ppm): 1 ml per gallon or 1 teaspoon per 5 gallons. QT (3 ppm): 0.5 ml per gallon or 1 teaspoon per 10 gallons every 48 hours, water change before each dose. In a freshwater dip optionally 0.5 ml per gallon.",
-        "hu": "2,303%-os oldat. 30 perces fürdő (6 ppm): 1 ml/gallon vagy 1 teáskanál / 5 gallon. QT (3 ppm): 0,5 ml/gallon vagy 1 teáskanál / 10 gallon 48 óránként, minden adag előtt vízcsere. Édesvizes merítésnél opcionálisan 0,5 ml/gallon."
+        "hu": "2,303%-os oldat. 30 perces fürdő (6 ppm): 1 ml/gallon vagy 1 teáskanál / 5 gallon. QT (3 ppm): 0,5 ml/gallon vagy 1 teáskanál / 10 gallon 48 óránként, minden adag előtt vízcsere. Édesvízi fürdőnél opcionálisan 0,5 ml/gallon."
       },
       "duration": {
         "en": "Bath 30 minutes; QT treatment for 10 days.",
@@ -617,13 +630,14 @@
     },
     {
       "id": "hydrogen-peroxide-bath",
+      "availability": {"status":"available","hu":"A 3%-os hidrogén-peroxid oldat Magyarországon olcsón, recept nélkül kapható gyógyszertárban, drogériában és webshopban, gyógyszerkönyvi minőségben is. A 2019/1148/EU robbanóanyag-prekurzor rendelet csak a 12% feletti töménységet korlátozza a lakosság számára, a 3% erre nem vonatkozik. Kizárólag adalékmentes (stabilizált, illatmentes) oldatot érdemes használni.","en":"3% hydrogen peroxide is sold cheaply and without prescription in Hungarian pharmacies, drugstores and webshops, including pharmacopoeia grade. The EU explosives-precursors regulation 2019/1148 only restricts concentrations above 12% for the general public, so 3% is unaffected. Use only plain (stabilised, unscented) solution.","sources":["https://www.penzcentrum.hu/otthon/20201031/mi-a-hidrogen-peroxid-es-mire-jo-hol-kaphato-hidrogen-peroxid-hidrogen-peroxid-ar-1104886","https://www.argep.hu/trend/HIDR/Hidrogen.html?mehr=14","https://eur-lex.europa.eu/EN/legal-content/summary/marketing-and-use-of-explosive-precursors-from-31-january-2021.html"]},
       "type": "procedure",
       "name": {"en": "Hydrogen peroxide (H2O2) bath", "hu": "Hidrogén-peroxidos (H2O2) fürdő"},
       "aka": ["H2O2 bath", "peroxide dip"],
       "source": "https://humble.fish/community/index.php?threads/hydrogen-peroxide.21/",
       "summary": {
         "en": "A 30-minute bath in 3% hydrogen peroxide diluted to about 150 ppm that gives temporary relief from velvet and Brooklynella. It is used as a pre-QT bath and as the chemical step in Hybrid TTM; follow up with QT treatment.",
-        "hu": "30 perces fürdő kb. 150 ppm-re hígított 3%-os hidrogén-peroxidban, amely átmeneti enyhülést ad velvet és Brooklynella esetén. QT előtti fürdőként és a Hybrid TTM vegyszeres lépéseként használják; utána QT-kezelés szükséges."
+        "hu": "30 perces fürdő kb. 150 ppm-re hígított 3%-os hidrogén-peroxidban, amely átmeneti enyhülést ad bársonybetegség és Brooklynella esetén. QT előtti fürdőként és a Hybrid TTM vegyszeres lépéseként használják; utána QT-kezelés szükséges."
       },
       "treats": ["marine-velvet", "brooklynella", "flukes", "uronema"],
       "dosage": {
@@ -675,7 +689,7 @@
       "source": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/",
       "summary": {
         "en": "An experimental, use-at-your-own-risk schedule of frequent 3% H2O2 doses into the display tank to target free-swimming parasite stages (ich/velvet type) during an outbreak. Not a substitute for quarantine.",
-        "hu": "Kísérleti, saját felelősségre alkalmazható módszer: gyakori 3%-os H2O2 adagolás a display tankba a szabadon úszó parazitastádiumok (ich/velvet típus) ellen kitöréskor. Nem helyettesíti a karantént."
+        "hu": "Kísérleti, saját felelősségre alkalmazható módszer: gyakori 3%-os H2O2 adagolás a display tankba a szabadon úszó parazitastádiumok (darakór/bársonybetegség típus) ellen kitöréskor. Nem helyettesíti a karantént."
       },
       "treats": ["marine-ich", "marine-velvet"],
       "dosage": {
@@ -731,7 +745,7 @@
       "source": "https://humble.fish/community/index.php?threads/tank-transfer-method.26/",
       "summary": {
         "en": "A chemical-free method that eliminates marine ich by moving the fish to a clean, sterile tank every 72 hours or less, before encysted tomonts can release new theronts. It treats ich only - not velvet, Brooklynella, flukes or other diseases.",
-        "hu": "Vegyszermentes módszer, amely a tengeri ich-et úgy szünteti meg, hogy a halat legfeljebb 72 óránként tiszta, steril tankba teszik át, mielőtt a betokozódott tomontok új theront-okat bocsátanának ki. Csak az ich-et kezeli - a velvetet, Brooklynellát, flukes-t és más betegségeket nem."
+        "hu": "Vegyszermentes módszer, amely a tengeri darakórt úgy szünteti meg, hogy a halat legfeljebb 72 óránként tiszta, steril tankba teszik át, mielőtt a betokozódott tomontok új theront-okat bocsátanának ki. Csak a darakórt kezeli - a bársonybetegséget, Brooklynellát, flukes-t és más betegségeket nem."
       },
       "treats": ["marine-ich"],
       "dosage": {"en": null, "hu": null},
@@ -760,7 +774,7 @@
           "Minden áthelyezés után azonnal fertőtlenítsd a régi tankot és minden eszközét hipóval vagy ecettel, öblítsd ki alaposan, és hagyd teljesen megszáradni (ventilátor segít).",
           "7. nap: újabb áthelyezés tiszta, száraz, újratöltött tankba.",
           "10. nap: újabb áthelyezés.",
-          "13. nap: utolsó áthelyezés - a hal ekkor már ich-mentes; tedd tiszta QT/megfigyelő tankba vagy a display-be.",
+          "13. nap: utolsó áthelyezés - a hal ekkor már darakórmentes; tedd tiszta QT/megfigyelő tankba vagy a display-be.",
           "Két áthelyezés között soha ne teljen el 72 óránál több (a napszak mindegy). Szükség esetén az ammóniát Amquellel vagy Prime-mal kezeld, mivel nincs gyógyszer a vízben.",
           "Opcionálisan: TTM alatt prazikvantel vagy fenbendazol adható 6 nap különbséggel; bakteriális fertőzés esetén antibiotikum."
         ]
@@ -773,7 +787,7 @@
           "Can be costly if using all new saltwater; netting every 3 days is time-consuming and somewhat stressful for fish."
         ],
         "hu": [
-          "Csak a tengeri ich-et kezeli - a velvetet, Brooklynellát, flukes-t és más betegségeket nem.",
+          "Csak a tengeri darakórt kezeli - a bársonybetegséget, Brooklynellát, flukes-t és más betegségeket nem.",
           "Két áthelyezés között soha ne teljen el 72 óránál több; összesen legalább 12 nap és legalább négy áthelyezés (gyakoribb áthelyezésnél több).",
           "Az ecet a száradással sterilizál, a hipó a száradással semlegesítődik - a tankoknak újrahasználat előtt teljesen száraznak kell lenniük.",
           "Drága lehet, ha mindig új sós vizet használsz; a háromnaponkénti befogás időigényes és némileg stresszes a halaknak."
@@ -781,12 +795,12 @@
       },
       "reef_safe": null,
       "images": [
-        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of the three TTM versions (Standard, Velvet, Hybrid)", "hu": "A három TTM változat (Standard, Velvet, Hybrid) összehasonlító táblázata"}},
+        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of the three TTM versions (Standard, Velvet, Hybrid)", "hu": "A három TTM változat (Standard, bársonybetegség, Hybrid) összehasonlító táblázata"}},
         {"url": "https://humble.fish/community/attachments/19817318939533p-jpg.98897/", "caption": {"en": "Plastic colander used instead of a net for catching fish", "hu": "Háló helyett használt műanyag szűrőtál a halak befogásához"}}
       ],
       "related_links": [
         {"title": "Tank Transfer Method (all versions)", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method-all-versions.6800/"},
-        {"title": "Velvet TTM", "url": "https://humble.fish/community/index.php?threads/velvet-ttm.14912/"},
+        {"title": "Bársonybetegség-TTM", "url": "https://humble.fish/community/index.php?threads/velvet-ttm.14912/"},
         {"title": "Hybrid TTM", "url": "https://humble.fish/community/index.php?threads/hybrid-ttm-to-treat-all-parasites.87/"},
         {"title": "Amquel", "url": "https://www.kordon.com/kordon/products/water-conditioner/amquel"},
         {"title": "Seachem Prime", "url": "https://www.seachem.com/prime.php"}
@@ -795,12 +809,12 @@
     {
       "id": "velvet-ttm",
       "type": "method",
-      "name": {"en": "Velvet TTM", "hu": "Velvet TTM"},
+      "name": {"en": "Bársonybetegség-TTM", "hu": "Bársonybetegség-TTM"},
       "aka": ["36-hour TTM"],
       "source": "https://humble.fish/community/index.php?threads/velvet-ttm.14912/",
       "summary": {
         "en": "A chemical-free TTM schedule with 36-hour transfers at the start, designed to eliminate both marine ich and marine velvet. Velvet tomonts can release infective dinospores about 48 hours after dropping off, so early transfers must come every 36 hours.",
-        "hu": "Vegyszermentes TTM ütemezés, az elején 36 órás áthelyezésekkel, amely a tengeri ich-et és a tengeri velvetet is megszünteti. A velvet tomontjai a leválás után kb. 48 órával bocsátanak ki fertőző rajzókat, ezért az elején 36 óránként kell áthelyezni."
+        "hu": "Vegyszermentes TTM ütemezés, az elején 36 órás áthelyezésekkel, amely a tengeri darakórt és a tengeri bársonybetegséget is megszünteti. A bársonybetegség tomontjai a leválás után kb. 48 órával bocsátanak ki fertőző rajzókat, ezért az elején 36 óránként kell áthelyezni."
       },
       "treats": ["marine-ich", "marine-velvet"],
       "dosage": {"en": null, "hu": null},
@@ -836,8 +850,8 @@
           "Only return to 71-72 hour transfers near the end, when only ich may remain."
         ],
         "hu": [
-          "A velvet trofontjai akár 96 óráig is a halon maradhatnak, ezért kell több 36 órás áthelyezés.",
-          "Csak a végén térj vissza a 71-72 órás áthelyezésekre, amikor már csak ich maradhat."
+          "A bársonybetegség trofontjai akár 96 óráig is a halon maradhatnak, ezért kell több 36 órás áthelyezés.",
+          "Csak a végén térj vissza a 71-72 órás áthelyezésekre, amikor már csak darakór maradhat."
         ]
       },
       "reef_safe": null,
@@ -903,8 +917,8 @@
           "The author describes the method as theoretical and in need of more study."
         ],
         "hu": [
-          "A fürdők nem ölik meg az ich trofontjait (valószínűleg nem hatolnak át a bőrön) - az ich miatt a 72 órás áthelyezések továbbra is szükségesek.",
-          "A fürdők fő célpontja a velvet és a Brooklynella; flukes és Uronema csak esetleg, enyhe fertőzésnél.",
+          "A fürdők nem ölik meg a darakór trofontjait (valószínűleg nem hatolnak át a bőrön) - a darakór miatt a 72 órás áthelyezések továbbra is szükségesek.",
+          "A fürdők fő célpontja a bársonybetegség és a Brooklynella; flukes és Uronema csak esetleg, enyhe fertőzésnél.",
           "Két áthelyezés között soha ne teljen el 72 óránál több; a két fürdő között pontosan 6 nap legyen.",
           "Ne használj H2O2-t és formalint nyílt sebű vagy láthatóan fertőzött halon; a H2O2 lassíthatja a gyógyulást és ronthatja a hegesedést.",
           "Használat előtt ellenőrizd a faj H2O2-tűrését.",
@@ -914,7 +928,7 @@
       },
       "reef_safe": null,
       "images": [
-        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of Standard, Velvet and Hybrid TTM", "hu": "A Standard, Velvet és Hybrid TTM összehasonlító táblázata"}}
+        {"url": "https://humble.fish/community/attachments/screen-shot-2021-10-21-at-3-55-42-pm-png.44702/", "caption": {"en": "Comparison table of Standard, Velvet and Hybrid TTM", "hu": "A Standard, bársonybetegség és Hybrid TTM összehasonlító táblázata"}}
       ],
       "related_links": [
         {"title": "Tank Transfer Method", "url": "https://humble.fish/community/index.php?threads/tank-transfer-method.26/"},
@@ -934,7 +948,7 @@
       "source": "https://humble.fish/community/index.php?threads/hyposalinity.22/",
       "summary": {
         "en": "A chemical-free treatment that holds salinity at SG 1.009 to kill marine ich and flukes by osmotic shock. Gentle on most fish but difficult to execute correctly; it does not eliminate velvet, Brooklynella or Uronema.",
-        "hu": "Vegyszermentes kezelés, amely a sótartalmat SG 1,009-en tartva ozmotikus sokkal pusztítja a tengeri ich-et és a flukes-t. A legtöbb halnak kíméletes, de nehéz helyesen kivitelezni; a velvetet, Brooklynellát és Uronemát nem szünteti meg."
+        "hu": "Vegyszermentes kezelés, amely a sótartalmat SG 1,009-en tartva ozmotikus sokkal pusztítja a tengeri darakórt és a flukes-t. A legtöbb halnak kíméletes, de nehéz helyesen kivitelezni; a bársonybetegséget, Brooklynellát és Uronemát nem szünteti meg."
       },
       "treats": ["marine-ich", "flukes"],
       "dosage": {
@@ -943,7 +957,7 @@
       },
       "duration": {
         "en": "Ich: 30 consecutive days at 1.009. Flukes: at least 10 consecutive days (some species up to 35 days). Lower to 1.009 over 48 hours.",
-        "hu": "Ich: 30 egymást követő nap 1,009-en. Flukes: legalább 10 egymást követő nap (egyes fajoknál akár 35 nap). Az 1,009-re csökkentés 48 óra alatt."
+        "hu": "Darakór: 30 egymást követő nap 1,009-en. Flukes: legalább 10 egymást követő nap (egyes fajoknál akár 35 nap). Az 1,009-re csökkentés 48 óra alatt."
       },
       "steps": {
         "en": [
@@ -955,10 +969,10 @@
           "If treating a display tank, first remove all corals and inverts."
         ],
         "hu": [
-          "Győződj meg róla, hogy a parazita ich vagy flukes.",
+          "Győződj meg róla, hogy a parazita darakór vagy flukes.",
           "Tedd a halat a forrástankkal egyező SG-jű és hőmérsékletű QT-be.",
           "48 óra alatt fokozatosan csökkentsd az SG-t 1,009-re, tökéletesen kalibrált refraktométerrel vagy más pontos műszerrel mérve; automata utántöltő erősen ajánlott.",
-          "Tartsd állandóan 1,009-en (ich: 30 nap, flukes: legalább 10 nap); ha az SG akár kicsit is emelkedik, az óra újraindul.",
+          "Tartsd állandóan 1,009-en (darakór: 30 nap, flukes: legalább 10 nap); ha az SG akár kicsit is emelkedik, az óra újraindul.",
           "Gyakran mérd a pH-t, és kis adagokban emeld kereskedelmi pufferrel vagy sütőben kiszárított szódabikarbónával (150°C/300°F, 1 óra).",
           "Display tank kezelésekor előbb távolíts el minden korallt és gerinctelent."
         ]
@@ -971,8 +985,8 @@
           "Not compatible with corals and inverts; may kill some nitrifying bacteria."
         ],
         "hu": [
-          "Nehéz helyesen kivitelezni; léteznek hypo-rezisztens ich törzsek (Yambot 2003).",
-          "A velvetet, Brooklynellát és Uronemát gyakran csak visszaszorítja - ez a sótartalom visszaemelése után derül ki.",
+          "Nehéz helyesen kivitelezni; léteznek hypo-rezisztens darakór törzsek (Yambot 2003).",
+          "A bársonybetegséget, Brooklynellát és Uronemát gyakran csak visszaszorítja - ez a sótartalom visszaemelése után derül ki.",
           "Lehetséges hypo-érzékeny halak: horgászhalak, anthias, dragonet (Synchiropus), békahalak, gébek, skorpióhalak (lionfish), csikóhalak, ajakoshalak.",
           "Korallokkal és gerinctelenekkel nem kompatibilis; elpusztíthat nitrifikáló baktériumokat."
         ]
@@ -986,12 +1000,12 @@
     {
       "id": "freshwater-dip",
       "type": "procedure",
-      "name": {"en": "Freshwater dip", "hu": "Édesvizes merítés (freshwater dip)"},
+      "name": {"en": "Freshwater dip", "hu": "Édesvízi fürdő (freshwater fürdő)"},
       "aka": ["FW dip"],
       "source": "https://humble.fish/community/index.php?threads/freshwater-dip.20/",
       "summary": {
         "en": "A short osmotic-shock dip in pH-adjusted freshwater that gives temporary relief from some parasites and can dislodge flukes, turbellarians and parasitic crustaceans. It is chemical-free, buys time and helps confirm skin flukes, but is not a cure.",
-        "hu": "Rövid, ozmotikus sokkot okozó merítés pH-ra beállított édesvízben, amely átmeneti enyhülést ad egyes parazitáknál, és leválaszthatja a flukes-t, turbellariákat és élősködő rákokat. Vegyszermentes, időt nyer és segít a bőr-flukes megerősítésében, de nem gyógyít."
+        "hu": "Rövid, ozmotikus sokkot okozó fürdő pH-ra beállított édesvízben, amely átmeneti enyhülést ad egyes parazitáknál, és leválaszthatja a flukes-t, turbellariákat és élősködő rákokat. Vegyszermentes, időt nyer és segít a bőr-flukes megerősítésében, de nem gyógyít."
       },
       "treats": ["marine-velvet", "brooklynella", "uronema", "flukes", "black-ich"],
       "dosage": {
@@ -1000,7 +1014,7 @@
       },
       "duration": {
         "en": "No more than 5 minutes; repeat dips allowed with 24-48 hours recovery between them.",
-        "hu": "Legfeljebb 5 perc; ismételhető, a merítések között 24-48 óra pihenővel."
+        "hu": "Legfeljebb 5 perc; ismételhető, a fürdők között 24-48 óra pihenővel."
       },
       "steps": {
         "en": [
@@ -1018,9 +1032,9 @@
           "Használj kevés sós vízzel kevert RO/RODI vizet (a pontos pH-méréshez), tiszta édesvizes akvárium vizét vagy klórtalanított csapvizet.",
           "Emeld a pH-t kb. 8,0-ra pufferrel vagy kiszárított szódabikarbónával (150°C/300°F, 1 óra), kis adagokban, mérve.",
           "Tölts meg egy sötét (ideálisan fekete) vödröt, és fűtsd a hal forrásvizének hőmérsékletére.",
-          "Legalább 30 percig erősen levegőztesd előtte; a merítés alatt csökkentsd vagy állítsd le a levegőztetést.",
+          "Legalább 30 percig erősen levegőztesd előtte; a fürdő alatt csökkentsd vagy állítsd le a levegőztetést.",
           "Opcionálisan adj hozzá metilénkéket (kb. 0,5 ml/gallon).",
-          "Tedd be a halat, és figyeld szorosan; a kezdeti pánik normális, a tangok gyakran 'halottnak tettetik magukat'. A kopoltyú erősen dolgozzon, a hal maradjon egyenesen.",
+          "Tedd be a halat, és figyeld szorosan; a kezdeti pánik normális, a doktorhalak gyakran 'halottnak tettetik magukat'. A kopoltyú erősen dolgozzon, a hal maradjon egyenesen.",
           "Vedd ki a halat, ha a légzése lelassul, vagy terelésre (érintés nélkül) sem egyenesedik fel; soha ne lépd túl az 5 percet.",
           "Keress fehér, szezámmag méretű flukes-t az alján zseblámpával és nagyítóval; pipettával vegyél mintát a felszínről, középről és az aljáról mikroszkópos vizsgálathoz.",
           "Utána kezeld rendesen QT-ben."
@@ -1035,9 +1049,9 @@
         ],
         "hu": [
           "Nem végleges megoldás - utána QT-kezelés kell.",
-          "Ne meríts gyenge vagy haldokló halat.",
+          "Ne fürdess gyenge vagy haldokló halat.",
           "Ha utána a hal elveszti az egyensúlyát, kesztyűvel tartsd egyenesen egy alacsony fokozatú áramoltató előtt.",
-          "Az apró kopoltyú-flukes a merítés alatt és után sem feltétlenül látható."
+          "Az apró kopoltyú-flukes a fürdő alatt és után sem feltétlenül látható."
         ]
       },
       "reef_safe": null,
@@ -1055,7 +1069,7 @@
       "source": "https://humble.fish/community/index.php?threads/new-ich-fallow-period.1824/",
       "summary": {
         "en": "Leaving the display tank without any fish so remaining ich parasites starve because theronts cannot find a host. All fish are removed and treated in quarantine meanwhile.",
-        "hu": "A display tankot halak nélkül hagyják, így a megmaradt ich paraziták elpusztulnak, mert a theront-ok nem találnak gazdát. Közben minden halat kivesznek és karanténban kezelnek."
+        "hu": "A display tankot halak nélkül hagyják, így a megmaradt darakór paraziták elpusztulnak, mert a theront-ok nem találnak gazdát. Közben minden halat kivesznek és karanténban kezelnek."
       },
       "treats": ["marine-ich"],
       "dosage": {"en": null, "hu": null},
@@ -1085,7 +1099,7 @@
           "Tomonts can attach to some corals/inverts - see coral/invert quarantine time frames."
         ],
         "hu": [
-          "Alacsonyabb hőmérséklet lassítja, magasabb gyorsítja az ich életciklusát. A törzsek eltérően reagálhatnak.",
+          "Alacsonyabb hőmérséklet lassítja, magasabb gyorsítja a darakór életciklusát. A törzsek eltérően reagálhatnak.",
           "Az oxigénszegény/anaerob zónába jutó protomont nyugalmi állapotba kerülhet - valószínűleg ez a fallow kudarcának fő oka.",
           "A 30°C nem biztos, hogy biztonságos a koralloknak és gerincteleneknek.",
           "A tomontok egyes korallokra/gerinctelenekre is rátapadhatnak - lásd a korall/gerinctelen karantén időtartamokat."
@@ -1106,7 +1120,7 @@
       "source": "https://humble.fish/community/index.php?threads/salvage-protocol-for-treating-very-sick-fish.465/",
       "summary": {
         "en": "Supportive measures for a very sick fish (typically ich or velvet) that reduce metabolic demand, stress and immune-response damage to keep it alive until the parasite can be eradicated. Recommendations to be adjusted to the situation.",
-        "hu": "Támogató intézkedések nagyon beteg halnál (jellemzően ich vagy velvet), amelyek csökkentik az anyagcsere-igényt, a stresszt és az immunválasz okozta károsodást, hogy a hal életben maradjon a parazita felszámolásáig. Az ajánlások a helyzethez igazítandók."
+        "hu": "Támogató intézkedések nagyon beteg halnál (jellemzően darakór vagy bársonybetegség), amelyek csökkentik az anyagcsere-igényt, a stresszt és az immunválasz okozta károsodást, hogy a hal életben maradjon a parazita felszámolásáig. Az ajánlások a helyzethez igazítandók."
       },
       "treats": ["marine-ich", "marine-velvet"],
       "dosage": {
@@ -1196,6 +1210,7 @@
     },
     {
       "id": "vitamins-probiotics",
+      "availability": {"status":"available","hu":"A lengyel Aquaforest Fish V vitaminkészítmény EU-s tengeri akvarisztikai webshopokban széles körben kapható, recept nem kell. A Selcon (American Marine), a Zoecon (Kent) és a Vita-Chem (Boyd) amerikai termékek, EU-s webshopban nem találtuk őket (not verified); a Selcon és a Zoecon zsírsav-kiegészítő, nem vitamin. A béta-glükán és a fokhagymás táplálékkiegészítők EU-s elérhetőségét konkrét termékszinten nem ellenőriztük.","en":"The Polish Aquaforest Fish V vitamin supplement is widely sold in EU marine aquarium webshops, no prescription needed. Selcon (American Marine), Zoecon (Kent) and Vita-Chem (Boyd) are US products not found in EU webshops (not verified); Selcon and Zoecon are fatty-acid supplements, not vitamins. EU availability of specific beta-glucan and garlic supplements was not verified at product level.","sources":["https://www.zoanthus.fr/en/fish-tank-food/100-aquaforest-fish-v-50ml-vitamin-supplement-for-fish-5902026731539.html","https://www.recifart.com/en/aquaforest/2889-fish-v-50ml-aquaforest-aquaforest.html","https://forums.reefcentral.com/threads/vitamins.803043"]},
       "type": "medication",
       "name": {"en": "Vitamins, probiotics and herbal remedies", "hu": "Vitaminok, probiotikumok és gyógynövényes szerek"},
       "aka": ["Selcon", "Zoecon", "Vita-chem", "Aquaforest Fish V", "beta-glucan", "garlic", "LRS Foods"],
@@ -1378,7 +1393,7 @@
       "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
       "summary": {
         "en": "Humblefish's chemoprophylaxis protocol: chelated copper (Copper Power) against ich and velvet plus metronidazole or formalin against Brooklynella and Uronema, followed by observation and deworming with praziquantel.",
-        "hu": "Humblefish megelőző gyógyszeres protokollja: kelátos réz (Copper Power) ich és velvet ellen, plusz metronidazol vagy formalin Brooklynella és Uronema ellen, ezt követi megfigyelés és prazikvanteles féregtelenítés."
+        "hu": "Humblefish megelőző gyógyszeres protokollja: kelátos réz (Copper Power) darakór és bársonybetegség ellen, plusz metronidazol vagy formalin Brooklynella és Uronema ellen, ezt követi megfigyelés és prazikvanteles féregtelenítés."
       },
       "steps": {
         "en": [
@@ -1390,7 +1405,7 @@
           "Move to the display directly without drip acclimation only if temperature and salinity match exactly."
         ],
         "hu": [
-          "Tedd a halat közvetlenül 2,0 ppm Copper Powerbe; 24-48 óra alatt emeld a terápiás 2,2-2,3 ppm-re, Hanna HI702 checkerrel ellenőrizve (ich és velvet ellen).",
+          "Tedd a halat közvetlenül 2,0 ppm Copper Powerbe; 24-48 óra alatt emeld a terápiás 2,2-2,3 ppm-re, Hanna HI702 checkerrel ellenőrizve (darakór és bársonybetegség ellen).",
           "Ha a réz terápiás szinten van, adj hozzá EGYET: metronidazol 25 mg/gallon 48 óránként 10 napig (vagy Seachem Metroplex 2 adagolókanál / 10 gallon), vagy formalin 0,9 ml / 10 gallon 24 óránként 10 napig (erősebb opció az Uronemára hajlamos chromis és anthias halaknak).",
           "14 nap réz után tedd a halat megfigyelő tankba, vagy 30 nap után vízcserével és Cuprisorbbal/Polyfilterrel távolítsd el a rezet, és ugyanabban a tankban figyeld. Az akváriumok között kb. 3 m legyen.",
           "Figyeld 2-4 hétig (black molly segíthet a betegség kimutatásában).",
@@ -1427,7 +1442,7 @@
       "source": "https://humble.fish/community/threads/quarantine-strategies-protocols.15586/",
       "summary": {
         "en": "Alternatives to the copper-based protocol: chloroquine phosphate, fenbendazole, freshwater dips, hyposalinity and the tank transfer methods - Hybrid TTM being the author's favorite.",
-        "hu": "A rézalapú protokoll alternatívái: klorokin-foszfát, fenbendazol, édesvizes merítés, hyposalinity és a tankáthelyezéses módszerek - a szerző kedvence a Hybrid TTM."
+        "hu": "A rézalapú protokoll alternatívái: klorokin-foszfát, fenbendazol, édesvízi fürdő, hyposalinity és a tankáthelyezéses módszerek - a szerző kedvence a Hybrid TTM."
       },
       "steps": {
         "en": [
@@ -1438,11 +1453,11 @@
           "Tank Transfer Method (Standard, Velvet, Hybrid): Hybrid TTM is the author's favorite."
         ],
         "hu": [
-          "Klorokin-foszfát: 40-60 mg/gallon 14 napig, majd áthelyezés tiszta megfigyelő tankba (ich, velvet, Brooklynella, Uronema).",
+          "Klorokin-foszfát: 40-60 mg/gallon 14 napig, majd áthelyezés tiszta megfigyelő tankba (darakór, bársonybetegség, Brooklynella, Uronema).",
           "Fenbendazol: prazikvantel-rezisztens flukes és bélférgek ellen.",
-          "Édesvizes merítés: átmeneti enyhülés sok parazitánál és féregnél; segít a bőr-flukes megerősítésében.",
-          "Hyposalinity: csak ich és flukes ellen.",
-          "Tank Transfer Method (Standard, Velvet, Hybrid): a szerző kedvence a Hybrid TTM."
+          "Édesvízi fürdő: átmeneti enyhülés sok parazitánál és féregnél; segít a bőr-flukes megerősítésében.",
+          "Hyposalinity: csak darakór és flukes ellen.",
+          "Tank Transfer Method (Standard, bársonybetegség, Hybrid): a szerző kedvence a Hybrid TTM."
         ]
       },
       "equipment": {"en": [], "hu": []},

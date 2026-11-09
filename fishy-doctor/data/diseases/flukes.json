@@ -6,7 +6,7 @@
     "en": "Flukes (Monogeneans)",
     "hu": "Mételyek (Monogenea)"
   },
-  "scientific": "Monogenea (Ancyrocephalidae, Gyrodactylidae, Capsalidae incl. Neobenedenia spp.)",
+  "scientific": {"en": "Monogenea (Ancyrocephalidae, Gyrodactylidae, Capsalidae incl. Neobenedenia spp.)", "hu": "Monogenea (Ancyrocephalidae, Gyrodactylidae, Capsalidae, köztük Neobenedenia spp.)"},
   "category": "parasite-worm",
   "summary": {
     "en": "Flukes are parasitic flatworms (monogeneans) that attach to the skin, eyes or gills with hooks. Three families infect saltwater fish; the capsalid Neobenedenia is the most common in marine aquaria. They are nearly transparent, so diagnosis is usually made with a freshwater dip, and they are treated mainly with praziquantel, hyposalinity or formalin dips.",
@@ -77,9 +77,9 @@
       "Unlike Cryptocaryon (ich), flukes and their eggs are not reported to lie dormant, and they cannot infect invertebrates or corals."
     ],
     "hu": [
-      "Az ichtől eltérően a mételyek átlátszóak, általában nem látszanak fehér pöttyökként; egy 3-5 perces édesvízi fürdőben átlátszatlanná válnak és leválnak, ami megerősíti a diagnózist.",
+      "A darakórtól eltérően a mételyek átlátszóak, általában nem látszanak fehér pöttyökként; egy 3-5 perces édesvízi fürdőben átlátszatlanná válnak és leválnak, ami megerősíti a diagnózist.",
       "A Neobenedenia szabad szemmel is látható (főleg fürdetéskor); más fajokhoz mikroszkóp kell.",
-      "A Cryptocaryonnal (ich) ellentétben a mételyek és petéik nem ismert, hogy nyugalmi állapotban túlélnének, és gerincteleneket vagy korallokat nem fertőznek."
+      "A Cryptocaryonnal (darakór) ellentétben a mételyek és petéik nem ismert, hogy nyugalmi állapotban túlélnének, és gerincteleneket vagy korallokat nem fertőznek."
     ]
   },
   "life_cycle": {

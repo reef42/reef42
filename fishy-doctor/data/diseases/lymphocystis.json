@@ -3,7 +3,7 @@
   "source": "https://humble.fish/community/index.php?threads/lymphocystis.10/",
   "author": "Humblefish",
   "name": {"en": "Lymphocystis", "hu": "Lymphocystis"},
-  "scientific": "Lymphocystis disease virus (Iridoviridae)",
+  "scientific": {"en": "Lymphocystis disease virus (Iridoviridae)", "hu": "Lymphocystis-betegség vírusa (Iridoviridae)"},
   "category": "viral",
   "summary": {
     "en": "Lymphocystis is a virus that many fish carry for life, causing white, cauliflower-like wart growths, usually starting on the fins or spines. It can also grow internally, so symptoms are not always visible. There is no cure, but it is rarely fatal; vitamin-enriched food and pristine water help send it into remission.",
@@ -20,7 +20,7 @@
     "hu": [
       "Fehér, bézs vagy (ritkán) fekete, szemölcs- / karfiolszerű növedékek",
       "Általában az úszókon/tüskéken kezdődik, átterjedhet a testre",
-      "Kezdetben kicsi lehet (ichre hasonlít), majd megnő",
+      "Kezdetben kicsi lehet (darakórra hasonlít), majd megnő",
       "Belső szerveken, köztük a kopoltyún is nőhet",
       "A tünetek jönnek-mennek"
     ]
@@ -40,7 +40,7 @@
       "Growths are clustered, wart- or cauliflower-like, typically on fins/spines."
     ],
     "hu": [
-      "Kicsi korában ichre hasonlíthat, de a lymphocystis csomói tovább nőnek - ebből tudható, hogy nem ich.",
+      "Kicsi korában darakórra hasonlíthat, de a lymphocystis csomói tovább nőnek - ebből tudható, hogy nem darakór.",
       "A növedékek csoportosak, szemölcs- vagy karfiolszerűek, jellemzően az úszókon/tüskéken."
     ]
   },

@@ -19,7 +19,7 @@
     "n-spots": {
       "q": { "en": "What do the spots look like?", "hu": "Milyenek a pöttyök?" },
       "short": { "en": "Spot type?", "hu": "Milyen pöttyök?" },
-      "help": { "en": "Compare size and texture. Ich spots look like grains of salt; velvet looks like a fine dusting of powder.", "hu": "Hasonlítsd össze a méretet és a textúrát. Az ich pöttyei sószemcsékre hasonlítanak, a velvet finom porbevonatra." },
+      "help": { "en": "Compare size and texture. Ich spots look like grains of salt; velvet looks like a fine dusting of powder.", "hu": "Hasonlítsd össze a méretet és a textúrát. A darakór pöttyei sószemcsékre hasonlítanak, a bársonybetegség finom porbevonatra." },
       "options": [
         { "label": { "en": "White grains like salt or sugar", "hu": "Fehér, só- vagy cukorszemcse-szerű pöttyök" }, "hint": { "en": "Distinct, raised dots (~1 mm). They may come and go over a few days.", "hu": "Jól elkülönülő, kiemelkedő pöttyök (~1 mm). Néhány nap alatt eltűnhetnek és visszajöhetnek." }, "img": "marine-ich#1", "next": "r-ich" },
         { "label": { "en": "Very fine dust or powder", "hu": "Nagyon finom por, hintőpor-szerű bevonat" }, "hint": { "en": "Tiny dots, gold/white sheen, best seen with a flashlight from the side; often fast breathing", "hu": "Apró pöttyök, arany/fehér fény, oldalról zseblámpával látszik legjobban; gyakran gyors légzéssel" }, "img": "marine-velvet#2", "next": "r-velvet" },
@@ -29,15 +29,15 @@
     },
     "r-ich": {
       "result": ["marine-ich", "marine-velvet", "lymphocystis"],
-      "note": { "en": "Salt-grain spots are the classic sign of marine ich. If the fish is also breathing very fast or the spots look more like dust, treat it as velvet until proven otherwise – velvet kills much faster.", "hu": "A sószemcse-szerű pöttyök a tengeri ich klasszikus jelei. Ha a hal nagyon gyorsan is lélegzik, vagy a pöttyök inkább pornak tűnnek, kezeld velvetként, amíg ki nem zárható – a velvet sokkal gyorsabban öl." }
+      "note": { "en": "Salt-grain spots are the classic sign of marine ich. If the fish is also breathing very fast or the spots look more like dust, treat it as velvet until proven otherwise – velvet kills much faster.", "hu": "A sószemcse-szerű pöttyök a tengeri darakór klasszikus jelei. Ha a hal nagyon gyorsan is lélegzik, vagy a pöttyök inkább pornak tűnnek, kezeld bársonybetegségként, amíg ki nem zárható – a bársonybetegség sokkal gyorsabban öl." }
     },
     "r-velvet": {
       "result": ["marine-velvet", "marine-ich", "brooklynella"],
-      "note": { "en": "Velvet is an emergency: fish can die within 1–3 days of the first visible signs. Act immediately.", "hu": "A velvet vészhelyzet: a halak az első látható jelek után 1–3 napon belül elpusztulhatnak. Azonnal cselekedj." }
+      "note": { "en": "Velvet is an emergency: fish can die within 1–3 days of the first visible signs. Act immediately.", "hu": "A bársonybetegség vészhelyzet: a halak az első látható jelek után 1–3 napon belül elpusztulhatnak. Azonnal cselekedj." }
     },
     "r-blackich": {
       "result": ["black-ich", "clownfish-hypermelanization"],
-      "note": { "en": "Black ich is not ich at all – it is a small turbellarian worm, so ich medications will not help.", "hu": "A black ich valójában nem ich, hanem egy apró örvényféreg (turbellária), így az ich elleni gyógyszerek nem segítenek." }
+      "note": { "en": "Black ich is not ich at all – it is a small turbellarian worm, so ich medications will not help.", "hu": "A black ich valójában nem darakór, hanem egy apró örvényféreg (turbellária), így a darakór elleni gyógyszerek nem segítenek." }
     },
     "r-hypermel": {
       "result": ["clownfish-hypermelanization", "black-ich", "brooklynella"],
@@ -58,7 +58,7 @@
     },
     "r-tufts": {
       "result": ["bacterial-tufts-viral-nodules", "lymphocystis", "marine-ich"],
-      "note": { "en": "Ich spots fall off within a few days; tufts and nodules stay in place much longer.", "hu": "Az ich pöttyei néhány napon belül leesnek; a pamacsok és göbök sokkal tovább a helyükön maradnak." }
+      "note": { "en": "Ich spots fall off within a few days; tufts and nodules stay in place much longer.", "hu": "A darakór pöttyei néhány napon belül leesnek; a pamacsok és göbök sokkal tovább a helyükön maradnak." }
     },
 
     "n-skin": {
@@ -81,11 +81,11 @@
     },
     "r-dust": {
       "result": ["marine-velvet", "brooklynella", "trichodina"],
-      "note": { "en": "A dusty coating plus fast breathing should be treated as velvet – an emergency.", "hu": "Poros bevonat gyors légzéssel együtt velvetként kezelendő – vészhelyzet." }
+      "note": { "en": "A dusty coating plus fast breathing should be treated as velvet – an emergency.", "hu": "Poros bevonat gyors légzéssel együtt bársonybetegségként kezelendő – vészhelyzet." }
     },
     "r-fingerprint": {
       "result": ["tang-fingerprint", "hlle", "black-ich"],
-      "note": { "en": "Tang fingerprint disease is generally harmless and often disappears without treatment.", "hu": "A tang fingerprint betegség általában ártalmatlan, és gyakran kezelés nélkül is elmúlik." }
+      "note": { "en": "Tang fingerprint disease is generally harmless and often disappears without treatment.", "hu": "A doktorhal-ujjlenyomatbetegség általában ártalmatlan, és gyakran kezelés nélkül is elmúlik." }
     },
 
     "n-sores": {
@@ -151,7 +151,7 @@
     },
     "r-fastbreath": {
       "result": ["marine-velvet", "brooklynella", "flukes"],
-      "note": { "en": "Rapid breathing that gets worse quickly is a red flag for velvet (gills are attacked first). Also check water quality and oxygen.", "hu": "A gyorsan romló, szapora légzés velvetre utaló vészjel (először a kopoltyút támadja). Ellenőrizd a vízminőséget és az oxigénszintet is." }
+      "note": { "en": "Rapid breathing that gets worse quickly is a red flag for velvet (gills are attacked first). Also check water quality and oxygen.", "hu": "A gyorsan romló, szapora légzés bársonybetegségre utaló vészjel (először a kopoltyút támadja). Ellenőrizd a vízminőséget és az oxigénszintet is." }
     },
     "r-slowbreath": {
       "result": ["gill-hyperplasia", "flukes", "trichodina"],
@@ -171,7 +171,7 @@
     },
     "r-flash": {
       "result": ["marine-ich", "flukes", "marine-velvet", "trichodina"],
-      "note": { "en": "Flashing without visible signs is often an early stage of ich, velvet or flukes. Watch closely for spots and breathing changes.", "hu": "A látható jelek nélküli dörgölőzés gyakran az ich, a velvet vagy a mételyek korai szakasza. Figyeld a pöttyöket és a légzés változását." }
+      "note": { "en": "Flashing without visible signs is often an early stage of ich, velvet or flukes. Watch closely for spots and breathing changes.", "hu": "A látható jelek nélküli dörgölőzés gyakran a darakór, a bársonybetegség vagy a mételyek korai szakasza. Figyeld a pöttyöket és a légzés változását." }
     },
     "r-noteat": {
       "result": ["internal-problems", "flukes", "marine-velvet"],

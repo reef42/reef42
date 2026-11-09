@@ -6,7 +6,7 @@
     "en": "Bacterial Infections",
     "hu": "Bakteriális fertőzések"
   },
-  "scientific": "Various Gram-negative and Gram-positive bacteria (e.g. Vibrio, Streptococcus)",
+  "scientific": {"en": "Various Gram-negative and Gram-positive bacteria (e.g. Vibrio, Streptococcus)", "hu": "Különféle Gram-negatív és Gram-pozitív baktériumok (pl. Vibrio, Streptococcus)"},
   "category": "bacterial",
   "summary": {
     "en": "Harmful bacteria are present in most aquariums but are normally held off by a healthy immune system and good water quality. Infections usually start at a wound or bite mark and are often secondary to parasites, flukes, stress, poor water or poor nutrition. Gram-negative infections are the most common and more virulent in marine fish. Broad-spectrum antibiotics are the main treatment when supportive care is not enough.",

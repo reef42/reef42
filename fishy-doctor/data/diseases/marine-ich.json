@@ -4,13 +4,13 @@
   "author": "Humblefish",
   "name": {
     "en": "Marine Ich (White Spot Disease)",
-    "hu": "Tengeri ich (fehérpötty-betegség)"
+    "hu": "Tengeri darakór (fehérpötty-betegség)"
   },
   "scientific": "Cryptocaryon irritans",
   "category": "parasite-protozoan",
   "summary": {
     "en": "Marine ich is a protozoan parasite whose main sign is salt- or sugar-like white sprinkles on the body and fins; it can also hide in the gills. Its life cycle (trophont, protomont, tomont, theront) is well studied, and only the free-swimming theront stage is vulnerable to treatment. It is treated in a quarantine tank with copper, chloroquine phosphate, hyposalinity or the tank transfer method, while the display tank is left fallow for 6 weeks at 80.6 F.",
-    "hu": "A tengeri ich egy egysejtű parazita, fő tünete a testen és úszókon megjelenő só- vagy cukorszerű fehér pöttyök; a kopoltyúban rejtve is jelen lehet. Életciklusa (trophont, protomont, tomont, theront) jól ismert, és csak a szabadon úszó theront stádium érzékeny a kezelésre. Karanténtankban (QT) kezelik rézzel, klorokin-foszfáttal, hyposalinityvel vagy TTM-mel, a fő akváriumot (DT) pedig 6 hétig hal nélkül (fallow) hagyják 27 C/80.6 F-on."
+    "hu": "A tengeri darakór egy egysejtű parazita, fő tünete a testen és úszókon megjelenő só- vagy cukorszerű fehér pöttyök; a kopoltyúban rejtve is jelen lehet. Életciklusa (trophont, protomont, tomont, theront) jól ismert, és csak a szabadon úszó theront stádium érzékeny a kezelésre. Karanténtankban (QT) kezelik rézzel, klorokin-foszfáttal, hyposalinityvel vagy TTM-mel, a fő akváriumot (DT) pedig 6 hétig hal nélkül (fallow) hagyják 27 C/80.6 F-on."
   },
   "symptoms": {
     "en": [
@@ -52,8 +52,8 @@
     ],
     "hu": [
       "A fehér pöttyök a hal nyálkás válaszreakciói az egyes trophontok körül, nem maga a parazita; só- vagy cukorszemcsére hasonlítanak.",
-      "A lymphocystisszel ellentétben az ich pöttyei nem nőnek nagyobb, karfiolszerű csomókká.",
-      "A mételyekkel ellentétben az ich tomontjai sokáig túlélnek a halon kívül (20 C-on akár 72 napig szabadulhatnak ki theront-ok), ezért kell fallow időszak."
+      "A lymphocystisszel ellentétben a darakór pöttyei nem nőnek nagyobb, karfiolszerű csomókká.",
+      "A mételyekkel ellentétben a darakór tomontjai sokáig túlélnek a halon kívül (20 C-on akár 72 napig szabadulhatnak ki theront-ok), ezért kell fallow időszak."
     ]
   },
   "life_cycle": {
@@ -130,7 +130,7 @@
       "priority": "alternative",
       "details": {
         "en": "Ich is sometimes managed rather than eradicated in a DT using a UV sterilizer, ozone, diatom filter, oxydator, herbal remedies, enhanced nutrition, etc. This does not eliminate the parasite.",
-        "hu": "Az ichet néha nem felszámolják, hanem kontrollálják a DT-ben UV-sterilizálóval, ózonnal, kovaföld-szűrővel, oxydatorral, gyógynövényes szerekkel, jobb táplálással stb. Ez nem szünteti meg a parazitát."
+        "hu": "A darakórt néha nem felszámolják, hanem kontrollálják a DT-ben UV-sterilizálóval, ózonnal, kovaföld-szűrővel, oxydatorral, gyógynövényes szerekkel, jobb táplálással stb. Ez nem szünteti meg a parazitát."
       }
     }
   ],
@@ -151,7 +151,7 @@
       "url": "https://humble.fish/community/attachments/ich-2-jpeg.98766/",
       "caption": {
         "en": "Fish with marine ich",
-        "hu": "Tengeri ichtől fertőzött hal"
+        "hu": "Tengeri darakórtól fertőzött hal"
       }
     },
     {
@@ -179,7 +179,7 @@
       "url": "https://humble.fish/community/attachments/ichcyclegraph-jpeg.98768/",
       "caption": {
         "en": "Marine ich life cycle diagram (credit: Charles Raabe)",
-        "hu": "A tengeri ich életciklusa (forrás: Charles Raabe)"
+        "hu": "A tengeri darakór életciklusa (forrás: Charles Raabe)"
       }
     },
     {

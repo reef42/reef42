@@ -4,13 +4,13 @@
   "author": "Humblefish",
   "name": {
     "en": "Marine Velvet Disease",
-    "hu": "Tengeri bársonybetegség (velvet)"
+    "hu": "Tengeri bársonybetegség (bársonybetegség)"
   },
   "scientific": "Amyloodinium ocellatum",
   "category": "parasite-protozoan",
   "summary": {
     "en": "Velvet is a single-celled dinoflagellate parasite and one of the fastest killers in marine aquaria, able to wipe out most fish in a tank within days. It usually attacks the gills first, so fish may suffocate before the typical fine 'dust' appears on the body. Immediate action is critical: a relief dip or bath, followed by quarantine treatment with chloroquine phosphate, copper or TTM, and a 6-week fallow period for the display tank.",
-    "hu": "A velvet egysejtű dinoflagellata parazita, a tengeri akváriumok egyik leggyorsabban ölő betegsége, amely napok alatt kipusztíthatja a halak nagy részét. Általában először a kopoltyúkat támadja, így a hal megfulladhat, mielőtt a jellegzetes finom „por” megjelenne a testén. Azonnali beavatkozás szükséges: enyhítő fürdetés, majd QT-kezelés chloroquine phosphate-tal, rézzel vagy TTM-mel, a bemutató akváriumot pedig 6 hétig hal nélkül kell tartani (fallow)."
+    "hu": "A bársonybetegség egysejtű dinoflagellata parazita, a tengeri akváriumok egyik leggyorsabban ölő betegsége, amely napok alatt kipusztíthatja a halak nagy részét. Általában először a kopoltyúkat támadja, így a hal megfulladhat, mielőtt a jellegzetes finom „por” megjelenne a testén. Azonnali beavatkozás szükséges: enyhítő fürdetés, majd QT-kezelés chloroquine phosphate-tal, rézzel vagy TTM-mel, a bemutató akváriumot pedig 6 hétig hal nélkül kell tartani (fallow)."
   },
   "symptoms": {
     "en": [
@@ -29,7 +29,7 @@
       "Erős/gyors légzés",
       "Vakarózás, villogás (flashing), fejrángatás, rendszertelen úszás",
       "A hal a szivattyú/áramlásképző sodrásába úszik",
-      "Elbújás a kövek mögé (a velvet fényérzékennyé teszi a halat)",
+      "Elbújás a kövek mögé (a bársonybetegség fényérzékennyé teszi a halat)",
       "A test „piszkosnak” tűnhet vagy sötét foltok jelennek meg közvetlenül a pöttyök előtt",
       "Apró fehér „szórás”, néha csak az úszókon látható",
       "Órák-napok alatt finom poros bevonat borítja el az egész testet",
@@ -58,7 +58,7 @@
   "contagious": true,
   "commonly_affected": {
     "en": "Virtually all marine fish; tangs (e.g. Yellow Tang) frequently shown. Survivors are usually clownfish and fish with a thick mucus layer such as wrasses and dragonets.",
-    "hu": "Gyakorlatilag minden tengeri hal; gyakran tangok (pl. Yellow Tang). A túlélők általában bohóchalak és vastag nyálkaréteggel rendelkező halak, például ajakos halak (wrasse) és dragonetek."
+    "hu": "Gyakorlatilag minden tengeri hal; gyakran doktorhalak (pl. sárga doktorhal). A túlélők általában bohóchalak és vastag nyálkaréteggel rendelkező halak, például ajakos halak (wrasse) és dragonetek."
   },
   "distinguish": {
     "en": [
@@ -69,16 +69,16 @@
       "Velvet progresses much faster than ich and usually cannot be 'managed' the way ich sometimes is."
     ],
     "hu": [
-      "Tengeri ichhez (Cryptocaryon) képest: a velvet pöttyei jóval kisebbek (10-80 mikrométer, tökéletesen kerekek) és sokkal számosabbak; az ich trophontjai oválisak és nagyobbak (48 x 27-től 452 x 360 mikrométerig).",
-      "Ökölszabály: ha meg tudod számolni a fehér pöttyöket, valószínűleg ich; ha túl sok ahhoz, hogy megszámold, nagy eséllyel velvet.",
-      "A velvet finom porszórásra emlékeztet, az ich inkább sószemcsékre.",
-      "A viselkedési tünetek (erős légzés, vakarózás, étvágytalanság) az ich-csel és a kopoltyúférgekkel (gill flukes) közösek, így önmagukban nem igazolják a velvetet.",
-      "A velvet sokkal gyorsabban halad, mint az ich, és általában nem lehet úgy „együtt élni” vele, ahogy az ich-csel néha igen."
+      "Tengeri darakórhoz (Cryptocaryon) képest: a bársonybetegség pöttyei jóval kisebbek (10-80 mikrométer, tökéletesen kerekek) és sokkal számosabbak; a darakór trophontjai oválisak és nagyobbak (48 x 27-től 452 x 360 mikrométerig).",
+      "Ökölszabály: ha meg tudod számolni a fehér pöttyöket, valószínűleg darakór; ha túl sok ahhoz, hogy megszámold, nagy eséllyel bársonybetegség.",
+      "A bársonybetegség finom porszórásra emlékeztet, a darakór inkább sószemcsékre.",
+      "A viselkedési tünetek (erős légzés, vakarózás, étvágytalanság) a darakórral és a kopoltyúférgekkel (gill flukes) közösek, így önmagukban nem igazolják a bársonybetegséget.",
+      "A bársonybetegség sokkal gyorsabban halad, mint a darakór, és általában nem lehet úgy „együtt élni” vele, ahogy a darakórral néha igen."
     ]
   },
   "life_cycle": {
     "en": "Similar to ich but faster: the full cycle is completed in about 4 days on average. Free-swimming stages are called dinospores (not theronts), are far more numerous than ich theronts, and remain infective for up to 15 days (ich theronts only 48 hours). Trophonts start small and grow on the fish before dropping off.",
-    "hu": "Hasonló az ich életciklusához, de gyorsabb: átlagosan kb. 4 nap alatt zajlik le. A szabadon úszó alakokat dinospóráknak hívják (nem theront), sokkal nagyobb számban vannak, mint az ich theront-jai, és akár 15 napig fertőzőképesek maradnak (az ich theront-jai csak 48 óráig). A trophontok kicsiként kezdenek, a halon nőnek, majd leesnek."
+    "hu": "Hasonló a darakór életciklusához, de gyorsabb: átlagosan kb. 4 nap alatt zajlik le. A szabadon úszó alakokat dinospóráknak hívják (nem theront), sokkal nagyobb számban vannak, mint a darakór theront-jai, és akár 15 napig fertőzőképesek maradnak (a darakór theront-jai csak 48 óráig). A trophontok kicsiként kezdenek, a halon nőnek, majd leesnek."
   },
   "treatments": [
     {
@@ -109,12 +109,12 @@
       "treatment_id": "freshwater-dip",
       "name": {
         "en": "Freshwater dip",
-        "hu": "Édesvizes merítés"
+        "hu": "Édesvízi fürdő"
       },
       "priority": "alternative",
       "details": {
         "en": "Step 1 temporary relief alternative: 5 minute freshwater dip.",
-        "hu": "1. lépés, alternatív átmeneti enyhítés: 5 perces édesvizes merítés."
+        "hu": "1. lépés, alternatív átmeneti enyhítés: 5 perces édesvízi fürdő."
       }
     },
     {
@@ -174,7 +174,7 @@
       "priority": "first-line",
       "details": {
         "en": "Step 2 alternative: two versions of TTM will eliminate velvet (see the TTM all-versions thread).",
-        "hu": "2. lépés alternatívája: a TTM két változata felszámolja a velvetet (lásd a TTM összes változatáról szóló témát)."
+        "hu": "2. lépés alternatívája: a TTM két változata felszámolja a bársonybetegséget (lásd a TTM összes változatáról szóló témát)."
       }
     },
     {
@@ -186,7 +186,7 @@
       "priority": "first-line",
       "details": {
         "en": "Keep the display tank fishless for 6 weeks to starve velvet out.",
-        "hu": "A bemutató akváriumot 6 hétig hal nélkül kell tartani, hogy a velvet kiéheztetve elpusztuljon."
+        "hu": "A bemutató akváriumot 6 hétig hal nélkül kell tartani, hogy a bársonybetegség kiéheztetve elpusztuljon."
       }
     },
     {
@@ -198,7 +198,7 @@
       "priority": "not-recommended",
       "details": {
         "en": "Velvet usually cannot be managed like ich. Management is only possibly achieved by diluting free swimmers with UV sterilizer, diatom filter or ozone, combined with good nutrition, vitamins and probiotics to boost immunity.",
-        "hu": "A velvettel általában nem lehet úgy együtt élni, mint az ich-csel. Menedzselés legfeljebb úgy lehetséges, ha UV-sterilizálóval, diatóma szűrővel vagy ózonnal ritkítják a szabadon úszó alakokat, jó táplálással, vitaminokkal és probiotikumokkal kombinálva az immunrendszer erősítésére."
+        "hu": "A bársonybetegséggel általában nem lehet úgy együtt élni, mint a darakórral. Menedzselés legfeljebb úgy lehetséges, ha UV-sterilizálóval, diatóma szűrővel vagy ózonnal ritkítják a szabadon úszó alakokat, jó táplálással, vitaminokkal és probiotikumokkal kombinálva az immunrendszer erősítésére."
       }
     }
   ],
@@ -219,28 +219,28 @@
       "url": "https://humble.fish/community/attachments/velvetscope-png.98749/",
       "caption": {
         "en": "Velvet (Amyloodinium ocellatum) under the microscope",
-        "hu": "Velvet (Amyloodinium ocellatum) mikroszkóp alatt"
+        "hu": "Bársonybetegség (Amyloodinium ocellatum) mikroszkóp alatt"
       }
     },
     {
       "url": "https://humble.fish/community/attachments/20220315_183029-jpg.89027/",
       "caption": {
         "en": "Fish with the dusty/powdery appearance typical of velvet",
-        "hu": "Hal a velvetre jellemző poros, hamvas bevonattal"
+        "hu": "Hal a bársonybetegségre jellemző poros, hamvas bevonattal"
       }
     },
     {
       "url": "https://humble.fish/community/attachments/velvet-2-jpeg.89030/",
       "caption": {
         "en": "Velvet infestation: fine white dust over body and fins",
-        "hu": "Velvet fertőzés: finom fehér por a testen és az úszókon"
+        "hu": "Bársonybetegség-fertőzés: finom fehér por a testen és az úszókon"
       }
     },
     {
       "url": "https://humble.fish/community/attachments/velvet-2-jpg.36588/",
       "caption": {
         "en": "Yellow Tang with velvet under blue lights",
-        "hu": "Velvetes Yellow Tang kék fényben"
+        "hu": "Bársonybeteg sárga doktorhal kék fényben"
       }
     },
     {
@@ -254,7 +254,7 @@
       "url": "https://humble.fish/community/attachments/life-cycle-of-velvet-jpeg.98753/",
       "caption": {
         "en": "Life cycle of velvet",
-        "hu": "A velvet életciklusa"
+        "hu": "A bársonybetegség életciklusa"
       }
     }
   ],
@@ -331,6 +331,6 @@
   ],
   "notes": {
     "en": "Once velvet has spread over the body the fish is heavily infected and the prognosis is bleak, so treatment must start at the first behavioral signs. On yellow or light-colored fish velvet can be hard to see; look at the fish from an angle rather than straight from the side. Some fish may develop acquired immunity or partial resistance.",
-    "hu": "Ha a velvet már az egész testre kiterjedt, a hal súlyosan fertőzött és a kilátások rosszak, ezért a kezelést az első viselkedési jeleknél el kell kezdeni. Sárga vagy világos halakon a velvet nehezen látható; érdemes ferdén, nem egyenesen oldalról nézni a halat. Egyes halak szerzett immunitást vagy részleges ellenállást alakíthatnak ki."
+    "hu": "Ha a bársonybetegség már az egész testre kiterjedt, a hal súlyosan fertőzött és a kilátások rosszak, ezért a kezelést az első viselkedési jeleknél el kell kezdeni. Sárga vagy világos halakon a bársonybetegség nehezen látható; érdemes ferdén, nem egyenesen oldalról nézni a halat. Egyes halak szerzett immunitást vagy részleges ellenállást alakíthatnak ki."
   }
 }
