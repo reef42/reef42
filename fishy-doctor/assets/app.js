@@ -23,6 +23,17 @@
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
+  // Scientific (genus / species) names are set in italics. Hungarian suffixes after
+  // the name ("Uronemát", "Brooklynella-fertőzés") are left upright.
+  const GENERA = ['Amyloodinium', 'Brooklynella', 'Cryptocaryon', 'Uronema', 'Trichodina', 'Paravortex', 'Piscinquilinus',
+    'Neobenedenia', 'Benedenia', 'Vibrio', 'Streptococcus', 'Mycobacterium', 'Pseudomonas', 'Aeromonas', 'Tenacibaculum',
+    'Flavobacterium', 'Hexamita', 'Spironucleus', 'Camallanus', 'Gyrodactylus', 'Dactylogyrus', 'Paracanthurus',
+    'Zebrasoma', 'Acanthurus', 'Ctenochaetus', 'Naso', 'Amphiprion', 'Premnas', 'Synchiropus', 'Ichthyophonus',
+    'Philasterides', 'Miamiensis'];
+  const EPITHETS = ['irritans', 'ocellatum', 'hostilis', 'marinum', 'girellae', 'melleni', 'hepatus', 'spp\\.', 'sp\\.'];
+  const LATIN_RE = new RegExp('(?<![\\p{L}])(?:' + GENERA.join('|') + ')(?: (?:' + EPITHETS.join('|') + ')(?![\\p{L}]))?', 'gu');
+  const fmt = (s) => esc(s).replace(LATIN_RE, '<i>$&</i>');
+
   function t(v) {
     if (v == null) return '';
     if (typeof v === 'string') return v;
@@ -90,11 +101,11 @@
 
   function list(items, cls) {
     if (!items || !items.length) return '';
-    return '<ul class="' + (cls || 'clean') + '">' + items.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ul>';
+    return '<ul class="' + (cls || 'clean') + '">' + items.map((i) => '<li>' + fmt(i) + '</li>').join('') + '</ul>';
   }
   function steps(items) {
     if (!items || !items.length) return '';
-    return '<ol class="steps">' + items.map((i) => '<li>' + esc(i) + '</li>').join('') + '</ol>';
+    return '<ol class="steps">' + items.map((i) => '<li>' + fmt(i) + '</li>').join('') + '</ol>';
   }
   function sourceLine(url, author) {
     if (!url) return '';
@@ -105,17 +116,17 @@
   function gallery(images) {
     if (!images || !images.length) return '';
     return '<div class="gallery">' + images.map((img) =>
-      '<figure>' + imgTag(img) + (t(img.caption) ? '<figcaption>' + esc(t(img.caption)) + '</figcaption>' : '') + '</figure>'
+      '<figure>' + imgTag(img) + (t(img.caption) ? '<figcaption>' + fmt(t(img.caption)) + '</figcaption>' : '') + '</figure>'
     ).join('') + '</div><p class="small muted">' + esc(u('imageCredit')) + '</p>';
   }
   function treatmentLink(id, fallbackName) {
     const tr = state.treatments[id];
     const name = tr ? t(tr.name) : t(fallbackName) || id;
-    return tr ? '<a href="#/t/' + esc(id) + '">' + esc(name) + '</a>' : '<strong>' + esc(name) + '</strong>';
+    return tr ? '<a href="#/t/' + esc(id) + '">' + fmt(name) + '</a>' : '<strong>' + fmt(name) + '</strong>';
   }
   function diseaseLink(id) {
     const d = state.diseases[id];
-    return d ? '<a href="#/d/' + esc(id) + '">' + esc(t(d.name)) + '</a>' : esc(id);
+    return d ? '<a href="#/d/' + esc(id) + '">' + fmt(t(d.name)) + '</a>' : esc(id);
   }
 
   /* ---------- tree ---------- */
@@ -150,7 +161,7 @@
     const items = p.map((step) => {
       const n = state.tree.nodes[step.node];
       const opt = n.options[step.option];
-      return '<li><span class="q">' + esc(t(n.short || n.q)) + '</span><a href="#/q/' + esc(step.node) + '">' + esc(t(opt.label)) + '</a></li>';
+      return '<li><span class="q">' + fmt(t(n.short || n.q)) + '</span><a href="#/q/' + esc(step.node) + '">' + fmt(t(opt.label)) + '</a></li>';
     }).join('');
     return '<aside class="side card"><h3>' + esc(u('yourAnswers')) + '</h3>' +
       (items ? '<ol class="path">' + items + '</ol>' : '<p class="muted small">' + esc(u('noAnswers')) + '</p>') +
@@ -168,14 +179,14 @@
     const opts = n.options.map((opt, i) => {
       const img = opt.img ? thumb(opt.img) : '';
       return '<a class="option" href="#/q/' + esc(opt.next) + '" data-from="' + esc(nodeId) + '" data-opt="' + i + '">' + img +
-        '<strong>' + esc(t(opt.label)) + '</strong>' +
-        (opt.hint ? '<span>' + esc(t(opt.hint)) + '</span>' : '') +
+        '<strong>' + fmt(t(opt.label)) + '</strong>' +
+        (opt.hint ? '<span>' + fmt(t(opt.hint)) + '</span>' : '') +
         '<em class="go">' + esc(u('choose')) + ' →</em></a>';
     }).join('');
     app.innerHTML = '<div class="wizard"><section class="question">' +
       '<div class="stepper">' + esc(u('step', { n: depth + 1 })) + '</div>' +
-      '<h1>' + esc(t(n.q)) + '</h1>' +
-      (n.help ? '<p class="muted">' + esc(t(n.help)) + '</p>' : '') +
+      '<h1>' + fmt(t(n.q)) + '</h1>' +
+      (n.help ? '<p class="muted">' + fmt(t(n.help)) + '</p>' : '') +
       '<div class="options">' + opts + '</div>' +
       (nodeId === state.tree.start ? '<div class="notice">' + esc(u('disclaimerShort')) + '</div>' : '') +
       '</section>' + pathPanel(nodeId) + '</div>';
@@ -187,15 +198,15 @@
       if (!d) return '';
       return '<article class="card candidate">' + (thumb(id) || '<div class="thumb"></div>') + '<div>' +
         '<div class="small muted">' + esc(i === 0 ? u('mostLikely') : u('alsoConsider')) + '</div>' +
-        '<h3><a href="#/d/' + esc(id) + '">' + esc(t(d.name)) + '</a></h3>' +
-        (d.scientific ? '<div class="sci">' + esc(d.scientific) + '</div>' : '') +
-        diseaseTags(d) + '<p>' + esc(t(d.summary)) + '</p>' +
+        '<h3><a href="#/d/' + esc(id) + '">' + fmt(t(d.name)) + '</a></h3>' +
+        (d.scientific ? '<div class="sci">' + fmt(t(d.scientific)) + '</div>' : '') +
+        diseaseTags(d) + '<p>' + fmt(t(d.summary)) + '</p>' +
         '<a class="btn" href="#/d/' + esc(id) + '">' + esc(u('openDisease')) + ' →</a></div></article>';
     }).join('');
     app.innerHTML = '<div class="wizard"><section>' +
       '<div class="stepper">' + esc(u('result')) + '</div>' +
-      '<h1>' + esc(t(n.title) || u('possibleCauses')) + '</h1>' +
-      (n.note ? '<div class="notice info">' + esc(t(n.note)) + '</div>' : '') +
+      '<h1>' + fmt(t(n.title) || u('possibleCauses')) + '</h1>' +
+      (n.note ? '<div class="notice info">' + fmt(t(n.note)) + '</div>' : '') +
       '<div class="candidates">' + cands + '</div>' +
       '<div class="notice">' + esc(u('disclaimerShort')) + '</div>' +
       '</section>' + pathPanel(nodeId) + '</div>';
@@ -205,7 +216,8 @@
   function renderHome() {
     const featured = ['hybrid-ttm', 'ttm', 'copper', 'chloroquine-phosphate'].filter((id) => state.treatments[id]);
     app.innerHTML =
-      '<section class="hero"><div><h1>' + esc(u('homeTitle')) + '</h1><p class="lead">' + esc(u('homeLead')) + '</p>' +
+      '<section class="hero"><div><h1>' + esc(u('homeTitle')) + '</h1><p class="lead">' +
+      esc(u('homeLead')).replace('humble.fish', '<a href="https://humble.fish/community/threads/fish-diseases.3/" target="_blank" rel="noopener">humble.fish</a>') + '</p>' +
       '<div class="btn-row"><a class="btn" href="#/q/' + esc(state.tree.start) + '" data-reset>' + esc(u('startDiagnosis')) + ' →</a>' +
       '<a class="btn ghost" href="#/graph">' + esc(u('nav.graph')) + '</a>' +
       '<a class="btn ghost" href="#/diseases">' + esc(u('nav.diseases')) + '</a></div>' +
@@ -217,16 +229,32 @@
 
   function diseaseTile(id) {
     const d = state.diseases[id];
-    return '<a class="tile" href="#/d/' + esc(id) + '">' + thumb(id) + '<h3>' + esc(t(d.name)) + '</h3>' +
-      (d.scientific ? '<p><em>' + esc(d.scientific) + '</em></p>' : '') + diseaseTags(d) + '</a>';
+    return '<a class="tile" href="#/d/' + esc(id) + '">' + thumb(id) + '<h3>' + fmt(t(d.name)) + '</h3>' +
+      (d.scientific ? '<p class="sci">' + fmt(t(d.scientific)) + '</p>' : '') + diseaseTags(d) + '</a>';
+  }
+  // Availability in Hungary / the EU is shown on the Hungarian version only.
+  const AVAIL_CLASS = { available: 'ok', limited: 'warn', prescription: 'warn', 'not-available': 'danger', unclear: '' };
+  function availabilityTag(tr) {
+    const a = tr.availability;
+    if (state.lang !== 'hu' || !a || !a.status) return '';
+    return '<span class="tag ' + (AVAIL_CLASS[a.status] || '') + '">HU/EU: ' + esc(u('avail.' + a.status)) + '</span>';
+  }
+  function availabilityBlock(tr) {
+    const a = tr.availability;
+    if (state.lang !== 'hu' || !a || !a.hu) return '';
+    const src = (a.sources || []).map((s, i) => '<a href="' + esc(s) + '" target="_blank" rel="noopener">[' + (i + 1) + ']</a>').join(' ');
+    return '<h2>' + esc(u('availability')) + '</h2><div class="notice info">' +
+      (a.status ? '<div class="tags">' + availabilityTag(tr) + '</div>' : '') +
+      '<p>' + fmt(a.hu) + '</p><p class="small muted">' + esc(u('availabilityNote')) + (src ? ' ' + src : '') + '</p></div>';
   }
   function treatmentTile(id) {
     const tr = state.treatments[id];
-    return '<a class="tile" href="#/t/' + esc(id) + '"><h3>' + esc(t(tr.name)) + '</h3>' +
+    return '<a class="tile" href="#/t/' + esc(id) + '"><h3>' + fmt(t(tr.name)) + '</h3>' +
       '<div class="tags"><span class="tag accent">' + esc(u('ttype.' + tr.type)) + '</span>' +
       (tr.reef_safe === true ? '<span class="tag ok">' + esc(u('reefSafe')) + '</span>' : '') +
-      (tr.reef_safe === false ? '<span class="tag danger">' + esc(u('notReefSafe')) + '</span>' : '') + '</div>' +
-      '<p>' + esc(t(tr.summary)) + '</p></a>';
+      (tr.reef_safe === false ? '<span class="tag danger">' + esc(u('notReefSafe')) + '</span>' : '') +
+      availabilityTag(tr) + '</div>' +
+      '<p>' + fmt(t(tr.summary)) + '</p></a>';
   }
 
   function renderDiseases(query) {
@@ -238,7 +266,7 @@
       const d = state.diseases[id];
       if (active && !(d.body_areas || []).includes(active)) return false;
       if (!q) return true;
-      const hay = [t(d.name), d.name && d.name.en, d.scientific, t(d.summary)].concat(tl(d.symptoms)).join(' ').toLowerCase();
+      const hay = [t(d.name), d.name && d.name.en, t(d.scientific), d.scientific && d.scientific.en, t(d.summary)].concat(tl(d.symptoms)).join(' ').toLowerCase();
       return hay.includes(q);
     });
     app.innerHTML = '<h1>' + esc(u('nav.diseases')) + '</h1><p class="muted">' + esc(u('diseasesLead')) + '</p>' +
@@ -262,16 +290,16 @@
     const tx = (d.treatments || []).slice().sort((a, b) => prioRank(a.priority) - prioRank(b.priority)).map((x) =>
       '<div class="tx"><header>' + treatmentLink(x.treatment_id, x.name) +
       (x.priority ? '<span class="tag ' + (PRIORITY_CLASS[x.priority] || '') + '">' + esc(u('prio.' + x.priority)) + '</span>' : '') +
-      '</header>' + (t(x.details) ? '<p>' + esc(t(x.details)) + '</p>' : '') + '</div>').join('');
+      '</header>' + (t(x.details) ? '<p>' + fmt(t(x.details)) + '</p>' : '') + '</div>').join('');
     const subs = (d.subconditions || []).map((s) =>
-      '<div class="tx"><header><strong>' + esc(t(s.name)) + '</strong></header>' + list(tl(s.symptoms)) +
-      (t(s.treatment) ? '<p><strong>' + esc(u('treatment')) + ':</strong> ' + esc(t(s.treatment)) + '</p>' : '') + '</div>').join('');
-    const related = (d.related_links || []).map((l) => '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(t(l.title) || l.url) + '</a></li>').join('');
+      '<div class="tx"><header><strong>' + fmt(t(s.name)) + '</strong></header>' + list(tl(s.symptoms)) +
+      (t(s.treatment) ? '<p><strong>' + esc(u('treatment')) + ':</strong> ' + fmt(t(s.treatment)) + '</p>' : '') + '</div>').join('');
+    const related = (d.related_links || []).map((l) => '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + fmt(t(l.title) || l.url) + '</a></li>').join('');
     app.innerHTML =
       '<p class="small"><a href="#/diseases">← ' + esc(u('nav.diseases')) + '</a></p>' +
-      '<div class="detail-head"><div><h1>' + esc(t(d.name)) + '</h1>' + (d.scientific ? '<div class="sci">' + esc(d.scientific) + '</div>' : '') + diseaseTags(d) + '</div>' +
+      '<div class="detail-head"><div><h1>' + fmt(t(d.name)) + '</h1>' + (d.scientific ? '<div class="sci">' + fmt(t(d.scientific)) + '</div>' : '') + diseaseTags(d) + '</div>' +
       '<a class="btn ghost" href="#/q/' + esc(state.tree.start) + '" data-reset>' + esc(u('startDiagnosis')) + '</a></div>' +
-      '<p class="lead">' + esc(t(d.summary)) + '</p>' +
+      '<p class="lead">' + fmt(t(d.summary)) + '</p>' +
       '<div class="cols"><div>' +
       (tl(d.symptoms).length ? '<h2>' + esc(u('symptoms')) + '</h2>' + list(tl(d.symptoms)) : '') +
       (tl(d.distinguish).length ? '<h2>' + esc(u('distinguish')) + '</h2>' + list(tl(d.distinguish)) : '') +
@@ -280,9 +308,9 @@
       (tl(d.prevention).length ? '<h2>' + esc(u('prevention')) + '</h2>' + list(tl(d.prevention)) : '') +
       '</div><div>' +
       (d.images && d.images.length ? '<h2>' + esc(u('images')) + '</h2>' + gallery(d.images) : '') +
-      (t(d.commonly_affected) ? '<h2>' + esc(u('commonlyAffected')) + '</h2><p>' + esc(t(d.commonly_affected)) + '</p>' : '') +
-      (t(d.life_cycle) ? '<h2>' + esc(u('lifeCycle')) + '</h2><p>' + esc(t(d.life_cycle)) + '</p>' : '') +
-      (t(d.notes) ? '<h2>' + esc(u('notes')) + '</h2><p>' + esc(t(d.notes)) + '</p>' : '') +
+      (t(d.commonly_affected) ? '<h2>' + esc(u('commonlyAffected')) + '</h2><p>' + fmt(t(d.commonly_affected)) + '</p>' : '') +
+      (t(d.life_cycle) ? '<h2>' + esc(u('lifeCycle')) + '</h2><p>' + fmt(t(d.life_cycle)) + '</p>' : '') +
+      (t(d.notes) ? '<h2>' + esc(u('notes')) + '</h2><p>' + fmt(t(d.notes)) + '</p>' : '') +
       (related ? '<h2>' + esc(u('furtherReading')) + '</h2><ul class="clean">' + related + '</ul>' : '') +
       '</div></div>' + sourceLine(d.source, d.author);
   }
@@ -301,24 +329,26 @@
     const tr = state.treatments[id];
     if (!tr) return renderNotFound();
     const treats = (tr.treats || []).filter((x) => state.diseases[x]);
-    const related = (tr.related_links || []).map((l) => '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(t(l.title) || l.url) + '</a></li>').join('');
+    const related = (tr.related_links || []).map((l) => '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + fmt(t(l.title) || l.url) + '</a></li>').join('');
     // diseases that reference this treatment
     const usedBy = state.diseaseOrder.filter((did) => (state.diseases[did].treatments || []).some((x) => x.treatment_id === id));
     const allTreats = Array.from(new Set(treats.concat(usedBy)));
     app.innerHTML =
       '<p class="small"><a href="#/treatments">← ' + esc(u('nav.treatments')) + '</a></p>' +
-      '<h1>' + esc(t(tr.name)) + '</h1>' +
+      '<h1>' + fmt(t(tr.name)) + '</h1>' +
       '<div class="tags"><span class="tag accent">' + esc(u('ttype.' + tr.type)) + '</span>' +
       (tr.reef_safe === true ? '<span class="tag ok">' + esc(u('reefSafe')) + '</span>' : '') +
       (tr.reef_safe === false ? '<span class="tag danger">' + esc(u('notReefSafe')) + '</span>' : '') +
+      availabilityTag(tr) +
       (tr.aka || []).map((a) => '<span class="tag">' + esc(a) + '</span>').join('') + '</div>' +
-      '<p class="lead">' + esc(t(tr.summary)) + '</p>' +
+      '<p class="lead">' + fmt(t(tr.summary)) + '</p>' +
       '<div class="cols"><div>' +
       (tl(tr.steps).length ? '<h2>' + esc(u('steps')) + '</h2>' + steps(tl(tr.steps)) : '') +
-      (t(tr.dosage) ? '<h2>' + esc(u('dosage')) + '</h2><p>' + esc(t(tr.dosage)) + '</p>' : '') +
-      (t(tr.duration) ? '<h2>' + esc(u('duration')) + '</h2><p>' + esc(t(tr.duration)) + '</p>' : '') +
+      (t(tr.dosage) ? '<h2>' + esc(u('dosage')) + '</h2><p>' + fmt(t(tr.dosage)) + '</p>' : '') +
+      (t(tr.duration) ? '<h2>' + esc(u('duration')) + '</h2><p>' + fmt(t(tr.duration)) + '</p>' : '') +
       (tl(tr.warnings).length ? '<h2>' + esc(u('warnings')) + '</h2><div class="notice">' + list(tl(tr.warnings)) + '</div>' : '') +
       '</div><div>' +
+      availabilityBlock(tr) +
       (allTreats.length ? '<h2>' + esc(u('usedFor')) + '</h2><ul class="clean">' + allTreats.map((x) => '<li>' + diseaseLink(x) + '</li>').join('') + '</ul>' : '') +
       (tr.images && tr.images.length ? '<h2>' + esc(u('images')) + '</h2>' + gallery(tr.images) : '') +
       (related ? '<h2>' + esc(u('furtherReading')) + '</h2><ul class="clean">' + related + '</ul>' : '') +
@@ -329,8 +359,8 @@
   function renderQuarantine() {
     app.innerHTML = '<h1>' + esc(u('nav.quarantine')) + '</h1><p class="muted">' + esc(u('quarantineLead')) + '</p>' +
       state.quarantine.map((q) =>
-        '<section class="card" style="margin-bottom:16px"><h2 style="margin-top:0">' + esc(t(q.name)) + '</h2>' +
-        '<p>' + esc(t(q.summary)) + '</p>' +
+        '<section class="card" style="margin-bottom:16px"><h2 style="margin-top:0">' + fmt(t(q.name)) + '</h2>' +
+        '<p>' + fmt(t(q.summary)) + '</p>' +
         (tl(q.equipment).length ? '<h3>' + esc(u('equipment')) + '</h3>' + list(tl(q.equipment)) : '') +
         (tl(q.steps).length ? '<h3>' + esc(u('steps')) + '</h3>' + steps(tl(q.steps)) : '') +
         (tl(q.warnings).length ? '<h3>' + esc(u('warnings')) + '</h3><div class="notice">' + list(tl(q.warnings)) + '</div>' : '') +
@@ -348,7 +378,7 @@
     app.innerHTML = '<h1>' + esc(u('nav.sources')) + '</h1>' +
       '<div class="notice info">' + esc(u('sourcesLead')) + '</div>' +
       '<h2>' + esc(u('primarySources')) + '</h2><ul class="clean">' + extra.map((s) =>
-        '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(t(s.title)) + '</a>' + (s.note ? ' – <span class="muted">' + esc(t(s.note)) + '</span>' : '') + '</li>').join('') + '</ul>' +
+        '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + fmt(t(s.title)) + '</a>' + (s.note ? ' – <span class="muted">' + fmt(t(s.note)) + '</span>' : '') + '</li>').join('') + '</ul>' +
       '<h2>' + esc(u('articleSources')) + '</h2><div class="table-scroll"><table class="simple"><thead><tr><th>' + esc(u('topic')) + '</th><th>' + esc(u('source')) + '</th><th>' + esc(u('author')) + '</th></tr></thead><tbody>' +
       uniq.map((r) => '<tr><td>' + esc(r[0]) + '</td><td><a href="' + esc(r[1]) + '" target="_blank" rel="noopener">' + esc(r[1].replace(/^https?:\/\//, '')) + '</a></td><td>' + esc(r[2] || '') + '</td></tr>').join('') +
       '</tbody></table></div>' +

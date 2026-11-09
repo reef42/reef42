@@ -184,7 +184,8 @@ main.wide { max-width: none; }
 
 /* Disease page */
 .detail-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: flex-start; }
-.sci { font-style: italic; color: var(--muted); margin: -4px 0 8px; }
+.sci { color: var(--muted); margin: -4px 0 8px; }
+.tile .sci { margin: 0; font-size: .92rem; }
 .cols { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 24px; }
 @media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
 ul.clean { padding-left: 1.2em; margin: 0 0 1em; }
