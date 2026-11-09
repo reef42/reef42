@@ -762,7 +762,7 @@
     const step0 = span / Math.max(1, count);
     const mag = Math.pow(10, Math.floor(Math.log10(step0)));
     const norm = step0 / mag;
-    const step = (norm >= 5 ? 10 : norm >= 2 ? 5 : norm >= 1 ? 2 : 1) * mag;
+    const step = (norm < 1.5 ? 1 : norm < 3 ? 2 : norm < 7 ? 5 : 10) * mag;
     const out = [];
     for (let v = Math.ceil(lo / step) * step; v <= hi + step * 1e-9; v += step) out.push(round(v));
     return out;
@@ -788,7 +788,7 @@
     if (y0 < 0 && Math.min.apply(null, vals) >= 0) y0 = 0;
     const X = (v) => m.l + ((v - x0) / (x1 - x0)) * iw;
     const Y = (v) => m.t + ih - ((v - y0) / (y1 - y0)) * ih;
-    const ticks = niceTicks(y0, y1, big ? 5 : 3).filter((v) => v >= y0 && v <= y1);
+    const ticks = niceTicks(y0, y1, big ? 6 : 4).filter((v) => v >= y0 && v <= y1);
     let svg = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" role="img" aria-label="' + esc(pname(p)) + '">';
     ticks.forEach((v) => {
       svg += '<line class="grid" x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(v) + '" y2="' + Y(v) + '"/>' +
@@ -876,6 +876,7 @@
   function drawAllCharts(tank, sessions) {
     const to = Date.now();
     const from = chartPeriod ? to - chartPeriod * DAY : null;
+    let shown = 0;
     tank.params.filter((p) => !p.hidden).forEach((p) => {
       const el = app.querySelector('[data-chart="' + CSS.escape(p.id) + '"]');
       if (!el) return;
@@ -884,9 +885,20 @@
       const latest = $('[data-latest]', card);
       const lastPt = pts[pts.length - 1];
       latest.innerHTML = lastPt ? '<b>' + esc(fmtNum(lastPt.v)) + '</b> ' + stBadge(status(p, lastPt.v)) : '';
-      if (!pts.length) { el.innerHTML = '<p class="nodata">' + esc(t('noDataPeriod')) + '</p>'; return; }
+      // Parameters without values in the period would only add empty cards
+      card.hidden = !pts.length;
+      if (!pts.length) { el.innerHTML = ''; return; }
+      shown++;
       drawChart(el, pts, p);
     });
+    const grid = app.querySelector('.cgrid');
+    let empty = app.querySelector('.cgrid-empty');
+    if (!shown && grid && !empty) {
+      empty = document.createElement('p');
+      empty.className = 'empty cgrid-empty';
+      empty.textContent = t('noDataPeriod');
+      grid.after(empty);
+    } else if (shown && empty) empty.remove();
   }
 
   function periodChips() {
@@ -909,7 +921,8 @@
   function historyTableHtml(tank, sessions, readOnly) {
     const usedIds = new Set();
     sessions.forEach((s) => Object.keys(s.v).forEach((k) => usedIds.add(k)));
-    const params = tank.params.filter((p) => !p.hidden || usedIds.has(p.id));
+    // Only columns that have at least one value, so the measured ones fit on a phone screen
+    const params = tank.params.filter((p) => usedIds.has(p.id));
     const rows = sessions.slice().reverse();
     let h = '<div class="tablewrap"><table class="htable"><thead><tr><th scope="col">' + esc(t('date')) + '</th>' +
       params.map((p) => '<th scope="col">' + esc(pname(p)) + (p.unit ? '<br><span class="unit">' + esc(p.unit) + '</span>' : '') + '</th>').join('') +
