@@ -19,7 +19,11 @@ step, no backend, no external libraries.
 - **Several tanks**.
 - **Sharing**: copy or share a text summary of the latest values, or a read-only link. The link carries the data
   itself in the URL fragment (compressed), so nothing is uploaded; the recipient can save it as their own tank.
-- **Backup**: JSON export/import (merge or replace), CSV export per tank.
+- **Backup**: JSON export and import (import replaces all data), CSV export per tank.
+- **Aquarium Log import**: select the measurements CSV (`parameter,value,createdAt,note`) and the notes CSV
+  (`date,description`) of one tank together, into an existing or a new tank. Readings within 3 hours become one
+  entry, notes are attached to that day’s entry (or become a note-only entry), and values already in the tank are
+  skipped, so importing the same files again adds nothing.
 
 ## Storage and other GitHub Pages limits
 
