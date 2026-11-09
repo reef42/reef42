@@ -34,9 +34,9 @@
   const BASIC = ['temp', 'sal', 'ph', 'kh', 'ca', 'mg', 'no3', 'po4'];
 
   const BUILTIN_TEMPLATES = [
-    { id: 'b-mixed', name: { en: 'Mixed reef', hu: 'Vegyes korallos' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [7, 9], ca: [400, 450], mg: [1250, 1400], no3: [2, 15], po4: [0.03, 0.1] } },
+    { id: 'b-mixed', name: { en: 'Mixed reef', hu: 'Vegyes korallos' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [7, 9], ca: [400, 450], mg: [1250, 1400], no3: [5, 50], po4: [0.06, 0.3] } },
     { id: 'b-sps', name: { en: 'SPS dominant', hu: 'SPS-domináns' }, p: { temp: [25, 26.5], sal: [34.5, 35.5], ph: [7.9, 8.4], kh: [7, 8.5], ca: [420, 450], mg: [1300, 1400], no3: [2, 10], po4: [0.02, 0.08], k: [380, 420] } },
-    { id: 'b-lps', name: { en: 'LPS / soft corals', hu: 'LPS / lágykorallok' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [8, 10], ca: [400, 450], mg: [1250, 1400], no3: [5, 20], po4: [0.05, 0.15] } },
+    { id: 'b-lps', name: { en: 'LPS / soft corals', hu: 'LPS / lágykorallok' }, p: { temp: [24.5, 26.5], sal: [34, 35.5], ph: [7.9, 8.4], kh: [8, 10], ca: [400, 450], mg: [1250, 1400], no3: [5, 50], po4: [0.06, 0.3] } },
     { id: 'b-fowlr', name: { en: 'Fish only (FOWLR)', hu: 'Csak halas (FOWLR)' }, p: { temp: [24, 26.5], sal: [33, 35.5], ph: [7.9, 8.4], kh: [7, 11], no3: [0, 40], po4: [0, 0.5], nh3: [0, 0.05], no2: [0, 0.2] } },
     { id: 'b-qt', name: { en: 'Quarantine tank', hu: 'Karantén' }, p: { temp: [24, 26.5], sal: [33, 35.5], ph: [7.9, 8.4], nh3: [0, 0.05], no2: [0, 0.2], no3: [0, 40], cu: [null, null] } },
     { id: 'b-empty', name: { en: 'Basic parameters, no ranges', hu: 'Alap paraméterek, tartomány nélkül' }, p: { temp: [null, null], sal: [null, null], ph: [null, null], kh: [null, null], ca: [null, null], mg: [null, null], no3: [null, null], po4: [null, null] } }
@@ -45,7 +45,11 @@
   const TEXT = {
     en: {
       toggle: 'magyar', tank: 'Tank', defaultTank: 'My reef',
-      measure: 'Measure', charts: 'Charts', history: 'History', settings: 'Settings',
+      measure: 'Measure', charts: 'Charts', history: 'History', guide: 'Guide', settings: 'Settings',
+      gIdeal: 'Ideal', gTol: 'Tolerable', gWhat: 'What it is', gWhy: 'Why it matters', gStep: 'Safe rate of change',
+      gRaise: 'How to raise', gLower: 'How to lower', gSources: 'Where it comes from, what uses it', gTip: 'Testing tip',
+      gYours: 'Your target', gLast: 'Last reading', gInTank: 'Parameters of this tank', gOther: 'Other parameters',
+      gAdd: '+ Add to this tank', gAdded: 'Added to the tank', gOpen: 'About {name}', gLoadErr: 'The guide could not be loaded. Check the connection and reload the page.',
       last: 'last', noPrev: 'no previous value', ok: 'in range', low: 'low', high: 'high',
       time: 'Measured at', note: 'Note', notePh: 'e.g. 20% water change, new coral, dosing changed…',
       save: 'Save', saved: 'Saved', nothing: 'Enter at least one value or a note.', invalid: 'Not a valid number',
@@ -72,8 +76,14 @@
       storageInfo: 'Your data is stored only in this browser on this device – nothing is uploaded. Clearing site data, private browsing, or (on iPhone/iPad Safari) not opening the page for 7 days can delete it. Export a backup regularly; you can import it on any device.',
       lastBackup: 'Last backup: {when}', never: 'never',
       exportJson: 'Export backup (JSON)', exportCsv: 'Export tank as CSV', importJson: 'Import backup…',
-      importTitle: 'Import backup', importBody: 'The file contains {tanks} tank(s) and {sessions} measurement(s). Merge keeps your current data and adds or updates the imported items.',
-      merge: 'Merge', replace: 'Replace everything', imported: 'Imported', badFile: 'This is not a valid Tank Log backup.',
+      importTitle: 'Import backup', importBody: 'The file contains {tanks} tank(s) and {sessions} measurement(s). Importing replaces all current data in this browser.',
+      replace: 'Replace everything', imported: 'Imported', badFile: 'This is not a valid Tank Log backup.',
+      alImport: 'Import from Aquarium Log (CSV)…', alTitle: 'Import from Aquarium Log',
+      alSummary: '{m} readings of {p} parameters and {n} notes, {from} – {to}.',
+      alBadRows: '{n} row(s) could not be read and will be skipped.', alTarget: 'Import into', alNewTank: 'New tank…',
+      alDefaultName: 'Imported tank', alGo: 'Import',
+      alHint: 'Select the measurements CSV and the notes CSV of one tank together. Readings taken within 3 hours become one entry; notes are added to that day’s entry. Values already in the tank are skipped.',
+      alDone: '{s} entries imported, {d} duplicates skipped', alBad: 'No Aquarium Log data found in the selected files.',
       clearAll: 'Delete all data', confirmClear: 'Delete all tanks and measurements from this browser? This cannot be undone.',
       backupNever: 'You have not exported a backup yet – your data lives only in this browser.',
       backupOld: 'Last backup was {n} days ago – your data lives only in this browser.', backupNow: 'Back up now',
@@ -88,7 +98,11 @@
     },
     hu: {
       toggle: 'english', tank: 'Akvárium', defaultTank: 'Saját akvárium',
-      measure: 'Mérés', charts: 'Grafikonok', history: 'Előzmények', settings: 'Beállítások',
+      measure: 'Mérés', charts: 'Grafikonok', history: 'Előzmények', guide: 'Útmutató', settings: 'Beállítások',
+      gIdeal: 'Ideális', gTol: 'Tolerálható', gWhat: 'Mi ez?', gWhy: 'Miért számít?', gStep: 'Biztonságos változtatás',
+      gRaise: 'Növelése', gLower: 'Csökkentése', gSources: 'Honnan kerül a vízbe, mi fogyasztja?', gTip: 'Mérési tipp',
+      gYours: 'Saját cél', gLast: 'Utolsó mérés', gInTank: 'Ennek az akváriumnak a paraméterei', gOther: 'További paraméterek',
+      gAdd: '+ Hozzáadás az akváriumhoz', gAdded: 'Hozzáadva az akváriumhoz', gOpen: '{name} – útmutató', gLoadErr: 'Az útmutatót nem sikerült betölteni. Ellenőrizd a kapcsolatot, és töltsd újra az oldalt.',
       last: 'előző', noPrev: 'nincs előző érték', ok: 'tartományban', low: 'alacsony', high: 'magas',
       time: 'Mérés ideje', note: 'Jegyzet', notePh: 'pl. 20% vízcsere, új korall, adagolás módosítva…',
       save: 'Mentés', saved: 'Mentve', nothing: 'Adj meg legalább egy értéket vagy jegyzetet.', invalid: 'Érvénytelen szám',
@@ -115,8 +129,14 @@
       storageInfo: 'Az adatok csak ebben a böngészőben, ezen az eszközön tárolódnak – semmi sem kerül feltöltésre. A webhelyadatok törlése, a privát böngészés, vagy (iPhone/iPad Safarin) ha 7 napig nem nyitod meg az oldalt, törölheti őket. Exportálj rendszeresen mentést; bármelyik eszközön visszatöltheted.',
       lastBackup: 'Utolsó mentés: {when}', never: 'még nem volt',
       exportJson: 'Mentés exportálása (JSON)', exportCsv: 'Akvárium exportálása CSV-be', importJson: 'Mentés importálása…',
-      importTitle: 'Mentés importálása', importBody: 'A fájlban {tanks} akvárium és {sessions} mérés van. Az összefésülés megtartja a mostani adatokat, és hozzáadja vagy frissíti az importáltakat.',
-      merge: 'Összefésülés', replace: 'Minden felülírása', imported: 'Importálva', badFile: 'Ez nem érvényes Tank Log mentés.',
+      importTitle: 'Mentés importálása', importBody: 'A fájlban {tanks} akvárium és {sessions} mérés van. Az importálás felülírja a böngészőben lévő összes mostani adatot.',
+      replace: 'Minden felülírása', imported: 'Importálva', badFile: 'Ez nem érvényes Tank Log mentés.',
+      alImport: 'Importálás Aquarium Logból (CSV)…', alTitle: 'Importálás Aquarium Logból',
+      alSummary: '{m} mérés {p} paraméterből és {n} jegyzet, időszak: {from} – {to}',
+      alBadRows: '{n} sort nem sikerült beolvasni, ezek kimaradnak.', alTarget: 'Hová', alNewTank: 'Új akvárium…',
+      alDefaultName: 'Importált akvárium', alGo: 'Importálás',
+      alHint: 'Egy akvárium mérés- és jegyzet-CSV-jét együtt válaszd ki. A 3 órán belüli mérések egy bejegyzésbe kerülnek, a jegyzetek az adott napi bejegyzéshez. Az akváriumban már meglévő értékeket kihagyja.',
+      alDone: '{s} bejegyzés importálva, {d} ismétlődés kihagyva', alBad: 'A kiválasztott fájlokban nincs Aquarium Log adat.',
       clearAll: 'Minden adat törlése', confirmClear: 'Törlöd az összes akváriumot és mérést ebből a böngészőből? Ez nem vonható vissza.',
       backupNever: 'Még nem exportáltál mentést – az adataid csak ebben a böngészőben vannak.',
       backupOld: 'Az utolsó mentés {n} napja volt – az adataid csak ebben a böngészőben vannak.', backupNow: 'Mentés most',
@@ -344,8 +364,9 @@
   function route() {
     const h = location.hash.replace(/^#\/?/, '');
     if (h.startsWith('shared/')) return { view: 'shared', data: h.slice(7) };
-    const v = h.split('/')[0];
-    return { view: ['measure', 'charts', 'history', 'settings'].includes(v) ? v : 'measure' };
+    const parts = h.split('/');
+    const v = parts[0];
+    return { view: ['measure', 'charts', 'history', 'guide', 'settings'].includes(v) ? v : 'measure', key: parts[1] || null };
   }
 
   function renderChrome() {
@@ -358,7 +379,7 @@
     sel.innerHTML = S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('');
     const r = route();
     sel.parentElement.hidden = r.view === 'shared';
-    $('#tabs').innerHTML = ['measure', 'charts', 'history', 'settings'].map((v) =>
+    $('#tabs').innerHTML = ['measure', 'charts', 'history', 'guide', 'settings'].map((v) =>
       '<a href="#/' + v + '"' + (r.view === v ? ' aria-current="page"' : '') + '>' + esc(t(v)) + '</a>').join('');
     $('#footer').innerHTML = '<div class="inner"><span>reef42 · Tank Log – ' + esc(t('localOnly')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
@@ -382,6 +403,7 @@
     if (r.view === 'shared') renderShared(r.data);
     else if (r.view === 'charts') renderCharts();
     else if (r.view === 'history') renderHistory();
+    else if (r.view === 'guide') renderGuide(r.key);
     else if (r.view === 'settings') renderSettings();
     else renderMeasure();
     renderDock();
@@ -468,6 +490,7 @@
     const rt = rangeText(p);
     return '<div class="prow" data-pid="' + esc(p.id) + '">' +
       '<div class="phead"><label class="pname" for="in-' + esc(p.id) + '">' + esc(pname(p)) + unit + '</label>' +
+      (p.key ? '<a class="ginfo" href="#/guide/' + esc(p.key) + '" aria-label="' + esc(t('gOpen', { name: pname(p) })) + '" title="' + esc(t('gOpen', { name: pname(p) })) + '">i</a>' : '') +
       (rt ? '<span class="range" title="' + esc(t('minL') + '–' + t('maxL')) + '">' + esc(rt) + '</span>' : '') +
       '<div class="tslot" data-tslot="' + esc(p.id) + '">' + timerSlotHtml(activeTank().id, p) + '</div></div>' +
       '<div class="pbody">' +
@@ -917,6 +940,88 @@
     drawAllCharts(tank, sessions);
   }
 
+  /* ---------- guide ---------- */
+  let guideData = null;
+  let guideLoading = null;
+  function loadGuide() {
+    if (!guideLoading) {
+      guideLoading = fetch('data/guide.json', { cache: 'no-cache' })
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((d) => { guideData = d; return d; })
+        .catch((e) => { guideLoading = null; throw e; });
+    }
+    return guideLoading;
+  }
+  const loc = (o) => (o == null ? '' : typeof o === 'string' ? o : (o[lang] != null ? o[lang] : o.en));
+  function guideRange(r, unit) {
+    if (!r) return '';
+    const a = r[0];
+    const b = r[1];
+    let s;
+    if (a != null && b != null) s = a === b ? fmtNum(a) : fmtNum(a) + '–' + fmtNum(b);
+    else if (b != null) s = '≤ ' + fmtNum(b);
+    else if (a != null) s = '≥ ' + fmtNum(a);
+    else return '';
+    return s + (unit ? ' ' + unit : '');
+  }
+  function guideCardHtml(key, g, tank, last) {
+    const c = CATALOG[key];
+    const p = tank.params.find((x) => x.key === key && !x.hidden);
+    const unit = p ? p.unit : c.unit;
+    const name = c[lang] || c.en;
+    const list = (o) => { const a = loc(o); return Array.isArray(a) && a.length ? '<ul>' + a.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' : ''; };
+    const sec = (label, html) => (html ? '<div class="gsec"><h3>' + esc(label) + '</h3>' + html + '</div>' : '');
+    const para = (o) => (loc(o) ? '<p>' + esc(loc(o)) + '</p>' : '');
+    let mine = '';
+    if (p) {
+      const rt = rangeText(p);
+      const lv = last[p.id];
+      if (rt || lv) {
+        mine = '<div class="gmine">' +
+          (rt ? '<span>' + esc(t('gYours')) + ': <b>' + esc(rt) + '</b></span>' : '') +
+          (lv ? '<span>' + esc(t('gLast')) + ': <b>' + esc(fmtNum(lv.v)) + (unit ? ' ' + esc(unit) : '') + '</b> ' + stBadge(status(p, lv.v)) + ' <span class="ago">' + esc(ago(lv.t)) + '</span></span>' : '') +
+          '</div>';
+      }
+    }
+    return '<article class="card gcard" id="g-' + esc(key) + '" tabindex="-1">' +
+      '<header><h2>' + esc(name) + (unit ? ' <span class="unit">' + esc(unit) + '</span>' : '') + '</h2>' +
+      (p ? '' : '<button type="button" class="btn small" data-act="gAdd" data-key="' + esc(key) + '">' + esc(t('gAdd')) + '</button>') + '</header>' +
+      '<div class="granges"><span class="gr ideal"><small>' + esc(t('gIdeal')) + '</small><b>' + esc(guideRange(g.ideal, unit)) + '</b></span>' +
+      '<span class="gr tol"><small>' + esc(t('gTol')) + '</small><b>' + esc(guideRange(g.tol, unit)) + '</b></span></div>' + mine +
+      sec(t('gWhat'), para(g.what)) + sec(t('gWhy'), para(g.why)) + sec(t('gStep'), para(g.step)) +
+      '<div class="gcols">' + sec(t('gRaise'), list(g.raise)) + sec(t('gLower'), list(g.lower)) + '</div>' +
+      sec(t('gSources'), list(g.sources)) + sec(t('gTip'), para(g.tip)) +
+      '</article>';
+  }
+  async function renderGuide(focusKey) {
+    if (!guideData) {
+      app.innerHTML = '<p class="empty">…</p>';
+      try { await loadGuide(); } catch (e) {
+        if (route().view === 'guide') app.innerHTML = '<p class="empty">' + esc(t('gLoadErr')) + '</p>';
+        return;
+      }
+      if (route().view !== 'guide') return;
+    }
+    const tank = activeTank();
+    const G = guideData.params || {};
+    const inTank = tank.params.filter((p) => p.key && !p.hidden && G[p.key]).map((p) => p.key);
+    const others = Object.keys(CATALOG).filter((k) => G[k] && !inTank.includes(k));
+    const last = lastValues(tank.params, tankSessions(tank));
+    const jump = (keys) => '<nav class="chips gjump">' + keys.map((k) => '<a class="chip" href="#/guide/' + esc(k) + '">' + esc(CATALOG[k][lang] || CATALOG[k].en) + '</a>').join('') + '</nav>';
+    let h = '<div class="vhead"><h1>' + esc(t('guide')) + '</h1></div>' +
+      '<p class="hint">' + esc(loc(guideData.intro)) + '</p>' +
+      (Array.isArray(guideData.sources) && guideData.sources.length ? '<ul class="gsrc hint">' + guideData.sources.map((x) =>
+        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + '</a></li>').join('') + '</ul>' : '') +
+      jump(inTank.concat(others));
+    if (inTank.length) h += '<h2 class="gsub">' + esc(t('gInTank')) + '</h2><div class="ggrid">' + inTank.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
+    if (others.length) h += '<h2 class="gsub">' + esc(t('gOther')) + '</h2><div class="ggrid">' + others.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
+    app.innerHTML = h;
+    if (focusKey) {
+      const el = document.getElementById('g-' + focusKey);
+      if (el) { el.scrollIntoView({ block: 'start' }); el.focus({ preventScroll: true }); }
+    } else window.scrollTo(0, 0);
+  }
+
   /* ---------- history ---------- */
   function historyTableHtml(tank, sessions, readOnly) {
     const usedIds = new Set();
@@ -1025,7 +1130,8 @@
       '<p>' + esc(t('lastBackup', { when: S.lastBackup ? fmtDateTime(S.lastBackup) : t('never') })) + '</p>' +
       '<div class="btns"><button class="btn primary" type="button" data-act="exportJson">' + esc(t('exportJson')) + '</button>' +
       '<button class="btn" type="button" data-act="exportCsv">' + esc(t('exportCsv')) + '</button>' +
-      '<label class="btn filebtn">' + esc(t('importJson')) + '<input type="file" accept="application/json,.json" id="importFile"></label></div>' +
+      '<label class="btn filebtn">' + esc(t('importJson')) + '<input type="file" accept="application/json,.json" id="importFile"></label>' +
+      '<label class="btn filebtn">' + esc(t('alImport')) + '<input type="file" accept="text/csv,.csv" multiple id="alFile"></label></div>' +
       '<div class="btns"><button class="btn danger" type="button" data-act="clearAll">' + esc(t('clearAll')) + '</button></div></section>';
     app.innerHTML = h;
     updateTplPreview();
@@ -1151,19 +1257,169 @@
       return;
     }
     const r = await modal(t('importTitle'), '<p>' + esc(t('importBody', { tanks: data.tanks.length, sessions: data.sessions.length })) + '</p>',
-      [{ label: t('cancel'), value: '' }, { label: t('replace'), value: 'replace', danger: true }, { label: t('merge'), value: 'merge', primary: true }]);
-    if (r.value === 'replace') {
-      S = data;
-    } else if (r.value === 'merge') {
-      const mergeBy = (a, b) => { const m = new Map(a.map((x) => [x.id, x])); b.forEach((x) => m.set(x.id, x)); return Array.from(m.values()); };
-      S.tanks = mergeBy(S.tanks, data.tanks);
-      S.sessions = mergeBy(S.sessions, data.sessions);
-      S.templates = mergeBy(S.templates, data.templates);
-    } else return;
-    S = normalize(S);
+      [{ label: t('cancel'), value: '' }, { label: t('replace'), value: 'replace', danger: true }]);
+    if (r.value !== 'replace') return;
+    S = normalize(data);
     save();
     render();
     toast(t('imported'));
+  }
+
+  /* ---------- Aquarium Log CSV import ---------- */
+  // Aquarium Log exports two files per tank: measurements (parameter,value,createdAt,note)
+  // and notes (date,description). Both can be imported together into one tank.
+  const AL_KEYS = {
+    temperature: 'temp', temp: 'temp', salinity: 'sal', ph: 'ph', kh: 'kh', alkalinity: 'kh', dkh: 'kh',
+    calcium: 'ca', magnesium: 'mg', nitrate: 'no3', nitrite: 'no2', phosphate: 'po4', ammonia: 'nh3', ammonium: 'nh3',
+    potassium: 'k', iodine: 'i', iodide: 'i', strontium: 'sr', silicate: 'si', silica: 'si', iron: 'fe', copper: 'cu', orp: 'orp'
+  };
+  const AL_GROUP_MS = 3 * 3600000;
+
+  function parseCsv(text) {
+    text = text.replace(/^﻿/, '');
+    const rows = [];
+    let row = [];
+    let field = '';
+    let quoted = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (quoted) {
+        if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+        else if (c === '"') quoted = false;
+        else field += c;
+      } else if (c === '"') quoted = true;
+      else if (c === ',') { row.push(field); field = ''; }
+      else if (c === '\n' || c === '\r') {
+        if (c === '\r' && text[i + 1] === '\n') i++;
+        row.push(field); field = '';
+        if (row.some((x) => x !== '')) rows.push(row);
+        row = [];
+      } else field += c;
+    }
+    row.push(field);
+    if (row.some((x) => x !== '')) rows.push(row);
+    return rows;
+  }
+  function parseLocalDate(s) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2})(?::(\d{2}))?)?/.exec(String(s).trim());
+    if (!m) return null;
+    const d = m[4] == null
+      ? new Date(+m[1], +m[2] - 1, +m[3], 12, 0, 0)
+      : new Date(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +(m[6] || 0));
+    return isFinite(d.getTime()) ? d.getTime() : null;
+  }
+  const dayKey = (ms) => toLocalInput(ms).slice(0, 10);
+  const cleanNote = (s) => String(s || '').split(/\r?\n/).map((l) => l.trimEnd()).join('\n').replace(/^\s+|\s+$/g, '');
+
+  async function readAquariumLog(files) {
+    const readings = [];
+    const notes = [];
+    let bad = 0;
+    for (const file of files) {
+      const rows = parseCsv(await file.text());
+      if (!rows.length) continue;
+      const head = rows[0].map((h) => h.trim().toLowerCase());
+      const col = (n) => head.indexOf(n);
+      if (col('parameter') >= 0 && col('value') >= 0 && col('createdat') >= 0) {
+        rows.slice(1).forEach((r) => {
+          const name = (r[col('parameter')] || '').trim();
+          const v = parseFloat(String(r[col('value')] || '').replace(',', '.'));
+          const ms = parseLocalDate(r[col('createdat')]);
+          if (!name || !isFinite(v) || ms == null) { bad++; return; }
+          readings.push({ name, v, t: ms, note: col('note') >= 0 ? cleanNote(r[col('note')]) : '' });
+        });
+      } else if (col('date') >= 0 && col('description') >= 0) {
+        rows.slice(1).forEach((r) => {
+          const ms = parseLocalDate(r[col('date')]);
+          const text = cleanNote(r[col('description')]);
+          if (ms == null || !text) { if (text) bad++; return; }
+          notes.push({ t: ms, text });
+        });
+      }
+    }
+    return { readings, notes, bad };
+  }
+
+  function importAquariumLogInto(tank, data) {
+    const paramFor = {};
+    data.readings.forEach((r) => {
+      if (paramFor[r.name]) return;
+      const key = AL_KEYS[r.name.toLowerCase().replace(/[^a-z]/g, '')] || null;
+      let p = key ? tank.params.find((x) => x.key === key)
+        : tank.params.find((x) => !x.key && x.name.toLowerCase() === r.name.toLowerCase());
+      if (!p) { p = newParam(key, key ? {} : { name: r.name }); tank.params.push(p); }
+      p.hidden = false;
+      paramFor[r.name] = p;
+    });
+
+    const existing = tankSessions(tank);
+    const seen = new Set();
+    existing.forEach((s) => Object.keys(s.v).forEach((pid) => seen.add(pid + '|' + s.v[pid] + '|' + dayKey(s.t))));
+    let dup = 0;
+    const created = [];
+    let cur = null;
+    data.readings.slice().sort((a, b) => a.t - b.t).forEach((r) => {
+      const p = paramFor[r.name];
+      const key = p.id + '|' + r.v + '|' + dayKey(r.t);
+      if (seen.has(key)) { dup++; return; }
+      seen.add(key);
+      if (!cur || r.t - cur.t > AL_GROUP_MS || cur.v[p.id] != null) {
+        cur = { id: uid(), tankId: tank.id, t: r.t, v: {}, note: '' };
+        created.push(cur);
+      }
+      cur.v[p.id] = r.v;
+      if (r.note) cur.note = cur.note ? cur.note + '\n' + r.note : r.note;
+    });
+
+    const all = existing.concat(created).sort((a, b) => a.t - b.t);
+    let notesAdded = 0;
+    data.notes.forEach((n) => {
+      const day = dayKey(n.t);
+      if (all.some((s) => dayKey(s.t) === day && s.note && s.note.includes(n.text))) { dup++; return; }
+      const target = created.find((s) => dayKey(s.t) === day);
+      if (target) target.note = target.note ? target.note + '\n' + n.text : n.text;
+      else { const s = { id: uid(), tankId: tank.id, t: n.t, v: {}, note: n.text }; created.push(s); all.push(s); }
+      notesAdded++;
+    });
+    S.sessions.push(...created);
+    return { entries: created.length, dup, notes: notesAdded };
+  }
+
+  async function importAquariumLog(files) {
+    let data;
+    try { data = await readAquariumLog(files); } catch (e) { data = null; }
+    if (!data || (!data.readings.length && !data.notes.length)) { toast(t('alBad')); return; }
+    const times = data.readings.map((r) => r.t).concat(data.notes.map((n) => n.t));
+    const params = new Set(data.readings.map((r) => r.name));
+    const body = '<p>' + esc(t('alSummary', {
+      m: data.readings.length, p: params.size, n: data.notes.length,
+      from: fmtDate(Math.min(...times), true), to: fmtDate(Math.max(...times), true)
+    })) + '</p>' +
+      (data.bad ? '<p class="hint">' + esc(t('alBadRows', { n: data.bad })) + '</p>' : '') +
+      '<label class="field"><span>' + esc(t('alTarget')) + '</span><select name="target">' +
+      S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('') +
+      '<option value="__new">' + esc(t('alNewTank')) + '</option></select></label>' +
+      '<label class="field" data-newname hidden><span>' + esc(t('name')) + '</span><input type="text" name="newName" maxlength="60" value="' + esc(t('alDefaultName')) + '"></label>' +
+      '<p class="hint">' + esc(t('alHint')) + '</p>';
+    const r = await modal(t('alTitle'), body, [{ label: t('cancel'), value: '' }, { label: t('alGo'), value: 'ok', primary: true }], (d) => {
+      const sel = d.querySelector('[name="target"]');
+      const sync = () => { d.querySelector('[data-newname]').hidden = sel.value !== '__new'; };
+      sel.addEventListener('change', sync);
+      sync();
+    });
+    if (r.value !== 'ok') return;
+    const f = r.el.querySelector('form');
+    let tank;
+    if (f.elements.target.value === '__new') {
+      tank = makeTank(f.elements.newName.value.trim() || t('alDefaultName'), 'b-mixed');
+      S.tanks.push(tank);
+    } else tank = S.tanks.find((x) => x.id === f.elements.target.value) || activeTank();
+    const res = importAquariumLogInto(tank, data);
+    S.active = tank.id;
+    save();
+    location.hash = '#/history';
+    render();
+    toast(t('alDone', { s: res.entries, d: res.dup }));
   }
 
   /* ---------- sharing ---------- */
@@ -1381,6 +1637,7 @@
     }
     if (el.id === 'tplSel') updateTplPreview();
     if (el.id === 'importFile' && el.files[0]) { importFile(el.files[0]); el.value = ''; }
+    if (el.id === 'alFile' && el.files.length) { importAquariumLog(Array.from(el.files)); el.value = ''; }
   });
 
   async function onAction(btn) {
@@ -1403,6 +1660,16 @@
         $$('.chip[data-act="period"]', app).forEach((c) => { const on = Number(c.dataset.days) === chartPeriod; c.classList.toggle('on', on); c.setAttribute('aria-pressed', on); });
         if (lastChartCtx) drawAllCharts(lastChartCtx.tank, lastChartCtx.sessions);
         break;
+      case 'gAdd': {
+        const tank = activeTank();
+        const key = btn.dataset.key;
+        const hidden = tank.params.find((x) => x.key === key);
+        if (hidden) hidden.hidden = false; else tank.params.push(newParam(key));
+        save();
+        toast(t('gAdded'));
+        renderGuide(key);
+        break;
+      }
       case 'wide': {
         if (wide.has(pid)) wide.delete(pid); else wide.add(pid);
         const card = btn.closest('.ccard');

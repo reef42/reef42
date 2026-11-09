@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Calculators">
+  <rect width="320" height="180" fill="#0f1a1c"/>
+  <rect x="16" y="16" width="150" height="148" rx="8" fill="#142225" stroke="#2a4146"/>
+  <g fill="#9db3b8"><rect x="28" y="28" width="44" height="6" rx="3"/><rect x="28" y="66" width="56" height="6" rx="3"/><rect x="28" y="104" width="38" height="6" rx="3"/></g>
+  <g fill="#0d1719" stroke="#2a4146"><rect x="28" y="40" width="126" height="18" rx="5"/><rect x="28" y="78" width="126" height="18" rx="5"/><rect x="28" y="116" width="126" height="18" rx="5"/></g>
+  <g fill="#e4eff1"><rect x="36" y="46" width="30" height="6" rx="3"/><rect x="36" y="84" width="22" height="6" rx="3"/><rect x="36" y="122" width="34" height="6" rx="3"/></g>
+  <rect x="28" y="142" width="40" height="10" rx="5" fill="#163a3e" stroke="#3cc2cc"/>
+  <rect x="78" y="142" width="40" height="10" rx="5" fill="#163a3e" stroke="#3cc2cc"/>
+  <rect x="178" y="16" width="126" height="148" rx="8" fill="#142225" stroke="#2a4146"/>
+  <rect x="190" y="28" width="102" height="46" rx="6" fill="#163a3e"/>
+  <rect x="200" y="38" width="40" height="6" rx="3" fill="#9db3b8"/>
+  <rect x="200" y="52" width="70" height="12" rx="3" fill="#3cc2cc"/>
+  <rect x="190" y="82" width="102" height="34" rx="6" fill="#1b2d31"/>
+  <rect x="200" y="90" width="34" height="6" rx="3" fill="#9db3b8"/><rect x="200" y="102" width="52" height="8" rx="3" fill="#e4eff1"/>
+  <rect x="190" y="124" width="102" height="28" rx="6" fill="#3a2616"/>
+  <rect x="200" y="135" width="72" height="6" rx="3" fill="#f0a06a"/>
+</svg>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>reef42 links</title>
+  <meta name="description" content="Useful links for saltwater aquarium keepers: Hungarian and European shops, communities, manufacturers and tools.">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <style>
+    :root { --bg: #000; --text: #fff; --muted: #8a8a8a; --line: #262626; --card: #0b0b0b; --card-hover: #151515; --thumb: #0f1a1c; --accent: #3cc2cc; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg); color: var(--text); line-height: 1.5; min-height: 100vh; display: flex; flex-direction: column;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; text-transform: lowercase;
+    }
+    a { color: inherit; }
+    .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+    header { padding-top: 40px; padding-bottom: 20px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+    .back { display: inline-block; color: var(--muted); text-decoration: none; font-size: .9rem; margin-bottom: 12px; }
+    .back:hover { color: var(--text); }
+    h1 { margin: 0; font-size: clamp(2rem, 7vw, 3.2rem); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
+    .lead { margin: 10px 0 0; color: var(--muted); }
+    .pill {
+      font: inherit; font-size: .85rem; font-weight: 600; text-transform: lowercase; color: var(--text); background: transparent;
+      border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; cursor: pointer; white-space: nowrap;
+    }
+    .pill:hover { border-color: var(--text); }
+    .pill[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+    :focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+    main { flex: 1; padding-bottom: 48px; }
+
+    .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; overflow-x: auto; scrollbar-width: none; }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      font: inherit; text-transform: lowercase; color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent;
+      padding: 8px 14px 10px; font-weight: 600; font-size: 1rem; cursor: pointer; white-space: nowrap;
+    }
+    .tab:hover { color: var(--text); }
+    .tab[aria-selected="true"] { color: var(--text); border-bottom-color: var(--text); }
+    .tab .n { color: var(--muted); font-weight: 400; font-size: .85rem; }
+
+    .filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 18px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .search {
+      flex: 1 1 220px; max-width: 320px; font: inherit; color: var(--text); background: var(--card); border: 1px solid var(--line);
+      border-radius: 999px; padding: 6px 14px;
+    }
+    .search::placeholder { color: var(--muted); }
+    .count { color: var(--muted); font-size: .85rem; margin: 0 0 12px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 16px; margin: 0; padding: 0; list-style: none; }
+    .card {
+      display: flex; flex-direction: column; height: 100%; background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      overflow: hidden; text-decoration: none; transition: background .15s, border-color .15s;
+    }
+    a.card:hover { background: var(--card-hover); border-color: #444; }
+    .card.own { border-color: #2c5c60; }
+    .thumb {
+      display: flex; align-items: center; justify-content: center; height: 108px; background: var(--thumb);
+      border-bottom: 1px solid var(--line); position: relative;
+    }
+    .card.own .thumb { background: #0f2427; }
+    .logo {
+      width: 64px; height: 64px; border-radius: 14px; background: #fff; display: flex; align-items: center; justify-content: center;
+      overflow: hidden; box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+    }
+    .logo img { width: 52px; height: 52px; object-fit: contain; }
+    .logo.mono { font-weight: 700; font-size: 1.4rem; letter-spacing: -.02em; color: #fff; text-transform: none; }
+    .badge {
+      position: absolute; top: 10px; right: 10px; font-size: .72rem; font-weight: 600; padding: 1px 8px; border-radius: 999px;
+      background: #000; border: 1px solid var(--line); color: var(--muted);
+    }
+    .badge.own { color: var(--accent); border-color: #2c5c60; }
+    .body { display: flex; flex-direction: column; gap: 6px; flex: 1; padding: 14px 16px 16px; }
+    .body h2 { margin: 0; font-size: 1.05rem; font-weight: 600; overflow-wrap: anywhere; }
+    .body p { margin: 0; color: var(--muted); font-size: .92rem; }
+    .go { margin-top: auto; padding-top: 8px; font-size: .88rem; overflow-wrap: anywhere; }
+    .card.soon .go { color: var(--muted); }
+    .empty { color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 20px; color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; }
+    footer a { color: var(--text); text-underline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div>
+      <a class="back" href="../" data-i18n="back">← reef42</a>
+      <h1 data-i18n="title">links</h1>
+      <p class="lead" data-i18n="lead">shops, communities, manufacturers and tools for reef keepers</p>
+    </div>
+    <button class="pill" id="lang" type="button" aria-label="Language"></button>
+  </header>
+
+  <main class="wrap">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="filters">
+      <div class="chips" id="cats" role="group"></div>
+      <input class="search" id="q" type="search" autocomplete="off">
+    </div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <ul class="grid" id="list"></ul>
+  </main>
+
+  <footer class="wrap">
+    <span data-i18n="suggest">know a good link? tell us:</span>
+    <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a>
+  </footer>
+
+  <script src="links.js"></script>
+  <script>
+    (function () {
+      var TEXT = {
+        en: {
+          back: '← reef42', title: 'links', lead: 'shops, communities, manufacturers and tools for reef keepers',
+          suggest: 'know a good link? tell us:', toggle: 'magyar', search: 'search…', type: 'type', all: 'all',
+          hu: 'hungary', eu: 'europe', intl: 'international', any: 'all',
+          community: 'community', shop: 'shops', service: 'services', fresh: 'mainly freshwater', brand: 'manufacturers & labs', tools: 'tools & apps', learn: 'news & knowledge',
+          count: '{n} links', none: 'no links match the filters.', soon: 'link coming soon', own: 'reef42', open: 'open →',
+          docTitle: 'links – reef42'
+        },
+        hu: {
+          back: '← reef42', title: 'linkek', lead: 'boltok, közösségek, gyártók és eszközök tengeri akvaristáknak',
+          suggest: 'tudsz egy jó linket? írd meg:', toggle: 'english', search: 'keresés…', type: 'típus', all: 'mind',
+          hu: 'magyarország', eu: 'európa', intl: 'nemzetközi', any: 'összes',
+          community: 'közösség', shop: 'boltok', service: 'szolgáltatás', fresh: 'főleg édesvízi', brand: 'gyártók és laborok', tools: 'eszközök és appok', learn: 'hírek és tudás',
+          count: '{n} link', none: 'nincs a szűrésnek megfelelő link.', soon: 'link hamarosan', own: 'reef42', open: 'megnyitás →',
+          docTitle: 'linkek – reef42'
+        }
+      };
+      var TABS = ['hu', 'eu', 'intl', 'any'];
+      var REGIONS = ['hu', 'eu', 'intl'];
+      var CATS = ['community', 'shop', 'service', 'brand', 'tools', 'learn'];
+      var COLORS = ['#0e7c86', '#7a4bb3', '#b0532a', '#2f7d32', '#9a3b5c', '#3b5ea8'];
+      var LINKS = window.REEF42_LINKS || [];
+      var KEY = 'reef42-lang';
+      function load() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+      function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+      var lang = new URLSearchParams(location.search).get('lang') || load() ||
+        ((navigator.language || '').toLowerCase().indexOf('hu') === 0 ? 'hu' : 'en');
+      if (lang !== 'hu') lang = 'en';
+
+      var state = { region: 'hu', cat: '', q: '' };
+      (function readHash() {
+        var p = new URLSearchParams(location.hash.slice(1));
+        if (TABS.indexOf(p.get('r')) >= 0) state.region = p.get('r');
+        if (CATS.indexOf(p.get('c')) >= 0) state.cat = p.get('c');
+      })();
+      function writeHash() {
+        var p = new URLSearchParams();
+        if (state.region !== 'hu') p.set('r', state.region);
+        if (state.cat) p.set('c', state.cat);
+        var h = p.toString();
+        history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+      }
+
+      function t(k) { return TEXT[lang][k]; }
+      function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+      function norm(s) { return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+      function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } }
+      function initials(name) {
+        var w = name.replace(/[^A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű ]/g, ' ').split(/\s+/).filter(Boolean);
+        return (w.length > 1 ? w[0][0] + w[1][0] : name.slice(0, 2)).toUpperCase();
+      }
+      function color(name) { var h = 0; for (var i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0; return COLORS[h % COLORS.length]; }
+
+      function matches(l, ignoreRegion) {
+        if (!ignoreRegion && state.region !== 'any' && l.region !== state.region) return false;
+        if (state.cat && l.cat !== state.cat) return false;
+        var q = norm(state.q.trim());
+        if (!q) return true;
+        return norm([l.name, l.desc.en, l.desc.hu, host(l.url), l.country || '', TEXT.en[l.cat], TEXT.hu[l.cat]].join(' ')).indexOf(q) >= 0;
+      }
+
+      function renderTabs() {
+        document.getElementById('tabs').innerHTML = TABS.map(function (r) {
+          var n = LINKS.filter(function (l) { return matches(l, true) && (r === 'any' || l.region === r); }).length;
+          return '<button type="button" class="tab" role="tab" data-region="' + r + '" aria-selected="' + (state.region === r) + '">' +
+            esc(t(r)) + ' <span class="n">' + n + '</span></button>';
+        }).join('');
+      }
+      function renderCats() {
+        var el = document.getElementById('cats');
+        el.setAttribute('aria-label', t('type'));
+        el.innerHTML = [''].concat(CATS).filter(function (c) {
+          return !c || LINKS.some(function (l) { return l.cat === c && (state.region === 'any' || l.region === state.region); });
+        }).map(function (c) {
+          return '<button type="button" class="pill" data-cat="' + c + '" aria-pressed="' + (state.cat === c) + '">' + esc(c ? t(c) : t('all')) + '</button>';
+        }).join('');
+      }
+
+      function cardHtml(l) {
+        var logo = l.logo
+          ? '<span class="logo"><img src="' + esc(l.logo) + '" alt="" width="52" height="52" loading="lazy"' + (l.logoZoom ? ' style="transform:scale(' + Number(l.logoZoom) + ')"' : '') + '></span>'
+          : '<span class="logo mono" style="background:' + color(l.name) + '">' + esc(initials(l.name)) + '</span>';
+        var badge = l.reef42 ? '<span class="badge own">' + esc(t('own')) + '</span>'
+          : l.fresh ? '<span class="badge">' + esc(t('fresh')) + '</span>'
+          : '<span class="badge">' + esc(state.region === 'any' ? t(l.region) + (l.country ? ' · ' + l.country.toLowerCase() : '') : (l.country ? l.country.toLowerCase() : t(l.cat))) + '</span>';
+        var body = '<span class="thumb">' + logo + badge + '</span><span class="body"><h2>' + esc(l.name) + '</h2><p>' + esc(l.desc[lang] || l.desc.en) +
+          '</p><span class="go">' + esc(l.url ? host(l.url) + ' →' : t('soon')) + '</span></span>';
+        var cls = 'card' + (l.reef42 ? ' own' : '') + (l.url ? '' : ' soon');
+        return '<li>' + (l.url ? '<a class="' + cls + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + body + '</a>'
+          : '<div class="' + cls + '">' + body + '</div>') + '</li>';
+      }
+
+      function renderList() {
+        var items = LINKS.filter(function (l) { return matches(l, false); });
+        items.sort(function (a, b) {
+          return (b.reef42 ? 1 : 0) - (a.reef42 ? 1 : 0) || (a.fresh ? 1 : 0) - (b.fresh ? 1 : 0) || REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
+            CATS.indexOf(a.cat) - CATS.indexOf(b.cat);
+        });
+        document.getElementById('count').textContent = t('count').replace('{n}', items.length);
+        document.getElementById('list').innerHTML = items.length ? items.map(cardHtml).join('') : '<li class="empty">' + esc(t('none')) + '</li>';
+        renderTabs();
+      }
+
+      function render() {
+        document.documentElement.lang = lang;
+        document.title = t('docTitle');
+        document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = t(el.getAttribute('data-i18n')); });
+        var btn = document.getElementById('lang');
+        btn.textContent = t('toggle');
+        btn.setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
+        var q = document.getElementById('q');
+        q.placeholder = t('search');
+        q.setAttribute('aria-label', t('search'));
+        renderCats();
+        renderList();
+      }
+
+      document.addEventListener('click', function (e) {
+        var b = e.target.closest('button');
+        if (!b) return;
+        var sel = null;
+        if (b.id === 'lang') { lang = lang === 'hu' ? 'en' : 'hu'; save(lang); render(); return; }
+        if (b.dataset.region) {
+          state.region = b.dataset.region;
+          if (state.cat && !LINKS.some(function (l) { return l.cat === state.cat && (state.region === 'any' || l.region === state.region); })) state.cat = '';
+          sel = '.tab[data-region="' + state.region + '"]';
+        } else if (b.dataset.cat !== undefined) {
+          state.cat = b.dataset.cat;
+          sel = '.pill[data-cat="' + state.cat + '"]';
+        } else return;
+        writeHash();
+        render();
+        var again = document.querySelector(sel);
+        if (again) again.focus();
+      });
+      document.getElementById('q').addEventListener('input', function (e) { state.q = e.target.value; renderList(); });
+
+      render();
+    })();
+  </script>
+</body>
+</html>

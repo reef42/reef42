@@ -1,0 +1,894 @@
+{
+  "intro": {
+    "en": "General guidance for reef and fish-only saltwater aquariums. Stability matters more than hitting an exact number: change one thing at a time, in small steps, and retest. 'Ideal' is the range to aim for; 'Tolerable' is where most animals still do fine and gentle correction is enough. Nitrate and phosphate follow Randy Holmes-Farley's “Randy’s Thoughts on Nutrient Target Ranges” (Reef2Reef, 2025); most other values follow his “Reef Aquarium Water Parameters” (Reefkeeping, 2004).",
+    "hu": "Általános irányelvek korallos és csak halas tengeri akváriumokhoz. A stabilitás fontosabb, mint egy pontos szám elérése: egyszerre egy dolgon változtass, kis lépésekben, és mérj újra. Az „Ideális” a megcélzandó tartomány; a „Tolerálható” tartományban a legtöbb állat még jól van, elég finoman korrigálni. A nitrát és a foszfát Randy Holmes-Farley „Randy’s Thoughts on Nutrient Target Ranges” (Reef2Reef, 2025) cikkét követi, a legtöbb többi érték az ő „Reef Aquarium Water Parameters” (Reefkeeping, 2004) cikkét."
+  },
+  "params": {
+    "temp": {
+      "ideal": [25, 27],
+      "tol": [24, 28],
+      "what": {
+        "en": "Water temperature.",
+        "hu": "A víz hőmérséklete."
+      },
+      "why": {
+        "en": "Sets the metabolic rate of every animal and bacterium in the aquarium. Warm water holds less oxygen; above about 29 °C corals can bleach. Daily swings stress animals more than a slightly off but stable value. Randy Holmes-Farley recommends 24.5–28 °C (76–83 °F).",
+        "hu": "Minden állat és baktérium anyagcseréjének sebességét meghatározza. A meleg víz kevesebb oxigént old; kb. 29 °C felett a korallok kifehéredhetnek. A napi ingadozás jobban megviseli az állatokat, mint egy kicsit eltérő, de stabil érték. Randy Holmes-Farley ajánlása 24,5–28 °C (76–83 °F)."
+      },
+      "step": {
+        "en": "Max. about 1 °C per day.",
+        "hu": "Legfeljebb kb. 1 °C naponta."
+      },
+      "raise": {
+        "en": [
+          "Correctly sized heater (or two smaller ones) with a separate temperature controller",
+          "Insulate the sump or lid in a cold room"
+        ],
+        "hu": [
+          "Megfelelő teljesítményű fűtő (vagy két kisebb) külön hőmérséklet-vezérlővel",
+          "Hideg helyiségben a sump vagy a fedél szigetelése"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Fans blowing across the water surface (evaporative cooling – the top-off will run more)",
+          "Open the lid, shorten the light period or dim the lights",
+          "Cool the room; a chiller in hot summers"
+        ],
+        "hu": [
+          "Vízfelszínre fújó ventilátor (párologtatásos hűtés – több utántöltő víz fogy)",
+          "Fedél nyitása, rövidebb vagy gyengébb világítás",
+          "A helyiség hűtése; nagy nyári melegben hűtőgép (chiller)"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Room temperature and sunlight",
+          "Lights, pumps, return pump and heaters",
+          "A stuck heater is the most common cause of sudden overheating"
+        ],
+        "hu": [
+          "A helyiség hőmérséklete, napfény",
+          "Világítás, szivattyúk, visszaemelő pumpa, fűtők",
+          "Hirtelen túlmelegedés leggyakoribb oka a beragadt fűtő"
+        ]
+      },
+      "tip": {
+        "en": "Check the controller probe against a second thermometer now and then.",
+        "hu": "A vezérlő szondáját időnként ellenőrizd egy második hőmérővel."
+      }
+    },
+    "sal": {
+      "ideal": [34.5, 35.5],
+      "tol": [32, 36],
+      "what": {
+        "en": "Salt content of the water in ppt (35 ppt ≈ specific gravity 1.026 at 25 °C).",
+        "hu": "A víz sótartalma ezrelékben (ppt); 35 ppt ≈ 1,026 fajsúly 25 °C-on."
+      },
+      "why": {
+        "en": "Animals keep their internal water balance against the salinity of the water. Corals and invertebrates are far more sensitive to low or changing salinity than fish. Natural seawater is 34–36 ppt; within 32–36 ppt the exact value matters little, but most other parameters (Ca, Mg, KH) scale with it.",
+        "hu": "Az állatok a víz sótartalmához igazítják belső vízháztartásukat. A korallok és gerinctelenek sokkal érzékenyebbek az alacsony vagy változó sótartalomra, mint a halak. A természetes tengervíz 34–36 ppt; 32–36 ppt között a pontos érték kevésbé számít, de a legtöbb más paraméter (Ca, Mg, KH) vele arányosan változik."
+      },
+      "step": {
+        "en": "Max. about 1 ppt per day.",
+        "hu": "Legfeljebb kb. 1 ppt naponta."
+      },
+      "raise": {
+        "en": [
+          "Water changes with slightly saltier new water",
+          "Top off with premixed saltwater for a few days instead of fresh water",
+          "Never pour dry salt into the display tank"
+        ],
+        "hu": [
+          "Vízcsere kicsit sósabb friss vízzel",
+          "Néhány napig édesvíz helyett kevert sós vízzel pótold a párolgást",
+          "Száraz sót soha ne szórj közvetlenül az akváriumba"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Replace some tank water with RO/DI fresh water, slowly",
+          "Check that the top-off uses fresh water, not saltwater"
+        ],
+        "hu": [
+          "Cserélj ki a vízből egy részt RO/DI édesvízre, lassan",
+          "Ellenőrizd, hogy az utántöltő édesvizet és ne sós vizet pótol"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Evaporation concentrates the salt – an automatic top-off (ATO) with fresh water keeps it stable",
+          "Salt creep, skimmer wet-skimming and water changes remove salt",
+          "A failed ATO or refractometer drift are common causes of slow change"
+        ],
+        "hu": [
+          "A párolgás töményíti a sót – az édesvizes automata utántöltő (ATO) tartja stabilan",
+          "Sókiválás, nedves fölözés és vízcsere sót visz el",
+          "Lassú elmászás gyakori oka a hibás ATO vagy az elállítódott refraktométer"
+        ]
+      },
+      "tip": {
+        "en": "Calibrate the refractometer with a 35 ppt reference solution, not with RO water only.",
+        "hu": "A refraktométert 35 ppt-s kalibráló folyadékkal kalibráld, ne csak RO vízzel."
+      }
+    },
+    "ph": {
+      "ideal": [8.1, 8.3],
+      "tol": [7.8, 8.5],
+      "what": {
+        "en": "How acidic or basic the water is.",
+        "hu": "A víz savasságát vagy lúgosságát mutatja."
+      },
+      "why": {
+        "en": "Corals build their skeleton faster at higher pH. pH follows the CO₂ level: it drops at night and rises during the light period – a daily swing of 0.1–0.3 is normal.",
+        "hu": "A korallok magasabb pH-n gyorsabban építik a vázukat. A pH a CO₂-szintet követi: éjjel csökken, a világítási időszakban nő – napi 0,1–0,3 ingadozás normális."
+      },
+      "step": {
+        "en": "Follows KH and CO₂; avoid sudden jumps of more than about 0.2.",
+        "hu": "A KH-t és a CO₂-t követi; kerüld a kb. 0,2-nél nagyobb hirtelen ugrást."
+      },
+      "raise": {
+        "en": [
+          "Fresh outside air for the skimmer air intake, ventilate the room",
+          "CO₂ scrubber on the skimmer air intake",
+          "Refugium lit opposite to the display (reverse photoperiod)",
+          "Kalkwasser (limewater) top-off, or keeping KH in the upper part of its range"
+        ],
+        "hu": [
+          "Friss külső levegő a fölöző levegőbemenetére, a szoba szellőztetése",
+          "CO₂-megkötő (scrubber) a fölöző levegőbemenetén",
+          "A fő akváriummal ellentétes ciklusban világított refugium",
+          "Kalkwasser (mészvíz) utántöltés, vagy a KH tartomány felső részén tartása"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Rarely needed; usually caused by too much kalkwasser or carbonate – reduce the dose",
+          "A calcium reactor lowers pH by adding CO₂"
+        ],
+        "hu": [
+          "Ritkán kell; legtöbbször a túl sok kalkwasser vagy karbonát okozza – csökkentsd az adagot",
+          "A kalciumreaktor CO₂ adagolással csökkenti a pH-t"
+        ]
+      },
+      "sources": {
+        "en": [
+          "CO₂ from the room air (people, closed windows, gas heating) lowers it",
+          "Respiration of animals and bacteria lowers it at night",
+          "Photosynthesis and alkaline additives raise it"
+        ],
+        "hu": [
+          "A szoba levegőjének CO₂-tartalma (emberek, zárt ablak, gázfűtés) csökkenti",
+          "Az állatok és baktériumok légzése éjjel csökkenti",
+          "A fotoszintézis és a lúgos adalékok növelik"
+        ]
+      },
+      "tip": {
+        "en": "Measure at the same time of day; a calibrated probe gives far better readings than colour tests.",
+        "hu": "Mindig ugyanabban a napszakban mérj; a kalibrált szonda sokkal pontosabb, mint a színes teszt."
+      }
+    },
+    "kh": {
+      "ideal": [7.5, 9.5],
+      "tol": [7, 12],
+      "what": {
+        "en": "Alkalinity (carbonate hardness): the bicarbonate and carbonate content that corals use to build their skeleton.",
+        "hu": "Lúgosság (karbonátkeménység): a hidrogén-karbonát és karbonát tartalom, amiből a korallok a vázukat építik."
+      },
+      "why": {
+        "en": "Stony corals consume it quickly, so it is the parameter that changes fastest in a reef aquarium. Natural seawater is about 7 dKH; 7–11 dKH is the usual reef range, and higher is acceptable as long as calcium does not drop. Swings cause tissue loss and burnt tips; high alkalinity combined with very low nutrients is especially risky.",
+        "hu": "A kőkorallok gyorsan fogyasztják, ezért ez változik a leggyorsabban egy korallos akváriumban. A természetes tengervíz kb. 7 dKH; korallos akváriumban 7–11 dKH a szokásos, és magasabb is elfogadható, amíg a kalcium nem esik le. Az ingadozás szövetvesztést és „égett” ághegyeket okoz; a magas KH nagyon alacsony tápanyagszinttel együtt különösen kockázatos."
+      },
+      "step": {
+        "en": "Max. about 1 dKH per day; keep daily swings under 0.5 dKH.",
+        "hu": "Legfeljebb kb. 1 dKH naponta; a napi ingadozás maradjon 0,5 dKH alatt."
+      },
+      "raise": {
+        "en": [
+          "Buffer: sodium bicarbonate (raises pH less) or sodium carbonate/soda ash (raises pH more)",
+          "Two-part (balling) dosing with a dosing pump, spread over the day",
+          "Kalkwasser or a calcium reactor for heavy demand"
+        ],
+        "hu": [
+          "Puffer: nátrium-hidrogén-karbonát (kevésbé emeli a pH-t) vagy nátrium-karbonát/szóda (jobban emeli a pH-t)",
+          "Kétkomponensű (Balling) adagolás adagolópumpával, a napra elosztva",
+          "Nagy fogyasztásnál kalkwasser vagy kalciumreaktor"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Pause or reduce dosing and let the corals use it up",
+          "Water change with a salt mix lower in alkalinity",
+          "Never add acid to the tank"
+        ],
+        "hu": [
+          "Szüneteltesd vagy csökkentsd az adagolást, a korallok elfogyasztják",
+          "Vízcsere alacsonyabb KH-jú sóval",
+          "Savat soha ne tegyél az akváriumba"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix and alkalinity supplements add it",
+          "Consumed by stony corals, clams, coralline algae and by nitrification",
+          "Carbon dosing and nitrate-reducing products (e.g. AFR-type) can change consumption"
+        ],
+        "hu": [
+          "A só és a KH-pótlók adják",
+          "A kőkorallok, kagylók, mészalgák és a nitrifikáció fogyasztják",
+          "A szénforrás-adagolás és nitrátcsökkentő szerek (pl. AFR-típusú) módosíthatják a fogyasztást"
+        ]
+      },
+      "tip": {
+        "en": "Measure at the same time of day, ideally before the dosing pump runs; watch the trend, not one reading.",
+        "hu": "Mindig ugyanakkor mérj, lehetőleg az adagolás előtt; a trendet figyeld, ne egy-egy mérést."
+      }
+    },
+    "ca": {
+      "ideal": [400, 450],
+      "tol": [360, 500],
+      "what": {
+        "en": "Dissolved calcium, the other building block of coral skeletons.",
+        "hu": "Oldott kalcium, a korallváz másik építőköve."
+      },
+      "why": {
+        "en": "Corals, clams and coralline algae need it for calcification. Natural seawater has about 420 ppm; growth slows below about 360 ppm, and going above natural levels does not speed it up. It is consumed together with alkalinity in a fixed ratio, so keep the two balanced; both too high together can precipitate.",
+        "hu": "A korallok, kagylók és mészalgák a mészképzéshez használják. A természetes tengervízben kb. 420 ppm; kb. 360 ppm alatt lassul a növekedés, a természetes szint fölé emelés viszont nem gyorsítja. A KH-val együtt, állandó arányban fogy, ezért a kettőt egyensúlyban kell tartani; ha mindkettő túl magas, kicsapódhat."
+      },
+      "step": {
+        "en": "Max. about 25–50 ppm per day.",
+        "hu": "Legfeljebb kb. 25–50 ppm naponta."
+      },
+      "raise": {
+        "en": [
+          "Calcium chloride (two-part / balling)",
+          "Kalkwasser or a calcium reactor for heavy demand"
+        ],
+        "hu": [
+          "Kalcium-klorid (kétkomponensű / Balling)",
+          "Nagy fogyasztásnál kalkwasser vagy kalciumreaktor"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Pause calcium dosing and let the corals use it up",
+          "Water changes"
+        ],
+        "hu": [
+          "Szüneteltesd a kalcium adagolását, a korallok elfogyasztják",
+          "Vízcsere"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix and calcium supplements",
+          "Consumed by stony corals, clams and coralline algae",
+          "Lost by precipitation when alkalinity or pH are pushed too high"
+        ],
+        "hu": [
+          "A só és a kalciumpótlók",
+          "A kőkorallok, kagylók és mészalgák fogyasztják",
+          "Kicsapódással fogy, ha a KH vagy a pH túl magasra kerül"
+        ]
+      },
+      "tip": {
+        "en": "If calcium is high but KH keeps dropping, adjust the alkalinity part only.",
+        "hu": "Ha a kalcium magas, de a KH folyamatosan esik, csak a KH-pótlást állítsd."
+      }
+    },
+    "mg": {
+      "ideal": [1250, 1350],
+      "tol": [1200, 1500],
+      "what": {
+        "en": "Dissolved magnesium.",
+        "hu": "Oldott magnézium."
+      },
+      "why": {
+        "en": "Magnesium keeps calcium and carbonate from precipitating out of the water. When it is low, calcium and alkalinity become hard to keep stable even with dosing. Natural seawater has about 1280 ppm.",
+        "hu": "A magnézium megakadályozza, hogy a kalcium és a karbonát kicsapódjon a vízből. Ha alacsony, a kalciumot és a KH-t adagolással is nehéz stabilan tartani. A természetes tengervízben kb. 1280 ppm."
+      },
+      "step": {
+        "en": "Max. about 100 ppm per day.",
+        "hu": "Legfeljebb kb. 100 ppm naponta."
+      },
+      "raise": {
+        "en": [
+          "Magnesium supplement (a mix of magnesium chloride and magnesium sulfate)",
+          "Water changes with a magnesium-rich salt"
+        ],
+        "hu": [
+          "Magnéziumpótló (magnézium-klorid és magnézium-szulfát keveréke)",
+          "Vízcsere magas magnéziumtartalmú sóval"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Stop dosing; water changes bring it back slowly"
+        ],
+        "hu": [
+          "Hagyd abba az adagolást; a vízcserék lassan visszahozzák"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix and supplements",
+          "Slowly consumed by calcification and coralline algae"
+        ],
+        "hu": [
+          "A só és a pótlók",
+          "A mészképzés és a mészalgák lassan fogyasztják"
+        ]
+      },
+      "tip": {
+        "en": "Fix magnesium before chasing calcium or KH problems.",
+        "hu": "Először a magnéziumot rendezd, csak utána a kalcium- vagy KH-problémákat."
+      }
+    },
+    "no3": {
+      "ideal": [5, 50],
+      "tol": [2, 75],
+      "what": {
+        "en": "Nitrate, the end product of the nitrogen cycle and a nutrient for algae and corals.",
+        "hu": "Nitrát, a nitrogénkörforgás végterméke; az algák és korallok tápanyaga."
+      },
+      "why": {
+        "en": "Corals need nitrogen: near zero they turn pale and can starve, and dinoflagellates or cyanobacteria often appear. Randy Holmes-Farley suggests letting nitrate float between 5 and 50 ppm with gentle export (e.g. macroalgae); below 5 ppm feed more or dose nitrogen, above 50 ppm focus on lowering it. Very high levels feed nuisance algae. Fish-only aquariums tolerate even more.",
+        "hu": "A koralloknak kell nitrogén: nulla közelében kifakulnak, éhezhetnek, és gyakran megjelennek a dinoflagelláták vagy a cianobaktériumok. Randy Holmes-Farley azt javasolja, hogy a nitrát szabadon mozogjon 5 és 50 ppm között, kíméletes kivonással (pl. makroalgával); 5 ppm alatt etess többet vagy adagolj nitrogént, 50 ppm felett a csökkentésre koncentrálj. A nagyon magas szint a kártékony algákat táplálja. Csak halas akváriumban ennél több is tűrhető."
+      },
+      "step": {
+        "en": "Lower slowly: about 20–30 % per week. Never crash it to zero.",
+        "hu": "Lassan csökkentsd: hetente kb. 20–30%-kal. Soha ne vidd le hirtelen nullára."
+      },
+      "raise": {
+        "en": [
+          "Feed more or add fish",
+          "Reduce export: less skimming, less refugium light, less carbon dosing",
+          "Dose sodium or potassium nitrate if needed"
+        ],
+        "hu": [
+          "Több etetés, több hal",
+          "Kevesebb kivonás: gyengébb fölözés, kevesebb refugiumfény, kevesebb szénforrás",
+          "Szükség esetén nátrium- vagy kálium-nitrát adagolása"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Water changes",
+          "Protein skimmer and filter socks or roller mat cleaned regularly",
+          "Refugium with macroalgae (e.g. chaeto)",
+          "Carbon dosing (vodka/vinegar, NOPOX, AFR-type products), denitrator",
+          "Feed less and rinse frozen food"
+        ],
+        "hu": [
+          "Vízcsere",
+          "Fölöző, rendszeresen tisztított szűrőzokni vagy roller mat",
+          "Refugium makroalgával (pl. chaeto)",
+          "Szénforrás-adagolás (vodka/ecet, NOPOX, AFR-típusú szerek), denitrátor",
+          "Kevesebb etetés, a fagyasztott eleség leöblítése"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Fish waste and uneaten food (ammonia → nitrite → nitrate)",
+          "Decaying animals and detritus",
+          "Tap water or exhausted RO/DI filters"
+        ],
+        "hu": [
+          "Halürülék és el nem fogyasztott eleség (ammónia → nitrit → nitrát)",
+          "Bomló állatok, üledék",
+          "Csapvíz vagy kimerült RO/DI szűrő"
+        ]
+      },
+      "tip": {
+        "en": "Many hobby tests jump between 10, 25 and 50; a photometer or a low-range kit helps below 10 ppm.",
+        "hu": "Sok hobbi teszt 10, 25 és 50 között ugrál; 10 ppm alatt fotométer vagy alacsony tartományú teszt segít."
+      }
+    },
+    "po4": {
+      "ideal": [0.06, 0.3],
+      "tol": [0.03, 0.5],
+      "what": {
+        "en": "Phosphate, a nutrient for algae and corals.",
+        "hu": "Foszfát, az algák és korallok tápanyaga."
+      },
+      "why": {
+        "en": "Corals need some phosphate – when it bottoms out they pale and dinoflagellates can take over. Randy Holmes-Farley suggests letting it float between about 0.06 and 0.3 ppm; below 0.06 ppm feed more or dose sodium phosphate, above about 0.3 ppm reduce it with macroalgae or turf, or a binder such as GFO or lanthanum. Much higher levels fuel hair algae and cyanobacteria and slow coral growth.",
+        "hu": "A koralloknak kell valamennyi foszfát – ha kiürül, kifakulnak, és elszaporodhatnak a dinoflagelláták. Randy Holmes-Farley azt javasolja, hogy kb. 0,06 és 0,3 ppm között mozogjon szabadon; 0,06 ppm alatt etess többet vagy adagolj nátrium-foszfátot, kb. 0,3 ppm felett csökkentsd makroalgával, gyepalgával vagy megkötővel (GFO, lantán). A jóval magasabb szint a fonalas algát és a cianobaktériumot táplálja, és lassítja a korallok növekedését."
+      },
+      "step": {
+        "en": "Lower gradually; a sudden drop from high values can stress corals.",
+        "hu": "Fokozatosan csökkentsd; magas értékről a hirtelen esés megviseli a korallokat."
+      },
+      "raise": {
+        "en": [
+          "Feed more",
+          "Reduce phosphate removers (less GFO, lanthanum)",
+          "Dose sodium phosphate if needed"
+        ],
+        "hu": [
+          "Több etetés",
+          "Kevesebb foszfátmegkötő (kevesebb GFO, lantán)",
+          "Szükség esetén nátrium-foszfát adagolása"
+        ]
+      },
+      "lower": {
+        "en": [
+          "GFO (granular ferric oxide, e.g. Rowaphos) in a reactor – start with a small amount",
+          "Lanthanum chloride, carefully, with a fine filter sock",
+          "Carbon dosing, refugium, skimming, water changes",
+          "Feed less and rinse frozen food"
+        ],
+        "hu": [
+          "GFO (granulált vas-oxid, pl. Rowaphos) reaktorban – kis mennyiséggel kezdd",
+          "Lantán-klorid óvatosan, finom szűrőzoknival",
+          "Szénforrás-adagolás, refugium, fölözés, vízcsere",
+          "Kevesebb etetés, a fagyasztott eleség leöblítése"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Food (especially frozen food with its juice)",
+          "Old rock and sand can release stored phosphate for months",
+          "Some salt mixes, tap water, exhausted RO/DI filters"
+        ],
+        "hu": [
+          "Eleség (főleg a fagyasztott eleség leve)",
+          "A régi kő és homok hónapokig adhatja le a megkötött foszfátot",
+          "Egyes sók, csapvíz, kimerült RO/DI szűrő"
+        ]
+      },
+      "tip": {
+        "en": "Use a photometer (e.g. Hanna) for low values; colour cards are not precise below 0.1 ppm.",
+        "hu": "Alacsony értékekhez fotométert (pl. Hanna) használj; 0,1 ppm alatt a színskálás teszt pontatlan."
+      }
+    },
+    "nh3": {
+      "ideal": [0, 0],
+      "tol": [null, 0.1],
+      "what": {
+        "en": "Ammonia/ammonium, the first product of protein breakdown and fish excretion.",
+        "hu": "Ammónia/ammónium, a fehérjebomlás és a halak kiválasztásának első terméke."
+      },
+      "why": {
+        "en": "Toxic: it damages gills, and levels around 0.2 ppm can already endanger fish. The free ammonia (NH₃) share grows with pH and temperature. In a cycled aquarium bacteria convert it within hours, so any persistent measurable value signals a problem.",
+        "hu": "Mérgező: károsítja a kopoltyút, kb. 0,2 ppm már veszélyes lehet a halakra. A szabad ammónia (NH₃) aránya a pH-val és a hőmérséklettel nő. Beért akváriumban a baktériumok órák alatt átalakítják, ezért a tartósan mérhető érték problémát jelez."
+      },
+      "step": {
+        "en": "Act immediately when it is above zero.",
+        "hu": "Ha nulla felett van, azonnal lépj."
+      },
+      "raise": {
+        "en": [
+          "Only for a fishless cycle of a new tank (ammonium chloride)"
+        ],
+        "hu": [
+          "Csak új akvárium hal nélküli beindításakor (ammónium-klorid)"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Large water change",
+          "Remove dead animals and uneaten food, feed less",
+          "Ammonia binder (e.g. Seachem Prime) as a temporary help",
+          "Bacteria supplement, more biological filtration"
+        ],
+        "hu": [
+          "Nagyobb vízcsere",
+          "Az elpusztult állatok és az eleségmaradék eltávolítása, kevesebb etetés",
+          "Átmeneti segítségként ammóniamegkötő (pl. Seachem Prime)",
+          "Baktériumkészítmény, több biológiai szűrés"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Fish excretion and decaying food",
+          "Dead animals, die-off after medication",
+          "New tank still cycling, or filter bacteria killed by medication or cleaning"
+        ],
+        "hu": [
+          "Halak kiválasztása, bomló eleség",
+          "Elpusztult állatok, gyógyszerezés utáni elhalás",
+          "Még be nem ért akvárium, vagy gyógyszer, tisztítás miatt elpusztult szűrőbaktériumok"
+        ]
+      },
+      "tip": {
+        "en": "Ammonia binders can give false readings with some test kits.",
+        "hu": "Az ammóniamegkötők egyes teszteknél hamis értéket adhatnak."
+      }
+    },
+    "no2": {
+      "ideal": [0, 0],
+      "tol": [null, 0.2],
+      "what": {
+        "en": "Nitrite, the intermediate step between ammonia and nitrate.",
+        "hu": "Nitrit, az ammónia és a nitrát közötti köztes termék."
+      },
+      "why": {
+        "en": "Mainly shows whether the biological filter is working. In saltwater it is far less toxic than in freshwater, but any persistent reading in an established tank means the filter is out of balance.",
+        "hu": "Főleg azt mutatja, hogy működik-e a biológiai szűrés. Tengervízben sokkal kevésbé mérgező, mint édesvízben, de beállt akváriumban a tartósan mérhető érték a szűrés felborulását jelzi."
+      },
+      "step": {
+        "en": "Should fall back to zero within days.",
+        "hu": "Napokon belül vissza kell esnie nullára."
+      },
+      "raise": {
+        "en": [
+          "Never needed"
+        ],
+        "hu": [
+          "Soha nem kell"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Water change",
+          "Bacteria supplement; let the new tank finish cycling",
+          "Feed less until it is zero again"
+        ],
+        "hu": [
+          "Vízcsere",
+          "Baktériumkészítmény; hagyd beérni az új akváriumot",
+          "Kevesebb etetés, amíg újra nulla"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Nitrification of ammonia, especially in new or disturbed tanks"
+        ],
+        "hu": [
+          "Az ammónia nitrifikációja, főleg új vagy felbolygatott akváriumban"
+        ]
+      },
+      "tip": {
+        "en": "Test it mainly in new tanks and after medication or big cleanups.",
+        "hu": "Főleg új akváriumban, illetve gyógyszerezés és nagy takarítás után mérd."
+      }
+    },
+    "k": {
+      "ideal": [390, 420],
+      "tol": [360, 460],
+      "what": {
+        "en": "Potassium.",
+        "hu": "Kálium."
+      },
+      "why": {
+        "en": "Involved in coral tissue health and colour, especially blue and purple tones. Usually stays fine with regular water changes; low values appear in heavily stocked SPS tanks.",
+        "hu": "A koralloknál a szövet egészségéhez és a színekhez – főleg a kék és lila árnyalatokhoz – kapcsolódik. Rendszeres vízcserével általában rendben marad; alacsony érték sűrűn telepített SPS akváriumokban fordul elő."
+      },
+      "step": {
+        "en": "Max. about 10 ppm per day.",
+        "hu": "Legfeljebb kb. 10 ppm naponta."
+      },
+      "raise": {
+        "en": [
+          "Potassium supplement (potassium chloride or sulfate)",
+          "Potassium nitrate when nitrate is also low"
+        ],
+        "hu": [
+          "Káliumpótló (kálium-klorid vagy -szulfát)",
+          "Kálium-nitrát, ha a nitrát is alacsony"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Stop dosing, water changes"
+        ],
+        "hu": [
+          "Az adagolás leállítása, vízcsere"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix and food",
+          "Consumed by corals and macroalgae"
+        ],
+        "hu": [
+          "A só és az eleség",
+          "A korallok és a makroalgák fogyasztják"
+        ]
+      },
+      "tip": {
+        "en": "Hobby potassium tests are imprecise; confirm with an ICP test before dosing.",
+        "hu": "A hobbi káliumtesztek pontatlanok; adagolás előtt ICP-vizsgálattal erősítsd meg."
+      }
+    },
+    "i": {
+      "ideal": [0.05, 0.07],
+      "tol": [0.02, 0.1],
+      "what": {
+        "en": "Iodine (iodide and iodate) – natural seawater has about 0.06 ppm.",
+        "hu": "Jód (jodid és jodát) – a természetes tengervízben kb. 0,06 ppm."
+      },
+      "why": {
+        "en": "Used by soft corals, macroalgae and crustaceans when molting; natural seawater has about 0.06 ppm. Randy Holmes-Farley does not recommend trying to maintain it with supplements and hobby tests. Overdosing is toxic, so dose only after a reliable measurement.",
+        "hu": "A lágykorallok, a makroalgák és a rákok vedléskor használják; a természetes tengervízben kb. 0,06 ppm. Randy Holmes-Farley nem javasolja, hogy pótlással és hobbi tesztekkel próbáld szinten tartani. A túladagolás mérgező, ezért csak megbízható mérés után adagold."
+      },
+      "step": {
+        "en": "Very small doses; never more than the label says.",
+        "hu": "Nagyon kis adagokban; soha ne többet a címkén szereplőnél."
+      },
+      "raise": {
+        "en": [
+          "Iodine supplement or diluted Lugol's solution, drop by drop"
+        ],
+        "hu": [
+          "Jódpótló vagy hígított Lugol-oldat, cseppenként"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Stop dosing",
+          "Water change, activated carbon"
+        ],
+        "hu": [
+          "Az adagolás leállítása",
+          "Vízcsere, aktív szén"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix and food",
+          "Removed by skimming, activated carbon and uptake"
+        ],
+        "hu": [
+          "A só és az eleség",
+          "A fölözés, az aktív szén és a felvétel vonja ki"
+        ]
+      },
+      "tip": {
+        "en": "Most hobby kits measure only part of the iodine forms; trust ICP results more.",
+        "hu": "A legtöbb hobbi teszt a jódformáknak csak egy részét méri; az ICP-eredmény megbízhatóbb."
+      }
+    },
+    "sr": {
+      "ideal": [8, 10],
+      "tol": [5, 15],
+      "what": {
+        "en": "Strontium.",
+        "hu": "Stroncium."
+      },
+      "why": {
+        "en": "Built into coral skeletons together with calcium. Natural seawater has about 8 ppm; 5–15 ppm is fine, and it only needs supplementing if it falls below 5 ppm.",
+        "hu": "A kalciummal együtt beépül a korallvázba. A természetes tengervízben kb. 8 ppm; 5–15 ppm rendben van, és csak 5 ppm alatt kell pótolni."
+      },
+      "step": {
+        "en": "Max. about 1 ppm per day.",
+        "hu": "Legfeljebb kb. 1 ppm naponta."
+      },
+      "raise": {
+        "en": [
+          "Strontium supplement (strontium chloride)"
+        ],
+        "hu": [
+          "Stronciumpótló (stroncium-klorid)"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Stop dosing, water changes"
+        ],
+        "hu": [
+          "Az adagolás leállítása, vízcsere"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Salt mix, calcium reactor media",
+          "Consumed by calcification"
+        ],
+        "hu": [
+          "A só, a kalciumreaktor töltete",
+          "A mészképzés fogyasztja"
+        ]
+      },
+      "tip": {
+        "en": "Check with ICP before dosing.",
+        "hu": "Adagolás előtt ICP-vel ellenőrizd."
+      }
+    },
+    "si": {
+      "ideal": [0, 0.3],
+      "tol": [null, 2],
+      "what": {
+        "en": "Silicate.",
+        "hu": "Szilikát."
+      },
+      "why": {
+        "en": "Feeds diatoms – the brown dusty film on glass and sand. Sponges use a little. Below 2 ppm is fine for most reef aquariums; keep it much lower if diatoms are a problem.",
+        "hu": "A kovamoszatokat (barna, poros bevonat az üvegen és a homokon) táplálja. A szivacsok használnak belőle keveset. A legtöbb korallos akváriumban 2 ppm alatt rendben van; ha a kovamoszat gond, tartsd jóval alacsonyabban."
+      },
+      "step": {
+        "en": "No limit for lowering.",
+        "hu": "Csökkentésnél nincs korlát."
+      },
+      "raise": {
+        "en": [
+          "Only for sponge-heavy tanks, with a silicate supplement"
+        ],
+        "hu": [
+          "Csak sok szivaccsal, szilikátpótlóval"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Replace the DI resin – silicate is the first thing to break through",
+          "Silicate-removing filter media",
+          "Water changes with clean RO/DI water"
+        ],
+        "hu": [
+          "A DI gyanta cseréje – a szilikát jut át rajta elsőként",
+          "Szilikátmegkötő szűrőanyag",
+          "Vízcsere tiszta RO/DI vízzel"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Tap water and exhausted RO/DI filters",
+          "Some salt mixes and silica sand"
+        ],
+        "hu": [
+          "Csapvíz és kimerült RO/DI szűrő",
+          "Egyes sók és a kvarchomok"
+        ]
+      },
+      "tip": {
+        "en": "A TDS meter after the DI stage reading above 0 means the resin is exhausted.",
+        "hu": "Ha a DI fokozat utáni TDS-mérő 0 felett mér, kimerült a gyanta."
+      }
+    },
+    "fe": {
+      "ideal": [0, 0.01],
+      "tol": [null, 0.05],
+      "what": {
+        "en": "Iron – a trace element; natural seawater has almost none.",
+        "hu": "Vas – nyomelem; a természetes tengervízben szinte nincs."
+      },
+      "why": {
+        "en": "Macroalgae in a refugium and zooxanthellae need a tiny amount; dosing it can boost chaeto growth. Too much feeds nuisance algae.",
+        "hu": "A refugium makroalgáinak és a zooxanthelláknak nagyon kevés kell; az adagolása gyorsíthatja a chaeto növekedését. A túl sok a kártékony algákat táplálja."
+      },
+      "step": {
+        "en": "Tiny doses; follow the product label.",
+        "hu": "Nagyon kis adagok; kövesd a termék címkéjét."
+      },
+      "raise": {
+        "en": [
+          "Chelated iron supplement (e.g. iron gluconate)"
+        ],
+        "hu": [
+          "Kelátos vaspótló (pl. vas-glükonát)"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Stop dosing",
+          "Water changes, GFO and carbon also bind it"
+        ],
+        "hu": [
+          "Az adagolás leállítása",
+          "Vízcsere; a GFO és a szén is megköti"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Food and supplements",
+          "Rusting equipment (magnet cleaners, screws, clamps)"
+        ],
+        "hu": [
+          "Eleség és pótlók",
+          "Rozsdásodó felszerelés (mágneses tisztító, csavarok, bilincsek)"
+        ]
+      },
+      "tip": {
+        "en": "Hobby kits are rarely precise enough; dose by the product label or ICP.",
+        "hu": "A hobbi tesztek ritkán elég pontosak; a címke vagy ICP alapján adagolj."
+      }
+    },
+    "cu": {
+      "ideal": [0, 0],
+      "tol": [null, 0.01],
+      "what": {
+        "en": "Copper – a heavy metal used as medication against fish parasites.",
+        "hu": "Réz – nehézfém, halparaziták elleni gyógyszerként használják."
+      },
+      "why": {
+        "en": "Toxic to corals and invertebrates even at very low levels, so a reef tank must stay copper-free. In a fish-only quarantine tank it is the main treatment for ich and velvet – at the therapeutic level of the product (ionic copper typically 0.15–0.20 ppm; chelated products have their own target).",
+        "hu": "Már nagyon kis mennyiségben is mérgező a korallokra és gerinctelenekre, ezért korallos akváriumban nem lehet réz. Csak halas karanténban a fehérpöttyösség és a bársonybetegség fő kezelése – a termék terápiás szintjén (ionos réznél általában 0,15–0,20 ppm; a kelátos termékeknek saját célértékük van)."
+      },
+      "step": {
+        "en": "During treatment raise it gradually over a few days, as the product says.",
+        "hu": "Kezeléskor néhány nap alatt, fokozatosan emeld, a termék leírása szerint."
+      },
+      "raise": {
+        "en": [
+          "Only in a quarantine tank: copper medication, measured daily"
+        ],
+        "hu": [
+          "Csak karanténban: rezes gyógyszer, naponta mérve"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Activated carbon, copper-binding media (e.g. Cuprisorb, PolyFilter)",
+          "Water changes"
+        ],
+        "hu": [
+          "Aktív szén, rézmegkötő szűrőanyag (pl. Cuprisorb, PolyFilter)",
+          "Vízcsere"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Medication",
+          "Copper water pipes, brass fittings",
+          "Rock, sand or decor that was in a copper-treated tank"
+        ],
+        "hu": [
+          "Gyógyszer",
+          "Rézcsöves vízvezeték, sárgaréz szerelvények",
+          "Rezes kezelésben volt kő, homok vagy dekoráció"
+        ]
+      },
+      "tip": {
+        "en": "Use the test kit that matches the copper type (ionic or chelated). Never reuse rock or sand from a copper-treated tank in a reef.",
+        "hu": "A réz típusához (ionos vagy kelátos) illő tesztet használj. Rezes kezelésben volt követ vagy homokot soha ne tegyél korallos akváriumba."
+      }
+    },
+    "orp": {
+      "ideal": [300, 400],
+      "tol": [200, 450],
+      "what": {
+        "en": "Oxidation–reduction potential: an indicator of how much organic load the water carries.",
+        "hu": "Redoxpotenciál: azt jelzi, mennyi szerves terhelés van a vízben."
+      },
+      "why": {
+        "en": "A falling trend means more organic waste (overfeeding, dead animals, a failing skimmer). The absolute value depends a lot on the probe, so watch changes rather than the number.",
+        "hu": "A csökkenő trend több szerves hulladékot jelez (túletetés, elpusztult állat, rosszul működő fölöző). Az abszolút érték erősen szondafüggő, ezért a változást figyeld, ne a számot."
+      },
+      "step": {
+        "en": "With ozone, raise slowly and keep it below about 450 mV.",
+        "hu": "Ózonnal lassan emeld, és tartsd kb. 450 mV alatt."
+      },
+      "raise": {
+        "en": [
+          "Better skimming, water changes, less feeding",
+          "Ozone through the skimmer with an ORP controller and carbon after it"
+        ],
+        "hu": [
+          "Jobb fölözés, vízcsere, kevesebb etetés",
+          "Ózon a fölözőn keresztül ORP-vezérlővel, utána aktív szénnel"
+        ]
+      },
+      "lower": {
+        "en": [
+          "Reduce or stop ozone"
+        ],
+        "hu": [
+          "Az ózon csökkentése vagy leállítása"
+        ]
+      },
+      "sources": {
+        "en": [
+          "Organic waste lowers it; ozone and oxidisers raise it"
+        ],
+        "hu": [
+          "A szerves hulladék csökkenti; az ózon és az oxidálószerek növelik"
+        ]
+      },
+      "tip": {
+        "en": "Clean and calibrate the probe regularly; a dirty probe reads low.",
+        "hu": "A szondát rendszeresen tisztítsd és kalibráld; a szennyezett szonda alacsonyat mér."
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Randy’s Thoughts on Nutrient Target Ranges – Randy Holmes-Farley, Reef2Reef (2025)",
+      "url": "https://www.reef2reef.com/ams/randy%E2%80%99s-thoughts-on-nutrient-target-ranges.1087/"
+    },
+    {
+      "title": "Reef Aquarium Water Parameters – Randy Holmes-Farley, Reefkeeping (2004)",
+      "url": "http://www.reefkeeping.com/issues/2004-05/rhf/"
+    }
+  ]
+}

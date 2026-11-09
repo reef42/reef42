@@ -66,37 +66,31 @@ p { margin: 0 0 1em; }
 .small { font-size: .875rem; }
 
 /* Top bar */
-.topbar {
-  position: sticky; top: 0; z-index: 20;
-  display: flex; align-items: center; gap: 16px;
-  padding: 10px 16px;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-}
+/* Same top bar as Tank Log and Calculators */
+.topbar { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--border); }
+.bar { display: flex; align-items: center; gap: 12px; min-height: 53px; padding: 8px 16px; max-width: 1100px; margin: 0 auto; }
 .hub {
   font-weight: 700; font-size: .8rem; text-transform: lowercase; text-decoration: none;
   color: #fff; background: #000; border-radius: 6px; padding: 3px 8px; white-space: nowrap;
 }
 .hub:hover { background: #222; }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--text); text-decoration: none; white-space: nowrap; }
-.mainnav { display: flex; gap: 4px; flex: 1; overflow-x: auto; scrollbar-width: none; }
-.mainnav::-webkit-scrollbar { display: none; }
-.mainnav a {
-  padding: 6px 10px; border-radius: 8px; color: var(--muted); text-decoration: none; white-space: nowrap; font-size: .95rem;
-}
-.mainnav a:hover { background: var(--surface-2); color: var(--text); }
-.mainnav a.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .lang {
-  font: inherit; font-weight: 600; font-size: .85rem;
-  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
-  border-radius: 999px; padding: 5px 12px; cursor: pointer;
+  margin-left: auto; font: inherit; font-size: .85rem; font-weight: 600; color: var(--text); background: transparent;
+  border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; cursor: pointer; white-space: nowrap;
 }
 .lang:hover { border-color: var(--accent); }
+.tabs { display: flex; gap: 4px; padding: 0 12px; max-width: 1100px; margin: 0 auto; overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs a {
+  padding: 8px 12px 10px; text-decoration: none; color: var(--muted); font-weight: 600; font-size: .95rem; line-height: 1.5;
+  border-bottom: 3px solid transparent; white-space: nowrap;
+}
+.tabs a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
+.tabs a:hover { color: var(--text); }
 
-@media (max-width: 720px) {
-  .topbar { flex-wrap: wrap; gap: 8px; }
-  .mainnav { order: 3; flex-basis: 100%; }
-  .tools { margin-left: auto; }
+@media (max-width: 480px) {
+  .brand span { display: none; }
 }
 
 main { flex: 1; width: 100%; max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; outline: none; }

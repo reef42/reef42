@@ -684,7 +684,7 @@
     {
       "id": "h2o2-reef-dosing",
       "type": "method",
-      "name": {"en": "In-tank peroxide (H2O2) dosing in a reef tank", "hu": "Peroxid (H2O2) adagolás zátonymedencében"},
+      "name": {"en": "In-tank peroxide (H2O2) dosing in a reef tank", "hu": "Peroxid (H2O2) adagolás zátonyakváriumban"},
       "aka": ["peroxide dosing", "H2O2 DT dosing"],
       "source": "https://humble.fish/community/index.php?threads/peroxide-h2o2-dosing-for-parasites-in-reef-tank.725/",
       "summary": {

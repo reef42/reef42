@@ -166,11 +166,11 @@
   "equipment": { "en": "Equipment", "hu": "Felszerelés" },
   "dosageWarning": {
     "en": "Dosages are summarised from the source articles. Always check the original article and the product label, and treat in a separate hospital/quarantine tank unless stated otherwise.",
-    "hu": "Az adagolások a forráscikkek összefoglalói. Mindig ellenőrizd az eredeti cikket és a termék címkéjét, és – hacsak másként nem írják – külön kórházi/karantén medencében kezelj."
+    "hu": "Az adagolások a forráscikkek összefoglalói. Mindig ellenőrizd az eredeti cikket és a termék címkéjét, és – hacsak másként nem írják – külön kórházi/karanténakváriumban kezelj."
   },
   "quarantineLead": {
     "en": "Quarantine is the best way to prevent most of the diseases on this site from ever reaching your display tank.",
-    "hu": "A karantén a legjobb módja annak, hogy az oldalon szereplő betegségek többsége soha ne kerüljön be a díszmedencébe."
+    "hu": "A karantén a legjobb módja annak, hogy az oldalon szereplő betegségek többsége soha ne kerüljön be a díszakváriumba."
   },
 
   "graphLead": {

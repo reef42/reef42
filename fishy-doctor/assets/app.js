@@ -491,14 +491,14 @@
   const NAV = [['home', '#/'], ['diagnose', '#/q/'], ['graph', '#/graph'], ['diseases', '#/diseases'], ['treatments', '#/treatments'], ['quarantine', '#/quarantine'], ['sources', '#/sources']];
   function renderChrome(route) {
     document.documentElement.lang = state.lang;
-    document.getElementById('langToggle').textContent = state.lang === 'hu' ? 'EN' : 'HU';
-    document.getElementById('langToggle').title = state.lang === 'hu' ? 'Switch to English' : 'Váltás magyarra';
+    document.getElementById('langToggle').textContent = state.lang === 'hu' ? 'english' : 'magyar';
+    document.getElementById('langToggle').setAttribute('lang', state.lang === 'hu' ? 'en' : 'hu');
     document.getElementById('mainnav').innerHTML = NAV.map(([k, h]) => {
       const href = k === 'diagnose' ? h + state.tree.start : h;
       const active = (k === 'home' && route === '') || (k === 'diagnose' && route === 'q') || (k === 'graph' && route === 'graph') ||
         (k === 'diseases' && (route === 'diseases' || route === 'd')) || (k === 'treatments' && (route === 'treatments' || route === 't')) ||
         (k === 'quarantine' && route === 'quarantine') || (k === 'sources' && route === 'sources');
-      return '<a href="' + href + '"' + (active ? ' class="active"' : '') + (k === 'diagnose' ? ' data-reset' : '') + '>' + esc(u('nav.' + k)) + '</a>';
+      return '<a href="' + href + '"' + (active ? ' aria-current="page"' : '') + (k === 'diagnose' ? ' data-reset' : '') + '>' + esc(u('nav.' + k)) + '</a>';
     }).join('');
     document.getElementById('footer').innerHTML = '<div class="inner"><span>' + esc(u('footerCredit')) + ' <a href="https://humble.fish/community/threads/fish-diseases.3/" target="_blank" rel="noopener">humble.fish</a>. ' +
       '<a href="#/sources">' + esc(u('nav.sources')) + '</a></span><span>' + esc(u('disclaimerShort')) + '</span></div>';
