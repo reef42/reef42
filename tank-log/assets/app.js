@@ -45,7 +45,11 @@
   const TEXT = {
     en: {
       toggle: 'magyar', tank: 'Tank', defaultTank: 'My reef',
-      measure: 'Measure', charts: 'Charts', history: 'History', settings: 'Settings',
+      measure: 'Measure', charts: 'Charts', history: 'History', guide: 'Guide', settings: 'Settings',
+      gIdeal: 'Ideal', gTol: 'Tolerable', gWhat: 'What it is', gWhy: 'Why it matters', gStep: 'Safe rate of change',
+      gRaise: 'How to raise', gLower: 'How to lower', gSources: 'Where it comes from, what uses it', gTip: 'Testing tip',
+      gYours: 'Your target', gLast: 'Last reading', gInTank: 'Parameters of this tank', gOther: 'Other parameters',
+      gAdd: '+ Add to this tank', gAdded: 'Added to the tank', gOpen: 'About {name}', gLoadErr: 'The guide could not be loaded. Check the connection and reload the page.',
       last: 'last', noPrev: 'no previous value', ok: 'in range', low: 'low', high: 'high',
       time: 'Measured at', note: 'Note', notePh: 'e.g. 20% water change, new coral, dosing changed…',
       save: 'Save', saved: 'Saved', nothing: 'Enter at least one value or a note.', invalid: 'Not a valid number',
@@ -94,7 +98,11 @@
     },
     hu: {
       toggle: 'english', tank: 'Akvárium', defaultTank: 'Saját akvárium',
-      measure: 'Mérés', charts: 'Grafikonok', history: 'Előzmények', settings: 'Beállítások',
+      measure: 'Mérés', charts: 'Grafikonok', history: 'Előzmények', guide: 'Útmutató', settings: 'Beállítások',
+      gIdeal: 'Ideális', gTol: 'Tolerálható', gWhat: 'Mi ez?', gWhy: 'Miért számít?', gStep: 'Biztonságos változtatás',
+      gRaise: 'Növelése', gLower: 'Csökkentése', gSources: 'Honnan kerül a vízbe, mi fogyasztja?', gTip: 'Mérési tipp',
+      gYours: 'Saját cél', gLast: 'Utolsó mérés', gInTank: 'Ennek az akváriumnak a paraméterei', gOther: 'További paraméterek',
+      gAdd: '+ Hozzáadás az akváriumhoz', gAdded: 'Hozzáadva az akváriumhoz', gOpen: '{name} – útmutató', gLoadErr: 'Az útmutatót nem sikerült betölteni. Ellenőrizd a kapcsolatot, és töltsd újra az oldalt.',
       last: 'előző', noPrev: 'nincs előző érték', ok: 'tartományban', low: 'alacsony', high: 'magas',
       time: 'Mérés ideje', note: 'Jegyzet', notePh: 'pl. 20% vízcsere, új korall, adagolás módosítva…',
       save: 'Mentés', saved: 'Mentve', nothing: 'Adj meg legalább egy értéket vagy jegyzetet.', invalid: 'Érvénytelen szám',
@@ -356,8 +364,9 @@
   function route() {
     const h = location.hash.replace(/^#\/?/, '');
     if (h.startsWith('shared/')) return { view: 'shared', data: h.slice(7) };
-    const v = h.split('/')[0];
-    return { view: ['measure', 'charts', 'history', 'settings'].includes(v) ? v : 'measure' };
+    const parts = h.split('/');
+    const v = parts[0];
+    return { view: ['measure', 'charts', 'history', 'guide', 'settings'].includes(v) ? v : 'measure', key: parts[1] || null };
   }
 
   function renderChrome() {
@@ -370,7 +379,7 @@
     sel.innerHTML = S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('');
     const r = route();
     sel.parentElement.hidden = r.view === 'shared';
-    $('#tabs').innerHTML = ['measure', 'charts', 'history', 'settings'].map((v) =>
+    $('#tabs').innerHTML = ['measure', 'charts', 'history', 'guide', 'settings'].map((v) =>
       '<a href="#/' + v + '"' + (r.view === v ? ' aria-current="page"' : '') + '>' + esc(t(v)) + '</a>').join('');
     $('#footer').innerHTML = '<div class="inner"><span>reef42 · Tank Log – ' + esc(t('localOnly')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
@@ -394,6 +403,7 @@
     if (r.view === 'shared') renderShared(r.data);
     else if (r.view === 'charts') renderCharts();
     else if (r.view === 'history') renderHistory();
+    else if (r.view === 'guide') renderGuide(r.key);
     else if (r.view === 'settings') renderSettings();
     else renderMeasure();
     renderDock();
@@ -480,6 +490,7 @@
     const rt = rangeText(p);
     return '<div class="prow" data-pid="' + esc(p.id) + '">' +
       '<div class="phead"><label class="pname" for="in-' + esc(p.id) + '">' + esc(pname(p)) + unit + '</label>' +
+      (p.key ? '<a class="ginfo" href="#/guide/' + esc(p.key) + '" aria-label="' + esc(t('gOpen', { name: pname(p) })) + '" title="' + esc(t('gOpen', { name: pname(p) })) + '">i</a>' : '') +
       (rt ? '<span class="range" title="' + esc(t('minL') + '–' + t('maxL')) + '">' + esc(rt) + '</span>' : '') +
       '<div class="tslot" data-tslot="' + esc(p.id) + '">' + timerSlotHtml(activeTank().id, p) + '</div></div>' +
       '<div class="pbody">' +
@@ -927,6 +938,86 @@
     app.innerHTML = html + chartCardsHtml(tank);
     lastChartCtx = { tank, sessions };
     drawAllCharts(tank, sessions);
+  }
+
+  /* ---------- guide ---------- */
+  let guideData = null;
+  let guideLoading = null;
+  function loadGuide() {
+    if (!guideLoading) {
+      guideLoading = fetch('data/guide.json', { cache: 'no-cache' })
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((d) => { guideData = d; return d; })
+        .catch((e) => { guideLoading = null; throw e; });
+    }
+    return guideLoading;
+  }
+  const loc = (o) => (o == null ? '' : typeof o === 'string' ? o : (o[lang] != null ? o[lang] : o.en));
+  function guideRange(r, unit) {
+    if (!r) return '';
+    const a = r[0];
+    const b = r[1];
+    let s;
+    if (a != null && b != null) s = a === b ? fmtNum(a) : fmtNum(a) + '–' + fmtNum(b);
+    else if (b != null) s = '≤ ' + fmtNum(b);
+    else if (a != null) s = '≥ ' + fmtNum(a);
+    else return '';
+    return s + (unit ? ' ' + unit : '');
+  }
+  function guideCardHtml(key, g, tank, last) {
+    const c = CATALOG[key];
+    const p = tank.params.find((x) => x.key === key && !x.hidden);
+    const unit = p ? p.unit : c.unit;
+    const name = c[lang] || c.en;
+    const list = (o) => { const a = loc(o); return Array.isArray(a) && a.length ? '<ul>' + a.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' : ''; };
+    const sec = (label, html) => (html ? '<div class="gsec"><h3>' + esc(label) + '</h3>' + html + '</div>' : '');
+    const para = (o) => (loc(o) ? '<p>' + esc(loc(o)) + '</p>' : '');
+    let mine = '';
+    if (p) {
+      const rt = rangeText(p);
+      const lv = last[p.id];
+      if (rt || lv) {
+        mine = '<div class="gmine">' +
+          (rt ? '<span>' + esc(t('gYours')) + ': <b>' + esc(rt) + '</b></span>' : '') +
+          (lv ? '<span>' + esc(t('gLast')) + ': <b>' + esc(fmtNum(lv.v)) + (unit ? ' ' + esc(unit) : '') + '</b> ' + stBadge(status(p, lv.v)) + ' <span class="ago">' + esc(ago(lv.t)) + '</span></span>' : '') +
+          '</div>';
+      }
+    }
+    return '<article class="card gcard" id="g-' + esc(key) + '" tabindex="-1">' +
+      '<header><h2>' + esc(name) + (unit ? ' <span class="unit">' + esc(unit) + '</span>' : '') + '</h2>' +
+      (p ? '' : '<button type="button" class="btn small" data-act="gAdd" data-key="' + esc(key) + '">' + esc(t('gAdd')) + '</button>') + '</header>' +
+      '<div class="granges"><span class="gr ideal"><small>' + esc(t('gIdeal')) + '</small><b>' + esc(guideRange(g.ideal, unit)) + '</b></span>' +
+      '<span class="gr tol"><small>' + esc(t('gTol')) + '</small><b>' + esc(guideRange(g.tol, unit)) + '</b></span></div>' + mine +
+      sec(t('gWhat'), para(g.what)) + sec(t('gWhy'), para(g.why)) + sec(t('gStep'), para(g.step)) +
+      '<div class="gcols">' + sec(t('gRaise'), list(g.raise)) + sec(t('gLower'), list(g.lower)) + '</div>' +
+      sec(t('gSources'), list(g.sources)) + sec(t('gTip'), para(g.tip)) +
+      '</article>';
+  }
+  async function renderGuide(focusKey) {
+    if (!guideData) {
+      app.innerHTML = '<p class="empty">…</p>';
+      try { await loadGuide(); } catch (e) {
+        if (route().view === 'guide') app.innerHTML = '<p class="empty">' + esc(t('gLoadErr')) + '</p>';
+        return;
+      }
+      if (route().view !== 'guide') return;
+    }
+    const tank = activeTank();
+    const G = guideData.params || {};
+    const inTank = tank.params.filter((p) => p.key && !p.hidden && G[p.key]).map((p) => p.key);
+    const others = Object.keys(CATALOG).filter((k) => G[k] && !inTank.includes(k));
+    const last = lastValues(tank.params, tankSessions(tank));
+    const jump = (keys) => '<nav class="chips gjump">' + keys.map((k) => '<a class="chip" href="#/guide/' + esc(k) + '">' + esc(CATALOG[k][lang] || CATALOG[k].en) + '</a>').join('') + '</nav>';
+    let h = '<div class="vhead"><h1>' + esc(t('guide')) + '</h1></div>' +
+      '<p class="hint">' + esc(loc(guideData.intro)) + '</p>' +
+      jump(inTank.concat(others));
+    if (inTank.length) h += '<h2 class="gsub">' + esc(t('gInTank')) + '</h2><div class="ggrid">' + inTank.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
+    if (others.length) h += '<h2 class="gsub">' + esc(t('gOther')) + '</h2><div class="ggrid">' + others.map((k) => guideCardHtml(k, G[k], tank, last)).join('') + '</div>';
+    app.innerHTML = h;
+    if (focusKey) {
+      const el = document.getElementById('g-' + focusKey);
+      if (el) { el.scrollIntoView({ block: 'start' }); el.focus({ preventScroll: true }); }
+    } else window.scrollTo(0, 0);
   }
 
   /* ---------- history ---------- */
@@ -1567,6 +1658,16 @@
         $$('.chip[data-act="period"]', app).forEach((c) => { const on = Number(c.dataset.days) === chartPeriod; c.classList.toggle('on', on); c.setAttribute('aria-pressed', on); });
         if (lastChartCtx) drawAllCharts(lastChartCtx.tank, lastChartCtx.sessions);
         break;
+      case 'gAdd': {
+        const tank = activeTank();
+        const key = btn.dataset.key;
+        const hidden = tank.params.find((x) => x.key === key);
+        if (hidden) hidden.hidden = false; else tank.params.push(newParam(key));
+        save();
+        toast(t('gAdded'));
+        renderGuide(key);
+        break;
+      }
       case 'wide': {
         if (wide.has(pid)) wide.delete(pid); else wide.add(pid);
         const card = btn.closest('.ccard');

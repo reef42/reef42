@@ -17,6 +17,9 @@ step, no backend, no external libraries.
 - **Charts** per parameter with the target band, out-of-range points, notes and hover/tap details.
 - **History** table (edit / delete) and **notes** per measurement (water change, dosing, new livestock…).
 - **Several tanks**.
+- **Guide** tab: a card per parameter with what it is, why it matters, ideal and tolerable range, safe rate of
+  change, how to raise and lower it, where it comes from and a testing tip, next to your own target and last reading.
+  The ⓘ button next to a parameter on the Measure tab opens its card. Content lives in `data/guide.json` (EN/HU).
 - **Sharing**: copy or share a text summary of the latest values, or a read-only link. The link carries the data
   itself in the URL fragment (compressed), so nothing is uploaded; the recipient can save it as their own tank.
 - **Backup**: JSON export and import (import replaces all data), CSV export per tank.
