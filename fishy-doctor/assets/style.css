@@ -73,6 +73,11 @@ p { margin: 0 0 1em; }
   background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
+.hub {
+  font-weight: 700; font-size: .8rem; text-transform: lowercase; text-decoration: none;
+  color: #fff; background: #000; border-radius: 6px; padding: 3px 8px; white-space: nowrap;
+}
+.hub:hover { background: #222; }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--text); text-decoration: none; white-space: nowrap; }
 .mainnav { display: flex; gap: 4px; flex: 1; overflow-x: auto; scrollbar-width: none; }
 .mainnav::-webkit-scrollbar { display: none; }

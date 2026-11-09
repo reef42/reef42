@@ -572,14 +572,14 @@
 
   document.getElementById('langToggle').addEventListener('click', () => {
     state.lang = state.lang === 'hu' ? 'en' : 'hu';
-    storage(false, 'fd-lang', state.lang);
+    storage(false, 'reef42-lang', state.lang);
     route();
   });
 
   /* ---------- boot ---------- */
   async function boot() {
     const urlLang = new URLSearchParams(location.search).get('lang');
-    state.lang = urlLang || storage(true, 'fd-lang') || ((navigator.language || '').toLowerCase().startsWith('hu') ? 'hu' : 'en');
+    state.lang = urlLang || storage(true, 'reef42-lang') || storage(true, 'fd-lang') || ((navigator.language || '').toLowerCase().startsWith('hu') ? 'hu' : 'en');
     if (state.lang !== 'hu') state.lang = 'en';
     try {
       const [ui, tree, manifest, tx, sources] = await Promise.all([
