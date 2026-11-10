@@ -18,7 +18,8 @@
       lead_fish: 'Care cards for saltwater fish that are realistically available in Europe: only what matters for keeping them.',
       lead_coral: 'Care cards for corals that are realistically available in Europe: light, flow, placement and what to watch for.',
       lead_invert: 'Care cards for shrimps, crabs, snails, sea stars and urchins that are realistically available in Europe.',
-      search: 'Search by name…', all: 'All', count: '{n} species', none: 'No species match the filters.',
+      search: 'Search by name…', all: 'All', count: '{n} species', none: 'No species match the filters.', group: 'Group', allGroups: 'All groups',
+      photos: 'Photos', formerly: 'formerly {n}', backs: 'Backs:',
       back: '← All {cat}', notFound: 'Species not found.', loadError: 'Could not load the species data.',
       huOnly: 'Notes are currently available in Hungarian only.',
       size: 'Size', maxSize: 'up to {n} cm', minTank: 'Minimum tank', liters: '{n} L', origin: 'Origin', care: 'Care level',
@@ -36,12 +37,13 @@
       lead_fish: 'Adatlapok az Európában reálisan beszerezhető tengeri halakról: csak az, ami a tartáshoz tényleg számít.',
       lead_coral: 'Adatlapok az Európában reálisan beszerezhető korallokról: fény, áramlás, elhelyezés és amire figyelni kell.',
       lead_invert: 'Adatlapok az Európában reálisan beszerezhető garnélákról, rákokról, csigákról, tengeri csillagokról és sünökről.',
-      search: 'Keresés név alapján…', all: 'Mind', count: '{n} faj', none: 'Nincs a szűrésnek megfelelő faj.',
+      search: 'Keresés név alapján…', all: 'Mind', count: '{n} faj', none: 'Nincs a szűrésnek megfelelő faj.', group: 'Csoport', allGroups: 'Minden csoport',
+      photos: 'Fotók', formerly: 'korábban: {n}', backs: 'Ezekhez:',
       back: '← Összes ({cat})', notFound: 'Nincs ilyen faj.', loadError: 'Nem sikerült betölteni a fajadatokat.',
       huOnly: '',
-      size: 'Méret', maxSize: 'legfeljebb {n} cm', minTank: 'Minimális akváriumméret', liters: '{n} L', origin: 'Származás', care: 'Nehézség',
-      reef: 'Zátonyakváriumba', temper: 'Természet', diet: 'Táplálkozás', lifespan: 'Élettartam', wild: 'vadon: {n} év', tank: 'akváriumban: {n} év',
-      type: 'Típus', light: 'Fény', flow: 'Áramlás', placement: 'Elhelyezés', growth: 'Növekedés', aggression: 'Agresszivitás', spacing: 'Távolság', feeding: 'Táplálás',
+      size: 'Méret', maxSize: 'legfeljebb {n} cm', minTank: 'Legkisebb akvárium', liters: '{n} L', origin: 'Származás', care: 'Tartási nehézség',
+      reef: 'Korallos akváriumba', temper: 'Természet', diet: 'Táplálkozás', lifespan: 'Élettartam', wild: 'vadon: {n} év', tank: 'akváriumban: {n} év',
+      type: 'Típus', light: 'Fényigény', flow: 'Áramlás', placement: 'Elhelyezés', growth: 'Növekedés', aggression: 'Csalánzás, agresszió', spacing: 'Hely a szomszédoktól', feeding: 'Etetés',
       behavior: 'Viselkedés', extra: 'Fontos tudnivalók', tips: 'Pro tipp', sources: 'Források',
       notRec: 'Reef42: nem ajánlott', notRecText: 'Szerintünk ez a faj a legtöbb otthoni akváriumban hosszú távon nem tartható jól.',
       ethicScore: 'etikai index: {n}/10', provisional: 'Előzetes Reef42-értékelés, átnézés alatt.',
@@ -52,21 +54,21 @@
   // Enum labels: [en, hu]. Unknown values are not shown (the validator reports them).
   const ENUM = {
     care_level: { easy: ['Easy', 'Könnyű'], easy_moderate: ['Easy to moderate', 'Könnyű–közepes'], moderate: ['Moderate', 'Közepes'], difficult: ['Difficult', 'Nehéz'], expert: ['Experts only', 'Csak tapasztaltaknak'] },
-    reef: { reef_safe: ['Reef safe', 'Zátonybiztos'], reef_safe_with_caution: ['With caution', 'Óvatosan'], conditional: ['Conditional', 'Feltételesen'] },
+    reef: { reef_safe: ['Reef safe', 'Korallbarát'], reef_safe_with_caution: ['Reef safe with caution', 'Korallok mellé óvatosan'], conditional: ['Reef safe with conditions', 'Korallok mellé feltételekkel'] },
     temperament: {
       peaceful: ['Peaceful', 'Békés'], peaceful_pair: ['Peaceful, can be kept in pairs', 'Békés, párban is tartható'], shoaling: ['Shoaling', 'Csapatban élő'],
       peaceful_territorial: ['Peaceful but territorial', 'Békés, de területvédő'], semi_territorial: ['Somewhat territorial', 'Kissé területvédő'],
       territorial: ['Territorial', 'Területvédő'], semi_aggressive: ['Semi-aggressive', 'Félagresszív']
     },
     diet: {
-      omnivore: ['Omnivore', 'Mindenevő'], carnivore: ['Carnivore', 'Ragadozó (húsevő)'], herbivore: ['Herbivore', 'Növényevő'],
+      omnivore: ['Omnivore', 'Mindenevő'], carnivore: ['Carnivore', 'Húsevő'], herbivore: ['Herbivore', 'Növényevő'],
       herbivore_omnivore: ['Mostly herbivore', 'Főleg növényevő'], omnivore_planktivore: ['Omnivore, plankton eater', 'Mindenevő, planktonevő'],
       detritivore_herbivore: ['Grazes algae and detritus', 'Algát és detrituszt legel'], specialized_microfauna: ['Specialist: tiny crustaceans (pods)', 'Specialista: apró rákocskák (podok)'],
       omnivore_scavenger: ['Omnivore, scavenger', 'Mindenevő, dögevő'], carnivore_scavenger: ['Carnivore, scavenger', 'Húsevő, dögevő'],
       scavenger_carnivore: ['Scavenger, carnivore', 'Dögevő, húsevő'], herbivore_grazer: ['Algae grazer', 'Algalegelő'],
       specialized_biofilm_feeder: ['Specialist: biofilm and detritus', 'Specialista: biofilm és detritusz']
     },
-    coral_type: { SPS: ['SPS', 'SPS'], LPS: ['LPS', 'LPS'], soft: ['Soft coral', 'Lágykorall'], zoanthid: ['Zoanthid', 'Zoanthida'] },
+    coral_type: { SPS: ['SPS', 'SPS'], LPS: ['LPS', 'LPS'], soft: ['Soft coral', 'Lágykorall'], zoanthid: ['Zoanthid', 'Zoanthus'] },
     level: { low: ['Low', 'Alacsony'], low_moderate: ['Low to moderate', 'Alacsony–közepes'], moderate: ['Moderate', 'Közepes'], moderate_high: ['Moderate to high', 'Közepes–erős'], high: ['High', 'Erős'] },
     flow: { low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_strong: ['Moderate to strong', 'Közepes–erős'], strong: ['Strong', 'Erős'] },
     placement: {
@@ -75,10 +77,24 @@
     },
     growth: { slow: ['Slow', 'Lassú'], slow_moderate: ['Slow to moderate', 'Lassú–közepes'], moderate: ['Moderate', 'Közepes'], moderate_fast: ['Moderate to fast', 'Közepes–gyors'], fast: ['Fast', 'Gyors'] },
     aggression: {
-      low_moderate: ['Low to moderate', 'Alacsony–közepes'], moderate: ['Moderate', 'Közepes'], high: ['High (sweeper tentacles)', 'Erős (csalánzó tapogatók)'],
-      very_high: ['Very high (long sweepers)', 'Nagyon erős (hosszú csalánzó tapogatók)'], chemical: ['Chemical (terpenes)', 'Kémiai (terpének)']
+      low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], high: ['High (sweeper tentacles)', 'Erős, csalánzó tapogatókkal'],
+      very_high: ['Very high (long sweepers)', 'Nagyon erős, hosszú csalánzó tapogatókkal'], chemical: ['Chemical (terpenes)', 'Vegyi anyagokkal (terpének)']
     },
-    feeding: { photosynthetic_with_optional_target_feeding: ['Photosynthetic, optional target feeding', 'Fotoszintetizál, célzott etetés opcionális'] }
+    feeding: { photosynthetic_with_optional_target_feeding: ['Photosynthetic, optional target feeding', 'Fényből él, célzottan etethető'] }
+  };
+  // What a source backs up (sources[].supports), shown under each link so the cross-checks are visible.
+  const SUPPORTS = {
+    taxonomy: ['taxonomy', 'rendszertan'], accepted_name: ['accepted name', 'érvényes név'], identification: ['identification', 'azonosítás'],
+    distribution: ['distribution', 'elterjedés'], habitat: ['habitat', 'élőhely'], ecology: ['ecology', 'ökológia'], biology: ['biology', 'biológia'],
+    conservation: ['conservation', 'természetvédelem'], maximum_size: ['maximum size', 'maximális méret'], minimum_tank_size: ['minimum tank', 'akváriumméret'],
+    care_level: ['care level', 'tartási nehézség'], care: ['care', 'tartás'], temperament: ['temperament', 'természet'], behavior: ['behaviour', 'viselkedés'],
+    compatibility: ['compatibility', 'társíthatóság'], reef_compatibility: ['reef compatibility', 'korallos akvárium'], diet: ['diet', 'táplálkozás'],
+    feeding: ['feeding', 'etetés'], lighting: ['light', 'fény'], flow: ['flow', 'áramlás'], placement: ['placement', 'elhelyezés'],
+    aggression: ['aggression', 'csalánzás, agresszió'], photos_and_credits: ['photos', 'fotók']
+  };
+  const SITE = {
+    'reefapp.net': 'ReefApp', 'tidalgardens.com': 'Tidal Gardens', 'coralsoftheworld.org': 'Corals of the World',
+    'commons.wikimedia.org': 'Wikimedia Commons', 'surg.org.au': 'SURG', 'fishbase.se': 'FishBase', 'sealifebase.se': 'SeaLifeBase'
   };
   const REGION = {
     'Indo-Pacific': 'Indo-csendes-óceáni térség', 'Tropical Indo-Pacific and Atlantic': 'Trópusi Indo-csendes-óceáni térség és Atlanti-óceán',
@@ -102,8 +118,9 @@
   let all = [];
   let species = [];
   let generic = new Set();
+  let GROUPS = {}; // category -> [{ id, en, hu }] in database order
   const FILTERS = {};
-  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', type: '' }; });
+  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', sub: '' }; });
   let filt = FILTERS.fish;
   const listScroll = {};
 
@@ -120,6 +137,18 @@
   const region = (r) => (lang === 'hu' ? REGION[r] || r : REGION_EN[r] || r);
   const title = (s) => (lang === 'hu' && s.hu_name ? s.hu_name : s.common_name || s.scientific_name);
   const real = (arr) => (arr || []).filter((x) => x && !generic.has(x));
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+  // Same page written differently (www, letter case, "-" or "_", trailing slash) counts as one source. Site homepages give null.
+  const urlKey = (u) => {
+    try {
+      const x = new URL(u);
+      const path = x.pathname.replace(/\/+$/, '');
+      if (!path && !x.search) return null;
+      return (host(u) + path + x.search).toLowerCase().replace(/_/g, '-');
+    } catch (e) { return null; }
+  };
+  const groupName = (g) => (g ? (lang === 'hu' ? g.hu : g.en) || g.en || g.hu : '');
+  const groupOf = (s) => (GROUPS[s.category] || []).find((g) => g.id === (s.subgroup && s.subgroup.id));
 
   // Texts and source URLs that repeat across many species carry no species information.
   function findGeneric(list) {
@@ -128,18 +157,35 @@
     list.forEach((s) => {
       [...(s.extra_notes || []), ...(s.pro_tips || []), ...((s.behavior && s.behavior.notes) || []), ...((s.ethical_index && s.ethical_index.reasons) || [])].forEach(add);
       if (s.feeding) add(s.feeding.notes);
-      new Set((s.sources || []).map((x) => x.url)).forEach(add);
+      new Set((s.sources || []).map((x) => urlKey(x.url)).filter(Boolean)).forEach(add);
     });
     return new Set([...n].filter(([, c]) => c >= GENERIC_MIN).map(([k]) => k));
   }
+  // One entry per page; when a page is listed twice, the things it backs up are merged.
   function sourcesOf(s) {
-    const seen = new Set();
-    return (s.sources || []).filter((x) => {
-      if (!x.url || seen.has(x.url) || generic.has(x.url)) return false;
-      try { if (new URL(x.url).pathname.replace(/\/+$/, '') === '') return false; } catch (e) { return false; }
-      seen.add(x.url);
-      return true;
+    const byKey = new Map();
+    (s.sources || []).forEach((x) => {
+      const k = urlKey(x.url);
+      if (!k || generic.has(k)) return;
+      const prev = byKey.get(k);
+      if (prev) (x.supports || []).forEach((v) => { if (!prev.supports.includes(v)) prev.supports.push(v); });
+      else byKey.set(k, { name: SITE[host(x.url)] || x.name, url: x.url, supports: [...(x.supports || [])] });
     });
+    return [...byKey.values()];
+  }
+  function groupsFrom(db) {
+    const out = {};
+    CATS.forEach((c) => {
+      const named = (db.subgroups && db.subgroups[c]) || {};
+      const list = Object.keys(named).map((id) => ({ id, en: named[id].name_en, hu: named[id].name_hu }));
+      // Subgroups used by a species but missing from the top-level list still get a heading.
+      (db.species || []).forEach((s) => {
+        const g = s.category === c && s.subgroup;
+        if (g && g.id && !list.some((x) => x.id === g.id)) list.push({ id: g.id, en: g.name_en, hu: g.name_hu });
+      });
+      out[c] = list;
+    });
+    return out;
   }
   // Ethical index: only "not recommended" is shown while scores are provisional; reviewed scores are shown in full.
   function ethicShown(s) {
@@ -162,7 +208,7 @@
   /* ---------- list ---------- */
   function matches(s) {
     if (filt.care && s.care_level !== filt.care) return false;
-    if (filt.type && s.coral_type !== filt.type) return false;
+    if (filt.sub && (s.subgroup && s.subgroup.id) !== filt.sub) return false;
     const q = norm(filt.q.trim());
     return !q || norm([s.hu_name, s.common_name, s.scientific_name].join(' ')).includes(q);
   }
@@ -177,9 +223,10 @@
     }
     return f.map(([k, v]) => '<span>' + esc(k) + ': <b>' + esc(v) + '</b></span>').join('');
   }
-  function tags(s) {
+  function tags(s, withGroup) {
     const out = [];
-    if (CAT === 'coral' && lab('coral_type', s.coral_type)) out.push('<span class="tag">' + esc(lab('coral_type', s.coral_type)) + '</span>');
+    if (withGroup && groupOf(s)) out.push('<span class="tag group">' + esc(groupName(groupOf(s))) + '</span>');
+    else if (CAT === 'coral' && lab('coral_type', s.coral_type)) out.push('<span class="tag">' + esc(lab('coral_type', s.coral_type)) + '</span>');
     if (lab('care_level', s.care_level)) out.push('<span class="tag ' + (CARE_CLASS[s.care_level] || '') + '">' + esc(lab('care_level', s.care_level)) + '</span>');
     const reef = s.aquarium_requirements && lab('reef', s.aquarium_requirements.reef_compatibility);
     if (reef) out.push('<span class="tag">' + esc(reef) + '</span>');
@@ -194,23 +241,38 @@
   function renderList(keepFocus) {
     document.title = t(CAT) + ' – reef42';
     const cares = CARE_ORDER.filter((c) => species.some((s) => s.care_level === c));
-    const types = CAT === 'coral' ? [...new Set(species.map((s) => s.coral_type).filter((v) => lab('coral_type', v)))] : [];
+    const groups = (GROUPS[CAT] || []).filter((g) => species.some((s) => s.subgroup && s.subgroup.id === g.id));
+    if (filt.sub && !groups.some((g) => g.id === filt.sub)) filt.sub = '';
+    const groupSel = groups.length > 1 ? '<label class="select"><span class="sr">' + esc(t('group')) + '</span><select id="sub">' +
+      '<option value="">' + esc(t('allGroups')) + '</option>' + groups.map((g) =>
+        '<option value="' + esc(g.id) + '"' + (filt.sub === g.id ? ' selected' : '') + '>' + esc(groupName(g)) + '</option>').join('') + '</select></label>' : '';
     app.innerHTML = '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' +
       (t('huOnly') ? '<p class="notice">' + esc(t('huOnly')) + '</p>' : '') +
       '<div class="filters"><input class="search" id="q" type="search" autocomplete="off" placeholder="' + esc(t('search')) + '" aria-label="' + esc(t('search')) + '" value="' + esc(filt.q) + '">' +
-      (types.length ? chipRow('type', types, (v) => lab('coral_type', v)) : '') + chipRow('care', cares, (v) => lab('care_level', v)) + '</div>' +
-      '<p class="count" id="count" aria-live="polite"></p><ul class="grid" id="list"></ul>';
+      groupSel + chipRow('care', cares, (v) => lab('care_level', v)) + '</div>' +
+      '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     renderItems();
     if (keepFocus) { const el = app.querySelector(keepFocus); if (el) el.focus(); }
   }
+  function tile(s) {
+    return '<li><a class="tile" href="#/' + SLUG[CAT] + '/' + esc(s.id) + '"><h2>' + esc(title(s)) + '</h2>' +
+      '<p class="sub">' + (lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span></p>' +
+      tags(s) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
+  }
+  // The list is split into subgroups (e.g. surgeonfish, SPS), in database order; within a group: easiest first, then by name.
   function renderItems() {
     const items = species.filter(matches)
       .sort((a, b) => CARE_ORDER.indexOf(a.care_level) - CARE_ORDER.indexOf(b.care_level) || title(a).localeCompare(title(b), lang));
     document.getElementById('count').textContent = t('count', { n: items.length });
-    document.getElementById('list').innerHTML = items.length ? items.map((s) =>
-      '<li><a class="tile" href="#/' + SLUG[CAT] + '/' + esc(s.id) + '"><h2>' + esc(title(s)) + '</h2>' +
-      '<p class="sub">' + (lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span></p>' +
-      tags(s) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>').join('') : '<li class="empty">' + esc(t('none')) + '</li>';
+    const list = document.getElementById('list');
+    if (!items.length) { list.innerHTML = '<p class="empty">' + esc(t('none')) + '</p>'; return; }
+    const groups = (GROUPS[CAT] || []).map((g) => ({ g, xs: items.filter((s) => groupOf(s) === g) }));
+    const loose = items.filter((s) => !groupOf(s));
+    if (loose.length) groups.push({ g: null, xs: loose });
+    const used = groups.filter((x) => x.xs.length);
+    list.innerHTML = used.length === 1 && !used[0].g ? '<ul class="grid">' + loose.map(tile).join('') + '</ul>'
+      : used.map(({ g, xs }) => '<section class="group"><h2>' + esc(g ? groupName(g) : t('all')) + ' <span class="n">' + xs.length + '</span></h2>' +
+        '<ul class="grid">' + xs.map(tile).join('') + '</ul></section>').join('');
   }
 
   /* ---------- species card ---------- */
@@ -259,22 +321,36 @@
       (reasons.length ? reasons.map((r) => '<p>' + esc(r) + '</p>').join('') : (e.recommendation === 'not_recommended' ? '<p>' + esc(t('notRecText')) + '</p>' : '')) +
       (e.status !== 'reviewed' ? '<p class="pre">' + esc(t('provisional')) + '</p>' : '') + '</div>';
   }
+  // Links to external photo pages only: no image is copied or hotlinked until its licence is checked.
+  function photoLinks(s) {
+    const r = s.image_reference || {};
+    const urls = [r.source_page_url, r.commons_search_url].filter((u) => u && urlKey(u));
+    if (!urls.length) return '';
+    const seen = new Set();
+    return '<p class="photos"><span>' + esc(t('photos')) + ':</span> ' + urls.filter((u) => !seen.has(urlKey(u)) && seen.add(urlKey(u))).map((u) =>
+      '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(SITE[host(u)] || host(u)) + ' ↗</a>').join(' · ') + '</p>';
+  }
+  function supportText(x) {
+    const xs = x.supports.map((k) => SUPPORTS[k] && SUPPORTS[k][lang === 'hu' ? 1 : 0]).filter(Boolean);
+    return xs.length ? '<span class="what">' + esc(t('backs') + ' ' + xs.join(', ')) + '</span>' : '';
+  }
   function renderSpecies(id) {
     const s = species.find((x) => x.id === id);
     const back = '<a class="back" href="#/' + SLUG[CAT] + '">' + esc(t('back', { cat: t(CAT).toLowerCase() })) + '</a>';
     if (!s) { app.innerHTML = back + '<p>' + esc(t('notFound')) + '</p>'; return; }
     document.title = title(s) + ' – ' + t(CAT) + ' – reef42';
-    const names = [lang === 'hu' && s.hu_name ? s.common_name : '', '<span class="sci">' + esc(s.scientific_name) + '</span>'].filter(Boolean);
+    const former = s.former_scientific_name ? '<span class="former">' + esc(t('formerly', { n: s.former_scientific_name.split(/\s*;\s*/).join(', ') })) + '</span>' : '';
+    const names = [lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) : '', '<span class="sci">' + esc(s.scientific_name) + '</span>', former].filter(Boolean);
     const feedNote = s.feeding && s.feeding.notes && !generic.has(s.feeding.notes) ? [s.feeding.notes] : [];
     const src = sourcesOf(s);
     app.innerHTML = back + (t('huOnly') ? '<p class="notice">' + esc(t('huOnly')) + '</p>' : '') +
-      '<article class="card"><div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' +
-      names.map((n, i) => (i === names.length - 1 ? n : esc(n))).join(' · ') + '</p>' + tags(s) + '</div>' +
+      '<article class="card"><div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
+      tags(s, true) + photoLinks(s) + '</div>' +
       ethicBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
       listSection(t('behavior'), s.behavior && s.behavior.notes) + listSection(t('feeding'), feedNote) +
       listSection(t('extra'), s.extra_notes) + listSection(t('tips'), s.pro_tips, 'tip') +
       (src.length ? '<section class="sect sources"><h2>' + esc(t('sources')) + '</h2><ul>' + src.map((x) =>
-        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name) + '</a></li>').join('') + '</ul></section>' : '') +
+        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name) + '</a> ' + supportText(x) + '</li>').join('') + '</ul></section>' : '') +
       '</article>';
   }
 
@@ -283,23 +359,30 @@
     document.title = t('app') + ' – reef42';
     app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
       CATS.map((c) => {
-        const n = all.filter((s) => s.category === c).length;
+        const mine = all.filter((s) => s.category === c);
+        const groups = (GROUPS[c] || []).filter((g) => mine.some((s) => s.subgroup && s.subgroup.id === g.id)).map(groupName);
         return '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + c + '.svg" alt="" width="44" height="44">' +
-          '<h2>' + esc(t(c)) + '</h2><p class="sub">' + esc(t('lead_' + c)) + '</p><span class="go">' + esc(t('open', { n: n })) + '</span></a></li>';
+          '<h2>' + esc(t(c)) + '</h2><p class="sub">' + esc(groups.length ? groups.join(' · ') : t('lead_' + c)) + '</p>' +
+          '<span class="go">' + esc(t('open', { n: mine.length })) + '</span></a></li>';
       }).join('') + '</ul>';
   }
 
   /* ---------- routing ---------- */
-  // #/ = overview, #/<category slug> = list, #/<category slug>/<species id> = card. Old #/<id> links still resolve.
+  // #/ = overview, #/<category slug> = list, #/<category slug>/<species id> = card.
+  // Old #/<id> links and ids renamed in the data (previous_id) still resolve and are rewritten to the current address.
+  const byId = (id) => all.find((x) => x.id === id) || all.find((x) => x.previous_id === id);
   function route() {
     const parts = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/').filter(Boolean);
     if (!parts.length) return { cat: null, id: '' };
-    if (BY_SLUG[parts[0]]) return { cat: BY_SLUG[parts[0]], id: parts[1] || '' };
-    const s = all.find((x) => x.id === parts[0]);
-    return s ? { cat: s.category, id: s.id } : { cat: null, id: '' };
+    const cat = BY_SLUG[parts[0]];
+    if (cat && !parts[1]) return { cat, id: '' };
+    const s = byId(cat ? parts[1] : parts[0]);
+    if (!s) return cat ? { cat, id: parts[1] } : { cat: null, id: '' };
+    return { cat: s.category, id: s.id, moved: s.category !== cat || s.id !== parts[1] };
   }
   function render(keepFocus) {
     const r = route();
+    if (r.moved) history.replaceState(null, '', '#/' + SLUG[r.cat] + '/' + encodeURIComponent(r.id));
     CAT = r.cat;
     if (CAT) { species = all.filter((s) => s.category === CAT); filt = FILTERS[CAT]; }
     renderChrome();
@@ -315,6 +398,7 @@
     renderList('.chip[data-f="' + b.dataset.f + '"][data-v="' + b.dataset.v + '"]');
   });
   app.addEventListener('input', (e) => { if (e.target.id === 'q') { filt.q = e.target.value; renderItems(); } });
+  app.addEventListener('change', (e) => { if (e.target.id === 'sub') { filt.sub = e.target.value; renderItems(); } });
   window.addEventListener('hashchange', () => {
     render();
     const r = route();
@@ -332,6 +416,7 @@
   fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => {
     all = (db.species || []).filter((s) => CATS.includes(s.category));
     generic = findGeneric(db.species || []);
+    GROUPS = groupsFrom(db);
     render();
   }).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
 })();

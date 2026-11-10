@@ -15,8 +15,12 @@ each tool lives in its own folder.
 
 [`species/`](species/) is one tool with three categories: an overview (`species/#/`) leads to the fish, coral and
 invertebrate lists (`#/fish`, `#/corals`, `#/inverts`), and each species has its own card link (`#/fish/<id>`).
-It reads `databases/reef42_marine_life_db_v1.json`. Empty fields are not shown; texts and source links repeated on 5+ species count as template
-filler and are hidden. While ethical scores are provisional, only "not recommended" species show the ethical index.
+It reads `databases/reef42_marine_life_db_v1.json`. Lists are grouped by `subgroup` (e.g. surgeonfish, SPS), in the order of the
+top-level `subgroups` object. Empty fields are not shown; texts and source links repeated on 5+ species count as template
+filler and are hidden, and the same page listed twice is shown once with what it backs up. Cards link to external photo pages
+(`image_reference`) but never copy or hotlink an image. Species without a Hungarian name show the English common name. An id renamed
+in the data keeps working if the species lists the old one as `previous_id`. While ethical scores are provisional, only
+"not recommended" species show the ethical index.
 Run `node species/tools/validate.mjs` after every data update: it lists errors and missing data per species.
 
 ## Running locally

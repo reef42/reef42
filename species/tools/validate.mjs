@@ -31,6 +31,15 @@ const errors = [];
 const warn = new Map(); // message -> [ids]
 const w = (msg, id) => { if (!warn.has(msg)) warn.set(msg, []); warn.get(msg).push(id); };
 const slug = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+// Same normalisation as species/assets/app.js: www, case, "-"/"_" and a trailing slash do not make a different page; homepages give null.
+const urlKey = (u) => {
+  try {
+    const x = new URL(u);
+    const path = x.pathname.replace(/\/+$/, '');
+    if (!path && !x.search) return null;
+    return (x.hostname.replace(/^www\./, '') + path + x.search).toLowerCase().replace(/_/g, '-');
+  } catch { return null; }
+};
 
 // Texts / URLs repeated across many species = template filler (hidden on the cards).
 const count = new Map();
@@ -38,16 +47,29 @@ const add = (x) => { if (x) count.set(x, (count.get(x) || 0) + 1); };
 S.forEach((s) => {
   [...(s.extra_notes || []), ...(s.pro_tips || []), ...(s.behavior?.notes || []), ...(s.ethical_index?.reasons || [])].forEach(add);
   add(s.feeding?.notes);
-  new Set((s.sources || []).map((x) => x.url)).forEach(add);
+  new Set((s.sources || []).map((x) => urlKey(x.url)).filter(Boolean)).forEach(add);
 });
 const generic = new Set([...count].filter(([, c]) => c >= GENERIC_MIN).map(([k]) => k));
 
-const ids = new Set();
+const ids = new Set(S.map((s) => s.id));
+const seenIds = new Set();
+const prevIds = new Set();
 for (const s of S) {
   const id = s.id || '(no id)';
-  if (ids.has(id)) errors.push(id + ': duplicate id');
-  ids.add(id);
-  for (const k of ['id', 'category', 'scientific_name', 'common_name', 'hu_name', 'care_level']) if (!s[k]) errors.push(id + ': missing ' + k);
+  if (seenIds.has(id)) errors.push(id + ': duplicate id');
+  seenIds.add(id);
+  for (const k of ['id', 'category', 'scientific_name', 'common_name', 'care_level']) if (!s[k]) errors.push(id + ': missing ' + k);
+  if (s.previous_id) {
+    if (ids.has(s.previous_id) || prevIds.has(s.previous_id)) errors.push(id + ': previous_id "' + s.previous_id + '" is also used by another species');
+    prevIds.add(s.previous_id);
+  }
+  // No Hungarian name is fine (no forced translation): the card then shows the English common name.
+  if (!s.hu_name && !s.hu_name_review_status) w('no Hungarian name and no note on why', id);
+  const sg = s.subgroup && s.subgroup.id;
+  if (!sg) errors.push(id + ': missing subgroup');
+  else if (!db.subgroups?.[s.category]?.[sg]) w('subgroup missing from the top-level subgroups list (listed last)', id + ' → ' + sg);
+  const img = s.image_reference || {};
+  if (!urlKey(img.source_page_url) && !urlKey(img.commons_search_url)) w('no photo link', id);
   if (!['fish', 'coral', 'invert'].includes(s.category)) errors.push(id + ': unknown category ' + s.category);
   if (s.id && s.scientific_name && s.id !== slug(s.scientific_name)) w('id differs from the scientific name (typo, or a renamed genus?)', id + ' → ' + slug(s.scientific_name));
   const en = (k, v) => { if (v != null && !ENUMS[k].includes(v)) errors.push(id + ': unknown ' + k + ' "' + v + '" (not shown)'); };
@@ -75,14 +97,15 @@ for (const s of S) {
   }
   const notes = [...(s.behavior?.notes || []), ...(s.extra_notes || [])].filter((x) => !generic.has(x));
   if (!notes.length) w('no species-specific notes', id);
-  if (!(s.pro_tips || []).filter((x) => !generic.has(x)).length) w('no pro tip', id);
 
-  const urls = (s.sources || []).map((x) => x.url);
-  if (new Set(urls).size !== urls.length) w('duplicate source URLs', id);
-  const usable = urls.filter((u) => { try { return !generic.has(u) && new URL(u).pathname.replace(/\/+$/, '') !== ''; } catch { return false; } });
-  if (urls.some((u) => { try { return new URL(u).pathname.replace(/\/+$/, '') === ''; } catch { return true; } })) w('site homepage given as source (hidden)', id);
-  if (urls.some((u) => generic.has(u))) w('same source URL as many other species, not species-specific (hidden)', id);
-  if (!usable.length) w('no species-specific source at all', id);
+  const keys = (s.sources || []).map((x) => urlKey(x.url));
+  const real = keys.filter(Boolean);
+  if (new Set(real).size !== real.length) w('same source page listed more than once (merged on the card)', id);
+  if (keys.some((k) => !k)) w('site homepage given as source (hidden)', id);
+  if (real.some((k) => generic.has(k))) w('same source URL as many other species, not species-specific (hidden)', id);
+  const usable = new Set(real.filter((k) => !generic.has(k)));
+  if (!usable.size) w('no species-specific source at all', id);
+  else if (usable.size < 2) w('only one species-specific source (no cross-check)', id);
 }
 
 const genericTexts = [...generic].filter((x) => !/^https?:/.test(x));
