@@ -1,7 +1,7 @@
 // Checks the species database and lists what is missing or not usable on the cards.
 // Usage: node species/tools/validate.mjs [path/to/db.json]
 // Exit code 1 = errors that break or hide card content; warnings are gaps worth filling in the next data round.
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -9,6 +9,8 @@ const here = dirname(fileURLToPath(import.meta.url));
 const file = process.argv[2] || join(here, '../../databases/reef42_marine_life_db_v1.json');
 const db = JSON.parse(readFileSync(file, 'utf8'));
 const S = db.species || [];
+const photoFile = join(dirname(file), 'reef42_species_images.json');
+const photos = existsSync(photoFile) ? JSON.parse(readFileSync(photoFile, 'utf8')).images || {} : {};
 const GENERIC_MIN = 5; // keep in sync with species/assets/app.js
 
 // Values the cards have labels for (species/assets/app.js ENUM).
@@ -70,6 +72,7 @@ for (const s of S) {
   else if (!db.subgroups?.[s.category]?.[sg]) w('subgroup missing from the top-level subgroups list (listed last)', id + ' → ' + sg);
   const img = s.image_reference || {};
   if (!urlKey(img.source_page_url) && !urlKey(img.commons_search_url)) w('no photo link', id);
+  if (!photos[s.id]) w('no photo on the card (run node species/tools/images.mjs)', id);
   if (!['fish', 'coral', 'invert'].includes(s.category)) errors.push(id + ': unknown category ' + s.category);
   if (s.id && s.scientific_name && s.id !== slug(s.scientific_name)) w('id differs from the scientific name (typo, or a renamed genus?)', id + ' → ' + slug(s.scientific_name));
   const en = (k, v) => { if (v != null && !ENUMS[k].includes(v)) errors.push(id + ': unknown ' + k + ' "' + v + '" (not shown)'); };
