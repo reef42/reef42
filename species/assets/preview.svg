@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Species">
+  <rect width="320" height="180" fill="#0f1a1c"/>
+  <!-- category tiles -->
+  <g fill="#142225" stroke="#2a4146">
+    <rect x="16" y="16" width="84" height="44" rx="8"/>
+    <rect x="16" y="68" width="84" height="44" rx="8"/>
+    <rect x="16" y="120" width="84" height="44" rx="8"/>
+  </g>
+  <g fill="#0e7c86"><rect x="24" y="24" width="28" height="28" rx="6"/><rect x="24" y="76" width="28" height="28" rx="6"/><rect x="24" y="128" width="28" height="28" rx="6"/></g>
+  <path d="M28 38c2-3 5-4.5 8-4.5 2 0 3.6 1 4.6 2l2-1.6v8.2l-2-1.6c-1 1-2.6 2-4.6 2-3 0-6-1.5-8-4.5z" fill="#fff"/>
+  <path d="M38 98v-8m0 3l-4-3.5v-3.5m4 2l4-3v-3.5" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 132l2.4 5.5 6 .5-4.5 4 1.4 5.9-5.3-3.2-5.3 3.2 1.4-5.9-4.5-4 6-.5z" fill="#fff"/>
+  <g fill="#e4eff1"><rect x="58" y="31" width="34" height="6" rx="3"/><rect x="58" y="83" width="30" height="6" rx="3"/><rect x="58" y="135" width="34" height="6" rx="3"/></g>
+  <g fill="#3cc2cc"><rect x="58" y="42" width="22" height="4" rx="2"/><rect x="58" y="94" width="22" height="4" rx="2"/><rect x="58" y="146" width="22" height="4" rx="2"/></g>
+  <!-- species card -->
+  <rect x="112" y="16" width="192" height="148" rx="10" fill="#142225" stroke="#2a4146"/>
+  <rect x="124" y="28" width="96" height="9" rx="4" fill="#e4eff1"/>
+  <rect x="124" y="42" width="70" height="5" rx="2.5" fill="#9db3b8"/>
+  <g><rect x="124" y="53" width="34" height="10" rx="5" fill="#183019"/><rect x="162" y="53" width="38" height="10" rx="5" fill="#1b2d31" stroke="#2a4146"/></g>
+  <rect x="124" y="70" width="168" height="16" rx="5" fill="#3a1a20"/>
+  <rect x="124" y="70" width="3" height="16" fill="#f27d8c"/>
+  <rect x="132" y="76" width="60" height="4" rx="2" fill="#f27d8c"/>
+  <g fill="#1b2d31">
+    <rect x="124" y="92" width="52" height="28" rx="5"/><rect x="182" y="92" width="52" height="28" rx="5"/><rect x="240" y="92" width="52" height="28" rx="5"/>
+    <rect x="124" y="126" width="52" height="28" rx="5"/><rect x="182" y="126" width="52" height="28" rx="5"/><rect x="240" y="126" width="52" height="28" rx="5"/>
+  </g>
+  <g fill="#9db3b8"><rect x="130" y="98" width="24" height="3" rx="1.5"/><rect x="188" y="98" width="30" height="3" rx="1.5"/><rect x="246" y="98" width="22" height="3" rx="1.5"/><rect x="130" y="132" width="28" height="3" rx="1.5"/><rect x="188" y="132" width="20" height="3" rx="1.5"/><rect x="246" y="132" width="26" height="3" rx="1.5"/></g>
+  <g fill="#e4eff1"><rect x="130" y="106" width="34" height="6" rx="3"/><rect x="188" y="106" width="28" height="6" rx="3"/><rect x="246" y="106" width="38" height="6" rx="3"/><rect x="130" y="140" width="30" height="6" rx="3"/><rect x="188" y="140" width="36" height="6" rx="3"/><rect x="246" y="140" width="26" height="6" rx="3"/></g>
+</svg>

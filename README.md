@@ -8,9 +8,10 @@ each tool lives in its own folder.
 | fishy doctor | [`fishy-doctor/`](fishy-doctor/) | Bilingual (English / Hungarian) fish disease identification and treatment guide based on humble.fish |
 | tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks and sharing; data stays in the browser |
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
+| species | [`species/`](species/) | Bilingual species care cards (draft data): overview with fish, coral and invertebrate lists, one card per species |
 | links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries (logos in `links/logos/`) |
 
-### Species database (draft, not linked from the hub yet)
+### Species database
 
 [`species/`](species/) is one tool with three categories: an overview (`species/#/`) leads to the fish, coral and
 invertebrate lists (`#/fish`, `#/corals`, `#/inverts`), and each species has its own card link (`#/fish/<id>`).
