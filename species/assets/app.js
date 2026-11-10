@@ -454,10 +454,8 @@
     app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
       CATS.map((c) => {
         const mine = all.filter((s) => s.category === c);
-        const groups = (GROUPS[c] || []).filter((g) => mine.some((s) => s.subgroup && s.subgroup.id === g.id)).map(groupName);
         return '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + c + '.svg" alt="" width="44" height="44">' +
-          '<h2>' + esc(t(c)) + '</h2><p class="sub">' + esc(groups.length ? groups.join(' · ') : t('lead_' + c)) + '</p>' +
-          '<span class="go">' + esc(t('open', { n: mine.length })) + '</span></a></li>';
+          '<h2>' + esc(t(c)) + '</h2><span class="go">' + esc(t('open', { n: mine.length })) + '</span></a></li>';
       }).join('') + '</ul>';
   }
 
