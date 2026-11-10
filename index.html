@@ -34,7 +34,7 @@
     h1 { margin: 0; font-size: clamp(2.4rem, 8vw, 4rem); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
     .lead { margin: 12px 0 0; color: var(--muted); font-size: 1.05rem; }
     .lang {
-      font: inherit; font-size: .85rem; font-weight: 600; text-transform: lowercase;
+      font: inherit; font-size: .85rem; font-weight: 600;
       color: var(--text); background: transparent; border: 1px solid var(--line);
       border-radius: 999px; padding: 5px 12px; cursor: pointer;
     }
@@ -67,11 +67,26 @@
     .card h2 { margin: 0; font-size: 1.15rem; font-weight: 600; }
     .card p { margin: 0; color: var(--muted); font-size: .95rem; }
     .card .go { margin-top: auto; padding-top: 8px; font-size: .9rem; }
+    .top { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+    .support { padding-bottom: 48px; }
+    .support-box {
+      padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
+    }
+    .support h2 { margin: 0 0 4px; font-size: 1.15rem; font-weight: 600; }
+    .support p { margin: 0; color: var(--muted); max-width: 60ch; }
+    .coffee {
+      display: inline-block; font-weight: 600; text-decoration: none; white-space: nowrap;
+      color: var(--bg); background: var(--text); border: 1px solid var(--text); border-radius: 999px; padding: 8px 18px;
+    }
+    .coffee:hover { background: transparent; color: var(--text); }
+    .coffee:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
     footer { border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 20px; color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; }
     footer a { color: var(--text); text-underline-offset: 3px; }
   </style>
 </head>
 <body>
+  <div class="top">
   <header class="wrap">
     <div>
       <h1>reef42</h1>
@@ -124,12 +139,25 @@
       </li>
     </ul>
   </main>
+  </div>
+
+  <!-- Kept below the first screen on purpose: .top fills the viewport, so this only shows after scrolling. -->
+  <section class="support wrap" aria-labelledby="support-title">
+    <div class="support-box">
+      <div>
+        <h2 id="support-title" data-i18n="freeTitle">free, now and always</h2>
+        <p data-i18n="freeText">every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.</p>
+      </div>
+      <a class="coffee" href="https://buymeacoffee.com/reef42" target="_blank" rel="noopener" data-i18n="coffee">buy me a coffee ☕</a>
+    </div>
+  </section>
 
   <footer class="wrap">
     <span>reef42</span>
     <span><span data-i18n="feedback">feedback and ideas:</span> <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span>
   </footer>
 
+  <script src="shared/lang.js"></script>
   <script>
     (function () {
       var TEXT = {
@@ -142,8 +170,10 @@
           open: 'open →',
           linksTitle: 'links',
           links: 'hungarian and european shops, communities, manufacturers and tools for reef keepers.',
+          freeTitle: 'free, now and always',
+          freeText: 'every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.',
+          coffee: 'buy me a coffee ☕',
           feedback: 'feedback and ideas:',
-          toggle: 'magyar',
           description: 'reef42 – tools for saltwater aquarium keepers.'
         },
         hu: {
@@ -155,8 +185,10 @@
           open: 'megnyitás →',
           linksTitle: 'linkek',
           links: 'magyar és európai boltok, közösségek, gyártók és eszközök tengeri akvaristáknak.',
+          freeTitle: 'ingyenes, most és mindig',
+          freeText: 'a reef42 minden eszköze ingyenes, és az is marad. ha hasznosnak találod őket, meghívhatsz minket egy kávéra.',
+          coffee: 'meghívlak egy kávéra ☕',
           feedback: 'visszajelzés, ötletek:',
-          toggle: 'english',
           description: 'reef42 – eszközök tengeri akvaristáknak.'
         }
       };
@@ -166,16 +198,16 @@
       var lang = new URLSearchParams(location.search).get('lang') || load() ||
         ((navigator.language || '').toLowerCase().indexOf('hu') === 0 ? 'hu' : 'en');
       if (lang !== 'hu') lang = 'en';
-      var btn = document.getElementById('lang');
       function apply() {
         var t = TEXT[lang];
         document.documentElement.lang = lang;
         document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = t[el.getAttribute('data-i18n')]; });
         document.querySelector('meta[name="description"]').setAttribute('content', t.description);
-        btn.textContent = t.toggle;
-        btn.setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
       }
-      btn.addEventListener('click', function () { lang = lang === 'hu' ? 'en' : 'hu'; save(lang); apply(); });
+      reef42Lang.mount(document.getElementById('lang'), {
+        get: function () { return lang; },
+        set: function (v) { lang = v; save(lang); apply(); }
+      });
       apply();
     })();
   </script>

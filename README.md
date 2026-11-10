@@ -28,6 +28,7 @@ under `https://<user>.github.io/<repo>/` as well as on a custom domain.
 
 ## Adding a tool
 
-1. Put the tool in its own folder with an `index.html`, using relative paths only.
+1. Put the tool in its own folder with an `index.html`, using relative paths only. For the language picker, load
+   `../shared/lang.js` and call `reef42Lang.mount(button, { get, set })` on the topbar's language button.
 2. Add a card for it to the grid in the root `index.html` (copy the existing `<li>`).
 3. Add a row to the table above.
