@@ -10,6 +10,19 @@ each tool lives in its own folder.
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
 | links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries (logos in `links/logos/`) |
 
+### Species cards (draft, not linked from the hub yet)
+
+| Tool | Folder | Description |
+| --- | --- | --- |
+| fish | [`fish/`](fish/) | Care cards for saltwater fish |
+| corals | [`corals/`](corals/) | Care cards for corals: light, flow, placement, growth, aggression |
+| inverts | [`inverts/`](inverts/) | Care cards for shrimps, crabs, snails, sea stars and urchins |
+
+The three pages share the code in `species/` and read `databases/reef42_marine_life_db_v1.json`. Each species has its
+own link (`fish/#/<id>`). Empty fields are not shown; texts and source links repeated on 5+ species count as template
+filler and are hidden. While ethical scores are provisional, only "not recommended" species show the ethical index.
+Run `node species/tools/validate.mjs` after every data update: it lists errors and missing data per species.
+
 ## Running locally
 
 Everything is static HTML/CSS/JS with no build step. Serve the repository root over HTTP:
