@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '../..');
-const DB = join(root, 'databases/reef42_marine_life_db_v1.json');
+const DB = join(root, 'databases/reef42_marine_life_db_v3.json');
 const OUT = join(root, 'databases/reef42_species_images.json');
 const db = JSON.parse(readFileSync(DB, 'utf8'));
 const prev = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')).images || {} : {};

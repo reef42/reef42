@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const file = process.argv[2] || join(here, '../../databases/reef42_marine_life_db_v1.json');
+const file = process.argv[2] || join(here, '../../databases/reef42_marine_life_db_v3.json');
 const db = JSON.parse(readFileSync(file, 'utf8'));
 const S = db.species || [];
 const photoFile = join(dirname(file), 'reef42_species_images.json');
@@ -15,18 +15,21 @@ const GENERIC_MIN = 5; // keep in sync with species/assets/app.js
 
 // Values the cards have labels for (species/assets/app.js ENUM).
 const ENUMS = {
-  care_level: ['easy', 'easy_moderate', 'moderate', 'difficult', 'expert'],
+  care_level: ['easy', 'easy_moderate', 'moderate', 'moderate_difficult', 'difficult', 'expert'],
   reef_compatibility: ['reef_safe', 'reef_safe_with_caution', 'conditional'],
-  temperament: ['peaceful', 'peaceful_pair', 'shoaling', 'peaceful_territorial', 'semi_territorial', 'territorial', 'semi_aggressive'],
+  temperament: ['peaceful', 'peaceful_pair', 'shoaling', 'peaceful_territorial', 'semi_territorial', 'territorial', 'semi_aggressive',
+    'mostly_peaceful', 'peaceful_shy', 'peaceful_with_food_competition', 'peaceful_to_semi_aggressive', 'aggressive', 'aggressive_territorial'],
   diet: ['omnivore', 'carnivore', 'herbivore', 'herbivore_omnivore', 'omnivore_planktivore', 'detritivore_herbivore', 'specialized_microfauna',
-    'omnivore_scavenger', 'carnivore_scavenger', 'scavenger_carnivore', 'herbivore_grazer', 'specialized_biofilm_feeder'],
-  coral_type: ['SPS', 'LPS', 'soft', 'zoanthid'],
+    'omnivore_scavenger', 'carnivore_scavenger', 'scavenger_carnivore', 'herbivore_grazer', 'specialized_biofilm_feeder', 'planktivore',
+    'carnivore_planktivore', 'herbivore_microfauna', 'herbivore_macroalgae', 'herbivore_detritivore', 'detritivore_scavenger', 'sand_microfauna_detritus',
+    'filter_feeder', 'suspension_feeder_phytoplankton_zooplankton', 'photosynthetic_predator', 'photosynthetic_filter_feeder', 'obligate_starfish_predator'],
+  coral_type: ['SPS', 'LPS', 'soft', 'zoanthid', 'corallimorph', 'NPS'],
   lighting: ['low', 'low_moderate', 'moderate', 'moderate_high', 'high'],
-  flow: ['low_moderate', 'moderate', 'moderate_strong', 'strong'],
-  placement: ['upper', 'middle_upper', 'middle', 'middle_lower', 'bottom_middle', 'bottom'],
-  growth_rate: ['slow', 'slow_moderate', 'moderate', 'moderate_fast', 'fast'],
-  aggression: ['low_moderate', 'moderate', 'high', 'very_high', 'chemical'],
-  feeding: ['photosynthetic_with_optional_target_feeding']
+  flow: ['low', 'low_moderate', 'moderate', 'moderate_strong', 'moderate_high', 'moderate_indirect', 'strong'],
+  placement: ['upper', 'middle_upper', 'middle', 'middle_lower', 'lower_middle', 'lower_shaded', 'bottom_middle', 'bottom', 'substrate'],
+  growth_rate: ['very_slow', 'slow', 'slow_moderate', 'moderate', 'moderate_fast', 'fast'],
+  aggression: ['low', 'low_moderate', 'moderate', 'moderate_high', 'high', 'very_high', 'chemical'],
+  feeding: ['photosynthetic', 'photosynthetic_with_optional_target_feeding', 'non_photosynthetic_target_feeding']
 };
 
 const errors = [];

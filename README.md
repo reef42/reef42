@@ -18,7 +18,8 @@ invertebrate pages (`#/fish`, `#/corals`, `#/inverts`). Each category shows its 
 surgeonfish, SPS) as a photo grid in the order of the top-level `subgroups` object, each type lists its species
 (`#/fish/surgeonfish`), and each species has its own card (`#/fish/surgeonfish/<id>`). Searching on a category page lists
 matching species from all its types. Older links (`#/<id>`, `#/fish/<id>`) redirect to the current address.
-It reads `databases/reef42_marine_life_db_v1.json`. Empty fields are not shown; texts and source links repeated on 5+ species count as template
+It reads `databases/reef42_marine_life_db_v3.json` (the `reef42_fish/coral/invert_db_v3.json` files are per-category copies of the
+same records and are not loaded). Empty fields are not shown; texts and source links repeated on 5+ species count as template
 filler and are hidden, and the same page listed twice is shown once with what it backs up.
 
 Photos come from `databases/reef42_species_images.json`: one freely licensed Wikimedia Commons file per species (CC0, public

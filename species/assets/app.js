@@ -2,7 +2,7 @@
 (() => {
   'use strict';
 
-  const DATA_URL = '../databases/reef42_marine_life_db_v1.json';
+  const DATA_URL = '../databases/reef42_marine_life_db_v3.json';
   // Freely licensed Wikimedia Commons photos, keyed by species id (species/tools/images.mjs). Optional: cards work without it.
   const PHOTOS_URL = '../databases/reef42_species_images.json';
   const LANG_KEY = 'reef42-lang';
@@ -55,12 +55,19 @@
 
   // Enum labels: [en, hu]. Unknown values are not shown (the validator reports them).
   const ENUM = {
-    care_level: { easy: ['Easy', 'Könnyű'], easy_moderate: ['Easy to moderate', 'Könnyű–közepes'], moderate: ['Moderate', 'Közepes'], difficult: ['Difficult', 'Nehéz'], expert: ['Experts only', 'Csak tapasztaltaknak'] },
+    care_level: {
+      easy: ['Easy', 'Könnyű'], easy_moderate: ['Easy to moderate', 'Könnyű–közepes'], moderate: ['Moderate', 'Közepes'],
+      moderate_difficult: ['Moderate to difficult', 'Közepes–nehéz'], difficult: ['Difficult', 'Nehéz'], expert: ['Experts only', 'Csak tapasztaltaknak']
+    },
     reef: { reef_safe: ['Reef safe', 'Korallbarát'], reef_safe_with_caution: ['Reef safe with caution', 'Korallok mellé óvatosan'], conditional: ['Reef safe with conditions', 'Korallok mellé feltételekkel'] },
     temperament: {
       peaceful: ['Peaceful', 'Békés'], peaceful_pair: ['Peaceful, can be kept in pairs', 'Békés, párban is tartható'], shoaling: ['Shoaling', 'Csapatban élő'],
       peaceful_territorial: ['Peaceful but territorial', 'Békés, de területvédő'], semi_territorial: ['Somewhat territorial', 'Kissé területvédő'],
-      territorial: ['Territorial', 'Területvédő'], semi_aggressive: ['Semi-aggressive', 'Félagresszív']
+      territorial: ['Territorial', 'Területvédő'], semi_aggressive: ['Semi-aggressive', 'Félagresszív'],
+      mostly_peaceful: ['Mostly peaceful', 'Többnyire békés'], peaceful_shy: ['Peaceful, shy', 'Békés, félénk'],
+      peaceful_with_food_competition: ['Peaceful, but competes for food', 'Békés, de versenyez az élelemért'],
+      peaceful_to_semi_aggressive: ['Peaceful to semi-aggressive', 'Békés–félagresszív'], aggressive: ['Aggressive', 'Agresszív'],
+      aggressive_territorial: ['Aggressive, territorial', 'Agresszív, területvédő']
     },
     diet: {
       omnivore: ['Omnivore', 'Mindenevő'], carnivore: ['Carnivore', 'Húsevő'], herbivore: ['Herbivore', 'Növényevő'],
@@ -68,21 +75,44 @@
       detritivore_herbivore: ['Grazes algae and detritus', 'Algát és detrituszt legel'], specialized_microfauna: ['Specialist: tiny crustaceans (pods)', 'Specialista: apró rákocskák (podok)'],
       omnivore_scavenger: ['Omnivore, scavenger', 'Mindenevő, dögevő'], carnivore_scavenger: ['Carnivore, scavenger', 'Húsevő, dögevő'],
       scavenger_carnivore: ['Scavenger, carnivore', 'Dögevő, húsevő'], herbivore_grazer: ['Algae grazer', 'Algalegelő'],
-      specialized_biofilm_feeder: ['Specialist: biofilm and detritus', 'Specialista: biofilm és detritusz']
+      specialized_biofilm_feeder: ['Specialist: biofilm and detritus', 'Specialista: biofilm és detritusz'],
+      planktivore: ['Plankton eater', 'Planktonevő'], carnivore_planktivore: ['Carnivore, plankton eater', 'Húsevő, planktonevő'],
+      herbivore_microfauna: ['Algae and tiny animals', 'Alga és apró élőlények'], herbivore_macroalgae: ['Macroalgae eater', 'Makroalgát eszik'],
+      herbivore_detritivore: ['Herbivore, detritus eater', 'Növényevő, detrituszevő'], detritivore_scavenger: ['Detritus eater, scavenger', 'Detrituszevő, dögevő'],
+      sand_microfauna_detritus: ['Sifts sand for tiny animals and detritus', 'A homokból szűri ki az apró élőlényeket és a detrituszt'],
+      filter_feeder: ['Filter feeder', 'Szűrögető'], suspension_feeder_phytoplankton_zooplankton: ['Filter feeder: phyto- and zooplankton', 'Szűrögető: fito- és zooplankton'],
+      photosynthetic_predator: ['Photosynthetic, also catches prey', 'Fényből él, zsákmányt is fog'],
+      photosynthetic_filter_feeder: ['Photosynthetic, also filter-feeds', 'Fényből él, szűrögetéssel is táplálkozik'],
+      obligate_starfish_predator: ['Specialist: eats only sea stars', 'Specialista: csak tengeri csillagot eszik']
     },
-    coral_type: { SPS: ['SPS', 'SPS'], LPS: ['LPS', 'LPS'], soft: ['Soft coral', 'Lágykorall'], zoanthid: ['Zoanthid', 'Zoanthus'] },
+    coral_type: {
+      SPS: ['SPS', 'SPS'], LPS: ['LPS', 'LPS'], soft: ['Soft coral', 'Lágykorall'], zoanthid: ['Zoanthid', 'Zoanthus'],
+      corallimorph: ['Corallimorph', 'Korallimorf'], NPS: ['NPS (non-photosynthetic)', 'NPS (nem fotoszintetizáló)']
+    },
     level: { low: ['Low', 'Alacsony'], low_moderate: ['Low to moderate', 'Alacsony–közepes'], moderate: ['Moderate', 'Közepes'], moderate_high: ['Moderate to high', 'Közepes–erős'], high: ['High', 'Erős'] },
-    flow: { low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_strong: ['Moderate to strong', 'Közepes–erős'], strong: ['Strong', 'Erős'] },
+    flow: {
+      low: ['Low', 'Gyenge'], low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_strong: ['Moderate to strong', 'Közepes–erős'],
+      moderate_high: ['Moderate to strong', 'Közepes–erős'], moderate_indirect: ['Moderate, indirect', 'Közepes, nem közvetlen'], strong: ['Strong', 'Erős']
+    },
     placement: {
       upper: ['Upper', 'Felső szint'], middle_upper: ['Middle to upper', 'Középső–felső szint'], middle: ['Middle', 'Középső szint'],
-      middle_lower: ['Lower to middle', 'Alsó–középső szint'], bottom_middle: ['Bottom to middle', 'Aljzat–középső szint'], bottom: ['Bottom (sand)', 'Aljzat (homok)']
+      middle_lower: ['Lower to middle', 'Alsó–középső szint'], lower_middle: ['Lower to middle', 'Alsó–középső szint'], lower_shaded: ['Lower, shaded', 'Alsó, árnyékos rész'],
+      bottom_middle: ['Bottom to middle', 'Aljzat–középső szint'], bottom: ['Bottom (sand)', 'Aljzat (homok)'], substrate: ['On the substrate', 'Az aljzaton']
     },
-    growth: { slow: ['Slow', 'Lassú'], slow_moderate: ['Slow to moderate', 'Lassú–közepes'], moderate: ['Moderate', 'Közepes'], moderate_fast: ['Moderate to fast', 'Közepes–gyors'], fast: ['Fast', 'Gyors'] },
+    growth: {
+      very_slow: ['Very slow', 'Nagyon lassú'], slow: ['Slow', 'Lassú'], slow_moderate: ['Slow to moderate', 'Lassú–közepes'], moderate: ['Moderate', 'Közepes'],
+      moderate_fast: ['Moderate to fast', 'Közepes–gyors'], fast: ['Fast', 'Gyors']
+    },
     aggression: {
-      low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], high: ['High (sweeper tentacles)', 'Erős, csalánzó tapogatókkal'],
+      low: ['Low', 'Gyenge'], low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_high: ['Moderate to high', 'Közepes–erős'],
+      high: ['High (sweeper tentacles)', 'Erős, csalánzó tapogatókkal'],
       very_high: ['Very high (long sweepers)', 'Nagyon erős, hosszú csalánzó tapogatókkal'], chemical: ['Chemical (terpenes)', 'Vegyi anyagokkal (terpének)']
     },
-    feeding: { photosynthetic_with_optional_target_feeding: ['Photosynthetic, optional target feeding', 'Fényből él, célzottan etethető'] }
+    feeding: {
+      photosynthetic: ['Photosynthetic', 'Fényből él'],
+      photosynthetic_with_optional_target_feeding: ['Photosynthetic, optional target feeding', 'Fényből él, célzottan etethető'],
+      non_photosynthetic_target_feeding: ['Not photosynthetic, needs target feeding', 'Nem fotoszintetizál, célzott etetést igényel']
+    }
   };
   // What a source backs up (sources[].supports), shown under each link so the cross-checks are visible.
   const SUPPORTS = {
@@ -92,22 +122,45 @@
     care_level: ['care level', 'tartási nehézség'], care: ['care', 'tartás'], temperament: ['temperament', 'természet'], behavior: ['behaviour', 'viselkedés'],
     compatibility: ['compatibility', 'társíthatóság'], reef_compatibility: ['reef compatibility', 'korallos akvárium'], diet: ['diet', 'táplálkozás'],
     feeding: ['feeding', 'etetés'], lighting: ['light', 'fény'], flow: ['flow', 'áramlás'], placement: ['placement', 'elhelyezés'],
-    aggression: ['aggression', 'csalánzás, agresszió'], photos_and_credits: ['photos', 'fotók']
+    aggression: ['aggression', 'csalánzás, agresszió'], photos_and_credits: ['photos', 'fotók'], images_and_credits: ['photos', 'fotók'],
+    image_credits: ['photos', 'fotók'], synonyms: ['synonyms', 'szinonimák'], hungarian_common_name: ['Hungarian name', 'magyar név'],
+    hobby_availability: ['availability', 'beszerezhetőség'], growth_or_aggression: ['growth, aggression', 'növekedés, csalánzás'],
+    husbandry: ['husbandry', 'tartás'], tank_setup: ['tank setup', 'berendezés'], substrate: ['substrate', 'aljzat'],
+    water_stability: ['water stability', 'vízstabilitás'], sensitivity: ['sensitivity', 'érzékenység'], risks: ['risks', 'kockázatok'],
+    pump_safety: ['pump safety', 'szivattyúk veszélye'], propagation: ['propagation', 'szaporítás'], aquaculture: ['aquaculture', 'tenyésztés'],
+    morphs: ['colour morphs', 'színváltozatok'], dietary_specialization: ['diet specialisation', 'táplálékspecializáció'],
+    cleanup_role: ['clean-up role', 'takarító szerep'], shell_requirements: ['shells', 'csigaházak'], shells: ['shells', 'csigaházak'],
+    symbiosis: ['symbiosis', 'együttélés'], goby_symbiosis: ['goby symbiosis', 'együttélés gébbel'], host_association: ['host animal', 'gazdaállat'],
+    anemone_biology: ['anemone biology', 'anemóna-biológia'], compatible_genera: ['compatible genera', 'társítható nemzetségek'], predators: ['predators', 'ragadozók']
   };
   const SITE = {
     'reefapp.net': 'ReefApp', 'tidalgardens.com': 'Tidal Gardens', 'coralsoftheworld.org': 'Corals of the World',
-    'commons.wikimedia.org': 'Wikimedia Commons', 'surg.org.au': 'SURG', 'fishbase.se': 'FishBase', 'sealifebase.se': 'SeaLifeBase'
+    'commons.wikimedia.org': 'Wikimedia Commons', 'surg.org.au': 'SURG', 'fishbase.se': 'FishBase', 'sealifebase.se': 'SeaLifeBase',
+    'sealifebase.org': 'SeaLifeBase', 'sealifebase.ca': 'SeaLifeBase', 'marinespecies.org': 'WoRMS'
   };
   const REGION = {
     'Indo-Pacific': 'Indo-csendes-óceáni térség', 'Tropical Indo-Pacific and Atlantic': 'Trópusi Indo-csendes-óceáni térség és Atlanti-óceán',
     'Indo-West Pacific': 'Indiai-óceán és Nyugat-Csendes-óceán', 'Western Pacific': 'Nyugat-Csendes-óceán', 'Central Pacific': 'Közép-Csendes-óceán',
     'Central Pacific, especially Hawaii': 'Közép-Csendes-óceán, főleg Hawaii', 'Indonesia and nearby Indo-Pacific': 'Indonézia és környéke',
     'Caribbean': 'Karib-tenger', 'Western Atlantic': 'Nyugat-Atlanti-óceán', 'Western Atlantic / Caribbean': 'Nyugat-Atlanti-óceán, Karib-tenger',
-    'Banggai-szigetek, Indonézia': 'Banggai-szigetek, Indonézia'
+    'Banggai-szigetek, Indonézia': 'Banggai-szigetek, Indonézia', 'Indo-Pacific és Vörös-tenger': 'Indo-csendes-óceáni térség és Vörös-tenger', 'Eastern Pacific': 'Kelet-Csendes-óceán',
+    'Central and western Pacific': 'Közép- és Nyugat-Csendes-óceán', 'Central and Western Pacific': 'Közép- és Nyugat-Csendes-óceán',
+    'Caribbean / Western Atlantic': 'Karib-tenger, Nyugat-Atlanti-óceán', 'Caribbean and Indo-Pacific': 'Karib-tenger és Indo-csendes-óceáni térség',
+    'Indo-Pacific and Red Sea': 'Indo-csendes-óceáni térség és Vörös-tenger', 'Indo-Pacific and tropical Atlantic': 'Indo-csendes-óceáni térség és trópusi Atlanti-óceán',
+    'Indo-Pacific, from the Red Sea to the central Pacific': 'Indo-csendes-óceáni térség, a Vörös-tengertől a Csendes-óceán közepéig',
+    'Indo-Pacific, Red Sea to central Pacific': 'Indo-csendes-óceáni térség, a Vörös-tengertől a Csendes-óceán közepéig',
+    'Western Pacific, including Indonesia and the Philippines': 'Nyugat-Csendes-óceán, többek között Indonézia és a Fülöp-szigetek',
+    'Western Pacific, from Indonesia to Fiji and the Great Barrier Reef': 'Nyugat-Csendes-óceán, Indonéziától Fidzsiig és a Nagy-korallzátonyig',
+    'Western Pacific, including Indonesia, Australia and nearby islands': 'Nyugat-Csendes-óceán, többek között Indonézia, Ausztrália és a környező szigetek',
+    'Western Pacific, including Japan, Australia and Pacific islands': 'Nyugat-Csendes-óceán, többek között Japán, Ausztrália és a csendes-óceáni szigetek',
+    'Western Pacific, from Indonesia to Vanuatu': 'Nyugat-Csendes-óceán, Indonéziától Vanuatuig'
   };
-  const REGION_EN = { 'Banggai-szigetek, Indonézia': 'Banggai Islands, Indonesia' };
-  const CARE_CLASS = { easy: 'easy', easy_moderate: 'easy', moderate: 'moderate', difficult: 'hard', expert: 'bad' };
-  const CARE_ORDER = ['easy', 'easy_moderate', 'moderate', 'difficult', 'expert'];
+  const REGION_EN = {
+    'Banggai-szigetek, Indonézia': 'Banggai Islands, Indonesia', 'Vörös-tenger': 'Red Sea', 'Indo-Pacific és Vörös-tenger': 'Indo-Pacific and Red Sea',
+    'Vörös-tenger és az Indiai-óceán nyugati része': 'Red Sea and western Indian Ocean'
+  };
+  const CARE_CLASS = { easy: 'easy', easy_moderate: 'easy', moderate: 'moderate', moderate_difficult: 'hard', difficult: 'hard', expert: 'bad' };
+  const CARE_ORDER = ['easy', 'easy_moderate', 'moderate', 'moderate_difficult', 'difficult', 'expert'];
 
   const app = document.getElementById('app');
   const ls = (get, k, v) => { try { if (get) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } return null; };
