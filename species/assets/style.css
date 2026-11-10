@@ -121,6 +121,9 @@ main:focus-visible { outline: none; }
 }
 .tile:hover { border-color: var(--accent); }
 .tile h2 { margin: 0; font-size: 1.05rem; }
+.tile.has-photo { padding-top: 0; overflow: hidden; }
+.tile .thumb { margin: 0 -16px 4px; background: var(--surface-2); border-bottom: 1px solid var(--border); }
+.tile .thumb img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
 .sci { font-style: italic; }
 .tile .sub { margin: -4px 0 0; color: var(--muted); font-size: .88rem; }
 .tile .facts-mini { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: auto 0 0; padding-top: 4px; color: var(--muted); font-size: .85rem; }
@@ -153,6 +156,11 @@ main:focus-visible { outline: none; }
   padding: 20px; max-width: 860px;
 }
 .card-head h1 { margin: 0 0 4px; }
+.photo { margin: -20px -20px 18px; }
+.photo img { display: block; width: 100%; height: auto; max-height: 520px; object-fit: cover; background: var(--surface-2); border-radius: var(--radius) var(--radius) 0 0; }
+.photo figcaption { padding: 6px 20px 0; font-size: .75rem; color: var(--muted); overflow-wrap: anywhere; }
+.photo figcaption a { color: inherit; }
+@media (max-width: 480px) { .photo { margin: -16px -16px 16px; } .photo figcaption { padding: 6px 16px 0; } }
 .card-head .names { margin: 0 0 12px; color: var(--muted); }
 .card-head .photos { margin: 12px 0 0; font-size: .9rem; }
 .card-head .photos span { color: var(--muted); }

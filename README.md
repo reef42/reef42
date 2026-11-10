@@ -17,8 +17,13 @@ each tool lives in its own folder.
 invertebrate lists (`#/fish`, `#/corals`, `#/inverts`), and each species has its own card link (`#/fish/<id>`).
 It reads `databases/reef42_marine_life_db_v1.json`. Lists are grouped by `subgroup` (e.g. surgeonfish, SPS), in the order of the
 top-level `subgroups` object. Empty fields are not shown; texts and source links repeated on 5+ species count as template
-filler and are hidden, and the same page listed twice is shown once with what it backs up. Cards link to external photo pages
-(`image_reference`) but never copy or hotlink an image. Species without a Hungarian name show the English common name. An id renamed
+filler and are hidden, and the same page listed twice is shown once with what it backs up.
+
+Photos come from `databases/reef42_species_images.json`: one freely licensed Wikimedia Commons file per species (CC0, public
+domain, CC BY, CC BY-SA), loaded from Wikimedia and shown with author, licence and a link to the file page, as the licences
+require. Run `node species/tools/images.mjs` after adding species: it keeps the chosen files, refreshes their licence data and
+picks a photo for new species, which should be checked by eye. To swap a photo, change its `file` and run it again. The shop
+pages linked in `image_reference` (ReefApp, Tidal Gardens) are copyrighted and are only linked, never embedded. Species without a Hungarian name show the English common name. An id renamed
 in the data keeps working if the species lists the old one as `previous_id`. While ethical scores are provisional, only
 "not recommended" species show the ethical index.
 Run `node species/tools/validate.mjs` after every data update: it lists errors and missing data per species.

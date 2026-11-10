@@ -3,6 +3,8 @@
   'use strict';
 
   const DATA_URL = '../databases/reef42_marine_life_db_v1.json';
+  // Freely licensed Wikimedia Commons photos, keyed by species id (species/tools/images.mjs). Optional: cards work without it.
+  const PHOTOS_URL = '../databases/reef42_species_images.json';
   const LANG_KEY = 'reef42-lang';
   const CATS = ['fish', 'coral', 'invert'];
   const SLUG = { fish: 'fish', coral: 'corals', invert: 'inverts' };
@@ -19,7 +21,7 @@
       lead_coral: 'Care cards for corals that are realistically available in Europe: light, flow, placement and what to watch for.',
       lead_invert: 'Care cards for shrimps, crabs, snails, sea stars and urchins that are realistically available in Europe.',
       search: 'Search by name…', all: 'All', count: '{n} species', none: 'No species match the filters.', group: 'Group', allGroups: 'All groups',
-      photos: 'Photos', formerly: 'formerly {n}', backs: 'Backs:',
+      photos: 'More photos', photo: 'Photo', formerly: 'formerly {n}', backs: 'Backs:',
       back: '← All {cat}', notFound: 'Species not found.', loadError: 'Could not load the species data.',
       huOnly: 'Notes are currently available in Hungarian only.',
       size: 'Size', maxSize: 'up to {n} cm', minTank: 'Minimum tank', liters: '{n} L', origin: 'Origin', care: 'Care level',
@@ -38,7 +40,7 @@
       lead_coral: 'Adatlapok az Európában reálisan beszerezhető korallokról: fény, áramlás, elhelyezés és amire figyelni kell.',
       lead_invert: 'Adatlapok az Európában reálisan beszerezhető garnélákról, rákokról, csigákról, tengeri csillagokról és sünökről.',
       search: 'Keresés név alapján…', all: 'Mind', count: '{n} faj', none: 'Nincs a szűrésnek megfelelő faj.', group: 'Csoport', allGroups: 'Minden csoport',
-      photos: 'Fotók', formerly: 'korábban: {n}', backs: 'Ezekhez:',
+      photos: 'További fotók', photo: 'Fotó', formerly: 'korábban: {n}', backs: 'Ezekhez:',
       back: '← Összes ({cat})', notFound: 'Nincs ilyen faj.', loadError: 'Nem sikerült betölteni a fajadatokat.',
       huOnly: '',
       size: 'Méret', maxSize: 'legfeljebb {n} cm', minTank: 'Legkisebb akvárium', liters: '{n} L', origin: 'Származás', care: 'Tartási nehézség',
@@ -119,6 +121,7 @@
   let species = [];
   let generic = new Set();
   let GROUPS = {}; // category -> [{ id, en, hu }] in database order
+  let PHOTOS = {}; // species id -> Commons photo with author and licence
   const FILTERS = {};
   CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', sub: '' }; });
   let filt = FILTERS.fish;
@@ -254,8 +257,29 @@
     renderItems();
     if (keepFocus) { const el = app.querySelector(keepFocus); if (el) el.focus(); }
   }
+  // Commons thumbnails; width/height keep the space reserved while the image loads.
+  function photoImg(s, sizes, lazy) {
+    const p = PHOTOS[s.id];
+    if (!p || !p.thumb_500) return '';
+    const srcset = p.thumb_960 ? ' srcset="' + esc(p.thumb_500) + ' 500w, ' + esc(p.thumb_960) + ' 960w" sizes="' + sizes + '"' : '';
+    return '<img src="' + esc(p.thumb_500) + '"' + srcset + ' alt="' + esc(title(s) + ' (' + s.scientific_name + ')') + '"' +
+      (p.width && p.height ? ' width="' + p.width + '" height="' + p.height + '"' : '') + (lazy ? ' loading="lazy"' : '') + ' decoding="async">';
+  }
+  // Attribution required by CC BY / BY-SA: author, licence (linked) and a link to the file page.
+  function photoFigure(s) {
+    const p = PHOTOS[s.id];
+    const img = photoImg(s, '(max-width: 900px) 100vw, 860px', false);
+    if (!img) return '';
+    const note = p.note ? (lang === 'hu' ? p.note.hu : p.note.en) || '' : '';
+    const lic = p.license ? (p.license_url ? '<a href="' + esc(p.license_url) + '" target="_blank" rel="noopener license">' + esc(p.license) + '</a>' : esc(p.license)) : '';
+    return '<figure class="photo">' + img + '<figcaption>' + (note ? esc(note) + ' · ' : '') + esc(t('photo')) + ': ' +
+      [p.author ? esc(p.author) : '', lic, '<a href="' + esc(p.page_url) + '" target="_blank" rel="noopener">Wikimedia Commons</a>'].filter(Boolean).join(' · ') +
+      '</figcaption></figure>';
+  }
   function tile(s) {
-    return '<li><a class="tile" href="#/' + SLUG[CAT] + '/' + esc(s.id) + '"><h2>' + esc(title(s)) + '</h2>' +
+    const img = photoImg(s, '(max-width: 600px) 100vw, 360px', true);
+    return '<li><a class="tile' + (img ? ' has-photo' : '') + '" href="#/' + SLUG[CAT] + '/' + esc(s.id) + '">' +
+      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + '</h2>' +
       '<p class="sub">' + (lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span></p>' +
       tags(s) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
   }
@@ -344,7 +368,7 @@
     const feedNote = s.feeding && s.feeding.notes && !generic.has(s.feeding.notes) ? [s.feeding.notes] : [];
     const src = sourcesOf(s);
     app.innerHTML = back + (t('huOnly') ? '<p class="notice">' + esc(t('huOnly')) + '</p>' : '') +
-      '<article class="card"><div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
+      '<article class="card">' + photoFigure(s) + '<div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
       tags(s, true) + photoLinks(s) + '</div>' +
       ethicBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
       listSection(t('behavior'), s.behavior && s.behavior.notes) + listSection(t('feeding'), feedNote) +
@@ -413,10 +437,12 @@
   });
 
   renderChrome();
-  fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => {
+  const photos = fetch(PHOTOS_URL).then((r) => (r.ok ? r.json() : {})).then((x) => x.images || {}).catch(() => ({}));
+  fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => photos.then((p) => {
+    PHOTOS = p;
     all = (db.species || []).filter((s) => CATS.includes(s.category));
     generic = findGeneric(db.species || []);
     GROUPS = groupsFrom(db);
     render();
-  }).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
+  })).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
 })();
