@@ -1,17 +1,20 @@
-// reef42 species cards: shared by fish/, corals/ and inverts/ (body[data-category] picks the category).
+// reef42 species database: overview → category list (#/fish, #/corals, #/inverts) → species card (#/fish/<id>).
 (() => {
   'use strict';
 
-  const CAT = document.body.dataset.category; // 'fish' | 'coral' | 'invert'
   const DATA_URL = '../databases/reef42_marine_life_db_v1.json';
   const LANG_KEY = 'reef42-lang';
-  const PAGES = [['fish', '../fish/'], ['coral', '../corals/'], ['invert', '../inverts/']];
+  const CATS = ['fish', 'coral', 'invert'];
+  const SLUG = { fish: 'fish', coral: 'corals', invert: 'inverts' };
+  const BY_SLUG = { fish: 'fish', corals: 'coral', inverts: 'invert' };
   // A text or source URL used by at least this many species is template filler, not species information: never shown.
   const GENERIC_MIN = 5;
 
   const TEXT = {
     en: {
-      fish: 'Fish', coral: 'Corals', invert: 'Inverts',
+      app: 'Species', home: 'Overview', fish: 'Fish', coral: 'Corals', invert: 'Inverts',
+      lead_home: 'Care cards for fish, corals and invertebrates that are realistically available in Europe: only what matters for keeping them.',
+      open: 'Browse {n} species →',
       lead_fish: 'Care cards for saltwater fish that are realistically available in Europe: only what matters for keeping them.',
       lead_coral: 'Care cards for corals that are realistically available in Europe: light, flow, placement and what to watch for.',
       lead_invert: 'Care cards for shrimps, crabs, snails, sea stars and urchins that are realistically available in Europe.',
@@ -27,7 +30,9 @@
       draft: 'Draft data, under review – always check before buying.', feedback: 'corrections and ideas:'
     },
     hu: {
-      fish: 'Halak', coral: 'Korallok', invert: 'Gerinctelenek',
+      app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invert: 'Gerinctelenek',
+      lead_home: 'Adatlapok az Európában reálisan beszerezhető halakról, korallokról és gerinctelenekről: csak az, ami a tartáshoz tényleg számít.',
+      open: '{n} faj megtekintése →',
       lead_fish: 'Adatlapok az Európában reálisan beszerezhető tengeri halakról: csak az, ami a tartáshoz tényleg számít.',
       lead_coral: 'Adatlapok az Európában reálisan beszerezhető korallokról: fény, áramlás, elhelyezés és amire figyelni kell.',
       lead_invert: 'Adatlapok az Európában reálisan beszerezhető garnélákról, rákokról, csigákról, tengeri csillagokról és sünökről.',
@@ -92,10 +97,15 @@
     ((navigator.language || '').toLowerCase().startsWith('hu') ? 'hu' : 'en');
   if (lang !== 'hu') lang = 'en';
 
+  // Set from the route: the open category, its species and its own filter state.
+  let CAT = null;
+  let all = [];
   let species = [];
   let generic = new Set();
-  const filt = { q: '', care: '', type: '' };
-  let listScroll = 0;
+  const FILTERS = {};
+  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', type: '' }; });
+  let filt = FILTERS.fish;
+  const listScroll = {};
 
   const t = (k, vars) => {
     let s = TEXT[lang][k];
@@ -141,10 +151,10 @@
   let langPicker = null;
   function renderChrome() {
     document.documentElement.lang = lang;
-    document.getElementById('brandText').textContent = t(CAT);
+    document.getElementById('brandText').textContent = t('app');
     if (langPicker) langPicker.update();
-    document.getElementById('tabs').innerHTML = PAGES.map(([c, href]) =>
-      '<a href="' + href + '"' + (c === CAT ? ' aria-current="page"' : '') + '>' + esc(t(c)) + '</a>').join('');
+    document.getElementById('tabs').innerHTML = '<a href="#/"' + (!CAT ? ' aria-current="page"' : '') + '>' + esc(t('home')) + '</a>' +
+      CATS.map((c) => '<a href="#/' + SLUG[c] + '"' + (c === CAT ? ' aria-current="page"' : '') + '>' + esc(t(c)) + '</a>').join('');
     document.getElementById('footer').innerHTML = '<div class="inner"><span>' + esc(t('draft')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
   }
@@ -198,7 +208,7 @@
       .sort((a, b) => CARE_ORDER.indexOf(a.care_level) - CARE_ORDER.indexOf(b.care_level) || title(a).localeCompare(title(b), lang));
     document.getElementById('count').textContent = t('count', { n: items.length });
     document.getElementById('list').innerHTML = items.length ? items.map((s) =>
-      '<li><a class="tile" href="#/' + esc(s.id) + '"><h2>' + esc(title(s)) + '</h2>' +
+      '<li><a class="tile" href="#/' + SLUG[CAT] + '/' + esc(s.id) + '"><h2>' + esc(title(s)) + '</h2>' +
       '<p class="sub">' + (lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span></p>' +
       tags(s) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>').join('') : '<li class="empty">' + esc(t('none')) + '</li>';
   }
@@ -251,7 +261,7 @@
   }
   function renderSpecies(id) {
     const s = species.find((x) => x.id === id);
-    const back = '<a class="back" href="#/">' + esc(t('back', { cat: t(CAT).toLowerCase() })) + '</a>';
+    const back = '<a class="back" href="#/' + SLUG[CAT] + '">' + esc(t('back', { cat: t(CAT).toLowerCase() })) + '</a>';
     if (!s) { app.innerHTML = back + '<p>' + esc(t('notFound')) + '</p>'; return; }
     document.title = title(s) + ' – ' + t(CAT) + ' – reef42';
     const names = [lang === 'hu' && s.hu_name ? s.common_name : '', '<span class="sci">' + esc(s.scientific_name) + '</span>'].filter(Boolean);
@@ -268,12 +278,34 @@
       '</article>';
   }
 
+  /* ---------- overview ---------- */
+  function renderHome() {
+    document.title = t('app') + ' – reef42';
+    app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
+      CATS.map((c) => {
+        const n = all.filter((s) => s.category === c).length;
+        return '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + c + '.svg" alt="" width="44" height="44">' +
+          '<h2>' + esc(t(c)) + '</h2><p class="sub">' + esc(t('lead_' + c)) + '</p><span class="go">' + esc(t('open', { n: n })) + '</span></a></li>';
+      }).join('') + '</ul>';
+  }
+
   /* ---------- routing ---------- */
-  function route() { return decodeURIComponent(location.hash.replace(/^#\/?/, '')); }
+  // #/ = overview, #/<category slug> = list, #/<category slug>/<species id> = card. Old #/<id> links still resolve.
+  function route() {
+    const parts = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/').filter(Boolean);
+    if (!parts.length) return { cat: null, id: '' };
+    if (BY_SLUG[parts[0]]) return { cat: BY_SLUG[parts[0]], id: parts[1] || '' };
+    const s = all.find((x) => x.id === parts[0]);
+    return s ? { cat: s.category, id: s.id } : { cat: null, id: '' };
+  }
   function render(keepFocus) {
+    const r = route();
+    CAT = r.cat;
+    if (CAT) { species = all.filter((s) => s.category === CAT); filt = FILTERS[CAT]; }
     renderChrome();
-    const id = route();
-    if (id) renderSpecies(id); else renderList(keepFocus);
+    if (!CAT) renderHome();
+    else if (r.id) renderSpecies(r.id);
+    else renderList(keepFocus);
   }
 
   app.addEventListener('click', (e) => {
@@ -284,11 +316,12 @@
   });
   app.addEventListener('input', (e) => { if (e.target.id === 'q') { filt.q = e.target.value; renderItems(); } });
   window.addEventListener('hashchange', () => {
-    const id = route();
     render();
-    if (id) { window.scrollTo(0, 0); app.focus({ preventScroll: true }); } else window.scrollTo(0, listScroll);
+    const r = route();
+    if (r.cat && !r.id) window.scrollTo(0, listScroll[r.cat] || 0);
+    else { window.scrollTo(0, 0); app.focus({ preventScroll: true }); }
   });
-  window.addEventListener('scroll', () => { if (!route()) listScroll = window.scrollY; }, { passive: true });
+  window.addEventListener('scroll', () => { const r = route(); if (r.cat && !r.id) listScroll[r.cat] = window.scrollY; }, { passive: true });
 
   langPicker = reef42Lang.mount(document.getElementById('langToggle'), {
     get: () => lang,
@@ -297,7 +330,7 @@
 
   renderChrome();
   fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => {
-    species = (db.species || []).filter((s) => s.category === CAT);
+    all = (db.species || []).filter((s) => CATS.includes(s.category));
     generic = findGeneric(db.species || []);
     render();
   }).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
