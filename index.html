@@ -67,6 +67,18 @@
     .card h2 { margin: 0; font-size: 1.15rem; font-weight: 600; }
     .card p { margin: 0; color: var(--muted); font-size: .95rem; }
     .card .go { margin-top: auto; padding-top: 8px; font-size: .9rem; }
+    .support {
+      margin-top: 40px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
+    }
+    .support h2 { margin: 0 0 4px; font-size: 1.15rem; font-weight: 600; }
+    .support p { margin: 0; color: var(--muted); max-width: 60ch; }
+    .coffee {
+      display: inline-block; font-weight: 600; text-decoration: none; white-space: nowrap;
+      color: var(--bg); background: var(--text); border: 1px solid var(--text); border-radius: 999px; padding: 8px 18px;
+    }
+    .coffee:hover { background: transparent; color: var(--text); }
+    .coffee:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
     footer { border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 20px; color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; }
     footer a { color: var(--text); text-underline-offset: 3px; }
   </style>
@@ -123,6 +135,14 @@
         </a>
       </li>
     </ul>
+
+    <section class="support" aria-labelledby="support-title">
+      <div>
+        <h2 id="support-title" data-i18n="freeTitle">free, now and always</h2>
+        <p data-i18n="freeText">every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.</p>
+      </div>
+      <a class="coffee" href="https://buymeacoffee.com/reef42" target="_blank" rel="noopener" data-i18n="coffee">buy me a coffee ☕</a>
+    </section>
   </main>
 
   <footer class="wrap">
@@ -142,6 +162,9 @@
           open: 'open →',
           linksTitle: 'links',
           links: 'hungarian and european shops, communities, manufacturers and tools for reef keepers.',
+          freeTitle: 'free, now and always',
+          freeText: 'every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.',
+          coffee: 'buy me a coffee ☕',
           feedback: 'feedback and ideas:',
           toggle: 'magyar',
           description: 'reef42 – tools for saltwater aquarium keepers.'
@@ -155,6 +178,9 @@
           open: 'megnyitás →',
           linksTitle: 'linkek',
           links: 'magyar és európai boltok, közösségek, gyártók és eszközök tengeri akvaristáknak.',
+          freeTitle: 'ingyenes, most és mindig',
+          freeText: 'a reef42 minden eszköze ingyenes, és az is marad. ha hasznosnak találod őket, meghívhatsz minket egy kávéra.',
+          coffee: 'meghívlak egy kávéra ☕',
           feedback: 'visszajelzés, ötletek:',
           toggle: 'english',
           description: 'reef42 – eszközök tengeri akvaristáknak.'
