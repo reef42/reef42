@@ -489,10 +489,10 @@
 
   /* ---------- chrome ---------- */
   const NAV = [['home', '#/'], ['diagnose', '#/q/'], ['graph', '#/graph'], ['diseases', '#/diseases'], ['treatments', '#/treatments'], ['quarantine', '#/quarantine'], ['sources', '#/sources']];
+  let langPicker = null;
   function renderChrome(route) {
     document.documentElement.lang = state.lang;
-    document.getElementById('langToggle').textContent = state.lang === 'hu' ? 'english' : 'magyar';
-    document.getElementById('langToggle').setAttribute('lang', state.lang === 'hu' ? 'en' : 'hu');
+    if (langPicker) langPicker.update();
     document.getElementById('mainnav').innerHTML = NAV.map(([k, h]) => {
       const href = k === 'diagnose' ? h + state.tree.start : h;
       const active = (k === 'home' && route === '') || (k === 'diagnose' && route === 'q') || (k === 'graph' && route === 'graph') ||
@@ -570,10 +570,13 @@
   lb.addEventListener('click', () => { lb.hidden = true; });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') lb.hidden = true; });
 
-  document.getElementById('langToggle').addEventListener('click', () => {
-    state.lang = state.lang === 'hu' ? 'en' : 'hu';
-    storage(false, 'reef42-lang', state.lang);
-    route();
+  langPicker = reef42Lang.mount(document.getElementById('langToggle'), {
+    get: () => state.lang,
+    set: (code) => {
+      state.lang = code;
+      storage(false, 'reef42-lang', state.lang);
+      route();
+    }
   });
 
   /* ---------- boot ---------- */

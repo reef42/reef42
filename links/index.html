@@ -42,8 +42,9 @@
     }
     .hub:hover { background: #222; }
     .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+    .langsel { margin-left: auto; }
     .lang {
-      margin-left: auto; font-size: .85rem; font-weight: 600; background: transparent; border: 1px solid var(--border);
+      font-size: .85rem; font-weight: 600; background: transparent; border: 1px solid var(--border);
       border-radius: 999px; padding: 5px 12px; cursor: pointer; white-space: nowrap;
     }
     .lang:hover { border-color: var(--accent); }
@@ -141,13 +142,14 @@
     <div class="inner"><span><span data-i18n="suggest">Know a good link? Tell us:</span> <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>
   </footer>
 
+  <script src="../shared/lang.js"></script>
   <script src="links.js"></script>
   <script>
     (function () {
       var TEXT = {
         en: {
           app: 'Links', title: 'Links', lead: 'Shops, communities, manufacturers and tools for reef keepers',
-          suggest: 'Know a good link? Tell us:', toggle: 'magyar', search: 'Search…', type: 'Type', all: 'All',
+          suggest: 'Know a good link? Tell us:', search: 'Search…', type: 'Type', all: 'All',
           hu: 'Hungary', eu: 'Europe', intl: 'International', any: 'All',
           community: 'Community', shop: 'Shops', service: 'Services', fresh: 'Mainly freshwater', brand: 'Manufacturers & labs', tools: 'Tools & apps', learn: 'News & knowledge',
           count: '{n} links', none: 'No links match the filters.', soon: 'Link coming soon', own: 'reef42', open: 'Open →',
@@ -155,7 +157,7 @@
         },
         hu: {
           app: 'Linkek', title: 'Linkek', lead: 'Boltok, közösségek, gyártók és eszközök tengeri akvaristáknak',
-          suggest: 'Tudsz egy jó linket? Írd meg:', toggle: 'english', search: 'Keresés…', type: 'Típus', all: 'Mind',
+          suggest: 'Tudsz egy jó linket? Írd meg:', search: 'Keresés…', type: 'Típus', all: 'Mind',
           hu: 'Magyarország', eu: 'Európa', intl: 'Nemzetközi', any: 'Összes',
           community: 'Közösség', shop: 'Boltok', service: 'Szolgáltatás', fresh: 'Főleg édesvízi', brand: 'Gyártók és laborok', tools: 'Eszközök és appok', learn: 'Hírek és tudás',
           count: '{n} link', none: 'Nincs a szűrésnek megfelelő link.', soon: 'Link hamarosan', own: 'reef42', open: 'Megnyitás →',
@@ -252,9 +254,6 @@
         document.documentElement.lang = lang;
         document.title = t('docTitle');
         document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = t(el.getAttribute('data-i18n')); });
-        var btn = document.getElementById('lang');
-        btn.textContent = t('toggle');
-        btn.setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
         var q = document.getElementById('q');
         q.placeholder = t('search');
         q.setAttribute('aria-label', t('search'));
@@ -266,7 +265,6 @@
         var b = e.target.closest('button');
         if (!b) return;
         var sel = null;
-        if (b.id === 'lang') { lang = lang === 'hu' ? 'en' : 'hu'; save(lang); render(); return; }
         if (b.dataset.region) {
           state.region = b.dataset.region;
           if (state.cat && !LINKS.some(function (l) { return l.cat === state.cat && (state.region === 'any' || l.region === state.region); })) state.cat = '';
@@ -281,6 +279,10 @@
         if (again) again.focus();
       });
       document.getElementById('q').addEventListener('input', function (e) { state.q = e.target.value; renderList(); });
+      reef42Lang.mount(document.getElementById('lang'), {
+        get: function () { return lang; },
+        set: function (v) { lang = v; save(lang); render(); }
+      });
 
       render();
     })();

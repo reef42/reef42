@@ -34,7 +34,7 @@
     h1 { margin: 0; font-size: clamp(2.4rem, 8vw, 4rem); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
     .lead { margin: 12px 0 0; color: var(--muted); font-size: 1.05rem; }
     .lang {
-      font: inherit; font-size: .85rem; font-weight: 600; text-transform: lowercase;
+      font: inherit; font-size: .85rem; font-weight: 600;
       color: var(--text); background: transparent; border: 1px solid var(--line);
       border-radius: 999px; padding: 5px 12px; cursor: pointer;
     }
@@ -157,6 +157,7 @@
     <span><span data-i18n="feedback">feedback and ideas:</span> <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span>
   </footer>
 
+  <script src="shared/lang.js"></script>
   <script>
     (function () {
       var TEXT = {
@@ -173,7 +174,6 @@
           freeText: 'every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.',
           coffee: 'buy me a coffee ☕',
           feedback: 'feedback and ideas:',
-          toggle: 'magyar',
           description: 'reef42 – tools for saltwater aquarium keepers.'
         },
         hu: {
@@ -189,7 +189,6 @@
           freeText: 'a reef42 minden eszköze ingyenes, és az is marad. ha hasznosnak találod őket, meghívhatsz minket egy kávéra.',
           coffee: 'meghívlak egy kávéra ☕',
           feedback: 'visszajelzés, ötletek:',
-          toggle: 'english',
           description: 'reef42 – eszközök tengeri akvaristáknak.'
         }
       };
@@ -199,16 +198,16 @@
       var lang = new URLSearchParams(location.search).get('lang') || load() ||
         ((navigator.language || '').toLowerCase().indexOf('hu') === 0 ? 'hu' : 'en');
       if (lang !== 'hu') lang = 'en';
-      var btn = document.getElementById('lang');
       function apply() {
         var t = TEXT[lang];
         document.documentElement.lang = lang;
         document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = t[el.getAttribute('data-i18n')]; });
         document.querySelector('meta[name="description"]').setAttribute('content', t.description);
-        btn.textContent = t.toggle;
-        btn.setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
       }
-      btn.addEventListener('click', function () { lang = lang === 'hu' ? 'en' : 'hu'; save(lang); apply(); });
+      reef42Lang.mount(document.getElementById('lang'), {
+        get: function () { return lang; },
+        set: function (v) { lang = v; save(lang); apply(); }
+      });
       apply();
     })();
   </script>

@@ -44,7 +44,7 @@
 
   const TEXT = {
     en: {
-      toggle: 'magyar', tank: 'Tank', defaultTank: 'My reef',
+      tank: 'Tank', defaultTank: 'My reef',
       measure: 'Measure', charts: 'Charts', history: 'History', guide: 'Guide', settings: 'Settings',
       gIdeal: 'Ideal', gTol: 'Tolerable', gWhat: 'What it is', gWhy: 'Why it matters', gStep: 'Safe rate of change',
       gRaise: 'How to raise', gLower: 'How to lower', gSources: 'Where it comes from, what uses it', gTip: 'Testing tip',
@@ -94,10 +94,10 @@
       sharedBanner: 'Read-only snapshot shared with you', saveShared: 'Save as my tank', backToMine: 'My tanks',
       sharedBad: 'This shared link is broken or incomplete.', latest: 'Latest values', sharedSaved: 'Saved as a new tank',
       feedback: 'feedback and ideas:', localOnly: 'data is stored only in your browser',
-      langLabel: 'Language', confirm: 'Confirm', running: 'Running timers', valuesOf: 'Values', measured: 'measured'
+      confirm: 'Confirm', running: 'Running timers', valuesOf: 'Values', measured: 'measured'
     },
     hu: {
-      toggle: 'english', tank: 'Akvárium', defaultTank: 'Saját akvárium',
+      tank: 'Akvárium', defaultTank: 'Saját akvárium',
       measure: 'Mérés', charts: 'Grafikonok', history: 'Előzmények', guide: 'Útmutató', settings: 'Beállítások',
       gIdeal: 'Ideális', gTol: 'Tolerálható', gWhat: 'Mi ez?', gWhy: 'Miért számít?', gStep: 'Biztonságos változtatás',
       gRaise: 'Növelése', gLower: 'Csökkentése', gSources: 'Honnan kerül a vízbe, mi fogyasztja?', gTip: 'Mérési tipp',
@@ -147,7 +147,7 @@
       sharedBanner: 'Veled megosztott, csak olvasható pillanatkép', saveShared: 'Mentés saját akváriumként', backToMine: 'Saját akváriumaim',
       sharedBad: 'Ez a megosztott link hibás vagy hiányos.', latest: 'Legutóbbi értékek', sharedSaved: 'Új akváriumként elmentve',
       feedback: 'visszajelzés, ötletek:', localOnly: 'az adatok csak a böngésződben tárolódnak',
-      langLabel: 'Nyelv', confirm: 'Megerősítés', running: 'Futó időzítők', valuesOf: 'Értékek', measured: 'mérve'
+      confirm: 'Megerősítés', running: 'Futó időzítők', valuesOf: 'Értékek', measured: 'mérve'
     }
   };
 
@@ -369,11 +369,10 @@
     return { view: ['measure', 'charts', 'history', 'guide', 'settings'].includes(v) ? v : 'measure', key: parts[1] || null };
   }
 
+  let langPicker = null;
   function renderChrome() {
     document.documentElement.lang = lang;
-    $('#langToggle').textContent = t('toggle');
-    $('#langToggle').setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
-    $('#langToggle').setAttribute('aria-label', t('langLabel'));
+    if (langPicker) langPicker.update();
     $('#tankLabel').textContent = t('tank');
     const sel = $('#tankSelect');
     sel.innerHTML = S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('');
@@ -1781,10 +1780,13 @@
     save();
     render();
   });
-  $('#langToggle').addEventListener('click', () => {
-    lang = lang === 'hu' ? 'en' : 'hu';
-    ls(false, LANG_KEY, lang);
-    render();
+  langPicker = reef42Lang.mount($('#langToggle'), {
+    get: () => lang,
+    set: (code) => {
+      lang = code;
+      ls(false, LANG_KEY, lang);
+      render();
+    }
   });
   window.addEventListener('hashchange', () => { render(); app.focus({ preventScroll: true }); });
   document.addEventListener('visibilitychange', () => {

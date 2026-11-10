@@ -37,7 +37,7 @@
 
   const TEXT = {
     en: {
-      brand: 'Calculators', all: 'All', toggle: 'magyar', units: 'Units', salScale: 'Salinity',
+      brand: 'Calculators', all: 'All', units: 'Units', salScale: 'Salinity',
       metric: 'metric (L, cm, kg, °C)', us: 'US (gal, in, lb, °F)', uk: 'UK (imp. gal, in, lb, °F)',
       intro: 'Quick reef aquarium calculations. Each calculator shows how it works, with sources wherever the formula or the numbers are not common knowledge.',
       open: 'open →', result: 'Result', fill: 'Fill in the fields to see the result.', clear: 'Clear fields',
@@ -48,7 +48,7 @@
       title: 'Reef Calculators',
     },
     hu: {
-      brand: 'Kalkulátorok', all: 'Összes', toggle: 'english', units: 'Mértékegység', salScale: 'Sótartalom',
+      brand: 'Kalkulátorok', all: 'Összes', units: 'Mértékegység', salScale: 'Sótartalom',
       metric: 'metrikus (l, cm, kg, °C)', us: 'USA (gal, in, lb, °F)', uk: 'UK (imp. gal, in, lb, °F)',
       intro: 'Gyors számítások tengeri akváriumhoz. Minden kalkulátor megmutatja, hogyan számol, és forrást ad ott, ahol a képlet vagy a számok nem közismertek.',
       open: 'megnyitás →', result: 'Eredmény', fill: 'Töltsd ki a mezőket az eredményhez.', clear: 'Mezők törlése',
@@ -889,12 +889,11 @@
     if (a && a.scrollIntoView && cur) a.scrollIntoView({ block: 'nearest', inline: 'nearest' });
   }
 
+  let langPicker = null;
   function renderChrome() {
     document.documentElement.lang = lang;
     document.getElementById('brandText').textContent = t('brand');
-    const lt = document.getElementById('langToggle');
-    lt.textContent = t('toggle');
-    lt.setAttribute('lang', lang === 'hu' ? 'en' : 'hu');
+    if (langPicker) langPicker.update();
     document.getElementById('footer').innerHTML = '<div class="inner"><span>' + esc(t('storage')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
   }
@@ -981,20 +980,23 @@
   });
 
   document.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-act], #langToggle');
+    const btn = e.target.closest('[data-act]');
     if (!btn) return;
-    if (btn.id === 'langToggle') {
-      lang = lang === 'hu' ? 'en' : 'hu';
-      lsSet(LANGKEY, lang);
-      rerenderKeepFocus();
-      return;
-    }
     if (btn.dataset.act === 'setvol') {
       setValue(btn.dataset.form, btn.dataset.key, Number(btn.dataset.vol));
       rerenderKeepFocus();
     } else if (btn.dataset.act === 'clear') {
       delete S.inputs[btn.dataset.form];
       save();
+      rerenderKeepFocus();
+    }
+  });
+
+  langPicker = reef42Lang.mount(document.getElementById('langToggle'), {
+    get: () => lang,
+    set: (code) => {
+      lang = code;
+      lsSet(LANGKEY, lang);
       rerenderKeepFocus();
     }
   });
