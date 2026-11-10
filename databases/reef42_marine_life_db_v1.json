@@ -1,0 +1,4210 @@
+{
+  "schema_version": 1,
+  "dataset_id": "reef42-marine-life-db-v1",
+  "title": "Reef42 Marine Life Database",
+  "language": "hu",
+  "generated_at": "2026-11-10",
+  "status": "research_mvp_draft",
+  "scope": {
+    "fish": 20,
+    "coral": 20,
+    "invert": 10,
+    "total": 50
+  },
+  "units": {
+    "volume": "L",
+    "length": "cm",
+    "lifespan": "years",
+    "par": "umol m-2 s-1"
+  },
+  "enum_localization": {
+    "care_level": [
+      "easy",
+      "easy_moderate",
+      "moderate",
+      "difficult",
+      "expert"
+    ],
+    "recommendation": [
+      "recommended",
+      "conditional",
+      "not_recommended"
+    ],
+    "ethical_index_status": [
+      "provisional",
+      "reviewed"
+    ]
+  },
+  "data_policy": {
+    "null_policy": "Unknown or not sufficiently supported values are null; do not infer.",
+    "minimum_tank_size": "Approximate conservative hobby guidance, not a scientifically standardized species threshold. Reassess per adult size, swimming behavior, aquascape and husbandry.",
+    "lifespan": "Wild and aquarium lifespan values are intentionally null until species-specific reliable evidence is sourced.",
+    "ethical_index": "Provisional Reef42 editorial score, not a scientific metric. Low-confidence scores are hypotheses for review, not evidence of measured mortality or lifespan. Scores must be supported by species-specific husbandry evidence before public release.",
+    "photos": "No images are stored. Sources link to external references only.",
+    "taxonomy": "Some aquarium-trade names may not map cleanly to a single species; verify identification before publishing."
+  },
+  "species": [
+    {
+      "id": "amphiprion-ocellaris",
+      "category": "fish",
+      "scientific_name": "Amphiprion ocellaris",
+      "common_name": "Ocellaris clownfish",
+      "hu_name": "Közönséges bohóchal",
+      "origin": {
+        "regions": [
+          "Indo-West Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 11
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 75,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful_pair",
+        "notes": [
+          "Párban tartható; a nőstény nagyobb és domináns.",
+          "Gazdahal nélkül is tartható; anemóna nem szükséges."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Változatos fagyasztott és jó minőségű pelleteleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Amphiprion-ocellaris.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://fishbase.se/summary/Amphiprion_ocellaris.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "amphiprion-percula",
+      "category": "fish",
+      "scientific_name": "Amphiprion percula",
+      "common_name": "True percula clownfish",
+      "hu_name": "Narancs bohóchal",
+      "origin": {
+        "regions": [
+          "Western Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 11
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 75,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful_pair",
+        "notes": [
+          "Hasonlít az A. ocellaris fajra, de a fekete szegély rendszerint szélesebb.",
+          "Párban vagy egyedül tartható."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "A változatos apró húsos és növényi összetevőket is tartalmazó étrend megfelelő."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Amphiprion-percula.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pterapogon-kauderni",
+      "category": "fish",
+      "scientific_name": "Pterapogon kauderni",
+      "common_name": "Banggai cardinalfish",
+      "hu_name": "Banggai kardinálishal",
+      "origin": {
+        "regions": [
+          "Banggai-szigetek, Indonézia"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 8.6
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful_pair",
+        "notes": [
+          "A vadon élő elterjedése nagyon korlátozott; a faj veszélyeztetett.",
+          "Akvakultúrából származó példányt részesítsünk előnyben.",
+          "A hím szájköltő."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró mysis, Artemia és más húsos eleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Pterapogon-kauderni.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/summary/Pterapogon-kauderni.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "diet",
+            "conservation"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "chromis-viridis",
+      "category": "fish",
+      "scientific_name": "Chromis viridis",
+      "common_name": "Blue-green chromis",
+      "hu_name": "Zöld chromis",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 8
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 150,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "shoaling",
+        "notes": [
+          "Csoportban gyakran ajánlják, de a csoportlétszám és az akvárium mérete számít; hierarchikus agresszió előfordulhat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró, gyakori etetések; planktonikus jellegű fagyasztott és száraz eleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Chromis-viridis.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "chrysiptera-parasema",
+      "category": "fish",
+      "scientific_name": "Chrysiptera parasema",
+      "common_name": "Yellowtail damselfish",
+      "hu_name": "Sárga farkú korallsügér",
+      "origin": {
+        "regions": [
+          "Western Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 7
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "semi_aggressive",
+        "notes": [
+          "Területvédő lehet, különösen kis akváriumban vagy később betelepítve."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Változatos apró húsos és algás eleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Chrysiptera-parasema.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "nemateleotris-magnifica",
+      "category": "fish",
+      "scientific_name": "Nemateleotris magnifica",
+      "common_name": "Firefish",
+      "hu_name": "Tűzhal / tűz-géb",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 9
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 75,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful_pair",
+        "notes": [
+          "Kiváló ugró: szorosan záródó fedés szükséges.",
+          "Félénk, békés faj; agresszív társak mellett könnyen stresszel."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró mysis, Artemia és planktonikus eleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Nemateleotris-magnifica.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gobiodon-okinawe",
+      "category": "fish",
+      "scientific_name": "Gobiodon okinawae",
+      "common_name": "Yellow clown goby",
+      "hu_name": "Sárga korallgéb",
+      "origin": {
+        "regions": [
+          "Western Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 3.5
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 40,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 5,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "conditional"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "SPS korallokon ülhet, és a korall szövetét csipkedheti; érzékeny Acropora-k mellett kockázatos."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró, gyakran kínált húsos eleség."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Gobiodon-okinawae.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "amblygobius-phalaena",
+      "category": "fish",
+      "scientific_name": "Amblygobius phalaena",
+      "common_name": "Sleeper banded goby",
+      "hu_name": "Sávos talajszitáló géb",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 15
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 200,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Homokszitáló; finom, mély homokágy és stabilan fedett aljzat szükséges.",
+          "A korallokra kihordott homok zavaró lehet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró húsos eleség és természetes talajlakó táplálék."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Amblygobius-phalaena.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "valenciennea-puellaris",
+      "category": "fish",
+      "scientific_name": "Valenciennea puellaris",
+      "common_name": "Diamond watchman goby",
+      "hu_name": "Gyémánt homokszitáló géb",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 14
+      },
+      "care_level": "difficult",
+      "minimum_tank_size_l": 200,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 4,
+        "recommendation": "not_recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "A homokot folyamatosan szitálja; fedetlen korallokat betemethet.",
+          "Akváriumban éhezhet, ha nincs megfelelő mennyiségű természetes táplálék."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Célzott etetés szükséges lehet; ne feltételezzük, hogy kizárólag a homokból megél."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Valenciennea-puellaris.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ecsenius-bicolor",
+      "category": "fish",
+      "scientific_name": "Ecsenius bicolor",
+      "common_name": "Bicolor blenny",
+      "hu_name": "Kétszínű nyálkáshal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 11
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore_omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "semi_territorial",
+        "notes": [
+          "Üregekhez kötődő, karakteres hal; hasonló alakú halakkal konfliktusba kerülhet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Algás alapú pellet és nori is legyen az étrendben."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Ecsenius-bicolor.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "salarias-fasciatus",
+      "category": "fish",
+      "scientific_name": "Salarias fasciatus",
+      "common_name": "Lawnmower blenny",
+      "hu_name": "Fűnyíró nyálkáshal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 14
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 150,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 5,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "territorial",
+        "notes": [
+          "A természetes algabevonat hiányában gyakran nem boldogul; ne csak algázóként tekintsünk rá."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Nori és növényi alapú kiegészítő eleség; figyeljük a kondícióját."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Salarias-fasciatus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pseudocheilinus-hexataenia",
+      "category": "fish",
+      "scientific_name": "Pseudocheilinus hexataenia",
+      "common_name": "Six-line wrasse",
+      "hu_name": "Hatsávos ajakoshal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 8
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 150,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 5,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "semi_aggressive",
+        "notes": [
+          "Kis rákokat, férgeket és más apró gerincteleneket fogyaszthat.",
+          "Később betelepítve zaklathatja a békésebb ajakoshalakat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Élő kőzetes, búvóhelyekben gazdag környezet."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Pseudocheilinus-hexataenia.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "halichoeres-chrysus",
+      "category": "fish",
+      "scientific_name": "Halichoeres chrysus",
+      "common_name": "Yellow coris wrasse",
+      "hu_name": "Sárga ajakoshal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 12
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 200,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Homokba ássa magát éjszakára; megfelelő mélységű finom homok kell.",
+          "Kisebb hasznos gerincteleneket is elfogyaszthat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Változatos apró húsos eleség; fedés ajánlott, mert ugrik."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Halichoeres-chrysus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "cirrhilabrus-solorensis",
+      "category": "fish",
+      "scientific_name": "Cirrhilabrus solorensis",
+      "common_name": "Red-headed fairy wrasse",
+      "hu_name": "Solor ajakoshal",
+      "origin": {
+        "regions": [
+          "Indonesia and nearby Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 12
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 250,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Ugrásra hajlamos, fedett akvárium szükséges.",
+          "A hímek színezete és viselkedése dominánsabb lehet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró, gyakori húsos etetés."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Cirrhilabrus-solorensis.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "paracanthurus-hepatus",
+      "category": "fish",
+      "scientific_name": "Paracanthurus hepatus",
+      "common_name": "Palette surgeonfish / Blue tang",
+      "hu_name": "Királykék doktorhal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 31
+      },
+      "care_level": "difficult",
+      "minimum_tank_size_l": 800,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 4,
+        "recommendation": "not_recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore_planktivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "semi_aggressive",
+        "notes": [
+          "Nagyon aktív, nagy úszótér kell; a kis fiatalkori méret félrevezető.",
+          "Oldalán fekvő alvás normális lehet; a bőrparazitákra érzékeny."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Algás/nori alap és változatos húsos kiegészítés."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "zebrasoma-flavescens",
+      "category": "fish",
+      "scientific_name": "Zebrasoma flavescens",
+      "common_name": "Yellow tang",
+      "hu_name": "Citromsárga doktorhal",
+      "origin": {
+        "regions": [
+          "Central Pacific, especially Hawaii"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 20
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 450,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "semi_aggressive",
+        "notes": [
+          "Területvédő lehet más doktorhalakkal szemben; hosszú úszótér szükséges."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Nori és algás eleség legyen rendszeres alap."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Zebrasoma-flavescens.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/summary/Zebrasoma-flavescens.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "ctenochaetus-strigosus",
+      "category": "fish",
+      "scientific_name": "Ctenochaetus strigosus",
+      "common_name": "Kole tang",
+      "hu_name": "Kole doktorhal",
+      "origin": {
+        "regions": [
+          "Central Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 16
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 300,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "detritivore_herbivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "semi_aggressive",
+        "notes": [
+          "Főként algát, detrituszt és felületi biofilmet legel; érett, élőköves rendszer előny."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Algás eleség és biofilmhez hozzáférés."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Ctenochaetus-strigosus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "centropyge-bispinosa",
+      "category": "fish",
+      "scientific_name": "Centropyge bispinosa",
+      "common_name": "Coral beauty angelfish",
+      "hu_name": "Korall szépségangyalhal",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 10
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 250,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "semi_territorial",
+        "notes": [
+          "Egyedenként változóan korallt csipkedhet; LPS/SPS és kagylók mellett kockázat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Algás és húsos eleség vegyesen."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Centropyge-bispinosa.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "gramma-loreto",
+      "category": "fish",
+      "scientific_name": "Gramma loreto",
+      "common_name": "Royal gramma",
+      "hu_name": "Királyi gramma",
+      "origin": {
+        "regions": [
+          "Caribbean"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 8
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful_territorial",
+        "notes": [
+          "Sziklahasadékokhoz kötődik; saját búvóhelyét védheti."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró húsos eleség, mysis és pellet."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Gramma-loreto.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "synchiropus-splendidus",
+      "category": "fish",
+      "scientific_name": "Synchiropus splendidus",
+      "common_name": "Mandarinfish",
+      "hu_name": "Mandarinhal",
+      "origin": {
+        "regions": [
+          "Western Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 7
+      },
+      "care_level": "expert",
+      "minimum_tank_size_l": 150,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 3,
+        "recommendation": "not_recommended",
+        "reasons": [
+          "Előzetes Reef42-hobbiértékelés; a vadbefogás/tenyésztés és a fajspecifikus tartási kockázatok további ellenőrzést igényel."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "specialized_microfauna",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Folyamatosan apró rákocskákat csipeget; érett, nagy pod-populációjú akvárium vagy bizonyítottan fagyasztott eleséghez szokott példány kell."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Ne vásároljuk meg pusztán azért, mert a kereskedőnél elfogadott néhány falatot."
+      ],
+      "sources": [
+        {
+          "name": "FishBase species profile",
+          "url": "https://www.fishbase.se/summary/Synchiropus-splendidus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/summary/Synchiropus-splendidus.html",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size",
+            "biology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "BlubHub marine fish directory",
+          "url": "https://blubhub.ohhi.nl/en/species/categories/saltwater-fish",
+          "type": "hobbyist_care_reference",
+          "supports": [
+            "minimum_tank_size",
+            "care_level",
+            "temperament",
+            "reef_compatibility"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "FishBase",
+          "url": "https://www.fishbase.se/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "maximum_size"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "acropora-millepora",
+      "category": "coral",
+      "scientific_name": "Acropora millepora",
+      "common_name": "Millepora staghorn coral",
+      "hu_name": "Millepora ágaskorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "high",
+        "par_range_umol_m2_s": "200-350"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "upper",
+      "growth_rate": "fast",
+      "aggression": "high",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Nagy fény- és áramlásigény; stabil, érett rendszer. A fajszintű azonosítás kereskedelmi töredékeknél bizonytalan lehet."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/acropora-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "montipora-capricornis",
+      "category": "coral",
+      "scientific_name": "Montipora capricornis",
+      "common_name": "Plate / plating montipora",
+      "hu_name": "Lemezes montipora",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "moderate_high",
+        "par_range_umol_m2_s": "150-300"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "middle_upper",
+      "growth_rate": "fast",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Lemezesen terjed, könnyen árnyékolja az alatta lévő korallokat; egyes változatok kifejezetten strapabírók."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/montipora-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "montipora-digitata",
+      "category": "coral",
+      "scientific_name": "Montipora digitata",
+      "common_name": "Branching montipora",
+      "hu_name": "Ágas montipora",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "moderate_high",
+        "par_range_umol_m2_s": "150-300"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "middle_upper",
+      "growth_rate": "moderate_fast",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "A Montipora-k között viszonylag jó belépő SPS lehet, de a stabilitás továbbra is fontos."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/montipora-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "pocillopora-damicornis",
+      "category": "coral",
+      "scientific_name": "Pocillopora damicornis",
+      "common_name": "Cauliflower coral",
+      "hu_name": "Karfiolkorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "high",
+        "par_range_umol_m2_s": "150-300"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "upper",
+      "growth_rate": "fast",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Gyorsan növő, törékeny ágak; egyes akváriumokban sarjakkal terjedhet."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "stylophora-pistillata",
+      "category": "coral",
+      "scientific_name": "Stylophora pistillata",
+      "common_name": "Cat's paw coral",
+      "hu_name": "Macskamancs korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "high",
+        "par_range_umol_m2_s": "150-300"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "upper",
+      "growth_rate": "moderate",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Sok SPS-nél toleránsabb lehet, de hirtelen fény- vagy kémiai változásra érzékeny."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "seriatopora-hystrix",
+      "category": "coral",
+      "scientific_name": "Seriatopora hystrix",
+      "common_name": "Bird's nest coral",
+      "hu_name": "Madárfészek korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "difficult",
+      "coral_type": "SPS",
+      "lighting": {
+        "level": "high",
+        "par_range_umol_m2_s": "150-300"
+      },
+      "flow": {
+        "level": "strong"
+      },
+      "placement": "upper",
+      "growth_rate": "fast",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Finom, törékeny ágak; erős, de ne közvetlenül egy pontra irányuló áramlás."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "euphyllia-ancora",
+      "category": "coral",
+      "scientific_name": "Fimbriaphyllia ancora",
+      "common_name": "Wall hammer coral",
+      "hu_name": "Falazó kalapácskorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "high",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Hosszú sweeper csápokkal szomszéd korallokat károsíthat; hagyjunk körülötte helyet.",
+        "A kereskedelemben és régebbi szakirodalomban gyakran Euphyllia ancora néven szerepel."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/hammer-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "euphyllia-divisa",
+      "category": "coral",
+      "scientific_name": "Fimbriaphyllia divisa",
+      "common_name": "Frogspawn coral",
+      "hu_name": "Békakorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "high",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "A szomszédos Euphyllia fajokkal sem feltétlenül kompatibilis; sweeper csápok miatt távolság kell.",
+        "A kereskedelemben gyakran Euphyllia divisa néven szerepel."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/hammer-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "euphyllia-glabrescens",
+      "category": "coral",
+      "scientific_name": "Euphyllia glabrescens",
+      "common_name": "Torch coral",
+      "hu_name": "Fáklyakorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "very_high",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Erős csípősejtes sweeper csápok; más koralloktól jelentős távolságot igényel."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/torch-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "duncanopsammia-axifuga",
+      "category": "coral",
+      "scientific_name": "Duncanopsammia axifuga",
+      "common_name": "Duncan coral",
+      "hu_name": "Duncan-korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "low_moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Gyakran jól alkalmazkodik; célzott etetésre reagálhat, de nem kötelező napi etetni."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/duncan-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "caulastrea-furcata",
+      "category": "coral",
+      "scientific_name": "Caulastrea furcata",
+      "common_name": "Candy cane coral",
+      "hu_name": "Candy cane korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "low_moderate"
+      },
+      "placement": "middle_lower",
+      "growth_rate": "moderate",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Éjszaka kinyúló táplálkozó csápok; ne érjen hozzá más korall."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "trachyphyllia-geoffroyi",
+      "category": "coral",
+      "scientific_name": "Trachyphyllia geoffroyi",
+      "common_name": "Open brain coral",
+      "hu_name": "Nyitott agykorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "low_moderate"
+      },
+      "placement": "bottom",
+      "growth_rate": "slow",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Homokos aljzatra helyezhető, de éles kő ne nyomja a húsos szövetet; sérülékeny."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/trachyphyllia-open-brain-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "lobophyllia-hemprichii",
+      "category": "coral",
+      "scientific_name": "Lobophyllia hemprichii",
+      "common_name": "Lobo coral",
+      "hu_name": "Lobophyllia korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle_lower",
+      "growth_rate": "slow_moderate",
+      "aggression": "high",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Éjszaka sweeper csápokat növeszthet; szomszédoktól távol kell elhelyezni."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/lobophyllia-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "micromussa-lordhowensis",
+      "category": "coral",
+      "scientific_name": "Micromussa lordhowensis",
+      "common_name": "Acan lord",
+      "hu_name": "Acan-korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low_moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "low_moderate"
+      },
+      "placement": "middle_lower",
+      "growth_rate": "slow_moderate",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "A régi kereskedelmi név Acanthastrea lordhowensis; taxonómiai névváltozásra figyeljünk."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/micromussa-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "blastomussa-wellsi",
+      "category": "coral",
+      "scientific_name": "Blastomussa wellsi",
+      "common_name": "Blasto coral",
+      "hu_name": "Blasto-korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "low",
+        "par_range_umol_m2_s": "30-120"
+      },
+      "flow": {
+        "level": "low_moderate"
+      },
+      "placement": "bottom_middle",
+      "growth_rate": "slow",
+      "aggression": "low_moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Közepes vagy alacsony fényen is tartható; erős közvetlen áramlás összehúzódást okozhat."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "goniopora-columna",
+      "category": "coral",
+      "scientific_name": "Goniopora columna",
+      "common_name": "Flowerpot coral",
+      "hu_name": "Virágcserép-korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "moderate",
+        "par_range_umol_m2_s": "75-200"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "A Goniopora fajok túlélése fajonként és eredet szerint eltérhet; a tartós sikerhez megfelelő etetés és stabil környezet kell."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 5,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/goniopora-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "alveopora-gigas",
+      "category": "coral",
+      "scientific_name": "Alveopora gigas",
+      "common_name": "Alveopora",
+      "hu_name": "Alveopora-korall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "LPS",
+      "lighting": {
+        "level": "moderate",
+        "par_range_umol_m2_s": "75-200"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Ne azonosítsuk automatikusan Gonioporaként; polipszám és morfológia eltérő."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 6,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/articles/coral-care-articles/alveopora-coral-care.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sarcophyton-glaucum",
+      "category": "coral",
+      "scientific_name": "Sarcophyton glaucum",
+      "common_name": "Toadstool leather coral",
+      "hu_name": "Bőrkorall / kalapos bőrkorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "easy_moderate",
+      "coral_type": "soft",
+      "lighting": {
+        "level": "moderate",
+        "par_range_umol_m2_s": "80-200"
+      },
+      "flow": {
+        "level": "moderate_strong"
+      },
+      "placement": "middle",
+      "growth_rate": "fast",
+      "aggression": "chemical",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Növekedés közben árnyékolhat; védekezésként allelopátiás vegyületeket bocsáthat ki, aktív szén és távolság segíthet."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "sinularia-flexibilis",
+      "category": "coral",
+      "scientific_name": "Sinularia flexibilis",
+      "common_name": "Finger leather coral",
+      "hu_name": "Ujjbőrkorall",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "easy_moderate",
+      "coral_type": "soft",
+      "lighting": {
+        "level": "moderate",
+        "par_range_umol_m2_s": "80-200"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle",
+      "growth_rate": "moderate_fast",
+      "aggression": "chemical",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Allelopátiás hatás lehetséges; vegyes zátonyban aktív szén és jó vízcsere hasznos."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "zoanthus-sociatus",
+      "category": "coral",
+      "scientific_name": "Zoanthus sociatus",
+      "common_name": "Zoanthid",
+      "hu_name": "Zoanthida",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": null
+      },
+      "care_level": "moderate",
+      "coral_type": "zoanthid",
+      "lighting": {
+        "level": "moderate",
+        "par_range_umol_m2_s": "50-150"
+      },
+      "flow": {
+        "level": "moderate"
+      },
+      "placement": "middle_lower",
+      "growth_rate": "fast",
+      "aggression": "moderate",
+      "spacing_cm": null,
+      "feeding": {
+        "type": "photosynthetic_with_optional_target_feeding",
+        "notes": "A zooxantellákból származó energia mellett egyes fajok célzott etetésből is profitálhatnak; faj- és állapotfüggő."
+      },
+      "water_parameters": {
+        "note": "Általános zátonyakváriumi stabilitás szükséges; fajspecifikus, igazolt eltérés hiányában nem jelenítünk meg külön KH/Ca/Mg célértéket."
+      },
+      "extra_notes": [
+        "Palytoxin kockázat: soha ne forraljuk, ne kaparjuk vagy vágjuk védőfelszerelés nélkül; fröccsenés és aeroszol is veszélyes lehet."
+      ],
+      "pro_tips": [],
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; vadbefogott és tenyésztett eredet, valamint fajszintű tartási adatok még ellenőrzendők."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "sources": [
+        {
+          "name": "Tidal Gardens",
+          "url": "https://tidalgardens.com/corals/zoanthids/zoanthid-sea-mat-polyps-zoanthus.html",
+          "type": "coral_care_guide",
+          "supports": [
+            "lighting",
+            "flow",
+            "placement",
+            "care",
+            "aggression"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "Corals of the World",
+          "url": "https://www.coralsoftheworld.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "lysmata-amboinensis",
+      "category": "invert",
+      "scientific_name": "Lysmata amboinensis",
+      "common_name": "Skunk cleaner shrimp",
+      "hu_name": "Tisztító garnéla",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 6
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 75,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore_scavenger",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Tisztítóállomást alakíthat ki; halakat tisztíthat.",
+          "Vedléshez stabil víz és búvóhely szükséges."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró húsos fagyasztott eleség és változatos maradék."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "lysmata-wurdemanni",
+      "category": "invert",
+      "scientific_name": "Lysmata wurdemanni",
+      "common_name": "Peppermint shrimp",
+      "hu_name": "Pénzes garnéla",
+      "origin": {
+        "regions": [
+          "Western Atlantic / Caribbean"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 5
+      },
+      "care_level": "easy_moderate",
+      "minimum_tank_size_l": 60,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Aiptasia-fogyasztás egyedenként változó; nem garantált biológiai védekezés.",
+          "Egyes korallpolipokat vagy eleséget is csipegethet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Apró húsos fagyasztott eleség; célzott etetés, ha kevés természetes táplálék van."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "stenopus-hispidus",
+      "category": "invert",
+      "scientific_name": "Stenopus hispidus",
+      "common_name": "Banded coral shrimp",
+      "hu_name": "Sávos korallgarnéla",
+      "origin": {
+        "regions": [
+          "Tropical Indo-Pacific and Atlantic"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 6
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 5,
+        "recommendation": "conditional",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "carnivore_scavenger",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "territorial",
+        "notes": [
+          "Területvédő; más garnélákat, különösen fajtársakat megtámadhat.",
+          "Kis halakat és vedlő állatokat zaklathat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Húsos eleség; biztosítsunk sziklahasadékot."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mithraculus-sculptus",
+      "category": "invert",
+      "scientific_name": "Mithraculus sculptus",
+      "common_name": "Emerald crab",
+      "hu_name": "Smaragdrák",
+      "origin": {
+        "regions": [
+          "Caribbean"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 5
+      },
+      "care_level": "easy_moderate",
+      "minimum_tank_size_l": 60,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 7,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "omnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe_with_caution"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Bubble algae fogyasztásáról ismert, de nem minden egyed fogyasztja.",
+          "Éhezéskor korallokat vagy más gerincteleneket is csipkedhet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Kiegészítő algás és húsos eleség, ne csak kártevőirtónak tartsuk."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "trochus-niloticus",
+      "category": "invert",
+      "scientific_name": "Tectus niloticus",
+      "common_name": "Trochus snail",
+      "hu_name": "Trochus csiga",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 12
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 40,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 9,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore_grazer",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Algabevonatot legel; túl tiszta vagy friss akváriumban éhezhet.",
+          "Fel tudja állítani magát, ha leesik."
+        ]
+      },
+      "extra_notes": [
+        "A korábbi Trochus niloticus név még gyakori a kereskedelemben."
+      ],
+      "pro_tips": [
+        "Kiegészítő nori, ha kevés természetes alga áll rendelkezésre."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "nassarius-vibex",
+      "category": "invert",
+      "scientific_name": "Nassarius vibex",
+      "common_name": "Nassarius snail",
+      "hu_name": "Nassarius csiga",
+      "origin": {
+        "regions": [
+          "Western Atlantic"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 2.5
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 40,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 9,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "scavenger_carnivore",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Homokba ássa magát, és etetéskor előjön; nem algázó csiga.",
+          "Nem helyettesíti az aljzat tisztítását vagy a megfelelő etetést."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Húsos eleségdarabokkal kiegészíthető."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "tectus-fenestratus",
+      "category": "invert",
+      "scientific_name": "Tectus fenestratus",
+      "common_name": "Tectus / pyramid snail",
+      "hu_name": "Tectus csiga",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 5
+      },
+      "care_level": "easy",
+      "minimum_tank_size_l": 40,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 9,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore_grazer",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "reef_safe"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Üveg- és kőfelületeken algát legel; friss, algamentes rendszerben táplálékhiány lehet."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Kiegészítő algás eleség, ha szükséges."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "fromia-indica",
+      "category": "invert",
+      "scientific_name": "Fromia indica",
+      "common_name": "Red Fromia starfish",
+      "hu_name": "Vörös Fromia tengeri csillag",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 10
+      },
+      "care_level": "expert",
+      "minimum_tank_size_l": 150,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 3,
+        "recommendation": "not_recommended",
+        "reasons": [
+          "Fajspecifikus, tartósan biztosítható akváriumi táplálékigénye nem kellően dokumentált.",
+          "A fogságbeli élettartamra és túlélési arányra nem áll rendelkezésre elég erős, számszerű adat."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "specialized_biofilm_feeder",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "peaceful"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Békés, nem ragadozó; a táplálékellátás a fő tartási kihívás."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Nem ajánlott új vagy kis akváriumba; a célzott etetés nem garantálja a szükséges táplálékot."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "linckia-laevigata",
+      "category": "invert",
+      "scientific_name": "Linckia laevigata",
+      "common_name": "Blue Linckia sea star",
+      "hu_name": "Kék tengeri csillag",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 30
+      },
+      "care_level": "expert",
+      "minimum_tank_size_l": 300,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 3,
+        "recommendation": "not_recommended",
+        "reasons": [
+          "Specializált, természetes biofilmhez és detrituszhoz kötődő táplálkozás; ezt egy átlagos akváriumban nehéz megbízhatóan biztosítani.",
+          "A vadon élő és akváriumi élettartam összehasonlításához nem találtunk elég megbízható, számszerű fajspecifikus adatot; ezért a pontszám előzetes."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "specialized_biofilm_feeder",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "peaceful"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Békés, lassú mozgású tengeri csillag."
+        ]
+      },
+      "extra_notes": [
+        "A SeaLifeBase ökológiai összefoglalója algás felületeken élő apró gerincteleneket, detrituszt és elhullott állatokat is említ táplálékként."
+      ],
+      "pro_tips": [
+        "Csak nagy, régóta beállt, gazdag élőfelületű rendszerben mérlegelhető; akklimatizációkor különösen érzékeny."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase – Linckia laevigata ecology",
+          "url": "https://www.sealifebase.org/Ecology/SpeciesEcologySummary.php?GenusName=Linckia&SpeciesName=laevigata&StockCode=3710",
+          "type": "species_ecology",
+          "supports": [
+            "diet",
+            "habitat",
+            "ecology"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "mespilia-globulus",
+      "category": "invert",
+      "scientific_name": "Mespilia globulus",
+      "common_name": "Tuxedo urchin",
+      "hu_name": "Tuxedo sün",
+      "origin": {
+        "regions": [
+          "Indo-Pacific"
+        ],
+        "habitat": null
+      },
+      "size_cm": {
+        "typical": null,
+        "maximum": 8
+      },
+      "care_level": "moderate",
+      "minimum_tank_size_l": 100,
+      "lifespan_years": {
+        "wild": null,
+        "aquarium": null
+      },
+      "ethical_index": {
+        "score": 8,
+        "recommendation": "recommended",
+        "reasons": [
+          "Előzetes Reef42 értékelés; a fogságbeli élettartamra és túlélési arányra fajszintű, megbízható adatok hiányozhatnak."
+        ],
+        "evidence_confidence": "low",
+        "status": "provisional"
+      },
+      "diet": {
+        "type": "herbivore_grazer",
+        "description": null
+      },
+      "aquarium_requirements": {
+        "reef_compatibility": "peaceful"
+      },
+      "behavior": {
+        "temperament": "peaceful",
+        "notes": [
+          "Algát legel, de dekorációkat és kisebb tárgyakat magára hordhat; korallfraget felboríthat."
+        ]
+      },
+      "extra_notes": [],
+      "pro_tips": [
+        "Ha elfogy az alga, kiegészítő algás táplálék szükséges."
+      ],
+      "sources": [
+        {
+          "name": "SeaLifeBase",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution",
+            "ecology",
+            "diet"
+          ],
+          "confidence": "high",
+          "accessed_at": "2026-11-10"
+        },
+        {
+          "name": "SeaLifeBase species database",
+          "url": "https://www.sealifebase.org/",
+          "type": "scientific_database",
+          "supports": [
+            "taxonomy",
+            "distribution"
+          ],
+          "confidence": "medium",
+          "accessed_at": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}
