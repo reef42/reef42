@@ -106,10 +106,6 @@ main:focus-visible { outline: none; }
   border-radius: 999px; padding: 6px 14px;
 }
 .search::placeholder { color: var(--muted); }
-.select select {
-  background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px; max-width: 100%; cursor: pointer;
-}
-.select select:hover { border-color: var(--accent); }
 .count { color: var(--muted); font-size: .85rem; margin: 0 0 12px; }
 
 /* List */
@@ -136,7 +132,9 @@ main:focus-visible { outline: none; }
 .tile.cat { gap: 10px; padding: 20px; }
 .tile.cat img { border-radius: 10px; }
 .tile.cat .sub { margin: 0; }
-.tile.cat .go { margin-top: auto; padding-top: 4px; color: var(--accent); font-weight: 600; font-size: .92rem; }
+.tile .go { margin-top: auto; padding-top: 4px; color: var(--accent); font-weight: 600; font-size: .92rem; }
+.group-tile h2 { font-size: 1.15rem; }
+.group-tile .sub { margin: 0; }
 
 /* Badges */
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
