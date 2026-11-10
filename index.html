@@ -67,8 +67,10 @@
     .card h2 { margin: 0; font-size: 1.15rem; font-weight: 600; }
     .card p { margin: 0; color: var(--muted); font-size: .95rem; }
     .card .go { margin-top: auto; padding-top: 8px; font-size: .9rem; }
-    .support {
-      margin-top: 40px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+    .top { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+    .support { padding-bottom: 48px; }
+    .support-box {
+      padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
       display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
     }
     .support h2 { margin: 0 0 4px; font-size: 1.15rem; font-weight: 600; }
@@ -84,6 +86,7 @@
   </style>
 </head>
 <body>
+  <div class="top">
   <header class="wrap">
     <div>
       <h1>reef42</h1>
@@ -135,15 +138,19 @@
         </a>
       </li>
     </ul>
+  </main>
+  </div>
 
-    <section class="support" aria-labelledby="support-title">
+  <!-- Kept below the first screen on purpose: .top fills the viewport, so this only shows after scrolling. -->
+  <section class="support wrap" aria-labelledby="support-title">
+    <div class="support-box">
       <div>
         <h2 id="support-title" data-i18n="freeTitle">free, now and always</h2>
         <p data-i18n="freeText">every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.</p>
       </div>
       <a class="coffee" href="https://buymeacoffee.com/reef42" target="_blank" rel="noopener" data-i18n="coffee">buy me a coffee ☕</a>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <footer class="wrap">
     <span>reef42</span>
