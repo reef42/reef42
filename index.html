@@ -1,229 +1,466 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>reef42</title>
-  <meta name="description" content="reef42 – tools for saltwater aquarium keepers.">
-  <meta name="color-scheme" content="dark">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <style>
-    :root {
-      --bg: #000;
-      --text: #fff;
-      --muted: #8a8a8a;
-      --line: #262626;
-      --card: #0b0b0b;
-      --card-hover: #151515;
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      text-transform: lowercase;
-      line-height: 1.5;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    a { color: inherit; }
-    .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
-    header { padding-top: 56px; padding-bottom: 32px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
-    h1 { margin: 0; font-size: clamp(2.4rem, 8vw, 4rem); font-weight: 700; letter-spacing: -.03em; line-height: 1; }
-    .lead { margin: 12px 0 0; color: var(--muted); font-size: 1.05rem; }
-    .lang {
-      font: inherit; font-size: .85rem; font-weight: 600;
-      color: var(--text); background: transparent; border: 1px solid var(--line);
-      border-radius: 999px; padding: 5px 12px; cursor: pointer;
-    }
-    .lang:hover { border-color: var(--text); }
-    .lang:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
-    main { flex: 1; padding-bottom: 48px; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
-      gap: 16px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    .card {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      overflow: hidden;
-      text-decoration: none;
-      transition: background .15s, border-color .15s;
-    }
-    .card:hover { background: var(--card-hover); border-color: #444; }
-    .card:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
-    .card .thumb { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 1px solid var(--line); }
-    .card .body { display: flex; flex-direction: column; gap: 8px; flex: 1; padding: 16px 20px 20px; }
-    .card h2 { margin: 0; font-size: 1.15rem; font-weight: 600; }
-    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
-    .card .go { margin-top: auto; padding-top: 8px; font-size: .9rem; }
-    .top { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
-    .support { padding-bottom: 48px; }
-    .support-box {
-      padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
-      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px;
-    }
-    .support h2 { margin: 0 0 4px; font-size: 1.15rem; font-weight: 600; }
-    .support p { margin: 0; color: var(--muted); max-width: 60ch; }
-    .coffee {
-      display: inline-block; font-weight: 600; text-decoration: none; white-space: nowrap;
-      color: var(--bg); background: var(--text); border: 1px solid var(--text); border-radius: 999px; padding: 8px 18px;
-    }
-    .coffee:hover { background: transparent; color: var(--text); }
-    .coffee:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
-    footer { border-top: 1px solid var(--line); padding-top: 20px; padding-bottom: 20px; color: var(--muted); font-size: .85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; }
-    footer a { color: var(--text); text-underline-offset: 3px; }
-  </style>
-</head>
-<body>
-  <div class="top">
-  <header class="wrap">
-    <div>
-      <h1>reef42</h1>
-      <p class="lead" data-i18n="lead">tools for saltwater aquarium keepers</p>
-    </div>
-    <button class="lang" id="lang" type="button" aria-label="Language"></button>
-  </header>
-
-  <main class="wrap">
-    <ul class="grid">
-      <li>
-        <a class="card" href="fishy-doctor/">
-          <img class="thumb" src="fishy-doctor/assets/preview.svg" alt="" width="320" height="180">
-          <div class="body">
-            <h2>fishy doctor</h2>
-            <p data-i18n="fishyDoctor">identify saltwater fish diseases step by step and find the matching treatment.</p>
-            <span class="go" data-i18n="open">open →</span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a class="card" href="tank-log/">
-          <img class="thumb" src="tank-log/assets/preview.svg" alt="" width="320" height="180">
-          <div class="body">
-            <h2>tank log</h2>
-            <p data-i18n="tankLog">log water parameters, run test-kit timers, see trends against your target ranges.</p>
-            <span class="go" data-i18n="open">open →</span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a class="card" href="calculators/">
-          <img class="thumb" src="calculators/assets/preview.svg" alt="" width="320" height="180">
-          <div class="body">
-            <h2 data-i18n="calcTitle">calculators</h2>
-            <p data-i18n="calculators">tank volume, salt mix, salinity correction, sand, phosphate media, water change and unit converters.</p>
-            <span class="go" data-i18n="open">open →</span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a class="card" href="species/">
-          <img class="thumb" src="species/assets/preview.svg" alt="" width="320" height="180">
-          <div class="body">
-            <h2 data-i18n="speciesTitle">species</h2>
-            <p data-i18n="species">care cards for fish, corals and invertebrates: size, tank, behaviour, light and flow.</p>
-            <span class="go" data-i18n="open">open →</span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a class="card" href="links/">
-          <img class="thumb" src="links/assets/preview.svg" alt="" width="320" height="180">
-          <div class="body">
-            <h2 data-i18n="linksTitle">links</h2>
-            <p data-i18n="links">hungarian and european shops, communities, manufacturers and tools for reef keepers.</p>
-            <span class="go" data-i18n="open">open →</span>
-          </div>
-        </a>
-      </li>
-    </ul>
-  </main>
-  </div>
-
-  <!-- Kept below the first screen on purpose: .top fills the viewport, so this only shows after scrolling. -->
-  <section class="support wrap" aria-labelledby="support-title">
-    <div class="support-box">
-      <div>
-        <h2 id="support-title" data-i18n="freeTitle">free, now and always</h2>
-        <p data-i18n="freeText">every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.</p>
-      </div>
-      <a class="coffee" href="https://buymeacoffee.com/reef42" target="_blank" rel="noopener" data-i18n="coffee">buy me a coffee ☕</a>
-    </div>
-  </section>
-
-  <footer class="wrap">
-    <span>reef42</span>
-    <span><span data-i18n="feedback">feedback and ideas:</span> <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span>
-  </footer>
-
-  <script src="shared/lang.js"></script>
-  <script>
-    (function () {
-      var TEXT = {
-        en: {
-          lead: 'tools for saltwater aquarium keepers',
-          fishyDoctor: 'identify saltwater fish diseases step by step and find the matching treatment.',
-          tankLog: 'log water parameters, run test-kit timers, see trends against your target ranges.',
-          calcTitle: 'calculators',
-          calculators: 'tank volume, salt mix, salinity correction, sand, phosphate media, water change and unit converters.',
-          open: 'open →',
-          speciesTitle: 'species',
-          species: 'care cards for fish, corals and invertebrates: size, tank, behaviour, light and flow.',
-          linksTitle: 'links',
-          links: 'hungarian and european shops, communities, manufacturers and tools for reef keepers.',
-          freeTitle: 'free, now and always',
-          freeText: 'every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.',
-          coffee: 'buy me a coffee ☕',
-          feedback: 'feedback and ideas:',
-          description: 'reef42 – tools for saltwater aquarium keepers.'
-        },
-        hu: {
-          lead: 'eszközök tengeri akvaristáknak',
-          fishyDoctor: 'tengeri halbetegségek azonosítása lépésről lépésre, a hozzá illő kezeléssel.',
-          tankLog: 'vízparaméterek naplózása, tesztidőzítők, trendek a céltartományokhoz képest.',
-          calcTitle: 'kalkulátorok',
-          calculators: 'akvárium térfogata, sókeverés, sótartalom-korrekció, homok, foszfátmegkötő, vízcsere és átváltók.',
-          open: 'megnyitás →',
-          speciesTitle: 'fajok',
-          species: 'adatlapok halakról, korallokról és gerinctelenekről: méret, akvárium, viselkedés, fény és áramlás.',
-          linksTitle: 'linkek',
-          links: 'magyar és európai boltok, közösségek, gyártók és eszközök tengeri akvaristáknak.',
-          freeTitle: 'ingyenes, most és mindig',
-          freeText: 'a reef42 minden eszköze ingyenes, és az is marad. ha hasznosnak találod őket, meghívhatsz minket egy kávéra.',
-          coffee: 'meghívlak egy kávéra ☕',
-          feedback: 'visszajelzés, ötletek:',
-          description: 'reef42 – eszközök tengeri akvaristáknak.'
-        }
-      };
-      var KEY = 'reef42-lang';
-      function load() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
-      function save(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
-      var lang = new URLSearchParams(location.search).get('lang') || load() ||
-        ((navigator.language || '').toLowerCase().indexOf('hu') === 0 ? 'hu' : 'en');
-      if (lang !== 'hu') lang = 'en';
-      function apply() {
-        var t = TEXT[lang];
-        document.documentElement.lang = lang;
-        document.querySelectorAll('[data-i18n]').forEach(function (el) { el.textContent = t[el.getAttribute('data-i18n')]; });
-        document.querySelector('meta[name="description"]').setAttribute('content', t.description);
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>reef42</title>
+    <meta
+      name="description"
+      content="reef42 – tools for saltwater aquarium keepers."
+    />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --bg: #000;
+        --text: #fff;
+        --muted: #8a8a8a;
+        --line: #262626;
+        --card: #0b0b0b;
+        --card-hover: #151515;
       }
-      reef42Lang.mount(document.getElementById('lang'), {
-        get: function () { return lang; },
-        set: function (v) { lang = v; save(lang); apply(); }
-      });
-      apply();
-    })();
-  </script>
-</body>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        text-transform: lowercase;
+        line-height: 1.5;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        color: inherit;
+      }
+      .wrap {
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      header {
+        padding-top: 56px;
+        padding-bottom: 32px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 8vw, 4rem);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+      .lead {
+        margin: 12px 0 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+      .lang {
+        font: inherit;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text);
+        background: transparent;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 5px 12px;
+        cursor: pointer;
+      }
+      .lang:hover {
+        border-color: var(--text);
+      }
+      .lang:focus-visible {
+        outline: 2px solid var(--text);
+        outline-offset: 2px;
+      }
+      main {
+        flex: 1;
+        padding-bottom: 48px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+        gap: 16px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        text-decoration: none;
+        transition:
+          background 0.15s,
+          border-color 0.15s;
+      }
+      .card:hover {
+        background: var(--card-hover);
+        border-color: #444;
+      }
+      .card:focus-visible {
+        outline: 2px solid var(--text);
+        outline-offset: 2px;
+      }
+      .card .thumb {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        border-bottom: 1px solid var(--line);
+      }
+      .card .body {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        flex: 1;
+        padding: 16px 20px 20px;
+      }
+      .card h2 {
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: 600;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .card .go {
+        margin-top: auto;
+        padding-top: 8px;
+        font-size: 0.9rem;
+      }
+      .top {
+        min-height: 100vh;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+      }
+      .support {
+        padding-bottom: 48px;
+      }
+      .support-box {
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--card);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px 24px;
+      }
+      .support h2 {
+        margin: 0 0 4px;
+        font-size: 1.15rem;
+        font-weight: 600;
+      }
+      .support p {
+        margin: 0;
+        color: var(--muted);
+        max-width: 60ch;
+      }
+      .coffee {
+        display: inline-block;
+        font-weight: 600;
+        text-decoration: none;
+        white-space: nowrap;
+        color: var(--bg);
+        background: var(--text);
+        border: 1px solid var(--text);
+        border-radius: 999px;
+        padding: 8px 18px;
+      }
+      .coffee:hover {
+        background: transparent;
+        color: var(--text);
+      }
+      .coffee:focus-visible {
+        outline: 2px solid var(--text);
+        outline-offset: 2px;
+      }
+      footer {
+        border-top: 1px solid var(--line);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: var(--muted);
+        font-size: 0.85rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 8px 16px;
+      }
+      footer a {
+        color: var(--text);
+        text-underline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <header class="wrap">
+        <div>
+          <h1>reef42</h1>
+          <p class="lead" data-i18n="lead">
+            tools for saltwater aquarium keepers
+          </p>
+        </div>
+        <button
+          class="lang"
+          id="lang"
+          type="button"
+          aria-label="Language"
+        ></button>
+      </header>
+
+      <main class="wrap">
+        <ul class="grid">
+          <li>
+            <a class="card" href="fishy-doctor/">
+              <img
+                class="thumb"
+                src="fishy-doctor/assets/preview.svg"
+                alt=""
+                width="320"
+                height="180"
+              />
+              <div class="body">
+                <h2>fishy doctor</h2>
+                <p data-i18n="fishyDoctor">
+                  identify saltwater fish diseases step by step and find the
+                  matching treatment.
+                </p>
+                <span class="go" data-i18n="open">open →</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="card" href="tank-log/">
+              <img
+                class="thumb"
+                src="tank-log/assets/preview.svg"
+                alt=""
+                width="320"
+                height="180"
+              />
+              <div class="body">
+                <h2>tank log</h2>
+                <p data-i18n="tankLog">
+                  log water parameters, run test-kit timers, see trends against
+                  your target ranges.
+                </p>
+                <span class="go" data-i18n="open">open →</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="card" href="calculators/">
+              <img
+                class="thumb"
+                src="calculators/assets/preview.svg"
+                alt=""
+                width="320"
+                height="180"
+              />
+              <div class="body">
+                <h2 data-i18n="calcTitle">calculators</h2>
+                <p data-i18n="calculators">
+                  tank volume, salt mix, salinity correction, sand, phosphate
+                  media, water change and unit converters.
+                </p>
+                <span class="go" data-i18n="open">open →</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="card" href="species/">
+              <img
+                class="thumb"
+                src="species/assets/preview.svg"
+                alt=""
+                width="320"
+                height="180"
+              />
+              <div class="body">
+                <h2 data-i18n="speciesTitle">species</h2>
+                <p data-i18n="species">
+                  care cards for fish, corals and invertebrates: size, tank,
+                  behaviour, light and flow.
+                </p>
+                <span class="go" data-i18n="open">open →</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="card" href="links/">
+              <img
+                class="thumb"
+                src="links/assets/preview.svg"
+                alt=""
+                width="320"
+                height="180"
+              />
+              <div class="body">
+                <h2 data-i18n="linksTitle">links</h2>
+                <p data-i18n="links">
+                  hungarian and european shops, communities, manufacturers and
+                  tools for reef keepers.
+                </p>
+                <span class="go" data-i18n="open">open →</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+
+    <!-- Kept below the first screen on purpose: .top fills the viewport, so this only shows after scrolling. -->
+    <section class="support wrap" aria-labelledby="support-title">
+      <div class="support-box">
+        <div>
+          <h2 id="support-title" data-i18n="freeTitle">free, now and always</h2>
+          <p data-i18n="freeText">
+            every reef42 tool is free to use and will always stay free. if they
+            help you, you can buy us a coffee.
+          </p>
+        </div>
+        <a
+          class="coffee"
+          href="https://buymeacoffee.com/reef42"
+          target="_blank"
+          rel="noopener"
+          data-i18n="coffee"
+          >buy me a coffee ☕</a
+        >
+      </div>
+    </section>
+
+    <footer class="wrap">
+      <span>reef42</span>
+      <span
+        ><span data-i18n="feedback">feedback and ideas:</span>
+        <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span
+      >
+    </footer>
+
+    <script src="shared/lang.js"></script>
+    <script>
+      (function () {
+        var TEXT = {
+          en: {
+            lead: "tools for saltwater aquarium keepers",
+            fishyDoctor:
+              "identify saltwater fish diseases step by step and find the matching treatment.",
+            tankLog:
+              "log water parameters, run test-kit timers, see trends against your target ranges.",
+            calcTitle: "calculators",
+            calculators:
+              "tank volume, salt mix, salinity correction, sand, phosphate media, water change and unit converters.",
+            open: "open →",
+            speciesTitle: "species",
+            species:
+              "care cards for fish, corals and invertebrates: size, tank, behaviour, light and flow.",
+            linksTitle: "links",
+            links:
+              "hungarian and european shops, communities, manufacturers and tools for reef keepers.",
+            freeTitle: "free, now and always",
+            freeText:
+              "every reef42 tool is free to use and will always stay free. if they help you, you can buy us a coffee.",
+            coffee: "buy me a coffee ☕",
+            feedback: "feedback and ideas:",
+            description: "reef42 – tools for saltwater aquarium keepers.",
+          },
+          hu: {
+            lead: "eszközök tengeri akvaristáknak",
+            fishyDoctor:
+              "tengeri halbetegségek azonosítása lépésről lépésre, a hozzá illő kezeléssel.",
+            tankLog:
+              "vízparaméterek naplózása, tesztidőzítők, trendek a céltartományokhoz képest.",
+            calcTitle: "kalkulátorok",
+            calculators:
+              "akvárium térfogata, sókeverés, sótartalom-korrekció, homok, foszfátmegkötő, vízcsere és átváltók.",
+            open: "megnyitás →",
+            speciesTitle: "fajok",
+            species:
+              "adatlapok halakról, korallokról és gerinctelenekről: méret, akvárium, viselkedés, fény és áramlás.",
+            linksTitle: "linkek",
+            links:
+              "magyar és európai boltok, közösségek, gyártók és eszközök tengeri akvaristáknak.",
+            freeTitle: "ingyenes, most és mindig",
+            freeText:
+              "a reef42 minden eszköze ingyenes, és az is marad. ha hasznosnak találod őket, meghívhatsz egy kávéra.",
+            coffee: "meghívlak egy kávéra ☕",
+            feedback: "visszajelzés, ötletek:",
+            description: "reef42 – eszközök tengeri akvaristáknak.",
+          },
+        };
+        var KEY = "reef42-lang";
+        function load() {
+          try {
+            return localStorage.getItem(KEY);
+          } catch (e) {
+            return null;
+          }
+        }
+        function save(v) {
+          try {
+            localStorage.setItem(KEY, v);
+          } catch (e) {}
+        }
+        var lang =
+          new URLSearchParams(location.search).get("lang") ||
+          load() ||
+          ((navigator.language || "").toLowerCase().indexOf("hu") === 0
+            ? "hu"
+            : "en");
+        if (lang !== "hu") lang = "en";
+        function apply() {
+          var t = TEXT[lang];
+          document.documentElement.lang = lang;
+          document.querySelectorAll("[data-i18n]").forEach(function (el) {
+            el.textContent = t[el.getAttribute("data-i18n")];
+          });
+          document
+            .querySelector('meta[name="description"]')
+            .setAttribute("content", t.description);
+        }
+        reef42Lang.mount(document.getElementById("lang"), {
+          get: function () {
+            return lang;
+          },
+          set: function (v) {
+            lang = v;
+            save(lang);
+            apply();
+          },
+        });
+        apply();
+      })();
+    </script>
+  </body>
 </html>
