@@ -30,7 +30,11 @@
       behavior: 'Behaviour', extra: 'Good to know', tips: 'Pro tip', sources: 'Sources',
       notRec: 'Reef42: not recommended', notRecText: 'In our view this species does not do well long-term in most home aquariums.',
       ethicScore: 'ethical index {n}/10', provisional: 'Provisional Reef42 assessment, under review.',
-      draft: 'Draft data, under review – always check before buying.', feedback: 'corrections and ideas:'
+      draft: 'Draft data, under review – always check before buying.', feedback: 'corrections and ideas:',
+      noticeTitle: 'Under review',
+      noticeText: 'The species database is currently being reviewed. Care cards may contain inaccuracies or missing and outdated data, and the content keeps changing as we check it.',
+      noticeCheck: 'Always double-check the details from several sources before you buy or decide anything.',
+      noticeMail: 'Spotted a mistake? Write to us:', noticeOk: 'Got it'
     },
     hu: {
       app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invert: 'Gerinctelenek',
@@ -49,7 +53,11 @@
       behavior: 'Viselkedés', extra: 'Fontos tudnivalók', tips: 'Pro tipp', sources: 'Források',
       notRec: 'Reef42: nem ajánlott', notRecText: 'Szerintünk ez a faj a legtöbb otthoni akváriumban hosszú távon nem tartható jól.',
       ethicScore: 'etikai index: {n}/10', provisional: 'Előzetes Reef42-értékelés, átnézés alatt.',
-      draft: 'Tervezet: az adatok átnézés alatt állnak, vásárlás előtt mindig ellenőrizd.', feedback: 'javítás, ötlet:'
+      draft: 'Tervezet: az adatok átnézés alatt állnak, vásárlás előtt mindig ellenőrizd.', feedback: 'javítás, ötlet:',
+      noticeTitle: 'Átnézés alatt',
+      noticeText: 'A fajadatbázis jelenleg átnézés alatt áll. Az adatlapokon előfordulhatnak pontatlanságok, hiányzó vagy elavult adatok, és a tartalom az ellenőrzés során folyamatosan változik.',
+      noticeCheck: 'Vásárlás vagy döntés előtt mindig ellenőrizd az adatokat több forrásból is.',
+      noticeMail: 'Hibát találtál? Írj nekünk:', noticeOk: 'Értem'
     }
   };
 
@@ -256,10 +264,32 @@
     document.documentElement.lang = lang;
     document.getElementById('brandText').textContent = t('app');
     if (langPicker) langPicker.update();
+    renderReview();
     document.getElementById('tabs').innerHTML = '<a href="#/"' + (!CAT ? ' aria-current="page"' : '') + '>' + esc(t('home')) + '</a>' +
       CATS.map((c) => '<a href="#/' + SLUG[c] + '"' + (c === CAT ? ' aria-current="page"' : '') + '>' + esc(t(c)) + '</a>').join('');
     document.getElementById('footer').innerHTML = '<div class="inner"><span>' + esc(t('draft')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
+  }
+
+  /* ---------- "under review" notice: opens every time the page is opened ---------- */
+  let reviewDlg = null;
+  function renderReview() {
+    if (!reviewDlg) return;
+    reviewDlg.innerHTML = '<form method="dialog"><h2 id="noticeTitle">' + esc(t('noticeTitle')) + '</h2>' +
+      '<p>' + esc(t('noticeText')) + '</p><p>' + esc(t('noticeCheck')) + '</p>' +
+      '<p class="muted">' + esc(t('noticeMail')) + ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></p>' +
+      '<div class="actions"><button class="btn" type="submit" autofocus>' + esc(t('noticeOk')) + '</button></div></form>';
+  }
+  function openReview() {
+    reviewDlg = document.createElement('dialog');
+    reviewDlg.className = 'review-dialog';
+    reviewDlg.setAttribute('aria-labelledby', 'noticeTitle');
+    renderReview();
+    document.body.appendChild(reviewDlg);
+    // Without <dialog> support the page simply works without the notice.
+    if (typeof reviewDlg.showModal !== 'function') { reviewDlg.remove(); reviewDlg = null; return; }
+    reviewDlg.addEventListener('close', () => { reviewDlg.remove(); reviewDlg = null; });
+    reviewDlg.showModal();
   }
 
   /* ---------- lists: category → subgroups (types) → species ---------- */
@@ -510,6 +540,7 @@
   });
 
   renderChrome();
+  openReview();
   const photos = fetch(PHOTOS_URL).then((r) => (r.ok ? r.json() : {})).then((x) => x.images || {}).catch(() => ({}));
   fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => photos.then((p) => {
     PHOTOS = p;
