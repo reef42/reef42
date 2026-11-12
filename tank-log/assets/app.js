@@ -60,7 +60,8 @@
       noData: 'No measurements yet.', noDataPeriod: 'No data in this period.', enlarge: 'Enlarge', shrink: 'Shrink',
       date: 'Date', confirmDelSession: 'Delete this measurement?', editSession: 'Edit measurement',
       noParams: 'This tank has no visible parameters. Add some in Settings.',
-      tankSec: 'Tank', name: 'Name', volume: 'Volume (L)', newTank: 'New tank', delTank: 'Delete tank',
+      tankSec: 'Current tank', tanksSec: 'Tanks', newTankOpt: '+ New tank…', newTankHelp: 'Creates a separate tank with its own parameters and measurements. Switch between tanks in the list at the top.',
+      name: 'Name', volume: 'Volume (L)', newTank: 'New tank', delTank: 'Delete tank',
       confirmDelTank: 'Delete “{name}” and all of its measurements?', lastTank: 'At least one tank is needed.',
       template: 'Template', create: 'Create',
       paramsSec: 'Parameters & target ranges', unit: 'Unit', minL: 'Min', maxL: 'Max', shown: 'Shown',
@@ -113,7 +114,8 @@
       noData: 'Még nincs mérés.', noDataPeriod: 'Ebben az időszakban nincs adat.', enlarge: 'Nagyítás', shrink: 'Kicsinyítés',
       date: 'Dátum', confirmDelSession: 'Törlöd ezt a mérést?', editSession: 'Mérés szerkesztése',
       noParams: 'Ennek az akváriumnak nincs látható paramétere. A Beállításokban adhatsz hozzá.',
-      tankSec: 'Akvárium', name: 'Név', volume: 'Térfogat (l)', newTank: 'Új akvárium', delTank: 'Akvárium törlése',
+      tankSec: 'Aktuális akvárium', tanksSec: 'Akváriumok', newTankOpt: '+ Új akvárium…', newTankHelp: 'Külön akváriumot hoz létre saját paraméterekkel és mérésekkel. Az akváriumok között a fenti listában válthatsz.',
+      name: 'Név', volume: 'Térfogat (l)', newTank: 'Új akvárium', delTank: 'Akvárium törlése',
       confirmDelTank: 'Törlöd a(z) „{name}” akváriumot és minden mérését?', lastTank: 'Legalább egy akváriumnak lennie kell.',
       template: 'Sablon', create: 'Létrehozás',
       paramsSec: 'Paraméterek és céltartományok', unit: 'Mértékegység', minL: 'Min.', maxL: 'Max.', shown: 'Látható',
@@ -370,12 +372,14 @@
   }
 
   let langPicker = null;
+  const NEW_TANK = '__new';
   function renderChrome() {
     document.documentElement.lang = lang;
     if (langPicker) langPicker.update();
     $('#tankLabel').textContent = t('tank');
     const sel = $('#tankSelect');
-    sel.innerHTML = S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('');
+    sel.innerHTML = S.tanks.map((tk) => '<option value="' + esc(tk.id) + '"' + (tk.id === S.active ? ' selected' : '') + '>' + esc(tk.name) + '</option>').join('') +
+      '<option value="' + NEW_TANK + '">' + esc(t('newTankOpt')) + '</option>';
     const r = route();
     sel.parentElement.hidden = r.view === 'shared';
     $('#tabs').innerHTML = ['measure', 'charts', 'history', 'guide', 'settings'].map((v) =>
@@ -1092,8 +1096,10 @@
     h += '<section class="card"><h2>' + esc(t('tankSec')) + '</h2><div class="frow">' +
       '<label class="field grow"><span>' + esc(t('name')) + '</span><input type="text" data-tank-field="name" value="' + esc(tank.name) + '" maxlength="60"></label>' +
       '<label class="field narrow"><span>' + esc(t('volume')) + '</span><input type="text" inputmode="decimal" data-tank-field="volume" value="' + esc(tank.volume != null ? fmtNum(tank.volume) : '') + '"></label></div>' +
-      '<div class="btns"><button class="btn" type="button" data-act="newTank">' + esc(t('newTank')) + '</button>' +
-      '<button class="btn danger" type="button" data-act="delTank">' + esc(t('delTank')) + '</button></div></section>';
+      '<div class="btns"><button class="btn danger" type="button" data-act="delTank">' + esc(t('delTank')) + '</button></div></section>';
+
+    h += '<section class="card"><h2>' + esc(t('tanksSec')) + '</h2><p class="hint">' + esc(t('newTankHelp')) + '</p>' +
+      '<div class="btns"><button class="btn" type="button" data-act="newTank">' + esc(t('newTankOpt')) + '</button></div></section>';
 
     h += '<section class="card"><h2>' + esc(t('paramsSec')) + ' – ' + esc(tank.name) + '</h2><p class="hint">' + esc(t('paramsHelp')) + '</p><div class="plist">';
     tank.params.forEach((p, i) => {
@@ -1776,6 +1782,11 @@
   }, true);
 
   $('#tankSelect').addEventListener('change', (e) => {
+    if (e.target.value === NEW_TANK) {
+      e.target.value = activeTank().id;
+      newTankDialog();
+      return;
+    }
     S.active = e.target.value;
     save();
     render();
