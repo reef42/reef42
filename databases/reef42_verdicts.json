@@ -1,0 +1,16 @@
+{
+  "linckia-laevigata": {
+    "recommendation": "not_recommended",
+    "reason": {
+      "hu": "Maradjon az óceánban. Csak nagy, jól beállt akváriumban érdemes megpróbálni, de ha az akváriumi élettartamát összevetjük a vadonban átlagossal, szomorú képet kapunk.",
+      "en": "Leave it in the ocean. Only worth trying in a large, well-established tank, but comparing its lifespan in aquariums with the average in the wild paints a sad picture."
+    }
+  },
+  "labroides-dimidiatus": {
+    "recommendation": "not_recommended",
+    "reason": {
+      "hu": "Hosszú távon a legtöbb akváriumban nem oldható meg az élelmezése (nagyon sok hal kellene hozzá), és nem jó, ha kivesszük a zátonyról, ahol a többi hal tisztogatásával fontos szerepe van – erről érdemes utánaolvasni.",
+      "en": "In most tanks it cannot be fed in the long run (it would need lots and lots of fish), and taking it off the reef, where cleaning other fish is an important role, does harm – worth reading up on."
+    }
+  }
+}

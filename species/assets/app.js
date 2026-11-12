@@ -29,6 +29,7 @@
       type: 'Growth form', light: 'Light', flow: 'Flow', growth: 'Growth', placement: 'Placement', aggression: 'Aggression', feeding: 'Feeding',
       behavior: 'Behaviour', origin: 'Origin', notes: 'Good to know', diseases: 'Diseases and pests to watch for',
       fdHint: 'Linked items open in Fishy Doctor.', sources: 'Sources',
+      notRec: 'Reef42: not recommended', notRecText: 'In our view this species does not do well long-term in most home aquariums.',
       draft: 'Draft data, under review – always check before buying.', feedback: 'corrections and ideas:',
       noticeTitle: 'Under review',
       noticeText: 'The species database is currently being reviewed. Care cards may contain inaccuracies or missing and outdated data, and the content keeps changing as we check it.',
@@ -49,6 +50,7 @@
       type: 'Növekedési forma', light: 'Fényigény', flow: 'Áramlás', growth: 'Növekedés', placement: 'Elhelyezés', aggression: 'Csalánzás, agresszió', feeding: 'Táplálkozás',
       behavior: 'Viselkedés', origin: 'Származás', notes: 'Fontos tudnivalók', diseases: 'Betegségek, kártevők, amikre figyelni kell',
       fdHint: 'A linkelt tételek a Fishy Doctorban nyílnak meg.', sources: 'Források',
+      notRec: 'Reef42: nem ajánlott', notRecText: 'Szerintünk ez a faj a legtöbb otthoni akváriumban hosszú távon nem tartható jól.',
       draft: 'Tervezet: az adatok átnézés alatt állnak, vásárlás előtt mindig ellenőrizd.', feedback: 'javítás, ötlet:',
       noticeTitle: 'Átnézés alatt',
       noticeText: 'A fajadatbázis jelenleg átnézés alatt áll. Az adatlapokon előfordulhatnak pontatlanságok, hiányzó vagy elavult adatok, és a tartalom az ellenőrzés során folyamatosan változik.',
@@ -193,6 +195,7 @@
   }
   function tags(s, withGroup) {
     const out = [];
+    if (notRec(s)) out.push('<span class="tag bad">' + esc(t('notRec')) + '</span>');
     if (withGroup) {
       const path = pathOf(s.group, s.category);
       path.forEach((p, i) => out.push('<span class="tag group">' + esc(catName(s.group, path.slice(0, i + 1))) + '</span>'));
@@ -272,6 +275,11 @@
   }
 
   /* ---------- species card ---------- */
+  const notRec = (s) => !!s.verdict && s.verdict.recommendation === 'not_recommended';
+  function verdictBox(s) {
+    if (!notRec(s)) return '';
+    return '<div class="verdict" role="note"><strong>' + esc(t('notRec')) + '</strong><p>' + esc(tr(s.verdict.reason) || t('notRecText')) + '</p></div>';
+  }
   function fact(label, value) {
     return value ? '<div><dt>' + esc(label) + '</dt><dd>' + esc(value) + '</dd></div>' : '';
   }
@@ -314,7 +322,7 @@
     const src = (s.sources || []).filter((x) => x && x.url);
     app.innerHTML = back +
       '<article class="card">' + photoFigure(s) + '<div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
-      tags(s, true) + '</div><dl class="facts">' + facts(s) + '</dl>' +
+      tags(s, true) + '</div>' + verdictBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
       sections + textSect(t('origin'), s.origin) + textSect(t('notes'), s.notes) + diseaseSect(s) +
       (src.length ? '<section class="sect sources"><h2>' + esc(t('sources')) + '</h2><ul>' + src.map((x) =>
         '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name || x.url) + '</a></li>').join('') + '</ul></section>' : '') +

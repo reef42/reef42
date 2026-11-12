@@ -153,6 +153,12 @@ main:focus-visible { outline: none; }
 @media (max-width: 480px) { .photo { margin: -16px -16px 16px; } .photo figcaption { padding: 6px 16px 0; } }
 .card-head .names { margin: 0 0 12px; color: var(--muted); }
 .tag.group { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+.verdict {
+  margin: 16px 0 0; padding: 12px 14px; border-radius: 10px; background: var(--danger-soft); color: var(--text);
+  border-left: 4px solid var(--danger);
+}
+.verdict strong { color: var(--danger); }
+.verdict p { margin: 4px 0 0; font-size: .92rem; }
 .facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap: 10px; margin: 18px 0 0; }
 @media (max-width: 480px) { .card { padding: 16px; } .facts { gap: 8px; } }
 .facts div { background: var(--surface-2); border-radius: 10px; padding: 9px 12px; }

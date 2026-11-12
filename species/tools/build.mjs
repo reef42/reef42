@@ -8,6 +8,9 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '../..');
 const SRC = join(root, 'databases/data');
 const OUT = join(root, 'databases/reef42_species.json');
 const FD = join(root, 'fishy-doctor/data/diseases');
+// Reef42's own verdicts, kept apart from the delivered data: { "<id>": { recommendation, reason: { hu, en } } }.
+const VERDICTS = join(root, 'databases/reef42_verdicts.json');
+const RECOMMENDATIONS = ['not_recommended'];
 const DIRS = { fish: 'fish', coral: 'corals', invertebrate: 'invertebrates', disease: 'diseases' };
 // Disease ids that differ from the Fishy Doctor file name.
 const FD_ALIAS = { velvet: 'marine-velvet' };
@@ -123,6 +126,15 @@ entries.forEach((e) => {
   const p = photo(e);
   if (p) out.image = p;
   species.push(out);
+});
+
+const verdicts = existsSync(VERDICTS) ? read(VERDICTS) : {};
+Object.entries(verdicts).forEach(([id, v]) => {
+  const s = species.find((x) => x.id === id);
+  if (!s) { err(id, 'reef42_verdicts.json: no such species'); return; }
+  if (!RECOMMENDATIONS.includes(v.recommendation)) err(id, 'reef42_verdicts.json: unknown recommendation "' + v.recommendation + '"');
+  if (!isText(v.reason)) warn(id, 'reef42_verdicts.json: reason missing or not bilingual');
+  s.verdict = { recommendation: v.recommendation, reason: v.reason || null };
 });
 
 const count = (g) => species.filter((s) => s.group === g).length;

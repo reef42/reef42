@@ -24,6 +24,8 @@ species is no longer in the data.
 The source of the data is [`databases/data/`](databases/data/) (schema in [`databases/README.md`](databases/README.md)).
 After every change run `node species/tools/build.mjs`: it checks the data (required fields, enum values, disease references,
 photos) and writes `databases/reef42_species.json`, the only file the page loads. With errors it writes nothing.
+Reef42's own verdicts live apart from the delivered data in `databases/reef42_verdicts.json` (`"<id>": { "recommendation":
+"not_recommended", "reason": { "hu", "en" } }`); such species get a "Reef42: not recommended" badge and the reason on the card.
 
 The diseases listed on a card link to the Fishy Doctor page of the same id (`fishy-doctor/data/diseases/<id>.json`, aliases in
 `FD_ALIAS` in the build script); the others are shown by name only. Photos are freely licensed Wikimedia Commons files loaded
