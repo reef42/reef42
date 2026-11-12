@@ -554,9 +554,9 @@
           'Moláris tömegarányok: PO₄/P = 3,066, NO₃/N = 4,427, NO₂/N = 3,284, NH₃/N = 1,216, NH₄/N = 1,288'],
       },
       notes: {
-        en: ['Refractometers with ATC and digital meters correct the temperature themselves: do not apply the hydrometer correction to them.',
+        en: ['Refractometers with ATC and digital meters correct the temperature themselves: do not apply the hydrometer correction to these.',
           'Many refractometers are calibrated so that they read SG at 25 °C; older glass hydrometers often use 60 °F (15.6 °C).'],
-        hu: ['Az ATC-s refraktométer és a digitális mérő maga korrigálja a hőmérsékletet: rájuk ne alkalmazd a hidrométer-korrekciót.',
+        hu: ['Az ATC-s refraktométer és a digitális mérő maga korrigálja a hőmérsékletet: ezekre ne alkalmazd a hidrométer-korrekciót.',
           'A legtöbb refraktométer 25 °C-ra vonatkoztatott SG-t mutat; a régi üveg hidrométerek gyakran 60 °F-ra (15,6 °C) kalibráltak.'],
       },
       sources: [SRC.unesco, SRC.rcSal],
@@ -699,7 +699,16 @@
       { id: 'no2', l: 'ppm NO₂', to: (x) => x, from: (p) => p, dec: 3 },
       { id: 'n', l: 'ppm NO₂-N', to: (x) => x * 3.2845, from: (p) => p / 3.2845, dec: 3 },
     ] },
-    { id: 'nh3', def: null, name: { en: 'Ammonia', hu: 'Ammónia' }, f: [
+    { id: 'nh3', def: null, name: { en: 'Ammonia', hu: 'Ammónia' },
+      note: {
+        en: ['NH₃ – free ammonia: the toxic form. Its share of the total depends on pH and temperature; in seawater (pH 8.2, 25 °C) it is about 5–8%.',
+          'NH₄⁺ – ammonium: much less toxic. Most hobby test kits measure the two together (total ammonia) and give the result as NH₃ or NH₄⁺.',
+          'NH₃-N – only the mass of the nitrogen in it. Labs and some test kits use it, so the same water gives a different number.'],
+        hu: ['NH₃ – szabad ammónia: ez a mérgező forma. Az összes ammóniából való aránya a pH-tól és a hőmérséklettől függ; tengervízben (pH 8,2, 25 °C) kb. 5–8%.',
+          'NH₄⁺ – ammónium: sokkal kevésbé mérgező. A legtöbb hobbiteszt a kettőt együtt (összes ammónia) méri, és NH₃-ként vagy NH₄⁺-ként adja meg.',
+          'NH₃-N – csak a benne lévő nitrogén tömege. Laborok és egyes tesztek használják, ezért ugyanaz a víz más számot mutat.'],
+      },
+      f: [
       { id: 'nh3', l: 'ppm NH₃', to: (x) => x, from: (p) => p, dec: 3 },
       { id: 'nh4', l: 'ppm NH₄⁺', to: (x) => x * 17.031 / 18.039, from: (p) => p * 18.039 / 17.031, dec: 3 },
       { id: 'n', l: 'ppm NH₃-N', to: (x) => x * 17.031 / 14.007, from: (p) => p * 14.007 / 17.031, dec: 3 },
@@ -872,10 +881,10 @@
           const val = num(base) ? f.from(base) : null;
           return '<div class="field"><label for="' + id + '">' + esc(L(f.l)) + '</label><input id="' + id + '" type="text" inputmode="decimal" autocomplete="off" data-cg="' + g.id +
             '" data-cf="' + f.id + '" value="' + esc(num(val) ? fmtIn(val, f.dec, f.min || 0) : '') + '"></div>';
-        }).join('') + '</div></section>';
+        }).join('') + '</div>' + (g.note ? '<ul class="hint cvnote">' + L(g.note).map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '') + '</section>';
       if (i === 0) {
         html += '<section class="card cvwide"><h2>' + esc(L({ en: 'Hydrometer temperature correction', hu: 'Hidrométer hőmérséklet-korrekciója' })) + '</h2><p class="hint">' +
-          esc(L({ en: 'For floating or swing-arm glass hydrometers only.', hu: 'Csak úszó vagy billenőkaros hidrométerhez.' })) + '</p><div class="calc" style="margin-top:0"><div>' + formHtml(HYDRO) +
+          esc(L({ en: 'For floating or swing-arm glass hydrometers only. Refractometers with ATC and digital meters correct the temperature themselves: do not use it for these.', hu: 'Csak úszó vagy billenőkaros hidrométerhez. Az ATC-s refraktométer és a digitális mérő maga korrigálja a hőmérsékletet: ezekre ne alkalmazd.' })) + '</p><div class="calc" style="margin-top:0"><div>' + formHtml(HYDRO) +
           '</div><div class="res" id="res-hydro" aria-live="polite">' + resultHtml(HYDRO) + '</div></div></section>';
       }
     });

@@ -187,6 +187,8 @@ input[aria-invalid="true"] { border-color: var(--danger) !important; }
 .cvgrid .card + .card { margin-top: 0; }
 .cvgrid .card h2 { margin-bottom: 4px; }
 .cvgrid .card > .hint { margin: 0 0 10px; }
+.cvgrid .card > .cvnote { margin: 12px 0 0; padding-left: 18px; }
+.cvnote li + li { margin-top: 4px; }
 .cvgrid .fgrid { grid-template-columns: repeat(auto-fill, minmax(min(140px, 100%), 1fr)); }
 .cvwide { grid-column: 1 / -1; }
 
