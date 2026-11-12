@@ -9,6 +9,7 @@ each tool lives in its own folder.
 | tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks and sharing; data stays in the browser |
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
 | species | [`species/`](species/) | Bilingual species care cards (draft data): overview with fish, coral and invertebrate lists, one card per species |
+| reef game | [`reef-game/`](reef-game/) | Bilingual virtual reef tank for beginners: set up, cycle, stock and care for a tank, with missions, events and a memorial; saved in the browser with JSON import/export (design in [`reef-game/README.md`](reef-game/README.md)) |
 | links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries (logos in `links/logos/`) |
 
 ### Species database
