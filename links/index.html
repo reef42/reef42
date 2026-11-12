@@ -102,6 +102,11 @@
       background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     }
     .badge.own { color: var(--accent); border-color: var(--accent); }
+    .stamp {
+      position: absolute; top: 10px; left: 10px; font-size: .72rem; font-weight: 700; padding: 2px 9px; border-radius: 999px;
+      background: var(--accent); color: var(--accent-ink, #fff); box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+    }
+    .card.rec { border-color: var(--accent); }
     .body { display: flex; flex-direction: column; gap: 6px; flex: 1; padding: 14px 16px 16px; }
     .body h2 { margin: 0; font-size: 1.05rem; font-weight: 600; overflow-wrap: anywhere; }
     .body p { margin: 0; color: var(--muted); font-size: .92rem; }
@@ -152,7 +157,7 @@
           suggest: 'Know a good link? Tell us:', search: 'Search…', type: 'Type', all: 'All',
           hu: 'Hungary', eu: 'Europe', intl: 'International', any: 'All',
           community: 'Community', shop: 'Shops', service: 'Services', fresh: 'Mainly freshwater', brand: 'Manufacturers & labs', tools: 'Tools & apps', learn: 'News & knowledge',
-          count: '{n} links', none: 'No links match the filters.', soon: 'Link coming soon', own: 'reef42', open: 'Open →',
+          count: '{n} links', none: 'No links match the filters.', soon: 'Link coming soon', own: 'reef42', rec: '★ Reef42 recommended', open: 'Open →',
           docTitle: 'Links'
         },
         hu: {
@@ -160,7 +165,7 @@
           suggest: 'Tudsz egy jó linket? Írd meg:', search: 'Keresés…', type: 'Típus', all: 'Mind',
           hu: 'Magyarország', eu: 'Európa', intl: 'Nemzetközi', any: 'Összes',
           community: 'Közösség', shop: 'Boltok', service: 'Szolgáltatás', fresh: 'Főleg édesvízi', brand: 'Gyártók és laborok', tools: 'Eszközök és appok', learn: 'Hírek és tudás',
-          count: '{n} link', none: 'Nincs a szűrésnek megfelelő link.', soon: 'Link hamarosan', own: 'reef42', open: 'Megnyitás →',
+          count: '{n} link', none: 'Nincs a szűrésnek megfelelő link.', soon: 'Link hamarosan', own: 'reef42', rec: '★ Reef42 ajánlott', open: 'Megnyitás →',
           docTitle: 'Linkek'
         }
       };
@@ -232,9 +237,10 @@
         var badge = l.reef42 ? '<span class="badge own">' + esc(t('own')) + '</span>'
           : l.fresh ? '<span class="badge">' + esc(t('fresh')) + '</span>'
           : '<span class="badge">' + esc(state.region === 'any' ? t(l.region) + (l.country ? ' · ' + l.country : '') : (l.country || t(l.cat))) + '</span>';
+        if (l.recommended) badge += '<span class="stamp">' + esc(t('rec')) + '</span>';
         var body = '<span class="thumb">' + logo + badge + '</span><span class="body"><h2>' + esc(l.name) + '</h2><p>' + esc(l.desc[lang] || l.desc.en) +
           '</p><span class="go">' + esc(l.url ? host(l.url) + ' →' : t('soon')) + '</span></span>';
-        var cls = 'card' + (l.reef42 ? ' own' : '') + (l.url ? '' : ' soon');
+        var cls = 'card' + (l.reef42 ? ' own' : '') + (l.recommended ? ' rec' : '') + (l.url ? '' : ' soon');
         return '<li>' + (l.url ? '<a class="' + cls + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + body + '</a>'
           : '<div class="' + cls + '">' + body + '</div>') + '</li>';
       }
@@ -242,7 +248,7 @@
       function renderList() {
         var items = LINKS.filter(function (l) { return matches(l, false); });
         items.sort(function (a, b) {
-          return (b.reef42 ? 1 : 0) - (a.reef42 ? 1 : 0) || (a.fresh ? 1 : 0) - (b.fresh ? 1 : 0) || REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
+          return (b.reef42 ? 1 : 0) - (a.reef42 ? 1 : 0) || (b.recommended ? 1 : 0) - (a.recommended ? 1 : 0) || (a.fresh ? 1 : 0) - (b.fresh ? 1 : 0) || REGIONS.indexOf(a.region) - REGIONS.indexOf(b.region) ||
             CATS.indexOf(a.cat) - CATS.indexOf(b.cat);
         });
         document.getElementById('count').textContent = t('count').replace('{n}', items.length);

@@ -4,6 +4,7 @@
 // logo: small square image in logos/ (optional; initials are shown without it); logoZoom enlarges a logo with wide margins
 // reef42: true marks reef42's own channels (listed first, in this order); an empty url shows "coming soon".
 // fresh: true marks mainly freshwater shops; they are listed last.
+// recommended: true shows a "Reef42 recommended" stamp; these come right after reef42's own channels.
 window.REEF42_LINKS = [
   {
     name: 'reef42', url: 'https://www.facebook.com/profile.php?id=61574750432340', logo: '../favicon.svg', region: 'hu', cat: 'community', reef42: true,
@@ -17,8 +18,39 @@ window.REEF42_LINKS = [
     name: 'Tengeri akvarista Discord', url: 'https://discord.gg/k3KC28gCH4', logo: 'logos/discord.com.png', region: 'hu', cat: 'community', reef42: true,
     desc: { en: 'Hungarian reef keepers’ Discord server, run by reef42.', hu: 'Magyar tengeri akvaristák Discord-szervere, a reef42 gondozásában.' },
   },
+
+  // Hungarian Facebook groups
   {
-    name: 'PraxisReef', url: 'https://praxisreef.com/', logo: 'logos/praxisreef.com.png', region: 'hu', cat: 'tools',
+    name: 'Acropora Tengeri Akvarisztika', url: 'https://www.facebook.com/groups/acropora/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community', recommended: true,
+    desc: { en: 'Hungarian reef keeping Facebook group.', hu: 'Magyar tengeri akvarisztikai Facebook-csoport.' },
+  },
+  {
+    name: 'Tengeri Akvaristák Közössége', url: 'https://www.facebook.com/groups/459744474074138/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Hungarian reef keepers’ community on Facebook.', hu: 'Magyar tengeri akvaristák közössége a Facebookon.' },
+  },
+  {
+    name: 'Tengeri Akvaristák', url: 'https://www.facebook.com/groups/427009410842414/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Facebook group of Hungarian reef keepers.', hu: 'Magyar tengeri akvaristák Facebook-csoportja.' },
+  },
+  {
+    name: 'Tengeri Akvarisztika – Minden ami érdekes', url: 'https://www.facebook.com/groups/391369719993816/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Facebook group about everything interesting in reef keeping.', hu: 'Facebook-csoport mindenről, ami a tengeri akvarisztikában érdekes.' },
+  },
+  {
+    name: 'Tengeri akvárium adok-veszek és fórum', url: 'https://www.facebook.com/groups/706508616157254/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Facebook group for buying and selling marine aquarium gear and livestock, with questions and answers.', hu: 'Facebook-csoport tengeri akvarisztikai adás-vételhez, kérdésekkel és válaszokkal.' },
+  },
+  {
+    name: 'Tengeri akvarisztika adok-veszek', url: 'https://www.facebook.com/groups/tengeriakvariszta/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Facebook group for buying and selling marine livestock and equipment.', hu: 'Facebook-csoport tengeri élőlények és technika adás-vételéhez.' },
+  },
+  {
+    name: 'Alföldi tengeri akvaristák baráti köre', url: 'https://www.facebook.com/groups/198691031669871/', logo: 'logos/facebook.com.png', region: 'hu', cat: 'community',
+    desc: { en: 'Friendly Facebook group of reef keepers from the Great Hungarian Plain.', hu: 'Az Alföld tengeri akvaristáinak baráti Facebook-csoportja.' },
+  },
+
+  {
+    name: 'PraxisReef', url: 'https://praxisreef.com/', logo: 'logos/praxisreef.com.png', region: 'hu', cat: 'tools', recommended: true,
     desc: { en: 'Hungarian-made reef management platform: dashboard, water chemistry analysis, coral nutrition planning and an AI assistant.', hu: 'Magyar fejlesztésű zátonyakvárium-kezelő platform: áttekintő, vízkémiai elemzés, koralltáplálás-tervezés és AI-asszisztens.' },
   },
   {
@@ -54,6 +86,10 @@ window.REEF42_LINKS = [
   {
     name: 'Tropus Szeged', url: 'https://tropus-szeged.hu/', region: 'hu', cat: 'shop',
     desc: { en: 'Aquarium shop in Szeged, with Aquaforest reef products among others.', hu: 'Szegedi akvarisztika, többek közt Aquaforest tengeri termékekkel.' },
+  },
+  {
+    name: 'Nemo Aquaristic', url: 'https://nemoaquaristic.hu/', region: 'hu', cat: 'shop',
+    desc: { en: 'Marine and garden pond specialist shop and webshop in Eger: corals, marine fish, equipment and advice.', hu: 'Egri tengeri akvarisztikai és kerti tavas szaküzlet és webáruház: korallok, tengeri halak, technika és tanácsadás.' },
   },
 
   // European shops
