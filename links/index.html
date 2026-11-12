@@ -102,10 +102,10 @@
       background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     }
     .badge.own { color: var(--accent); border-color: var(--accent); }
-    .stamp {
-      position: absolute; top: 10px; left: 10px; font-size: .72rem; font-weight: 700; padding: 2px 9px; border-radius: 999px;
-      background: var(--accent); color: var(--accent-ink, #fff); box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
-    }
+    .stamp { position: absolute; top: 6px; left: 8px; width: 60px; height: 60px; transform: rotate(-12deg); filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .2)); }
+    .stamp .seal { fill: var(--accent); }
+    .stamp .ring { fill: none; stroke: var(--accent-ink); stroke-width: 1; stroke-dasharray: 2 2; opacity: .7; }
+    .stamp text { fill: var(--accent-ink); font-family: inherit; font-weight: 800; text-anchor: middle; }
     .card.rec { border-color: var(--accent); }
     .body { display: flex; flex-direction: column; gap: 6px; flex: 1; padding: 14px 16px 16px; }
     .body h2 { margin: 0; font-size: 1.05rem; font-weight: 600; overflow-wrap: anywhere; }
@@ -157,7 +157,7 @@
           suggest: 'Know a good link? Tell us:', search: 'Search…', type: 'Type', all: 'All',
           hu: 'Hungary', eu: 'Europe', intl: 'International', any: 'All',
           community: 'Community', shop: 'Shops', service: 'Services', fresh: 'Mainly freshwater', brand: 'Manufacturers & labs', tools: 'Tools & apps', learn: 'News & knowledge',
-          count: '{n} links', none: 'No links match the filters.', soon: 'Link coming soon', own: 'reef42', rec: '★ Reef42 recommended', open: 'Open →',
+          count: '{n} links', none: 'No links match the filters.', soon: 'Link coming soon', own: 'reef42', rec: 'Reef42 recommended', recShort: 'recommended', open: 'Open →',
           docTitle: 'Links'
         },
         hu: {
@@ -165,7 +165,7 @@
           suggest: 'Tudsz egy jó linket? Írd meg:', search: 'Keresés…', type: 'Típus', all: 'Mind',
           hu: 'Magyarország', eu: 'Európa', intl: 'Nemzetközi', any: 'Összes',
           community: 'Közösség', shop: 'Boltok', service: 'Szolgáltatás', fresh: 'Főleg édesvízi', brand: 'Gyártók és laborok', tools: 'Eszközök és appok', learn: 'Hírek és tudás',
-          count: '{n} link', none: 'Nincs a szűrésnek megfelelő link.', soon: 'Link hamarosan', own: 'reef42', rec: '★ Reef42 ajánlott', open: 'Megnyitás →',
+          count: '{n} link', none: 'Nincs a szűrésnek megfelelő link.', soon: 'Link hamarosan', own: 'reef42', rec: 'Reef42 ajánlott', recShort: 'ajánlott', open: 'Megnyitás →',
           docTitle: 'Linkek'
         }
       };
@@ -230,6 +230,22 @@
         }).join('');
       }
 
+      // Round seal with a wavy edge for links Reef42 recommends.
+      var SEAL = (function () {
+        var p = [];
+        for (var i = 0; i < 144; i++) {
+          var a = i / 144 * Math.PI * 2;
+          var r = 29 + 2.2 * Math.cos(a * 14);
+          p.push((32 + r * Math.cos(a)).toFixed(2) + ' ' + (32 + r * Math.sin(a)).toFixed(2));
+        }
+        return 'M' + p.join(' L') + ' Z';
+      })();
+      function stampHtml() {
+        var s = t('recShort');
+        return '<svg class="stamp" viewBox="0 0 64 64" role="img" aria-label="' + esc(t('rec')) + '"><path class="seal" d="' + SEAL + '"/><circle class="ring" cx="32" cy="32" r="23"/>' +
+          '<text x="32" y="22" font-size="8">★</text><text x="32" y="33.5" font-size="10.5">REEF42</text><text x="32" y="43" font-size="' + (s.length > 9 ? 6.6 : 8) + '">' + esc(s) + '</text></svg>';
+      }
+
       function cardHtml(l) {
         var logo = l.logo
           ? '<span class="logo"><img src="' + esc(l.logo) + '" alt="" width="52" height="52" loading="lazy"' + (l.logoZoom ? ' style="transform:scale(' + Number(l.logoZoom) + ')"' : '') + '></span>'
@@ -237,7 +253,7 @@
         var badge = l.reef42 ? '<span class="badge own">' + esc(t('own')) + '</span>'
           : l.fresh ? '<span class="badge">' + esc(t('fresh')) + '</span>'
           : '<span class="badge">' + esc(state.region === 'any' ? t(l.region) + (l.country ? ' · ' + l.country : '') : (l.country || t(l.cat))) + '</span>';
-        if (l.recommended) badge += '<span class="stamp">' + esc(t('rec')) + '</span>';
+        if (l.recommended) badge += stampHtml();
         var body = '<span class="thumb">' + logo + badge + '</span><span class="body"><h2>' + esc(l.name) + '</h2><p>' + esc(l.desc[lang] || l.desc.en) +
           '</p><span class="go">' + esc(l.url ? host(l.url) + ' →' : t('soon')) + '</span></span>';
         var cls = 'card' + (l.reef42 ? ' own' : '') + (l.recommended ? ' rec' : '') + (l.url ? '' : ' soon');

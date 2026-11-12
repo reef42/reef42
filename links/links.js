@@ -64,7 +64,7 @@ window.REEF42_LINKS = [
     desc: { en: 'Marine specialist shop in Fót: live corals, marine fish and aquarium equipment.', hu: 'Fóti tengeri akvarisztikai szaküzlet: élő korallok, tengeri halak és akváriumtechnika.' },
   },
   {
-    name: 'Acropora tengeri akvarisztika', url: 'https://acropora.hu/', logo: 'logos/acropora.hu.png', region: 'hu', cat: 'shop',
+    name: 'Acropora tengeri akvarisztika', url: 'https://acropora.hu/', logo: 'logos/acropora.hu.png', region: 'hu', cat: 'shop', recommended: true,
     desc: { en: 'Marine aquarium shop and webshop.', hu: 'Tengeri akvarisztikai bolt és webáruház.' },
   },
   {
