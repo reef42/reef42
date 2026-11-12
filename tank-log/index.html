@@ -17,13 +17,15 @@
         <img src="assets/favicon.svg" alt="" width="26" height="26">
         <span>Tank Log</span>
       </a>
-      <label class="tanksel">
-        <span class="sr" id="tankLabel">Tank</span>
-        <select id="tankSelect" aria-labelledby="tankLabel"></select>
-      </label>
       <button class="lang" id="langToggle" type="button" aria-label="Language"></button>
     </div>
-    <nav class="tabs" id="tabs" aria-label="Main"></nav>
+    <div class="navrow">
+      <nav class="tabs" id="tabs" aria-label="Main"></nav>
+      <label class="tanksel">
+        <span id="tankLabel">Tank</span>
+        <select id="tankSelect" aria-labelledby="tankLabel"></select>
+      </label>
+    </div>
     <div class="dock" id="dock" hidden></div>
   </header>
 
