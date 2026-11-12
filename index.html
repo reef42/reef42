@@ -133,6 +133,21 @@
         object-fit: cover;
         border-bottom: 1px solid var(--line);
       }
+      .card .pic {
+        position: relative;
+        display: block;
+      }
+      .photos {
+        margin-top: 0;
+        padding-bottom: 16px;
+        color: var(--muted);
+        font-size: 0.72rem;
+        line-height: 1.6;
+      }
+      .photos a {
+        color: var(--muted);
+        text-underline-offset: 2px;
+      }
       .card .body {
         display: flex;
         flex-direction: column;
@@ -242,13 +257,17 @@
         <ul class="grid">
           <li>
             <a class="card" href="fishy-doctor/">
-              <img
-                class="thumb"
-                src="fishy-doctor/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ichthyologie%3B_ou%2C_Histoire_naturelle_des_poissons_%28Plate_208%29_%287064526417%29.jpg/500px-Ichthyologie%3B_ou%2C_Histoire_naturelle_des_poissons_%28Plate_208%29_%287064526417%29.jpg"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='fishy-doctor/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2>fishy doctor</h2>
                 <p data-i18n="fishyDoctor">
@@ -261,13 +280,17 @@
           </li>
           <li>
             <a class="card" href="tank-log/">
-              <img
-                class="thumb"
-                src="tank-log/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Golden_damselfish_%28Amblyglyphidodon_aureus%29_and_Bluestreak_cleaner_wrasse_%28Labroides_dimidiatus%29_%2832290722502%29.jpg/500px-Golden_damselfish_%28Amblyglyphidodon_aureus%29_and_Bluestreak_cleaner_wrasse_%28Labroides_dimidiatus%29_%2832290722502%29.jpg"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='tank-log/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2>tank log</h2>
                 <p data-i18n="tankLog">
@@ -280,13 +303,17 @@
           </li>
           <li>
             <a class="card" href="calculators/">
-              <img
-                class="thumb"
-                src="calculators/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/My_Brother%27s_Saltwater_Fish_Tank_1.jpg/500px-My_Brother%27s_Saltwater_Fish_Tank_1.jpg"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='calculators/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2 data-i18n="calcTitle">calculators</h2>
                 <p data-i18n="calculators">
@@ -299,13 +326,17 @@
           </li>
           <li>
             <a class="card" href="species/">
-              <img
-                class="thumb"
-                src="species/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Agincourt_Reef%2C_Great_Barrier_Reef%2C_Queensland_%28483740%29_%289440709137%29.jpg/500px-Agincourt_Reef%2C_Great_Barrier_Reef%2C_Queensland_%28483740%29_%289440709137%29.jpg"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='species/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2 data-i18n="speciesTitle">species</h2>
                 <p data-i18n="species">
@@ -318,13 +349,17 @@
           </li>
           <li>
             <a class="card" href="reef-game/">
-              <img
-                class="thumb"
-                src="reef-game/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Clownfish_%28Amphiprion_ocellaris%29.jpg/500px-Clownfish_%28Amphiprion_ocellaris%29.jpg"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='reef-game/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2>reef game</h2>
                 <p data-i18n="reefGame">
@@ -337,13 +372,17 @@
           </li>
           <li>
             <a class="card" href="links/">
-              <img
-                class="thumb"
-                src="links/assets/preview.svg"
-                alt=""
-                width="320"
-                height="180"
-              />
+              <span class="pic">
+                <img
+                  class="thumb"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Blue-eyed_coral_crab_antler_coral_Guam_2022.png/500px-Blue-eyed_coral_crab_antler_coral_Guam_2022.png"
+                  alt=""
+                  width="320"
+                  height="180"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='links/assets/preview.svg'"
+                />
+              </span>
               <div class="body">
                 <h2 data-i18n="linksTitle">links</h2>
                 <p data-i18n="links">
@@ -386,6 +425,15 @@
         <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span
       >
     </footer>
+    <p class="wrap photos">
+      <span data-i18n="photos">photos from Wikimedia Commons:</span>
+      <a href="https://commons.wikimedia.org/wiki/File:Ichthyologie;_ou,_Histoire_naturelle_des_poissons_(Plate_208)_(7064526417).jpg" target="_blank" rel="noopener">fishy doctor</a>: Marcus Elieser Bloch · public domain ·
+        <a href="https://commons.wikimedia.org/wiki/File:Golden_damselfish_(Amblyglyphidodon_aureus)_and_Bluestreak_cleaner_wrasse_(Labroides_dimidiatus)_(32290722502).jpg" target="_blank" rel="noopener">tank log</a>: Rickard Zerpe · CC BY-SA 2.0 ·
+        <a href="https://commons.wikimedia.org/wiki/File:My_Brother%27s_Saltwater_Fish_Tank_1.jpg" target="_blank" rel="noopener" data-i18n="calcTitle">calculators</a>: Itchy Melvin · CC BY-SA 2.0 ·
+        <a href="https://commons.wikimedia.org/wiki/File:Agincourt_Reef,_Great_Barrier_Reef,_Queensland_(483740)_(9440709137).jpg" target="_blank" rel="noopener" data-i18n="speciesTitle">species</a>: Robert Linsdell · CC BY 2.0 ·
+        <a href="https://commons.wikimedia.org/wiki/File:Clownfish_(Amphiprion_ocellaris).jpg" target="_blank" rel="noopener">reef game</a>: Jenny from Taipei · CC BY 2.0 ·
+        <a href="https://commons.wikimedia.org/wiki/File:Blue-eyed_coral_crab_antler_coral_Guam_2022.png" target="_blank" rel="noopener" data-i18n="linksTitle">links</a>: NOAA · public domain
+    </p>
 
     <script src="shared/lang.js"></script>
     <script>
@@ -393,6 +441,7 @@
         var TEXT = {
           en: {
             lead: "tools for saltwater aquarium keepers",
+            photos: "photos from Wikimedia Commons:",
             fishyDoctor:
               "identify saltwater fish diseases step by step and find the matching treatment.",
             tankLog:
@@ -418,6 +467,7 @@
           },
           hu: {
             lead: "eszközök tengeri akvaristáknak",
+            photos: "fotók a Wikimedia Commonsról:",
             fishyDoctor:
               "tengeri halbetegségek azonosítása lépésről lépésre, a hozzá illő kezeléssel.",
             tankLog:
