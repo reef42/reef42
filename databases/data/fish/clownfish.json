@@ -1,0 +1,587 @@
+[
+ {
+  "id": "amphiprion-ocellaris",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion ocellaris",
+  "name_en": "Common Clownfish / Ocellaris Clownfish",
+  "name_hu": "Közönséges bohóchal",
+  "size_cm": {
+   "min": 7,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": 6,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, easy to keep; may squabble with its own kind. Hosts anemones (Entacmaea, Heteractis, Stichodactyla) but thrives without them. Protandrous hermaphrodite: the largest individual becomes female.",
+   "hu": "Békés, könnyen tartható; fajtársaival civakodhat. Anémonokban (Entacmaea, Heteractis, Stichodactyla) él szimbiózisban, de anémon nélkül is jól érzi magát. Protandrikus hermafrodita: a legnagyobb példány nősténnyé alakul."
+  },
+  "feeding": {
+   "en": "Omnivore: accepts virtually all foods - pellets, flakes, frozen mysis, brine shrimp, nori.",
+   "hu": "Mindenevő: szinte minden táplálékot elfogad – pellet, pehely, fagyasztott mysis, sórák, nori."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Andaman and Nicobar Islands, western Australia to Southeast Asia and Taiwan.",
+   "hu": "Indo-Csendes-óceán: Andamán- és Nikobár-szigetek, Nyugat-Ausztráliától Délkelet-Ázsiáig és Tajvanig."
+  },
+  "notes": {
+   "en": "The most widely aquacultured marine fish; captive-bred specimens are extremely hardy. Ideal beginner fish. Many colour variants (black, snowflake, etc.) are not separate species.",
+   "hu": "A legnagyobb tömegben tenyésztett tengeri hal; a fogságban született példányok rendkívül ellenállóak. Ideális kezdő hal. A színváltozatok (fekete, snowflake stb.) nem külön fajok."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278400"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-ocellaris.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%22%2Barya%2B%22_Amphiprion_ocellaris_and_Stichodactylidae_in_aquarium_2020_06.jpg/1280px-%22%2Barya%2B%22_Amphiprion_ocellaris_and_Stichodactylidae_in_aquarium_2020_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:\"+arya+\"_Amphiprion_ocellaris_and_Stichodactylidae_in_aquarium_2020_06.jpg",
+   "author": "Aris riyanto",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "amphiprion-percula",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion percula",
+  "name_en": "True Percula Clownfish / Orange Clownfish",
+  "name_hu": "Valódi percula bohóchal",
+  "size_cm": {
+   "min": 6,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": 6,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Very similar to A. ocellaris; slightly more sensitive and less tolerant of poor water quality. Forms pairs or small groups.",
+   "hu": "Nagyon hasonlít az A. ocellarishoz; kissé érzékenyebb és a rossz vízminőséget kevésbé tűri. Párokban vagy kis csoportokban él."
+  },
+  "feeding": {
+   "en": "Omnivore: pellets, flakes, frozen foods, nori.",
+   "hu": "Mindenevő: pellet, pehely, fagyasztott táplálék, nori."
+  },
+  "origin": {
+   "en": "Western Pacific: Queensland and Melanesia (New Guinea, Solomon Islands, Vanuatu).",
+   "hu": "Nyugat-Csendes-óceán: Queensland és Melanézia (Új-Guinea, Salamon-szigetek, Vanuatu)."
+  },
+  "notes": {
+   "en": "Distinguished from A. ocellaris by thicker black outlines and 10 (vs 11) dorsal spines. Captive-bred lines widely available.",
+   "hu": "Az A. ocellaristól vastagobb fekete szegélyek és 10 (11 helyett) hátúszótüske különbözteti meg. Számos tenyésztett vonal kapható."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278402"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-percula.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Amphiprion_percula_%2848518442056%29.jpg/1280px-Amphiprion_percula_%2848518442056%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_percula_(48518442056).jpg",
+   "author": "Christian Gloor",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "amphiprion-clarkii",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion clarkii",
+  "name_en": "Clark's Clownfish",
+  "name_hu": "Clark-bohóchal",
+  "size_cm": {
+   "min": 10,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "The most widespread and one of the most aggressive clownfish; dominant fish may bully smaller tankmates.",
+   "hu": "A legelterjedtebb és egyik legagresszívabb bohóchal; a domináns példány kisebb társait zaklathatja."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard aquarium foods.",
+   "hu": "Mindenevő: minden szokásos akváriumita táplálék."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Persian Gulf to Western Australia, north to Japan, south to Melanesia.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Perzsa-öböltől Nyugat-Ausztráliáig, északon Japánig, délen Melanéziáig."
+  },
+  "notes": {
+   "en": "Extremely hardy and adaptable; hosts many anemone species. Colour variants by region.",
+   "hu": "Rendkívül ellenálló és alkalmazkodó; sok anémonfajjal él szimbiózisban. Színezete régiónként változó."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212783"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-clarkii.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Peces_payaso_de_cola_amarilla_%28Amphiprion_clarkii%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_134.jpg/1280px-Peces_payaso_de_cola_amarilla_%28Amphiprion_clarkii%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Peces_payaso_de_cola_amarilla_(Amphiprion_clarkii),_Anilao,_Filipinas,_2023-08-21,_DD_134.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "amphiprion-frenatus",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion frenatus",
+  "name_en": "Tomato Clownfish",
+  "name_hu": "Paradicsom bohóchal",
+  "size_cm": {
+   "min": 10,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive, hardy; defends its territory vigorously, especially when hosting an anemone.",
+   "hu": "Félig agresszív, ellenálló; területét határozottan védi, különösen ha anémonban él."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard foods.",
+   "hu": "Mindenevő: minden szokásos táplálék."
+  },
+  "origin": {
+   "en": "Western Pacific: Gulf of Thailand to Japan and Indonesia/Philippines.",
+   "hu": "Nyugat-Csendes-óceán: Thaiföldi-öböltől Japánig, valamint Indonézia/Fülöp-szigetek."
+  },
+  "notes": {
+   "en": "Dark single stripe variant (A. melanopus 'Cinnamon') is a close relative. Easy, long-lived beginner fish.",
+   "hu": "A sötét, egyszávos rokon a fahéjas bohóchal (A. melanopus). Könnyű, hosszú életű kezdőhal."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278394"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-frenatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Amphiprion_frenatus_%28Brevoort%2C_1856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_frenatus_(Brevoort,_1856).jpg",
+   "author": "BEDO (Thailand)",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "amphiprion-melanopus",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion melanopus",
+  "name_en": "Cinnamon Clownfish / Fire Clownfish",
+  "name_hu": "Fahéjas (tűzvörös) bohóchal",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Aggressive for its size; defends host anemones fiercely.",
+   "hu": "Méretéhez képest agresszív; az anémonját hevesen védi."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard foods.",
+   "hu": "Mindenevő: minden szokásos táplálék."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Coral Sea, Great Barrier Reef, Vanuatu to the Marshall Islands.",
+   "hu": "Indo-Csendes-óceán: Korall-tenger, Nagy Korallzátony, Vanuatu a Marshall-szigetekig."
+  },
+  "notes": {
+   "en": "Fiery orange-red body with a black saddle; very hardy. Do not keep with shy small fish.",
+   "hu": "Tűzvörös-narancs test fekete 'nyereggel'; nagyon ellenálló. Félénk kis halakkal ne tartsuk együtt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278398"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-melanopus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Amphiprion_melanopus%2C_Entacmaea.jpg/1280px-Amphiprion_melanopus%2C_Entacmaea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_melanopus,_Entacmaea.jpg",
+   "author": "dr.scott.mills",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "amphiprion-chrysopterus",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion chrysopterus",
+  "name_en": "Orange-fin Clownfish / Bluestripe Clownfish",
+  "name_hu": "Kékcímkés bohóchal",
+  "size_cm": {
+   "min": 12,
+   "max": 17
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 20
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "One of the larger, bolder clownfish; semi-aggressive, especially towards other anemonefish.",
+   "hu": "A nagyobb, merészebb bohóchalak egyike; félig agresszív, különösen más anémonhalakkal szemben."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard foods.",
+   "hu": "Mindenevő: minden szokásos táplálék."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: eastern Africa to the Tuamotus, north to Japan.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Kelet-Afrikától a Tuamotu-szigetekig, északon Japánig."
+  },
+  "notes": {
+   "en": "Beautiful blue-and-orange adult colouration; grows larger than most hobby clowns.",
+   "hu": "Gyönyörű kék-narancs felnőtt színezet; a legtöbb hobbi-bohóchalnál nagyobbra nő."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278393"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-chrysopterus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Amphiprion_chrysopterus%2C_Samoa_Americana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_chrysopterus,_Samoa_Americana.jpg",
+   "author": "NPS",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "amphiprion-polymnus",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion polymnus",
+  "name_en": "Saddleback Clownfish",
+  "name_hu": "Nyereghátú bohóchal",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 15
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive; naturally lives on muddy/sandy bottoms near host anemones (Stichodactyla haddoni). Prefers to stay near the substrate.",
+   "hu": "Félig agresszív; természetesen iszapos/homokos aljzaton él, anémonok (Stichodactyla haddoni) közelében. Inkább az aljzat közelében tartózkodik."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard foods.",
+   "hu": "Mindenevő: minden szokásos táplálék."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Thailand to northern Australia and the Solomon Islands.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Thaiföldtől Észak-Ausztráliáig és a Salamon-szigetekig."
+  },
+  "notes": {
+   "en": "Peaceful bottom-dwelling clown; hosts carpet anemones. Can be shy in bare, open tanks.",
+   "hu": "Békés, aljzathoz kötődő bohóchal; szőnyeganémonokban él. Csupasz, nyitott akváriumokban félénk lehet."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212781"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-polymnus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Amphiprion_polymnus%2C_Filipinas.jpg/1280px-Amphiprion_polymnus%2C_Filipinas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_polymnus,_Filipinas.jpg",
+   "author": "Andrew and Annemarie",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "amphiprion-perideraion",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Amphiprion perideraion",
+  "name_en": "Pink Skunk Clownfish",
+  "name_hu": "Rózsaszín csíkos bohóchal",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Shy and peaceful; easily bullied by aggressive tankmates. Best kept in pairs in calm tanks.",
+   "hu": "Félénk és békés; agresszív társak könnyen megzaklathatják. Legjobb párban, nyugodt akváriumban tartani."
+  },
+  "feeding": {
+   "en": "Omnivore: small pellets, frozen mysis, brine shrimp.",
+   "hu": "Mindenevő: kis pellet, fagyasztott mysis, sórák."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Christmas Island to Vanuatu, north to Japan.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Karácsony-szigettől Vanuatuig, északon Japánig."
+  },
+  "notes": {
+   "en": "Delicate-looking pink skunk clown; groups can be kept in large tanks with caution.",
+   "hu": "Könnyed, rózsaszín 'skunk' bohóchal; nagy akváriumban óvatosan csoportban is tartható."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278403"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amphiprion-perideraion.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Amphiprion_perideraion%2C_Heteractis.jpg/1280px-Amphiprion_perideraion%2C_Heteractis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_perideraion,_Heteractis.jpg",
+   "author": "Julie Bedford, NOAA",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "premnas-biaculeatus",
+  "group": "fish",
+  "category": "clownfish",
+  "scientific_name": "Premnas biaculeatus",
+  "name_en": "Maroon Clownfish",
+  "name_hu": "Bordó bohóchal",
+  "size_cm": {
+   "min": 12,
+   "max": 17
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "The most aggressive common clownfish; females grow much larger than males and can bite during maintenance.",
+   "hu": "A legagresszívabb gyakori bohóchal; a nőstények jóval nagyobbra nőnek, és a karbantartás során is csíphetnek."
+  },
+  "feeding": {
+   "en": "Omnivore: all standard foods.",
+   "hu": "Mindenevő: minden szokásos táplálék."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Indonesia and New Guinea to northern Australia and the Philippines.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Indonézia és Új-Guineától Észak-Ausztráliáig és a Fülöp-szigetekig."
+  },
+  "notes": {
+   "en": "Premnas (type genus) hosts bubble-tip anemones; gold-stripe variants exist. Only one per tank; handle with care.",
+   "hu": "A Premnas nemzetség fáklyásanémonokban él; létezik arany csíkú változata. Akváriumonként egy példány; óvatosan kezelendő."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212768"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Premnas-biaculeatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Premnas_biaculeatus%2C_Andam%C3%A1n_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Premnas_biaculeatus,_Andamán_2.jpg",
+   "author": "Steve Childs",
+   "license": "CC BY 2.0"
+  }
+ }
+]

@@ -1,0 +1,457 @@
+[
+ {
+  "id": "cryptocentrus-cinctus",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Cryptocentrus cinctus",
+  "name_en": "Yellow Watchman Goby",
+  "name_hu": "Sárga őrző gébhal",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Forms a famous symbiosis with pistol shrimp (Alpheus): the shrimp digs, the goby guards. Territorial towards its own kind.",
+   "hu": "Híres szimbiózist alkot a pisztolygarnélával (Alpheus): a garnéla ás, a gébhal őrködik. Fajtársaival szemben territoriális."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets; may take food near its burrow entrance.",
+   "hu": "Húsevő: mysis, sórák, kis pellet; a táplálékot a járata bejáratánál is elfogadja."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to the Tuamotus, north to the Ryukyus.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Tuamotu-szigetekig, északon a Ryukyu-szigetekig."
+  },
+  "notes": {
+   "en": "Best kept as a goby-shrimp pair; provide deep fine sand and rubble. May jump if startled.",
+   "hu": "Legjobb gébhal–garnéla párosban tartani; mély, finom homokot és törmeléket igényel. Megriasztva kiugorhat."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278326"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cryptocentrus-cinctus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Alpheus_djiboutensis_%28Snapping_shrimp%29_with_partner_Cryptocentrus_cinctus_%28Yellow_shrimp_goby%29.jpg/1280px-Alpheus_djiboutensis_%28Snapping_shrimp%29_with_partner_Cryptocentrus_cinctus_%28Yellow_shrimp_goby%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alpheus_djiboutensis_(Snapping_shrimp)_with_partner_Cryptocentrus_cinctus_(Yellow_shrimp_goby).jpg",
+   "author": "Nhobgood Nick Hobgood",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "amblyeleotris-randalli",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblyeleotris randalli",
+  "name_en": "Randall's Shrimp Goby",
+  "name_hu": "Randall-gébhal",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Classic shrimp-goby; shares burrows with Alpheus pistol shrimp and warns it of danger.",
+   "hu": "Klasszikus garnéla-gébhal; Alpheus pisztolygarnélával közös járatban él, és figyelmezteti a veszélyre."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets.",
+   "hu": "Húsevő: mysis, sórák, kis pellet."
+  },
+  "origin": {
+   "en": "Western Pacific: Japan to the Philippines, Indonesia and New Guinea.",
+   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigeteken át Indonéziáig és Új-Guineáig."
+  },
+  "notes": {
+   "en": "Same care as the yellow watchman; peaceful and suitable for nano reefs.",
+   "hu": "Ugyanaz a gondozás, mint a sárga őrző gébhalnál; békés, nano-zátonyokba is alkalmas."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278980"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblyeleotris-randalli.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Amblyeleotris_randalli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblyeleotris_randalli.jpg",
+   "author": "Chika Watanabe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "valenciennea-strigata",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Valenciennea strigata",
+  "name_en": "Chalk Goby / Blueband Goby",
+  "name_hu": "Kékcsíkos gébhal",
+  "size_cm": {
+   "min": 12,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful pair-living goby; constantly sifts sand through its gills and spits it out, sometimes covering corals.",
+   "hu": "Békés, párosan élő gébhal; folyamatosan szűri át a homokot a kopoltyúin, és kifújja azt, néha ezzel borítva be a korallokat."
+  },
+  "feeding": {
+   "en": "Carnivore: needs frequent feedings; easily starves in new tanks. Mysis, brine, pellets.",
+   "hu": "Húsevő: gyakori etetést igényel; új akváriumban könnyen éhen hal. Mysis, sórák, pellet."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Keeps the sand bed clean but can bury corals; secure rockwork as it digs under it. Jump risk.",
+   "hu": "Tisztán tartja a homokágyat, de eltemethet korallokat; a sziklákat rögzítsük, mert alá ás. Ugrásra hajlamos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219599"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Valenciennea-strigata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Blueband_Gobies_%28Valenciennea_strigata%29_%286094179650%29.jpg/1280px-Blueband_Gobies_%28Valenciennea_strigata%29_%286094179650%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blueband_Gobies_(Valenciennea_strigata)_(6094179650).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "valenciennea-puellaris",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Valenciennea puellaris",
+  "name_en": "Diamond Watchman Goby / Pretty Prawn Goby",
+  "name_hu": "Gyémánt gébhal",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sand-sifting goby; peaceful and lives in pairs in the wild. Constantly processes the sand bed.",
+   "hu": "Homokszűrő gébhal; békés, a természetben párban él. Folyamatosan átdolgozza a homokágyat."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine, small pellets; frequent small feedings recommended.",
+   "hu": "Húsevő: mysis, sórák, kis pellet; gyakori kis adagolás ajánlott."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and the Great Barrier Reef.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánig és a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "Excellent for stirring deep sand beds; may starve in tanks with little natural food.",
+   "hu": "Kiválóan mozgatja a mély homokágyat; kevés természetes táplálékú akváriumban éhezhet."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219595"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Valenciennea-puellaris.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Maiden_Goby_%28Valenciennea_puellaris%29_%286065200524%29.jpg/1280px-Maiden_Goby_%28Valenciennea_puellaris%29_%286065200524%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Maiden_Goby_(Valenciennea_puellaris)_(6065200524).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "elacatinus-oceanops",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Elacatinus oceanops",
+  "name_en": "Neon Goby",
+  "name_hu": "Neon gébhal",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "easy",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Set up cleaning stations and remove parasites from tankmates; completely peaceful. Captive-bred widely.",
+   "hu": "Tisztogatóállomást tart fenn, és a társhalakról szedi le a parazitákat; teljesen békés. Széles körben tenyésztett."
+  },
+  "feeding": {
+   "en": "Carnivore: tiny foods - copepods, baby brine, fine pellets, frozen mysis.",
+   "hu": "Húsevő: apró táplálék – evezőlábú rákok, sórák-lárvák, apró pellet, fagyasztott mysis."
+  },
+  "origin": {
+   "en": "Western Atlantic: Florida and the Gulf of Mexico to Belize.",
+   "hu": "Nyugat-Atlanti-óceán: Florida és a Mexikói-öböltől Belize-ig."
+  },
+  "notes": {
+   "en": "Perfect nano reef fish; ideal parasite control without the ethical issues of cleaner wrasses.",
+   "hu": "Tökéletes nano zátonyhal; ideális parazitakontroll a tisztogató ajaksügerek etikai problémái nélkül."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=280616"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Elacatinus-oceanops.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Elacatinus_oceanops.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Elacatinus_oceanops.JPG",
+   "author": "MyName (Tambja)",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "signigobius-biocellatus",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Signigobius biocellatus",
+  "name_en": "Signal Goby / Two-spot Goby",
+  "name_hu": "Szemfoltos gébhal",
+  "size_cm": {
+   "min": 6,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 6
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "difficult",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Mimics a crab with its eye-spots; lives in pairs and hovers over its burrow. Very shy.",
+   "hu": "Szemfoltjaival rákot utánoz; párban él, és a járata fölött lebeg. Nagyon félénk."
+  },
+  "feeding": {
+   "en": "Difficult feeder: tiny live/frozen foods (copepods, rotifers, baby brine); needs mature tank.",
+   "hu": "Nehezen etethető: apró élő/fagyasztott táplálék (evezőlábú rákok, kerekesférgek, sórák-lárvák); érett akváriumot igényel."
+  },
+  "origin": {
+   "en": "Western Pacific: Philippines to New Guinea and the Great Barrier Reef.",
+   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetektől Új-Guineáig és a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "Only for experienced keepers with mature, peaceful tanks; starves easily.",
+   "hu": "Csak tapasztalt tartóknak, érett, békés akváriumokba; könnyen éhen hal."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=282790"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Signigobius-biocellatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Signigobius_biocellatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Signigobius_biocellatus.jpg",
+   "author": "Chika Watanabe from Los Altos, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "amblygobius-phalaena",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblygobius phalaena",
+  "name_en": "Bar Goby / Bumblebee Goby (marine)",
+  "name_hu": "Csíkos gébhal",
+  "size_cm": {
+   "min": 10,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful; hovers above the sand and takes mouthfuls of it to sift out food.",
+   "hu": "Békés; a homok fölött lebeg, és csippentett homokból szűri ki a táplálékot."
+  },
+  "feeding": {
+   "en": "Omnivore: mysis, brine, pellets, nori bits; feeds on sand-bed fauna.",
+   "hu": "Mindenevő: mysis, sórák, pellet, nori darabkák; a homok élővilágából táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Hardy beginner goby for medium tanks; good sand-stirring activity.",
+   "hu": "Ellenálló, kezdőknek való gébhal közepes akváriumokba; jó homokmozgatás."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278655"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblygobius-phalaena.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Amblygobius_phalaena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblygobius_phalaena.jpg",
+   "author": "Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ }
+]

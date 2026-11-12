@@ -1,0 +1,986 @@
+[
+ {
+  "id": "acropora-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Acropora spp.",
+  "name_en": "Acropora (staghorn corals)",
+  "name_hu": "Acropora (szarvaskorall)",
+  "type": {
+   "en": "Branching, encrusting, plating, table - extremely variable by species",
+   "hu": "Ágas, kéregképző, lemezes, asztal formájú - fajonként rendkívül változatos"
+  },
+  "difficulty": "difficult",
+  "light": "high",
+  "flow": "high",
+  "growth": "fast",
+  "placement": {
+   "en": "Upper and mid-tank on stable rockwork, spaced from other corals.",
+   "hu": "Az akvárium felső és középső részén, stabil sziklázaton, más koralloktól elkülönítve."
+  },
+  "aggression": {
+   "en": "Not aggressive itself, but sensitive to stinging and chemical warfare from neighbours.",
+   "hu": "Önmagában nem agresszív, de érzékeny a szomszédok csípéseire és kémiai hatásaira."
+  },
+  "feeding": {
+   "en": "Primarily photosynthetic (Zooxanthellae); benefits from amino acids and fine plankton (REEF-roids type) feeding.",
+   "hu": "Főként fotoszintetizáló (zooxanthellák); hasznos az aminosav- és finom planktonetetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific and Caribbean (in the trade: mostly Indonesia, Australia, Fiji, Hawai'i).",
+   "hu": "Indo-Csendes-óceán és Karib-tenger (kereskedelem: főleg Indonézia, Ausztrália, Fidzsi)."
+  },
+  "notes": {
+   "en": "The flagship SPS genus with 100+ species in the trade; colour morphs are NOT separate species. Demands stable alkalinity (7-9 dKH), calcium (400-450 ppm), low nutrients (NO3/PO4 near zero) and strong lighting (PAR 200+).",
+   "hu": "A zászlóshajó SPS nemzetség, a kereskedelemben 100+ fajjal; a színmorfok NEM külön fajok. Stabil alkalitást (7–9 dKH), kalciumot (400–450 ppm), alacsony tápanyagot (NO3/PO4 a nullához közeli) és erős fényt (PAR 200+) igényel."
+  },
+  "diseases": [
+   "rtn-stn",
+   "brown-jelly",
+   "black-band"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205469"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Acropora_Spp.jpg/1280px-Acropora_Spp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acropora_Spp.jpg",
+   "author": "Syahrul Harijo",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "montipora-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Montipora spp.",
+  "name_en": "Montipora",
+  "name_hu": "Montipora",
+  "type": {
+   "en": "Encrusting, plating and sub-branching forms.",
+   "hu": "Kéregképző, lemezes és félig ágas formák."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank; plates grow best with light from above and space to spread.",
+   "hu": "Az akvárium középső részén; a lemezes formák felülről érkező fényben terülnek szét a legjobban."
+  },
+  "aggression": {
+   "en": "Peaceful; can be overgrown by or lose to more aggressive neighbours.",
+   "hu": "Békés; agresszívabb szomszédok elnyomhatják vagy benőhetik."
+  },
+  "feeding": {
+   "en": "Photosynthetic; benefits from fine plankton and amino acids.",
+   "hu": "Fotoszintetizáló; hasznos a finom plankton- és aminosav-utánpótlás."
+  },
+  "origin": {
+   "en": "Indo-Pacific, widespread from East Africa to Hawai'i.",
+   "hu": "Indo-Csendes-óceán, Kelet-Afrikától Hawaiig elterjedt."
+  },
+  "notes": {
+   "en": "More forgiving than Acropora - the usual next step in SPS keeping. Popular species: M. capricornis (plate), M. digitata (branching), M. confusa. Watch for red bugs and montipora-eating nudibranchs.",
+   "hu": "Az Acroporánál megengedőbb – az SPS-tartás szokásos következő lépése. Népszerű fajok: M. capricornis (lemezes), M. digitata (ágas), M. confusa. Figyeljünk a red bugatkákra és a montipora-evő meztelencsigákra."
+  },
+  "diseases": [
+   "rtn-stn",
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=203834"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Coral_%28Montipora_digitata%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_115.jpg/1280px-Coral_%28Montipora_digitata%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_115.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Montipora_digitata),_Anilao,_Filipinas,_2023-08-23,_DD_115.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "seriatopora-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Seriatopora spp.",
+  "name_en": "Bird's Nest Coral",
+  "name_hu": "Fészekkorall (birdsnest)",
+  "type": {
+   "en": "Dense thin branching.",
+   "hu": "Sűrű, vékony ágas."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid to upper tank; give room - it grows quickly.",
+   "hu": "Az akvárium középső-felső része; hagyjunk helyet – gyorsan nő."
+  },
+  "aggression": {
+   "en": "Peaceful; polyps have weak sweepers.",
+   "hu": "Békés; a polipok csípőcsápjai gyengék."
+  },
+  "feeding": {
+   "en": "Photosynthetic; small plankton occasionally.",
+   "hu": "Fotoszintetizáló; alkalmanként kis plankton."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Fast-growing pink/bird's nest coral (S. hystrix); an excellent first branching SPS. Fragging: snip branches and glue.",
+   "hu": "Gyorsan növő rózsaszín 'fészekkorall' (S. hystrix); kiváló első ágas SPS. Fragelés: ágak levágása és ragasztása."
+  },
+  "diseases": [
+   "rtn-stn"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205121"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Coral_%28Seriatopora_hystrix%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-29%2C_DD_50.jpg/1280px-Coral_%28Seriatopora_hystrix%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-29%2C_DD_50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Seriatopora_hystrix),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-29,_DD_50.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "stylophora-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Stylophora spp.",
+  "name_en": "Cat's Paw Coral",
+  "name_hu": "Macskakarom-korall",
+  "type": {
+   "en": "Blunt branching.",
+   "hu": "Tömzsi ágas."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank with moderate flow.",
+   "hu": "Az akvárium közepe, mérsékelt áramlással."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "Photosynthetic.",
+   "hu": "Fotoszintetizáló."
+  },
+  "origin": {
+   "en": "Indo-Pacific, including the Red Sea.",
+   "hu": "Indo-Csendes-óceán, beleértve a Vörös-tengert."
+  },
+  "notes": {
+   "en": "Hardy pink branching SPS (S. pistillata); tolerates wider parameter swings than Acropora.",
+   "hu": "Ellenálló rózsaszín ágas SPS (S. pistillata); az Acroporánál szélesebb paraméter-ingadozást tűr."
+  },
+  "diseases": [
+   "rtn-stn"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=204068"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Boutures_Stylophora.jpg/1280px-Boutures_Stylophora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Boutures_Stylophora.jpg",
+   "author": "ALLEMAND D",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pocillopora-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Pocillopora spp.",
+  "name_en": "Cauliflower Coral",
+  "name_hu": "Karfiol-korall",
+  "type": {
+   "en": "Compact, nubby branching.",
+   "hu": "Tömör, szemcsés-ágas."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "high",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid to upper tank with strong turbulent flow.",
+   "hu": "Az akvárium középső-felső része erős, örvénylő áramlással."
+  },
+  "aggression": {
+   "en": "Peaceful; sweeper tentacles are short.",
+   "hu": "Békés; a csápok rövidek."
+  },
+  "feeding": {
+   "en": "Photosynthetic; opportunist plankton feeder.",
+   "hu": "Fotoszintetizáló; opportunista planktonevő."
+  },
+  "origin": {
+   "en": "Indo-Pacific and eastern Pacific.",
+   "hu": "Indo-Csendes-óceán és kelet-csendes-óceáni régió."
+  },
+  "notes": {
+   "en": "Very hardy SPS (P. damicornis, P. verrucosa); one of the most fragged and traded genera.",
+   "hu": "Nagyon ellenálló SPS (P. damicornis, P. verrucosa); az egyik legtöbbet fragelt és forgalmazott nemzetség."
+  },
+  "diseases": [
+   "rtn-stn"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206938"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Antler_coral_%28Pocillopora_grandis%29_with_blue_damselfish_%28Pomacentrus_pavo%29_Moorea.jpg/1280px-Antler_coral_%28Pocillopora_grandis%29_with_blue_damselfish_%28Pomacentrus_pavo%29_Moorea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Antler_coral_(Pocillopora_grandis)_with_blue_damselfish_(Pomacentrus_pavo)_Moorea.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "porites-spp",
+  "group": "coral",
+  "category": "sps",
+  "scientific_name": "Porites spp.",
+  "name_en": "Porites (finger corals)",
+  "name_hu": "Porites (ujj-korallok)",
+  "type": {
+   "en": "Encrusting boulders or finger-like branches.",
+   "hu": "Kéregképző tömbök vagy ujjszerű ágak."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Mid-tank; undemanding.",
+   "hu": "Az akvárium közepe; igénytelen."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "Photosynthetic; tiny polyps can take ultra-fine plankton.",
+   "hu": "Fotoszintetizáló; apró polipjai ultrafinom planktont is elfogadhatnak."
+  },
+  "origin": {
+   "en": "All tropical oceans.",
+   "hu": "Minden trópusi tengerben."
+  },
+  "notes": {
+   "en": "Slow-growing but nearly bulletproof; often sold as 'yellow finger coral'. SomePorites host Christmas tree worms.",
+   "hu": "Lassan nő, de szinte elpusztíthatatlan; gyakran 'sárga ujjkorall' néven árulják. Egyes Porites példányok karácsonyfa-férgeket hordoznak."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206485"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Caribbean_Porites.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Caribbean_Porites.JPG",
+   "author": "Louis Wray",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "euphyllia-spp",
+  "group": "coral",
+  "category": "lps-euphyllia",
+  "scientific_name": "Euphyllia spp.",
+  "name_en": "Torch, Hammer, Frogspawn (Euphyllia)",
+  "name_hu": "Fáklyás, kalapácsos és békapetekorall (Euphyllia)",
+  "type": {
+   "en": "Large-polyped with flowing tentacles on a branching skeleton (E. glabrescens torch, E. ancora hammer, E. divisa frogspawn).",
+   "hu": "Nagy polipú, lebegő csápokkal ágas vázon (E. glabrescens fáklyás, E. ancora kalapácsos, E. divisa békapete)."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "medium",
+  "placement": {
+   "en": "Mid-tank with gentle flow; keep 10+ cm from other corals.",
+   "hu": "Az akvárium közepe gyenge áramlással; tartsuk 10+ cm távolságra más koralloktól."
+  },
+  "aggression": {
+   "en": "Highly aggressive: long sweeper tentacles sting neighbours. Species within the genus tolerate each other.",
+   "hu": "Erősen agresszív: hosszú csápjaival megcsípi a szomszédokat. A nemzetségen belüli fajok egymást tűrik."
+  },
+  "feeding": {
+   "en": "Photosynthetic; eagerly eats mysis and pellet offered to tentacles.",
+   "hu": "Fotoszintetizáló; a csápokra kínált mysist és pelletet mohón fogyasztja."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia, Fiji.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia, Fidzsi."
+  },
+  "notes": {
+   "en": "The most popular LPS genus; colour morphs (gold torch etc.) are not separate species. Prone to brown jelly and euphyllia-eating flatworms; dip new arrivals.",
+   "hu": "A legnépszerűbb LPS nemzetség; a színmorfok (arany fáklyás stb.) nem külön fajok. Hajlamos barna zselére és Euphyllia-evő laposférgekre; az új példányt mártsuk be."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206703"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Coral_%28Euphyllia_ancora%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_292.jpg/1280px-Coral_%28Euphyllia_ancora%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Euphyllia_ancora),_Anilao,_Filipinas,_2023-08-22,_DD_292.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "favia-spp",
+  "group": "coral",
+  "category": "lps-brain",
+  "scientific_name": "Favia spp.",
+  "name_en": "Moon Brain Coral",
+  "name_hu": "Hold-agykorall",
+  "type": {
+   "en": "Dome-shaped brain coral with distinct corallites.",
+   "hu": "Dóm formájú agykorall elkülönült korallitokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Mid-tank on the sandbed or lower rockwork.",
+   "hu": "Az akvárium közepe, homokágyon vagy alsó sziklázaton."
+  },
+  "aggression": {
+   "en": "Extends sweeper tentacles at night - space accordingly.",
+   "hu": "Éjszaka csápokat nyújt – ennek megfelelő hely kell."
+  },
+  "feeding": {
+   "en": "Photosynthetic; target-feed small meaty items to accelerate growth.",
+   "hu": "Fotoszintetizáló; célzott kis húsos etetés gyorsítja a növekedést."
+  },
+  "origin": {
+   "en": "All tropical oceans (Indo-Pacific species dominate the trade).",
+   "hu": "Minden trópusi tenger (a kereskedelmet indo-csendes-óceáni fajok uralják)."
+  },
+  "notes": {
+   "en": "Classic beginner LPS; extremely hardy and forgiving. Favia, Favites, and their hybrids ('brain corals') need identical care.",
+   "hu": "Klasszikus kezdő LPS; rendkívül ellenálló és megengedő. A Favia, Favites és hibridjeik ('agykorallok') azonos gondozást igényelnek."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=718691"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Almeja_gigante_%28Tridacna_maxima%29_en_un_coral_%28Favia_favus%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-30%2C_DD_13.jpg/1280px-Almeja_gigante_%28Tridacna_maxima%29_en_un_coral_%28Favia_favus%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-30%2C_DD_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Almeja_gigante_(Tridacna_maxima)_en_un_coral_(Favia_favus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-30,_DD_13.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "favites-spp",
+  "group": "coral",
+  "category": "lps-brain",
+  "scientific_name": "Favites spp.",
+  "name_en": "Favites (brain corals)",
+  "name_hu": "Favites-agykorall",
+  "type": {
+   "en": "Encrusting or dome brain coral, corallites share walls.",
+   "hu": "Kéregképző vagy dóm agykorall, a korallitok közös fallal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed or lower rockwork, mid light.",
+   "hu": "Homokágy vagy alsó sziklázat, közepes fény."
+  },
+  "aggression": {
+   "en": "Sweeper tentacles at night.",
+   "hu": "Éjszakai csápnyújtás."
+  },
+  "feeding": {
+   "en": "Photosynthetic; enjoys target feeding.",
+   "hu": "Fotoszintetizáló; kedveli a célzott etetést."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Includes the popular 'war coral' (F. pentagona); same care as Favia.",
+   "hu": "Ide tartozik a népszerű 'war coral' (F. pentagona); gondozása a Faviával azonos."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206158"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Favia_favites.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Favia_favites.jpg",
+   "author": "Tappinen",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "platygyra-spp",
+  "group": "coral",
+  "category": "lps-brain",
+  "scientific_name": "Platygyra spp.",
+  "name_en": "Maze Brain Coral",
+  "name_hu": "Labirintus-korall",
+  "type": {
+   "en": "Valley-forming brain coral (meandroid).",
+   "hu": "Völgyes agykorall (meandroid)."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed or mid-rockwork.",
+   "hu": "Homokágy vagy középső sziklázat."
+  },
+  "aggression": {
+   "en": "Sweepers at night.",
+   "hu": "Éjszakai csápok."
+  },
+  "feeding": {
+   "en": "Photosynthetic; target feeding helps.",
+   "hu": "Fotoszintetizáló; a célzott etetés segít."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Hardy brain coral with maze-like valleys; colours from green to orange.",
+   "hu": "Ellenálló agykorall labirintus-völgyekkel; zöldtől narancsig terjedő színekkel."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206621"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Brain_Coral_Platygyra_spp_by_Dr_Raju_Kasambe_DSCN0479.jpg/1280px-Brain_Coral_Platygyra_spp_by_Dr_Raju_Kasambe_DSCN0479.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Brain_Coral_Platygyra_spp_by_Dr_Raju_Kasambe_DSCN0479.jpg",
+   "author": "Dr. Raju Kasambe",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "symphyllia-spp",
+  "group": "coral",
+  "category": "lps-brain",
+  "scientific_name": "Symphyllia spp.",
+  "name_en": "Symphyllia Brain Coral",
+  "name_hu": "Symphyllia agykorall",
+  "type": {
+   "en": "Flat, heavily folded brain coral.",
+   "hu": "Lapos, erősen redőzött agykorall."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed; direct moderate light.",
+   "hu": "Homokágy; közvetlen mérsékelt fény."
+  },
+  "aggression": {
+   "en": "Can extend modest sweepers.",
+   "hu": "Mérsékelt csápokat nyújthat."
+  },
+  "feeding": {
+   "en": "Photosynthetic; occasional meaty target feeds.",
+   "hu": "Fotoszintetizáló; alkalmanként húsos célzott etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia."
+  },
+  "notes": {
+   "en": "Vivid coloured folds (red/pink/green); very hardy. One of the easiest 'show' LPS.",
+   "hu": "Élénk színű redők (piros/rózsaszín/zöld); nagyon ellenálló. Az egyik legkönnyebb 'show' LPS."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205189"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Brain_Coral_%28Symphyllia_sp.%29_%288474039398%29.jpg/1280px-Brain_Coral_%28Symphyllia_sp.%29_%288474039398%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Brain_Coral_(Symphyllia_sp.)_(8474039398).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "lobophyllia-spp",
+  "group": "coral",
+  "category": "lps-brain",
+  "scientific_name": "Lobophyllia spp.",
+  "name_en": "Lobed Brain Coral / Lobo",
+  "name_hu": "Lobophyllia agykorall",
+  "type": {
+   "en": "Large fleshy polyps on a heavy skeleton.",
+   "hu": "Nagy, húsos polipok masszív vázon."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed or low rockwork, gentle flow so tissue is not torn.",
+   "hu": "Homokágy vagy alsó sziklázat, gyenge áramlás, hogy a szövet ne sérüljön."
+  },
+  "aggression": {
+   "en": "Aggressive sweeper tentacles - give space.",
+   "hu": "Agresszív csápok – helyet kell hagyni."
+  },
+  "feeding": {
+   "en": "Photosynthetic and eager meaty feeder; big foods (krill, silverside pieces).",
+   "hu": "Fotoszintetizáló és mohó húsevő; nagyobb táplálék (krill, kis halfajták)."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Popular, colourful, nearly indestructible; huge variety of colours. Damaged tissue heals slowly - handle by the skeleton.",
+   "hu": "Népszerű, színes, szinte elpusztíthatatlan; hatalmas színválasztékkal. A sérült szövet lassan gyógyul – a vázánál fogva kezeljük."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205310"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Brain_coral_Lobophyllia_hemprichii_%287504782358%29.jpg/1280px-Brain_coral_Lobophyllia_hemprichii_%287504782358%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Brain_coral_Lobophyllia_hemprichii_(7504782358).jpg",
+   "author": "Paul Asman and Jill Lenoble",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "acanthastrea-micromussa",
+  "group": "coral",
+  "category": "lps-acan",
+  "scientific_name": "Acanthastrea / Micromussa spp.",
+  "name_en": "Acan Corals",
+  "name_hu": "Acan korall",
+  "type": {
+   "en": "Encrusting colonies of large, fleshy polyps.",
+   "hu": "Kéregképző telepek nagy, húsos polipokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed or lower rockwork; moderate light, gentle flow.",
+   "hu": "Homokágy vagy alsó sziklázat; mérsékelt fény, gyenge áramlás."
+  },
+  "aggression": {
+   "en": "Can extend sweepers towards neighbours.",
+   "hu": "A szomszédok felé csápokat nyújthat."
+  },
+  "feeding": {
+   "en": "Photosynthetic; loves target feeding mysis/roe - polyps visibly fatten.",
+   "hu": "Fotoszintetizáló; kedveli a célzott mysis/ikra etetést – a polipok láthatóan kövérednek."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia (Lord Howe) and Indonesia.",
+   "hu": "Indo-Csendes-óceán: Ausztrália (Lord Howe) és Indonézia."
+  },
+  "notes": {
+   "en": "Includes 'Acan lord' (A. lordhowensis) and the rainbow 'Micromussa' forms. Easy to frag by cutting between polyps. Extremely popular for colours.",
+   "hu": "Ide tartozik az 'Acan lord' (A. lordhowensis) és a szivárványos 'Micromussa' formák. A polipok közti vágással könnyen fragelhető. Rendkívül népszerű a színei miatt."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Acanthastrea_lordhowensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthastrea_lordhowensis.jpg",
+   "author": "Haplochromis",
+   "license": "CC BY 2.5"
+  }
+ },
+ {
+  "id": "blastomussa-spp",
+  "group": "coral",
+  "category": "lps-acan",
+  "scientific_name": "Blastomussa spp.",
+  "name_en": "Blastomussa (wellsi, merletti)",
+  "name_hu": "Blastomussa korall",
+  "type": {
+   "en": "Large round polyps (B. wellsi) or tube-shaped (B. merletti) on encrusting base.",
+   "hu": "Nagy kerek polipok (B. wellsi) vagy csöves (B. merletti) kéregképző alapon."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "Lower rockwork or sandbed, shaded to moderate light.",
+   "hu": "Alsó sziklázat vagy homokágy, árnyéktól mérsékelt fényig."
+  },
+  "aggression": {
+   "en": "Peaceful; short or no sweepers.",
+   "hu": "Békés; rövid vagy nincs csáp."
+  },
+  "feeding": {
+   "en": "Photosynthetic; target feed small meaty foods occasionally.",
+   "hu": "Fotoszintetizáló; alkalmanként célzott kis húsos etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia, Fiji.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia, Fidzsi."
+  },
+  "notes": {
+   "en": "Deep-red and green 'star polyp brain'; slow growing but undemanding. Very popular with beginners.",
+   "hu": "Mélyvörös és zöld 'csillagpolipú' korall; lassan nő, de igénytelen. Nagyon népszerű kezdők körében."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205647"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Blastomussa_merleti%2C_acuario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blastomussa_merleti,_acuario.jpg",
+   "author": "Aaron Gustafson",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "goniopora-spp",
+  "group": "coral",
+  "category": "lps-goniopora",
+  "scientific_name": "Goniopora spp.",
+  "name_en": "Goniopora (flower pot coral)",
+  "name_hu": "Goniopora (virágcserepes korall)",
+  "type": {
+   "en": "Hemispherical colonies of long-stemmed polyps.",
+   "hu": "Féltekőszerű telepek hosszú nyelű polipokkal."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed or mid-rock with indirect flow; polyps are delicate.",
+   "hu": "Homokágy vagy középső sziklázat közvetett áramlással; a polipok kényesek."
+  },
+  "aggression": {
+   "en": "Moderate sweepers; keep away from neighbours.",
+   "hu": "Mérsékelt csápok; tartsuk távol a szomszédoktól."
+  },
+  "feeding": {
+   "en": "Photosynthetic; benefits strongly from regular phytoplankton and fine particle feeding.",
+   "hu": "Fotoszintetizáló; jelentősen hasznos a rendszeres fitoplankton- és finomrészecske-etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia."
+  },
+  "notes": {
+   "en": "Once notorious for dying ('goni-necrosis'), modern feeding regimens make it far more successful. Keep pH, alkalinity and nutrients stable.",
+   "hu": "Régebben híres volt a pusztulásáról ('goni-nekrózis'), a modern etetési protokollok miatt ma már jóval sikeresebb. Tartsuk stabilan a pH-t, az alkalitást és a tápanyagot."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205476"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Coral_%28Goniopora%29_%28Close_up%29.png/1280px-Coral_%28Goniopora%29_%28Close_up%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Goniopora)_(Close_up).png",
+   "author": "Samuel Chow",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "alveopora-spp",
+  "group": "coral",
+  "category": "lps-goniopora",
+  "scientific_name": "Alveopora spp.",
+  "name_en": "Alveopora",
+  "name_hu": "Alveopora korall",
+  "type": {
+   "en": "Similar to Goniopora but with 12 tentacles per polyp (vs 24).",
+   "hu": "A Gonioporához hasonló, de poliponként 12 (24 helyett) csáppal."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Sandbed with gentle, indirect flow.",
+   "hu": "Homokágy gyenge, közvetett áramlással."
+  },
+  "aggression": {
+   "en": "Moderate sweepers.",
+   "hu": "Mérsékelt csápok."
+  },
+  "feeding": {
+   "en": "Photosynthetic; appreciates phytoplankton and fine foods.",
+   "hu": "Fotoszintetizáló; kedveli a fitoplanktont és a finom táplálékot."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Generally hardier than Goniopora; shares its care category. Green branching forms are the most common in the trade.",
+   "hu": "Általában ellenállóbb, mint a Goniopora; közös kategóriába tartozik. A zöld ágas formák a leggyakoribbak a kereskedelemben."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206945"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Alveopora-spongiosa.jpg/1280px-Alveopora-spongiosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alveopora-spongiosa.jpg",
+   "author": "Jesse Hofmann-Smith",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "fungia-spp",
+  "group": "coral",
+  "category": "lps-plate",
+  "scientific_name": "Fungia spp.",
+  "name_en": "Plate Coral / Mushroom Coral",
+  "name_hu": "Talpkorall (Fungia)",
+  "type": {
+   "en": "Solitary free-living disc.",
+   "hu": "Egyedülálló, szabadon fekvő korong."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "medium",
+  "placement": {
+   "en": "Directly on the sandbed; never glue to rocks.",
+   "hu": "Közvetlenül a homokágyon; soha ne ragasszuk kőre."
+  },
+  "aggression": {
+   "en": "Can move slightly and sting neighbours; can inflate to surprising size.",
+   "hu": "Kicsit mozogni tud és megcsípheti a szomszédokat; meglepő méretre fújhatja fel magát."
+  },
+  "feeding": {
+   "en": "Photosynthetic; takes meaty foods placed on the disc.",
+   "hu": "Fotoszintetizáló; a korongra tett húsos táplálékot elfogadja."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Easy and fun - can right itself if flipped and reproduce via 'anthocauli' buds. Inflates greatly; keep clear of rocks.",
+   "hu": "Könnyű és szórakoztató – ha felfordul, visszafordul, és 'anthocauli' rügyekkel szaporodik. Erősen felfújódik; tartsuk távol a kövektől."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206375"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/FMIB_50080_Fungia_echinata_%28Milne_Edwards%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:FMIB_50080_Fungia_echinata_(Milne_Edwards).jpeg",
+   "author": "Charles Bevalet",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "heliofungia-actiniformis",
+  "group": "coral",
+  "category": "lps-plate",
+  "scientific_name": "Heliofungia actiniformis",
+  "name_en": "Long Tentacle Plate Coral (LTO)",
+  "name_hu": "Hosszúcsápú talpkorall",
+  "type": {
+   "en": "Solitary disc with very long tentacles resembling an anemone.",
+   "hu": "Egyedülálló korong anemónára emlékeztető, nagyon hosszú csápokkal."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "On the sandbed with room for tentacles.",
+   "hu": "Homokágyon, a csápoknak helyet hagyva."
+  },
+  "aggression": {
+   "en": "Long stinging tentacles - keep other corals out of reach.",
+   "hu": "Hosszú csípőcsápok – más korallokat tartsunk távol."
+  },
+  "feeding": {
+   "en": "Photosynthetic; meaty target feeding to tentacles.",
+   "hu": "Fotoszintetizáló; célzott húsos etetés a csápokra."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia and Indonesia.",
+   "hu": "Indo-Csendes-óceán: Ausztrália és Indonézia."
+  },
+  "notes": {
+   "en": "Fishes sometimes host it as a fake anemone; handle carefully - tentacles are easily damaged. Often confused with anemones by beginners.",
+   "hu": "A halak néha 'ál-anémonként' használják; óvatosan kezeljük – a csápok könnyen sérülnek. Kezdők gyakran anémonnak nézik."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207362"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Camar%C3%B3n_%28Cuapetes_kororensis%29_en_un_coral_%28Heliofungia_actiniformis%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_138.jpg/1280px-Camar%C3%B3n_%28Cuapetes_kororensis%29_en_un_coral_%28Heliofungia_actiniformis%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_138.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camarón_(Cuapetes_kororensis)_en_un_coral_(Heliofungia_actiniformis),_Anilao,_Filipinas,_2023-08-24,_DD_138.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cycloseris-spp",
+  "group": "coral",
+  "category": "lps-plate",
+  "scientific_name": "Cycloseris spp.",
+  "name_en": "Dome Plate Coral",
+  "name_hu": "Dóm talpkorall",
+  "type": {
+   "en": "Small solitary disc with short tentacles.",
+   "hu": "Kis, egyedülálló korong rövid csápokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "medium",
+  "placement": {
+   "en": "Sandbed.",
+   "hu": "Homokágyon."
+  },
+  "aggression": {
+   "en": "Low; modest sweepers.",
+   "hu": "Alacsony; mérsékelt csápok."
+  },
+  "feeding": {
+   "en": "Photosynthetic; accepts small meaty foods.",
+   "hu": "Fotoszintetizáló; kis húsos táplálékot elfogad."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Very hardy small plate corals (formerly Fungia); great first LPS. Many colour morphs.",
+   "hu": "Nagyon ellenálló kis talpkorallok (korábban Fungia); kiváló első LPS. Sok színmorfja létezik."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=204552"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cycloseris_costulata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cycloseris_costulata.jpg",
+   "author": "Adriaan Gittenberger , Bert W. Hoeksema",
+   "license": "CC BY 3.0"
+  }
+ }
+]

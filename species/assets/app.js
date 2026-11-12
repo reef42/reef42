@@ -1,35 +1,34 @@
-// reef42 species database: overview → category list (#/fish, #/corals, #/inverts) → species card (#/fish/<id>).
+// reef42 species database: overview → category (#/fish) → type (#/fish/clownfish) → species card (#/fish/clownfish/<id>).
 (() => {
   'use strict';
 
-  const DATA_URL = '../databases/reef42_marine_life_db_v3.json';
-  // Freely licensed Wikimedia Commons photos, keyed by species id (species/tools/images.mjs). Optional: cards work without it.
-  const PHOTOS_URL = '../databases/reef42_species_images.json';
+  // Built from databases/data/ by species/tools/build.mjs.
+  const DATA_URL = '../databases/reef42_species.json';
+  const FD_URL = '../fishy-doctor/#/d/';
   const LANG_KEY = 'reef42-lang';
-  const CATS = ['fish', 'coral', 'invert'];
-  const SLUG = { fish: 'fish', coral: 'corals', invert: 'inverts' };
-  const BY_SLUG = { fish: 'fish', corals: 'coral', inverts: 'invert' };
-  // A text or source URL used by at least this many species is template filler, not species information: never shown.
-  const GENERIC_MIN = 5;
+  const CATS = ['fish', 'coral', 'invertebrate'];
+  const SLUG = { fish: 'fish', coral: 'corals', invertebrate: 'inverts' };
+  const BY_SLUG = { fish: 'fish', corals: 'coral', inverts: 'invertebrate' };
+  const ICON = { fish: 'fish', coral: 'coral', invertebrate: 'invert' };
+  const CARE_ORDER = ['easy', 'moderate', 'difficult', 'expert'];
+  const CARE_CLASS = { easy: 'easy', moderate: 'moderate', difficult: 'hard', expert: 'bad' };
+  const REEF_CLASS = { 'reef-safe': 'easy', 'with-caution': 'hard', 'not-reef-safe': 'bad' };
 
   const TEXT = {
     en: {
-      app: 'Species', home: 'Overview', fish: 'Fish', coral: 'Corals', invert: 'Inverts',
-      lead_home: 'Care cards for fish, corals and invertebrates that are realistically available in Europe: only what matters for keeping them.',
+      app: 'Species', home: 'Overview', fish: 'Fish', coral: 'Corals', invertebrate: 'Inverts',
+      lead_home: 'Care cards for saltwater fish, corals and invertebrates: only what matters for keeping them.',
       open: 'Browse {n} species →',
-      lead_fish: 'Care cards for saltwater fish that are realistically available in Europe: only what matters for keeping them.',
-      lead_coral: 'Care cards for corals that are realistically available in Europe: light, flow, placement and what to watch for.',
-      lead_invert: 'Care cards for shrimps, crabs, snails, sea stars and urchins that are realistically available in Europe.',
-      search: 'Search by name…', all: 'All', count: '{n} species', none: 'No species match the filters.', groupCount: '{n} types', other: 'Other',
-      photos: 'More photos', photo: 'Photo', formerly: 'formerly {n}', backs: 'Backs:',
-      back: '← {x}', notFound: 'Species not found.', loadError: 'Could not load the species data.',
-      huOnly: 'Notes are currently available in Hungarian only.',
-      size: 'Size', maxSize: 'up to {n} cm', minTank: 'Minimum tank', liters: '{n} L', origin: 'Origin', care: 'Care level',
-      reef: 'Reef compatibility', temper: 'Temperament', diet: 'Diet', lifespan: 'Lifespan', wild: 'wild: {n} years', tank: 'aquarium: {n} years',
-      type: 'Type', light: 'Light', flow: 'Flow', placement: 'Placement', growth: 'Growth', aggression: 'Aggression', spacing: 'Spacing', feeding: 'Feeding',
-      behavior: 'Behaviour', extra: 'Good to know', tips: 'Pro tip', sources: 'Sources',
-      notRec: 'Reef42: not recommended', notRecText: 'In our view this species does not do well long-term in most home aquariums.',
-      ethicScore: 'ethical index {n}/10', provisional: 'Provisional Reef42 assessment, under review.',
+      lead_fish: 'Care cards for saltwater fish: size, tank, behaviour and feeding.',
+      lead_coral: 'Care cards for corals and macroalgae: light, flow, placement and what to watch for.',
+      lead_invertebrate: 'Care cards for shrimps, crabs, snails, sea stars, urchins, clams, anemones and other invertebrates.',
+      search: 'Search by name…', all: 'All', count: '{n} species', none: 'No species match the filters.', groupCount: '{n} types',
+      photo: 'Photo', back: '← {x}', notFound: 'Species not found.', loadError: 'Could not load the species data.',
+      size: 'Size', upTo: 'up to {n}', from: 'from {n}', tankSize: 'Tank size', tankMin: 'min. {n} L', tankIdeal: 'ideal {n} L', minTank: 'Minimum tank', liters: '{n} L',
+      lifespan: 'Lifespan', wild: 'wild: {n} years', aquarium: 'aquarium: {n} years', care: 'Care level', reef: 'Reef compatibility', utility: 'Role in the tank',
+      type: 'Growth form', light: 'Light', flow: 'Flow', growth: 'Growth', placement: 'Placement', aggression: 'Aggression', feeding: 'Feeding',
+      behavior: 'Behaviour', origin: 'Origin', notes: 'Good to know', diseases: 'Diseases and pests to watch for',
+      fdHint: 'Linked items open in Fishy Doctor.', sources: 'Sources',
       draft: 'Draft data, under review – always check before buying.', feedback: 'corrections and ideas:',
       noticeTitle: 'Under review',
       noticeText: 'The species database is currently being reviewed. Care cards may contain inaccuracies or missing and outdated data, and the content keeps changing as we check it.',
@@ -37,22 +36,19 @@
       noticeMail: 'Spotted a mistake? Write to us:', noticeOk: 'Got it'
     },
     hu: {
-      app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invert: 'Gerinctelenek',
-      lead_home: 'Adatlapok az Európában reálisan beszerezhető halakról, korallokról és gerinctelenekről: csak az, ami a tartáshoz tényleg számít.',
+      app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invertebrate: 'Gerinctelenek',
+      lead_home: 'Adatlapok tengeri halakról, korallokról és gerinctelenekről: csak az, ami a tartáshoz tényleg számít.',
       open: '{n} faj megtekintése →',
-      lead_fish: 'Adatlapok az Európában reálisan beszerezhető tengeri halakról: csak az, ami a tartáshoz tényleg számít.',
-      lead_coral: 'Adatlapok az Európában reálisan beszerezhető korallokról: fény, áramlás, elhelyezés és amire figyelni kell.',
-      lead_invert: 'Adatlapok az Európában reálisan beszerezhető garnélákról, rákokról, csigákról, tengeri csillagokról és sünökről.',
-      search: 'Keresés név alapján…', all: 'Mind', count: '{n} faj', none: 'Nincs a szűrésnek megfelelő faj.', groupCount: '{n} típus', other: 'Egyéb',
-      photos: 'További fotók', photo: 'Fotó', formerly: 'korábban: {n}', backs: 'Ezekhez:',
-      back: '← {x}', notFound: 'Nincs ilyen faj.', loadError: 'Nem sikerült betölteni a fajadatokat.',
-      huOnly: '',
-      size: 'Méret', maxSize: 'legfeljebb {n} cm', minTank: 'Legkisebb akvárium', liters: '{n} L', origin: 'Származás', care: 'Tartási nehézség',
-      reef: 'Korallos akváriumba', temper: 'Természet', diet: 'Táplálkozás', lifespan: 'Élettartam', wild: 'vadon: {n} év', tank: 'akváriumban: {n} év',
-      type: 'Típus', light: 'Fényigény', flow: 'Áramlás', placement: 'Elhelyezés', growth: 'Növekedés', aggression: 'Csalánzás, agresszió', spacing: 'Hely a szomszédoktól', feeding: 'Etetés',
-      behavior: 'Viselkedés', extra: 'Fontos tudnivalók', tips: 'Pro tipp', sources: 'Források',
-      notRec: 'Reef42: nem ajánlott', notRecText: 'Szerintünk ez a faj a legtöbb otthoni akváriumban hosszú távon nem tartható jól.',
-      ethicScore: 'etikai index: {n}/10', provisional: 'Előzetes Reef42-értékelés, átnézés alatt.',
+      lead_fish: 'Adatlapok tengeri halakról: méret, akvárium, viselkedés és táplálkozás.',
+      lead_coral: 'Adatlapok korallokról és makroalgákról: fény, áramlás, elhelyezés és amire figyelni kell.',
+      lead_invertebrate: 'Adatlapok garnélákról, rákokról, csigákról, tengeri csillagokról, sünökről, kagylókról, anemónákról és más gerinctelenekről.',
+      search: 'Keresés név alapján…', all: 'Mind', count: '{n} faj', none: 'Nincs a szűrésnek megfelelő faj.', groupCount: '{n} típus',
+      photo: 'Fotó', back: '← {x}', notFound: 'Nincs ilyen faj.', loadError: 'Nem sikerült betölteni a fajadatokat.',
+      size: 'Méret', upTo: 'legfeljebb {n}', from: 'legalább {n}', tankSize: 'Akváriumméret', tankMin: 'min. {n} l', tankIdeal: 'ideális: {n} l', minTank: 'Legkisebb akvárium', liters: '{n} l',
+      lifespan: 'Élettartam', wild: 'vadon: {n} év', aquarium: 'akváriumban: {n} év', care: 'Tartási nehézség', reef: 'Korallos akváriumba', utility: 'Szerepe az akváriumban',
+      type: 'Növekedési forma', light: 'Fényigény', flow: 'Áramlás', growth: 'Növekedés', placement: 'Elhelyezés', aggression: 'Csalánzás, agresszió', feeding: 'Táplálkozás',
+      behavior: 'Viselkedés', origin: 'Származás', notes: 'Fontos tudnivalók', diseases: 'Betegségek, kártevők, amikre figyelni kell',
+      fdHint: 'A linkelt tételek a Fishy Doctorban nyílnak meg.', sources: 'Források',
       draft: 'Tervezet: az adatok átnézés alatt állnak, vásárlás előtt mindig ellenőrizd.', feedback: 'javítás, ötlet:',
       noticeTitle: 'Átnézés alatt',
       noticeText: 'A fajadatbázis jelenleg átnézés alatt áll. Az adatlapokon előfordulhatnak pontatlanságok, hiányzó vagy elavult adatok, és a tartalom az ellenőrzés során folyamatosan változik.',
@@ -61,129 +57,18 @@
     }
   };
 
-  // Enum labels: [en, hu]. Unknown values are not shown (the validator reports them).
-  const ENUM = {
-    care_level: {
-      easy: ['Easy', 'Könnyű'], easy_moderate: ['Easy to moderate', 'Könnyű–közepes'], moderate: ['Moderate', 'Közepes'],
-      moderate_difficult: ['Moderate to difficult', 'Közepes–nehéz'], difficult: ['Difficult', 'Nehéz'], expert: ['Experts only', 'Csak tapasztaltaknak']
-    },
-    reef: { reef_safe: ['Reef safe', 'Korallbarát'], reef_safe_with_caution: ['Reef safe with caution', 'Korallok mellé óvatosan'], conditional: ['Reef safe with conditions', 'Korallok mellé feltételekkel'] },
-    temperament: {
-      peaceful: ['Peaceful', 'Békés'], peaceful_pair: ['Peaceful, can be kept in pairs', 'Békés, párban is tartható'], shoaling: ['Shoaling', 'Csapatban élő'],
-      peaceful_territorial: ['Peaceful but territorial', 'Békés, de területvédő'], semi_territorial: ['Somewhat territorial', 'Kissé területvédő'],
-      territorial: ['Territorial', 'Területvédő'], semi_aggressive: ['Semi-aggressive', 'Félagresszív'],
-      mostly_peaceful: ['Mostly peaceful', 'Többnyire békés'], peaceful_shy: ['Peaceful, shy', 'Békés, félénk'],
-      peaceful_with_food_competition: ['Peaceful, but competes for food', 'Békés, de versenyez az élelemért'],
-      peaceful_to_semi_aggressive: ['Peaceful to semi-aggressive', 'Békés–félagresszív'], aggressive: ['Aggressive', 'Agresszív'],
-      aggressive_territorial: ['Aggressive, territorial', 'Agresszív, területvédő']
-    },
-    diet: {
-      omnivore: ['Omnivore', 'Mindenevő'], carnivore: ['Carnivore', 'Húsevő'], herbivore: ['Herbivore', 'Növényevő'],
-      herbivore_omnivore: ['Mostly herbivore', 'Főleg növényevő'], omnivore_planktivore: ['Omnivore, plankton eater', 'Mindenevő, planktonevő'],
-      detritivore_herbivore: ['Grazes algae and detritus', 'Algát és detrituszt legel'], specialized_microfauna: ['Specialist: tiny crustaceans (pods)', 'Specialista: apró rákocskák (podok)'],
-      omnivore_scavenger: ['Omnivore, scavenger', 'Mindenevő, dögevő'], carnivore_scavenger: ['Carnivore, scavenger', 'Húsevő, dögevő'],
-      scavenger_carnivore: ['Scavenger, carnivore', 'Dögevő, húsevő'], herbivore_grazer: ['Algae grazer', 'Algalegelő'],
-      specialized_biofilm_feeder: ['Specialist: biofilm and detritus', 'Specialista: biofilm és detritusz'],
-      planktivore: ['Plankton eater', 'Planktonevő'], carnivore_planktivore: ['Carnivore, plankton eater', 'Húsevő, planktonevő'],
-      herbivore_microfauna: ['Algae and tiny animals', 'Alga és apró élőlények'], herbivore_macroalgae: ['Macroalgae eater', 'Makroalgát eszik'],
-      herbivore_detritivore: ['Herbivore, detritus eater', 'Növényevő, detrituszevő'], detritivore_scavenger: ['Detritus eater, scavenger', 'Detrituszevő, dögevő'],
-      sand_microfauna_detritus: ['Sifts sand for tiny animals and detritus', 'A homokból szűri ki az apró élőlényeket és a detrituszt'],
-      filter_feeder: ['Filter feeder', 'Szűrögető'], suspension_feeder_phytoplankton_zooplankton: ['Filter feeder: phyto- and zooplankton', 'Szűrögető: fito- és zooplankton'],
-      photosynthetic_predator: ['Photosynthetic, also catches prey', 'Fényből él, zsákmányt is fog'],
-      photosynthetic_filter_feeder: ['Photosynthetic, also filter-feeds', 'Fényből él, szűrögetéssel is táplálkozik'],
-      obligate_starfish_predator: ['Specialist: eats only sea stars', 'Specialista: csak tengeri csillagot eszik']
-    },
-    coral_type: {
-      SPS: ['SPS', 'SPS'], LPS: ['LPS', 'LPS'], soft: ['Soft coral', 'Lágykorall'], zoanthid: ['Zoanthid', 'Zoanthus'],
-      corallimorph: ['Corallimorph', 'Korallimorf'], NPS: ['NPS (non-photosynthetic)', 'NPS (nem fotoszintetizáló)']
-    },
-    level: { low: ['Low', 'Alacsony'], low_moderate: ['Low to moderate', 'Alacsony–közepes'], moderate: ['Moderate', 'Közepes'], moderate_high: ['Moderate to high', 'Közepes–erős'], high: ['High', 'Erős'] },
-    flow: {
-      low: ['Low', 'Gyenge'], low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_strong: ['Moderate to strong', 'Közepes–erős'],
-      moderate_high: ['Moderate to strong', 'Közepes–erős'], moderate_indirect: ['Moderate, indirect', 'Közepes, nem közvetlen'], strong: ['Strong', 'Erős']
-    },
-    placement: {
-      upper: ['Upper', 'Felső szint'], middle_upper: ['Middle to upper', 'Középső–felső szint'], middle: ['Middle', 'Középső szint'],
-      middle_lower: ['Lower to middle', 'Alsó–középső szint'], lower_middle: ['Lower to middle', 'Alsó–középső szint'], lower_shaded: ['Lower, shaded', 'Alsó, árnyékos rész'],
-      bottom_middle: ['Bottom to middle', 'Aljzat–középső szint'], bottom: ['Bottom (sand)', 'Aljzat (homok)'], substrate: ['On the substrate', 'Az aljzaton']
-    },
-    growth: {
-      very_slow: ['Very slow', 'Nagyon lassú'], slow: ['Slow', 'Lassú'], slow_moderate: ['Slow to moderate', 'Lassú–közepes'], moderate: ['Moderate', 'Közepes'],
-      moderate_fast: ['Moderate to fast', 'Közepes–gyors'], fast: ['Fast', 'Gyors']
-    },
-    aggression: {
-      low: ['Low', 'Gyenge'], low_moderate: ['Low to moderate', 'Gyenge–közepes'], moderate: ['Moderate', 'Közepes'], moderate_high: ['Moderate to high', 'Közepes–erős'],
-      high: ['High (sweeper tentacles)', 'Erős, csalánzó tapogatókkal'],
-      very_high: ['Very high (long sweepers)', 'Nagyon erős, hosszú csalánzó tapogatókkal'], chemical: ['Chemical (terpenes)', 'Vegyi anyagokkal (terpének)']
-    },
-    feeding: {
-      photosynthetic: ['Photosynthetic', 'Fényből él'],
-      photosynthetic_with_optional_target_feeding: ['Photosynthetic, optional target feeding', 'Fényből él, célzottan etethető'],
-      non_photosynthetic_target_feeding: ['Not photosynthetic, needs target feeding', 'Nem fotoszintetizál, célzott etetést igényel']
-    }
-  };
-  // What a source backs up (sources[].supports), shown under each link so the cross-checks are visible.
-  const SUPPORTS = {
-    taxonomy: ['taxonomy', 'rendszertan'], accepted_name: ['accepted name', 'érvényes név'], identification: ['identification', 'azonosítás'],
-    distribution: ['distribution', 'elterjedés'], habitat: ['habitat', 'élőhely'], ecology: ['ecology', 'ökológia'], biology: ['biology', 'biológia'],
-    conservation: ['conservation', 'természetvédelem'], maximum_size: ['maximum size', 'maximális méret'], minimum_tank_size: ['minimum tank', 'akváriumméret'],
-    care_level: ['care level', 'tartási nehézség'], care: ['care', 'tartás'], temperament: ['temperament', 'természet'], behavior: ['behaviour', 'viselkedés'],
-    compatibility: ['compatibility', 'társíthatóság'], reef_compatibility: ['reef compatibility', 'korallos akvárium'], diet: ['diet', 'táplálkozás'],
-    feeding: ['feeding', 'etetés'], lighting: ['light', 'fény'], flow: ['flow', 'áramlás'], placement: ['placement', 'elhelyezés'],
-    aggression: ['aggression', 'csalánzás, agresszió'], photos_and_credits: ['photos', 'fotók'], images_and_credits: ['photos', 'fotók'],
-    image_credits: ['photos', 'fotók'], synonyms: ['synonyms', 'szinonimák'], hungarian_common_name: ['Hungarian name', 'magyar név'],
-    hobby_availability: ['availability', 'beszerezhetőség'], growth_or_aggression: ['growth, aggression', 'növekedés, csalánzás'],
-    husbandry: ['husbandry', 'tartás'], tank_setup: ['tank setup', 'berendezés'], substrate: ['substrate', 'aljzat'],
-    water_stability: ['water stability', 'vízstabilitás'], sensitivity: ['sensitivity', 'érzékenység'], risks: ['risks', 'kockázatok'],
-    pump_safety: ['pump safety', 'szivattyúk veszélye'], propagation: ['propagation', 'szaporítás'], aquaculture: ['aquaculture', 'tenyésztés'],
-    morphs: ['colour morphs', 'színváltozatok'], dietary_specialization: ['diet specialisation', 'táplálékspecializáció'],
-    cleanup_role: ['clean-up role', 'takarító szerep'], shell_requirements: ['shells', 'csigaházak'], shells: ['shells', 'csigaházak'],
-    symbiosis: ['symbiosis', 'együttélés'], goby_symbiosis: ['goby symbiosis', 'együttélés gébbel'], host_association: ['host animal', 'gazdaállat'],
-    anemone_biology: ['anemone biology', 'anemóna-biológia'], compatible_genera: ['compatible genera', 'társítható nemzetségek'], predators: ['predators', 'ragadozók']
-  };
-  const SITE = {
-    'reefapp.net': 'ReefApp', 'tidalgardens.com': 'Tidal Gardens', 'coralsoftheworld.org': 'Corals of the World',
-    'commons.wikimedia.org': 'Wikimedia Commons', 'surg.org.au': 'SURG', 'fishbase.se': 'FishBase', 'sealifebase.se': 'SeaLifeBase',
-    'sealifebase.org': 'SeaLifeBase', 'sealifebase.ca': 'SeaLifeBase', 'marinespecies.org': 'WoRMS'
-  };
-  const REGION = {
-    'Indo-Pacific': 'Indo-csendes-óceáni térség', 'Tropical Indo-Pacific and Atlantic': 'Trópusi Indo-csendes-óceáni térség és Atlanti-óceán',
-    'Indo-West Pacific': 'Indiai-óceán és Nyugat-Csendes-óceán', 'Western Pacific': 'Nyugat-Csendes-óceán', 'Central Pacific': 'Közép-Csendes-óceán',
-    'Central Pacific, especially Hawaii': 'Közép-Csendes-óceán, főleg Hawaii', 'Indonesia and nearby Indo-Pacific': 'Indonézia és környéke',
-    'Caribbean': 'Karib-tenger', 'Western Atlantic': 'Nyugat-Atlanti-óceán', 'Western Atlantic / Caribbean': 'Nyugat-Atlanti-óceán, Karib-tenger',
-    'Banggai-szigetek, Indonézia': 'Banggai-szigetek, Indonézia', 'Indo-Pacific és Vörös-tenger': 'Indo-csendes-óceáni térség és Vörös-tenger', 'Eastern Pacific': 'Kelet-Csendes-óceán',
-    'Central and western Pacific': 'Közép- és Nyugat-Csendes-óceán', 'Central and Western Pacific': 'Közép- és Nyugat-Csendes-óceán',
-    'Caribbean / Western Atlantic': 'Karib-tenger, Nyugat-Atlanti-óceán', 'Caribbean and Indo-Pacific': 'Karib-tenger és Indo-csendes-óceáni térség',
-    'Indo-Pacific and Red Sea': 'Indo-csendes-óceáni térség és Vörös-tenger', 'Indo-Pacific and tropical Atlantic': 'Indo-csendes-óceáni térség és trópusi Atlanti-óceán',
-    'Indo-Pacific, from the Red Sea to the central Pacific': 'Indo-csendes-óceáni térség, a Vörös-tengertől a Csendes-óceán közepéig',
-    'Indo-Pacific, Red Sea to central Pacific': 'Indo-csendes-óceáni térség, a Vörös-tengertől a Csendes-óceán közepéig',
-    'Western Pacific, including Indonesia and the Philippines': 'Nyugat-Csendes-óceán, többek között Indonézia és a Fülöp-szigetek',
-    'Western Pacific, from Indonesia to Fiji and the Great Barrier Reef': 'Nyugat-Csendes-óceán, Indonéziától Fidzsiig és a Nagy-korallzátonyig',
-    'Western Pacific, including Indonesia, Australia and nearby islands': 'Nyugat-Csendes-óceán, többek között Indonézia, Ausztrália és a környező szigetek',
-    'Western Pacific, including Japan, Australia and Pacific islands': 'Nyugat-Csendes-óceán, többek között Japán, Ausztrália és a csendes-óceáni szigetek',
-    'Western Pacific, from Indonesia to Vanuatu': 'Nyugat-Csendes-óceán, Indonéziától Vanuatuig'
-  };
-  const REGION_EN = {
-    'Banggai-szigetek, Indonézia': 'Banggai Islands, Indonesia', 'Vörös-tenger': 'Red Sea', 'Indo-Pacific és Vörös-tenger': 'Indo-Pacific and Red Sea',
-    'Vörös-tenger és az Indiai-óceán nyugati része': 'Red Sea and western Indian Ocean'
-  };
-  const CARE_CLASS = { easy: 'easy', easy_moderate: 'easy', moderate: 'moderate', moderate_difficult: 'hard', difficult: 'hard', expert: 'bad' };
-  const CARE_ORDER = ['easy', 'easy_moderate', 'moderate', 'moderate_difficult', 'difficult', 'expert'];
-
   const app = document.getElementById('app');
   const ls = (get, k, v) => { try { if (get) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } return null; };
   let lang = new URLSearchParams(location.search).get('lang') || ls(true, LANG_KEY) ||
     ((navigator.language || '').toLowerCase().startsWith('hu') ? 'hu' : 'en');
   if (lang !== 'hu') lang = 'en';
 
-  // Set from the route: the open category, its species and its own filter state.
-  let CAT = null;
+  let DB = { categories: {}, enums: {}, species: [], diseases: {} };
   let all = [];
+  // Set from the route: the open category, its species, the open type path ([main] or [main, type]) and the category's own filter state.
+  let CAT = null;
   let species = [];
-  let generic = new Set();
-  let GROUPS = {}; // category -> [{ id, en, hu }] in database order
-  let PHOTOS = {}; // species id -> Commons photo with author and licence
-  let SUBG = null; // open subgroup (type), from the route
+  let PATH = [];
   const FILTERS = {};
   CATS.forEach((c) => { FILTERS[c] = { q: '', care: '' }; });
   let filt = FILTERS.fish;
@@ -196,66 +81,35 @@
     return s;
   };
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const lab = (group, v) => (ENUM[group] && ENUM[group][v] ? ENUM[group][v][lang === 'hu' ? 1 : 0] : null);
+  const tr = (o) => (o && typeof o === 'object' ? o[lang] || o.en || o.hu || '' : o || '');
+  const lab = (k, v) => (DB.enums[k] && DB.enums[k][v] ? tr(DB.enums[k][v]) : '');
   const num = (n) => (lang === 'hu' ? String(n).replace('.', ',') : String(n));
   const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  const region = (r) => (lang === 'hu' ? REGION[r] || r : REGION_EN[r] || r);
-  const title = (s) => (lang === 'hu' && s.hu_name ? s.hu_name : s.common_name || s.scientific_name);
-  const real = (arr) => (arr || []).filter((x) => x && !generic.has(x));
-  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
-  // Same page written differently (www, letter case, "-" or "_", trailing slash) counts as one source. Site homepages give null.
-  const urlKey = (u) => {
-    try {
-      const x = new URL(u);
-      const path = x.pathname.replace(/\/+$/, '');
-      if (!path && !x.search) return null;
-      return (host(u) + path + x.search).toLowerCase().replace(/_/g, '-');
-    } catch (e) { return null; }
-  };
-  const groupName = (g) => (g ? (lang === 'hu' ? g.hu : g.en) || g.en || g.hu : '');
-  const groupOf = (s) => (GROUPS[s.category] || []).find((g) => g.id === (s.subgroup && s.subgroup.id));
-
-  // Texts and source URLs that repeat across many species carry no species information.
-  function findGeneric(list) {
-    const n = new Map();
-    const add = (x) => { if (x) n.set(x, (n.get(x) || 0) + 1); };
-    list.forEach((s) => {
-      [...(s.extra_notes || []), ...(s.pro_tips || []), ...((s.behavior && s.behavior.notes) || []), ...((s.ethical_index && s.ethical_index.reasons) || [])].forEach(add);
-      if (s.feeding) add(s.feeding.notes);
-      new Set((s.sources || []).map((x) => urlKey(x.url)).filter(Boolean)).forEach(add);
-    });
-    return new Set([...n].filter(([, c]) => c >= GENERIC_MIN).map(([k]) => k));
+  const title = (s) => (lang === 'hu' && s.name_hu ? s.name_hu : s.name_en || s.scientific_name);
+  // Types form a tree: a main category (SPS, LPS…) either holds species directly or has child types (LPS → brain corals…).
+  function nodeAt(c, path) {
+    let n = { children: DB.categories[c] || {} };
+    for (const p of path) { n = n.children && n.children[p]; if (!n) return null; }
+    return n;
   }
-  // One entry per page; when a page is listed twice, the things it backs up are merged.
-  function sourcesOf(s) {
-    const byKey = new Map();
-    (s.sources || []).forEach((x) => {
-      const k = urlKey(x.url);
-      if (!k || generic.has(k)) return;
-      const prev = byKey.get(k);
-      if (prev) (x.supports || []).forEach((v) => { if (!prev.supports.includes(v)) prev.supports.push(v); });
-      else byKey.set(k, { name: SITE[host(x.url)] || x.name, url: x.url, supports: [...(x.supports || [])] });
-    });
-    return [...byKey.values()];
+  function pathOf(c, id) {
+    const top = DB.categories[c] || {};
+    if (top[id] && !top[id].children) return [id];
+    const k = Object.keys(top).find((x) => top[x].children && top[x].children[id]);
+    return k ? [k, id] : [];
   }
-  function groupsFrom(db) {
-    const out = {};
-    CATS.forEach((c) => {
-      const named = (db.subgroups && db.subgroups[c]) || {};
-      const list = Object.keys(named).map((id) => ({ id, en: named[id].name_en, hu: named[id].name_hu }));
-      // Subgroups used by a species but missing from the top-level list still get a heading.
-      (db.species || []).forEach((s) => {
-        const g = s.category === c && s.subgroup;
-        if (g && g.id && !list.some((x) => x.id === g.id)) list.push({ id: g.id, en: g.name_en, hu: g.name_hu });
-      });
-      out[c] = list;
-    });
-    return out;
-  }
-  // Ethical index: only "not recommended" is shown while scores are provisional; reviewed scores are shown in full.
-  function ethicShown(s) {
-    const e = s.ethical_index;
-    return !!e && (e.status === 'reviewed' || e.recommendation === 'not_recommended');
+  const inPath = (path) => (s) => pathOf(s.group, s.category).slice(0, path.length).join('/') === path.join('/');
+  const catName = (c, path) => tr(nodeAt(c, path)) || path[path.length - 1];
+  const pathHref = (c, path) => '#/' + SLUG[c] + path.map((p) => '/' + encodeURIComponent(p)).join('');
+  // {min, max} → "7–11", "7", "up to 11"
+  function range(r) {
+    if (!r) return '';
+    const a = typeof r.min === 'number' ? r.min : null;
+    const b = typeof r.max === 'number' ? r.max : null;
+    if (a != null && b != null) return a === b ? num(a) : num(a) + '–' + num(b);
+    if (b != null) return t('upTo', { n: num(b) });
+    if (a != null) return t('from', { n: num(a) });
+    return '';
   }
 
   /* ---------- chrome ---------- */
@@ -292,31 +146,59 @@
     reviewDlg.showModal();
   }
 
-  /* ---------- lists: category → subgroups (types) → species ---------- */
-  const subOf = (s) => (groupOf(s) ? groupOf(s).id : '');
-  const speciesHref = (s) => '#/' + SLUG[s.category] + '/' + (subOf(s) ? encodeURIComponent(subOf(s)) + '/' : '') + encodeURIComponent(s.id);
-  const bySpecies = (a, b) => CARE_ORDER.indexOf(a.care_level) - CARE_ORDER.indexOf(b.care_level) || title(a).localeCompare(title(b), lang);
-  const matchesQuery = (s) => { const q = norm(filt.q.trim()); return !q || norm([s.hu_name, s.common_name, s.scientific_name].join(' ')).includes(q); };
-  const matchesCare = (s) => !filt.care || s.care_level === filt.care;
+  /* ---------- photos (Wikimedia Commons, shown with author and licence) ---------- */
+  function photoImg(s, big, lazy, alt) {
+    const p = s.image;
+    if (!p) return '';
+    const src = (big ? p.thumb_960 : p.thumb_500) || p.url;
+    const srcset = p.thumb_500 && p.thumb_960 ? ' srcset="' + esc(p.thumb_500) + ' 500w, ' + esc(p.thumb_960) + ' 960w" sizes="' +
+      (big ? '(max-width: 900px) 100vw, 860px' : '(max-width: 600px) 100vw, 360px') + '"' : '';
+    return '<img src="' + esc(src) + '"' + srcset + ' data-full="' + esc(p.url) + '" alt="' + esc(alt !== undefined ? alt : title(s) + ' (' + s.scientific_name + ')') + '"' +
+      (lazy ? ' loading="lazy"' : '') + ' decoding="async">';
+  }
+  // Attribution required by CC BY / BY-SA: author, licence (linked) and a link to the file page.
+  function photoFigure(s) {
+    const p = s.image;
+    if (!p) return '';
+    const lic = p.license ? (p.license_url ? '<a href="' + esc(p.license_url) + '" target="_blank" rel="noopener license">' + esc(p.license) + '</a>' : esc(p.license)) : '';
+    return '<figure class="photo">' + photoImg(s, true, false) + '<figcaption>' + esc(t('photo')) + ': ' +
+      [p.author ? esc(p.author) : '', lic, '<a href="' + esc(p.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>'].filter(Boolean).join(' · ') +
+      '</figcaption></figure>';
+  }
+  // A width Wikimedia does not serve falls back to the original file.
+  document.addEventListener('error', (e) => {
+    const img = e.target;
+    if (!img || img.tagName !== 'IMG' || !img.dataset.full) return;
+    const full = img.dataset.full;
+    delete img.dataset.full;
+    img.removeAttribute('srcset');
+    img.src = full;
+  }, true);
+
+  /* ---------- lists: category → types → species ---------- */
+  const speciesHref = (s) => pathHref(s.group, pathOf(s.group, s.category)) + '/' + encodeURIComponent(s.id);
+  const bySpecies = (a, b) => CARE_ORDER.indexOf(a.difficulty) - CARE_ORDER.indexOf(b.difficulty) || title(a).localeCompare(title(b), lang);
+  const matchesQuery = (s) => { const q = norm(filt.q.trim()); return !q || norm([s.name_hu, s.name_en, s.scientific_name].join(' ')).includes(q); };
+  const matchesCare = (s) => !filt.care || s.difficulty === filt.care;
   function miniFacts(s) {
     const f = [];
-    if (CAT === 'coral') {
-      if (lab('level', s.lighting && s.lighting.level)) f.push([t('light'), lab('level', s.lighting.level)]);
-      if (lab('flow', s.flow && s.flow.level)) f.push([t('flow'), lab('flow', s.flow.level)]);
+    if (s.group === 'coral') {
+      if (lab('light', s.light)) f.push([t('light'), lab('light', s.light)]);
+      if (lab('flow', s.flow)) f.push([t('flow'), lab('flow', s.flow)]);
     } else {
-      if (s.size_cm && s.size_cm.maximum) f.push([t('size'), t('maxSize', { n: num(s.size_cm.maximum) })]);
-      if (s.minimum_tank_size_l) f.push([t('minTank'), t('liters', { n: s.minimum_tank_size_l })]);
+      if (range(s.size_cm)) f.push([t('size'), range(s.size_cm) + ' cm']);
+      if (s.tank_min_l) f.push([t('minTank'), t('liters', { n: s.tank_min_l })]);
     }
     return f.map(([k, v]) => '<span>' + esc(k) + ': <b>' + esc(v) + '</b></span>').join('');
   }
   function tags(s, withGroup) {
     const out = [];
-    if (withGroup && groupOf(s)) out.push('<span class="tag group">' + esc(groupName(groupOf(s))) + '</span>');
-    else if (CAT === 'coral' && lab('coral_type', s.coral_type)) out.push('<span class="tag">' + esc(lab('coral_type', s.coral_type)) + '</span>');
-    if (lab('care_level', s.care_level)) out.push('<span class="tag ' + (CARE_CLASS[s.care_level] || '') + '">' + esc(lab('care_level', s.care_level)) + '</span>');
-    const reef = s.aquarium_requirements && lab('reef', s.aquarium_requirements.reef_compatibility);
-    if (reef) out.push('<span class="tag">' + esc(reef) + '</span>');
-    if (ethicShown(s) && s.ethical_index.recommendation === 'not_recommended') out.push('<span class="tag bad">' + esc(t('notRec').replace(/^Reef42: /, '')) + '</span>');
+    if (withGroup) {
+      const path = pathOf(s.group, s.category);
+      path.forEach((p, i) => out.push('<span class="tag group">' + esc(catName(s.group, path.slice(0, i + 1))) + '</span>'));
+    }
+    if (lab('difficulty', s.difficulty)) out.push('<span class="tag ' + (CARE_CLASS[s.difficulty] || '') + '">' + esc(lab('difficulty', s.difficulty)) + '</span>');
+    if (lab('reef_safety', s.reef_safety)) out.push('<span class="tag ' + (REEF_CLASS[s.reef_safety] || '') + '">' + esc(lab('reef_safety', s.reef_safety)) + '</span>');
     return '<div class="tags">' + out.join('') + '</div>';
   }
   function chipRow(key, values, labelOf) {
@@ -324,13 +206,19 @@
       '<button type="button" class="chip" data-f="' + key + '" data-v="' + esc(v) + '" aria-pressed="' + (filt[key] === v) + '">' +
       esc(v ? labelOf(v) : t('all')) + '</button>').join('') + '</div>';
   }
-  const notice = () => (t('huOnly') ? '<p class="notice">' + esc(t('huOnly')) + '</p>' : '');
   const backLink = (href, label) => '<a class="back" href="' + href + '">' + esc(t('back', { x: label })) + '</a>';
+  function tile(s, withGroup) {
+    const img = photoImg(s, false, true);
+    const sub = (lang === 'hu' && s.name_hu && s.name_en ? esc(s.name_en) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span>';
+    return '<li><a class="tile' + (img ? ' has-photo' : '') + '" href="' + speciesHref(s) + '">' +
+      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + '</h2>' +
+      '<p class="sub">' + sub + '</p>' + tags(s, withGroup) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
+  }
 
-  // Category page: one tile per subgroup with a photo of its first species (database order); searching lists species directly.
+  // Category page: one tile per type (taxonomy order) with a photo of its first species; searching lists species directly.
   function renderCategory() {
     document.title = t(CAT) + ' – reef42';
-    app.innerHTML = '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' + notice() +
+    app.innerHTML = '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' +
       '<div class="filters"><input class="search" id="q" type="search" autocomplete="off" placeholder="' + esc(t('search')) + '" aria-label="' + esc(t('search')) + '" value="' + esc(filt.q) + '"></div>' +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     renderCategoryItems();
@@ -344,137 +232,92 @@
       list.innerHTML = items.length ? '<ul class="grid">' + items.map((s) => tile(s, true)).join('') + '</ul>' : '<p class="empty">' + esc(t('none')) + '</p>';
       return;
     }
-    const groups = (GROUPS[CAT] || []).map((g) => ({ g, xs: species.filter((s) => groupOf(s) === g) })).filter((x) => x.xs.length);
-    const loose = species.filter((s) => !groupOf(s)).sort(bySpecies);
-    count.textContent = t('groupCount', { n: groups.length }) + ' · ' + t('count', { n: species.length });
-    list.innerHTML = '<ul class="grid">' + groups.map(groupTile).join('') + '</ul>' +
-      (loose.length ? '<section class="group"><h2>' + esc(t('other')) + '</h2><ul class="grid">' + loose.map((s) => tile(s)).join('') + '</ul></section>' : '');
+    groupGrid([], count, list);
   }
-  function groupTile({ g, xs }) {
-    const rep = xs.find((s) => PHOTOS[s.id]);
-    const img = rep ? photoImg(rep, '(max-width: 600px) 100vw, 360px', true, '') : '';
-    return '<li><a class="tile group-tile' + (img ? ' has-photo' : '') + '" href="#/' + SLUG[CAT] + '/' + encodeURIComponent(g.id) + '">' +
-      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(groupName(g)) + '</h2>' +
-      '<p class="sub">' + esc(xs.slice().sort(bySpecies).map(title).join(' · ')) + '</p>' +
+  // Tiles for the child types of a path ([] = the category's main types), each with a photo of its first species.
+  function groupGrid(path, count, list) {
+    const node = nodeAt(CAT, path);
+    const xs = species.filter(inPath(path));
+    const groups = Object.keys((node && node.children) || {}).map((id) => path.concat(id)).map((p) => ({ path: p, xs: xs.filter(inPath(p)) })).filter((g) => g.xs.length);
+    count.textContent = t('groupCount', { n: groups.length }) + ' · ' + t('count', { n: xs.length });
+    list.innerHTML = '<ul class="grid">' + groups.map(groupTile).join('') + '</ul>';
+  }
+  function groupTile({ path, xs }) {
+    const rep = xs.find((s) => s.image);
+    const img = rep ? photoImg(rep, false, true, '') : '';
+    return '<li><a class="tile group-tile' + (img ? ' has-photo' : '') + '" href="' + pathHref(CAT, path) + '">' +
+      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(catName(CAT, path)) + '</h2>' +
       '<span class="go">' + esc(t('open', { n: xs.length })) + '</span></a></li>';
   }
-  // Subgroup page: the species of one type, easiest first.
+  const upLink = (path) => (path.length > 1 ? backLink(pathHref(CAT, path.slice(0, -1)), catName(CAT, path.slice(0, -1))) : backLink('#/' + SLUG[CAT], t(CAT)));
+  // Main type with child types (LPS): its types as tiles.
+  function renderGroups() {
+    document.title = catName(CAT, PATH) + ' – ' + t(CAT) + ' – reef42';
+    app.innerHTML = upLink(PATH) + '<h1>' + esc(catName(CAT, PATH)) + '</h1><p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
+    groupGrid(PATH, document.getElementById('count'), document.getElementById('list'));
+  }
+  // Type page: the species of one type, easiest first.
   function renderSub(keepFocus) {
-    const xs = species.filter((s) => groupOf(s) === SUBG);
-    document.title = groupName(SUBG) + ' – ' + t(CAT) + ' – reef42';
-    const cares = CARE_ORDER.filter((c) => xs.some((s) => s.care_level === c));
+    const xs = species.filter(inPath(PATH));
+    document.title = catName(CAT, PATH) + ' – ' + t(CAT) + ' – reef42';
+    const cares = CARE_ORDER.filter((c) => xs.some((s) => s.difficulty === c));
     if (filt.care && !cares.includes(filt.care)) filt.care = '';
-    app.innerHTML = backLink('#/' + SLUG[CAT], t(CAT)) + '<h1>' + esc(groupName(SUBG)) + '</h1>' + notice() +
-      (cares.length > 1 ? '<div class="filters">' + chipRow('care', cares, (v) => lab('care_level', v)) + '</div>' : '') +
+    app.innerHTML = upLink(PATH) + '<h1>' + esc(catName(CAT, PATH)) + '</h1>' +
+      (cares.length > 1 ? '<div class="filters">' + chipRow('care', cares, (v) => lab('difficulty', v)) + '</div>' : '') +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     const items = xs.filter(matchesCare).sort(bySpecies);
     document.getElementById('count').textContent = t('count', { n: items.length });
     document.getElementById('list').innerHTML = items.length ? '<ul class="grid">' + items.map((s) => tile(s)).join('') + '</ul>' : '<p class="empty">' + esc(t('none')) + '</p>';
     if (keepFocus) { const el = app.querySelector(keepFocus); if (el) el.focus(); }
   }
-  // Commons thumbnails; width/height keep the space reserved while the image loads.
-  function photoImg(s, sizes, lazy, alt) {
-    const p = PHOTOS[s.id];
-    if (!p || !p.thumb_500) return '';
-    const srcset = p.thumb_960 ? ' srcset="' + esc(p.thumb_500) + ' 500w, ' + esc(p.thumb_960) + ' 960w" sizes="' + sizes + '"' : '';
-    return '<img src="' + esc(p.thumb_500) + '"' + srcset + ' alt="' + esc(alt !== undefined ? alt : title(s) + ' (' + s.scientific_name + ')') + '"' +
-      (p.width && p.height ? ' width="' + p.width + '" height="' + p.height + '"' : '') + (lazy ? ' loading="lazy"' : '') + ' decoding="async">';
-  }
-  // Attribution required by CC BY / BY-SA: author, licence (linked) and a link to the file page.
-  function photoFigure(s) {
-    const p = PHOTOS[s.id];
-    const img = photoImg(s, '(max-width: 900px) 100vw, 860px', false);
-    if (!img) return '';
-    const note = p.note ? (lang === 'hu' ? p.note.hu : p.note.en) || '' : '';
-    const lic = p.license ? (p.license_url ? '<a href="' + esc(p.license_url) + '" target="_blank" rel="noopener license">' + esc(p.license) + '</a>' : esc(p.license)) : '';
-    return '<figure class="photo">' + img + '<figcaption>' + (note ? esc(note) + ' · ' : '') + esc(t('photo')) + ': ' +
-      [p.author ? esc(p.author) : '', lic, '<a href="' + esc(p.page_url) + '" target="_blank" rel="noopener">Wikimedia Commons</a>'].filter(Boolean).join(' · ') +
-      '</figcaption></figure>';
-  }
-  function tile(s, withGroup) {
-    const img = photoImg(s, '(max-width: 600px) 100vw, 360px', true);
-    return '<li><a class="tile' + (img ? ' has-photo' : '') + '" href="' + speciesHref(s) + '">' +
-      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + '</h2>' +
-      '<p class="sub">' + (lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span></p>' +
-      tags(s, withGroup) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
-  }
 
   /* ---------- species card ---------- */
-  function fact(label, value, small) {
-    if (!value) return '';
-    return '<div><dt>' + esc(label) + '</dt><dd>' + esc(value) + (small ? '<small>' + esc(small) + '</small>' : '') + '</dd></div>';
+  function fact(label, value) {
+    return value ? '<div><dt>' + esc(label) + '</dt><dd>' + esc(value) + '</dd></div>' : '';
   }
-  function listSection(head, items, cls) {
-    const xs = real(items);
-    if (!xs.length) return '';
-    return '<section class="sect' + (cls ? ' ' + cls : '') + '"><h2>' + esc(head) + '</h2><ul>' + xs.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul></section>';
-  }
-  function sizeText(s) {
-    const z = s.size_cm || {};
-    if (z.typical && z.maximum) return num(z.typical) + '–' + num(z.maximum) + ' cm';
-    if (z.maximum) return t('maxSize', { n: num(z.maximum) });
-    if (z.typical) return num(z.typical) + ' cm';
-    return '';
-  }
-  function lifespanText(s) {
-    const l = s.lifespan_years || {};
-    return [l.wild ? t('wild', { n: num(l.wild) }) : '', l.aquarium ? t('tank', { n: num(l.aquarium) }) : ''].filter(Boolean).join(' · ');
+  function textSect(head, text) {
+    const x = tr(text).trim();
+    return x ? '<section class="sect"><h2>' + esc(head) + '</h2><p>' + esc(x) + '</p></section>' : '';
   }
   function facts(s) {
-    const o = (s.origin && s.origin.regions || []).map(region).join('; ');
-    if (CAT === 'coral') {
-      const par = s.lighting && s.lighting.par_range_umol_m2_s ? 'PAR ' + s.lighting.par_range_umol_m2_s : '';
-      return fact(t('type'), lab('coral_type', s.coral_type)) + fact(t('care'), lab('care_level', s.care_level)) +
-        fact(t('light'), s.lighting && lab('level', s.lighting.level), par) + fact(t('flow'), s.flow && lab('flow', s.flow.level)) +
-        fact(t('placement'), lab('placement', s.placement)) + fact(t('growth'), lab('growth', s.growth_rate)) +
-        fact(t('aggression'), lab('aggression', s.aggression)) + fact(t('spacing'), s.spacing_cm ? s.spacing_cm + ' cm' : '') +
-        fact(t('feeding'), s.feeding && lab('feeding', s.feeding.type)) + fact(t('size'), sizeText(s)) + fact(t('origin'), o);
+    if (s.group === 'coral') {
+      return fact(t('type'), tr(s.type)) + fact(t('care'), lab('difficulty', s.difficulty)) + fact(t('light'), lab('light', s.light)) +
+        fact(t('flow'), lab('flow', s.flow)) + fact(t('growth'), lab('growth', s.growth));
     }
-    const d = s.diet || {};
-    return fact(t('size'), sizeText(s)) + fact(t('minTank'), s.minimum_tank_size_l ? t('liters', { n: s.minimum_tank_size_l }) : '') +
-      fact(t('care'), lab('care_level', s.care_level)) + fact(t('reef'), s.aquarium_requirements && lab('reef', s.aquarium_requirements.reef_compatibility)) +
-      fact(t('temper'), s.behavior && lab('temperament', s.behavior.temperament)) + fact(t('diet'), lab('diet', d.type), d.description || '') +
-      fact(t('lifespan'), lifespanText(s)) + fact(t('origin'), o);
+    const size = range(s.size_cm);
+    const life = [range(s.lifespan_wild_years) ? t('wild', { n: range(s.lifespan_wild_years) }) : '',
+      range(s.lifespan_captivity_years) ? t('aquarium', { n: range(s.lifespan_captivity_years) }) : ''].filter(Boolean).join(' · ');
+    const tank = [s.tank_min_l ? t('tankMin', { n: s.tank_min_l }) : '', s.tank_ideal_l ? t('tankIdeal', { n: s.tank_ideal_l }) : ''].filter(Boolean).join(' · ');
+    const util = (s.utility || []).map((v) => lab('utility', v)).filter(Boolean).join(', ');
+    return fact(t('size'), size ? size + ' cm' : '') + fact(t('tankSize'), tank) + fact(t('care'), lab('difficulty', s.difficulty)) +
+      fact(t('reef'), lab('reef_safety', s.reef_safety)) + fact(t('utility'), util) + fact(t('lifespan'), life);
   }
-  function ethicBox(s) {
-    if (!ethicShown(s)) return '';
-    const e = s.ethical_index;
-    const reasons = real(e.reasons);
-    const head = e.recommendation === 'not_recommended' ? t('notRec') : 'Reef42';
-    return '<div class="ethic" role="note"><strong>' + esc(head) + '</strong>' + (typeof e.score === 'number' ? ' · ' + esc(t('ethicScore', { n: e.score })) : '') +
-      (reasons.length ? reasons.map((r) => '<p>' + esc(r) + '</p>').join('') : (e.recommendation === 'not_recommended' ? '<p>' + esc(t('notRecText')) + '</p>' : '')) +
-      (e.status !== 'reviewed' ? '<p class="pre">' + esc(t('provisional')) + '</p>' : '') + '</div>';
-  }
-  // Links to external photo pages only: no image is copied or hotlinked until its licence is checked.
-  function photoLinks(s) {
-    const r = s.image_reference || {};
-    const urls = [r.source_page_url, r.commons_search_url].filter((u) => u && urlKey(u));
-    if (!urls.length) return '';
-    const seen = new Set();
-    return '<p class="photos"><span>' + esc(t('photos')) + ':</span> ' + urls.filter((u) => !seen.has(urlKey(u)) && seen.add(urlKey(u))).map((u) =>
-      '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(SITE[host(u)] || host(u)) + ' ↗</a>').join(' · ') + '</p>';
-  }
-  function supportText(x) {
-    const xs = x.supports.map((k) => SUPPORTS[k] && SUPPORTS[k][lang === 'hu' ? 1 : 0]).filter(Boolean);
-    return xs.length ? '<span class="what">' + esc(t('backs') + ' ' + xs.join(', ')) + '</span>' : '';
+  function diseaseSect(s) {
+    const xs = (s.diseases || []).map((id) => [id, DB.diseases[id]]).filter(([, d]) => d);
+    if (!xs.length) return '';
+    const items = xs.map(([, d]) => {
+      const name = esc(lang === 'hu' && d.name_hu ? d.name_hu : d.name_en);
+      return '<li>' + (d.fishy_doctor ? '<a href="' + FD_URL + encodeURIComponent(d.fishy_doctor) + '">' + name + '</a>' : name) + '</li>';
+    });
+    return '<section class="sect"><h2>' + esc(t('diseases')) + '</h2><ul>' + items.join('') + '</ul>' +
+      (xs.some(([, d]) => d.fishy_doctor) ? '<p class="hint">' + esc(t('fdHint')) + '</p>' : '') + '</section>';
   }
   function renderSpecies(id) {
     const s = species.find((x) => x.id === id);
-    const back = SUBG ? backLink('#/' + SLUG[CAT] + '/' + encodeURIComponent(SUBG.id), groupName(SUBG)) : backLink('#/' + SLUG[CAT], t(CAT));
+    const back = PATH.length ? backLink(pathHref(CAT, PATH), catName(CAT, PATH)) : backLink('#/' + SLUG[CAT], t(CAT));
     if (!s) { app.innerHTML = back + '<p>' + esc(t('notFound')) + '</p>'; return; }
     document.title = title(s) + ' – ' + t(CAT) + ' – reef42';
-    const former = s.former_scientific_name ? '<span class="former">' + esc(t('formerly', { n: s.former_scientific_name.split(/\s*;\s*/).join(', ') })) + '</span>' : '';
-    const names = [lang === 'hu' && s.hu_name && s.common_name ? esc(s.common_name) : '', '<span class="sci">' + esc(s.scientific_name) + '</span>', former].filter(Boolean);
-    const feedNote = s.feeding && s.feeding.notes && !generic.has(s.feeding.notes) ? [s.feeding.notes] : [];
-    const src = sourcesOf(s);
-    app.innerHTML = back + notice() +
+    const names = [lang === 'hu' && s.name_hu && s.name_en ? esc(s.name_en) : '', '<span class="sci">' + esc(s.scientific_name) + '</span>'].filter(Boolean);
+    const sections = s.group === 'coral'
+      ? textSect(t('placement'), s.placement) + textSect(t('aggression'), s.aggression) + textSect(t('feeding'), s.feeding)
+      : textSect(t('behavior'), s.behavior) + textSect(t('feeding'), s.feeding);
+    const src = (s.sources || []).filter((x) => x && x.url);
+    app.innerHTML = back +
       '<article class="card">' + photoFigure(s) + '<div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
-      tags(s, true) + photoLinks(s) + '</div>' +
-      ethicBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
-      listSection(t('behavior'), s.behavior && s.behavior.notes) + listSection(t('feeding'), feedNote) +
-      listSection(t('extra'), s.extra_notes) + listSection(t('tips'), s.pro_tips, 'tip') +
+      tags(s, true) + '</div><dl class="facts">' + facts(s) + '</dl>' +
+      sections + textSect(t('origin'), s.origin) + textSect(t('notes'), s.notes) + diseaseSect(s) +
       (src.length ? '<section class="sect sources"><h2>' + esc(t('sources')) + '</h2><ul>' + src.map((x) =>
-        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name) + '</a> ' + supportText(x) + '</li>').join('') + '</ul></section>' : '') +
+        '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name || x.url) + '</a></li>').join('') + '</ul></section>' : '') +
       '</article>';
   }
 
@@ -482,39 +325,44 @@
   function renderHome() {
     document.title = t('app') + ' – reef42';
     app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
-      CATS.map((c) => {
-        const mine = all.filter((s) => s.category === c);
-        return '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + c + '.svg" alt="" width="44" height="44">' +
-          '<h2>' + esc(t(c)) + '</h2><span class="go">' + esc(t('open', { n: mine.length })) + '</span></a></li>';
-      }).join('') + '</ul>';
+      CATS.map((c) => '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + ICON[c] + '.svg" alt="" width="44" height="44">' +
+        '<h2>' + esc(t(c)) + '</h2><span class="go">' + esc(t('open', { n: all.filter((s) => s.group === c).length })) + '</span></a></li>').join('') + '</ul>';
   }
 
   /* ---------- routing ---------- */
-  // #/ = overview, #/<category> = its types, #/<category>/<type> = species of that type, #/<category>/<type>/<id> = card.
-  // Older addresses (#/<id>, #/<category>/<id>) and ids renamed in the data (previous_id) are rewritten to the current one.
-  const byId = (id) => all.find((x) => x.id === id) || all.find((x) => x.previous_id === id);
+  // #/ = overview, #/<category> = its main types, #/<category>/<main>[/<type>] = a type (LPS lists its types, the others their species),
+  // #/<category>/<main>[/<type>]/<id> = card. Older addresses (#/<id>, #/<category>/<id>, a type without its main type, old type names)
+  // go to the current address, or to the category if the species is gone.
+  const byId = (id) => all.find((x) => x.id === id);
   function route() {
     const parts = decodeURIComponent(location.hash.replace(/^#\/?/, '')).split('/').filter(Boolean);
-    if (!parts.length) return { cat: null };
+    const here = '#/' + parts.map(encodeURIComponent).join('/');
+    const go = (r, href) => Object.assign(r, { href, moved: href !== here });
+    if (!parts.length) return { cat: null, path: [] };
     const cat = BY_SLUG[parts[0]];
-    const g = cat && parts[1] ? (GROUPS[cat] || []).find((x) => x.id === parts[1]) : null;
-    if (cat && !parts[1]) return { cat };
-    if (g && !parts[2]) return { cat, sub: g.id };
-    const s = byId(cat ? (g ? parts[2] : parts[1]) : parts[0]);
-    if (!s) return cat ? { cat, sub: g ? g.id : '', id: parts[parts.length - 1] } : { cat: null };
-    const href = speciesHref(s);
-    return { cat: s.category, sub: subOf(s), id: s.id, href, moved: href !== '#/' + parts.map(encodeURIComponent).join('/') };
+    if (!cat) { const s = byId(parts[0]); return s ? go({ cat: s.group, path: pathOf(s.group, s.category), id: s.id }, speciesHref(s)) : go({ cat: null, path: [] }, '#/'); }
+    const path = [];
+    for (const p of parts.slice(1)) { if (nodeAt(cat, path.concat(p))) path.push(p); else break; }
+    const rest = parts.slice(1 + path.length);
+    if (!rest.length) return { cat, path };
+    const s = byId(rest[rest.length - 1]);
+    if (s && s.group === cat) return go({ cat, path: pathOf(cat, s.category), id: s.id }, speciesHref(s));
+    const leaf = rest.length === 1 && !path.length ? pathOf(cat, rest[0]) : [];
+    const to = leaf.length ? leaf : path;
+    return go({ cat, path: to }, pathHref(cat, to));
   }
   function render(keepFocus) {
     const r = route();
     if (r.moved) history.replaceState(null, '', r.href);
     CAT = r.cat || null;
-    if (CAT) { species = all.filter((s) => s.category === CAT); filt = FILTERS[CAT]; }
-    SUBG = CAT && r.sub ? (GROUPS[CAT] || []).find((g) => g.id === r.sub) || null : null;
+    if (CAT) { species = all.filter((s) => s.group === CAT); filt = FILTERS[CAT]; }
+    PATH = CAT ? r.path : [];
     renderChrome();
+    const node = CAT && PATH.length ? nodeAt(CAT, PATH) : null;
     if (!CAT) renderHome();
     else if (r.id) renderSpecies(r.id);
-    else if (SUBG) renderSub(keepFocus);
+    else if (node && node.children) renderGroups();
+    else if (node) renderSub(keepFocus);
     else renderCategory();
   }
 
@@ -541,12 +389,9 @@
 
   renderChrome();
   openReview();
-  const photos = fetch(PHOTOS_URL).then((r) => (r.ok ? r.json() : {})).then((x) => x.images || {}).catch(() => ({}));
-  fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => photos.then((p) => {
-    PHOTOS = p;
-    all = (db.species || []).filter((s) => CATS.includes(s.category));
-    generic = findGeneric(db.species || []);
-    GROUPS = groupsFrom(db);
+  fetch(DATA_URL).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((db) => {
+    DB = db;
+    all = (db.species || []).filter((s) => CATS.includes(s.group));
     render();
-  })).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
+  }).catch(() => { app.innerHTML = '<p>' + esc(t('loadError')) + '</p>'; });
 })();

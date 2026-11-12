@@ -1,0 +1,1021 @@
+[
+ {
+  "id": "fromia-monilis",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Fromia monilis",
+  "name_en": "Red Marble Starfish / Linkia",
+  "name_hu": "Vörös márvány tengeri csillag",
+  "size_cm": {
+   "min": 8,
+   "max": 15
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 5
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful reef starfish; sensitive to acclimation (never expose to air) and parameter swings.",
+   "hu": "Békés zátonyi tengeri csillag; érzékeny a beszoktatásra (soha ne érje levegő) és a paraméter-ingadozásra."
+  },
+  "feeding": {
+   "en": "Grazes biofilms and detritus on rocks; supplement by placing small food pieces near its arms.",
+   "hu": "A köveken biofilmet és detrituszt legel; apró táplálékdarabok letételével a karjai közelében egészítsük ki."
+  },
+  "origin": {
+   "en": "Indian Ocean: East Africa and the Maldives to Indonesia.",
+   "hu": "Indiai-óceán: Kelet-Afrika és a Maldív-szigetektől Indonéziáig."
+  },
+  "notes": {
+   "en": "One of the few truly reef-safe starfish; requires stable mature tanks. Fromia species are hardier than Linckia.",
+   "hu": "Az egyik kevés valóban korallbiztos tengeri csillag; stabil, érett akváriumot igényel. A Fromia fajok ellenállóbbak, mint a Linckia."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213301"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Elegant_Necklace_Starfish_%28Fromia_monilis%29_%288488880713%29.jpg/1280px-Elegant_Necklace_Starfish_%28Fromia_monilis%29_%288488880713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Elegant_Necklace_Starfish_(Fromia_monilis)_(8488880713).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "linckia-laevigata",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Linckia laevigata",
+  "name_en": "Blue Starfish / Blue Linckia",
+  "name_hu": "Kék tengeri csillag",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 5
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful but delicate; often arrives starved and rarely recovers. Sensitive to any parameter change.",
+   "hu": "Békés, de kényes; gyakran már kimerülten érkezik, és ritkán épül fel. Bármilyen paraméterváltozásra érzékeny."
+  },
+  "feeding": {
+   "en": "Grazes bacterial and algal films; target feeding rarely works.",
+   "hu": "Bakteriális és algabevonatokat legel; a célzott etetés ritkán működik."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Beautiful but has a poor survival record in home aquaria; a mature tank of 400+ L with excellent stability is the minimum. Consider Fromia instead.",
+   "hu": "Gyönyörű, de rossz túlélési statisztikával; minimum 400 liter feletti, rendkívül stabil, érett akvárium. Fontoljuk meg a Fromia fajokat helyette."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207610"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_Seastar_%28Linckia_laevigata%29_%288476636602%29.jpg/1280px-Blue_Seastar_%28Linckia_laevigata%29_%288476636602%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blue_Seastar_(Linckia_laevigata)_(8476636602).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "protoreaster-nodosus",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Protoreaster nodosus",
+  "name_en": "Chocolate Chip Starfish",
+  "name_hu": "Csokidarabka tengeri csillag",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 8
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Hardy and entertaining, but a predator that eats snails, clams, corals and even sleeping fish.",
+   "hu": "Ellenálló és szórakoztató, de ragadozó – csigákat, kagylókat, korallokat és akár alvó halakat is megesz."
+  },
+  "feeding": {
+   "en": "Carnivore/scavenger: meaty foods placed under its arms; hunts inverts at night.",
+   "hu": "Húsevő/dögevő: a karjai alá tett húsos táplálék; éjjel gerincteleneket vadász."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Sri Lanka to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Srí Lankától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Great for fish-only tanks; NOT reef safe. Can be trained to eat from a feeding stick.",
+   "hu": "Halas akváriumokba kiváló; NEM korallbiztos. Etetőpálcáról tanítható."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213285"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chocolate_Chip_Starfish_%28Protoreaster_nodosus%29_Cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chocolate_Chip_Starfish_(Protoreaster_nodosus)_Cropped.png",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "mespilia-globulus",
+  "group": "invertebrate",
+  "category": "urchins",
+  "scientific_name": "Mespilia globulus",
+  "name_en": "Blue Tuxedo Urchin",
+  "name_hu": "Kék szmoking sün",
+  "size_cm": {
+   "min": 4,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Excellent algae grazer; carries bits of rubble, shell and macroalgae as camouflage ('hat-wearing').",
+   "hu": "Kiváló algaevő; törmelékdarabokat, héjakat és makroalgát hordoz álcázásul ('kalaposos' sün)."
+  },
+  "feeding": {
+   "en": "Algae and diatoms; supplement with nori tied to a rock if algae runs short.",
+   "hu": "Algák és kovamoszatok; ha kevés az alga, kőhöz kötött norival egészítsük ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Indian Ocean to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Indiai-óceántól Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "One of the best cleanup urchins for reef tanks; hides during the day, works at night. If it loses its 'clothes' it may be starving.",
+   "hu": "Az egyik legjobb takarító sün zátonyos akváriumokba; nappal rejtőzik, éjjel dolgozik. Ha 'elveszíti a ruháit', éhezhet."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=214476"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Erizo_de_mar_%28Mespilia_globulus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_283.jpg/1280px-Erizo_de_mar_%28Mespilia_globulus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Erizo_de_mar_(Mespilia_globulus),_Anilao,_Filipinas,_2023-08-22,_DD_283.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "echinometra-lucunter",
+  "group": "invertebrate",
+  "category": "urchins",
+  "scientific_name": "Echinometra lucunter",
+  "name_en": "Rock Boring Urchin / Purple Urchin",
+  "name_hu": "Sziklavájó sün (lila)",
+  "size_cm": {
+   "min": 5,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Grazes rocks clean of algae; can rasp coralline algae patches. Generally reef-safe.",
+   "hu": "Az algától tisztára legeli a köveket; a kéregalgát is kaparhatja. Általában korallbiztos."
+  },
+  "feeding": {
+   "en": "Algae, coralline algae films.",
+   "hu": "Algák, kéregalgás bevonatok."
+  },
+  "origin": {
+   "en": "Caribbean and western Atlantic.",
+   "hu": "Karib-tenger és nyugat-atlanti régió."
+  },
+  "notes": {
+   "en": "Common Caribbean CUC urchin; cheap and hardy. Do not house with weak-framed corals - it bulldozes while grazing.",
+   "hu": "Gyakori karibi takarítósün; olcsó és ellenálló. Ne tegyünk törékeny vázú korallok közé – legelés közben felborítgat."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213380"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Echinometra_lucunter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Echinometra_lucunter.jpg",
+   "author": "Hans Hillewaert",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tripneustes-gratilla",
+  "group": "invertebrate",
+  "category": "urchins",
+  "scientific_name": "Tripneustes gratilla",
+  "name_en": "Collector Urchin",
+  "name_hu": "Gyűjtő sün",
+  "size_cm": {
+   "min": 8,
+   "max": 15
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 8
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 500,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Voracious algae eater that 'collects' shells and rubble on its spines; peaceful.",
+   "hu": "Falánk algaevő, amely a tüskéin 'gyűjti' a héjakat és törmeléket; békés."
+  },
+  "feeding": {
+   "en": "Algae of all kinds, including hair algae; loves nori.",
+   "hu": "Mindenféle alga, hajsalgát is; imádja a norit."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Outstanding hair algae control; larger than tuxedo urchins. Can flatten small-polyp corals with its body - place frags high.",
+   "hu": "Kiváló hajsalga-kontroll; a szmoking sünnél nagyobb. Testével lenyomhatja a kis polipú korallokat – a fragokat magasra tegyük."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212453"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Acanthurus_leucosternon_Maldives_Surgeonfish_and_Tripneustes_gratilla_Collector_urchin_01.jpg/1280px-Acanthurus_leucosternon_Maldives_Surgeonfish_and_Tripneustes_gratilla_Collector_urchin_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_Maldives_Surgeonfish_and_Tripneustes_gratilla_Collector_urchin_01.jpg",
+   "author": "Sinikka Halme",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tridacna-maxima",
+  "group": "invertebrate",
+  "category": "bivalves",
+  "scientific_name": "Tridacna maxima",
+  "name_en": "Maxima Clam",
+  "name_hu": "Maxima tridacna kagyló",
+  "size_cm": {
+   "min": 15,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": 10,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 15
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sessile; attaches by byssus threads to rock. Needs strong light to thrive.",
+   "hu": "Szezílkedő; byssusz-szálakkal a kőhöz tapad. Erős fényt igényel a jólléthez."
+  },
+  "feeding": {
+   "en": "Photosynthetic (zooxanthellae); small clams (<5 cm) benefit from phytoplankton until established.",
+   "hu": "Fotoszintetizáló (zooxanthellák); a kis kagylók (<5 cm) fitoplanktont hasznosnak találják, míg berendezkednek."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "The most popular giant clam for reefs; stunning blue/gold/green mantle morphs. All Tridacna are CITES-listed - buy aquacultured. Sensitive to poor alkalinity and predators (pyramid snails, wrasses).",
+   "hu": "A legnépszerűbb óriáskagyló zátonyokba; lélegzetelállító kék/arany/zöld köpenymorfok. Minden Tridacna CITES-listás – vegyünk tenyésztettet. Érzékeny a rossz alkalitásra és a ragadozókra (piramiscsigák, ajaksügérek)."
+  },
+  "diseases": [
+   "pyramid-snails"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207675"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Almeja_gigante_%28Tridacna_maxima%29%2C_Nosy_Antanimora%2C_Madagascar%2C_2025-09-15%2C_DD_144.jpg/1280px-Almeja_gigante_%28Tridacna_maxima%29%2C_Nosy_Antanimora%2C_Madagascar%2C_2025-09-15%2C_DD_144.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Almeja_gigante_(Tridacna_maxima),_Nosy_Antanimora,_Madagascar,_2025-09-15,_DD_144.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tridacna-crocea",
+  "group": "invertebrate",
+  "category": "bivalves",
+  "scientific_name": "Tridacna crocea",
+  "name_en": "Crocea Clam",
+  "name_hu": "Crocea tridacna kagyló",
+  "size_cm": {
+   "min": 12,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": 10,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 15
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 500,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Bores into rock ('boring clam'); sits in crevices. Requires the strongest light of all tridacnas.",
+   "hu": "A sziklába fúrkálódik ('fúró kagyló'); repedésekben ül. Minden tridacna közül a legerősebb fényt igényli."
+  },
+  "feeding": {
+   "en": "Photosynthetic; small specimens benefit from phytoplankton.",
+   "hu": "Fotoszintetizáló; a kis példányoknak hasznos a fitoplankton."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Thailand to Australia and Fiji.",
+   "hu": "Indo-Csendes-óceán: Thaiföldtől Ausztráliáig és Fidzsiig."
+  },
+  "notes": {
+   "en": "Most intense colours of the genus (ultra grade 'electric' morphs); place high on the rockwork under strong light. CITES-listed.",
+   "hu": "A nemzetség legintenzívebb színei ('ultra' 'elektromos' morfok); helyezzük a sziklázat magas pontjára erős fény alá. CITES-listás."
+  },
+  "diseases": [
+   "pyramid-snails"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207673"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tridacna_Crocea_Lamarck%2C_1819.jpg/1280px-Tridacna_Crocea_Lamarck%2C_1819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Tridacna_Crocea_Lamarck,_1819.jpg",
+   "author": "Mudasir Zainuddin",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tridacna-derasa",
+  "group": "invertebrate",
+  "category": "bivalves",
+  "scientific_name": "Tridacna derasa",
+  "name_en": "Derasa Clam",
+  "name_hu": "Derasa tridacna kagyló",
+  "size_cm": {
+   "min": 25,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": 10,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 20
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Smooth-shelled fast-growing giant clam; sits on the sandbed or flat rock.",
+   "hu": "Simahéjú, gyorsan növő óriáskagyló; a homokágyon vagy lapos kőzeten ül."
+  },
+  "feeding": {
+   "en": "Photosynthetic; tolerates moderate light better than crocea/maxima.",
+   "hu": "Fotoszintetizáló; a mérsékelt fényt jobban tűri, mint a crocea/maxima."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia, Philippines.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia, Fülöp-szigetek."
+  },
+  "notes": {
+   "en": "Great 'first clam' - hardy and grows large; needs space (up to 40 cm). Aquacultured specimens widely available.",
+   "hu": "Remek 'első kagyló' – ellenálló és nagyra nő; helyet igényel (akár 40 cm). A tenyésztett példányok széles körben elérhetők."
+  },
+  "diseases": [
+   "pyramid-snails"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=382205"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Tridacna_Derasa.jpg/1280px-Tridacna_Derasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Tridacna_Derasa.jpg",
+   "author": "Syahrul Harijo",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tridacna-squamosa",
+  "group": "invertebrate",
+  "category": "bivalves",
+  "scientific_name": "Tridacna squamosa",
+  "name_en": "Squamosa Clam",
+  "name_hu": "Squamosa tridacna kagyló",
+  "size_cm": {
+   "min": 20,
+   "max": 35
+  },
+  "lifespan_wild_years": {
+   "min": 10,
+   "max": 25
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 15
+  },
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Fluted scutes on the shell; attaches weakly by byssus, often placed on sand.",
+   "hu": "Redőzött pikkelyek a héjon; gyengén tapad byssusszal, gyakran homokra helyezik."
+  },
+  "feeding": {
+   "en": "Photosynthetic; tolerates lower light than maxima.",
+   "hu": "Fotoszintetizáló; az maximánál alacsonyabb fényt is tűr."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Blue-spotted mantles are prized; hardier than crocea. CITES-listed - aquacultured preferred.",
+   "hu": "A kék pöttyös köpenyek kedveltek; a croceánál ellenállóbb. CITES-listás – a tenyésztett az elsődleges."
+  },
+  "diseases": [
+   "pyramid-snails"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207674"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Fluted_giant_clam_Tridacna_squamosa_%285847346506%29.jpg/1280px-Fluted_giant_clam_Tridacna_squamosa_%285847346506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Fluted_giant_clam_Tridacna_squamosa_(5847346506).jpg",
+   "author": "Paul Asman and Jill Lenoble",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "holothuria-hilla",
+  "group": "invertebrate",
+  "category": "sea-cucumbers",
+  "scientific_name": "Holothuria hilla (tiger tail)",
+  "name_en": "Tiger Tail Sea Cucumber",
+  "name_hu": "Tigrisfarkú tengeri uborka",
+  "size_cm": {
+   "min": 20,
+   "max": 40
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater",
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Nocturnal sandbed cleaner; hides during the day. Peaceful.",
+   "hu": "Éjjel aktív homokágy-takarító; nappal rejtőzködik. Békés."
+  },
+  "feeding": {
+   "en": "Ingests sand and digests detritus/bacteria; no target feeding.",
+   "hu": "Homokot nyel és emészti meg a detrituszt/baktériumokat; célzott etetés nem kell."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "One of the safer cucumbers; if stressed it can eject toxic cuvierian organs - remove promptly and run carbon.",
+   "hu": "Az egyik biztonságosabb uborka; stressz hatására mérgező cuvieri szerveket lövellhet ki – távolítsuk el gyorsan és futtassunk szenet."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Holothuria_thomasi_265082968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Holothuria_thomasi_265082968.jpg",
+   "author": "Pauline Walsh Jacobson",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "actinopyga-miliaris",
+  "group": "invertebrate",
+  "category": "sea-cucumbers",
+  "scientific_name": "Actinopyga miliaris",
+  "name_en": "Black Sea Cucumber",
+  "name_hu": "Fekete tengeri uborka",
+  "size_cm": {
+   "min": 20,
+   "max": 35
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater",
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Active detritus consumer on the sandbed; peaceful.",
+   "hu": "Aktív detrituszfogyasztó a homokágyon; békés."
+  },
+  "feeding": {
+   "en": "Detritus and bacteria from ingested sand.",
+   "hu": "A bevitt homokból detritusz és baktériumok."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Reef-safe cleaner; keep with a deep sand bed. Avoid fish that nip at cucumbers.",
+   "hu": "Korallbiztos takarító; mély homokágyjal tartsuk. Kerüljük az uborkákat csipkelő halakat."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208949"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Actinopyga_miliaris.JPG/1280px-Actinopyga_miliaris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Actinopyga_miliaris.JPG",
+   "author": "Julien Bidet",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "entacmaea-quadricolor",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Entacmaea quadricolor",
+  "name_en": "Bubble Tip Anemone (BTA)",
+  "name_hu": "Fáklyás anémon (bubble tip)",
+  "size_cm": {
+   "min": 12,
+   "max": 25
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 20
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "The classic clownfish host anemone; attaches its foot into rock crevices. Can wander and sting corals.",
+   "hu": "A klasszikus bohóchal-anemón; lábfejét sziklarepedésekbe tapasztja. Vándorolhat és korallokat csíphet."
+  },
+  "feeding": {
+   "en": "Photosynthetic; weekly meaty feeding (mysis, silverside pieces) speeds growth.",
+   "hu": "Fotoszintetizáló; a heti húsos etetés (mysis, halfajták) gyorsítja a növekedést."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Hosts A. ocellaris, A. percula, Premnas biaculeatus. Bubble tips are a healthy sign; long tentacles indicate it wants more light/food. Never cut the foot; propagates by natural fission.",
+   "hu": "Az A. ocellaris, A. percula és a Premnas biaculeatus fogadja be. A 'buborékcsúcsok' egészséges jel; a hosszúra nyúlt csápok több fény/táplálék iránti igényt jeleznek. Soha ne vágjuk el a lábfejet; természetes kettéosztódással szaporodik."
+  },
+  "diseases": [
+   "aiptasia-pest"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=289898"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/An%C3%A9mona_burbuja_%28Entacmaea_quadricolor%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_162.jpg/1280px-An%C3%A9mona_burbuja_%28Entacmaea_quadricolor%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_162.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anémona_burbuja_(Entacmaea_quadricolor),_Anilao,_Filipinas,_2023-08-22,_DD_162.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "heteractis-magnifica",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Heteractis magnifica",
+  "name_en": "Magnificent Sea Anemone (Ritteri)",
+  "name_hu": "Nagy anémon (ritteri)",
+  "size_cm": {
+   "min": 20,
+   "max": 50
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 20
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Large, high-light anemone that perches on rock summits; hosts many clownfish species.",
+   "hu": "Nagy, erős fényt igénylő anemón, amely a sziklacsúcsokon ül; sok bohóhalfajt fogad."
+  },
+  "feeding": {
+   "en": "Photosynthetic; occasional meaty feeding.",
+   "hu": "Fotoszintetizáló; alkalmanként húsos etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Demands very strong light and stable conditions; moves more than BTAs. For experienced keepers - a 'dying Ritteri' can nuke a tank.",
+   "hu": "Nagyon erős fényt és stabil körülményeket igényel; a BTA-nál többet vándorol. Tapasztalt tartóknak – egy 'elpusztuló ritteri' tönkreteheti az akváriumot."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=290090"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Amphiprion_ocellaris_%28Clown_anemonefish%29_in_Heteractis_magnifica_%28Sea_anemone%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amphiprion_ocellaris_(Clown_anemonefish)_in_Heteractis_magnifica_(Sea_anemone).jpg",
+   "author": "Nhobgood Nick Hobgood",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "macrodactyla-doreensis",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Macrodactyla doreensis",
+  "name_en": "Long Tentacle Anemone (LTA)",
+  "name_hu": "Hosszúcsápú anémon (LTA)",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 20
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Buried foot in the sandbed; prefers sand-adjacent rock. Hosts A. percula, A. clarkii and others.",
+   "hu": "Lábfejét a homokágyba ássa; a homok melletti köveket kedveli. Az A. percula, A. clarkii és mások fogadják."
+  },
+  "feeding": {
+   "en": "Photosynthetic; weekly meaty feedings.",
+   "hu": "Fotoszintetizáló; heti húsos etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Japan to Australia and Fiji.",
+   "hu": "Indo-Csendes-óceán: Japántól Ausztráliáig és Fidzsiig."
+  },
+  "notes": {
+   "en": "Long graceful tentacles; generally stays put if given a deep sandbed next to rockwork.",
+   "hu": "Hosszú, kecses csápok; általában a helyén marad, ha mély homokágyat kap a sziklázat mellett."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=288167"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Macrodactyla_doreensis%2C_isla_Lizard.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Macrodactyla_doreensis,_isla_Lizard.jpeg",
+   "author": "Anne Hoggett",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "stichodactyla-tapetum",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Stichodactyla tapetum",
+  "name_en": "Mini Carpet Anemone",
+  "name_hu": "Mini szőnyeganémon",
+  "size_cm": {
+   "min": 5,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 10
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Small carpet anemone for nano tanks; sticky tentacles can catch small fish and shrimp.",
+   "hu": "Kis szőnyeganémon nano akváriumokba; ragadós csápjaival kis halakat és garnélákat foghat."
+  },
+  "feeding": {
+   "en": "Photosynthetic; takes small meaty foods.",
+   "hu": "Fotoszintetizáló; kis húsos táplálékot fogad."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Japan to Australia.",
+   "hu": "Indo-Csendes-óceán: Japántól Ausztráliáig."
+  },
+  "notes": {
+   "en": "Hosts Amphiprion perideraion and A. polymnus; splits readily. Green and red colour morphs common.",
+   "hu": "Az Amphiprion perideraion és az A. polymnus fogadja be; készségesen osztódik. Zöld és piros színmorfok gyakoriak."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=291137"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Stichodactyla_tapetum%2C_Koh_Phangan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Stichodactyla_tapetum,_Koh_Phangan.jpg",
+   "author": "Chaloklum Diving",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "stichodactyla-mertensii",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Stichodactyla mertensii",
+  "name_en": "Merten's Carpet Anemone",
+  "name_hu": "Mertens-szőnyeganémon",
+  "size_cm": {
+   "min": 30,
+   "max": 80
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 20
+  },
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "The largest carpet anemone; sits on rockwork with strong light. Will eat fish that wander into its tentacles.",
+   "hu": "A legnagyobb szőnyeganémon; erős fényű sziklázaton ül. A csápjai közé tévedő halakat megeszi."
+  },
+  "feeding": {
+   "en": "Photosynthetic; large meaty feedings (whole silversides).",
+   "hu": "Fotoszintetizáló; nagy húsos etetések (egész kis halak)."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Impressive but huge and predatory; for large tanks only. Hosts A. clarkii, A. polymnus. Handle with care - the sting is noticeable.",
+   "hu": "Impozáns, de óriási és ragadozó; csak nagy akváriumokba. Az A. clarkii, A. polymnus fogadja. Óvatosan kezeljük – a csípése érezhető."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=291136"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Camar%C3%B3n_de_an%C3%A9mona_de_vidrio_%28Periclimenes_brevicarpalis%29_en_una_an%C3%A9mona_alfombra_de_Mertens_%28Stichodactyla_mertensii%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_228.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camarón_de_anémona_de_vidrio_(Periclimenes_brevicarpalis)_en_una_anémona_alfombra_de_Mertens_(Stichodactyla_mertensii),_Anilao,_Filipinas,_2023-08-22,_DD_228.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cryptodendrum-adhaesivum",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Cryptodendrum adhaesivum",
+  "name_en": "Pizza Anemone",
+  "name_hu": "Pizza anémon",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 10
+  },
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Flattened 'pizza' disc with short sticky tentacles; buries its foot deeply.",
+   "hu": "Lapos 'pizza' korong rövid, ragadós csápokkal; lábfejét mélyen elássa."
+  },
+  "feeding": {
+   "en": "Photosynthetic; meaty feeds to the disc.",
+   "hu": "Fotoszintetizáló; húsos etetés a korongra."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Distinctive two-colour tentacles (inner/outer); rarely hosts clownfish in aquaria. Sticky tentacles catch fish.",
+   "hu": "Jellegzetes kétszínű csápok (belső/külső); akváriumban ritkán fogad bohóhalat. Ragadós csápjaival halakat fog."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=289169"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cryptodendrum_adhaesivum%2C_Dascyllus_trimaculatus_y_Thor_amboinensis.jpg/1280px-Cryptodendrum_adhaesivum%2C_Dascyllus_trimaculatus_y_Thor_amboinensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cryptodendrum_adhaesivum,_Dascyllus_trimaculatus_y_Thor_amboinensis.jpg",
+   "author": "Tim Sheerman-Chase",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "sabellastarte-indica",
+  "group": "invertebrate",
+  "category": "worms",
+  "scientific_name": "Sabellastarte indica / spectabilis",
+  "name_en": "Feather Duster Worm",
+  "name_hu": "Legyezőféreg",
+  "size_cm": {
+   "min": 8,
+   "max": 15
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 4
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sedentary fan worm in a leathery tube; retracts instantly when disturbed. Peaceful.",
+   "hu": "Helyben ülő legyezőféreg bőrszerű csőben; megzavarva azonnal visszahúzódik. Békés."
+  },
+  "feeding": {
+   "en": "Filter feeder: needs regular phytoplankton and fine suspended foods.",
+   "hu": "Szűrőtáplálkozó: rendszeres fitoplankton- és finom lebegő táplálékot igényel."
+  },
+  "origin": {
+   "en": "Indo-Pacific (S. spectabilis: Caribbean).",
+   "hu": "Indo-Csendes-óceán (S. spectabilis: Karib-tenger)."
+  },
+  "notes": {
+   "en": "Beautiful radioles in many colours; can drop its crown and regrow it. Starves without supplemental feeding - not for 'set and forget' tanks.",
+   "hu": "Gyönyörű, sokszínű csőkorongúk; elveszítheti a korongját és újraképesíti. Kiegészítő etetés nélkül éhen hal – nem 'beáll és elfelejt' akváriumba való."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gusano_plumero_tropical_%28Sabellastarte_spectabilis%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_191.jpg/1280px-Gusano_plumero_tropical_%28Sabellastarte_spectabilis%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_191.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gusano_plumero_tropical_(Sabellastarte_spectabilis),_Anilao,_Filipinas,_2023-08-22,_DD_191.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

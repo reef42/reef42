@@ -14,22 +14,21 @@ each tool lives in its own folder.
 ### Species database
 
 [`species/`](species/) is one tool with three categories: an overview (`species/#/`) leads to the fish, coral and
-invertebrate pages (`#/fish`, `#/corals`, `#/inverts`). Each category shows its types (the `subgroup` of each species, e.g.
-surgeonfish, SPS) as a photo grid in the order of the top-level `subgroups` object, each type lists its species
-(`#/fish/surgeonfish`), and each species has its own card (`#/fish/surgeonfish/<id>`). Searching on a category page lists
-matching species from all its types. Older links (`#/<id>`, `#/fish/<id>`) redirect to the current address.
-It reads `databases/reef42_marine_life_db_v3.json` (the `reef42_fish/coral/invert_db_v3.json` files are per-category copies of the
-same records and are not loaded). Empty fields are not shown; texts and source links repeated on 5+ species count as template
-filler and are hidden, and the same page listed twice is shown once with what it backs up.
+invertebrate pages (`#/fish`, `#/corals`, `#/inverts`). Each category shows its types (the `category` of each entry, e.g.
+surgeonfish, SPS) as a photo grid in the order of `taxonomy.json`, each type lists its species (`#/fish/surgeonfish`), and
+each species has its own card (`#/fish/surgeonfish/<id>`). The `lps-*` coral types are grouped under one LPS main type
+(`#/corals/lps/lps-brain/<id>`; `PARENTS` in the build script). Searching on a category page lists matching species from all its
+types. Older links (`#/<id>`, `#/fish/<id>`, old type names) redirect to the current address, or to the category if the
+species is no longer in the data.
 
-Photos come from `databases/reef42_species_images.json`: one freely licensed Wikimedia Commons file per species (CC0, public
-domain, CC BY, CC BY-SA), loaded from Wikimedia and shown with author, licence and a link to the file page, as the licences
-require. Run `node species/tools/images.mjs` after adding species: it keeps the chosen files, refreshes their licence data and
-picks a photo for new species, which should be checked by eye. To swap a photo, change its `file` and run it again. The shop
-pages linked in `image_reference` (ReefApp, Tidal Gardens) are copyrighted and are only linked, never embedded. Species without a Hungarian name show the English common name. An id renamed
-in the data keeps working if the species lists the old one as `previous_id`. While ethical scores are provisional, only
-"not recommended" species show the ethical index.
-Run `node species/tools/validate.mjs` after every data update: it lists errors and missing data per species.
+The source of the data is [`databases/data/`](databases/data/) (schema in [`databases/README.md`](databases/README.md)).
+After every change run `node species/tools/build.mjs`: it checks the data (required fields, enum values, disease references,
+photos) and writes `databases/reef42_species.json`, the only file the page loads. With errors it writes nothing.
+
+The diseases listed on a card link to the Fishy Doctor page of the same id (`fishy-doctor/data/diseases/<id>.json`, aliases in
+`FD_ALIAS` in the build script); the others are shown by name only. Photos are freely licensed Wikimedia Commons files loaded
+from Wikimedia and shown with author, licence and a link to the file page, as the licences require. Species without a
+Hungarian name show the English name.
 
 ## Running locally
 

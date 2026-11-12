@@ -1,0 +1,1053 @@
+[
+ {
+  "id": "catalaphyllia-jardinei",
+  "group": "coral",
+  "category": "lps-other",
+  "scientific_name": "Catalaphyllia jardinei",
+  "name_en": "Elegance Coral",
+  "name_hu": "Elegance korall",
+  "type": {
+   "en": "Large fleshy polyps with long tentacles on a cone-shaped skeleton.",
+   "hu": "Nagy, húsos polipok hosszú csápokkal, kúp alakú vázon."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "low",
+  "growth": "medium",
+  "placement": {
+   "en": "Sandbed with room for tentacle expansion; moderate indirect light.",
+   "hu": "Homokágyon, a csápkiterjedésnek helyet hagyva; mérsékelt közvetett fény."
+  },
+  "aggression": {
+   "en": "Long stinging tentacles - keep 15+ cm from neighbours.",
+   "hu": "Hosszú csípőcsápok – 15+ cm távolság a szomszédoktól."
+  },
+  "feeding": {
+   "en": "Photosynthetic; eagerly accepts meaty foods on tentacles.",
+   "hu": "Fotoszintetizáló; mohón elfogadja a csápokra kínált húsos táplálékot."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia and Indonesia.",
+   "hu": "Indo-Csendes-óceán: Ausztrália és Indonézia."
+  },
+  "notes": {
+   "en": "Classic showpiece LPS; wild-caught 'Elegance' can carry the Elegance Coral Syndrome - buy aquacultured frags where possible.",
+   "hu": "Klasszikus 'showpiece' LPS; a vadon gyűjtött példányok hordozhatják az 'Elegance szindrómát' – lehetőségleg tenyésztett fragokat vegyünk."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207618"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Catalaphyllia_jardinei%2C_Koh_Phangan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Catalaphyllia_jardinei,_Koh_Phangan.jpg",
+   "author": "Chaloklum Diving",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "duncanopsammia-axifuga",
+  "group": "coral",
+  "category": "lps-other",
+  "scientific_name": "Duncanopsammia axifuga",
+  "name_en": "Duncan Coral",
+  "name_hu": "Duncan korall",
+  "type": {
+   "en": "Branching colony of large tubular polyps.",
+   "hu": "Ágas telep nagy csöves polipokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Sandbed or lower rockwork; tolerates various positions.",
+   "hu": "Homokágy vagy alsó sziklázat; sokféle helyzetet tűr."
+  },
+  "aggression": {
+   "en": "Peaceful; short sweepers.",
+   "hu": "Békés; rövid csápok."
+  },
+  "feeding": {
+   "en": "Photosynthetic; very eager meaty target feeder.",
+   "hu": "Fotoszintetizáló; nagyon mohón fogadja a húsos célzott etetést."
+  },
+  "origin": {
+   "en": "Endemic to Australian waters.",
+   "hu": "Ausztrál vizek endemikus faja."
+  },
+  "notes": {
+   "en": "One of the easiest LPS; fast-growing, frags readily. Ideal beginner large-polyp coral.",
+   "hu": "Az egyik legkönnyebb LPS; gyorsan nő, könnyen fragelhető. Ideális kezdő nagy-polipú korall."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=289843"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Duncanopsammia_axifuga.jpg/1280px-Duncanopsammia_axifuga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Duncanopsammia_axifuga.jpg",
+   "author": "Kinkreet",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "galaxea-fascicularis",
+  "group": "coral",
+  "category": "lps-other",
+  "scientific_name": "Galaxea fascicularis",
+  "name_en": "Galaxy Coral",
+  "name_hu": "Galaxea korall",
+  "type": {
+   "en": "Encrusting/dome coral with star-like polyps.",
+   "hu": "Kéregképző/dóm korall csillagszerű polipokkal."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank; give a wide berth.",
+   "hu": "Az akvárium közepe; hagyjunk nagy helyet körülötte."
+  },
+  "aggression": {
+   "en": "EXTREMELY long sweeper tentacles (can reach 20+ cm) that sting hard.",
+   "hu": "Rendkívül hosszú csápok (20+ cm-re is elérnek), amelyek erősen csípenek."
+  },
+  "feeding": {
+   "en": "Photosynthetic; occasional plankton feeding.",
+   "hu": "Fotoszintetizáló; alkalmanként planktonetetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "The 'sweeper tentacle champion' - place on an island with nothing within reach. Otherwise undemanding.",
+   "hu": "A 'csápbajnok' – helyezzük elszigetelten, semmi se érje el. Egyébként igénytelen."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207366"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Coral_%28Galaxea_fascicularis%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_02.jpg/1280px-Coral_%28Galaxea_fascicularis%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Galaxea_fascicularis),_Anilao,_Filipinas,_2023-08-21,_DD_02.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "turbinaria-spp",
+  "group": "coral",
+  "category": "lps-other",
+  "scientific_name": "Turbinaria spp.",
+  "name_en": "Scroll / Cup Coral",
+  "name_hu": "Tekercs-/kehelykorall",
+  "type": {
+   "en": "Cup, scroll or plate shaped colonies.",
+   "hu": "Kehely-, tekercs- vagy lemez formájú telepek."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "medium",
+  "placement": {
+   "en": "Mid-tank; angle plates toward the light.",
+   "hu": "Az akvárium közepe; a lemezeket a fény felé döntsük."
+  },
+  "aggression": {
+   "en": "Low aggression.",
+   "hu": "Alacsony agresszió."
+  },
+  "feeding": {
+   "en": "Photosynthetic; fine plankton occasionally.",
+   "hu": "Fotoszintetizáló; alkalmanként finom plankton."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia, Fiji.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia, Fidzsi."
+  },
+  "notes": {
+   "en": "T. reniformis (yellow scroll) and T. peltata (cup) are staples; very tolerant of nutrient-rich water.",
+   "hu": "A T. reniformis (sárga tekercs) és a T. peltata (kehely) alapdarabok; jól tűrik a tápanyagban gazdag vizet."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206630"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Alga_parda_%28Turbinaria_ornata%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-16%2C_DD_57.jpg/1280px-Alga_parda_%28Turbinaria_ornata%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-16%2C_DD_57.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alga_parda_(Turbinaria_ornata),_mar_Rojo,_Egipto,_2023-04-16,_DD_57.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "trachyphyllia-geoffroyi",
+  "group": "coral",
+  "category": "lps-other",
+  "scientific_name": "Trachyphyllia geoffroyi",
+  "name_en": "Open Brain Coral",
+  "name_hu": "Nyitott agykorall",
+  "type": {
+   "en": "Free-living folded fleshy coral.",
+   "hu": "Szabadon fekvő, redőzött, húsos korall."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "On the sandbed; never on sharp rock.",
+   "hu": "Homokágyon; soha ne éles kövön."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "Photosynthetic; loves meaty target feeding - can swallow whole krill.",
+   "hu": "Fotoszintetizáló; kedveli a húsos célzott etetést – egész krillt is lenyelhet."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Australia, Indonesia, Fiji.",
+   "hu": "Indo-Csendes-óceán: Ausztrália, Indonézia, Fidzsi."
+  },
+  "notes": {
+   "en": "Rainbow and 'Wellsophyllia' forms are common; hardy and forgiving. Formerly split as Wellsophyllia radiata.",
+   "hu": "Szivárványos és 'Wellsophyllia' formák gyakoriak; ellenálló és megengedő. Korábban Wellsophyllia radiata néven külön fajnak tartották."
+  },
+  "diseases": [
+   "brown-jelly"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=207495"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Coral_%28Trachyphyllia_geoffroyi%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_147.jpg/1280px-Coral_%28Trachyphyllia_geoffroyi%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Trachyphyllia_geoffroyi),_Anilao,_Filipinas,_2023-08-21,_DD_147.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "tubastraea-spp",
+  "group": "coral",
+  "category": "nps",
+  "scientific_name": "Tubastraea spp.",
+  "name_en": "Sun Coral",
+  "name_hu": "Napkorallok (Tubastraea)",
+  "type": {
+   "en": "Encrusting colonies of bright orange/yellow tubular polyps; no zooxanthellae.",
+   "hu": "Kéregképző telepek élénk narancs/sárga csöves polipokkal; zooxanthellák nélkül."
+  },
+  "difficulty": "difficult",
+  "light": "low",
+  "flow": "medium",
+  "growth": "medium",
+  "placement": {
+   "en": "Shaded areas - caves and overhangs; light is not needed.",
+   "hu": "Árnyékos helyek – barlangokban és kihajolások alatt; fény nem szükséges."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "NON-photosynthetic: must be target-fed (mysis, brine, roe) 2-3x per week; polyps open at night or when trained.",
+   "hu": "NEM fotoszintetizáló: célzottan kell etetni (mysis, sórák, ikra) heti 2-3-szor; a polipok éjjel nyílnak, vagy betanítva."
+  },
+  "origin": {
+   "en": "Indo-Pacific and Caribbean (T. coccinea, T. tagusensis).",
+   "hu": "Indo-Csendes-óceán és Karib-tenger (T. coccinea, T. tagusensis)."
+  },
+  "notes": {
+   "en": "Stunning orange 'sun polyps' for dim tanks; in the Atlantic it is an invasive species. Feeding discipline is the key to success.",
+   "hu": "Lenyűgöző narancs 'nappolipok' homályos akváriumokba; az Atlanti-óceánon inváziós faj. Az etetési fegyelem a siker kulcsa."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=267930"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Coral_sol_%28Tubastraea_coccinea%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_22.jpg/1280px-Coral_sol_%28Tubastraea_coccinea%29%2C_Cabo_Pulmo%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-19%2C_DD_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_sol_(Tubastraea_coccinea),_Cabo_Pulmo,_Baja_California,_México,_2024-12-19,_DD_22.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "zoanthus-spp",
+  "group": "coral",
+  "category": "zoanthids",
+  "scientific_name": "Zoanthus spp.",
+  "name_en": "Zoanthids / Zoa Gardens",
+  "name_hu": "Zoanthidák (zoa kertek)",
+  "type": {
+   "en": "Mat-forming polyp colonies.",
+   "hu": "Szőnyegszerű poliptelepek."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Anywhere; mid-tank with good flow is ideal.",
+   "hu": "Bárhol; ideális a középső rész jó áramlással."
+  },
+  "aggression": {
+   "en": "Overgrows slow neighbours - chemical and shading warfare.",
+   "hu": "Benövi a lassú szomszédokat – árnyékolással és kémiai úton versenyez."
+  },
+  "feeding": {
+   "en": "Photosynthetic; absorbs dissolved organics; occasional phytoplankton.",
+   "hu": "Fotoszintetizáló; oldott szerves anyagot vesz fel; alkalmanként fitoplankton."
+  },
+  "origin": {
+   "en": "All tropical oceans.",
+   "hu": "Minden trópusi tengerben."
+  },
+  "notes": {
+   "en": "Extremely popular with endless colour morphs ('designer zoas') - these are NOT separate species. Palythoa toxin warning: wear gloves and eye protection; never handle open polyps with cuts.",
+   "hu": "Rendkívül népszerű, végtelen színmorfokkal ('designer zoa') – ezek NEM külön fajok. Palythoa-méregre figyelmeztetés: viseljünk kesztyűt és szemvédőt; sebes kézzel a nyitott polipot soha ne fogjuk meg."
+  },
+  "diseases": [
+   "brown-jelly",
+   "zoa-poaching-pests"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=206284"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/An%C3%A9mones_coloniales_Zoanthus.jpg/1280px-An%C3%A9mones_coloniales_Zoanthus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anémones_coloniales_Zoanthus.jpg",
+   "author": "M. Dagnino",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "palythoa-spp",
+  "group": "coral",
+  "category": "zoanthids",
+  "scientific_name": "Palythoa spp.",
+  "name_en": "Palythoa (button polyps)",
+  "name_hu": "Palythoa (gombpolipok)",
+  "type": {
+   "en": "Mat-forming larger polyps with sand-encrusted tissue.",
+   "hu": "Szőnyegszerű, nagyobb polipok homokkristályokat zárt szövettel."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank; tolerant of most conditions.",
+   "hu": "Az akvárium közepe; a legtöbb körülményt tűri."
+  },
+  "aggression": {
+   "en": "Overgrows neighbours.",
+   "hu": "Benövi a szomszédokat."
+  },
+  "feeding": {
+   "en": "Photosynthetic; captures particulate food.",
+   "hu": "Fotoszintetizáló; részecskés táplálékot fog."
+  },
+  "origin": {
+   "en": "All tropical oceans.",
+   "hu": "Minden trópusi tengerben."
+  },
+  "notes": {
+   "en": "TOXIC: contains palytoxin, one of the most dangerous natural toxins. Never boil, brush dry, or handle with open wounds; aquarium water splashes are fine but keep hands out of eyes.",
+   "hu": "MÉRGEZŐ: palytoxint tartalmaz, a legveszélyesebb természetes toxinok egyike. Soha ne forraljuk, ne keféljük szárazon, sebes kézzel ne fogjuk; az akváriumvizének csepjei nem veszélyesek, de a szemünkhöz ne érjünk hozzá."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205785"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Palythoa-Pink-Lotus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Palythoa-Pink-Lotus.jpg",
+   "author": "Reeflex.net",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "parazoanthus-axinellae",
+  "group": "coral",
+  "category": "zoanthids",
+  "scientific_name": "Parazoanthus axinellae",
+  "name_en": "Yellow Polyps",
+  "name_hu": "Sárga polipok",
+  "type": {
+   "en": "Encrusting yellow polyp colonies.",
+   "hu": "Kéregképző sárga poliptelepek."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank with moderate flow.",
+   "hu": "Az akvárium közepe mérsékelt áramlással."
+  },
+  "aggression": {
+   "en": "Peaceful but fast spreading.",
+   "hu": "Békés, de gyorsan terül."
+  },
+  "feeding": {
+   "en": "Photosynthetic plus particulate; readily catches floating food.",
+   "hu": "Fotoszintetizáló plusz részecskés; a lebegő táplálékot könnyen megfogja."
+  },
+  "origin": {
+   "en": "Mediterranean and eastern Atlantic (aquarium strains largely Indo-Pacific).",
+   "hu": "Földközi-tenger és kelet-atlanti (az akváriumi törzsek nagyrészt indo-csendes-óceániak)."
+  },
+  "notes": {
+   "en": "A classic beginner coral that spreads quickly; easy to frag by cutting mat sections.",
+   "hu": "Klasszikus kezdő korall, gyorsan terül; a szőnyegdarabok kivágásával könnyen fragelhető."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101055"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/An%C3%A9mona_incrustante_amarilla_%28Parazoanthus_axinellae%29%2C_Coral_Cave%2C_Gozo%2C_Malta%2C_2021-08-22%2C_DD_10.jpg/1280px-An%C3%A9mona_incrustante_amarilla_%28Parazoanthus_axinellae%29%2C_Coral_Cave%2C_Gozo%2C_Malta%2C_2021-08-22%2C_DD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anémona_incrustante_amarilla_(Parazoanthus_axinellae),_Coral_Cave,_Gozo,_Malta,_2021-08-22,_DD_10.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "discosoma-spp",
+  "group": "coral",
+  "category": "mushrooms",
+  "scientific_name": "Discosoma spp.",
+  "name_en": "Mushroom Corals (Discosoma)",
+  "name_hu": "Gombakorallok (Discosoma)",
+  "type": {
+   "en": "Flat, smooth mushroom polyps on a stalk.",
+   "hu": "Lapos, sima gombapolipok nyélen."
+  },
+  "difficulty": "easy",
+  "light": "low",
+  "flow": "low",
+  "growth": "fast",
+  "placement": {
+   "en": "Lower rockwork and shaded areas.",
+   "hu": "Alsó sziklázat és árnyékos helyek."
+  },
+  "aggression": {
+   "en": "Peaceful; can overgrow slow corals.",
+   "hu": "Békés; benőheti a lassú korallokat."
+  },
+  "feeding": {
+   "en": "Photosynthetic; absorbs nutrients - no target feeding needed.",
+   "hu": "Fotoszintetizáló; tápanyagot vesz fel – célzott etetés nem kell."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "The easiest 'corals' of all; nearly indestructible, tolerate low light and high nutrients. Multiplying via fission and pedal laceration.",
+   "hu": "A legkönnyebb 'korallok'; szinte elpusztíthatatlanok, a gyenge fényt és a magas tápanyagot is tűrik. Kettéosztódással és talp-leválással szaporodnak."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=267394"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Discosoma_carlgreni_-_Bristol_Zoo_1.jpg/1280px-Discosoma_carlgreni_-_Bristol_Zoo_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Discosoma_carlgreni_-_Bristol_Zoo_1.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "rhodactis-spp",
+  "group": "coral",
+  "category": "mushrooms",
+  "scientific_name": "Rhodactis spp.",
+  "name_en": "Hairy / Bounce Mushrooms",
+  "name_hu": "Szörös / bounce gombakorallok",
+  "type": {
+   "en": "Bumpy or hair-covered mushroom polyps.",
+   "hu": "Bunkós vagy szőrös gombapolipok."
+  },
+  "difficulty": "easy",
+  "light": "low",
+  "flow": "low",
+  "growth": "fast",
+  "placement": {
+   "en": "Low, shaded areas with gentle flow.",
+   "hu": "Alacsony, árnyékos helyek gyenge áramlással."
+  },
+  "aggression": {
+   "en": "Peaceful but can sting corals it touches.",
+   "hu": "Békés, de a hozzáérő korallokat megcsípheti."
+  },
+  "feeding": {
+   "en": "Photosynthetic; larger polyps take meaty scraps.",
+   "hu": "Fotoszintetizáló; a nagyobb polipok húsos falatokat is elfogadnak."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Includes the famous high-value 'Bounce' mushrooms - these are abnormal growth forms of Rhodactis, not separate species. Prices for a single polyp can be extreme; frag by careful division.",
+   "hu": "Ide tartoznak a híres, nagy értékű 'bounce' gombakorallok – ezek a Rhodactis rendellenes növekedési formái, nem külön fajok. Egyetlen polip ára extrém is lehet; óvatos osztással fragelhetők."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=267806"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/An%C3%A9monas_%28Rhodactis_bryoides%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-10%2C_DD_198.jpg/1280px-An%C3%A9monas_%28Rhodactis_bryoides%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-10%2C_DD_198.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anémonas_(Rhodactis_bryoides),_Mahé,_Seychelles,_2025-09-10,_DD_198.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ricordea-spp",
+  "group": "coral",
+  "category": "mushrooms",
+  "scientific_name": "Ricordea spp.",
+  "name_en": "Ricordea (Florida & Yuma)",
+  "name_hu": "Ricordea gombakorall",
+  "type": {
+   "en": "Bubble-tipped mushroom polyps.",
+   "hu": "Buborékcsápos gombapolipok."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "low",
+  "growth": "slow",
+  "placement": {
+   "en": "Lower to mid tank.",
+   "hu": "Az akvárium alsó-középső része."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "Photosynthetic; fine foods occasionally.",
+   "hu": "Fotoszintetizáló; alkalmanként finom táplálék."
+  },
+  "origin": {
+   "en": "R. florida: Caribbean; R. yuma: Indo-Pacific.",
+   "hu": "R. florida: Karib-tenger; R. yuma: Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Two species only (R. florida, R. yuma); colour morphs are not species. Florida Ricordea collection is regulated in the US; often available as aquacultured.",
+   "hu": "Csak két faj létezik (R. florida, R. yuma); a színmorfok nem fajok. A floridai Ricordea begyűjtése az USA-ban szabályozott; gyakran kapható tenyésztettként."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=267813"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Ricordea.jpg/1280px-Ricordea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ricordea.jpg",
+   "author": "Will Thomas",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "sinularia-spp",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Sinularia spp.",
+  "name_en": "Leather Corals (Sinularia)",
+  "name_hu": "Bőrkorallok (Sinularia)",
+  "type": {
+   "en": "Finger-like or lobed soft corals.",
+   "hu": "Ujjszerű vagy lebenyes lágy korallok."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank with good flow to shed waxy film.",
+   "hu": "Az akvárium közepe jó áramlással, hogy a viaszbevonat lehulljon."
+  },
+  "aggression": {
+   "en": "Chemical warfare: releases terpenes that slow stony corals - use carbon and provide space.",
+   "hu": "Kémiai védelem: terpéneket bocsát ki, amelyek lassítják a kemény korallokat – használjunk szenet, és hagyjunk helyet."
+  },
+  "feeding": {
+   "en": "Photosynthetic; no target feeding needed.",
+   "hu": "Fotoszintetizáló; célzott etetés nem kell."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Very hardy 'column' leathers (S. flexibilis) and finger leathers; regular shedding of mucus/wax is normal. Easy to frag by cutting.",
+   "hu": "Nagyon ellenálló 'oszlopos' (S. flexibilis) és ujj-bőrkorallok; a rendszeres nyák-/viaszvedlés normális. Kivágással könnyen fragelhetők."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205854"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flexible_Leather_Coral_%28Sinularia_flexibilis%29_-_GRB.jpg/1280px-Flexible_Leather_Coral_%28Sinularia_flexibilis%29_-_GRB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Flexible_Leather_Coral_(Sinularia_flexibilis)_-_GRB.jpg",
+   "author": "George Berninger Jr.",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "sarcophyton-spp",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Sarcophyton spp.",
+  "name_en": "Toadstool Leather Coral",
+  "name_hu": "Pöfetek-bőrkorall",
+  "type": {
+   "en": "Mushroom-shaped soft coral with a polyp-covered cap.",
+   "hu": "Gomba formájú lágy korall polipokkal borított kalappal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank; give room - caps grow wide.",
+   "hu": "Az akvárium közepe; hagyjunk helyet – a kalap szélesedik."
+  },
+  "aggression": {
+   "en": "Chemical warfare against SPS; keep distance and run carbon.",
+   "hu": "Kémiai hatás az SPS-rek; tartsuk távol és futtassunk szenet."
+  },
+  "feeding": {
+   "en": "Photosynthetic.",
+   "hu": "Fotoszintetizáló."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "A classic beginner soft coral that grows into huge colonies; wilting and shedding periods are normal. Frag by cutting cap sections.",
+   "hu": "Klasszikus kezdő lágy korall, amely hatalmas teleppé nő; a hervadás és a vedlési periódus normális. A kalap darabjainak kivágásával fragelhető."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=205483"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Coral_%28Sarcophyton_crassocaule%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_95.jpg/1280px-Coral_%28Sarcophyton_crassocaule%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral_(Sarcophyton_crassocaule),_Anilao,_Filipinas,_2023-08-21,_DD_95.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "capnella-spp",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Capnella spp.",
+  "name_en": "Kenya Tree Coral",
+  "name_hu": "Kenya fa korall",
+  "type": {
+   "en": "Tree-like soft coral with lobed tips.",
+   "hu": "Fa formájú lágy korall lebenyes csúcsokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank.",
+   "hu": "Az akvárium közepe."
+  },
+  "aggression": {
+   "en": "Low chemical aggression.",
+   "hu": "Alacsony kémiai agresszió."
+  },
+  "feeding": {
+   "en": "Photosynthetic.",
+   "hu": "Fotoszintetizáló."
+  },
+  "origin": {
+   "en": "Indo-West Pacific.",
+   "hu": "Indo-Nyugat-Csendes-óceán."
+  },
+  "notes": {
+   "en": "One of the easiest corals of all; drops branches that reattach everywhere. Great first coral.",
+   "hu": "Az egyik legkönnyebb korall; lehulló ágai mindenhol megtapadnak. Remek első korall."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=146763"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Capnella_2.JPG/1280px-Capnella_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Capnella_2.JPG",
+   "author": "PilarMeca",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "xenia-spp",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Xenia spp.",
+  "name_en": "Pulsing Xenia",
+  "name_hu": "Pulzáló Xenia",
+  "type": {
+   "en": "Polyps on stalks that rhythmically pulse.",
+   "hu": "Nyélen ülő polipok, amelyek ritmikusan pulzálnak."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Mid-tank; keep on an island - it spreads aggressively.",
+   "hu": "Az akvárium közepe; szigeten tartsuk – agresszíven terül."
+  },
+  "aggression": {
+   "en": "Overgrows everything in nutrient-rich tanks.",
+   "hu": "Tápanyagban gazdag akváriumban mindent benő."
+  },
+  "feeding": {
+   "en": "Photosynthetic; pulses aid nutrient uptake - no feeding needed.",
+   "hu": "Fotoszintetizáló; a pulzálás segíti a tápanyagfelvételt – etetés nem kell."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "The 'heartbeat' coral - fascinating pulsing motion. Thrives with elevated nutrients; can crash for no clear reason. Elongata and 'pom-pom' forms differ only in appearance.",
+   "hu": "A 'szívverés' korall – lenyűgöző pulzáló mozgás. Emelkedett tápanyaggal virul; időnként érthetetlen okból összeomlik. Az elongata és a 'pom-pom' formák csak megjelenésben különböznek."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=204396"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Acianthera_leptotifolia_%28as_Pleurothallis_leptotifolia%29_-_Robiquetia_mooreana_%28as_Saccolabium_sanderianum%29_-_Xenia_3_pl_276.jpg/1280px-Acianthera_leptotifolia_%28as_Pleurothallis_leptotifolia%29_-_Robiquetia_mooreana_%28as_Saccolabium_sanderianum%29_-_Xenia_3_pl_276.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acianthera_leptotifolia_(as_Pleurothallis_leptotifolia)_-_Robiquetia_mooreana_(as_Saccolabium_sanderianum)_-_Xenia_3_pl_276.jpg",
+   "author": "Heinrich Gustav Reichenbach",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "briareum-violacea",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Briareum violacea (Pachyclavularia)",
+  "name_en": "Star Polyps",
+  "name_hu": "Csillagpolipok",
+  "type": {
+   "en": "Encrusting violet mat with green star polyps.",
+   "hu": "Kéregképző ibolya szőnyeg zöld csillagpolipokkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Anywhere with flow - loves growing up back walls.",
+   "hu": "Bárhol áramlással – imád a hátfalra felkúszni."
+  },
+  "aggression": {
+   "en": "Encrusts over everything in its path.",
+   "hu": "Mindent benő, ami az útjába kerül."
+  },
+  "feeding": {
+   "en": "Photosynthetic.",
+   "hu": "Fotoszintetizáló."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "One of the easiest corals; great indicator of water quality - polyps stay closed when something is wrong. Grows on glass, pipes and rock.",
+   "hu": "Az egyik legkönnyebb korall; kiváló vízminőség-indikátor – ha valami nincs rendben, a polipok zárva maradnak. Üvegre, csövekre és kőre nő."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Briareum.JPG/1280px-Briareum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Briareum.JPG",
+   "author": "User:Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "gorgonia-spp",
+  "group": "coral",
+  "category": "soft",
+  "scientific_name": "Gorgonians (e.g. Pinnigorgia, Muricea, Antillogorgia)",
+  "name_en": "Gorgonians / Sea Fans",
+  "name_hu": "Legyezőkorallok (gorgonák)",
+  "type": {
+   "en": "Branching fan-shaped colonies with polyps on a flexible skeleton.",
+   "hu": "Ágas, legyező formájú telepek polipokkal rugalmas vázon."
+  },
+  "difficulty": "moderate",
+  "light": "medium",
+  "flow": "high",
+  "growth": "slow",
+  "placement": {
+   "en": "Strong, preferably alternating flow; anchor the base well.",
+   "hu": "Erős, lehetőleg váltakozó áramlás; a bázist jól rögzítsük."
+  },
+  "aggression": {
+   "en": "Peaceful.",
+   "hu": "Békés."
+  },
+  "feeding": {
+   "en": "Most need regular plankton feeding (phyto + zooplankton substitutes); some photosynthetic.",
+   "hu": "A legtöbb rendszeres planktonetetést igényel (fito + zooplankton-helyettesítő); egyesek fotoszintetizálóak."
+  },
+  "origin": {
+   "en": "Caribbean and Indo-Pacific.",
+   "hu": "Karib-tenger és Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Photosynthetic Caribbean types (sea rods, 'purple frilly') are easy; non-photosynthetic sea fans are expert-only. Check polyp extension before buying.",
+   "hu": "A fotoszintetizáló karibi típusok (tengeri pálcák, 'purple frilly') könnyűek; a nem fotoszintetizáló tengeri legyezők csak szakértőknek. Vásárlás előtt nézzük a polipkitárulást."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Coral%2C_Hydroid_and_Gorgonian.jpg/1280px-Coral%2C_Hydroid_and_Gorgonian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coral,_Hydroid_and_Gorgonian.jpg",
+   "author": "Mudasir Zainuddin",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chaetomorpha-spp",
+  "group": "coral",
+  "category": "algae",
+  "scientific_name": "Chaetomorpha spp.",
+  "name_en": "Chaeto (refugium algae)",
+  "name_hu": "Chaeto (refugium alga)",
+  "type": {
+   "en": "Coarse green hair-like tangle.",
+   "hu": "Durbva zöld, hajszálcsomós algafonat."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Refugium/sump with a light on reverse cycle.",
+   "hu": "Refugium/sump, éjjel üzemelő fénnyel."
+  },
+  "aggression": {
+   "en": "None.",
+   "hu": "Nincs."
+  },
+  "feeding": {
+   "en": "Consumes nitrate and phosphate - the main 'nutrient export' algae.",
+   "hu": "Nitrátot és foszfátot fogyaszt – a fő 'tápanyagexport' alga."
+  },
+  "origin": {
+   "en": "Cosmopolitan in tropical and temperate seas.",
+   "hu": "Kozmopolita trópusi és mérsékelt övi tengerekben."
+  },
+  "notes": {
+   "en": "The workhorse of nutrient control; harvest a handful weekly to export nutrients. Never let it into the display - it can trap fish.",
+   "hu": "A tápanyagkontroll munkamóloge; hetente egy maréknyi learatásával exportáljuk a tápanyagot. Soha ne kerüljön a bemutató akváriumba – halakat ejthet csapdába."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=143995"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/CA0008920050002_Watercolour_illustration_of_the_Rhizoclonium_and_Chaetomorpha_algae_Plate_5_from_Seaweeds_of_New_Zealand_Te_Papa_829666_172463.jpg/1280px-CA0008920050002_Watercolour_illustration_of_the_Rhizoclonium_and_Chaetomorpha_algae_Plate_5_from_Seaweeds_of_New_Zealand_Te_Papa_829666_172463.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:CA0008920050002_Watercolour_illustration_of_the_Rhizoclonium_and_Chaetomorpha_algae_Plate_5_from_Seaweeds_of_New_Zealand_Te_Papa_829666_172463.jpg",
+   "author": "Nancy Adams",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "caulerpa-spp",
+  "group": "coral",
+  "category": "algae",
+  "scientific_name": "Caulerpa spp.",
+  "name_en": "Caulerpa (grape, feather, prolifera)",
+  "name_hu": "Caulerpa (szőlő-, toll- és szalagalga)",
+  "type": {
+   "en": "Runner-forming macro algae with various frond shapes.",
+   "hu": "Futónövényes makroalga különféle levélformaikkal."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "fast",
+  "placement": {
+   "en": "Refugium or dedicated algae scrubber; prune heavily.",
+   "hu": "Refugium vagy dedikált algaszűrő; erősen metsszük."
+  },
+  "aggression": {
+   "en": "None in refugium; can smother display corals if it escapes.",
+   "hu": "Refugiumban nincs; ha kiszabadul, elnyomhatja a korallokat."
+  },
+  "feeding": {
+   "en": "Consumes nitrate and phosphate.",
+   "hu": "Nitrátot és foszfátot fogyaszt."
+  },
+  "origin": {
+   "en": "Tropical seas worldwide; some species invasive in the Mediterranean (C. taxifolia).",
+   "hu": "Világszerte trópusi tengerek; egyes fajok a Földközi-tengerben inváziósak (C. taxifolia)."
+  },
+  "notes": {
+   "en": "Powerful nutrient export but can 'go sexual' and crash, releasing nutrients - keep it pruned and lit 24/7 or on reverse cycle.",
+   "hu": "Erős tápanyagexport, de 'szexuálissá' válhat és összeomolhat, felszabadítva a tápanyagot – tartsuk metsszve, és világítsuk éjjel-nappal vagy fordított ciklusban."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=143816"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Alga_uva_marina_%28Caulerpa_racemosa%29%2C_Nosy_Tanikely%2C_Madagascar%2C_2025-09-20%2C_DD_02.jpg/1280px-Alga_uva_marina_%28Caulerpa_racemosa%29%2C_Nosy_Tanikely%2C_Madagascar%2C_2025-09-20%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alga_uva_marina_(Caulerpa_racemosa),_Nosy_Tanikely,_Madagascar,_2025-09-20,_DD_02.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "halimeda-spp",
+  "group": "coral",
+  "category": "algae",
+  "scientific_name": "Halimeda spp.",
+  "name_en": "Halimeda (calcified algae)",
+  "name_hu": "Halimeda (mészesedő alga)",
+  "type": {
+   "en": "Calcareous segmented discs/plates.",
+   "hu": "Mészes szegmensekből álló korongok/lemezek."
+  },
+  "difficulty": "easy",
+  "light": "medium",
+  "flow": "medium",
+  "growth": "slow",
+  "placement": {
+   "en": "Display tank sandbed/rockwork - decorative.",
+   "hu": "Bemutató akvárium homokágya/sziklázat – díszítő."
+  },
+  "aggression": {
+   "en": "None.",
+   "hu": "Nincs."
+  },
+  "feeding": {
+   "en": "Consumes nitrate/phosphate; needs stable calcium and alkalinity.",
+   "hu": "Nitrátot/foszfátot fogyaszt; stabil kalciumot és alkalitást igényel."
+  },
+  "origin": {
+   "en": "Tropical seas worldwide.",
+   "hu": "Világszerte trópusi tengerek."
+  },
+  "notes": {
+   "en": "Slow, decorative, reef-safe macro algae; individual segments die off and turn white naturally - this is normal turnover.",
+   "hu": "Lassú, díszítő, zátonybiztos makroalga; az egyes szegmensek természetesen elhalnak és kifehérednek – ez normális cserélődés."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=143820"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Alga_%28Halimeda_tuna%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_31.jpg/1280px-Alga_%28Halimeda_tuna%29%2C_Nosy_Iranja%2C_Madagascar%2C_2025-09-17%2C_DD_31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alga_(Halimeda_tuna),_Nosy_Iranja,_Madagascar,_2025-09-17,_DD_31.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

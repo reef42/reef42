@@ -1,0 +1,262 @@
+[
+ {
+  "id": "salarias-fasciatus",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Salarias fasciatus",
+  "name_en": "Lawnmower Blenny",
+  "name_hu": "Fűnyíró blenny",
+  "size_cm": {
+   "min": 10,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, comical perch-and-sit fish; territorial towards other blennies. Spends its day grazing rockwork.",
+   "hu": "Békés, mulatságos 'ülő-leső' hal; más blennikhez territoriális. A napját a köveken legelve tölti."
+  },
+  "feeding": {
+   "en": "Herbivore: needs natural algae film; supplement with nori, spirulina, vegetable matter. Can starve in clean tanks.",
+   "hu": "Növényevő: természetes alga bevonatot igényel; norival, spirulinával, zöldséges táplálékkal egészítsük ki. Tiszta akváriumban éhezhet."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Excellent hair-algae control; may perch on and nip large-polyp corals. Only add to tanks with algae present.",
+   "hu": "Kitűnő hajzsalga-irtó; ráülhet a nagy polipú korallokra és csipkedheti őket. Csak algás akváriumba tegyük."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219340"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Salarias-fasciatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bl%C3%A9nido_%28Salarias_fasciatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_276.jpg/1280px-Bl%C3%A9nido_%28Salarias_fasciatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_276.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blénido_(Salarias_fasciatus),_Anilao,_Filipinas,_2023-08-22,_DD_276.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "salarias-ramosus",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Salarias ramosus",
+  "name_en": "Starry Blenny",
+  "name_hu": "Csillagos blenny",
+  "size_cm": {
+   "min": 10,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Similar to the lawnmower blenny; perches on rocks and grazes algae. Individual specimens may nip corals.",
+   "hu": "A fűnyíró blennyhez hasonló; a köveken ül és algát legel. Egyes példányok csipkedhetik a korallokat."
+  },
+  "feeding": {
+   "en": "Herbivore: algae film, nori, spirulina.",
+   "hu": "Növényevő: alga bevonat, nori, spirulina."
+  },
+  "origin": {
+   "en": "Western Pacific: Philippines and Indonesia to New Guinea and the Solomon Islands.",
+   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetek és Indonézia Új-Guineáig és a Salamon-szigetekig."
+  },
+  "notes": {
+   "en": "Dark starry pattern; slightly more coral-safe than S. fasciatus on average.",
+   "hu": "Sötét, csillagpöttyös mintázat; átlagban valamivel korallbarátabb, mint az S. fasciatus."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278376"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Salarias-ramosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Salarias_ramosus_-_Chris_Spain_-_609416558.jpeg/1280px-Salarias_ramosus_-_Chris_Spain_-_609416558.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Salarias_ramosus_-_Chris_Spain_-_609416558.jpeg",
+   "author": "Chris Spain",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "ecsenius-bicolor",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Ecsenius bicolor",
+  "name_en": "Bicolor Blenny",
+  "name_hu": "Kétszínű blenny",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Small, curious blenny that darts into holes; may fight with other blennies or gobies.",
+   "hu": "Kis, kíváncsi blenny, amely lyukakba cikázik; más blennikkel vagy gébhalakkal összeverekedhet."
+  },
+  "feeding": {
+   "en": "Herbivore/omnivore: algae, spirulina, mysis, small pellets.",
+   "hu": "Növényevő/mindenevő: alga, spirulina, mysis, kis pellet."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Sri Lanka to the Philippines and New Guinea.",
+   "hu": "Indo-Csendes-óceán: Srí Lankától a Fülöp-szigetekig és Új-Guineáig."
+  },
+  "notes": {
+   "en": "Good nano reef blenny; occasional SPS polyp nipping has been reported.",
+   "hu": "Jó nano zátony-blenny; SPS polipcsipkelésről időnként beszámolnak."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277652"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ecsenius-bicolor.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Bicolor_blenny_Ecsenius_bicolor.jpg/1280px-Bicolor_blenny_Ecsenius_bicolor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bicolor_blenny_Ecsenius_bicolor.jpg",
+   "author": "Brian Gratwicke",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "meiacanthus-atrodorsalis",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Meiacanthus atrodorsalis",
+  "name_en": "Canary Blenny / Yellow Fang Blenny",
+  "name_hu": "Kanári méregfogú blenny",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Reef-safe fang blenny; venomous bite deters predators. Peaceful but active. Pairs possible.",
+   "hu": "Korallbiztos méregfogú blenny; méregcsípése elriasztja a ragadozókat. Békés, de aktív. Párosan is tartható."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets.",
+   "hu": "Húsevő: mysis, sórák, kis pellet."
+  },
+  "origin": {
+   "en": "Western Pacific: Ryukyu Islands to the Philippines, Indonesia and New Guinea.",
+   "hu": "Nyugat-Csendes-óceán: Ryukyu-szigetektől a Fülöp-szigetekig, Indonéziáig és Új-Guineáig."
+  },
+  "notes": {
+   "en": "Venomous fangs (mild, for humans roughly like a bee sting); do not use nets - use a container.",
+   "hu": "Méregfogai vannak (enyhe, emberre nagyjából méhcsípés-szerű); ne hálózzuk – használjunk edényt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=279304"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Meiacanthus-atrodorsalis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Forktail_Blennies_%28Meiacanthus_atrodorsalis%29_%286133261612%29.jpg/1280px-Forktail_Blennies_%28Meiacanthus_atrodorsalis%29_%286133261612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Forktail_Blennies_(Meiacanthus_atrodorsalis)_(6133261612).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ }
+]

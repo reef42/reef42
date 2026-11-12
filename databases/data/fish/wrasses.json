@@ -1,0 +1,587 @@
+[
+ {
+  "id": "labroides-dimidiatus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Labroides dimidiatus",
+  "name_en": "Cleaner Wrasse",
+  "name_hu": "Tisztogató ajaksügér",
+  "size_cm": {
+   "min": 9,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 5
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 500,
+  "difficulty": "difficult",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sets up a cleaning station; peaceful with all fish. Should ideally be kept with fish that carry parasites.",
+   "hu": "Tisztogatóállomást létesít; minden hallal békés. Ideálisan olyan halak közé valós, amelyek parazitákat hordoznak."
+  },
+  "feeding": {
+   "en": "Specialist: eats parasites and dead skin from other fish; may accept small frozen foods but often starves without clients.",
+   "hu": "Specialista: más halakról szedi le a parazitákat és az elhalt hámot; kis fagyasztott táplálékot elfogadhat, de 'ügyfelek' nélkül gyakran éhen hal."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "High mortality in captivity and over-collection concerns - prefer cleaner shrimp or neon gobies for parasite control. Adding it to treat ich is ineffective: cleaner wrasses do not remove parasites from the gills and mouth.",
+   "hu": "Fogságban magas elhullás és túlzott begyűjtés miatti aggályok – parazitakontrollra inkább tisztogató garnélát vagy neon gébhalat válasszunk. Ich kezelésére alkalmatlan: a tisztogatók a kopoltyúkról és szájüregből nem távolítják el a parazitákat."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219014"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Labroides-dimidiatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Golden_damselfish_%28Amblyglyphidodon_aureus%29_and_Bluestreak_cleaner_wrasse_%28Labroides_dimidiatus%29_%2832290722502%29.jpg/1280px-Golden_damselfish_%28Amblyglyphidodon_aureus%29_and_Bluestreak_cleaner_wrasse_%28Labroides_dimidiatus%29_%2832290722502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Golden_damselfish_(Amblyglyphidodon_aureus)_and_Bluestreak_cleaner_wrasse_(Labroides_dimidiatus)_(32290722502).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "thalassoma-lunare",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Thalassoma lunare",
+  "name_en": "Moon Wrasse / Lunar Wrasse",
+  "name_cm": null,
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Fast, aggressive feeder; will outcompete shy fish. Eats small invertebrates, snails and shrimps.",
+   "hu": "Gyors, agresszív evő; elnyomja a félénk halakat. Kis gerincteleneket, csigákat és garnélákat fogyaszt."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, krill, chopped seafood; also hunts inverts in the tank.",
+   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús; az akváriumban is vadászik gerinctelenekre."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i, north to Japan, south to New Zealand.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Zélandig."
+  },
+  "notes": {
+   "en": "Hardy and beautiful but only for fish-only or aggressive tanks; not for reef or peaceful community tanks.",
+   "hu": "Ellenálló és szép, de csak halas vagy agresszív akváriumba; zátonyos vagy békés közösséges akváriumba nem."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212209"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Thalassoma-lunare.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/L%C3%A1brido_lunar_%28Thalassoma_lunare%29%2C_Nosy_Tanikely%2C_Madagascar%2C_2025-09-19%2C_DD_06.jpg/1280px-L%C3%A1brido_lunar_%28Thalassoma_lunare%29%2C_Nosy_Tanikely%2C_Madagascar%2C_2025-09-19%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lábrido_lunar_(Thalassoma_lunare),_Nosy_Tanikely,_Madagascar,_2025-09-19,_DD_06.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "halichoeres-chrysus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres chrysus",
+  "name_en": "Yellow Coris Wrasse / Canary Wrasse",
+  "name_hu": "Kanári ajaksügér",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active hunter of small invertebrates; sleeps buried in the sand. Keep a deep sand bed with fine sand.",
+   "hu": "Békés, aktívan vadászik kis gerinctelenekre; a homokba ásva alszik. Finom, mély homokágyat igényel."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, pellets; eats flatworms, bristleworms and pyramid snails from the rocks.",
+   "hu": "Húsevő: mysis, sórák, pellet; a kövekről laposférgeket, csillagférgeket és piramiscsigákat fogyaszt."
+  },
+  "origin": {
+   "en": "Western Pacific: Japan to the Philippines, Indonesia and New Guinea.",
+   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigeteken át Indonéziáig és Új-Guineáig."
+  },
+  "notes": {
+   "en": "Popular 'workhorse' wrasse for pest control (flatworms, planaria). Jump risk - use a tight lid.",
+   "hu": "Népszerű 'munkaló' ajaksügér kártevőirtásra (laposférgek, planáriák). Ugrásra hajlamos – jól záródó fedél szükséges."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275759"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-chrysus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Canary_Wrasses_%28Halichoeres_chrysus%29_%286059377996%29.jpg/1280px-Canary_Wrasses_%28Halichoeres_chrysus%29_%286059377996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Canary_Wrasses_(Halichoeres_chrysus)_(6059377996).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "halichoeres-melanurus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres melanurus",
+  "name_en": "Melanurus Wrasse / Hoeven's Wrasse",
+  "name_hu": "Melanurus ajaksügér",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 500,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, reef-safe hunter; buries in sand to sleep. Compatible with most community fish.",
+   "hu": "Békés, korallbiztos vadász; alváshoz a homokba ássa magát. A legtöbb közösségi hallal kompatibilis."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, pellets; eats flatworms, bristleworms, pyramid snails.",
+   "hu": "Húsevő: mysis, sórák, pellet; laposférgeket, csillagférgeket, piramiscsigákat eszik."
+  },
+  "origin": {
+   "en": "Western Pacific: Ryukyu Islands to the Great Barrier Reef and New Caledonia.",
+   "hu": "Nyugat-Csendes-óceán: Ryukyu-szigetektől a Nagy Korallzátonyig és Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "One of the best pest-control wrasses for reef tanks; active by day. Needs 3-5 cm fine sand cover.",
+   "hu": "Az egyik legjobb kártevőirtó ajaksügér zátonyos akváriumokba; nappal aktív. 3–5 cm finom homoktakarót igényel."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275776"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-melanurus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Couple_of_Tail-spot_Wrasses_%28Halichoeres_melanurus%29_%288456968318%29.jpg/1280px-Couple_of_Tail-spot_Wrasses_%28Halichoeres_melanurus%29_%288456968318%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Couple_of_Tail-spot_Wrasses_(Halichoeres_melanurus)_(8456968318).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "halichoeres-iridis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres iridis",
+  "name_en": "Iridis Wrasse / Rainbow Wrasse",
+  "name_hu": "Szivárvány ajaksügér",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful; similar habits to H. melanurus - buries in fine sand at night.",
+   "hu": "Békés; a H. melanurushoz hasonló életmódú – éjszaka finom homokba ássa magát."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, pellets; hunts small inverts.",
+   "hu": "Húsevő: mysis, sórák, pellet; kis gerincteleneket vadász."
+  },
+  "origin": {
+   "en": "Southwest Pacific: Fiji, Tonga, Samoa and Vanuatu.",
+   "hu": "Délnyugat-Csendes-óceán: Fidzsi, Tonga, Szamoa és Vanuatu."
+  },
+  "notes": {
+   "en": "Colourful Fijian import; same care as other Halichoeres. Jump risk.",
+   "hu": "Színes fidzsi import; gondozása a többi Halichoeresszel azonos. Ugrásra hajlamos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218997"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-iridis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Halichoeres_iridis.JPG/1280px-Halichoeres_iridis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Halichoeres_iridis.JPG",
+   "author": "Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "coris-gaimard",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Coris gaimard",
+  "name_en": "Yellowtail Coris / Gaimard's Wrasse",
+  "name_hu": "Sárgafarkú ajaksügér",
+  "size_cm": {
+   "min": 25,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1200,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Large, active hunter; juveniles are strikingly red with white saddles. Will eat most inverts including shrimp and crabs.",
+   "hu": "Nagy, aktív vadász; a fiatalok feltűnő vörösek fehér foltokkal. A gerinctelenek többségét, garnélát és rákot is megeszi."
+  },
+  "feeding": {
+   "en": "Carnivore: large meaty foods; also consumes snails, hermit crabs and urchins in the wild.",
+   "hu": "Húsevő: nagyobb húsos táplálék; a természetben csigákat, remeterákokat és sünöket fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Hawai'i, north to Japan, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Grows very large; suitable only for big fish-only systems. Buries in coarse sand and rearranges rockwork.",
+   "hu": "Nagyon nagyra nő; csak nagy, halas rendszerekbe való. Durva homokba ássa magát, és átrendezheti a dekorációt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218960"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Coris-gaimard.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Coris_gaimard%2C_Macropharyngodon_meleagris.jpg/1280px-Coris_gaimard%2C_Macropharyngodon_meleagris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Coris_gaimard,_Macropharyngodon_meleagris.jpg",
+   "author": "Kevin Lino NOAA/NMFS/PIFSC/ESD",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pseudocheilinus-hexataenia",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Pseudocheilinus hexataenia",
+  "name_en": "Six-line Wrasse",
+  "name_hu": "Hatcsíkos ajaksügér",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Small but territorial; darts among rocks. May harass shy fish and eat small ornamental shrimps.",
+   "hu": "Kicsi, de territoriális; a kövek közt cikázik. Félénk halakat zaklathat, kis díszgarnélákat megehet."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine, pellets; eats bristleworms and flatworms.",
+   "hu": "Húsevő: mysis, sórák, pellet; csillagférgeket és laposférgeket fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Fiji, north to Japan, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Fidzsiig, északon Japánig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Great for nano reefs (100 L+); active and hardy. One per tank; jump risk.",
+   "hu": "Kiváló nano-zátonyokhoz (100 liter felett); aktív és ellenálló. Akváriumonként egy példány; ugrásra hajlamos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208915"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudocheilinus-hexataenia.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/FMIB_39739_Pseudocheilinus_hexataenia_Bleeker.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:FMIB_39739_Pseudocheilinus_hexataenia_Bleeker.jpeg",
+   "author": "David Starr Jordan / Alvin Seale",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "novaculichthys-taeniurus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Novaculichthys taeniourus",
+  "name_en": "Dragon Wrasse / Rockmover Wrasse",
+  "name_hu": "Sárkány ajaksügér",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Famous for flipping rocks, rubble and corals while hunting; juveniles drift like seaweed. Very destructive in reef tanks.",
+   "hu": "Arról híres, hogy vadászat közben köveket, törmeléket és korallokat forgat meg; a fiatalok hínárként sodródnak. Zátonyos akváriumban nagyon romboló."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, krill, chopped seafood; digs for inverts in the sand.",
+   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús; a homokban gerincteleneket ás ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Fascinating behaviour but only for fish-only systems with secure rockwork and deep sand.",
+   "hu": "Lenyűgöző viselkedés, de csak stabil dekorációjú, mély homokú halas akváriumokba."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219035"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Novaculichthys-taeniourus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Cleaning_station_konan.jpg/1280px-Cleaning_station_konan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cleaning_station_konan.jpg",
+   "author": "Brocken Inaglory",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-rubrimarginatus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus rubrimarginatus",
+  "name_en": "Red-margin Fairy Wrasse",
+  "name_hu": "Vörösszegélyű tündérsügér",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Typical fairy wrasse: peaceful, active mid-water swimmer; males display to each other. One male with several females.",
+   "hu": "Tipikus tündérsügér: békés, aktívan a víz középső rétegében úszik; a hímek egymásnak mutatkoznak. Egy hím és több nőstény."
+  },
+  "feeding": {
+   "en": "Planktivore: small meaty foods 2-3x daily (mysis, copepods, roe, fine pellets).",
+   "hu": "Planktonevő: napi 2-3-szor kis húsos táplálék (mysis, evezőlábú rákok, ikra, apró pellet)."
+  },
+  "origin": {
+   "en": "Western Pacific: Japan to the Philippines, Indonesia and New Guinea.",
+   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigeteken át Indonéziáig és Új-Guineáig."
+  },
+  "notes": {
+   "en": "Perfect reef-safe wrasse; vivid colors. Jump risk - tight lid required. Do not mix with Pseudocheilinus species.",
+   "hu": "Tökéletes korallbiztos ajaksügér; élénk színekkel. Ugrásveszély – jól záródó fedél kell. Pseudocheilinus fajokkal ne keverjük."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277865"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-rubrimarginatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Cirrhilabrus_rubrimarginatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_rubrimarginatus.jpg",
+   "author": "User:Izuzuki",
+   "license": "CC BY 4.0"
+  }
+ }
+]

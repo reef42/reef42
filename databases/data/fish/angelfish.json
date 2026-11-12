@@ -1,0 +1,716 @@
+[
+ {
+  "id": "pomacanthus-imperator",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Pomacanthus imperator",
+  "name_en": "Emperor Angelfish",
+  "name_hu": "Császár angyalhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1200,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive; intolerant of other angelfish. Juveniles are dark blue with white circles and act as cleaners.",
+   "hu": "Félig agresszív; más angyalhalakat nem tűr meg. A fiatalok sötétkékek fehér karikákkal, és tisztogatóként viselkednek."
+  },
+  "feeding": {
+   "en": "Omnivore: sponges, tunicates and algae in the wild; offer sponge-based frozen angelfish diets, mysis, nori.",
+   "hu": "Mindenevő: a természetben szivacsokat, zsákállatokat és algát eszik; adjunk szivacs-alapú angyalhal-diétát, mysist, norit."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i, north to Japan, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Iconic large angelfish with a dramatic juvenile-to-adult colour change. Nips corals and clam mantles; fish-only or FOWLR tanks.",
+   "hu": "Ikonszerű nagy angyalhal, drámai zsenge–felnőtt színváltással. Csipkedi a korallokat és a kagylóköpenyt; csak halas vagy FOWLR akváriumba való."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220001"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacanthus-imperator.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg/1280px-20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg",
+   "author": "Rudolphous",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pomacanthus-semicirculatus",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Pomacanthus semicirculatus",
+  "name_en": "Koran Angelfish",
+  "name_hu": "Félkarikás angyalhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1200,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive; hardy once established but hostile to other large angelfish.",
+   "hu": "Félig agresszív; berendezkedés után ellenálló, de más nagy angyalhalakkal ellenséges."
+  },
+  "feeding": {
+   "en": "Omnivore with sponge preference: angelfish formula diets, mysis, nori.",
+   "hu": "Szivacs-preferenciájú mindenevő: angyalhal-diéták, mysis, nori."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: East Africa to Fiji, north to Japan, south to Australia.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Kelet-Afrikától Fidzsiig, északon Japánig, délen Ausztráliáig."
+  },
+  "notes": {
+   "en": "Juveniles have electric blue semicircular patterns; adults blue-green with fine speckles. Not coral-safe.",
+   "hu": "A fiatalok elektromos kék félkör-mintázatúak; a felnőttek kékeszöldek finom pöttyözéssel. Nem korallbiztos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220003"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacanthus-semicirculatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Pomacanthus_semicirculatus%2C_Timor_Este.jpg/1280px-Pomacanthus_semicirculatus%2C_Timor_Este.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacanthus_semicirculatus,_Timor_Este.jpg",
+   "author": "Kevin Lino NOAA/NMFS/PIFSC/ESD",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "pomacanthus-maculosus",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Pomacanthus maculosus",
+  "name_en": "Yellowbar Angelfish / Map Angelfish",
+  "name_hu": "Sárgafoltú angyalhal",
+  "size_cm": {
+   "min": 25,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1200,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive and hardy; one of the more forgiving large angelfish.",
+   "hu": "Félig agresszív és ellenálló; a megengedőbb nagy angyalhalak egyike."
+  },
+  "feeding": {
+   "en": "Omnivore: sponge-based diets, mysis, chopped seafood, nori.",
+   "hu": "Mindenevő: szivacs-alapú diéták, mysis, apróra vágott tengeri hús, nori."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Red Sea and East Africa to the Arabian/Persian Gulf.",
+   "hu": "Nyugati Indiai-óceán: Vörös-tenger és Kelet-Afrikától az Arab-/Perzsa-öbölig."
+  },
+  "notes": {
+   "en": "Beautiful violet body with a yellow saddle; robust Red Sea import. Not coral-safe.",
+   "hu": "Gyönyörű ibolyakék test sárga folttal; robusztus, Vörös-tengeri import. Nem korallbiztos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220005"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacanthus-maculosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Grand_Aquarium_Saint-Malo_-_Pomacanthus_maculosus_01.jpg/1280px-Grand_Aquarium_Saint-Malo_-_Pomacanthus_maculosus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Grand_Aquarium_Saint-Malo_-_Pomacanthus_maculosus_01.jpg",
+   "author": "Tylwyth Eldar",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pomacanthus-asfur",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Pomacanthus asfur",
+  "name_en": "Arabian Angelfish",
+  "name_hu": "Arab angyalhal",
+  "size_cm": {
+   "min": 25,
+   "max": 35
+  },
+  "lifespan_wild_years": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Shy but territorial; prefers caves and dimmer, deeper-water style aquascapes.",
+   "hu": "Félénk, de territoriális; barlangokat és félhomályos, mélyvízi jellegű dekorációt kedvel."
+  },
+  "feeding": {
+   "en": "Omnivore: sponge-based diets, mysis, nori; wild diet includes sponges and tunicates.",
+   "hu": "Mindenevő: szivacs-alapú diéták, mysis, nori; a vad étrend szivacsokat és zsákállatokat tartalmaz."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Red Sea, Gulf of Aden, Arabian Gulf.",
+   "hu": "Nyugati Indiai-óceán: Vörös-tenger, Ádeni-öböl, Arab-öböl."
+  },
+  "notes": {
+   "en": "Striking yellow-banded deep-water angel; sensitive during acclimation. Not coral-safe.",
+   "hu": "Szembetűnő sárga sávos mélyvízi angyalhal; a beszoktatás alatt érzékeny. Nem korallbiztos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219999"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacanthus-asfur.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pomacanthus_asfur_2.jpg/1280px-Pomacanthus_asfur_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacanthus_asfur_2.jpg",
+   "author": "Thatfishplace/thatpetplace",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "holacanthus-ciliaris",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Holacanthus ciliaris",
+  "name_en": "Queen Angelfish",
+  "name_hu": "Királynő-angyalhal",
+  "size_cm": {
+   "min": 30,
+   "max": 45
+  },
+  "lifespan_wild_years": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": 10,
+   "max": 20
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive; bold, active swimmer that dominates large tanks.",
+   "hu": "Félig agresszív; merész, aktívan úszó, nagy akváriumok domináns halak egyike."
+  },
+  "feeding": {
+   "en": "Omnivore: sponges in the wild; angelfish formula, mysis, nori, chopped seafood.",
+   "hu": "Mindenevő: a természetben szivacsot eszik; angyalhal-diéta, mysis, nori, apróra vágott tengeri hús."
+  },
+  "origin": {
+   "en": "Western Atlantic: Florida and Bermuda to Brazil, including the Caribbean.",
+   "hu": "Nyugat-Atlanti-óceán: Floridától és Bermudától Brazíliáig, beleértve a Karib-tengert."
+  },
+  "notes": {
+   "en": "Caribbean flagship angel; vivid blue-yellow. Not coral-safe; hybridises with H. bermudensis (Blue Angelfish).",
+   "hu": "Karib zászlóshajó-angyal; élénk kék-sárga. Nem korallbiztos; a H. bermudensisszel (kék angyalhal) hibridizálódik."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276012"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Holacanthus-ciliaris.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/1_Holacanthus_ciliaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:1_Holacanthus_ciliaris.jpg",
+   "author": "Frank M Greco",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "apolemichthys-trimaculatus",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Apolemichthys trimaculatus",
+  "name_en": "Flagfin Angelfish / Threespot Angelfish",
+  "name_hu": "Háromfoltú angyalhal",
+  "size_cm": {
+   "min": 18,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 450,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive; generally peaceful outside of other angelfish.",
+   "hu": "Félig agresszív; más angyalhalakon kívül általában békés."
+  },
+  "feeding": {
+   "en": "Omnivore: sponge-based diets, mysis, nori.",
+   "hu": "Mindenevő: szivacs-alapú diéták, mysis, nori."
+  },
+  "origin": {
+   "en": "Indian Ocean: East Africa to western Thailand and Sumatra, including the Maldives.",
+   "hu": "Indiai-óceán: Kelet-Afrikától Nyugat-Thaiföldig és Szumátráig, beleértve a Maldív-szigeteket."
+  },
+  "notes": {
+   "en": "Yellow body with blue lips and black spots; moderately coral-nippy. Wild specimens may ship poorly.",
+   "hu": "Sárga test kék ajkakkal és fekete foltokkal; mérsékelten csipkedi a korallokat. A vad példányok rosszul szállíthatók."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=211787"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Apolemichthys-trimaculatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Apolemichthys_trimaculatus_%28Cuvier%2C_1831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Apolemichthys_trimaculatus_(Cuvier,_1831).jpg",
+   "author": "BEDO (Thailand)",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "centropyge-bispinosus",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Centropyge bispinosus",
+  "name_en": "Coral Beauty Angelfish",
+  "name_hu": "Korall szépség (törpe angyal)",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 15
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive dwarf angel; peaceful towards non-angelfish. Provide live rock with algae.",
+   "hu": "Félig agresszív törpe angyalhal; a nem angyalhal fajokkal békés. Algás élőköveket igényel."
+  },
+  "feeding": {
+   "en": "Omnivore: grazes algae, spirulina, mysis, angelfish formula, nori.",
+   "hu": "Mindenevő: algát legel, spirulina, mysis, angyalhal-diéta, nori."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to the Tuamotus, north to Japan, south to Lord Howe.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Tuamotu-szigetekig, északon Japánig, délen Lord Howe-ig."
+  },
+  "notes": {
+   "en": "One of the most popular dwarf angelfish; hardy and widely available. Individual specimens may nip LPS and soft corals.",
+   "hu": "A legnépszerűbb törpe angyalhalak egyike; ellenálló és széles körben kapható. Egyes példányok az LPS és lágy korallokat csipkedhetik."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=211779"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Centropyge-bispinosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Centropyge_bispinosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Centropyge_bispinosa.jpg",
+   "author": "NOAA",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "centropyge-loriculus",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Centropyge loriculus",
+  "name_en": "Flame Angelfish",
+  "name_hu": "Lángvörös törpe angyal",
+  "size_cm": {
+   "min": 9,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive; active and curious. May fight with other dwarf angels.",
+   "hu": "Félig agresszív; aktív és kíváncsi. Más törpe angyalokkal összeverekedhet."
+  },
+  "feeding": {
+   "en": "Omnivore: algae, spirulina, mysis, angelfish formula.",
+   "hu": "Mindenevő: alga, spirulina, mysis, angyalhal-diéta."
+  },
+  "origin": {
+   "en": "Pacific: Marshall, Line and Cook Islands to the Great Barrier Reef and Tonga.",
+   "hu": "Csendes-óceán: Marshall-, Line- és Cook-szigetek a Nagy Korallzátonyig és Tongáig."
+  },
+  "notes": {
+   "en": "Vivid orange-red dwarf angel; quality varies by collection region (Christmas Island fish are prized). Occasional coral nipper.",
+   "hu": "Élénk narancsvörös törpe angyal; minőség a gyűjtési régiótól függ (a Karácsony-szigetiek a legkeresettebbek). Előfordulhat korallcsipkelés."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=402161"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Centropyge-loriculus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Centropyge_loricula_aquarium.JPG/1280px-Centropyge_loricula_aquarium.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Centropyge_loricula_aquarium.JPG",
+   "author": "KoS",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "centropyge-heraldi",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Centropyge heraldi",
+  "name_en": "Herald's Angelfish / Yellow Pygmy Angelfish",
+  "name_hu": "Sárga törpe angyal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful for a dwarf angel; shy in bright, busy tanks.",
+   "hu": "Törpe angyalhoz képest békés; világos, forgalmas akváriumban félénk."
+  },
+  "feeding": {
+   "en": "Omnivore: algae, spirulina, mysis, formula foods.",
+   "hu": "Mindenevő: alga, spirulina, mysis, gyári táplálékok."
+  },
+  "origin": {
+   "en": "Western Pacific: southern Japan to Taiwan and the Philippines, east to Wake Island.",
+   "hu": "Nyugat-Csendes-óceán: Dél-Japántól Tajvanig és a Fülöp-szigetekig, keleten Wake-szigetig."
+  },
+  "notes": {
+   "en": "Entirely yellow dwarf angel for smaller tanks; generally reef-compatible but individual nippers exist.",
+   "hu": "Egészében sárga törpe angyal kisebb akváriumokba; általában zátonykompatibilis, de akadnak csipkelő példányok."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278837"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Centropyge-heraldi.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Centropyge_heraldi_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Centropyge_heraldi_Philippines.jpg",
+   "author": "seastung",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "centropyge-argi",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Centropyge argi",
+  "name_en": "Cherub Angelfish / Pygmy Angelfish",
+  "name_hu": "Törpe angyalhal (cherub)",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Small but feisty; defends its rockwork cave territory. Good for nano tanks.",
+   "hu": "Kicsi, de vagány; védi a sziklabarlangját. Nano-akváriumokba való."
+  },
+  "feeding": {
+   "en": "Omnivore: algae, spirulina, small mysis, formula foods.",
+   "hu": "Mindenevő: alga, spirulina, kis mysis, gyári táplálékok."
+  },
+  "origin": {
+   "en": "Western Atlantic: Florida and the Caribbean to Brazil.",
+   "hu": "Nyugat-Atlanti-óceán: Florida és a Karib-tenger Brazíliáig."
+  },
+  "notes": {
+   "en": "One of the smallest angelfish (5-8 cm); suitable for 100 L+ reef tanks with caution.",
+   "hu": "Az egyik legkisebb angyalhal (5–8 cm); 100 liter feletti zátonyos akváriumokba óvatosan megfelelő."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278827"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Centropyge-argi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Centropyge_argi_-_pone.0010676.g102.png/1280px-Centropyge_argi_-_pone.0010676.g102.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Centropyge_argi_-_pone.0010676.g102.png",
+   "author": "Williams, J. T.; Carpenter, K. E.; Van Tassell, J. L.; Hoetjes, P.; Toller, W.; Etnoyer, P.; Smith, M.",
+   "license": "CC BY 2.5"
+  }
+ },
+ {
+  "id": "genicanthus-watanabei",
+  "group": "fish",
+  "category": "angelfish",
+  "scientific_name": "Genicanthus watanabei",
+  "name_en": "Watanabei's Angelfish / Lyretail Angelfish",
+  "name_hu": "Watanabe-angyalhal",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Genicanthus angels are planktivores and truly reef-safe. Peaceful; harems of one male with several females are ideal.",
+   "hu": "A Genicanthus-angyalok planktonevők és valóban korallbiztosak. Békés; ideális egy hím és több nőstény háreme."
+  },
+  "feeding": {
+   "en": "Plankton feeder: small meaty foods multiple times daily (mysis, copepods, roe).",
+   "hu": "Planktonevő: napi többszöri kis húsos táplálék (mysis, evezőlábú rákok, ikra)."
+  },
+  "origin": {
+   "en": "Western Pacific: Japan to Taiwan, Philippines, New Guinea and Fiji.",
+   "hu": "Nyugat-Csendes-óceán: Japántól Tajvanig, a Fülöp-szigeteken át Új-Guineáig és Fidzsiig."
+  },
+  "notes": {
+   "en": "Deep-water genus that does not nip corals; sexually dichromatic - males blue-striped, females zebra-patterned.",
+   "hu": "Mélyvízi nemzetség, amely nem csipkedi a korallokat; ivari kétalakúság – a hímek kék csíkosak, a nőstények zebramintásak."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=279099"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Genicanthus-watanabei.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Female_Genicanthus_watanabei.jpg/1280px-Female_Genicanthus_watanabei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Female_Genicanthus_watanabei.jpg",
+   "author": "Jokuyken15",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

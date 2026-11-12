@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "mithraculus-sculptus",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Mithraculus sculptus",
+  "name_en": "Emerald Crab",
+  "name_hu": "Smaragdrák",
+  "size_cm": {
+   "min": 2.5,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Nocturnal and secretive; generally peaceful but may attack small fish when large or underfed.",
+   "hu": "Éjjel aktív és rejtőzködő; általában békés, de nagy méretben vagy aluletetve kis halakat támadhat."
+  },
+  "feeding": {
+   "en": "Herbivore/detritus: eats bubble algae (Valonia) - its main claim to fame; also scavenges leftover food.",
+   "hu": "Növényevő/detrituszfogyasztó: hajsalgát (Valonia) eszik – ez a fő erénye; a maradék táplálékot is felkapja."
+  },
+  "origin": {
+   "en": "Caribbean and western Atlantic.",
+   "hu": "Karib-tenger és nyugat-atlanti régió."
+  },
+  "notes": {
+   "en": "The go-to bubble algae control crab; one or two per tank. Supplement with nori if algae runs out.",
+   "hu": "A hajsalga-irtás legjobb rákja; akváriumonként egy-két példány. Ha elfogy az alga, norival egészítsük ki."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=421990"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Female_Mithraculus_sculptus_Crab.jpg/1280px-Female_Mithraculus_sculptus_Crab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Female_Mithraculus_sculptus_Crab.jpg",
+   "author": "Mark  Loch",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "percnogibbesi",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Percnon gibbesi",
+  "name_en": "Sally Lightfoot Crab",
+  "name_hu": "Sally Lightfoot rák",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Fast, flat crab that scuttles over rocks; becomes bolder and can catch small fish as it grows.",
+   "hu": "Gyors, lapos rák, amely a köveken szalad; ahogy nő, egyre merészebb, és kis halakat is elkaphat."
+  },
+  "feeding": {
+   "en": "Algae and detritus; increasingly meaty foods with age.",
+   "hu": "Alga és detritusz; korral egyre több húsos táplálék."
+  },
+  "origin": {
+   "en": "Tropical Atlantic and eastern Pacific (also Mediterranean - invasive).",
+   "hu": "Trópusi Atlanti-óceán és kelet-csendes-óceáni régió (a Földközi-tengerben inváziós)."
+  },
+  "notes": {
+   "en": "Useful algae eater when small; rehome once it exceeds 5 cm in a fish-stocked reef.",
+   "hu": "Kicsiben hasznos algaevő; ha 5 cm-nél nagyobbra nő halas zátonyban, helyezzük máshová."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=107458"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Cangrejo_ara%C3%B1a_%28Percnon_gibbesi%29%2C_Catania%2C_Sicilia%2C_Italia%2C_2025-04-04%2C_DD_82.jpg/1280px-Cangrejo_ara%C3%B1a_%28Percnon_gibbesi%29%2C_Catania%2C_Sicilia%2C_Italia%2C_2025-04-04%2C_DD_82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cangrejo_araña_(Percnon_gibbesi),_Catania,_Sicilia,_Italia,_2025-04-04,_DD_82.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "neopetrolisthes-oshimai",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Neopetrolisthes oshimai",
+  "name_en": "Porcelain Anemone Crab",
+  "name_hu": "Porcelánkráb",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Lives on or near host anemones, waving filtering fans; peaceful pairs are possible.",
+   "hu": "Anémonokon vagy azok közelében él, szűrő legyezőit lengeti; békés párok lehetségesek."
+  },
+  "feeding": {
+   "en": "Filter feeder: fine suspended foods (phytoplankton, powdered foods, roe).",
+   "hu": "Szűrőtáplálkozó: finom lebegő táplálék (fitoplankton, porított táplálék, ikra)."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Charming nano crab; needs regular fine-food feedings to thrive. Moults look like a dead crab - don't panic.",
+   "hu": "Bájos nano rák; rendszeres finom etetés kell a jóllétéhez. A vedlett páncély elhullott ráknak tűnik – nem kell pánikba esni."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cangrejo_porcelana_%28Neopetrolisthes_maculatus%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_93.jpg/1280px-Cangrejo_porcelana_%28Neopetrolisthes_maculatus%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cangrejo_porcelana_(Neopetrolisthes_maculatus),_Ambalihabe,_Madagascar,_2025-09-16,_DD_93.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "lybia-tesselata",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Lybia tesselata",
+  "name_en": "Boxing Crab / Pom-pom Crab",
+  "name_hu": "Bokszoló rák (pom-pom rák)",
+  "size_cm": {
+   "min": 1.5,
+   "max": 2.5
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 3
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 150,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Carries small anemones in its claws for defence; fascinating to watch. Peaceful.",
+   "hu": "Kis anémonokat hordoz a csápjai közt védekezésül; lenyűgöző látvány. Békés."
+  },
+  "feeding": {
+   "en": "Scavenger: finely chopped meaty foods; the anemones capture extra particles.",
+   "hu": "Dögevő: finoman vágott húsos táplálék; az anémonok extra részecskéket fognek."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Tiny character crab; may lose its pom-poms (they regrow). Safe with all but predatory fish.",
+   "hu": "Apró 'karakter' rák; elveszítheti a pom-pomjait (újraképesednek). Ragadozó halak kivételével mindenkivel biztonságos."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Eueides_lybia_lybia_MHNT.jpg/1280px-Eueides_lybia_lybia_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Eueides_lybia_lybia_MHNT.jpg",
+   "author": "Didier Descouens",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "calcinus-elegans",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Calcinus elegans",
+  "name_en": "Electric Blue Hermit Crab",
+  "name_hu": "Elektromos kék remeterák",
+  "size_cm": {
+   "min": 2,
+   "max": 4
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Active algae and detritus grazer; may squabble over shells with other hermits.",
+   "hu": "Aktív alga- és detrituszlegelő; más remeterákokkal összekaphat a házak miatt."
+  },
+  "feeding": {
+   "en": "Algae, detritus, leftover food; supplement with nori.",
+   "hu": "Alga, detritusz, maradék táplálék; norival egészítsük ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Striking blue-legged hermit for the clean-up crew; provide empty shells of various sizes.",
+   "hu": "Szembetűnő kék lábú remeterák a takarítócsapatba; adjunk különböző méretű üres házakat."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208679"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Calcinus_elegans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Calcinus_elegans.jpg",
+   "author": "User:Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "clibanarius-tricolor",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Clibanarius tricolor",
+  "name_en": "Blue Leg Hermit Crab",
+  "name_hu": "Kéklábú remeterák",
+  "size_cm": {
+   "min": 1,
+   "max": 2
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 3
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small, gregarious clean-up crew crab; mostly peaceful but can kill snails for their shells if short of empties.",
+   "hu": "Kis, csoportos takarítórák; többnyire békés, de ha nincs üres ház, csigákat ölhet értük."
+  },
+  "feeding": {
+   "en": "Algae, detritus, leftovers.",
+   "hu": "Alga, detritusz, maradékok."
+  },
+  "origin": {
+   "en": "Caribbean and western Atlantic.",
+   "hu": "Karib-tenger és nyugat-atlanti régió."
+  },
+  "notes": {
+   "en": "The classic CUC hermit - buy 1 per 15-20 L of tank; stock spare shells to protect snails.",
+   "hu": "A klasszikus takarító remeterák – 15–20 literenként 1 példány; tegyünk tartalék házakat a csigák védelmére."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=367527"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Clibanarius_tricolor.jpg/1280px-Clibanarius_tricolor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Clibanarius_tricolor.jpg",
+   "author": "Nat Tarbox",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "calcinus-laevimanus",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Calcinus laevimanus",
+  "name_en": "Zebra Hermit Crab / Dwarf Zebra Leg",
+  "name_hu": "Zebra remeterák",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small algae grazer with striped legs; peaceful.",
+   "hu": "Kis algaevő csíkos lábakkal; békés."
+  },
+  "feeding": {
+   "en": "Algae, detritus, film on rocks.",
+   "hu": "Alga, detritusz, a kövek bevonata."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Hawai'i.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig."
+  },
+  "notes": {
+   "en": "Popular Indo-Pacific clean-up hermit; Hawaiian 'zebra' hermits stay small and reef-safe.",
+   "hu": "Népszerű indo-csendes-óceáni takarító remeterák; a hawaii 'zebra' remeterákok kicsik és korallbiztosak maradnak."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208669"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/2_Calcinus_laevimanus.jpg/1280px-2_Calcinus_laevimanus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:2_Calcinus_laevimanus.jpg",
+   "author": "User:Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "lysmata-amboinensis",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Lysmata amboinensis",
+  "name_en": "Cleaner Shrimp (Skunk)",
+  "name_hu": "Tisztogató garnéla",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sets up cleaning stations for fish; completely peaceful. Molts regularly and is hermaphroditic - pairs can breed.",
+   "hu": "Tisztogatóállomást tart fenn a halaknak; teljesen békés. Rendszeresen vedlik és hermafrodita – párok szaporodhatnak."
+  },
+  "feeding": {
+   "en": "Scavenger: eats parasites and dead tissue from fish, plus leftover frozen food.",
+   "hu": "Dögevő: a halakról parazitákat és elhalt szövetet eszik, valamint maradék fagyasztott táplálékot."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "The most popular shrimp; hardy, visible, and even cleans hands during maintenance. Do not keep with predatory fish (triggers, lionfish).",
+   "hu": "A legnépszerűbb garnéla; ellenálló, jól látható, sőt a karbantartás közben a kezet is 'tisztogatja'. Ragadozó halakkal (halfélék, skorpióhalak) ne tartsuk."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=241289"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Camar%C3%B3n_limpiador_del_Pac%C3%ADfico_%28Lysmata_amboinensis%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-30%2C_DD_09.jpg/1280px-Camar%C3%B3n_limpiador_del_Pac%C3%ADfico_%28Lysmata_amboinensis%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-30%2C_DD_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camarón_limpiador_del_Pacífico_(Lysmata_amboinensis),_Zanzíbar,_Tanzania,_2024-05-30,_DD_09.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "lysmata-debelius",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Lysmata debelius",
+  "name_en": "Fire Shrimp / Blood Shrimp",
+  "name_hu": "Vérgarnéla (fire shrimp)",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Shyer than the skunk cleaner; also cleans fish. Mostly nocturnal in bright tanks.",
+   "hu": "A tisztogató garnélánál félénkebb; ez is tisztogatja a halakat. Világos akváriumban inkább éjjel aktív."
+  },
+  "feeding": {
+   "en": "Scavenger/cleaner: parasites, leftovers, small frozen foods.",
+   "hu": "Dögevő/tisztogató: paraziták, maradékok, kis fagyasztott táplálék."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Sri Lanka and Maldives to Indonesia.",
+   "hu": "Indo-Csendes-óceán: Srí Lanka és a Maldív-szigetektől Indonéziáig."
+  },
+  "notes": {
+   "en": "Deep red with white dots and long white antennae; prefers caves. Pairs can produce larvae (rearing is very difficult).",
+   "hu": "Mélyvörös fehér pöttyökkel és hosszú fehér csáppal; barlangokat kedvel. Párok lárvákat hozhatnak (felnevelésük nagyon nehéz)."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=515365"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_-_Lysmata_debelius.jpg/1280px-Aquarium_tropical_du_Palais_de_la_Porte_Dor%C3%A9e_-_Lysmata_debelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Aquarium_tropical_du_Palais_de_la_Porte_Dorée_-_Lysmata_debelius.jpg",
+   "author": "KoS",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "lysmata-wurdemanni",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Lysmata wurdemanni",
+  "name_en": "Peppermint Shrimp",
+  "name_hu": "Borsmentás garnéla",
+  "size_cm": {
+   "min": 4,
+   "max": 6
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 3
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "aiptasia-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Nocturnal; the classic Aiptasia-control shrimp. Generally peaceful, may pick at LPS polyps occasionally.",
+   "hu": "Éjjel aktív; a klasszikus Aiptasia-irtó garnéla. Általában békés, alkalmanként LPS polipokat piszkálhat."
+  },
+  "feeding": {
+   "en": "Scavenger: Aiptasia anemones (small ones), leftovers, frozen foods.",
+   "hu": "Dögevő: Aiptasia anémonok (kisebbek), maradékok, fagyasztott táplálék."
+  },
+  "origin": {
+   "en": "Caribbean and Gulf of Mexico.",
+   "hu": "Karib-tenger és a Mexikói-öböl."
+  },
+  "notes": {
+   "en": "The natural Aiptasia solution: 1 shrimp per 50-100 L; effectiveness varies by individual. True L. wurdemanni vs. look-alike species - buy from reliable sources.",
+   "hu": "A természetes Aiptasia-megoldás: 50–100 literenként 1 garnéla; hatása egyedenként változó. Igazi L. wurdemanni vs. hasonló fajok – megbízható forrásból vegyük."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=158365"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Lysmata_seticaudata.jpg/1280px-Lysmata_seticaudata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lysmata_seticaudata.jpg",
+   "author": "Miguelverdu",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "stenopus-hispidus",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Stenopus hispidus",
+  "name_en": "Banded Coral Shrimp / Boxing Shrimp",
+  "name_hu": "Csíkos bokszgarnéla",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Large, territorial shrimp; pairs bond long-term. May catch small slow fish and bristleworms.",
+   "hu": "Nagy, territoriális garnéla; a párok hosszú távon összekötődnek. Kis, lassú halakat és csillagférgeket is elkaphat."
+  },
+  "feeding": {
+   "en": "Scavenger/predator: meaty foods, bristleworms, fish leftovers.",
+   "hu": "Dögevő/ragadozó: húsos táplálék, csillagférgek, haltakarékok."
+  },
+  "origin": {
+   "en": "Circumtropical: all tropical oceans.",
+   "hu": "Cirkumtrópusi: minden trópusi tengerben."
+  },
+  "notes": {
+   "en": "Striking red-and-white banded shrimp with long claws; provide caves. Can be semi-aggressive towards other shrimp.",
+   "hu": "Szembetűnő piros-fehér csíkos garnéla hosszú ollókkal; adjunk barlangokat. Más garnélák felé félig agresszív lehet."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=210370"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Banded_Boxer_Shrimp_%28Stenopus_hispidus%29_%288471751878%29.jpg/1280px-Banded_Boxer_Shrimp_%28Stenopus_hispidus%29_%288471751878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Banded_Boxer_Shrimp_(Stenopus_hispidus)_(8471751878).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "rhynchocinetes-durbanensis",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Rhynchocinetes durbanensis",
+  "name_en": "Camel Shrimp / Hinge-beak Shrimp",
+  "name_hu": "Tevegarnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 50,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Nocturnal schooling shrimp; swarms out at feeding time. May bother LPS and soft corals.",
+   "hu": "Éjjel aktív rajgarnéla; etetéskor rajban rajzik elő. Az LPS és lágy korallokat zavarhatja."
+  },
+  "feeding": {
+   "en": "Scavenger: leftovers, small frozen foods.",
+   "hu": "Dögevő: maradékok, kis fagyasztott táplálék."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Cheap and hardy in groups; use in fish-only or FOWLR tanks. Red and white 'hinge-beak' appearance.",
+   "hu": "Olcsó és ellenálló csoportokban; halas vagy FOWLR akváriumokba való. Vörös-fehér 'csuklócsápú' megjelenés."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212926"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Camel_Shrimps_Rhynchocinetes_durbanensis_%287963644940%29.jpg/1280px-Camel_Shrimps_Rhynchocinetes_durbanensis_%287963644940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camel_Shrimps_Rhynchocinetes_durbanensis_(7963644940).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "thor-amboinensis",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Thor amboinensis",
+  "name_en": "Sexy Shrimp",
+  "name_hu": "Sexy garnéla (táncosgarnéla)",
+  "size_cm": {
+   "min": 1,
+   "max": 2
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 3
+  },
+  "tank_min_l": 20,
+  "tank_ideal_l": 100,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny shrimp that 'dances' by wiggling its abdomen; lives on host anemones and mushrooms. Groups are hilarious.",
+   "hu": "Apró garnéla, amely a potrohát riszálva 'táncol'; anémonokon és gombakorallokon él. Csoportban kifejezetten mulatságos."
+  },
+  "feeding": {
+   "en": "Scavenger: tiny meaty particles and leftovers.",
+   "hu": "Dögevő: apró húsos részecskék és maradékok."
+  },
+  "origin": {
+   "en": "Circumtropical.",
+   "hu": "Cirkumtrópusi."
+  },
+  "notes": {
+   "en": "Perfect nano shrimp; only with peaceful fish (they will be eaten by anything that can fit them in its mouth).",
+   "hu": "Tökéletes nano garnéla; csak békés halakkal (minden elnyelheti őket, ami befogadja a szájába)."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=107534"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ambonian_Shrimp_%28Thor_amboinensis%29_%286079526053%29.jpg/1280px-Ambonian_Shrimp_%28Thor_amboinensis%29_%286079526053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ambonian_Shrimp_(Thor_amboinensis)_(6079526053).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "saron-marmoratus",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Saron marmoratus",
+  "name_en": "Marble Shrimp / Buffalo Shrimp",
+  "name_hu": "Márványgarnéla",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Nocturnal predator of polyps; changes colour dramatically between day and night. Not for coral tanks.",
+   "hu": "Éjjel aktív polipragadozó; a nappali és éjszakai színezete drámaian eltérő. Korallakváriumba nem való."
+  },
+  "feeding": {
+   "en": "Scavenger/predator: meaty foods, coral polyps, small inverts.",
+   "hu": "Dögevő/ragadozó: húsos táplálék, korallpolipok, kis gerinctelenek."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Often sold as a 'cleaner' look-alike; verify the species - this one eats corals at night.",
+   "hu": "Gyakran 'tisztogatóként' árusítják; ellenőrizzük a fajt – ez éjjel korallokat eszik."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=210450"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Camar%C3%B3n_marmolado_%28Saron_marmoratus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_266.jpg/1280px-Camar%C3%B3n_marmolado_%28Saron_marmoratus%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_266.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camarón_marmolado_(Saron_marmoratus),_Anilao,_Filipinas,_2023-08-22,_DD_266.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "trochus-niloticus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Trochus niloticus (Tectus niloticus)",
+  "name_en": "Trochus Snail",
+  "name_hu": "Trochus csiga",
+  "size_cm": {
+   "min": 2,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 8
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Excellent glass and rock algae grazer; can right itself when flipped (unlike astrea). Nocturnal but active by day too.",
+   "hu": "Kiváló üveg- és kőalga-legelő; ha felfordul, magától visszafordul (az astrea-tól eltérően). Éjjel aktív, de nappal is mozog."
+  },
+  "feeding": {
+   "en": "Film algae and diatoms; supplement with nori if algae is scarce.",
+   "hu": "Bevonat-algák és kovamoszatok; ha kevés az alga, norival egészítsük ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "The best all-round algae snail; breeds in home aquaria (planktonic larvae rarely survive). 1 per 20-30 L.",
+   "hu": "A legjobb univerzális algacsiga; otthoni akváriumban szaporodhat (planktonlárvái ritkán élik túl). 20–30 literenként 1 példány."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/A_shell_of_Trochus_niloticus_snail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:A_shell_of_Trochus_niloticus_snail.jpg",
+   "author": "Narodowe Muzeum Morskie w Gdańsku",
+   "license": "CC BY-SA 3.0 pl"
+  }
+ },
+ {
+  "id": "turbo-fluctuosus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Turbo fluctuosus",
+  "name_en": "Turbo Snail (Mexican)",
+  "name_hu": "Turbo csiga (mexikói)",
+  "size_cm": {
+   "min": 2,
+   "max": 4
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Heavy, ravenous algae grazer; bulldozes loose frags and can knock over small corals.",
+   "hu": "Nehéz, falánk algaevő; a lazán rögzített fragokat eldöntheti, kis korallokat felboríthat."
+  },
+  "feeding": {
+   "en": "Hair algae, film algae; starves in clean tanks - supplement nori.",
+   "hu": "Hajsalga, bevonatalga; tiszta akváriumban éhezhet – norival egészítsük ki."
+  },
+  "origin": {
+   "en": "Gulf of California and Pacific Mexico.",
+   "hu": "Kaliforniai-öböl és a mexikói Csendes-óceán part."
+  },
+  "notes": {
+   "en": "Powerful hair algae consumer; ensure rockwork is stable. Cannot always right itself when flipped - check the sandbed.",
+   "hu": "Erős hajsalga-fogyasztó; gondoskodjunk stabil sziklázatról. Felfordulva nem mindig tud magától visszafordulni – néha ellenőrizzük a homokágyat."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=413380"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Turbo_fluctuosus_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Turbo_fluctuosus_001.jpg",
+   "author": "G.W. Tryon",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "astraea-tecta",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Astraea tecta (Lithopoma tectum)",
+  "name_en": "Astraea Snail",
+  "name_hu": "Astraea csiga",
+  "size_cm": {
+   "min": 1.5,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Classic Caribbean algae snail; grazes day and night. Cannot right itself when flipped - predation risk on the sandbed.",
+   "hu": "Klasszikus karibi algacsiga; nappal és éjjel legel. Felfordulva nem tud magától visszafordulni – a homokágyon a ragadozók elérhetik."
+  },
+  "feeding": {
+   "en": "Film algae, diatoms.",
+   "hu": "Bevonatalgák, kovamoszatok."
+  },
+  "origin": {
+   "en": "Caribbean and western Atlantic.",
+   "hu": "Karib-tenger és nyugat-atlanti régió."
+  },
+  "notes": {
+   "en": "Cheap and effective CUC staple; flip stranded individuals back onto the rockwork.",
+   "hu": "Olasz és hatékony takarítócsapat-alapelem; a fennakadt példányokat fordítsuk vissza a sziklázatra."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Astraea_heliotropium_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_-_Genoa%2C_Italy_-_DSC03268.JPG/1280px-Astraea_heliotropium_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_-_Genoa%2C_Italy_-_DSC03268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Astraea_heliotropium_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_-_Genoa,_Italy_-_DSC03268.JPG",
+   "author": "Daderot",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "cerithium-spp",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Cerithium spp.",
+  "name_en": "Cerith Snails",
+  "name_hu": "Cerith csigák",
+  "size_cm": {
+   "min": 1.5,
+   "max": 4
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 5
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "detritus-eater",
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "One of the few snails that cleans BOTH the sandbed surface and the rocks; burrows slightly. Nocturnal mostly.",
+   "hu": "Az egyik kevés csiga, amely a homokágy felszínét ÉS a köveket is tisztítja; kicsit beássa magát. Főleg éjjel aktív."
+  },
+  "feeding": {
+   "en": "Detritus, film algae, diatoms, cyanobacteria film.",
+   "hu": "Detritusz, bevonatalgák, kovamoszatok, cianobaktérium-bevonat."
+  },
+  "origin": {
+   "en": "Caribbean/Atlantic and Indo-Pacific species are both sold.",
+   "hu": "Karib/atlanti és indo-csendes-óceáni fajokat is árulnak."
+  },
+  "notes": {
+   "en": "Underrated all-round clean-up snail; digests detritus and diatom films. Will climb out of tanks without lids - keep water level low.",
+   "hu": "Alulértékelt univerzális takarítocsiga; a detrituszt és a kovamoszat-bevonatot fogyasztja. Fedél nélküli akváriumból kimászik – tartsuk alacsonyabban a vízszintet."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137760"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Cerithium_albolineatum_02.jpg/1280px-Cerithium_albolineatum_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cerithium_albolineatum_02.jpg",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "nassarius-spp",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Nassarius spp.",
+  "name_en": "Nassarius Snails",
+  "name_hu": "Nassarius csigák",
+  "size_cm": {
+   "min": 1,
+   "max": 2.5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater",
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Buried in the sand until food hits the water - then swarms out within seconds. Detritus cleanup for sandbeds.",
+   "hu": "A homokba ásva vár, míg táplálék kerül a vízbe – másodperceken belül előrajzik. A homokágy detritusz-takarítója."
+  },
+  "feeding": {
+   "en": "Detritus and leftover meaty food; no algae control.",
+   "hu": "Detritusz és maradék húsos táplálék; algakontrollra nem alkalmas."
+  },
+  "origin": {
+   "en": "Tropical seas worldwide (Caribbean species common in the trade).",
+   "hu": "Világszerte trópusi tengerek (a kereskedelemben gyakoriak a karibi fajok)."
+  },
+  "notes": {
+   "en": "Essential sandbed crew - 1 per 10-15 L of sand area. Their 'snail alarm clock' response at feeding time is unmistakable.",
+   "hu": "Alapvető homokágy-csapat – homokfelületenként 10–15 literenként 1 példány. Az etetéskor indult 'csiga-jelzőrendszer' útmutathatatlan."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=138235"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Nassarius_arcularia_01.JPG/1280px-Nassarius_arcularia_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Nassarius_arcularia_01.JPG",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "nerita-spp",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Nerita spp.",
+  "name_en": "Nerite Snails",
+  "name_hu": "Nerite csigák",
+  "size_cm": {
+   "min": 1,
+   "max": 2.5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 30,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Grazes algae down to the glass; excellent film algae control. Some species climb out of tanks.",
+   "hu": "Az algát az üvegre is lelegeli; kiváló bevonatalga-kontroll. Egyes fajok kimásznak az akváriumból."
+  },
+  "feeding": {
+   "en": "Film algae, diatoms; may starve in mature clean tanks.",
+   "hu": "Bevonatalgák, kovamoszatok; érett, tiszta akváriumban éhezhetnek."
+  },
+  "origin": {
+   "en": "Tropical Atlantic and Indo-Pacific species in the trade.",
+   "hu": "Trópusi atlanti és indo-csendes-óceáni fajok a kereskedelemben."
+  },
+  "notes": {
+   "en": "Great algae eaters for the price; keep lids on. Assorted shell patterns.",
+   "hu": "Kiváló ár/érték arányú algaevők; tegyünk fedőt az akváriumba. Vegyes héjmintázatokkal."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=138254"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Nerita_albicilla_01.jpg/1280px-Nerita_albicilla_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Nerita_albicilla_01.jpg",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "strombus-alatus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Strombus alatus (fighting conch)",
+  "name_en": "Fighting Conch",
+  "name_hu": "Harcoló kagylócsiga (conch)",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "sand-sifter",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Spends the day ploughing through the sandbed eating detritus and algae; comical 'hopping' movement.",
+   "hu": "A napját a homokágyon ásva tölti, detrituszt és algát eszik; mulatságos 'ugráló' mozgással."
+  },
+  "feeding": {
+   "en": "Detritus, algae films, leftover food; supplement nori for large specimens.",
+   "hu": "Detritusz, algabevonatok, maradék táplálék; a nagy példányoknak norit adjunk."
+  },
+  "origin": {
+   "en": "Caribbean and Gulf of Mexico.",
+   "hu": "Karib-tenger és a Mexikói-öböl."
+  },
+  "notes": {
+   "en": "The best sandbed cleaner for medium-large tanks; needs a deep sand bed. The related Queen Conch (Lobatus gigas) is CITES-protected - never take it from the wild.",
+   "hu": "A legjobb homokágy-takarító közepes-nagy akváriumokhoz; mély homokágyat igényel. A rokon királyi conch (Lobatus gigas) CITES-védett – soha ne gyűjtsük vadon."
+  },
+  "diseases": [],
+  "sources": [],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Strombus_alatus_%28fighting_conch%29_%28Marco_Island%2C_Florida%2C_USA%29_1.jpg/1280px-Strombus_alatus_%28fighting_conch%29_%28Marco_Island%2C_Florida%2C_USA%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Strombus_alatus_(fighting_conch)_(Marco_Island,_Florida,_USA)_1.jpg",
+   "author": "James St. John",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "babylonia-areolata",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Babylonia areolata",
+  "name_en": "Bumble Bee Snail",
+  "name_hu": "Darazs csiga (bumble bee)",
+  "size_cm": {
+   "min": 1.5,
+   "max": 2.5
+  },
+  "lifespan_captivity_years": {
+   "min": 2,
+   "max": 4
+  },
+  "tank_min_l": 30,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater",
+   "pest-snail-control"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Attractive striped scavenger; eats leftover food and dead animals. Some individuals eat bristleworms and possibly small beneficial snails.",
+   "hu": "Vonzó csíkozású dögevő; maradék táplálékot és elhullott állatokat fogyaszt. Egyes példányok csillagférgeket és esetleg kis hasznos csigákat is esznek."
+  },
+  "feeding": {
+   "en": "Leftovers, carrion, detritus.",
+   "hu": "Maradékok, tetemek, detritusz."
+  },
+  "origin": {
+   "en": "Indo-West Pacific.",
+   "hu": "Indo-Nyugat-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Useful cleanup scavenger; nocturnal. Do not expect them to control vermetid snails as often advertised.",
+   "hu": "Hasznos takarító dögevő; éjjel aktív. Ne várjuk tőlük a hirdetett vermetidcsiga-kontrollt."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=475109"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Babylonia_areolata_%28MNHN-IM-2000-20578%29.jpeg/1280px-Babylonia_areolata_%28MNHN-IM-2000-20578%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Babylonia_areolata_(MNHN-IM-2000-20578).jpeg",
+   "author": "Manuel CABALLER",
+   "license": "CC BY 4.0"
+  }
+ }
+]

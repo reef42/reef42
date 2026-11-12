@@ -1,0 +1,462 @@
+[
+ {
+  "id": "chaetodon-kleini",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon kleini",
+  "name_en": "Klein's Butterflyfish",
+  "name_hu": "Klein-pillangóhal",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "One of the hardiest and least fussy butterflyfish; peaceful with tankmates but may bicker with its own kind.",
+   "hu": "A legellenállóbb és legkevésbé válogatós pillangóhalak egyike; a társhalakkal békés, de fajtársaival civakodhat."
+  },
+  "feeding": {
+   "en": "Omnivore: accepts frozen mysis, brine shrimp, chopped seafood and pellets; also grazes on algae and small invertebrates.",
+   "hu": "Mindenevő: fagyasztott mysis, sórák, apróra vágott tengeri hús és pellet; algát és kis gerincteleneket is legel."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i and Micronesia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig és Mikronéziáig."
+  },
+  "notes": {
+   "en": "A good starter butterflyfish; usually ignores corals but individual specimens may nip at soft corals and zoanthids.",
+   "hu": "Jó kezdő pillangóhal; általában nem bántja a korallokat, de egyes példányok a lágy korallokat és zoanthidákat csipkedhetik."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=402117"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-kleini.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Bep_chaetodon_kleinii_pemba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bep_chaetodon_kleinii_pemba.jpg",
+   "author": "Bernard E. Picton BernardP",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chaetodon-lunula",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon lunula",
+  "name_en": "Raccoon Butterflyfish",
+  "name_hu": "Mosómedve-pillangóhal",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "aiptasia-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Nocturnal by nature; peaceful, bold once settled. Best kept singly or as an established pair.",
+   "hu": "Természeténél fogva éjjel aktív; békés, berendezkedés után merész. Egyedül vagy bevált párosan tartható."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, brine shrimp, chopped seafood; may consume Aiptasia and tubeworms.",
+   "hu": "Húsevő: fagyasztott mysis, sórák, apróra vágott tengeri hús; Aiptasiát és csőférgeket is fogyaszthat."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Hawai'i, north to Japan, south to Lord Howe Island.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Japánig, délen Lord Howe-szigetig."
+  },
+  "notes": {
+   "en": "Occasionally used for Aiptasia control; adults may eat small polyps. Hardy for a butterflyfish.",
+   "hu": "Esetenként Aiptasia-irtásra használják; a kifejlett példányok kis polipokat is megehetnek. Pillangóhalnak ellenálló."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218733"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-lunula.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Chaetodon_lunula.jpg/1280px-Chaetodon_lunula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chaetodon_lunula.jpg",
+   "author": "user:Haplochromis",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "chaetodon-auriga",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon auriga",
+  "name_en": "Threadfin Butterflyfish",
+  "name_hu": "Szálúszós pillangóhal",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "aiptasia-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful and active; may fight with other butterflyfish. Indian Ocean specimens lack the black eye-spot band.",
+   "hu": "Békés és aktív; más pillangóhalakkal összeverekedhet. Az Indiai-óceáni példányoknál hiányzik a fekete szemfolt."
+  },
+  "feeding": {
+   "en": "Omnivore: mysis, brine shrimp, chopped seafood; eats tubeworms and Aiptasia.",
+   "hu": "Mindenevő: mysis, sórák, apróra vágott tengeri hús; csőférgeket és Aiptasiát fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i and the Pitcairn Islands.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig és a Pitcairn-szigetekig."
+  },
+  "notes": {
+   "en": "Popular hardy butterfly; generally safe with most corals but may nip zoanthids and tubeworms.",
+   "hu": "Népszerű, ellenálló pillangóhal; a legtöbb korallal szemben biztonságos, de zoanthidákat és csőférgeket csipkedhet."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218730"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-auriga.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bep_chaetodon_auriga_pemba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bep_chaetodon_auriga_pemba.jpg",
+   "author": "Bernard E. Picton BernardP",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chaetodon-falcula",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon falcula",
+  "name_en": "Saddleback Butterflyfish (Black)",
+  "name_hu": "Fekete nyereges pillangóhal",
+  "size_cm": {
+   "min": 12,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 350,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Semi-aggressive towards other butterflyfish; otherwise peaceful.",
+   "hu": "Más pillangóhalakkal szemben félig agresszív; egyébként békés."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, chopped seafood; wild diet includes coral polyps.",
+   "hu": "Húsevő: mysis, sórák, apróra vágott tengeri hús; a vad étrend korallpolipokat is tartalmaz."
+  },
+  "origin": {
+   "en": "Indian Ocean: East Africa to Java, including the Maldives and Sri Lanka.",
+   "hu": "Indiai-óceán: Kelet-Afrikától Jáváig, beleértve a Maldív-szigeteket és Srí Lankát."
+  },
+  "notes": {
+   "en": "Attractive and relatively hardy, but will nip stony and soft corals; reef tanks are risky.",
+   "hu": "Vonzó és viszonylag ellenálló, de a kemény és lágy korallokat is csipkedi; zátonyos akváriumban kockázatos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218726"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-falcula.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bep_chaetodon_falcula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bep_chaetodon_falcula.jpg",
+   "author": "Bernard E. Picton BernardP",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chaetodon-semilarvatus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon semilarvatus",
+  "name_en": "Golden Butterflyfish / Red-lined Butterflyfish",
+  "name_hu": "Aranysávos pillangóhal",
+  "size_cm": {
+   "min": 18,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, schools in the wild; shy at first and needs quiet tankmates and hiding places.",
+   "hu": "Békés, a természetben rajban úszik; kezdetben félénk, nyugodt társakat és búvóhelyeket igényel."
+  },
+  "feeding": {
+   "en": "Carnivore: small meaty foods offered several times a day; can be reluctant to feed initially.",
+   "hu": "Húsevő: napi többszöri kisebb húsos táplálék; kezdetben vonakodhat enni."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Red Sea and Gulf of Aden.",
+   "hu": "Nyugati Indiai-óceán: Vörös-tenger és Ádeni-öböl."
+  },
+  "notes": {
+   "en": "Spectacular golden butterfly from the Red Sea; usually peaceful towards corals but grows large. Ships poorly; buy rested, feeding specimens.",
+   "hu": "Lenyűgöző arany pillangóhal a Vörös-tengerről; a korallokkal általában békés, de nagyra nő. Rosszul szállítja magát; csak erős, evő példányt érdemes venni."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218742"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-semilarvatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Chaetodon_semilarvatus%2C_Aqaba.jpg/1280px-Chaetodon_semilarvatus%2C_Aqaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chaetodon_semilarvatus,_Aqaba.jpg",
+   "author": "Mr. Mohammed Al Momany / NOAA",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "forcipiger-flavissimus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Forcipiger flavissimus",
+  "name_en": "Longnose Butterflyfish",
+  "name_hu": "Hosszúorrú pillangóhal",
+  "size_cm": {
+   "min": 15,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 350,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful; may be bullied by aggressive feeders. Pairs are possible in larger tanks.",
+   "hu": "Békés; agresszív evők zaklathatják. Nagyobb akváriumban párosan is tartható."
+  },
+  "feeding": {
+   "en": "Carnivore: small meaty foods (mysis, brine, finely chopped seafood); long snout targets small invertebrates in crevices.",
+   "hu": "Húsevő: kis húsos táplálék (mysis, sórák, finoman vágott tengeri hús); hosszú ormánya a repedésekben élő kis gerincteleneket fogja ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i and Easter Island.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig és Húsvét-szigetig."
+  },
+  "notes": {
+   "en": "Generally reef-compatible; may nip small tubeworms and zoanthids. Do not confuse with the rarer F. longirostris.",
+   "hu": "Általában zátonykompatibilis; kis csőférgeket és zoanthidákat csipkedhet. Ne keverjük a ritkább F. longirostrisszal."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218760"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Forcipiger-flavissimus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Forcipiger_flavissimus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Forcipiger_flavissimus.jpg",
+   "author": "LASZLO ILYES (laszlo-photo) from Cleveland, Ohio, USA",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "heniochus-acuminatus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Heniochus acuminatus",
+  "name_en": "Longfin Bannerfish / Schooling Bannerfish",
+  "name_hu": "Csíkos zászlóhal",
+  "size_cm": {
+   "min": 15,
+   "max": 21
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful schooling fish; often called the 'poor man's Moorish idol'. Best in groups of 3+.",
+   "hu": "Békés rajhal; gyakran 'szegény ember mór bálványa' néven emlegetik. Legalább 3 példányos csoportban a legjobb."
+  },
+  "feeding": {
+   "en": "Omnivore: mysis, brine shrimp, pellets; also plankton and benthic invertebrates.",
+   "hu": "Mindenevő: mysis, sórák, pellet; planktont és talajlakó gerincteleneket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: East Africa to the Tuamotus, north to Japan, south to New South Wales.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Kelet-Afrikától a Tuamotu-szigetekig, északon Japánig, délen Új-Dél-Walesig."
+  },
+  "notes": {
+   "en": "Hardy and inexpensive; juveniles may act as cleaner fish. Some individuals nip corals.",
+   "hu": "Ellenálló és olcsó; a fiatal példányok tisztogatóként is viselkedhetnek. Egyes egyedek a korallokat csipkedik."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218765"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Heniochus-acuminatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Heniochus_acuminatus%2C_jeune_individu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Heniochus_acuminatus,_jeune_individu.jpg",
+   "author": "Philippe Bourjon",
+   "license": "CC BY-SA 3.0"
+  }
+ }
+]
