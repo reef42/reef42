@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Reef game">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a8fb8"/><stop offset="1" stop-color="#0b3d63"/></linearGradient>
+  </defs>
+  <rect width="320" height="180" fill="#0f1a1c"/>
+  <rect x="24" y="10" width="272" height="8" rx="3" fill="#2f3a3e"/>
+  <rect x="16" y="22" width="288" height="146" fill="url(#w)" stroke="#8fb6c2" stroke-width="2"/>
+  <rect x="17" y="146" width="286" height="21" fill="#e9dcc0"/>
+  <path d="M40 150 L52 116 L78 104 L102 120 L114 150 Z" fill="#9c7f8f"/>
+  <path d="M190 150 L204 110 L236 96 L262 114 L276 150 Z" fill="#9c7f8f"/>
+  <path d="M74 104 v-16 M74 96 l-8 -9 M74 94 l8 -10" stroke="#d27aa8" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <ellipse cx="236" cy="92" rx="13" ry="8" fill="#5fc27a"/>
+  <g fill="#ffef7a"><circle cx="208" cy="108" r="3.5"/><circle cx="215" cy="104" r="3.5"/><circle cx="222" cy="107" r="3.5"/></g>
+  <path d="M98 66 l-10 -7 v14 z" fill="#f47b20"/><ellipse cx="112" cy="66" rx="14" ry="9" fill="#f47b20"/><path d="M106 57 v18 M116 58 v16" stroke="#fff" stroke-width="3"/><circle cx="121" cy="63" r="1.8" fill="#111"/>
+  <path d="M206 48 l-10 -7 v14 z" fill="#ffd400"/><ellipse cx="220" cy="48" rx="14" ry="10" fill="#ffd400"/><circle cx="229" cy="45" r="1.8" fill="#111"/>
+  <rect x="200" y="152" width="96" height="12" rx="6" fill="#163a3e"/><rect x="206" y="155" width="60" height="6" rx="3" fill="#79c77c"/>
+</svg>

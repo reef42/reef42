@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Reef game</title>
+  <meta name="description" content="A virtual saltwater aquarium for beginners: set up, cycle, stock and care for a reef tank.">
+  <meta name="theme-color" content="#0e7c86">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="bar">
+      <a class="hub" href="../" title="reef42">reef42</a>
+      <a class="brand" href="#/tank">
+        <img src="assets/icon.svg" alt="" width="26" height="26">
+        <span>Reef game</span>
+      </a>
+      <button class="lang" id="langToggle" type="button" aria-label="Language"></button>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Main"></nav>
+  </header>
+  <div class="hud" id="hud" hidden></div>
+
+  <div class="banner" id="banner" hidden></div>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="../shared/lang.js" defer></script>
+  <script src="assets/sim.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
