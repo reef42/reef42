@@ -150,6 +150,34 @@
     return s;
   }
 
+  // Next mission in the same game: check what it needs, then cause its trouble in the current tank.
+  function continueMission(s, m) {
+    const c = m.continue || {};
+    const fish = s.ani.filter((a) => a.where === 'display' && stats(a).cls === 'fish');
+    for (const k of c.needs || []) {
+      if (k === 'filled' && !(s.tank && s.tank.filled)) return no('needFilled');
+      if (k === 'fish' && !fish.length) return no('needFish');
+      if (k === 'heater' && !has(s, 'heater')) return no('needHeater');
+    }
+    if (c.bonus) s.money += c.bonus;
+    if (c.infect && fish.length) {
+      const a = fish[Math.floor(rnd(s) * fish.length)];
+      a.inf = a.inf || {};
+      a.inf[c.infect] = 0.15;
+      s.dis[c.infect] = Math.max(s.dis[c.infect], 0.25);
+    }
+    Object.keys(c.water || {}).forEach((k) => { s.w[k] = Math.max(s.w[k] || 0, c.water[k]); });
+    Object.keys(c.algae || {}).forEach((k) => { s.alg[k] = Math.max(s.alg[k] || 0, c.algae[k]); });
+    Object.keys(c.pests || {}).forEach((k) => { s.pest[k] = Math.max(s.pest[k] || 0, c.pests[k]); });
+    if (c.dirtySock) s.media.sock = s.day - 20;
+    const day = Math.floor(s.day);
+    // A heatwave is scaled to the season, so the room peaks around 28 °C like in the stand-alone mission.
+    const base = roomTemp(s);
+    s.scripted = (s.scripted || []).concat((c.events || []).map((e) => Object.assign({}, e, { at: day + e.at }, e.type === 'heatwave' ? { add: Math.max(3, 28 - base) } : {})));
+    s.mission = { id: m.id, step: 0, stepStart: s.day, deaths: 0, maxTemp: s.w.temp || 0, chained: true };
+    return ok('missionStarted');
+  }
+
   /* ---------- derived values ---------- */
   const has = (s, kind) => s.eq.some((e) => CAT.eq[e.id] && CAT.eq[e.id].kind === kind);
   const working = (s, kind) => s.eq.filter((e) => CAT.eq[e.id] && CAT.eq[e.id].kind === kind && e.state === 'ok');
@@ -692,7 +720,8 @@
     const other = disp.filter((a) => ['invert', 'anemone'].includes(stats(a).cls)).reduce((t, a) => t + stats(a).wu, 0);
     const need = fishWu * 0.4 + other * 0.15;
     // With nobody to feed, a pinch is a pinch: it scales with the tank (and ghost feeding cycles the tank).
-    return need > 0 ? Math.max(0.6, need) : Math.max(0.6, 0.03 * (s.w.level || 100));
+    // Invertebrates alone need only a little; with fish the smallest sensible portion is 0.6.
+    return need > 0 ? Math.max(fishWu > 0 ? 0.6 : 0.05, need) : Math.max(0.6, 0.03 * (s.w.level || 100));
   }
   // A feeding: hungry fish eat their share, scavengers the leftovers, the rest sinks as detritus.
   function feed(s, size, auto, neighbor) {
@@ -790,6 +819,7 @@
     if (s.w.level >= s.tank.net) return no('full');
     const l = s.tank.net - s.w.level;
     s.w.level = s.tank.net;
+    s.topoffs = (s.topoffs || []).filter((d) => s.day - d < 14).concat(Math.round(s.day * 10) / 10);
     s.w.sal = s.w.salt / s.w.level;
     return ok('toppedOff', { l: Math.round(l * 10) / 10 });
   }
@@ -975,7 +1005,7 @@
 
   const api = {
     init, speciesStats, newGame, applySetup, step, env, roomTemp, buy, buyAnimal, fillTank, feed, coralFeed, measure, waterChange, topOff, dose, use,
-    changeSock, adjustSal, move, rehome, repair, holiday, buyPack, packItems, packPrice, lastMeas, symptoms, advice, cycled, goalDone, missionCheck, coralLight, portion,
+    changeSock, adjustSal, continueMission, move, rehome, repair, holiday, buyPack, packItems, packPrice, lastMeas, symptoms, advice, cycled, goalDone, missionCheck, coralLight, portion,
     get CAT() { return CAT; }, TESTS, LIGHT, FLOW, SAL0, UNIQUE
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

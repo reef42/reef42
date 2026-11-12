@@ -213,10 +213,38 @@
     'road.fish': ['Az első halak', 'The first fish'], 'road.fishTip': ['Kezdd egy pár szívós, békés hallal (pl. két közönséges bohóchal), és vegyél haltápot. Új halat lehetőleg karanténon át tegyél be, és egyszerre csak keveset.', 'Start with a pair of hardy, peaceful fish (e.g. two ocellaris clownfish) and buy fish food. Put new fish through quarantine if you can, and only a few at a time.'],
     'road.coral': ['Az első korallok', 'The first corals'], 'road.coralTip': ['A korallokhoz fény kell. Lágy korallal vagy zoával kezdj – ezek elnézőek. Ha meszet építő korall is jön (LPS, SPS), mérd a KH-t.', 'Corals need light. Start with a soft coral or zoas – they are forgiving. If skeleton-building corals come (LPS, SPS), measure KH.'],
     'road.done': ['Megvan az alap!', 'The basics are done!'], 'road.doneTip': ['Innen szabadon építsd tovább. Rutin: naponta etetés és szemrevételezés, hetente vízcsere és mérés (NO3, KH).', 'Build on freely from here. Routine: feed and look daily, a water change and tests (NO3, KH) weekly.'],
+    // tank view tools, tabs, tips
+    bigTank: ['Nagyobb akvárium', 'Bigger tank'], fullTank: ['Teljes képernyő', 'Full screen'],
+    'tab.act': ['Teendők', 'Care'], 'tab.meas': ['Mérések', 'Tests'], 'tab.eq': ['Felszerelés', 'Equipment'],
+    whatIs: ['Mi ez?', 'What is it?'], rareTests: ['A ciklus után ritkábban kell:', 'Needed less often after the cycle:'],
+    remindSet: ['Emlékeztess hetente a vízcserére', 'Remind me weekly to change water'], remindOn: ['Heti vízcsere-emlékeztető: legközelebb a(z) {n}. napon', 'Weekly water change reminder: next on day {n}'],
+    remindOff: ['kikapcsolás', 'turn off'], toCalendar: ['Naptárba (.ics)', 'Add to calendar (.ics)'],
+    remindTitle: ['Heti emlékeztető beállítva', 'Weekly reminder set'],
+    remindText: ['A játék hetente szól, ha esedékes a vízcsere. Tipp: a valóságban is állíts be egy heti emlékeztetőt a telefonodon vagy a naptáradban – a rendszeres, kis vízcsere a legjobb, amit az akváriumodért tehetsz.', 'The game will tell you every week when a water change is due. Tip: set a weekly reminder on your phone or calendar in real life too – small, regular water changes are the best thing you can do for your tank.'],
+    icsTitle: ['Vízcsere – tengeri akvárium', 'Water change – reef tank'], icsDesc: ['Heti 10–20% vízcsere, szűrőzokni csere, párolgás pótlása, mérés (NO3, KH).', 'Weekly 10–20% water change, swap the filter sock, top off, test (NO3, KH).'],
+    'adv.wcDue': ['Esedékes a heti vízcsere.', 'The weekly water change is due.'],
+    'adv.ato': ['Már többször pótoltad kézzel a párolgást. Egy automata utántöltő (ATO) ezt elvégzi helyetted: a vízszint és a sótartalom egyenletes marad, nem ingadozik, és nem kell naponta foglalkoznod vele.', 'You have topped off by hand several times. An auto top-off (ATO) does it for you: the water level and salinity stay steady instead of swinging, and you do not have to deal with it daily.'],
+    atoNo: ['Nem kell', 'No thanks'],
+    'adv.less': ['A(z) {p} az utolsó 3 mérésnél nem változott. Ami stabil, azt elég ritkábban (pl. hetente) mérni – a tesztekkel is spórolsz.', '{p} has not changed in the last 3 tests. What is stable can be measured less often (e.g. weekly) – it saves tests too.'],
+    fullHintTitle: ['Van teljes nézet is', 'There is a full view too'],
+    fullHint: ['Már jól megy! A Teljes nézetben minden egy helyen van: mérések, adagolás, felszerelés, beállítások (fűtő, világítás). A nézetet az akvárium fölött bármikor átváltod.', "You're doing well! The Full view has everything in one place: tests, dosing, equipment and settings (heater, lights). Switch the view above the tank any time."],
+    tryFull: ['Kipróbálom', 'Try it'], staySimple: ['Maradok az egyszerűnél', 'Stay with Simple'],
+    // quiz for corals
+    'q.light': ['Mennyi fényt igényel?', 'How much light does it need?'], 'q.flow': ['Milyen áramlást szeret?', 'What flow does it like?'],
+    'lvl.low': ['Kevés', 'Low'], 'lvl.medium': ['Közepes', 'Medium'], 'lvl.high': ['Erős', 'High'], quizTag: ['🎓 Kvíz', '🎓 Quiz'],
+    // pick list
+    pickBtn: ['👉 Ajánlott fajok', '👉 Recommended species'], pickTitle: ['Ajánlott kezdő fajok', 'Recommended beginner species'],
+    pickLead: ['Könnyen tartható fajok, amelyek elférnek az akváriumodban. Halat, ha van karanténod, oda vesz – onnan később átteheted.', 'Easy species that fit your tank. If you have a quarantine tank, fish go there first – move them over later.'],
+    pickNone: ['Most nincs ide illő, könnyen tartható faj – nézz körül a boltban.', 'No easy species fits right now – have a look in the shop.'], pickMore: ['Összes a boltban →', 'All in the shop →'],
+    youHave: ['már {n} van', 'you have {n}'], allCats: ['Összes', 'All'],
+    // missions in one game
+    missionDoneTitle: ['Küldetés teljesítve!', 'Mission complete!'], missionAsk: ['Jöhet a következő küldetés ugyanezzel az akváriummal, vagy innen szabadon játszol tovább?', 'Go on with the next mission in this same tank, or play freely from here?'],
+    missionStarted: ['Új küldetés: {name}', 'New mission: {name}'], 'ok.missionStarted': ['Új küldetés indult.', 'New mission started.'],
+    'err.needFilled': ['Ehhez a küldetéshez feltöltött akvárium kell.', 'This mission needs a filled tank.'], 'err.needFish': ['Ehhez a küldetéshez legalább egy hal kell a fő akváriumban.', 'This mission needs at least one fish in the display.'],
+    'err.needHeater': ['Ehhez a küldetéshez fűtő kell.', 'This mission needs a heater.'],
     cycleDone: ['A ciklus kész – jöhetnek az első lakók!', 'The cycle is done – the first residents can come!'], feedGhost: ['Etetés hal nélkül (sok)', 'Ghost feed (a lot)'],
     // missions
     nextMission: ['Következő küldetés: {name} →', 'Next mission: {name} →'], continueFree: ['Folytatás szabadon', 'Carry on freely'],
-    confirmNextMission: ['Új játék indul ezzel a küldetéssel (ugyanilyen idővel és nehézséggel). A mostani akvárium elvész – előtte letöltheted a mentést a Menüben. Mehet?', 'A new game starts with this mission (same time and difficulty). The current tank will be lost – you can download the save from the Menu first. Go ahead?'],
     confirm: ['Megerősítés', 'Confirm'], yes7: ['Igen, +7 nap', 'Yes, +7 days'],
     confirmWeek: ['Nincs működő etetőautomatád: egy hétig senki nem eteti a halakat. Biztosan ugrasz 7 napot?', "You don't have a working auto feeder: nobody feeds the fish for a week. Skip 7 days anyway?"],
     // tour
@@ -275,9 +303,9 @@
   /* ---------- saving ---------- */
   function save() { if (S) storageOk = ls(false, SAVE_KEY, JSON.stringify(S)) !== false; }
   function load() { try { const x = JSON.parse(ls(true, SAVE_KEY) || 'null'); return x && x.v === 1 && x.opts ? x : null; } catch (e) { return null; } }
-  function download(name, text) {
+  function download(name, text, type) {
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+    a.href = URL.createObjectURL(new Blob([text], { type: type || 'application/json' }));
     a.download = name;
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
@@ -489,9 +517,45 @@
     out = out || [];
     updateKnow();
     const m = mission();
-    if (m) Sim.missionCheck(S, m, out);
+    if (m && !S.mission.done && Sim.missionCheck(S, m, out) && S.mission.done && !S.mission.asked) { S.mission.asked = true; setTimeout(() => askNext(m), 60); }
+    if (S.tank && viewMode() === 'simple' && S.day >= 35 && !S.hintFull) { S.hintFull = true; setTimeout(fullHint, 120); }
     out.filter((e) => e.k === 'death').forEach((e) => toast(t('log.death', { name: e.x.name || spName(e.x.sp) })));
     save();
+  }
+  function askNext(m) {
+    const nx = MISSIONS[MISSIONS.indexOf(m) + 1];
+    const acts = [{ label: t('continueFree'), value: 'free' }];
+    if (nx) acts.push({ label: t('nextMission', { name: tr(nx.name) }), value: 'next', primary: true });
+    modal(t('missionDoneTitle'), '<p>🏆 <b>' + esc(tr(m.name)) + '</b></p><p>' + esc(nx ? t('missionAsk') : t('missionDone')) + '</p>', acts).then((r) => {
+      if (r.value === 'next') startNext(nx.id);
+      else { S.mission.hideDone = true; save(); if (route().view === 'tank') refreshTank(true); }
+    });
+  }
+  function startNext(id) {
+    const ms = MISSIONS.find((x) => x.id === id);
+    const res = ms ? Sim.continueMission(S, ms) : { ok: false, err: 'unknown' };
+    if (!res.ok) { toast(t('err.' + res.err)); return; }
+    afterChange([]);
+    toast(t('missionStarted', { name: tr(ms.name) }));
+    if (route().view !== 'tank') location.hash = '#/tank'; else render();
+  }
+  function fullHint() {
+    modal(t('fullHintTitle'), '<p>' + esc(t('fullHint')) + '</p>', [{ label: t('staySimple'), value: '' }, { label: t('tryFull'), value: 'full', primary: true }])
+      .then((r) => { if (r.value === 'full') { S.view = 'full'; save(); render(); } });
+  }
+  function checkSame(p) {
+    if (p === 'sal' || !(S.cycleDone || Sim.cycled(S)) || (S.lessShown || {})[p]) return;
+    const ms = S.meas.filter((m) => m.p === p && !m.qt).slice(-3);
+    if (ms.length === 3 && ms.every((m) => m.v === ms[0].v)) { S.lessShown = Object.assign({}, S.lessShown, { [p]: true }); S.lessTip = { p, until: S.day + 3 }; }
+  }
+  function icsFile() {
+    const d = new Date();
+    d.setDate(d.getDate() + 7);
+    const pad = (n) => String(n).padStart(2, '0');
+    const start = d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + 'T180000';
+    const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
+    return ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//reef42//reef game//EN', 'BEGIN:VEVENT', 'UID:reef42-wc-' + Date.now() + '@reef42', 'DTSTAMP:' + stamp, 'DTSTART:' + start, 'DURATION:PT30M',
+      'RRULE:FREQ=WEEKLY', 'SUMMARY:' + t('icsTitle'), 'DESCRIPTION:' + t('icsDesc'), 'BEGIN:VALARM', 'TRIGGER:PT0M', 'ACTION:DISPLAY', 'DESCRIPTION:' + t('icsTitle'), 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n') + '\r\n';
   }
   // Accelerated time runs on a timer (animation frames stop in background tabs); 1× = one day per minute.
   function fastTick() {
@@ -514,6 +578,8 @@
   }
 
   /* ---------- tank view ---------- */
+  let bigTank = ls(true, 'reef42-reefgame-big') === '1';
+  let fullTab = 'act';
   function renderTank() {
     if (!S.tank) {
       app.innerHTML = '<div id="holiday"></div><div class="card center"><p>' + esc(t('noTank')) + '</p><a class="btn primary" href="#/shop/packs">' + esc(t('toShop')) + '</a></div><div id="next"></div>';
@@ -522,13 +588,18 @@
     }
     const seg = '<div class="viewbar"><span class="muted small">' + esc(t('viewLabel')) + '</span><span class="seg" role="group" aria-label="' + esc(t('viewLabel')) + '">' + ['simple', 'full'].map((v) =>
       '<button class="chip" data-act="setView" data-v="' + v + '" aria-pressed="' + (viewMode() === v) + '">' + esc(t('view.' + v)) + '</button>').join('') + '</span></div>';
-    const scene = seg + '<div class="scene-wrap"><svg id="scene" viewBox="0 0 800 420" role="img" aria-label="' + esc(t('tank')) + '"></svg></div>';
-    const page = (side) => '<div id="holiday"></div><div class="tankgrid"><div class="tankside">' + scene + '</div><div class="tankmain">' + side + '</div></div>';
+    const tools = '<div class="scene-tools"><button class="stool" data-act="bigTank" aria-pressed="' + bigTank + '" title="' + esc(t('bigTank')) + '" aria-label="' + esc(t('bigTank')) + '">⤢</button>' +
+      '<button class="stool" data-act="fullTank" title="' + esc(t('fullTank')) + '" aria-label="' + esc(t('fullTank')) + '">⛶</button></div>';
+    const scene = seg + '<div class="scene-wrap"><svg id="scene" viewBox="0 0 800 420" role="img" aria-label="' + esc(t('tank')) + '"></svg>' + tools + '</div>';
+    // The tank and the residents on the left, everything else on the right (stacked on phones).
+    const page = (main) => '<div id="holiday"></div><div class="tankgrid' + (bigTank ? ' big' : '') + '"><div class="tankside">' + scene + '</div><div class="tankmain">' + main + '</div><div class="tankani"><div id="animals"></div></div></div>';
     if (viewMode() === 'simple') {
-      app.innerHTML = page('<div class="cols"><div class="col"><div id="next"></div><div id="cycle"></div><section class="card" id="quick"></section></div><div class="col"><div id="animals"></div></div></div>');
+      app.innerHTML = page('<div id="next"></div><div id="cycle"></div><section class="card" id="quick"></section>');
     } else {
-      app.innerHTML = page('<div class="cols"><div class="col"><div id="mission"></div><div id="cycle"></div><div id="advisor"></div><section class="card" id="actions"></section><div id="animals"></div></div>' +
-        '<div class="col"><div id="measures"></div><div id="equip"></div><section class="card" id="settings"></section></div></div>');
+      const tab = (k) => '<button role="tab" class="ftab" data-act="fullTab" data-v="' + k + '" aria-selected="' + (fullTab === k) + '">' + esc(t('tab.' + k)) + '</button>';
+      const panel = (k, inner) => '<div class="tpanel" role="tabpanel" id="tp-' + k + '"' + (fullTab === k ? '' : ' hidden') + '>' + inner + '</div>';
+      app.innerHTML = page('<div id="mission"></div><div id="cycle"></div><div id="advisor"></div><div class="ftabs" role="tablist">' + tab('act') + tab('meas') + tab('eq') + '</div>' +
+        panel('act', '<section class="card" id="actions"></section>') + panel('meas', '<div id="measures"></div>') + panel('eq', '<div id="equip"></div><section class="card" id="settings"></section>'));
       renderActions();
       renderSettings();
     }
@@ -576,6 +647,8 @@
     const p = k.replace(/^s\./, '');
     switch (k) {
       case 'buyTank': return shopLink('packs') + shopLink('tanks');
+      case 'wcDue': return wcBtn(10) + wcBtn(20);
+      case 'ato': return shopLink('auto', 'ato') + actBtn('atoNo', null, t('atoNo'));
       case 'buySalt': return saltLink(S.tank.net * Sim.SAL0 - S.stock.salt);
       case 'buyRefracto': return shopLink('other', 'refracto');
       case 'fill': return S.stock.salt >= S.tank.net * Sim.SAL0 ? actBtn('fill', null, t('fillIt')) : '';
@@ -616,7 +689,7 @@
         const sp = f.category ? Sim.CAT.list.find((x) => x.category === f.category) : null;
         const cat = f.group || (sp ? sp.group : 'fish');
         const item = f.category ? 'c:' + f.category : f.utility ? 'u:' + f.utility : f.cls ? 'k:' + [].concat(f.cls).join(',') : null;
-        return shopLink(cat, item, t('shop.' + cat)) + (cat === 'fish' && !(S.stock.food > 0) ? shopLink('basics', 'food') : '');
+        return actBtn('pick', encF(Object.assign({ group: cat }, f)), t('pickBtn'), 'primary') + shopLink(cat, item, t('shop.' + cat)) + (cat === 'fish' && !(S.stock.food > 0) ? shopLink('basics', 'food') : '');
       }
       case 'range': return testLink(g.p) + (['kh', 'ca', 'mg'].includes(g.p) && !(S.stock['add:' + g.p] > 0) ? shopLink('additives', 'add-' + g.p) : g.p === 'no3' ? wcBtn(20) : '');
       case 'qtFish': return hasKind('qt') ? actBtn('moveAll', 'qt', t('allToQt')) : qtPackLink();
@@ -632,8 +705,18 @@
     if (!m || !hasKind('refractometer')) return '';
     return (m.v < 34.5 ? actBtn('sal', 1, t('salUp')) : '') + (m.v > 35.5 ? actBtn('sal', -1, t('salDown')) : '');
   }
+  // Tips from the page itself (shown on every difficulty): water change reminder, ATO offer, "measure less often".
+  function extraTips() {
+    const out = [];
+    const r = S.remind && S.remind.wc;
+    if (r && S.tank && S.tank.filled && S.day >= r.next) out.push('wcDue');
+    if (S.lessTip && S.day <= S.lessTip.until) out.push('less');
+    if (!hasKind('ato') && !S.atoNo && (S.topoffs || []).filter((d) => S.day - d < 14).length >= 3) out.push('ato');
+    return out;
+  }
+  const advText = (k) => (k === 'less' ? t('adv.less', { p: S.lessTip.p === 'sal' ? t('salinity') : PNAME[S.lessTip.p] }) : t('adv.' + k));
   const tracking = () => !S.ani.length && !!cycleStage();
-  const adviceList = () => Sim.advice(S).filter((k) => !(k === 'cycle' && tracking()));
+  const adviceList = () => extraTips().concat(Sim.advice(S).filter((k) => !(k === 'cycle' && tracking())));
   const linksHtml = (h) => (h ? '<div class="links">' + h + '</div>' : '');
   const stepLinks = (st) => linksHtml([...new Set(st.goals.map(goalLinks).join('').split(/(?=<a |<button )/))].join(''));
 
@@ -664,7 +747,7 @@
     if (S.tank && viewMode() !== 'simple') return '';
     const m = mission();
     const easy = S.opts.difficulty === 'easy';
-    const adv = easy ? adviceList() : [];
+    const adv = easy ? adviceList() : extraTips();
     let h = '';
     if (m && !S.mission.done) {
       const st = m.steps[S.mission.step];
@@ -677,20 +760,37 @@
       const k = tracking() || road ? null : adv.shift();
       if (road) h += road;
       else if (!tracking()) h += '<section class="card mission"><p class="kicker">' + esc(t('nextStep')) + '</p>' +
-        (k ? '<h2>' + esc(t('adv.' + k)) + '</h2>' + linksHtml(adviceLinks(k)) : '<p>' + esc(easy ? t('allGood') : t('routine')) + '</p>') + '</section>';
+        (k ? '<h2>' + esc(advText(k)) + '</h2>' + linksHtml(adviceLinks(k)) : '<p>' + esc(easy ? t('allGood') : t('routine')) + '</p>') + '</section>';
     }
-    if (adv.length) h += '<section class="card advisor"><h2>💡 ' + esc(t('alsoAdvice')) + '</h2><ul>' + adv.slice(0, 4).map((k) => '<li>' + esc(t('adv.' + k)) + linksHtml(adviceLinks(k)) + '</li>').join('') + '</ul></section>';
+    if (adv.length) h += '<section class="card advisor"><h2>💡 ' + esc(t('alsoAdvice')) + '</h2><ul>' + adv.slice(0, 4).map((k) => '<li>' + esc(advText(k)) + linksHtml(adviceLinks(k)) + '</li>').join('') + '</ul></section>';
     return h;
   }
   const qbtn = (a, v, icon, label, small) => '<button class="qbtn" data-act="' + a + '"' + (v != null ? ' data-v="' + esc(v) + '"' : '') + '><span class="qi" aria-hidden="true">' + icon + '</span><b>' + esc(label) + '</b>' + (small ? '<small>' + esc(small) + '</small>' : '') + '</button>';
   const missing = (txt, cat, item) => '<p class="miss">' + esc(txt) + ' <a href="' + shopHref(cat, item) + '">' + esc(t('toShopShort')) + '</a></p>';
   function agoText(m) { const n = Math.floor(S.day) - Math.floor(m.d); return n === 0 ? t('today') : t('ago', { n }); }
+  // A test tile with a small "What is it?" link to the Tank Log guide for that parameter.
   const measureTile = (p, qt) => {
     const m = Sim.lastMeas(S, p, qt ? { qt: true } : null);
     const label = qt ? t('measureQtCu') : p === 'sal' ? t('salinity') : PNAME[p];
-    return qbtn(qt ? 'measureQt' : 'measureP', p, '🧪', label, (m ? t('lastV', { v: fmtVal(p, m.v), ago: agoText(m) }) : t('never')) + (p === 'sal' ? '' : ' · ' + t('testsLeft', { n: S.stock['test:' + p] })));
+    return '<div class="qwrap">' + qbtn(qt ? 'measureQt' : 'measureP', p, '🧪', label, (m ? t('lastV', { v: fmtVal(p, m.v), ago: agoText(m) }) : t('never')) + (p === 'sal' ? '' : ' · ' + t('testsLeft', { n: S.stock['test:' + p] }))) +
+      '<a class="qinfo" href="../tank-log/#/guide/' + p + '" target="_blank" rel="noopener">' + esc(t('whatIs')) + '</a></div>';
   };
   const testsOwned = () => PARAMS.filter((p) => (p === 'sal' ? hasKind('refractometer') : S.stock['test:' + p] > 0));
+  // After the cycle ammonia and nitrite rarely matter: they get their own small row at the end.
+  function testTilesHtml() {
+    const tests = testsOwned();
+    const late = !!(S.cycleDone || Sim.cycled(S));
+    const rare = late ? tests.filter((p) => p === 'nh3' || p === 'no2') : [];
+    const main = tests.filter((p) => !rare.includes(p)).map((p) => measureTile(p));
+    if (hasKind('qt') && S.stock['test:cu'] > 0) main.push(measureTile('cu', true));
+    return (main.length ? '<div class="qgrid">' + main.join('') + '</div>' : '') +
+      (rare.length ? '<p class="small muted rare">' + esc(t('rareTests')) + '</p><div class="qgrid qsmall">' + rare.map((p) => measureTile(p)).join('') + '</div>' : '');
+  }
+  function remindHtml() {
+    const r = S.remind && S.remind.wc;
+    if (!r) return '<p class="small remind"><button class="link" data-act="remindWc">⏰ ' + esc(t('remindSet')) + '</button></p>';
+    return '<p class="small remind">⏰ ' + esc(t('remindOn', { n: Math.floor(r.next) + 1 })) + ' · <button class="link" data-act="remindOff">' + esc(t('remindOff')) + '</button> · <button class="link" data-act="ics">📅 ' + esc(t('toCalendar')) + '</button></p>';
+  }
   function quickHtml() {
     const head = '<h2>' + esc(t('quick')) + '</h2>';
     if (!S.tank.filled) {
@@ -714,10 +814,8 @@
       if (ms.v < 34.5) b.push(qbtn('sal', 1, '🧂', t('salUp'), fmtVal('sal', ms.v)));
       if (ms.v > 35.5) b.push(qbtn('sal', -1, '🚰', t('salDown'), fmtVal('sal', ms.v)));
     }
-    const tests = testsOwned();
-    tests.forEach((p) => b.push(measureTile(p)));
-    if (!tests.length) miss.push(missing(t('missingTest'), 'tests'));
-    return head + '<div class="qgrid">' + b.join('') + '</div>' + miss.join('');
+    if (!testsOwned().length) miss.push(missing(t('missingTest'), 'tests'));
+    return head + '<div class="qgrid">' + b.join('') + '</div>' + remindHtml() + testTilesHtml() + miss.join('');
   }
   /* ---------- full view ---------- */
   function holidayHtml() {
@@ -735,11 +833,12 @@
       '<ol class="steps">' + m.steps.map((x, i) => '<li class="' + (i < S.mission.step ? 'ok' : i === S.mission.step ? 'cur' : '') + '">' + esc(tr(x.title)) + '</li>').join('') + '</ol></section>';
   }
   function advisorHtml() {
-    if (S.opts.difficulty !== 'easy') return '';
-    const a = adviceList();
-    return '<section class="card advisor"><h2>💡 ' + esc(t('advisor')) + '</h2>' + (a.length ? '<ul>' + a.slice(0, 5).map((k) => '<li>' + esc(t('adv.' + k)) + linksHtml(adviceLinks(k)) + '</li>').join('') + '</ul>' : '<p>' + esc(t('allGood')) + '</p>') + '</section>';
+    const easy = S.opts.difficulty === 'easy';
+    const a = easy ? adviceList() : extraTips();
+    if (!easy && !a.length) return '';
+    return '<section class="card advisor"><h2>💡 ' + esc(t('advisor')) + '</h2>' + (a.length ? '<ul>' + a.slice(0, 5).map((k) => '<li>' + esc(advText(k)) + linksHtml(adviceLinks(k)) + '</li>').join('') + '</ul>' : '<p>' + esc(t('allGood')) + '</p>') + '</section>';
   }
-  // Only what the player has: tests and supplements in stock, the sock if there is one. Measuring and using are tiles.
+  // Only what the player has: supplements in stock, the sock if there is one. Using is tiles; tests live on their own tab.
   const USE_ICON = { bacteria: '🦠', ammonia: '⚗️', carbon: '⬛', gfo: '🟫', aiptasiax: '💉', copper: '💊' };
   function renderActions() {
     const el = $('#actions');
@@ -753,24 +852,20 @@
       return;
     }
     const hasQt = hasKind('qt');
-    const tests = testsOwned();
     const adds = ['kh', 'ca', 'mg'].filter((k) => S.stock['add:' + k] > 0);
     const items = ['bacteria', 'ammonia', 'carbon', 'gfo', 'aiptasiax', 'copper'].filter((k) => S.stock[k] > 0);
     const miss = (txt, cat, item) => '<span class="muted small">' + esc(txt) + '</span> <a class="small" href="' + shopHref(cat, item) + '">' + esc(t('toShopShort')) + '</a>';
     const row = (lbl, inner) => '<div class="row"><span class="lbl">' + lbl + '</span>' + inner + '</div>';
     const go = (a) => '<button class="btn" data-act="' + a + '">' + esc(t('doIt')) + '</button>';
-    let h = '<h2>' + esc(t('actions')) + '</h2>';
+    let h = '';
     h += row('🍤 ' + esc(t('feed')), (S.stock.food > 0 ? ['small', 'normal', 'large'].map((x) => '<button class="btn" data-act="feed" data-v="' + x + '">' + esc(t('feed.' + x)) + '</button>').join('') : miss(t('missingFood'), 'basics', 'food')) +
       (S.stock.coralfood > 0 ? '<button class="btn" data-act="coralFeed">' + esc(t('coralFeed')) + '</button>' : ''));
     h += row('💧 ' + esc(t('waterChange')), (S.stock.salt > 0 ? '<select id="wcPct">' + [5, 10, 15, 20, 25, 30, 50].map((p) => '<option value="' + p + '"' + (p === 10 ? ' selected' : '') + '>' + p + '%</option>').join('') + '</select>' + go('wc') : miss(t('missingSalt'), 'basics', 'salt4')) +
       '<button class="btn" data-act="topoff">' + esc(t('topOff')) + '</button>' +
-      (hasKind('refractometer') ? '<button class="btn" data-act="sal" data-v="1">' + esc(t('salUp')) + '</button><button class="btn" data-act="sal" data-v="-1">' + esc(t('salDown')) + '</button>' : ''));
+      (hasKind('refractometer') ? '<button class="btn" data-act="sal" data-v="1">' + esc(t('salUp')) + '</button><button class="btn" data-act="sal" data-v="-1">' + esc(t('salDown')) + '</button>' : '')) + remindHtml();
     if (adds.length) h += row('⚗️ ' + esc(t('dose')), '<select id="doseK">' + adds.map((k) => '<option value="' + k + '">' + esc(t('add.' + k)) + ' (' + Math.round(S.stock['add:' + k]) + ' ml)</option>').join('') + '</select>' +
       '<input id="doseMl" type="number" min="1" max="200" value="10" inputmode="numeric" aria-label="ml"> ml' + go('dose'));
     if (hasKind('sock')) h += row('🧦 ' + esc(t('filtration')), '<button class="btn" data-act="sock">' + esc(t('sockChange')) + '</button>');
-    const mt = tests.map((p) => measureTile(p));
-    if (hasQt && S.stock['test:cu'] > 0) mt.push(measureTile('cu', true));
-    h += '<h3>🧪 ' + esc(t('measure')) + '</h3>' + (mt.length ? '<div class="qgrid">' + mt.join('') + '</div>' : '<p>' + miss(t('missingTest'), 'tests') + '</p>');
     if (items.length) {
       const ut = [];
       items.forEach((k) => {
@@ -782,20 +877,14 @@
     el.innerHTML = h;
     Object.keys(keep).forEach((id) => { const x = $('#' + id); if (x && (!x.options || [...x.options].some((o) => o.value === keep[id]))) x.value = keep[id]; });
   }
+
   function measuresHtml() {
-    const shown = PARAMS.filter((p) => (p === 'sal' ? hasKind('refractometer') : S.stock['test:' + p] > 0) || Sim.lastMeas(S, p));
-    const rows = shown.map((p) => {
-      const m = Sim.lastMeas(S, p);
-      return '<tr><th>' + esc(p === 'sal' ? t('salinity') : PNAME[p]) + '</th><td>' + (m ? esc(fmtVal(p, m.v)) : '<span class="muted">' + esc(t('never')) + '</span>') + '</td><td class="muted">' + (m ? esc(agoText(m)) : '') + '</td>' +
-        '<td class="muted">' + (p === 'sal' ? '' : esc(t('have', { n: S.stock['test:' + p] || 0 }))) + '</td></tr>';
-    }).join('');
-    const qtCu = Sim.lastMeas(S, 'cu', { qt: true });
     const st = S.stock;
     const stockRows = [['salt', Math.round(st.salt / 100) / 10 + ' kg'], ['food', st.food], ['coralfood', st.coralfood], ['add.kh', Math.round(st['add:kh']) + ' ml'], ['add.ca', Math.round(st['add:ca']) + ' ml'], ['add.mg', Math.round(st['add:mg']) + ' ml'],
       ['item.bacteria', st.bacteria], ['item.ammonia', st.ammonia], ['item.carbon', st.carbon], ['item.gfo', st.gfo], ['item.copper', st.copper], ['item.aiptasiax', st.aiptasiax], ['item.dip', st.dip]]
       .filter(([, v]) => v && v !== '0 ml' && v !== '0 kg').map(([k, v]) => '<span class="pill">' + esc(k === 'salt' ? (lang === 'hu' ? 'Só' : 'Salt') : k === 'food' ? (lang === 'hu' ? 'Haltáp' : 'Fish food') : k === 'coralfood' ? (lang === 'hu' ? 'Korallkaja' : 'Coral food') : t(k)) + ': <b>' + esc(v) + '</b></span>').join('');
-    return '<section class="card"><h2>🧪 ' + esc(t('measurements')) + '</h2>' + (rows ? '<table class="meas">' + rows + '</table>' : '<p class="muted">' + esc(t('missingTest')) + ' <a href="' + shopHref('tests') + '">' + esc(t('toShopShort')) + '</a></p>') +
-      (qtCu ? '<p class="muted small">' + esc(t('qt')) + ' Cu: ' + esc(fmtVal('cu', qtCu.v)) + '</p>' : '') +
+    const tiles = testTilesHtml();
+    return '<section class="card">' + (tiles || '<p class="muted">' + esc(t('missingTest')) + ' <a href="' + shopHref('tests') + '">' + esc(t('toShopShort')) + '</a></p>') +
       '<h3>' + esc(t('stock')) + '</h3><div class="pills">' + (stockRows || '<span class="muted">–</span>') + '</div></section>';
   }
   const thumbOf = (sp) => { const im = Sim.CAT.species[sp].sp.image; return im ? im.thumb_500 || im.url : ''; };
@@ -825,7 +914,7 @@
       if (!simple) acts.push('<button class="link" data-act="rehome" data-uid="' + a.uid + '">' + esc(t('rehome')) + '</button>');
       const src = thumbOf(a.sp);
       return '<li class="ani-row">' + (src ? '<img class="athumb" src="' + esc(src) + '" alt="" loading="lazy" decoding="async">' : '<span class="athumb"></span>') + '<div class="ani-main"><div class="ani-head"><button class="aname" data-act="animal" data-uid="' + a.uid + '">' + aName(a) + '</button>' +
-        (a.where === 'qt' ? ' <span class="tag">' + esc(t('qt')) + '</span>' : '') + hungerTag(a) + bar + '</div>' +
+        (a.where === 'qt' ? ' <span class="tag">' + esc(t('qt')) + '</span>' : '') + hungerTag(a) + (canQuiz(a.sp) ? '<button class="tag quizb" data-act="animal" data-uid="' + a.uid + '">' + esc(t('quizTag')) + '</button>' : '') + bar + '</div>' +
         '<p class="sym">' + esc(syms.length ? syms.join(' · ') : t('looksFine')) + '</p>' + (acts.length ? '<p class="acts">' + acts.join(' · ') + '</p>' : '') + '</div></li>';
     }).join('') + '</ul></section>';
   }
@@ -1031,6 +1120,7 @@
     if (ch) saveKnow();
   }
   const quizKey = () => S.created + ':' + Math.floor(S.day);
+  const canQuiz = (sp) => { const k = KNOW[sp] || {}; return (k.quiz || 0) < 2 && k.qAt !== quizKey(); };
   function profileHtml(a) {
     const st = Sim.CAT.species[a.sp];
     const s = st.sp;
@@ -1074,7 +1164,12 @@
     if (s.tank_min_l) { const o = opts(s.tank_min_l, pool.map((x) => x.tank_min_l).filter((v) => v && far(v, s.tank_min_l))); if (o) qs.push({ q: 'q.tank', o: o.map((v) => t('liters', { n: v })), a: t('liters', { n: s.tank_min_l }) }); }
     if (s.reef_safety) qs.push({ q: 'q.reef', o: ['reef-safe', 'with-caution', 'not-reef-safe'].map((v) => t('rs.' + v)), a: t('rs.' + s.reef_safety) });
     if (s.difficulty) qs.push({ q: 'q.diff', o: ['easy', 'moderate', 'difficult', 'expert'].map((v) => t('diff.' + v)), a: t('diff.' + s.difficulty) });
-    const fh = feedHead(s);
+    const lv = ['low', 'medium', 'high'];
+    if (st.group === 'coral') {
+      if (lv.includes(s.light)) qs.push({ q: 'q.light', o: lv.map((v) => t('lvl.' + v)), a: t('lvl.' + s.light) });
+      if (lv.includes(s.flow)) qs.push({ q: 'q.flow', o: lv.map((v) => t('lvl.' + v)), a: t('lvl.' + s.flow) });
+    }
+    const fh = st.group === 'coral' ? '' : feedHead(s);
     if (fh && fh.length < 60) { const o = opts(fh, pool.map(feedHead).filter((v) => v && v.length < 60 && v.toLowerCase().slice(0, 4) !== fh.toLowerCase().slice(0, 4))); if (o) qs.push({ q: 'q.feed', o, a: fh }); }
     return shuffle(qs).slice(0, 3);
   }
@@ -1120,6 +1215,59 @@
           body.insertAdjacentHTML('beforeend', '<p class="qres ' + (okq ? 'good' : 'bad') + '">' + esc(t(okq ? 'quizOk' : 'quizFail', { n })) + '</p>');
           refreshTank(true);
         }
+      });
+    });
+  }
+
+  /* ---------- recommended species pop-up ---------- */
+  // Goal filters travel in data-v as "g=fish;c=clownfish;u=algae-eater;k=soft,lps".
+  const encF = (f) => [f.group && 'g=' + f.group, f.category && 'c=' + f.category, f.utility && 'u=' + f.utility, f.cls && 'k=' + [].concat(f.cls).join(',')].filter(Boolean).join(';');
+  function decF(v) {
+    const f = {};
+    String(v || '').split(';').forEach((x) => {
+      const [k, val] = x.split('=');
+      if (k === 'g') f.group = val; else if (k === 'c') f.category = val; else if (k === 'u') f.utility = val; else if (k === 'k') f.cls = val.split(',');
+    });
+    return f;
+  }
+  // Easy, reef-safe species that fit the tank, easiest and cheapest first.
+  function pickList(f) {
+    const net = S.tank ? S.tank.net : 0;
+    const order = { easy: 0, moderate: 1 };
+    return Sim.CAT.list.filter((st) => (!f.group || st.group === f.group) && (!f.category || st.category === f.category) && (!f.utility || st.util.includes(f.utility)) && (!f.cls || f.cls.includes(st.cls)) &&
+      st.sp.difficulty in order && (!st.minTank || st.minTank <= net) && st.sp.reef_safety !== 'not-reef-safe' && !(st.sp.verdict && st.sp.verdict.recommendation === 'not_recommended'))
+      .sort((a, b) => order[a.sp.difficulty] - order[b.sp.difficulty] || a.price - b.price).slice(0, 8);
+  }
+  function openPick(v) {
+    const f = decF(v);
+    const cat = f.group || 'fish';
+    const more = '<p class="small"><a href="' + shopHref(cat, f.category ? 'c:' + f.category : f.utility ? 'u:' + f.utility : null) + '">' + esc(t('pickMore')) + '</a></p>';
+    const body = () => {
+      const xs = pickList(f);
+      if (!xs.length) return '<p>' + esc(t('pickNone')) + '</p>' + more;
+      return '<p class="small muted">' + esc(t('pickLead')) + '</p><ul class="picks">' + xs.map((st) => {
+        const n = S.ani.filter((a) => a.sp === st.id).length;
+        const src = thumbOf(st.id);
+        return '<li>' + (src ? '<img src="' + esc(src) + '" alt="" loading="lazy">' : '<span class="noimg"></span>') + '<div class="pinfo"><b>' + esc(spName(st.id)) + '</b><span class="small muted">' + esc(t('diff.' + st.sp.difficulty)) +
+          (st.sp.size_cm && st.sp.size_cm.max ? ' · ' + esc(t('cm', { n: st.sp.size_cm.max })) : '') + '</span>' + (n ? '<span class="tag">' + esc(t('youHave', { n })) + '</span>' : '') + '</div>' +
+          '<div class="pbuy"><span class="price">' + st.price + ' 🐚</span><button type="button" class="btn sm" data-k="buy" data-id="' + esc(st.id) + '"' + (S.money < st.price || !S.tank || !S.tank.filled ? ' disabled' : '') + '>' + esc(t('buy')) + '</button></div></li>';
+      }).join('') + '</ul>' + more;
+    };
+    modal(t('pickTitle'), body(), [{ label: t('close'), value: '' }], (d) => {
+      const mb = d.querySelector('.mbody');
+      d.addEventListener('click', (e) => { if (e.target.closest('.mbody a[href^="#"]')) d.close(''); });
+      mb.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-k=buy]');
+        if (!b) return;
+        const st = Sim.CAT.species[b.dataset.id];
+        const where = st.cls === 'fish' && hasKind('qt') ? 'qt' : 'display';
+        const out = [];
+        const r = Sim.buyAnimal(S, st.id, where, null, out);
+        if (r.ok) afterChange(out);
+        result(r, where);
+        mb.innerHTML = body();
+        updateHud();
+        if (route().view === 'tank') { refreshTank(true); renderActions(); }
       });
     });
   }
@@ -1417,7 +1565,7 @@
       const p = sinking[i];
       if (kg && !p.el) { p.el = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse'); p.el.setAttribute('rx', '2.6'); p.el.setAttribute('ry', '1.8'); p.el.setAttribute('fill', '#a8743a'); kg.appendChild(p.el); }
       p.y += p.v * dt * (still ? 20 : 1);
-      p.x += vx * dt * 0.5;
+      p.x = Math.min(772, Math.max(28, p.x + vx * dt * 0.5));
       if (p.y > 384 || p.eaten) { if (p.el) p.el.remove(); sinking.splice(i, 1); continue; }
       if (p.el) { p.el.setAttribute('cx', p.x.toFixed(1)); p.el.setAttribute('cy', p.y.toFixed(1)); }
     }
@@ -1431,14 +1579,14 @@
       let chase = null;
       if (foodQuota > 0 && sinking.length) {
         chase = sinking.reduce((b, p) => (Math.hypot(p.x - f.x, p.y - f.y) < Math.hypot(b.x - f.x, b.y - f.y) ? p : b));
-        f.tx = chase.x; f.ty = chase.y;
+        f.tx = Math.min(748, Math.max(52, chase.x)); f.ty = Math.max(60, chase.y);
       }
       const dx = f.tx - f.x;
       const dy = f.ty - f.y;
       const d = Math.hypot(dx, dy);
       if (chase && d < 12) { chase.eaten = true; foodQuota--; newTarget(f, a); }
       else if (d < 6) newTarget(f, a);
-      else if (!still) { const v = f.sp * sick * dt * 0.06 * (chase ? 2.2 : 1); f.x += dx / d * v; f.y += dy / d * v; if (Math.abs(dx) > 2) f.dir = dx > 0 ? 1 : -1; }
+      else if (!still) { const v = f.sp * sick * dt * 0.06 * (chase ? 2.2 : 1); f.x = Math.min(752, Math.max(48, f.x + dx / d * v)); f.y = Math.min(342, Math.max(56, f.y + dy / d * v)); if (Math.abs(dx) > 2) f.dir = dx > 0 ? 1 : -1; }
       el.setAttribute('transform', 'translate(' + f.x.toFixed(1) + ' ' + f.y.toFixed(1) + ') scale(' + f.dir + ' 1)');
     });
   }
@@ -1565,11 +1713,24 @@
     }
   }
   // Live filter from a link: c:<category>, u:<utility>, k:<class,…>; anything else is a species id to highlight.
+  let CATS_DB = {};
+  const catLabel = (c) => { for (const g of Object.values(CATS_DB)) { if (g[c]) return tr(g[c]); for (const p of Object.values(g)) if (p.children && p.children[c]) return tr(p.children[c]); } return c; };
+  function catChips(group, cur) {
+    const tree = CATS_DB[group] || {};
+    const list = Sim.CAT.list.filter((st) => st.group === group);
+    const n = (c) => list.filter((st) => st.category === c || (c === 'lps' && st.category.startsWith('lps'))).length;
+    const chip = (c, label, k) => (k ? '<a class="chip" href="' + shopHref(group, c ? 'c:' + c : null) + '"' + (cur === c ? ' aria-current="true"' : '') + '>' + esc(label) + ' <span class="n">' + k + '</span></a>' : '');
+    let h = '<div class="chips catchips">' + chip(null, t('allCats'), list.length) + Object.keys(tree).map((c) => chip(c, tr(tree[c]), n(c))).join('') + '</div>';
+    const parent = Object.keys(tree).find((c) => tree[c].children && (cur === c || (cur && tree[c].children[cur])));
+    if (parent) h += '<div class="chips catchips sub">' + Object.keys(tree[parent].children).map((c) => chip(c, tr(tree[parent].children[c]), n(c))).join('') + '</div>';
+    return h;
+  }
   function liveFilter() {
     const it = shopRoute().item;
     const m = /^([cuk]):(.+)$/.exec(it);
     if (!m) return null;
     const v = m[2];
+    if (m[1] === 'c') return { cat: v, label: catLabel(v), test: (st) => st.category === v || (v === 'lps' && st.category.startsWith('lps')) };
     return { label: v, test: m[1] === 'c' ? (st) => st.category === v : m[1] === 'u' ? (st) => st.util.includes(v) : (st) => v.split(',').includes(st.cls) };
   }
   function renderLiveList() {
@@ -1586,7 +1747,8 @@
     if (fl && !fl.dataset.done) {
       fl.dataset.done = 1;
       fl.innerHTML = '<input class="search" id="liveQ" type="search" placeholder="' + esc(t('search')) + '" value="' + esc(liveQ) + '">' +
-        (f ? '<span class="chip on">' + esc(t('filter')) + ': ' + esc(f.label) + '</span><a class="small" href="' + shopHref(cat) + '">' + esc(t('clearFilter')) + '</a>' : '') + '<span class="muted small" id="liveN"></span>';
+        (f && !f.cat ? '<span class="chip on">' + esc(t('filter')) + ': ' + esc(f.label) + '</span><a class="small" href="' + shopHref(cat) + '">' + esc(t('clearFilter')) + '</a>' : '') + '<span class="muted small" id="liveN"></span>' +
+        catChips(cat, f && f.cat ? f.cat : (f ? '-' : null));
     }
     const n = $('#liveN');
     if (n) n.textContent = t('filter2', { n: xs.length });
@@ -1745,7 +1907,7 @@
       case 'feed': r = Sim.feed(S, v); if (r.ok) spawnFood(v, r.x.eaten); break;
       case 'coralFeed': r = Sim.coralFeed(S); break;
       case 'measure': r = Sim.measure(S, $('#mParam').value, $('#mTarget') ? $('#mTarget').value : 'display'); break;
-      case 'measureP': r = Sim.measure(S, v, 'display'); break;
+      case 'measureP': r = Sim.measure(S, v, 'display'); if (r.ok) checkSame(v); break;
       case 'measureQt': r = Sim.measure(S, v, 'qt'); break;
       case 'wc': r = Sim.waterChange(S, Number($('#wcPct').value) / 100); break;
       case 'wcP': r = Sim.waterChange(S, Number(v) / 100); break;
@@ -1762,17 +1924,30 @@
       case 'sal': r = Sim.adjustSal(S, Number(v)); break;
       case 'animal': openAnimal(uid); return;
       case 'hideDone': S.mission.hideDone = true; save(); refreshTank(true); return;
-      case 'nextMission': {
-        if (!confirm(t('confirmNextMission'))) return;
-        const o = S.opts;
-        const view = S.view;
-        S = Sim.newGame({ mode: v, time: o.time, difficulty: o.difficulty });
-        if (view) S.view = view;
-        const ms = MISSIONS.find((x) => x.id === v);
-        if (ms) Sim.applySetup(S, ms);
-        resetScene(); save(); location.hash = '#/tank'; render();
+      case 'nextMission': startNext(v); return;
+      case 'bigTank': bigTank = !bigTank; ls(false, 'reef42-reefgame-big', bigTank ? '1' : '0'); renderTank(); return;
+      case 'fullTank': {
+        const w = $('.scene-wrap');
+        if (document.fullscreenElement) document.exitFullscreen();
+        else if (w && w.requestFullscreen) w.requestFullscreen().catch(() => {});
+        else if (w && w.webkitRequestFullscreen) w.webkitRequestFullscreen();
         return;
       }
+      case 'fullTab':
+        fullTab = v;
+        document.querySelectorAll('.ftab').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.v === v)));
+        document.querySelectorAll('.tpanel').forEach((p) => { p.hidden = p.id !== 'tp-' + v; });
+        return;
+      case 'pick': openPick(v); return;
+      case 'atoNo': S.atoNo = true; break;
+      case 'remindWc':
+        S.remind = { wc: { every: 7, next: Math.floor(S.day) + 7 } };
+        save();
+        modal(t('remindTitle'), '<p>' + esc(t('remindText')) + '</p>', [{ label: t('toCalendar'), value: 'ics' }, { label: t('done'), value: '', primary: true }])
+          .then((x) => { if (x.value === 'ics') download('reef42-water-change.ics', icsFile(), 'text/calendar'); });
+        break;
+      case 'remindOff': delete S.remind; break;
+      case 'ics': download('reef42-water-change.ics', icsFile(), 'text/calendar'); return;
       case 'copperQt': r = Sim.use(S, 'copper', 'qt'); break;
       case 'sock': r = Sim.changeSock(S); break;
       case 'move': r = Sim.move(S, uid, v); break;
@@ -1815,6 +1990,7 @@
       case 'chartP': chartP = v; renderLog(); return;
       default: return;
     }
+    if (r && r.ok && r.msg === 'changed' && S.remind && S.remind.wc) S.remind.wc.next = Math.floor(S.day) + S.remind.wc.every;
     if (r) { result(r); afterChange([]); }
     else save();
     updateHud();
@@ -1858,6 +2034,7 @@
   const getJson = (u) => fetch(u).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
   Promise.all([getJson(DATA.species), getJson(DATA.equipment), getJson(DATA.missions), getJson(DATA.overrides)]).then(([db, eq, ms, ov]) => {
     Sim.init({ species: db.species, equipment: eq, overrides: ov });
+    CATS_DB = db.categories || {};
     MISSIONS = ms;
     S = load();
     realTick();

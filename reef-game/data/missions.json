@@ -1,6 +1,7 @@
 [
   {
     "id": "first-tank",
+    "continue": {},
     "name": { "hu": "Első akvárium", "en": "First tank" },
     "intro": { "hu": "Állíts be egy tengeri akváriumot a nulláról, és ciklizáld be, mielőtt bármilyen élőlény bekerülne. Ez a legfontosabb lecke: a baktériumoknak hetek kellenek.", "en": "Set up a saltwater tank from scratch and cycle it before any animal goes in. This is the most important lesson: bacteria need weeks." },
     "setup": { "money": 1300, "income": 50, "randomEvents": false },
@@ -16,6 +17,7 @@
   },
   {
     "id": "first-fish",
+    "continue": { "needs": ["filled"] },
     "name": { "hu": "Első halak", "en": "First fish" },
     "intro": { "hu": "A beciklizált akváriumod várja az első halakat. Lassan népesíts be, és tanuld meg, mennyit kell etetni.", "en": "Your cycled tank is waiting for its first fish. Stock slowly and learn how much to feed." },
     "setup": { "money": 400, "income": 60, "randomEvents": false, "tank": "t120", "filled": true, "cycled": true, "rock": { "kg": 12, "live": true }, "equipment": ["heat100", "pump1", "sock", "refracto"], "stock": { "salt": 8000, "test:nh3": 20, "test:no3": 20 }, "animals": [{ "sp": "trochus-niloticus", "n": 2 }, { "sp": "calcinus-elegans", "n": 2 }] },
@@ -28,6 +30,7 @@
   },
   {
     "id": "first-corals",
+    "continue": { "needs": ["filled"] },
     "name": { "hu": "Első korallok", "en": "First corals" },
     "intro": { "hu": "Jöhetnek a korallok! Kell hozzájuk fény, jó áramlás és stabil KH, Ca, Mg.", "en": "Time for corals! They need light, good flow and stable KH, Ca and Mg." },
     "setup": { "money": 900, "income": 60, "randomEvents": false, "tank": "t120", "filled": true, "cycled": true, "rock": { "kg": 12, "live": true }, "equipment": ["heat100", "pump1", "sock", "refracto", "sk150"], "stock": { "salt": 8000, "food": 100, "test:nh3": 10, "test:no3": 20 }, "animals": [{ "sp": "amphiprion-ocellaris", "n": 2 }, { "sp": "trochus-niloticus", "n": 3 }] },
@@ -41,6 +44,7 @@
   },
   {
     "id": "ich",
+    "continue": { "needs": ["fish"], "bonus": 200, "infect": "ich" },
     "name": { "hu": "Baj: ich-járvány", "en": "Trouble: ich outbreak" },
     "intro": { "hu": "Az új doktorhalat karantén nélkül tetted be, és fehér pöttyök jelentek meg rajta. Mentsd meg a halakat – a gerinctelenek és a korallok ne sérüljenek.", "en": "The new tang went in without quarantine and white spots have appeared on it. Save the fish – without harming the invertebrates and corals." },
     "setup": { "money": 600, "income": 60, "randomEvents": false, "tank": "t250", "filled": true, "cycled": true, "rock": { "kg": 25, "live": true }, "equipment": ["heat200", "pump2", "sock", "refracto", "sk350", "led2"], "stock": { "salt": 20000, "food": 150 }, "animals": [{ "sp": "zebrasoma-flavescens", "infected": "ich" }, { "sp": "amphiprion-ocellaris", "n": 2 }, { "sp": "lysmata-amboinensis" }, { "sp": "trochus-niloticus", "n": 3 }, { "sp": "duncanopsammia-axifuga" }] },
@@ -55,6 +59,7 @@
   },
   {
     "id": "algae",
+    "continue": { "needs": ["filled"], "bonus": 150, "water": { "no3": 45, "po4": 0.35, "org": 5 }, "algae": { "hair": 55, "cyano": 30 }, "dirtySock": true },
     "name": { "hu": "Baj: algarobbanás", "en": "Trouble: algae bloom" },
     "intro": { "hu": "Az akváriumot elborította a fonalas alga és a vörös cianó. Derítsd ki, honnan jön a tápanyag, és tüntesd el az algát.", "en": "Hair algae and red cyano have taken over the tank. Find out where the nutrients come from and get rid of the algae." },
     "setup": { "money": 500, "income": 60, "randomEvents": false, "tank": "t120", "filled": true, "cycled": true, "rock": { "kg": 12, "live": true }, "equipment": ["heat100", "pump1", "sock", "refracto", "led2"], "stock": { "salt": 8000, "food": 100 }, "water": { "no3": 45, "po4": 0.35, "org": 5 }, "algae": { "hair": 55, "cyano": 30 }, "media": { "sock": -20 }, "animals": [{ "sp": "amphiprion-ocellaris", "n": 2 }, { "sp": "pseudochromis-fridmani" }, { "sp": "sinularia-spp" }] },
@@ -67,6 +72,7 @@
   },
   {
     "id": "aiptasia",
+    "continue": { "needs": ["filled"], "bonus": 150, "pests": { "aiptasia": 60 } },
     "name": { "hu": "Baj: aiptasia", "en": "Trouble: aiptasia" },
     "intro": { "hu": "Egy élő kővel aiptasia (üvegrózsa) jött be, és elszaporodott. Csalánoz, és a korallokat bántja.", "en": "Aiptasia (glass anemones) came in on a live rock and multiplied. They sting and hurt the corals." },
     "setup": { "money": 400, "income": 60, "randomEvents": false, "tank": "t120", "filled": true, "cycled": true, "rock": { "kg": 12, "live": true }, "equipment": ["heat100", "pump1", "sock", "refracto", "sk150", "led2"], "stock": { "salt": 8000, "food": 100 }, "water": { "po4": 0.08 }, "pests": { "aiptasia": 60 }, "animals": [{ "sp": "amphiprion-ocellaris", "n": 2 }, { "sp": "zoanthus-spp" }, { "sp": "duncanopsammia-axifuga" }, { "sp": "sinularia-spp" }] },
@@ -77,6 +83,7 @@
   },
   {
     "id": "heat",
+    "continue": { "needs": ["heater"], "bonus": 200, "events": [{ "at": 3, "type": "heatwave", "days": 10, "add": 7 }, { "at": 6, "type": "heaterStuck" }] },
     "name": { "hu": "Baj: nyári hőség", "en": "Trouble: summer heatwave" },
     "intro": { "hu": "Hőhullám jön: a szoba napokig 28 °C körül lesz. Ráadásul a fűtő is beragadhat. Tartsd az akváriumot 29 °C alatt.", "en": "A heatwave is coming: the room will be around 28 °C for days. And the heater may get stuck too. Keep the tank below 29 °C." },
     "setup": { "money": 700, "income": 60, "randomEvents": false, "tank": "t120", "filled": true, "cycled": true, "rock": { "kg": 12, "live": true }, "equipment": ["heat100", "pump1", "sock", "refracto", "sk150", "led2"], "stock": { "salt": 8000, "food": 100 }, "animals": [{ "sp": "amphiprion-ocellaris", "n": 2 }, { "sp": "lysmata-amboinensis" }, { "sp": "duncanopsammia-axifuga" }, { "sp": "montipora-spp" }], "events": [{ "at": 3, "type": "heatwave", "days": 10, "add": 7 }, { "at": 6, "type": "heaterStuck" }] },

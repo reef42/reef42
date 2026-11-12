@@ -62,10 +62,12 @@ what bothers it, level 3 its exact condition.
 
 **Missions:** 1. First tank (cycling) · 2. First fish · 3. First corals · 4. Trouble (ich, algae bloom, aiptasia, heater failure).
 
-**Missions** can be closed when finished and offer the next mission. A death restarts the "keep it for N days" count.
+**Missions** can be played one after another in the same game: when one is done, the game asks whether to go on with the next one in the same tank or to play freely. Trouble missions then cause their trouble in the current tank (`continue` in `data/missions.json`: what is needed, an ich infection, nutrients and algae, aiptasia, a heatwave scaled to the season). A death restarts the "keep it for N days" count.
 
-**Help:** a short highlighted tour on the first game (again from the menu), and a confirmation before skipping 7 days
-when fish have no auto feeder.
+**Help:** an explanation of the nitrogen cycle and a short highlighted tour on the first game (again from the menu), a
+confirmation before skipping 7 days when fish have no auto feeder, a weekly water change reminder (with a calendar file for
+real life), an offer of an ATO after repeated manual top-offs, a hint to measure stable values less often, a pop-up of
+recommended beginner species where a step asks for animals, and a "What is it?" link from every test to the Tank Log guide.
 
 **Look:** a game bar that always stays on top (day, money, tank size, temperature, time controls, menu with save, load,
 restart and exit) and an animated 2D (SVG) tank: swimming fish, corals, visible algae and cloudy water, a thermometer on the
