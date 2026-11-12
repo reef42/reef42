@@ -188,10 +188,10 @@
     'ok.salDown': ['Sós vizet cseréltél édesvízre – kb. −1 ppt. Naponta legfeljebb ennyit változtass!', 'You swapped saltwater for fresh water – about −1 ppt. Change no more than this a day!'],
     // cycle tracker
     cycle: ['Ciklus', 'Cycle'], cycleToday: ['Mai teendő', 'Today'],
-    cycleLead: ['A baktériumok az ammóniát nitritté, a nitritet nitráttá alakítják. Amíg ez nem működik, a lakók belehalnának a saját ürülékükbe.', 'Bacteria turn ammonia into nitrite and nitrite into nitrate. Until this works, residents would be poisoned by their own waste.'],
+    cycleLead: ['A baktériumok az ammóniát nitritté, a nitritet nitráttá alakítják. Amíg ez nem működik, a lakók ürülékéből és az ételmaradékból mérgező ammónia gyűlik fel.', 'Bacteria turn ammonia into nitrite and nitrite into nitrate. Until this works, toxic ammonia from waste and leftover food builds up.'],
     'cyc.1': ['Ammóniaforrás a vízben', 'Ammonia source in the water'], 'cyc.2': ['Mérhető ammónia (0,25+ ppm)', 'Measurable ammonia (0.25+ ppm)'], 'cyc.3': ['Megjelent a nitrit', 'Nitrite has appeared'],
     'cyc.4': ['Ammónia és nitrit is 0', 'Ammonia and nitrite both 0'], 'cyc.5': ['Próba: egy adag egy nap alatt eltűnik', 'Test: a dose is gone within a day'], 'cyc.6': ['Nagy vízcsere (30%+)', 'Big water change (30%+)'],
-    'todo.start': ['Indítsd a ciklust: adj 1 adag ammóniát (kb. 1 ppm). Etetéssel is megy hal nélkül – akkor naponta 2× „Sok” –, de lassabb.', 'Start the cycle: add 1 dose of ammonia (about 1 ppm). Feeding an empty tank works too – twice a day, "a lot" – but it is slower.'],
+    'todo.start': ['Adj 1 adag ammóniát (kb. 1 ppm). Hal nélküli etetéssel is működik (naponta kétszer „Sok”), csak lassabban.', 'Add 1 dose of ammonia (about 1 ppm). Feeding the empty tank works too (twice a day, "a lot"), just more slowly.'],
     'todo.measure1': ['Mérd meg az ammóniát, hogy lásd, mennyi került a vízbe.', 'Measure ammonia to see how much is in the water.'],
     'todo.more': ['Még kevés az ammónia: adj még egy adagot (cél: 1–2 ppm), aztán mérj.', 'Not enough ammonia yet: add another dose (aim for 1–2 ppm), then measure.'],
     'todo.wait2': ['Most az ammóniabontó baktériumok szaporodnak. Léptesd a napokat, és 2 naponta mérd az NH3-at és az NO2-t. Ha az NH3 0,5 alá esik, adj még egy adagot.', 'The ammonia-eating bacteria are growing now. Advance the days and measure NH3 and NO2 every 2 days. If NH3 drops below 0.5, add another dose.'],
@@ -201,6 +201,18 @@
     'todo.testWait': ['Holnap mérd az NH3-at – léptess egy napot.', 'Measure NH3 tomorrow – advance a day.'], 'todo.testMeasure': ['Mérd meg az NH3-at: eltűnt az adag?', 'Measure NH3: is the dose gone?'],
     'todo.testFail': ['Még nem bírják (NH3: {v}). Várj 2–3 napot, tartsd az ammóniát 1 ppm körül, és próbáld újra.', 'Not yet (NH3: {v}). Wait 2–3 days, keep ammonia around 1 ppm and try again.'],
     'todo.wc': ['Kész a ciklus! A felgyűlt nitrát miatt cserélj 30–50% vizet – utána jöhet a takarítócsapat (csigák, remeterákok).', 'The cycle is done! Change 30–50% of the water because of the nitrate that built up – then the clean-up crew (snails, hermit crabs) can come.'],
+    testsLeft: ['{n} mérés maradt', '{n} tests left'],
+    introTitle: ['Mielőtt belevágsz: a nitrogénciklus', 'Before you start: the nitrogen cycle'], introOk: ['Értem, kezdjük!', "Got it, let's go!"], cycleWhy: ['Mi a ciklus, és miért kell?', 'What is the cycle and why does it matter?'],
+    'intro.1': ['A halak ürülékéből és az ételmaradékból ammónia (NH3) lesz, ami már kis mennyiségben is mérgező.', 'Fish waste and leftover food turn into ammonia (NH3), which is toxic even in small amounts.'],
+    'intro.2': ['Baktériumok alakítják tovább: az egyik csoport az ammóniát nitritté (NO2), a másik a nitritet nitráttá (NO3). A nitrát sokkal kevésbé ártalmas, vízcserével és algákkal távozik.', 'Bacteria break it down: one group turns ammonia into nitrite (NO2), another turns nitrite into nitrate (NO3). Nitrate is far less harmful and leaves with water changes and algae.'],
+    'intro.3': ['Egy új akváriumban ezek a baktériumok még hiányoznak – a köveken és az aljzaton kell megtelepedniük. Ez a ciklus: 3–6 hét, amíg lakók nélkül, ammóniával vagy etetéssel „etetve” elszaporodnak.', 'A new tank does not have these bacteria yet – they have to settle on the rock and sand. That is the cycle: 3–6 weeks while they grow without residents, fed with ammonia or food.'],
+    'intro.4': ['Ha ciklus nélkül teszel be állatot, az ammónia és a nitrit megmérgezi. A ciklus-kártya lépésről lépésre végigvezet: mit adj a vízhez, és mit, mikor mérj.', 'Animals added before the cycle get poisoned by ammonia and nitrite. The cycle card guides you step by step: what to add and what to measure when.'],
+    'intro.steps': ['Akvárium, sós víz, kő → ammóniaforrás → mérés 2–3 naponta → az NH3 és az NO2 is 0 → nagy vízcsere → jöhetnek a lakók.', 'Tank, saltwater, rock → ammonia source → measure every 2–3 days → NH3 and NO2 both 0 → big water change → residents can come.'],
+    // free-play roadmap after the cycle
+    'road.cuc': ['Takarítócsapat', 'Clean-up crew'], 'road.cucTip': ['Az első lakók algaevő csigák és remeterákok legyenek: a ciklus után jön a barna kovaalga. Kb. 3 algaevő elég az induláshoz.', 'The first residents should be algae-eating snails and hermit crabs: brown diatoms show up after the cycle. About 3 algae eaters are enough to start.'],
+    'road.fish': ['Az első halak', 'The first fish'], 'road.fishTip': ['Kezdd egy pár szívós, békés hallal (pl. két közönséges bohóchal), és vegyél haltápot. Új halat lehetőleg karanténon át tegyél be, és egyszerre csak keveset.', 'Start with a pair of hardy, peaceful fish (e.g. two ocellaris clownfish) and buy fish food. Put new fish through quarantine if you can, and only a few at a time.'],
+    'road.coral': ['Az első korallok', 'The first corals'], 'road.coralTip': ['A korallokhoz fény kell. Lágy korallal vagy zoával kezdj – ezek elnézőek. Ha meszet építő korall is jön (LPS, SPS), mérd a KH-t.', 'Corals need light. Start with a soft coral or zoas – they are forgiving. If skeleton-building corals come (LPS, SPS), measure KH.'],
+    'road.done': ['Megvan az alap!', 'The basics are done!'], 'road.doneTip': ['Innen szabadon építsd tovább. Rutin: naponta etetés és szemrevételezés, hetente vízcsere és mérés (NO3, KH).', 'Build on freely from here. Routine: feed and look daily, a water change and tests (NO3, KH) weekly.'],
     cycleDone: ['A ciklus kész – jöhetnek az első lakók!', 'The cycle is done – the first residents can come!'], feedGhost: ['Etetés hal nélkül (sok)', 'Ghost feed (a lot)'],
     // missions
     nextMission: ['Következő küldetés: {name} →', 'Next mission: {name} →'], continueFree: ['Folytatás szabadon', 'Carry on freely'],
@@ -448,7 +460,7 @@
     save();
     location.hash = '#/tank';
     render();
-    if (!ls(true, TOUR_KEY)) setTimeout(startTour, 500);
+    setTimeout(startIntro, 300);
   }
 
   /* ---------- time ---------- */
@@ -511,12 +523,12 @@
     const seg = '<div class="viewbar"><span class="muted small">' + esc(t('viewLabel')) + '</span><span class="seg" role="group" aria-label="' + esc(t('viewLabel')) + '">' + ['simple', 'full'].map((v) =>
       '<button class="chip" data-act="setView" data-v="' + v + '" aria-pressed="' + (viewMode() === v) + '">' + esc(t('view.' + v)) + '</button>').join('') + '</span></div>';
     const scene = seg + '<div class="scene-wrap"><svg id="scene" viewBox="0 0 800 420" role="img" aria-label="' + esc(t('tank')) + '"></svg></div>';
+    const page = (side) => '<div id="holiday"></div><div class="tankgrid"><div class="tankside">' + scene + '</div><div class="tankmain">' + side + '</div></div>';
     if (viewMode() === 'simple') {
-      app.innerHTML = '<div id="holiday"></div>' + scene + '<div class="cols"><div class="col"><div id="next"></div><div id="cycle"></div><section class="card" id="quick"></section></div><div class="col"><div id="animals"></div></div></div>';
+      app.innerHTML = page('<div class="cols"><div class="col"><div id="next"></div><div id="cycle"></div><section class="card" id="quick"></section></div><div class="col"><div id="animals"></div></div></div>');
     } else {
-      app.innerHTML = '<div id="holiday"></div>' + scene +
-        '<div class="cols"><div class="col"><div id="mission"></div><div id="cycle"></div><div id="advisor"></div><section class="card" id="actions"></section><div id="animals"></div></div>' +
-        '<div class="col"><div id="measures"></div><div id="equip"></div><section class="card" id="settings"></section></div></div>';
+      app.innerHTML = page('<div class="cols"><div class="col"><div id="mission"></div><div id="cycle"></div><div id="advisor"></div><section class="card" id="actions"></section><div id="animals"></div></div>' +
+        '<div class="col"><div id="measures"></div><div id="equip"></div><section class="card" id="settings"></section></div></div>');
       renderActions();
       renderSettings();
     }
@@ -626,6 +638,21 @@
   const stepLinks = (st) => linksHtml([...new Set(st.goals.map(goalLinks).join('').split(/(?=<a |<button )/))].join(''));
 
   /* ---------- simple view ---------- */
+  // Free play after the cycle: clean-up crew → first fish → first corals, built from mission-style goals.
+  const ROAD = [
+    { k: 'cuc', goals: [{ type: 'stock', filter: { group: 'invertebrate', utility: 'algae-eater' }, n: 3 }] },
+    { k: 'fish', goals: [{ type: 'stock', filter: { group: 'fish' }, n: 2 }] },
+    { k: 'coral', goals: [{ type: 'has', kinds: ['light'] }, { type: 'stock', filter: { group: 'coral' }, n: 1 }] }
+  ];
+  function roadHtml() {
+    const m = mission();
+    if ((m && !S.mission.done) || !S.tank || !S.tank.filled || tracking() || !(S.cycleDone || S.ani.length)) return '';
+    const i = ROAD.findIndex((r) => !r.goals.every((g) => Sim.goalDone(S, g)));
+    if (i < 0) return '<section class="card mission"><p class="kicker">' + esc(t('nextStep')) + '</p><h2>' + esc(t('road.done')) + '</h2><p>' + esc(t('road.doneTip')) + '</p></section>';
+    const r = ROAD[i];
+    return '<section class="card mission"><p class="kicker">' + esc(t('nextStep')) + ' · ' + esc(t('step', { n: i + 1, m: ROAD.length })) + '</p><h2>' + esc(t('road.' + r.k)) + '</h2><p>' + esc(t('road.' + r.k + 'Tip')) + '</p>' +
+      stepLinks(r) + '<div class="prog" aria-hidden="true">' + ROAD.map((x, j) => '<i class="' + (j < i ? 'ok' : j === i ? 'cur' : '') + '"></i>').join('') + '</div></section>';
+  }
   // A finished mission: offer the next one, or carry on; the card can be closed.
   function doneHtml(m) {
     if (S.mission.hideDone) return '';
@@ -646,8 +673,10 @@
         '<div class="prog" aria-hidden="true">' + m.steps.map((x, i) => '<i class="' + (i < S.mission.step ? 'ok' : i === S.mission.step ? 'cur' : '') + '"></i>').join('') + '</div></section>';
     } else {
       if (m) h += doneHtml(m);
-      const k = tracking() ? null : adv.shift();
-      if (!tracking()) h += '<section class="card mission"><p class="kicker">' + esc(t('nextStep')) + '</p>' +
+      const road = roadHtml();
+      const k = tracking() || road ? null : adv.shift();
+      if (road) h += road;
+      else if (!tracking()) h += '<section class="card mission"><p class="kicker">' + esc(t('nextStep')) + '</p>' +
         (k ? '<h2>' + esc(t('adv.' + k)) + '</h2>' + linksHtml(adviceLinks(k)) : '<p>' + esc(easy ? t('allGood') : t('routine')) + '</p>') + '</section>';
     }
     if (adv.length) h += '<section class="card advisor"><h2>💡 ' + esc(t('alsoAdvice')) + '</h2><ul>' + adv.slice(0, 4).map((k) => '<li>' + esc(t('adv.' + k)) + linksHtml(adviceLinks(k)) + '</li>').join('') + '</ul></section>';
@@ -659,7 +688,7 @@
   const measureTile = (p, qt) => {
     const m = Sim.lastMeas(S, p, qt ? { qt: true } : null);
     const label = qt ? t('measureQtCu') : p === 'sal' ? t('salinity') : PNAME[p];
-    return qbtn(qt ? 'measureQt' : 'measureP', p, '🧪', label, (m ? t('lastV', { v: fmtVal(p, m.v), ago: agoText(m) }) : t('never')) + (p === 'sal' ? '' : ' · ' + S.stock['test:' + p]));
+    return qbtn(qt ? 'measureQt' : 'measureP', p, '🧪', label, (m ? t('lastV', { v: fmtVal(p, m.v), ago: agoText(m) }) : t('never')) + (p === 'sal' ? '' : ' · ' + t('testsLeft', { n: S.stock['test:' + p] })));
   };
   const testsOwned = () => PARAMS.filter((p) => (p === 'sal' ? hasKind('refractometer') : S.stock['test:' + p] > 0));
   function quickHtml() {
@@ -698,8 +727,8 @@
   }
   function missionHtml() {
     const m = mission();
-    if (!m) return '';
-    if (S.mission.done) return doneHtml(m);
+    if (!m) return roadHtml();
+    if (S.mission.done) return doneHtml(m) + roadHtml();
     const st = m.steps[S.mission.step];
     return '<section class="card mission"><p class="kicker">' + esc(t('mission')) + ' · ' + esc(tr(m.name)) + ' · ' + esc(t('step', { n: S.mission.step + 1, m: m.steps.length })) + '</p>' +
       '<h2>' + esc(tr(st.title)) + '</h2><p>' + esc(tr(st.tip)) + '</p>' + stepLinks(st) +
@@ -866,6 +895,13 @@
     const src = dose != null && dose >= f;
     return { c, nh, n2, step: !src ? 0 : c.t2 == null ? 1 : c.t3 == null ? 2 : c.t4 == null ? 3 : c.t5 == null ? 4 : 5 };
   }
+  const introHtml = () => ['intro.1', 'intro.2', 'intro.3', 'intro.4'].map((k) => '<p>' + esc(t(k)) + '</p>').join('') + '<p class="isteps">' + esc(t('intro.steps')) + '</p>';
+  // New game with a tank that still has to cycle: explain the cycle first, then the tour.
+  function startIntro() {
+    const go = () => { if (!ls(true, TOUR_KEY)) setTimeout(startTour, 300); };
+    if (S.cycleDone) { go(); return; }
+    modal(t('introTitle'), '<div class="intro">' + introHtml() + '</div>', [{ label: t('introOk'), value: 'ok', primary: true }]).then(go);
+  }
   function spark(p, arr) {
     if (!arr.length) return '';
     const W = 120; const H = 28;
@@ -883,7 +919,6 @@
     const dose = S.lastDose;
     const amm = itemLink('ammonia');
     const ghost = S.stock.food > 0 ? actBtn('feed', 'large', t('feedGhost')) : '';
-    const lowNh = lnh && lnh.v < 0.5 && S.day - lnh.d < 1.5;
     let todo = '';
     let btn = '';
     switch (cs.step) {
@@ -891,8 +926,8 @@
       case 1:
         if (!lnh || lnh.d < dose) { todo = t('todo.measure1'); btn = testLink('nh3'); } else { todo = t('todo.more'); btn = (S.doseKind === 'food' ? ghost : '') + amm + testLink('nh3'); }
         break;
-      case 2: todo = t('todo.wait2'); btn = testLink('nh3') + testLink('no2') + (lowNh ? (S.doseKind === 'food' ? ghost : amm) : ''); break;
-      case 3: todo = t('todo.wait3'); btn = testLink('nh3') + testLink('no2') + (lowNh ? (S.doseKind === 'food' ? ghost : amm) : ''); break;
+      case 2: todo = t('todo.wait2'); btn = testLink('nh3') + testLink('no2') + (S.doseKind === 'food' ? ghost : amm); break;
+      case 3: todo = t('todo.wait3'); btn = testLink('nh3') + testLink('no2') + (S.doseKind === 'food' ? ghost : amm); break;
       case 4: {
         const tested = dose != null && dose >= c.t4;
         const after = tested ? nh.filter((x) => x.d - dose >= 0.7) : [];
@@ -910,7 +945,7 @@
       const l = arr[arr.length - 1];
       return '<div class="cline"><b style="color:' + TEST_COL[p] + '">' + PNAME[p] + '</b>' + spark(p, arr) + '<span class="small">' + (l ? esc(fmtVal(p, l.v)) + ' <span class="muted">' + esc(agoText(l)) + '</span>' : '<span class="muted">' + esc(t('never')) + '</span>') + '</span></div>';
     }).join('');
-    return '<section class="card cycle"><p class="kicker">🦠 ' + esc(t('cycle')) + '</p><p class="small muted">' + esc(t('cycleLead')) + '</p><ol class="csteps">' + steps + '</ol>' +
+    return '<section class="card cycle"><p class="kicker">🦠 ' + esc(t('cycle')) + '</p><p class="small muted">' + esc(t('cycleLead')) + '</p><details class="cwhy"><summary>' + esc(t('cycleWhy')) + '</summary>' + introHtml() + '</details><ol class="csteps">' + steps + '</ol>' +
       '<div class="todo"><b>' + esc(t('cycleToday')) + ':</b> ' + esc(todo) + linksHtml(btn) + '</div><div class="clines">' + lines + '</div></section>';
   }
   /* ---------- first-run tour ---------- */
@@ -1116,7 +1151,6 @@
     const hue = hash(a.sp) % 360;
     return ['hsl(' + hue + ',70%,55%)', 'hsl(' + ((hue + 160) % 360) + ',70%,60%)'];
   }
-  const tempCol = (v) => (v < 23.5 ? '#3b82f6' : v > 28 ? '#e5484d' : '#2fa35a');
   function drawScene() {
     const svg = document.getElementById('scene');
     if (!svg) return;
@@ -1140,13 +1174,6 @@
     const fx = env.on ? env.flowX : 0;
     flow = { lvl: fx <= 0 ? 0 : fx < 10 ? 1 : fx < 30 ? 2 : 3, wave: env.on && S.eq.some((e) => Sim.CAT.eq[e.id].wave && e.state === 'ok') };
     svg.setAttribute('class', 'flow-' + flow.lvl + (env.on ? '' : ' off'));
-    // thermometer
-    const tv = w.temp;
-    const top = 170 - (Math.min(34, Math.max(18, tv)) - 18) / 16 * 100;
-    set('#thBar', 'y', top.toFixed(1));
-    set('#thBar', 'height', (176 - top).toFixed(1));
-    set('#thBar', 'fill', tempCol(tv));
-    set('#thBulb', 'fill', tempCol(tv));
     // leftover food on the sand
     const n = Math.min(60, Math.round((S.food || 0) / Math.max(1, w.level) * 300));
     if (n !== pileN) {
@@ -1253,8 +1280,6 @@
         px -= 40;
       }
     });
-    h += '<g id="thermo"><rect x="66" y="66" width="12" height="112" rx="6" fill="#eef5f7" opacity=".85"/><rect id="thBar" x="69" y="100" width="6" height="76" rx="3" fill="#2fa35a"/>' +
-      '<circle id="thBulb" cx="72" cy="178" r="9" fill="#2fa35a"/></g>';
     h += '<g id="sink"></g><g id="fish"></g><rect id="tint" x="20" y="30" width="760" height="380" fill="#d4b14a" opacity="0"/><rect id="haze" x="20" y="30" width="760" height="380" fill="#f3f3f3" opacity="0"/>' +
       '<rect id="night" x="20" y="30" width="760" height="380" fill="#020b14" opacity="0"/><rect x="20" y="30" width="760" height="380" fill="none" stroke="#8fb6c2" stroke-width="3"/>';
     setTimeout(buildFish, 0);

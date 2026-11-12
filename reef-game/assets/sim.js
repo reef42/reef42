@@ -510,13 +510,14 @@
     if (!e.lid) disp.filter((a) => stats(a).jumper).forEach((a) => { if (s.ani.includes(a) && rnd(s) < 0.008) die(s, a, 'jumped', out); });
     if (!s.opts.randomEvents) return;
     const r = () => rnd(s);
-    if (powerOn(s) && r() < 0.003) trigger(s, 'power', out);
-    s.eq.forEach((x) => {
+    // Breakdowns are rare, and new equipment does not fail in the first two months.
+    if (day > 30 && powerOn(s) && r() < 0.001) trigger(s, 'power', out);
+    if (day > 60) s.eq.forEach((x) => {
       const k = CAT.eq[x.id].kind;
       if (x.state !== 'ok') return;
-      if (k === 'heater' && r() < 0.004) trigger(s, 'heaterStuck', out, { uid: x.uid });
-      if (k === 'pump' && r() < 0.003) trigger(s, 'pumpFail', out, { uid: x.uid });
-      if (k === 'ato' && r() < 0.002) trigger(s, 'atoStuck', out, { uid: x.uid });
+      if (k === 'heater' && r() < 0.0012) trigger(s, 'heaterStuck', out, { uid: x.uid });
+      if (k === 'pump' && r() < 0.001) trigger(s, 'pumpFail', out, { uid: x.uid });
+      if (k === 'ato' && r() < 0.0008) trigger(s, 'atoStuck', out, { uid: x.uid });
     });
     if (isSummer(s) && !(s.ev.heat && s.ev.heat.until > s.day) && r() < 0.04) trigger(s, 'heatwave', out);
     if (s.opts.time !== 'real' && !s.mission && day > 30 && !s.ev.holiday && r() < 0.01) trigger(s, 'holiday', out);
@@ -939,6 +940,7 @@
       case 'rock': return s.rockKg >= g.kg;
       case 'measured': return meas(g.p).length >= (g.n || 1);
       case 'cycled': {
+        if (s.cycleDone) return true;
         if (!cycled(s) || !s.tank || s.day - s.tank.filledDay < 10) return false;
         const a = recent('nh3', 3); const b = recent('no2', 3); const c = recent('no3', 7);
         return !!(a && b && c && a.v <= 0.05 && b.v <= 0.1 && c.v > 0);
