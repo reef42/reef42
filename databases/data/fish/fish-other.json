@@ -43,8 +43,7 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet",
-   "brooklynella"
+   "velvet"
   ],
   "sources": [
    {
@@ -304,7 +303,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "uronema"
   ],
   "sources": [
    {
@@ -368,7 +368,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "uronema"
   ],
   "sources": [
    {
@@ -629,6 +630,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [

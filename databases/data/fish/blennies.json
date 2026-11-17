@@ -200,7 +200,7 @@
   "category": "blennies",
   "scientific_name": "Meiacanthus atrodorsalis",
   "name_en": "Canary Blenny / Yellow Fang Blenny",
-  "name_hu": "Kanári méregfogú blenny",
+  "name_hu": "Sárgafarkú méregfogú nyálkáshal",
   "size_cm": {
    "min": 7,
    "max": 10
@@ -252,11 +252,11 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Forktail_Blennies_%28Meiacanthus_atrodorsalis%29_%286133261612%29.jpg/1280px-Forktail_Blennies_%28Meiacanthus_atrodorsalis%29_%286133261612%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Yellowtail_fangblenny_%28Meiacanthus_atrodorsalis%29_%2841734731570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Forktail_Blennies_(Meiacanthus_atrodorsalis)_(6133261612).jpg",
-   "author": "Bernard DUPONT from FRANCE",
-   "license": "CC BY-SA 2.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Yellowtail_fangblenny_(Meiacanthus_atrodorsalis)_(41734731570).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  }
 ]

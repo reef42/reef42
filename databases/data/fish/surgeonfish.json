@@ -39,12 +39,13 @@
    "hu": "Csendes-óceán: Japántól és Hawaiitól délre a Nagy Korallzátonyig és a Marquises-szigetekig."
   },
   "notes": {
-   "en": "One of the most popular marine fish; heavily aquacultured, captive-bred specimens are hardier. Prone to HLLE in poor water quality. A juvenile yellow coloration is retained for life.",
-   "hu": "A legnépszerűbb tengeri halak egyike; ma már széles körben tenyésztett, a fogságban született példányok ellenállóbbak. Rossz vízminőségnél hajlamos HLLE-betegségre."
+   "en": "One of the most popular marine fish; in the wild it is restricted to the Pacific, with its largest populations in Hawai'i, where it is an abundant, conspicuous grazer on the reefs. The trade was historically dominated by Hawaiian-collected specimens; however, aquarium collecting permits in Hawai'i have been shut down by court order, so captive-bred specimens increasingly supply the market. Captive-bred fish are hardier. Prone to HLLE in poor water quality.",
+   "hu": "A legnépszerűbb tengeri halak egyike; vadon kizárólag a Csendes-óceánban él, a legnagyobb állományai Hawaiiban találhatók, ahol zátonyain jellemző, tömegesen legelésző faj. A kereskedelemben évtizedeken át főleg hawaii gyűjtésből származó példányok domináltak; a hawaii akváriumi halászat engedélyei azonban bírósági döntés nyomán leálltak, ezért ma egyre inkább a tenyésztett példányok kerülnek forgalomba. A fogságban született példányok ellenállóbbak. Rossz vízminőségnél hajlamos HLLE-betegségre."
   },
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -58,11 +59,11 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2017-07-02_AT_Wien_13_Hietzing%2C_Tiergarten_Sch%C3%B6nbrunn%2C_Zebrasoma_flavescens%2C_Zebrasoma_veliferum%2C_Pseudanthias_squamipinnis_%28%3F%29_%2849995707312%29.jpg/1280px-2017-07-02_AT_Wien_13_Hietzing%2C_Tiergarten_Sch%C3%B6nbrunn%2C_Zebrasoma_flavescens%2C_Zebrasoma_veliferum%2C_Pseudanthias_squamipinnis_%28%3F%29_%2849995707312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Gelbe_Segelflossendoktor_Zebrasoma_flavescens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:2017-07-02_AT_Wien_13_Hietzing,_Tiergarten_Schönbrunn,_Zebrasoma_flavescens,_Zebrasoma_veliferum,_Pseudanthias_squamipinnis_(?)_(49995707312).jpg",
-   "author": "Paul Korecky",
-   "license": "CC BY-SA 2.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gelbe_Segelflossendoktor_Zebrasoma_flavescens.jpg",
+   "author": "Holger Krisp",
+   "license": "CC BY 3.0"
   }
  },
  {
@@ -111,6 +112,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -124,10 +126,10 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Blauer_Segelflossendoktor_%28Zebrasoma_xanthurum%29.DSCF7026OB.jpg/1280px-Blauer_Segelflossendoktor_%28Zebrasoma_xanthurum%29.DSCF7026OB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cirujano_de_cola_amarilla_%28Zebrasoma_xanthurum%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Blauer_Segelflossendoktor_(Zebrasoma_xanthurum).DSCF7026OB.jpg",
-   "author": "Kora27",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirujano_de_cola_amarilla_(Zebrasoma_xanthurum),_mar_Rojo,_Egipto,_2023-04-15,_DD_99.jpg",
+   "author": "Diego Delso",
    "license": "CC BY-SA 4.0"
   }
  },
@@ -137,7 +139,7 @@
   "category": "surgeonfish",
   "scientific_name": "Zebrasoma scopas",
   "name_en": "Scopas Tang / Brown Tang",
-  "name_hu": "Barna doktorhal",
+  "name_hu": "Füstös doktorhal",
   "size_cm": {
    "min": 15,
    "max": 20
@@ -177,6 +179,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -190,11 +193,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Brushtail_Tang%2C_juvenile_-_Zebrasoma_scopas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Pez_cirujano_marr%C3%B3n_%28Zebrasoma_scopas%29%2C_Mauricio%2C_2025-09-24%2C_DD_132.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Brushtail_Tang,_juvenile_-_Zebrasoma_scopas.jpg",
-   "author": "Francois Libert",
-   "license": "CC BY-SA 2.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_cirujano_marr%C3%B3n_(Zebrasoma_scopas),_Mauricio,_2025-09-24,_DD_132.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
   }
  },
  {
@@ -203,7 +206,7 @@
   "category": "surgeonfish",
   "scientific_name": "Acanthurus leucosternon",
   "name_en": "Powder Blue Tang",
-  "name_hu": "Kék doktorhal (porcelánkék)",
+  "name_hu": "Holdfény doktorhal",
   "size_cm": {
    "min": 20,
    "max": 30
@@ -243,6 +246,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -256,11 +260,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Acanthurus_leucosternon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Acanthurus_leucosternon_261420584.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon.jpg",
-   "author": "Unknown",
-   "license": "CC BY-SA 3.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_261420584.jpg",
+   "author": "Darren Obbard",
+   "license": "CC BY 4.0"
   }
  },
  {
@@ -309,6 +313,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -322,10 +327,10 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Acanthurus_sohal_-_poisson-chirurgien_z%C3%A9br%C3%A9_-_Aqua_Porte_Dor%C3%A9e_01.JPG/1280px-Acanthurus_sohal_-_poisson-chirurgien_z%C3%A9br%C3%A9_-_Aqua_Porte_Dor%C3%A9e_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Arabischer_Doktorfisch_%28Acanthurus_sohal%29_im_Roten_Meer_DSCF6623WI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_sohal_-_poisson-chirurgien_zébré_-_Aqua_Porte_Dorée_01.JPG",
-   "author": "Cedricguppy - Loury Cédric",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Arabischer_Doktorfisch_(Acanthurus_sohal)_im_Roten_Meer_DSCF6623WI.jpg",
+   "author": "Kora27",
    "license": "CC BY-SA 4.0"
   }
  },
@@ -375,6 +380,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -388,11 +394,11 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Acanthuridae_-_Acanthurus_achilles.JPG/1280px-Acanthuridae_-_Acanthurus_achilles.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/The-acanthurids-at-Johnston-Atoll-a-Acanthurus-achilles-b-A-nigricans-and-c-the_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthuridae_-_Acanthurus_achilles.JPG",
-   "author": "Hectonichus",
-   "license": "CC BY-SA 3.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:The-acanthurids-at-Johnston-Atoll-a-Acanthurus-achilles-b-A-nigricans-and-c-the_(cropped).jpg",
+   "author": "Phillip S. Lobel, Lisa Kerr Lobel, John E. Randall",
+   "license": "CC BY 4.0"
   }
  },
  {
@@ -401,7 +407,7 @@
   "category": "surgeonfish",
   "scientific_name": "Acanthurus japonicus",
   "name_en": "Powder Brown Tang / White-faced Surgeonfish",
-  "name_hu": "Fehérarcú doktorhal",
+  "name_hu": "Japán doktorhal",
   "size_cm": {
    "min": 18,
    "max": 25
@@ -441,6 +447,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -507,6 +514,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -572,7 +580,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
@@ -637,7 +646,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
@@ -663,7 +673,7 @@
   "category": "surgeonfish",
   "scientific_name": "Naso lituratus",
   "name_en": "Naso Tang / Lipstick Tang",
-  "name_hu": "Naso doktorhal (ajakfestős)",
+  "name_hu": "Rúzsos doktorhal",
   "size_cm": {
    "min": 30,
    "max": 45
@@ -703,6 +713,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -716,11 +727,11 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Naso_lituratus_349531557.jpg/1280px-Naso_lituratus_349531557.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Orangespine_unicornfish_Naso_lituratus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Naso_lituratus_349531557.jpg",
-   "author": "Oscar Dove",
-   "license": "CC BY 4.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Orangespine_unicornfish_Naso_lituratus.jpg",
+   "author": "Brian Gratwicke",
+   "license": "CC BY 2.0"
   }
  },
  {
@@ -768,7 +779,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
@@ -794,7 +806,7 @@
   "category": "surgeonfish",
   "scientific_name": "Paracanthurus hepatus",
   "name_en": "Blue Tang / Palette Surgeonfish",
-  "name_hu": "Kék doktorhal (Dory)",
+  "name_hu": "Kék palettás doktorhal",
   "size_cm": {
    "min": 20,
    "max": 30
@@ -834,6 +846,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
+   "flukes",
    "hlle"
   ],
   "sources": [
@@ -852,6 +865,943 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Blue_tang_(Paracanthurus_hepatus)_01.jpg",
    "author": "Tewy",
    "license": "CC BY 2.5"
+  }
+ },
+ {
+  "id": "acanthurus-lineatus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus lineatus",
+  "name_en": "Lined Surgeonfish (Clown Tang)",
+  "name_hu": "Csíkos doktorhal",
+  "size_cm": {
+   "min": 30,
+   "max": 38
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 20
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1000,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater",
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "One of the most aggressive surgeonfish; strongly territorial. Best kept as the only tang in a large tank. Can be kept with other robust, assertive fish.",
+   "hu": "Az egyik legagresszívabb doktorhal; erősen territoriális. Nagy akváriumban ideális egyedként tartandó, más robusztus, határozott halak társaságában."
+  },
+  "feeding": {
+   "en": "In the wild feeds mainly on plankton picked from the water and algae films; in the aquarium nori, herbivore pellets, frozen mysis and plankton. Feed 2-3 times daily.",
+   "hu": "Természetben planktonnal és algaréteggel táplálkozik; akváriumban nori, növényevő pellet, fagyasztott mysis és plankton. Napi 2-3 alkalommal etetendő."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from East Africa to the Marquesas, north to southern Japan, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Marquises-szigetekig, északra Japán déli részéig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Spectacular but quarrelsome; newly imported specimens often refuse food and are prone to parasitic diseases. Acclimatization in a quarantine tank is essential.",
+   "hu": "Kiváló szépségű, de kötekedő természetű; a frissen behozott példányok gyakran nehezen kezdenek el táplálkozni, és fogékonyak az élősködő betegségekre. A karanténakváriumi szoktatás elengedhetetlen."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159582"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-lineatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Acanthurus_lineatus_060417w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_lineatus_060417w.jpg",
+   "author": "User:Strobilomyces",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "acanthurus-nigricans",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus nigricans",
+  "name_en": "Whitecheek Surgeonfish (Goldrim)",
+  "name_hu": "Aranyszegélyes fekete doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive, active swimmer; like the Achilles tang it is territorial towards other surgeonfish. Usually peaceful towards non-tang tankmates.",
+   "hu": "Félig agresszív, aktívan úszkáló; az Achilles-doktorhalhoz hasonlóan más doktorhalakkal szemben territoriális. Nem doktorhal társai felé általában békés."
+  },
+  "feeding": {
+   "en": "Herbivore: nori, herbivore pellets, spirulina; occasional mysis. Constant grazing in the tank helps digestion.",
+   "hu": "Növényevő: nori, növényevő pellet, spirulina; alkalmanként mysis. A folyamatos legelés segíti az emésztést."
+  },
+  "origin": {
+   "en": "Widespread in the tropical Pacific, including Hawai'i; also recorded from the eastern Indian Ocean.",
+   "hu": "A Csendes-óceán trópusi vizeiben elterjedt, Hawaiit is beleértve; az Indiai-óceán keleti részéről is előkerült."
+  },
+  "notes": {
+   "en": "Closely related to the Achilles tang, and the two hybridize where their ranges overlap (the hybrid is Acanthurus chronixis). Sensitive to poor water quality and prone to ich.",
+   "hu": "Az Achilles-doktorhal közeli rokona, ott, ahol az elterjedési területük átfedi egymást, hibrideket is alkotnak (ez a Acanthurus chronixis). Érzékeny a rossz vízminőségre, ich-hajlamos."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219638"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-nigricans.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Acanthurus_nigricans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_nigricans.jpg",
+   "author": "R. Stuart-Smith",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "acanthurus-pyroferus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus pyroferus",
+  "name_en": "Mimic Surgeonfish (Chocolate Tang)",
+  "name_hu": "Csokoládé doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful to semi-aggressive; juveniles mimic dwarf angelfish (Centropyge) in coloration. Usually tolerant of other peaceful fish.",
+   "hu": "Békés vagy félig agresszív; a fiatal példányok a törpe angyalhalak (Centropyge) színét utánozzák. Más békés halakkal szemben általában toleráns."
+  },
+  "feeding": {
+   "en": "Herbivore leaning omnivore: nori, herbivore pellets, spirulina, frozen foods.",
+   "hu": "Növényevőbe hajló mindenevő: nori, növényevő pellet, spirulina, fagyasztott eleségek."
+  },
+  "origin": {
+   "en": "Western and Central Pacific: from the Great Barrier Reef to the Marquesas and Tuamotus.",
+   "hu": "Nyugati és középső Csendes-óceán: a Nagy Korallzátonytól a Marquises- és a Tuamotu-szigetekig."
+  },
+  "notes": {
+   "en": "The juvenile's mimicry of Centropyge angelfish is a classic example of aggressive mimicry confusing predators. Adults turn uniformly dark brown.",
+   "hu": "A fiatal példányok Centropyge-utánzása az agresszív mimikri klasszikus példája, amellyel ragadozókat tévesztenek meg. A kifejlett hal egyöntetűen sötétbarna."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219648"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-pyroferus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/AcanthurPyrofRLS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:AcanthurPyrofRLS.jpg",
+   "author": "Graham Edgar/Reef Live Survey",
+   "license": "CC BY 2.5"
+  }
+ },
+ {
+  "id": "acanthurus-tennentii",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus tennentii",
+  "name_en": "Doubleband Surgeonfish (Lieutenant Tang)",
+  "name_hu": "Tenetti doktorhal",
+  "size_cm": {
+   "min": 25,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 18
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 900,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive, robust tang; territorial towards other surgeonfish, peaceful with larger non-tang fish.",
+   "hu": "Félig agresszív, robusztus doktorhal; más doktorhalakkal szemben territoriális, nagyobb, nem doktorhal társakkal békés."
+  },
+  "feeding": {
+   "en": "Herbivore: nori daily, herbivore pellets, spirulina; occasional mysis.",
+   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; alkalmanként mysis."
+  },
+  "origin": {
+   "en": "Indian Ocean: from East Africa and the Maldives to Java, Indonesia.",
+   "hu": "Indiai-óceán: Kelet-Afrikától és a Maldív-szigetektől Jáva szigetéig, Indonézia."
+  },
+  "notes": {
+   "en": "Named after the two dark 'lieutenant' bars on the body. Less commonly imported than the Pacific surgeonfish; usually hardy once acclimated.",
+   "hu": "A testén lévő két sötét 'zászlótiszti' sávól kapta a nevét. Ritkábban kerül forgalomba, mint a csendes-óceáni doktorhalak; szoktatás után általában ellenálló."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219632"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-tennentii.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Acanthurus_tennenti_Kreisdorn-Doktorfisch3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_tennenti_Kreisdorn-Doktorfisch3.jpg",
+   "author": "",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "acanthurus-thompsoni",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus thompsoni",
+  "name_en": "Thompson's Surgeonfish",
+  "name_hu": "Fehérfarkú doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 27
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, open-water swimmer that forms schools over reefs in the wild. In the aquarium best kept in a group in a large tank.",
+   "hu": "Békés, nyílt vízben úszó halfaj, amely a zátonyok felett rajokban táplálkozik. Akváriumban nagy medencében csoportban tartása a legjobb."
+  },
+  "feeding": {
+   "en": "Primarily a zooplankton feeder in the wild; in the aquarium frozen and live plankton substitutes, mysis, enriched brine shrimp, plus some nori.",
+   "hu": "Természetben főleg zooplanktonnal táplálkozik; akváriumban fagyasztott és élő planktonpótlékok, mysis, dúsított sórák, valamint kevés nori."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from East Africa to the Hawaiian and Tuamotu islands.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Hawaii- és Tuamotu-szigetekig."
+  },
+  "notes": {
+   "en": "Its plankton-based diet makes it trickier to feed than algae-grazing tangs; keep only in mature tanks with stable food supply.",
+   "hu": "A planktonalapú táplálkozás miatt nehezebb etetni, mint az algát legelő doktorhalakat; csak érett, stabil táplálékellátású akváriumban tartsuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219646"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-thompsoni.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Acanthurus_thompsoni_15934228.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_thompsoni_15934228.jpg",
+   "author": "Georgina Jones",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "acanthurus-triostegus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus triostegus",
+  "name_en": "Convict Surgeonfish",
+  "name_hu": "Fegyenc doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 26
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, schooling herbivore; one of the most tolerant surgeonfish towards tankmates, including other tangs.",
+   "hu": "Békés, rajzó növényevő; a legtoleránsabb doktorhalak egyike a társakkal, más doktorhalakkal szemben is."
+  },
+  "feeding": {
+   "en": "Herbivore: nori, herbivore pellets, spirulina; grazes filamentous algae all day.",
+   "hu": "Növényevő: nori, növényevő pellet, spirulina; napközben a fonalszerű algákat legeli."
+  },
+  "origin": {
+   "en": "Indo-Pacific (including the Red Sea) and the eastern Pacific (Mexico to Ecuador).",
+   "hu": "Indo-Csendes-óceán (a Vörös-tengert is beleértve) és a kelet-Csendes-óceán (Mexikótól Ecuadorig)."
+  },
+  "notes": {
+   "en": "The black-and-white barred pattern inspired the name 'convict'. Hardy and one of the best algae-eating surgeonfish for large tanks.",
+   "hu": "A fekete-fehér csíkozás ihlette a 'fegyenc' nevet. Ellenálló faj, és a legjobb algaevő doktorhalak egyike nagyobb akváriumokba."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219630"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-triostegus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Acanthurus_triostegus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_triostegus.jpg",
+   "author": "",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "acanthurus-chronixis",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Acanthurus chronixis",
+  "name_en": "Chronixis Surgeonfish (hybrid)",
+  "name_hu": "Félfekete doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive; treat like its parent species (Achilles and whitecheek tangs): territorial towards other surgeonfish.",
+   "hu": "Félig agresszív; a szülőfajaihoz (Achilles- és aranyszegélyes fekete doktorhal) hasonlóan territóriumot tart más doktorhalakkal szemben."
+  },
+  "feeding": {
+   "en": "Herbivore: nori, herbivore pellets, spirulina; occasional mysis.",
+   "hu": "Növényevő: nori, növényevő pellet, spirulina; alkalmanként mysis."
+  },
+  "origin": {
+   "en": "Central Pacific, where the ranges of A. achilles and A. nigricans overlap (e.g. Marshall Islands area).",
+   "hu": "Középső Csendes-óceán, ahol az A. achilles és az A. nigricans elterjedési területe átfedi egymást (pl. a Marshall-szigetek környéke)."
+  },
+  "notes": {
+   "en": "Widely considered a natural hybrid of Acanthurus achilles × A. nigricans; the name is listed as accepted in WoRMS. Rarely imported; sensitive like its parent species.",
+   "hu": "Általában az Acanthurus achilles × A. nigricans természetes hibridjeként tartják számon; a név a WoRMS-ban elfogadott státuszú. Ritkán kerül forgalomba; a szülőfajaihoz hasonlóan érzékeny."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=272959"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acanthurus-chronixis.html"
+   }
+  ]
+ },
+ {
+  "id": "ctenochaetus-striatus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Ctenochaetus striatus",
+  "name_en": "Striated Bristletooth",
+  "name_hu": "Sörtésfogú doktorhal",
+  "size_cm": {
+   "min": 20,
+   "max": 26
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, hardy bristletooth tang; one of the best detritus and film-algae grazers for reef tanks. Can be kept in small groups in large systems.",
+   "hu": "Békés, ellenálló sörtésfogú doktorhal; az egyik legjobb detritusz- és algaréteg-legelő zátonyos akváriumokba. Nagy rendszerekben kisebb csoportban is tartható."
+  },
+  "feeding": {
+   "en": "Grazes algae films and detritus with its comb-like bristle teeth; supplement with nori, herbivore pellets and spirulina.",
+   "hu": "Fésűszerű sörtésfogával algaréteget és detrituszt legel; norival, növényevő pellettel és spirulinával egészítsük ki."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Red Sea and East Africa to Polynesia.",
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Polinéziáig."
+  },
+  "notes": {
+   "en": "Its bristletooth feeding style makes it an excellent cleaner of rockwork; unlike Zebrasoma tangs it rarely nips at large-polyp corals.",
+   "hu": "A sörtésfogú táplálkozási módja miatt kiváló kőzet-takarító; a Zebrasoma doktorhalakkal ellentétben a nagypolipú korallokat ritkán csipked."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219659"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ctenochaetus-striatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cirujano_estriado_%28Ctenochaetus_striatus%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-30%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirujano_estriado_(Ctenochaetus_striatus),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-30,_DD_01.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ctenochaetus-binotatus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Ctenochaetus binotatus",
+  "name_en": "Twospot Bristletooth",
+  "name_hu": "Kékszemű sörtésfogú doktorhal",
+  "size_cm": {
+   "min": 15,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, shy bristletooth; prefers rockwork with hiding places and may hide for days after introduction.",
+   "hu": "Békés, visszahúzódó sörtésfogú; kőzetrejtek-szerető, behelyezés után napokig rejtőzhet."
+  },
+  "feeding": {
+   "en": "Detritus and algae grazer; nori, herbivore pellets, spirulina.",
+   "hu": "Detritusz- és algaevő; nori, növényevő pellet, spirulina."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to the Line and Marquesas islands.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Line- és Marquises-szigetekig."
+  },
+  "notes": {
+   "en": "Prefers deeper reef slopes in the wild; moderately common in the trade. Juveniles have a striking blue-ringed eye.",
+   "hu": "Természetben a zátonylejtők mélyebb részeit kedveli; mérsékelten gyakori a kereskedelemben. A fiatal példányok szemét feltűnő kék gyűrű övezi."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219655"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ctenochaetus-binotatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Ctenochaetus_binotatus_13376118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ctenochaetus_binotatus_13376118.jpg",
+   "author": "Bernard Picton",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "ctenochaetus-truncatus",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Ctenochaetus truncatus",
+  "name_en": "Truncated Bristletooth",
+  "name_hu": "Truncated bristletooth",
+  "size_cm": {
+   "min": 15,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder",
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, deep-water bristletooth; more plankton-feeding than its shallow-water relatives. Shy at first.",
+   "hu": "Békés, mélyvízi sörtésfogú; a sekélyvízi rokonainál inkább planktonnal táplálkozik. Eleinte visszahúzódó."
+  },
+  "feeding": {
+   "en": "In the wild mainly zooplankton; in the aquarium frozen plankton substitutes, mysis, plus nori and herbivore pellets.",
+   "hu": "Természetben főleg zooplanktont eszik; akváriumban fagyasztott planktonpótlékok, mysis, valamint nori és növényevő pellet."
+  },
+  "origin": {
+   "en": "Indian Ocean: from the Red Sea and East Africa to the Andaman Sea; also recorded from the Coral Triangle.",
+   "hu": "Indiai-óceán: a Vörös-tengertől és Kelet-Afrikától az Andamán-tengerig; a Korall-háromszögből is előkerült."
+  },
+  "notes": {
+   "en": "Formerly often traded under Ctenochaetus strigosus. No widely used Hungarian common name; the English name is used.",
+   "hu": "Korábban gyakran Ctenochaetus strigosus néven forgalmazták. Elfogadott magyar név nélküli faj; az angol nevét használjuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277563"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ctenochaetus-truncatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/CtenochaetusTruncatus%2C_Banda_Aceh%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:CtenochaetusTruncatus,_Banda_Aceh,_Indonesia.jpg",
+   "author": "Graham Edgar / Reef Life Survey",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "naso-elegans",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Naso elegans",
+  "name_en": "Elegant Unicornfish",
+  "name_hu": "Elegáns unikornishal",
+  "size_cm": {
+   "min": 35,
+   "max": 45
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 20
+  },
+  "tank_min_l": 700,
+  "tank_ideal_l": 1200,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater",
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive, large open-water swimmer; peaceful towards non-tang tankmates. Needs strong swimming room.",
+   "hu": "Félig agresszív, nagy testű, nyílt vízben úszó; a nem doktorhal társakkal békés. Nagy úszófelületet igényel."
+  },
+  "feeding": {
+   "en": "Herbivore-planktivore: nori, herbivore pellets, frozen mysis and plankton substitutes.",
+   "hu": "Növényevő-planktonevő: nori, növényevő pellet, fagyasztott mysis és planktonpótlékok."
+  },
+  "origin": {
+   "en": "Indian Ocean: from the Red Sea and East Africa to Bali, Indonesia.",
+   "hu": "Indiai-óceán: a Vörös-tengertől és Kelet-Afrikától Bali szigetéig, Indonézia."
+  },
+  "notes": {
+   "en": "Indian Ocean counterpart of the lipstick unicornfish (Naso lituratus); similar orange 'lipstick' markings but lacks the orange tail of lituratus.",
+   "hu": "A rúzsos doktorhal (Naso lituratus) indiai-óceáni megfelelője; hasonló narancs 'rúzsos' rajzolatú, de hiányzik róla a lituratus narancs farokúszója."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278005"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Naso-elegans.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Elegant_Unicornfish%2C_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Elegant_Unicornfish,_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg",
+   "author": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "zebrasoma-desjardinii",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Zebrasoma desjardinii",
+  "name_en": "Red Sea Sailfin Tang",
+  "name_hu": "Indiai vitorlaúszójú doktorhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 20
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive sailfin tang; large adult size with dramatic dorsal and anal fins. Territorial towards other tangs.",
+   "hu": "Félig agresszív vitorlaúszójú doktorhal; nagy testű, látványos hát- és farok alatti úszókkal. Más doktorhalakkal szemben territoriális."
+  },
+  "feeding": {
+   "en": "Herbivore: nori daily, herbivore pellets, spirulina; grazes algae films constantly.",
+   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; folyamatosan algaréteget legel."
+  },
+  "origin": {
+   "en": "Indian Ocean: Red Sea, East Africa, Madagascar, Maldives, to Java.",
+   "hu": "Indiai-óceán: Vörös-tenger, Kelet-Afrika, Madagaszkár, Maldív-szigetek, Jáva."
+  },
+  "notes": {
+   "en": "Once considered a subspecies of Zebrasoma veliferum; now a separate species. Juveniles are more barred, adults develop the spotted pattern.",
+   "hu": "Korábban a Zebrasoma veliferum alfajának tartották; ma önálló faj. A fiatalok inkább csíkozottak, a kifejlett példányok pöttyözött mintát öltenek."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277555"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Zebrasoma-desjardinii.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Z._desjardinii%2C_juv%C3%A9nile.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Z._desjardinii,_juv%C3%A9nile.JPG",
+   "author": "Philippe Bourjon",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "zebrasoma-gemmatum",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Zebrasoma gemmatum",
+  "name_en": "Spotted Tang (Gem Tang)",
+  "name_hu": "Gyémánt doktorhal",
+  "size_cm": {
+   "min": 15,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 6,
+   "max": 15
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive but generally well-mannered tang; usually the dominant fish in the aquarium.",
+   "hu": "Félig agresszív, de általában jól nevelhető doktorhal; gyakran az akvárium domináns hala."
+  },
+  "feeding": {
+   "en": "Herbivore: nori, herbivore pellets, spirulina; accepts most frozen foods.",
+   "hu": "Növényevő: nori, növényevő pellet, spirulina; a legtöbb fagyasztott eleséget elfogadja."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Mauritius, Madagascar and Réunion.",
+   "hu": "Nyugat-Indiai-óceán: Mauritius, Madagaszkár és Réunion."
+  },
+  "notes": {
+   "en": "One of the most expensive tangs due to its limited, island-only range and collection difficulty. Hardy once acclimated and a superb algae grazer.",
+   "hu": "A legdrágább doktorhalak egyike, mivel csak néhány szigetről gyűjthető, korlátozott elterjedésű. Szoktatás után ellenálló, és kiváló algaevő."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219680"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Zebrasoma-gemmatum.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cirujano_moteado_%28Zebrasoma_gemmatum%29%2C_Mauricio%2C_2025-09-23%2C_DD_65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirujano_moteado_(Zebrasoma_gemmatum),_Mauricio,_2025-09-23,_DD_65.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "zebrasoma-veliferum",
+  "group": "fish",
+  "category": "surgeonfish",
+  "scientific_name": "Zebrasoma veliferum",
+  "name_en": "Pacific Sailfin Tang",
+  "name_hu": "Vitorlaúszójú doktorhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 20
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive sailfin tang with spectacular fins; territorial towards other Zebrasoma tangs.",
+   "hu": "Félig agresszív vitorlaúszójú doktorhal látványos úszókkal; más Zebrasoma doktorhalakkal szemben territoriális."
+  },
+  "feeding": {
+   "en": "Herbivore: nori daily, herbivore pellets, spirulina; constant algae grazing.",
+   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; folyamatos algalegelés."
+  },
+  "origin": {
+   "en": "Pacific Ocean: from Indonesia and the Philippines to Hawai'i, north to Japan, south to Australia.",
+   "hu": "Csendes-óceán: Indonéziától és a Fülöp-szigetektől Hawaiig, északra Japánig, délen Ausztráliáig."
+  },
+  "notes": {
+   "en": "The WoRMS register treats the combination Zebrasoma veliferum as a synonym of Zebrasoma velifer (Velifer, 1915); the spelling veliferum remains the widely used one in the aquarium literature and FishBase.",
+   "hu": "A WoRMS nyilvántartás a Zebrasoma veliferum névváltozatot a Zebrasoma velifer (Velifer, 1915) szinonimájaként kezeli; a veliferum írásmód az akvarisztikai szakirodalomban és a FishBase-ben elterjedt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes",
+   "hlle"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219684"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Zebrasoma-velifer.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Acanthuridae_Zebrasoma_veliferum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthuridae_Zebrasoma_veliferum_1.jpg",
+   "author": "NasserHalaweh",
+   "license": "CC BY-SA 4.0"
   }
  }
 ]

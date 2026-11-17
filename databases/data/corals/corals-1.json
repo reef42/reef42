@@ -36,7 +36,6 @@
   },
   "diseases": [
    "rtn-stn",
-   "brown-jelly",
    "black-band"
   ],
   "sources": [
@@ -90,7 +89,7 @@
   },
   "diseases": [
    "rtn-stn",
-   "brown-jelly"
+   "black-band"
   ],
   "sources": [
    {

@@ -45,7 +45,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
-   "brooklynella"
+   "flukes"
   ],
   "sources": [
    {
@@ -111,7 +111,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
-   "brooklynella"
+   "flukes"
   ],
   "sources": [
    {
@@ -176,7 +176,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
@@ -242,7 +243,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
-   "brooklynella"
+   "flukes"
   ],
   "sources": [
    {
@@ -308,7 +309,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
-   "brooklynella"
+   "flukes"
   ],
   "sources": [
    {
@@ -373,7 +374,8 @@
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
@@ -439,7 +441,7 @@
   "diseases": [
    "marine-ich",
    "velvet",
-   "brooklynella"
+   "flukes"
   ],
   "sources": [
    {
