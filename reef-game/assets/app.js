@@ -24,9 +24,9 @@
     app: ['Reef game', 'Reef game'], tank: ['Akvárium', 'Tank'], shop: ['Bolt', 'Shop'], log: ['Napló', 'Log'], sky: ['Égi akvárium', 'Sky aquarium'], game: ['Játék', 'Game'],
     lead: ['Virtuális tengeri akvárium kezdőknek: állítsd be, ciklizáld, népesítsd be, és tartsd életben a lakóit – közben megtanulod, hogyan működik egy zátonyakvárium.', 'A virtual saltwater tank for beginners: set it up, cycle it, stock it and keep its residents alive – and learn how a reef tank works along the way.'],
     newGame: ['Új játék', 'New game'], mode: ['Játékmód', 'Mode'], free: ['Szabad játék', 'Free play'], freeText: ['2500 🐚 induló kerettel, heti 100 🐚 zsebpénzzel, üres szobából indulsz.', 'Start from an empty room with 2500 🐚 and 100 🐚 pocket money a week.'],
-    missions: ['Küldetések', 'Missions'], time: ['Időkezelés', 'Time'],
+    missions: ['Oktató mód – küldetések kész kezdőcsomaggal', 'Tutorial mode – missions with a ready starter pack'], time: ['Időkezelés', 'Time'],
     'time.turn': ['Körökre osztott', 'Turn-based'], 'time.turnText': ['Te léptetsz napot. Nyugodt tempó.', 'You advance the days. A calm pace.'],
-    'time.fast': ['Gyorsított', 'Accelerated'], 'time.fastText': ['1 perc = 1 nap, megállítható, 5× gyorsítás.', '1 minute = 1 day, can be paused, 5× speed.'],
+    'time.fast': ['Gyorsított', 'Accelerated'], 'time.fastText': ['1 perc = 1 nap, megállítható, 5×, 20× és 50× gyorsítás.', '1 minute = 1 day, can be paused, 5×, 20× and 50× speed.'],
     'time.real': ['Valós idő', 'Real time'], 'time.realText': ['1 nap = 1 nap, akkor is telik, ha az oldal zárva van. Csak bátraknak.', '1 day = 1 day, time passes even while the page is closed. For the brave.'],
     difficulty: ['Nehézség', 'Difficulty'], 'diff.easy': ['Könnyű', 'Easy'], 'diff.easyText': ['Tanácsadó figyelmeztet, látod az élőlények állapotát.', 'An advisor warns you, and you see how the animals are doing.'],
     'diff.hard': ['Nehéz', 'Hard'], 'diff.hardText': ['Csak azt látod, amit egy valódi akvarista: tüneteket.', 'You only see what a real aquarist sees: symptoms.'],
@@ -129,7 +129,7 @@
     'adv.cycle': ['Még nincs elég baktérium. Adj ammónia-forrást, és mérj, amíg az NH3 és az NO2 nullára nem esik.', 'Not enough bacteria yet. Add an ammonia source and measure until NH3 and NO2 drop to zero.'],
     'adv.notCycled': ['Az akvárium nincs beciklizálva, mégis vannak lakók – mérj ammóniát és nitritet, és etess keveset.', 'The tank is not cycled but has residents – measure ammonia and nitrite and feed lightly.'],
     'adv.topOff': ['Párolog a víz, és nő a sótartalom – pótold édesvízzel.', 'Water is evaporating and salinity is rising – top off with fresh water.'], 'adv.sock': ['A szűrőzokni koszos – cseréld, különben nitrátgyár lesz.', 'The filter sock is dirty – change it or it becomes a nitrate factory.'],
-    'adv.algae': ['Sok az alga: túl sok a tápanyag (NO3, PO4) vagy a fény.', 'Lots of algae: too many nutrients (NO3, PO4) or too much light.'], 'adv.aiptasia': ['Szaporodik az aiptasia – borsmentás garnéla vagy aiptasia-irtó segít.', 'Aiptasia are spreading – a peppermint shrimp or an aiptasia killer helps.'],
+    'adv.algae': ['Sok az alga: bőven van tápanyag (NO3, PO4). A hosszú vagy erős világítás ezt felerősíti, de az alga a tápanyagból él.', 'Lots of algae: there are plenty of nutrients (NO3, PO4). Long or strong lighting boosts it, but algae live on the nutrients.'], 'adv.aiptasia': ['Szaporodik az aiptasia – borsmentás garnéla vagy aiptasia-irtó segít.', 'Aiptasia are spreading – a peppermint shrimp or an aiptasia killer helps.'],
     'adv.broken': ['Valami nem működik a felszerelésben – nézd meg a listát.', 'Something in the equipment is not working – check the list.'], 'adv.power': ['Áramszünet van!', 'There is a power cut!'],
     'adv.food': ['Fogy a haltáp.', 'Fish food is running out.'], 'adv.noLight': ['Korallaid vannak, de nincs világítás.', 'You have corals but no light.'],
     'adv.s.nh3': ['Valaki ammóniától szenved: kevesebb etetés, vízcsere, mérd az NH3-at.', 'Someone suffers from ammonia: feed less, change water, measure NH3.'], 'adv.s.no2': ['Nitrit gyűlik: a ciklus nem ért véget. Vízcsere, kevés etetés.', 'Nitrite is building up: the cycle is not over. Change water, feed lightly.'],
@@ -203,7 +203,7 @@
     'todo.wc': ['Kész a ciklus! A felgyűlt nitrát miatt cserélj 30–50% vizet – utána jöhet a takarítócsapat (csigák, remeterákok).', 'The cycle is done! Change 30–50% of the water because of the nitrate that built up – then the clean-up crew (snails, hermit crabs) can come.'],
     testsLeft: ['{n} mérés maradt', '{n} tests left'],
     introTitle: ['Mielőtt belevágsz: a nitrogénciklus', 'Before you start: the nitrogen cycle'], introOk: ['Értem, kezdjük!', "Got it, let's go!"], cycleWhy: ['Mi a ciklus, és miért kell?', 'What is the cycle and why does it matter?'],
-    'intro.1': ['A halak ürülékéből és az ételmaradékból ammónia (NH3) lesz, ami már kis mennyiségben is mérgező.', 'Fish waste and leftover food turn into ammonia (NH3), which is toxic even in small amounts.'],
+    'intro.1': ['A halak a kopoltyújukon át és az ürülékükkel folyamatosan ammóniát (NH3) adnak le, és az ételmaradék bomlásából is ammónia lesz. Már kis mennyiségben is mérgező.', 'Fish give off ammonia (NH3) all the time through their gills and in their waste, and decaying leftover food turns into ammonia too. It is toxic even in small amounts.'],
     'intro.2': ['Baktériumok alakítják tovább: az egyik csoport az ammóniát nitritté (NO2), a másik a nitritet nitráttá (NO3). A nitrát sokkal kevésbé ártalmas, vízcserével és algákkal távozik.', 'Bacteria break it down: one group turns ammonia into nitrite (NO2), another turns nitrite into nitrate (NO3). Nitrate is far less harmful and leaves with water changes and algae.'],
     'intro.3': ['Egy új akváriumban ezek a baktériumok még hiányoznak – a köveken és az aljzaton kell megtelepedniük. Ez a ciklus: 3–6 hét, amíg lakók nélkül, ammóniával vagy etetéssel „etetve” elszaporodnak.', 'A new tank does not have these bacteria yet – they have to settle on the rock and sand. That is the cycle: 3–6 weeks while they grow without residents, fed with ammonia or food.'],
     'intro.4': ['Ha ciklus nélkül teszel be állatot, az ammónia és a nitrit megmérgezi. A ciklus-kártya lépésről lépésre végigvezet: mit adj a vízhez, és mit, mikor mérj.', 'Animals added before the cycle get poisoned by ammonia and nitrite. The cycle card guides you step by step: what to add and what to measure when.'],
@@ -242,6 +242,36 @@
     missionStarted: ['Új küldetés: {name}', 'New mission: {name}'], 'ok.missionStarted': ['Új küldetés indult.', 'New mission started.'],
     'err.needFilled': ['Ehhez a küldetéshez feltöltött akvárium kell.', 'This mission needs a filled tank.'], 'err.needFish': ['Ehhez a küldetéshez legalább egy hal kell a fő akváriumban.', 'This mission needs at least one fish in the display.'],
     'err.needHeater': ['Ehhez a küldetéshez fűtő kell.', 'This mission needs a heater.'],
+    // why each item matters (starter pack cards)
+    goodToKnow: ['Jó tudni', 'Good to know'],
+    'why.tank': ['A tényleges vízmennyiség a névlegesnél kb. 15–20%-kal kevesebb, mert a kő és a homok is helyet foglal. Több vízben lassabban változnak az értékek, így a hibáknak is több idő kell, hogy ártsanak.', 'The real water volume is about 15–20% less than the nominal one, because rock and sand take up space. In more water the values change more slowly, so mistakes take longer to do harm.'],
+    'why.heater': ['Ökölszabály: kb. 1 W literenként. Állítsd 25–26 °C-ra; a napi ingadozás maradjon 1 °C alatt. Hőmérővel ellenőrizd, mert a termosztát meghibásodhat (beragadhat).', 'Rule of thumb: about 1 W per litre. Set it to 25–26 °C; keep the daily swing under 1 °C. Check it with a thermometer, because the thermostat can fail (stick).'],
+    'why.pump': ['Ökölszabály: óránként a víz 10–20-szorosát mozgassa (100 l → 1000–2000 l/óra), korallos akváriumban többet. Úgy állítsd, hogy a vízfelszín is mozogjon.', 'Rule of thumb: move 10–20 times the water volume per hour (100 L → 1000–2000 L/h), more with corals. Aim it so that the surface moves too.'],
+    'why.light': ['Napi 8–10 óra világítás elég. A korallok fényigénye fajonként eltér (kevés, közepes, erős). A sok fény az algának is kedvez, de algavirágzás tápanyag (nitrát, foszfát) nélkül nem lesz.', '8–10 hours of light a day is enough. Corals differ in how much light they need (low, medium, high). Plenty of light helps algae too, but without nutrients (nitrate, phosphate) there is no algae bloom.'],
+    'why.skimmer': ['A gyártó által megadott literérték inkább felső határ, ezért érdemes az akváriumnál nagyobbra méretezni. Sok hal és bőséges etetés mellett a leghasznosabb.', 'The rated volume is more of an upper limit, so it is worth sizing it larger than the tank. It helps most with many fish and generous feeding.'],
+    'why.sock': ['3–7 naponta cseréld; a kimosott zokni újra használható.', 'Swap it every 3–7 days; a washed sock can be used again.'],
+    'why.rock': ['Ökölszabály: kb. 10 kg kő 100 literre. A baktériumok a kő felületén és pórusaiban élnek, ezért a porózus kő a jobb.', 'Rule of thumb: about 10 kg of rock per 100 L. The bacteria live on the surface and in the pores of the rock, so porous rock is better.'],
+    'why.refractometer': ['Cél: 35 ppt (SG 1,026). Használat előtt kalibráld RO-vízzel nullára. Párolgáskor csak a víz távozik, a só marad, ezért a párolgást édesvízzel pótold.', 'Target: 35 ppt (SG 1.026). Calibrate it to zero with RO water before use. Evaporation takes only water, the salt stays, so top off with fresh water.'],
+    'why.salt': ['Kb. 35 g literenként ad 35 ppt-t (márkánként kicsit eltér). RO-vízben keverd, és hagyd néhány órát keveredni, mielőtt az akváriumba kerül.', 'About 35 g per litre gives 35 ppt (it varies a little by brand). Mix it in RO water and let it stir for a few hours before it goes into the tank.'],
+    'why.food': ['Egyszerre annyit adj, amennyit 1–2 perc alatt megesznek, naponta 1–2-szer. Az el nem fogyott étel elbomlik, és ammónia lesz belőle.', 'Give as much as they eat in 1–2 minutes, once or twice a day. Uneaten food decays into ammonia.'],
+    'why.ammonia': ['A ciklus alatt tartsd 1–2 ppm körül: ha az NH3 0,5 alá esik, adj még egy adagot. 4 ppm fölé ne vidd, mert az lassítja a baktériumokat.', 'Keep it around 1–2 ppm during the cycle: when NH3 drops below 0.5, add another dose. Do not go above 4 ppm, it slows the bacteria down.'],
+    'why.qt': ['Ajánlott 4–6 hét megfigyelés. Mivel nincsenek benne gerinctelenek, itt használható réz.', 'A 4–6 week watch is recommended. With no invertebrates in it, copper can be used here.'],
+    'why.copper': ['Hatásos szint: 0,15–0,20 ppm, rézteszttel mérve, kb. 14 napig. Ennél több a halaknak is mérgező.', 'Effective level: 0.15–0.20 ppm, measured with a copper test, for about 14 days. More than that is toxic to fish too.'],
+    'why.add': ['Cél: KH 7–10 dKH, Ca 400–450 ppm, Mg 1250–1400 ppm. Mérés alapján, kis lépésekben adagold; a KH napi változása maradjon 1 dKH alatt.', 'Targets: KH 7–10 dKH, Ca 400–450 ppm, Mg 1250–1400 ppm. Dose in small steps based on tests; keep the daily KH change under 1 dKH.'],
+    'why.coralfood': ['Hetente 1–2-szer, célzottan. A fel nem vett étel a vizet terheli.', 'Once or twice a week, targeted. Food that is not taken up loads the water.'],
+    'why.dip': ['Különösen zoáknál és SPS-nél hasznos, mert ezeken gyakoriak az apró kártevők.', 'Especially useful for zoas and SPS, which often carry tiny pests.'],
+    'target.nh3': ['Jó érték: 0. A ciklus után mérhető ammónia bajt jelez (túletetés, elhullás vagy túl sok hal).', 'Good value: 0. Measurable ammonia after the cycle means trouble (overfeeding, a death or too many fish).'],
+    'target.no2': ['Jó érték: 0. A ciklus alatt megugrik, utána nullára esik.', 'Good value: 0. It spikes during the cycle, then drops to zero.'],
+    'target.no3': ['Jó érték: kb. 2–20 ppm, korallos akváriumban inkább 2–10. Vízcserével, fölözővel vagy makroalgával csökkenthető.', 'Good value: about 2–20 ppm, rather 2–10 with corals. Water changes, a skimmer or macroalgae bring it down.'],
+    'target.po4': ['Jó érték: kb. 0,02–0,1 ppm; a nulla a koralloknak sem jó.', 'Good value: about 0.02–0.1 ppm; zero is not good for corals either.'], 'target.ph': ['Jó érték: 7,9–8,4. Világításkor magasabb, éjjel alacsonyabb – ez természetes.', 'Good value: 7.9–8.4. Higher while the lights are on, lower at night – that is normal.'],
+    'target.kh': ['Jó érték: 7–10 dKH. A stabilitás fontosabb a pontos számnál: a napi változás maradjon 1 dKH alatt.', 'Good value: 7–10 dKH. Stability matters more than the exact number: keep the daily change under 1 dKH.'],
+    'target.ca': ['Jó érték: 400–450 ppm.', 'Good value: 400–450 ppm.'], 'target.mg': ['Jó érték: 1250–1400 ppm.', 'Good value: 1250–1400 ppm.'],
+    'target.cu': ['Rézkezelésnél 0,15–0,20 ppm; a fő akváriumban mindig 0.', 'During copper treatment 0.15–0.20 ppm; always 0 in the display.'],
+    starterTitle: ['A kezdőcsomagod', 'Your starter pack'],
+    // selling
+    sell: ['Eladás (+{n} 🐚)', 'Sell (+{n} 🐚)'], confirmSell: ['Eladod: {name}? Visszakapsz {n} 🐚-t.', 'Sell {name}? You get back {n} 🐚.'],
+    confirmSellTank: ['Eladod az akváriumot? A víz is vele megy, és {n} 🐚-t kapsz vissza.', 'Sell the tank? The water goes with it, and you get back {n} 🐚.'],
+    'ok.sold': ['Eladva: +{n} 🐚', 'Sold: +{n} 🐚'], 'err.tankNotEmpty': ['Lakókkal teli akváriumot nem adhatsz el.', "You can't sell a tank with residents in it."],
     cycleDone: ['A ciklus kész – jöhetnek az első lakók!', 'The cycle is done – the first residents can come!'], feedGhost: ['Etetés hal nélkül (sok)', 'Ghost feed (a lot)'],
     // missions
     nextMission: ['Következő küldetés: {name} →', 'Next mission: {name} →'], continueFree: ['Folytatás szabadon', 'Carry on freely'],
@@ -415,7 +445,7 @@
     let ctl = '';
     if (tm === 'turn') ctl = '<button class="btn primary" data-act="next">' + esc(t('nextDay')) + '</button><button class="btn" data-act="week">' + esc(t('week')) + '</button>';
     else if (tm === 'fast') ctl = '<button class="btn primary" data-act="toggle">' + esc(running ? '⏸ ' + t('pause') : '▶ ' + t('play')) + '</button>' +
-      [1, 5].map((x) => '<button class="chip" data-act="speed" data-v="' + x + '" aria-pressed="' + (S.speed === x) + '">' + x + '×</button>').join('');
+      [1, 5, 20, 50].map((x) => '<button class="chip" data-act="speed" data-v="' + x + '" aria-pressed="' + (S.speed === x) + '">' + x + '×</button>').join('');
     else ctl = '<span class="chip on">⏱ ' + esc(t('realNote')) + '</span>';
     setPanel('hCtl', ctl);
   }
@@ -483,7 +513,7 @@
     const mode = f.elements.mode.value;
     S = Sim.newGame({ mode, time: f.elements.time.value, difficulty: f.elements.diff.value });
     const m = MISSIONS.find((x) => x.id === mode);
-    if (m) Sim.applySetup(S, m);
+    if (m) { Sim.applySetup(S, m); Sim.missionCheck(S, m, []); }
     resetScene();
     save();
     location.hash = '#/tank';
@@ -934,7 +964,8 @@
       const bad = e.state === 'broken';
       const btn = bad ? '<button class="link" data-act="repair" data-uid="' + e.uid + '">' + esc(t('repair', { n: Math.round(it.price * 0.4) })) + '</button>'
         : ['heater', 'ato', 'pump'].includes(it.kind) ? '<button class="link" data-act="check" data-uid="' + e.uid + '">' + esc(t('check')) + '</button>' : '';
-      return '<li' + (bad ? ' class="bad"' : '') + '><span>' + esc(tr(it.name)) + (bad ? ' – <b>' + esc(t('st.broken')) + '</b>' : '') + '</span>' + btn + '</li>';
+      const sellB = '<button class="link" data-act="sell" data-id="' + esc(e.id) + '">' + esc(t('sell', { n: Math.round(it.price * 0.5) })) + '</button>';
+      return '<li' + (bad ? ' class="bad"' : '') + '><span>' + esc(tr(it.name)) + (bad ? ' – <b>' + esc(t('st.broken')) + '</b>' : '') + '</span><span class="eqacts">' + btn + sellB + '</span></li>';
     }).join('');
     const md = [];
     if (S.rockKg) md.push(t('rock', { n: S.rockKg }));
@@ -988,8 +1019,9 @@
   // New game with a tank that still has to cycle: explain the cycle first, then the tour.
   function startIntro() {
     const go = () => { if (!ls(true, TOUR_KEY)) setTimeout(startTour, 300); };
+    const pack = () => (S.startPack ? packTour(Sim.packItems(Sim.newGame({}), S.startPack), t('starterTitle')).then(go) : go());
     if (S.cycleDone) { go(); return; }
-    modal(t('introTitle'), '<div class="intro">' + introHtml() + '</div>', [{ label: t('introOk'), value: 'ok', primary: true }]).then(go);
+    modal(t('introTitle'), '<div class="intro">' + introHtml() + '</div>', [{ label: t('introOk'), value: 'ok', primary: true }]).then(pack);
   }
   function spark(p, arr) {
     if (!arr.length) return '';
@@ -1672,9 +1704,12 @@
   }
   function buyFoot(id, it) {
     const isTank = !!Sim.CAT.tanks[id];
-    if (owns(it) || (isTank && S.tank && S.tank.id === id)) return '<span class="price">' + it.price + ' 🐚</span><span class="tag">' + esc(t('owned')) + '</span>';
+    const half = Math.round(it.price * 0.5);
+    const mine = isTank ? S.tank && S.tank.id === id : S.eq.some((e) => e.id === id);
+    const sellBtn = mine ? (isTank ? (S.ani.length ? '' : '<button class="btn sm" data-act="sellTank">' + esc(t('sell', { n: half })) + '</button>') : '<button class="btn sm" data-act="sell" data-id="' + esc(id) + '">' + esc(t('sell', { n: half })) + '</button>') : '';
+    if (owns(it) || (isTank && S.tank && S.tank.id === id)) return '<span class="price">' + it.price + ' 🐚</span><span class="tag">' + esc(t('owned')) + '</span>' + sellBtn;
     if (isTank && S.tank) return '<span class="price">' + it.price + ' 🐚</span>';
-    return '<span class="price">' + it.price + ' 🐚</span><button class="btn" data-act="buy" data-id="' + esc(id) + '"' + (S.money < it.price ? ' disabled' : '') + '>' + esc(t('buy')) + '</button>';
+    return '<span class="price">' + it.price + ' 🐚</span>' + sellBtn + '<button class="btn" data-act="buy" data-id="' + esc(id) + '"' + (S.money < it.price ? ' disabled' : '') + '>' + esc(t('buy')) + '</button>';
   }
   function packCard(p) {
     const C = Sim.CAT;
@@ -1777,7 +1812,19 @@
   }
   const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   // After buying a pack: a step-by-step look at what is in it.
-  function packTour(items) {
+  function whyOf(id) {
+    const C = Sim.CAT;
+    if (C.tanks[id]) return t('why.tank');
+    const q = C.eq[id];
+    if (q) return T['why.' + q.kind] ? t('why.' + q.kind) : '';
+    const c = C.cons[id];
+    if (!c) return '';
+    const [k, p] = c.item.split(':');
+    if (k === 'test') return T['target.' + p] ? t('target.' + p) : '';
+    if (k === 'add') return t('why.add');
+    return T['why.' + c.item] ? t('why.' + c.item) : '';
+  }
+  function packTour(items, title) {
     const cnt = {};
     items.forEach((x) => { cnt[x] = (cnt[x] || 0) + 1; });
     const ids = Object.keys(cnt);
@@ -1787,10 +1834,10 @@
       const it = C.tanks[id] || C.eq[id] || C.cons[id];
       const p = C.cons[id] && C.cons[id].item.startsWith('test:') ? C.cons[id].item.slice(5) : '';
       return '<div class="tour"><div class="pimg big">' + pic(id) + '</div><p class="kicker">' + esc(t('of', { a: i + 1, b: ids.length })) + '</p><h3>' + esc((cnt[id] > 1 ? cnt[id] + '× ' : '') + tr(it.name)) + '</h3>' +
-        '<p>' + esc(it.desc ? tr(it.desc) : p ? t('test.' + p) : '') + '</p></div>';
+        '<p>' + esc(it.desc ? tr(it.desc) : p ? t('test.' + p) : '') + '</p>' + (whyOf(id) ? '<p class="why"><b>' + esc(t('goodToKnow')) + ':</b> ' + esc(whyOf(id)) + '</p>' : '') + '</div>';
     };
     let i = 0;
-    modal(t('bought'), slide(0), [{ label: t('prev'), value: 'prev' }, { label: t('next'), value: 'next', primary: true }], (d, done) => {
+    return modal(title || t('bought'), slide(0), [{ label: t('prev'), value: 'prev' }, { label: t('next'), value: 'next', primary: true }], (d, done) => {
       const body = d.querySelector('.mbody');
       const [bp, bn] = d.querySelectorAll('footer button');
       const show = () => { body.innerHTML = slide(i); bp.disabled = i === 0; bn.textContent = i === ids.length - 1 ? t('done') : t('next'); };
@@ -1800,10 +1847,10 @@
         if (!b) return;
         e.preventDefault();
         if (b.value === 'prev' && i > 0) i--;
-        else if (b.value === 'next') { if (i === ids.length - 1) { done(''); return; } i++; }
+        else if (b.value === 'next') { if (i === ids.length - 1) { done('fin'); return; } i++; }
         show();
       });
-    });
+    }).then((r) => { if (r.value === 'fin' && route().view !== 'tank') location.hash = '#/tank'; return r; });
   }
 
   /* ---------- log ---------- */
@@ -1814,6 +1861,7 @@
     if (x.sp) v.name = x.name ? x.name + ' (' + spName(x.sp) + ')' : spName(x.sp);
     if (x.by) v.by = spName(x.by);
     if (x.id) v.name = itemName(x.id);
+    if (x.pack) v.name = tr((Sim.CAT.packs[x.pack] || {}).name || x.pack);
     let s = t('log.' + e.k, v);
     if (e.k === 'death') s += ' ' + causeText(x.cause, x);
     if (x.alarm && e.k === 'power') s += ' 🔔';
@@ -1939,6 +1987,19 @@
         document.querySelectorAll('.tpanel').forEach((p) => { p.hidden = p.id !== 'tp-' + v; });
         return;
       case 'pick': openPick(v); return;
+      case 'sell': {
+        const it = Sim.CAT.eq[btn.dataset.id];
+        if (!it || !confirm(t('confirmSell', { name: tr(it.name), n: Math.round(it.price * 0.5) }))) return;
+        r = Sim.sell(S, btn.dataset.id);
+        if (r.ok && route().view === 'shop') renderShopList();
+        break;
+      }
+      case 'sellTank': {
+        if (!S.tank || !confirm(t('confirmSellTank', { n: Math.round(Sim.CAT.tanks[S.tank.id].price * 0.5) }))) return;
+        r = Sim.sellTank(S);
+        if (r.ok) { resetScene(); if (route().view === 'shop') renderShopList(); }
+        break;
+      }
       case 'atoNo': S.atoNo = true; break;
       case 'remindWc':
         S.remind = { wc: { every: 7, next: Math.floor(S.day) + 7 } };
@@ -1994,7 +2055,7 @@
     if (r) { result(r); afterChange([]); }
     else save();
     updateHud();
-    if (route().view === 'tank') { refreshTank(true); renderActions(); if (['fill', 'buy'].includes(a)) renderSettings(); }
+    if (route().view === 'tank') { refreshTank(true); renderActions(); if (['fill', 'buy', 'sell'].includes(a)) renderSettings(); if (a === 'sellTank') render(); }
   }
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-act]');

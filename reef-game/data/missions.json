@@ -4,7 +4,7 @@
     "continue": {},
     "name": { "hu": "Első akvárium", "en": "First tank" },
     "intro": { "hu": "Állíts be egy tengeri akváriumot a nulláról, és ciklizáld be, mielőtt bármilyen élőlény bekerülne. Ez a legfontosabb lecke: a baktériumoknak hetek kellenek.", "en": "Set up a saltwater tank from scratch and cycle it before any animal goes in. This is the most important lesson: bacteria need weeks." },
-    "setup": { "money": 1300, "income": 50, "randomEvents": false },
+    "setup": { "money": 400, "income": 50, "randomEvents": false, "pack": "start120" },
     "steps": [
       { "title": { "hu": "Vegyél akváriumot", "en": "Buy a tank" }, "tip": { "hu": "Kezdésnek a 120 literes jó választás: elég stabil, és nem drága felszerelni.", "en": "The 120 L tank is a good start: stable enough and not expensive to equip." }, "goals": [{ "type": "tank" }] },
       { "title": { "hu": "Fűtő és áramláspumpa", "en": "Heater and flow pump" }, "tip": { "hu": "A fűtő tartja a 25–26 °C-ot, a pumpa mozgatja a vizet – oxigén nélkül a baktériumok sem dolgoznak.", "en": "The heater holds 25–26 °C, the pump moves the water – without oxygen bacteria don't work either." }, "goals": [{ "type": "has", "kinds": ["heater", "pump"] }] },

@@ -425,3 +425,5 @@ input[type="number"] { width: 5.5em; }
 .cwhy p { margin: 6px 0; }
 .intro p { margin: 0 0 10px; }
 .isteps { font-weight: 600; background: var(--surface-2); border-radius: 10px; padding: 8px 10px; }
+.why { text-align: left; background: var(--surface-2); border-radius: 10px; padding: 8px 12px; font-size: .9rem; }
+.eqacts { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }

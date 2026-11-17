@@ -120,6 +120,8 @@
     if (u.income != null) s.income = u.income;
     if (u.randomEvents === false) s.opts.randomEvents = false;
     (u.equipment || []).forEach((id) => { if (CAT.eq[id]) addEq(s, id); });
+    // Tutorial: the first mission starts with a ready-made starter pack.
+    if (u.pack && CAT.packs[u.pack]) { packItems(s, u.pack).forEach((x) => grant(s, x)); s.startPack = u.pack; }
     if (u.tank) {
       s.tank = { id: u.tank, net: CAT.tanks[u.tank].net, filled: false, filledDay: 0 };
       if (u.filled) { fillTank(s, true); s.w.temp = s.set.heater; }
@@ -284,7 +286,9 @@
     s.det -= decay - rot;
     const trap = e.sockClean ? 0.4 : has(s, 'sock') ? -0.2 : 0;
     const dec = decay * (1 - trap);
-    let nh3 = w.nh3 * V + dec * 1.2 * (1 - e.skimmer * 0.5);
+    // Animals excrete ammonia through the gills all the time, fed or not (feeding adds more in feed()).
+    const basal = alive(s, 'display').reduce((t, x) => t + (stats(x).wu || 0) * 0.25 * (0.3 + 0.7 * x.health / 100), 0);
+    let nh3 = w.nh3 * V + dec * 1.2 * (1 - e.skimmer * 0.5) + basal * h;
     w.po4 += dec * 0.15 * (1 - e.skimmer * 0.6) / V;
     w.org += dec * 0.09 * (100 / V);
     const o2f = clamp(w.o2 / 80, 0.2, 1);
@@ -892,6 +896,26 @@
     e.state = 'ok';
     return ok('repaired', { cost });
   }
+  // Selling: equipment for half its price; the tank only when nobody lives in it (the water goes with it).
+  function sell(s, id) {
+    const i = s.eq.findIndex((e) => e.id === id);
+    if (i < 0) return no('unknown');
+    const n = Math.round(CAT.eq[id].price * 0.5);
+    s.eq.splice(i, 1);
+    s.money += n;
+    return ok('sold', { n });
+  }
+  function sellTank(s) {
+    if (!s.tank) return no('unknown');
+    if (s.ani.length) return no('tankNotEmpty');
+    const n = Math.round(CAT.tanks[s.tank.id].price * 0.5);
+    const fresh = newGame({});
+    s.tank = null;
+    s.w = fresh.w; s.bac = fresh.bac; s.det = 0; s.food = 0; s.alg = fresh.alg; s.pest = fresh.pest;
+    delete s.cyc; delete s.cycleDone; delete s.lastDose;
+    s.money += n;
+    return ok('sold', { n });
+  }
   function holiday(s, choice) {
     if (!s.ev.holiday || !s.ev.holiday.pending) return no('unknown');
     if (choice === 'feeder' && !working(s, 'feeder').length) return no('noFeeder');
@@ -1005,7 +1029,7 @@
 
   const api = {
     init, speciesStats, newGame, applySetup, step, env, roomTemp, buy, buyAnimal, fillTank, feed, coralFeed, measure, waterChange, topOff, dose, use,
-    changeSock, adjustSal, continueMission, move, rehome, repair, holiday, buyPack, packItems, packPrice, lastMeas, symptoms, advice, cycled, goalDone, missionCheck, coralLight, portion,
+    changeSock, adjustSal, continueMission, sell, sellTank, move, rehome, repair, holiday, buyPack, packItems, packPrice, lastMeas, symptoms, advice, cycled, goalDone, missionCheck, coralLight, portion,
     get CAT() { return CAT; }, TESTS, LIGHT, FLOW, SAL0, UNIQUE
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

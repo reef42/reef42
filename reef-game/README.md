@@ -8,8 +8,8 @@ Static, serverless, bilingual (Hungarian / English); the game is saved in the br
 
 **Start.** One game is saved at a time. A new game chooses:
 
-- **Mode:** a mission or free play.
-- **Time:** turn-based (*Next day* button), accelerated (pause / 1× = 1 minute per day / 5×) or real time (time also passes
+- **Mode:** free play, or tutorial mode (the missions; the first one starts with a ready-made starter pack).
+- **Time:** turn-based (*Next day* button), accelerated (pause / 1× = 1 minute per day / 5× / 20× / 50×) or real time (time also passes
   while the page is closed and is caught up on return).
 - **Difficulty:** *easy* – an advisor warns and explains; *hard* – only the symptoms are shown. On both, animals can die.
 
@@ -17,7 +17,7 @@ Static, serverless, bilingual (Hungarian / English); the game is saved in the br
 cause of death, linked to their species card and to Fishy Doctor.
 
 **Economy.** A starting budget in a game currency (🐚 shells). Tanks (60 / 120 / 250 / 500 L), equipment, salt, additives,
-test kits and livestock have prices. A small tank is cheap but unstable.
+test kits and livestock have prices. A small tank is cheap but unstable. Equipment can be sold for half its price, the tank too while nobody lives in it.
 
 **Shop** (2–4 unbranded products per kind, with estimated performance). A category sidebar (chips on phones) and a grid of
 products with small pictures (drawn icons; species photos from the species database, with credits):
