@@ -35,8 +35,10 @@
     'html.reef42-locked,html.reef42-locked body{overflow:hidden!important}' +
     'html.reef42-locked body>*:not(#reef42-gate){visibility:hidden!important}' +
     '#reef42-gate{position:fixed;inset:0;z-index:2147483647;display:flex;align-items:center;justify-content:center;' +
+      'width:100%;height:100%;max-width:none;max-height:none;margin:0;border:0;' +
       'padding:16px;background:#000;color:#fff;font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;' +
       'text-align:left;letter-spacing:normal;text-transform:none}' +
+    '#reef42-gate::backdrop{background:#000}' +
     '#reef42-gate *{box-sizing:border-box}' +
     '#reef42-gate .g-box{width:100%;max-width:380px;padding:28px 24px;background:#0b0b0b;border:1px solid #262626;border-radius:14px}' +
     '#reef42-gate .g-brand{margin:0 0 18px;font-weight:800;font-size:1.1rem;letter-spacing:-.01em}' +
@@ -58,11 +60,16 @@
   st.textContent = CSS;
   (document.head || root).appendChild(st);
 
+  // A modal <dialog> so it sits above other modal dialogs a page opens on load (they would make a plain overlay inert).
   function build() {
-    var el = document.createElement('div');
+    var el = document.createElement('dialog');
+    var modal = typeof el.showModal === 'function';
+    if (!modal) {
+      el = document.createElement('div');
+      el.setAttribute('role', 'dialog');
+      el.setAttribute('aria-modal', 'true');
+    }
     el.id = 'reef42-gate';
-    el.setAttribute('role', 'dialog');
-    el.setAttribute('aria-modal', 'true');
     el.setAttribute('aria-labelledby', 'reef42-gate-title');
     el.lang = lang === 'hu' ? 'hu' : 'en';
     el.innerHTML =
@@ -81,13 +88,21 @@
     document.body.appendChild(el);
     var input = el.querySelector('input');
     var err = el.querySelector('.g-err');
+    var open = true;
+    if (modal) {
+      el.addEventListener('cancel', function (e) { e.preventDefault(); });
+      el.addEventListener('close', function () { if (open) el.showModal(); });
+      el.showModal();
+    }
     el.querySelector('form').addEventListener('submit', function (e) {
       e.preventDefault();
       if (input.value.trim().toLowerCase() === PASS) {
         lsSet(KEY, '1');
+        open = false;
         el.remove();
         st.remove();
         root.classList.remove('reef42-locked');
+        document.dispatchEvent(new Event('reef42-unlock'));
       } else {
         err.textContent = t.wrong;
         input.select();
