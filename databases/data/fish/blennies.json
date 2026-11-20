@@ -39,8 +39,7 @@
      "ok_from_l": 400
     }
    ],
-   "min_age_months": 3,
-   "jumper": true
+   "min_age_months": 3
   },
   "behavior": {
    "en": "Peaceful, comical perch-and-sit fish; territorial towards other blennies. Spends its day grazing rockwork.",
@@ -120,8 +119,7 @@
      "ok_from_l": 400
     }
    ],
-   "min_age_months": 3,
-   "jumper": true
+   "min_age_months": 3
   },
   "behavior": {
    "en": "Similar to the lawnmower blenny; perches on rocks and grazes algae. Individual specimens may nip corals.",
@@ -200,8 +198,7 @@
      "key": "combtooth-blenny",
      "ok_from_l": 400
     }
-   ],
-   "jumper": true
+   ]
   },
   "behavior": {
    "en": "Small, curious blenny that darts into holes; may fight with other blennies or gobies.",
@@ -269,8 +266,7 @@
   ],
   "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "peaceful",
-   "jumper": true
+   "temperament": "peaceful"
   },
   "behavior": {
    "en": "Reef-safe fang blenny; venomous bite deters predators. Peaceful but active. Pairs possible.",
@@ -338,8 +334,7 @@
   ],
   "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "peaceful",
-   "jumper": true
+   "temperament": "peaceful"
   },
   "behavior": {
    "en": "Peaceful fangblenny with venomous fangs used only in self-defence; hovers mid-water unlike most blennies.",
@@ -407,8 +402,7 @@
   ],
   "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "peaceful",
-   "jumper": true
+   "temperament": "peaceful"
   },
   "behavior": {
    "en": "Slim, pearl-white fangblenny with a black eye-stripe; swims mid-water in short hops.",
@@ -487,8 +481,7 @@
      "key": "combtooth-blenny",
      "ok_from_l": 400
     }
-   ],
-   "jumper": true
+   ]
   },
   "behavior": {
    "en": "Dark comb-tooth blenny with a yellow tail; perches on rocks and grazes algae and detritus.",

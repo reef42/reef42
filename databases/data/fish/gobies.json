@@ -322,8 +322,7 @@
   "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Set up cleaning stations and remove parasites from tankmates; completely peaceful. Captive-bred widely.",
@@ -464,8 +463,7 @@
   "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Peaceful; hovers above the sand and takes mouthfuls of it to sift out food.",
@@ -686,8 +684,7 @@
   "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Peaceful, hovering goby that constantly picks food from the substrate and water column; less shy than the watchman gobies.",
@@ -756,8 +753,7 @@
   "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Peaceful, hovering goby that grazes filamentous algae from rocks and the sand surface.",
@@ -827,8 +823,7 @@
   "compat": {
    "temperament": "peaceful",
    "max_same": 2,
-   "min_age_months": 6,
-   "jumper": true
+   "min_age_months": 6
   },
   "behavior": {
    "en": "Small, peaceful hovering goby; grazes filamentous algae constantly. Can be shy without enough rock cover.",
@@ -969,8 +964,7 @@
    "may_eat": [
     "sps"
    ],
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Tiny, peaceful coral goby; perches directly on Acropora branches and defends a small coral territory.",
@@ -1042,8 +1036,7 @@
    "may_eat": [
     "sps"
    ],
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Tiny, bright green coral goby; perches on Acropora branches and rarely strays far from its coral.",
@@ -1115,8 +1108,7 @@
    "may_eat": [
     "sps"
    ],
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Tiny, cheerful yellow coral goby; perches on coral branches and hovers briefly between them.",
@@ -1188,8 +1180,7 @@
    "may_eat": [
     "sps"
    ],
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Small coral goby with five dark body lines; perches on branching corals.",
@@ -1261,8 +1252,7 @@
    "may_eat": [
     "sps"
    ],
-   "max_same": 2,
-   "jumper": true
+   "max_same": 2
   },
   "behavior": {
    "en": "Small, robust coral goby; perches on Acropora and other branching corals.",

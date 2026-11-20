@@ -60,7 +60,10 @@ bővítésekor minden mezőt e szerint kell kitölteni. Az ellenőrzést és az 
 ## `compat` – együtt tarthatóság
 
 Ebből számolja az oldal, hogy egy faj illik-e a felhasználó akváriumához (méret, fajta, életkor és a meglévő
-lakók alapján). A szabálymotor a `shared/compat.js`. Minden mező opcionális: ami nem igaz az adott fajra,
+lakók alapján). A szabálymotor a `shared/compat.js`. Korallos tanknál a `compat` korallokra vonatkozó
+`eats` / `may_eat` értékei döntenek; a `reef_safety` csak akkor számít, ha a fajnak nincs `compat` mezője.
+A tankméretnél a `tank_min_l` alatt legfeljebb 20%-kal csak figyelmeztetés, ennél kisebb tank nem ajánlott;
+`tank_min_l` és `tank_ideal_l` között a faj ajánlott, megjegyzéssel. Minden mező opcionális: ami nem igaz az adott fajra,
 az maradjon ki (ne `false`, ne üres lista). A szöveges viselkedésleírás (`behavior`) és a `compat` ne
 mondjon ellent egymásnak.
 
@@ -68,14 +71,14 @@ mondjon ellent egymásnak.
 | --- | --- | --- | --- |
 | `temperament` | enum | `peaceful`, `semi-aggressive`, `aggressive` – a többi hallal szembeni viselkedés | Agresszív + félénk: nem ajánlott; agresszív + békés vagy félénk + mérsékelten agresszív: óvatosan |
 | `shy` | `true` | Félénk vagy lassú evő, a gyors, rámenős társak mellett éhezik | Lásd `temperament` |
-| `eats` | prey-lista | Biztosan megeszi vagy tönkreteszi | A tankban lévő ilyen lakóval: nem ajánlott |
-| `may_eat` | prey-lista | Egyes példányok megeszik, csipegetik | Óvatosan |
+| `eats` | prey-lista | Biztosan megeszi vagy tönkreteszi | A tankban lévő ilyen lakóval: nem ajánlott; korall-prey (`sps`, `lps`, `soft-corals`, `zoanthids`) esetén korallos tankba sem ajánlott |
+| `may_eat` | prey-lista | Egyes példányok megeszik, csipegetik | Óvatosan; korall-prey esetén korallos tankban is |
 | `avoid` | prey-lista | Ezek ártanak neki (pl. a csikóhalnak az anemóna csalánzása) | Óvatosan |
 | `max_same` | egész | Ugyanebből a fajból legfeljebb ennyi lehet egy tankban (`1` = egyedül, `2` = pár) | Túllépve: nem ajánlott |
 | `rivals` | lista | `{ "key": "zebrasoma", "ok_from_l": 800 }`: más fajok, amelyeknek ugyanilyen `key`-ük van, rivális fajok; `ok_from_l` liter felett megférnek, `null` = sosem | Kisebb tankban vagy `null` esetén: nem ajánlott |
 | `group_min` | egész | Csoportban tartandó, legalább ennyi példány | Tanácsként jelenik meg |
 | `min_age_months` | egész | Ennyi hónapos, beállt akvárium kell neki | Fiatalabb tankban: óvatosan, a fele alatt nem ajánlott |
-| `jumper` | `true` | Kiugrik, fedő vagy háló kell | Tanácsként jelenik meg |
+| `jumper` | `true` | Jellemzően kiugrik, fedő vagy háló kell (pl. ajakoshalak, tűzgébek, őrgébek) – csak ott, ahol ez tényleg tipikus | Tanácsként jelenik meg |
 | `neighbours` | enum | `sting` (csalánoz), `chemical` (vegyi hadviselés), `spreads` (terjed) – korallokra, anemónákra | Más korallok mellett: óvatosan |
 | `wanders` | `true` | Helyét változtatja (anemónák) | Korallok mellett: óvatosan |
 | `partners` | id-lista | Fajok, amelyekkel természetes szimbiózisban él (pl. bohóchal és gazdaanemóna) | Pozitív megjegyzésként jelenik meg |

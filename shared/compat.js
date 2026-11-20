@@ -14,9 +14,13 @@
   var TEXT = {
     hu: {
       good: 'Jó választás', caution: 'Feltételekkel', bad: 'Nem ajánlott', unknown: 'Nincs becslés',
-      planned: 'Tervezett', cycling: 'Beérés alatt', young: 'Fiatal', settled: 'Beállt', mature: 'Érett',
-      tooSmall: 'Legalább {min} l-es akvárium kell neki, a tiéd {vol} l.',
-      belowIdeal: 'Elfér {vol} l-ben, de ideálisan {ideal} l kell neki.',
+      planned: 'Tervezett', cycling: 'Beérés alatt', young: 'Fiatal', settled: 'Beállt', mature: 'Stabil*',
+      matureTip: 'A tank kora alapján ennek már stabilnak kellene lennie, de ez nem garantált.',
+      tooSmall: 'Legalább {min} l-es akvárium kell neki, a tiéd csak {vol} l.',
+      nearMin: 'Legalább {min} l ajánlott neki; a {vol} l-es tankodban szűkösebben, de elboldogulhat.',
+      belowIdeal: 'Elfér a {vol} l-es tankodban; ideálisan {ideal} l lenne neki.',
+      eatsCorals: 'Korallos akváriumba nem való, mert megeszi vagy tönkreteszi ezeket: {prey}.',
+      nipsCorals: 'Egyes példányok csipegetik ezeket, figyeld, ha ilyen korall kerül mellé: {prey}.',
       noVolume: 'Add meg a tank térfogatát a pontosabb becsléshez.',
       noType: 'Add meg a tank fajtáját (korallos, csak halas…) a pontosabb becsléshez.',
       notReef: 'Korallos akváriumba nem való: korallokat vagy gerincteleneket bánt.',
@@ -60,9 +64,13 @@
     },
     en: {
       good: 'Good choice', caution: 'With conditions', bad: 'Not recommended', unknown: 'No estimate',
-      planned: 'Planned', cycling: 'Cycling', young: 'Young', settled: 'Settled', mature: 'Mature',
-      tooSmall: 'Needs at least {min} L; your tank is {vol} L.',
-      belowIdeal: 'Fits in {vol} L, but {ideal} L is ideal.',
+      planned: 'Planned', cycling: 'Cycling', young: 'Young', settled: 'Settled', mature: 'Stable*',
+      matureTip: 'By its age the tank should be stable by now, but that is not guaranteed.',
+      tooSmall: 'Needs at least {min} L; your tank is only {vol} L.',
+      nearMin: 'At least {min} L is recommended; it can manage in your {vol} L tank, with less room.',
+      belowIdeal: 'Fits in your {vol} L tank; {ideal} L would be ideal.',
+      eatsCorals: 'Not for a reef tank: it eats or damages {prey}.',
+      nipsCorals: 'Some individuals nip these, so keep an eye on it if such corals go in: {prey}.',
       noVolume: 'Add your tank volume for a better estimate.',
       noType: 'Add your tank type (reef, fish only…) for a better estimate.',
       notReef: 'Not for a reef tank: it harms corals or invertebrates.',
@@ -191,6 +199,10 @@
     return out;
   }
   function isCoral(sp) { return sp.group === 'coral' && sp.category !== 'algae'; }
+  var CORAL_PREY = ['sps', 'lps', 'soft-corals', 'zoanthids'];
+  function preyNames(keys, preyMap, lang) {
+    return keys.map(function (k) { return preyMap[k] ? preyMap[k][lang] || preyMap[k].en : k; }).join(', ');
+  }
 
   // sp: species to judge; tank: see top; opts: { n: how many would be added (default 1), exclude: livestock entry id
   // to leave out (judging a resident against the rest) }.
@@ -215,15 +227,23 @@
     var residents = ((tank && tank.livestock) || []).filter(function (x) { return x.id !== opts.exclude && byId[x.sp]; });
 
     if (sp.verdict && sp.verdict.recommendation === 'not_recommended') add('bad', 'verdict');
-    // size
+    // size: up to 20% under the minimum is only a warning; between the minimum and the ideal it is fine, with a note
     if (!vol) add('info', 'noVolume');
-    else if (sp.tank_min_l && vol < sp.tank_min_l) add('bad', 'tooSmall', { min: sp.tank_min_l, vol: num(vol, lang) });
-    else if (sp.tank_ideal_l && vol < sp.tank_ideal_l) add('caution', 'belowIdeal', { ideal: sp.tank_ideal_l, vol: num(vol, lang) });
-    // tank type
+    else if (sp.tank_min_l && vol < sp.tank_min_l * 0.8) add('bad', 'tooSmall', { min: sp.tank_min_l, vol: num(vol, lang) });
+    else if (sp.tank_min_l && vol < sp.tank_min_l) add('caution', 'nearMin', { min: sp.tank_min_l, vol: num(vol, lang) });
+    else if (sp.tank_ideal_l && vol < sp.tank_ideal_l) add('info', 'belowIdeal', { ideal: sp.tank_ideal_l, vol: num(vol, lang) });
+    // tank type: in a reef tank what matters is whether it eats corals (compat); reef_safety only when compat is missing
     if (!type) add('info', 'noType');
-    else if (type.reef && sp.reef_safety === 'not-reef-safe') add('bad', 'notReef');
-    else if (type.reef && sp.reef_safety === 'with-caution') add('caution', 'cautionReef');
-    else if (!type.reef && isCoral(sp)) add('caution', 'fowlrCoral');
+    else if (type.reef) {
+      if (sp.compat) {
+        var ce = (c.eats || []).filter(function (k) { return CORAL_PREY.indexOf(k) >= 0; });
+        var cm = (c.may_eat || []).filter(function (k) { return CORAL_PREY.indexOf(k) >= 0 && ce.indexOf(k) < 0; });
+        // Nipping is only a note here; with such corals in the tank the resident lines below warn by name.
+        if (ce.length) add('bad', 'eatsCorals', { prey: preyNames(ce, preyMap, lang) });
+        else if (cm.length) add('info', 'nipsCorals', { prey: preyNames(cm, preyMap, lang) });
+      } else if (sp.reef_safety === 'not-reef-safe') add('bad', 'notReef');
+      else if (sp.reef_safety === 'with-caution') add('caution', 'cautionReef');
+    } else if (isCoral(sp)) add('caution', 'fowlrCoral');
     // tank age
     var st = stage(tank);
     if (st === 'planned') add('info', 'plannedInfo');
@@ -272,6 +292,7 @@
     if (c.jumper) add('info', 'jumper');
     if (!sp.compat && sp.group !== 'coral') add('info', 'noCompat');
 
+    if (out.some(function (r) { return r.key === 'mayEat' || r.key === 'eats'; })) out = out.filter(function (r) { return r.key !== 'nipsCorals'; });
     var reasons = out.map(function (r) {
       if (!r.names) return r;
       var vars = Object.assign({ names: r.names.join(', ') }, r.vars);
