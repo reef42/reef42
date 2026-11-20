@@ -25,6 +25,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; intolerant of other angelfish. Juveniles are dark blue with white circles and act as cleaners.",
    "hu": "Félig agresszív; más császárhalakat nem tűr meg. A fiatalok sötétkékek fehér karikákkal, és tisztogatóként viselkednek."
@@ -91,6 +112,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; hardy once established but hostile to other large angelfish.",
    "hu": "Félig agresszív; berendezkedés után ellenálló, de más nagy császárhalakkal ellenséges."
@@ -157,6 +199,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive and hardy; one of the more forgiving large angelfish.",
    "hu": "Félig agresszív és ellenálló; a megengedőbb nagy császárhalak egyike."
@@ -223,6 +286,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Shy but territorial; prefers caves and dimmer, deeper-water style aquascapes.",
    "hu": "Félénk, de territoriális; barlangokat és félhomályos, mélyvízi jellegű dekorációt kedvel."
@@ -288,6 +372,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; bold, active swimmer that dominates large tanks.",
    "hu": "Félig agresszív; merész, aktívan úszó, nagy akváriumok domináns halak egyike."
@@ -355,6 +460,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": 1000
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; generally peaceful outside of other angelfish.",
    "hu": "Félig agresszív; más császárhalakon kívül általában békés."
@@ -421,6 +543,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive dwarf angel; peaceful towards non-angelfish. Provide live rock with algae.",
    "hu": "Félig agresszív törpe császárhal; a nem császárhal fajokkal békés. Algás élőköveket igényel."
@@ -487,6 +625,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; active and curious. May fight with other dwarf angels.",
    "hu": "Félig agresszív; aktív és kíváncsi. Más törpe császárhalakkal összeverekedhet."
@@ -553,6 +707,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "en": "Peaceful for a dwarf angel; shy in bright, busy tanks.",
    "hu": "A törpe császárhalakhoz képest békés; világos, forgalmas akváriumban félénk."
@@ -619,6 +789,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "en": "Small but feisty; defends its rockwork cave territory. Good for nano tanks.",
    "hu": "Kicsi, de vagány; védi a sziklabarlangját. Nano-akváriumokba való."
@@ -685,6 +871,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "rivals": [
+    {
+     "key": "genicanthus-male",
+     "ok_from_l": 600
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "en": "Genicanthus angels are planktivores and truly reef-safe. Peaceful; harems of one male with several females are ideal.",
    "hu": "A Genicanthus-császárhalak planktonevők és valóban korallbiztosak. Békés; ideális egy hím és több nőstény háreme."
@@ -752,6 +948,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Az egyik legkisebb törpe császárhal. A természetben koralltörmelékes részeken, legfeljebb kb. 10 egyedből álló kis csoportokban él. Más törpe császárhalakkal szemben területvédő lehet.",
    "en": "One of the smallest pygmy angelfish. In the wild it lives over coral rubble in small groups of up to about 10 fish. Can be territorial towards other dwarf angelfish."
@@ -819,6 +1031,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Párban vagy kis csoportban él, és egyik rejtekhelytől a másikig cikázik. Fajtársaival és más törpe császárhalakkal szemben területvédő.",
    "en": "Lives in pairs or small groups and darts from one hiding place to the next. Territorial towards conspecifics and other dwarf angelfish."
@@ -886,6 +1114,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "A természetben 3–7 egyedből álló háremekben él. Fajtársaival és más törpe császárhalakkal szemben területvédő.",
    "en": "Forms harems of 3–7 fish in the wild. Territorial towards conspecifics and other dwarf angelfish."
@@ -952,6 +1196,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Területvédő törpe császárhal; a fiatalok rejtőzködők. Más sárga halakkal és törpe császárhalakkal szemben agresszív lehet.",
    "en": "Territorial pygmy angelfish; juveniles are secretive. Can be aggressive towards other yellow fish and dwarf angelfish."
@@ -1019,6 +1279,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Monogám, párban élő törpe császárhal, amely nem véd kizárólagos területet. Más törpe császárhalakkal szemben azért civakodhat.",
    "en": "Monogamous pygmy angelfish living in home-ranging pairs that do not defend an exclusive territory. May still squabble with other dwarf angels."
@@ -1086,6 +1362,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Félénk, rejtőzködő törpe császárhal, amely egyesével vagy párban él; a természetben 3–7 egyedből álló háremeket is alkot. Sok búvóhelyet igényel.",
    "en": "Shy, secretive pygmy angelfish seen singly or in pairs; also forms harems of 3–7 fish in the wild. Needs plenty of hiding places."
@@ -1146,6 +1438,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Apró törpe császárhal, amely a természetben laza kis csoportokban él alacsony, törmelékes korall- és mészalgás foltokon, korallsügérekkel és kis ajakoshalakkal együtt.",
    "en": "Tiny pygmy angelfish that lives in small loose groups over low patches of brittle coral and coralline algae, shared with damselfish and small wrasses."
@@ -1213,6 +1521,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "rivals": [
+    {
+     "key": "genicanthus-male",
+     "ok_from_l": 600
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés, nyílt vízben úszó mélyvízi császárhal; a természetben 3–7 egyedből álló háremekben él. Egy hím mellé több nőstény tartható.",
    "en": "Peaceful deep-water angelfish that swims in open water; forms harems of 3–7 fish in the wild. One male can be kept with several females."
@@ -1280,6 +1598,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "rivals": [
+    {
+     "key": "genicanthus-male",
+     "ok_from_l": 600
+    }
+   ],
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés, nyílt vízben úszó császárhal; a természetben a fenék fölött csapatban táplálkozik, és 3–7 egyedből álló háremekben él.",
    "en": "Peaceful angelfish that swims in open water; in the wild it feeds in midwater aggregations and forms harems of 3–7 fish."
@@ -1347,6 +1675,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Általában magányos nagy császárhal; más nagy császárhalakkal szemben agresszív lehet.",
    "en": "Usually solitary large angelfish; can be aggressive towards other large angels."
@@ -1415,6 +1764,27 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "large-angel",
+     "ok_from_l": null
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Általában magányos, nagy császárhal, amely gyakran barlangok közelében tartózkodik. Más nagy császárhalakkal szemben agresszív.",
    "en": "Usually solitary large angelfish, often found near caves. Aggressive towards other large angels."
@@ -1483,6 +1853,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "lps",
+    "zoanthids",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "centropyge",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Viszonylag békés császárhal, amely egyesével, párban vagy csoportban él, gyakran barlangok közelében. Félénk, sok búvóhelyet igényel.",
    "en": "Relatively peaceful angelfish living singly, in pairs or groups, often near caves. Shy and needs plenty of hiding places."

@@ -27,6 +27,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 5
+  },
   "behavior": {
    "hu": "Békés, rajban élő korallsügér; a természetben nagy csapatokban lebeg az ágas Acropora-telepek fölött. Csapatban (legalább 5–7 példány) tartandó, mert egyesével vagy párban a fajtársak gyakran elüldözik egymást.",
    "en": "Peaceful, shoaling damsel; in the wild it hovers in large aggregations above branching Acropora thickets. Keep in a group (at least 5–7 fish), since singles or pairs often chase each other."
@@ -93,6 +97,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3
+  },
   "behavior": {
    "hu": "Kis termetű, békés korallsügér; egyesével vagy kis csoportban él, és szorosan a sűrűn ágas korallok közelében marad. Fajtársaival szemben enyhén területvédő lehet.",
    "en": "Small, peaceful damsel; lives singly or in small groups and stays close to thickly branching coral. Can be mildly territorial towards its own kind."
@@ -159,6 +167,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3
+  },
   "behavior": {
    "hu": "Békés, csapatban élő korallsügér, amely a zátonytetők és lejtők fölött tömegesen fordul elő. Csoportban tartva a legjobb; fajtársai között rangsort alakít ki.",
    "en": "Peaceful, shoaling damsel that occurs in large aggregations over reef tops and upper slopes. Best kept in a group; forms a hierarchy among conspecifics."
@@ -225,6 +237,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "A korallsügérek közül az egyik legbékésebb; kis csoportban is tartható. Más, hasonló színű kis halakkal szemben azért területvédő lehet.",
    "en": "One of the most peaceful damsels; can be kept in small groups. May still be territorial towards other small, similarly coloured fish."
@@ -291,6 +313,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félig agresszív, területvédő korallsügér. Párban vagy kis csoportban tartható, de a később betelepített halakat elüldözheti a rejtekhelyétől.",
    "en": "Semi-aggressive, territorial damsel. Can be kept singly or in a small group, but may chase later additions away from its shelter."
@@ -357,6 +389,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Kis termetű, a nemzetségen belül kifejezetten békés korallsügér; egyesével vagy kis csoportban is tartható.",
    "en": "Small and, for its genus, notably peaceful damsel; can be kept singly or in small groups."
@@ -423,6 +465,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Agresszív, erősen területvédő korallsügér, főleg a hímek; egy hím mellett több nőstény tartható. Kis, békés halakat (pl. gébeket, nano halakat) zaklathat.",
    "en": "Aggressive, strongly territorial damsel, especially males; one male can be kept with several females. May harass small peaceful fish such as gobies and nano species."
@@ -489,6 +541,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő korallsügér, amely a természetben csoportban él, de a rejtekhelyéhez közel marad. Kis, békés halakkal szemben agresszív lehet.",
    "en": "Territorial damsel that lives in groups in the wild but stays close to shelter. Can be aggressive towards small peaceful fish."
@@ -555,6 +617,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "A korallsügérek közül az egyik legbékésebb, kis termetű faj; egyesével vagy kis csoportban tartható.",
    "en": "One of the most peaceful, small damsels; can be kept singly or in a small group."
@@ -621,6 +693,16 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Apró, kis csoportban élő korallsügér, amely a természetben szorosan az élő, ágas korallokhoz (Acropora, Seriatopora hystrix) kötődik, és kicsivel a fenék fölött lebeg.",
    "en": "Tiny damsel living in small groups, closely associated with live branching corals (Acropora, Seriatopora hystrix) and hovering just above the substrate."
@@ -680,6 +762,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő, a korral egyre agresszívebb poroszhal. A természetben ágas korallok (Acropora) fölött csapatban él; a hím ívás után hevesen védi az ikrákat.",
    "en": "Territorial dascyllus that becomes more aggressive with age. In the wild it lives in groups above branching Acropora; the male fiercely guards the eggs after spawning."
@@ -746,6 +838,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő, agresszív poroszhal, amely a természetben csapatban él kisebb korallfejek körül. Akváriumban a fajtársait és a kisebb halakat is üldözheti.",
    "en": "Territorial, aggressive dascyllus that lives in groups around small coral heads in the wild. In the aquarium it may chase conspecifics and smaller fish."
@@ -812,6 +914,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "A poroszhalak közül az egyik legnagyobb és legagresszívebb; idősebb korában a nagyobb halakat is megtámadhatja. A fiatalok gyakran nagy tengeri anemonok, tüskésbőrűek vagy korallfejek közelében élnek.",
    "en": "One of the largest and most aggressive dascyllus species; older fish may attack even larger tankmates. Juveniles often associate with large sea anemones, sea urchins or coral heads."
@@ -878,6 +990,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Fiatalon látványos, idősebb korában területvédő és agresszív korallsügér. A természetben magányos, félénk, és gyakran a víz felszíne közelében úszik.",
    "en": "Striking as a juvenile, territorial and aggressive as an adult. In the wild it is solitary, shy and often swims near the surface."
@@ -944,6 +1066,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Nagyra növő, idősebb korában agresszív, területvédő korallsügér. A természetben áramlásos zátonytetőkön laza csoportokban él.",
    "en": "Large damsel that becomes aggressive and territorial with age. In the wild it lives in loose groups on current-swept reef flats."
@@ -1010,6 +1142,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "A nemzetségen belül viszonylag békés korallsügér; kis csoportban is tartható, ha van elég rejtekhely.",
    "en": "Relatively peaceful for its genus; can be kept in a small group if there is enough shelter."
@@ -1076,6 +1218,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félig agresszív, területvédő korallsügér, amely a fenék közelében kis csoportokban él.",
    "en": "Semi-aggressive, territorial damsel that lives in small groups close to the bottom."
@@ -1142,6 +1294,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félig agresszív, területvédő korallsügér; a hasonló színű halakkal szemben különösen.",
    "en": "Semi-aggressive, territorial damsel, especially towards similarly coloured fish."
@@ -1208,6 +1370,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félig agresszív, területvédő korallsügér; a fiatalok csapatban élnek, a felnőttek kis csoportokban.",
    "en": "Semi-aggressive, territorial damsel; juveniles school, adults live in small groups."
@@ -1274,6 +1446,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "damsel",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félig agresszív, területvédő korallsügér, amely a természetben kis csoportokban él ágas korallok között.",
    "en": "Semi-aggressive, territorial damsel living in small groups among branching corals in the wild."

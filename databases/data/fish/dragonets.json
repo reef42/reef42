@@ -25,6 +25,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Peaceful bottom-dweller with a slow, hopping swim style; males fight each other.",
    "hu": "Békés talajlakó, lassú, ugráló úszástól; a hímek egymással verekednek."
@@ -90,6 +102,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Same habits as the green mandarin; peaceful, slow, copepod-hunting bottom-dweller.",
    "hu": "A közönséges mandarinhallal azonos életmódú; békés, lassú, evezőlábúakra vadászó talajlakó."
@@ -157,6 +181,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Békés, a fenéken mozgó mandarinhal, amely a természetben algák és tengerifű között él. A hímek egymással verekednek.",
    "en": "Peaceful bottom-dwelling dragonet that lives among algae and seagrass in the wild. Males fight each other."
@@ -217,6 +253,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Békés, a fenéken mozgó mandarinhal, amely a természetben védett zátonyokon, törmeléken és algás köveken él. Egy hím tartható egy akváriumban.",
    "en": "Peaceful bottom-dwelling dragonet that lives on protected reefs over rubble and algae-covered rocks. Keep only one male per tank."
@@ -284,6 +332,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Apró, békés mandarinhal, amely a természetben lágy- és kőkorallokkal tarkított koralltörmeléken él. A hímek egymással szemben területvédők.",
    "en": "Tiny, peaceful dragonet that lives on coral rubble interspersed with soft and stony corals. Males are territorial towards each other."
@@ -351,6 +411,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Békés, a fenéken mozgó mandarinhal; a természetben laza kis csoportokban él, amelyekben egy nagy hím uralja a terület egy részét. Akváriumban egy hím tartható.",
    "en": "Peaceful bottom-dwelling dragonet; in the wild it lives in small loose groups in which one large male dominates a section of reef. Keep only one male per tank."
@@ -418,6 +490,18 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "dragonet",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "hu": "Békés, a fenéken mozgó mandarinhal; a természetben sekély, védett sziklás zátonyokon, laza kis csoportokban él. A hímek egymással verekednek.",
    "en": "Peaceful bottom-dwelling dragonet; in the wild it lives in small loose groups on shallow, sheltered rocky reefs. Males fight each other."

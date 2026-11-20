@@ -26,6 +26,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "en": "Peaceful for a dottyback; can be territorial around its favourite cave. One per tank unless a confirmed pair.",
    "hu": "Díszhalhoz képest békés; a kedvenc barlangja körül territoriális lehet. Akváriumonként egy példány, hacsak nem bevált pár."
@@ -91,6 +104,20 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "en": "More aggressive than the orchid dottyback; will bully small, shy fish.",
    "hu": "A lila királyhalnál (P. fridmani) agresszívabb; kicsi, félénk halakat zaklathat."
@@ -156,6 +183,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "gramma",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "en": "Peaceful cave-dweller; can be territorial towards its own kind. Often hovers upside down under overhangs.",
    "hu": "Békés barlanglakó; saját fajához territoriális lehet. Gyakran fejjel lefelé lebeg a kihajolások alatt."
@@ -222,6 +259,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő kis királyhal, amely a természetben magányosan vagy laza kis csoportokban, korallok és törmelék közelében lebeg. Fajtársaival és a hasonló alakú halakkal (pl. Gramma loreto) agresszív; akváriumonként egy példány ajánlott.",
    "en": "Territorial little dottyback that hovers alone or in loose small groups close to coral or rubble. Aggressive towards conspecifics and similarly shaped fish (e.g. Gramma loreto); keep one per tank."
@@ -288,6 +338,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő királyhal, amely a természetben homokos aljzaton kisebb kövek és korallfejek tövében él. Fajtársaival és hasonló halakkal agresszív lehet.",
    "en": "Territorial dottyback that lives around the bases of small rocks and coral heads on sandy bottoms. Can be aggressive towards conspecifics and similar fish."
@@ -354,6 +417,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő kis királyhal; a természetben meredek külső zátonylejtők és csatornafalak tövében, magányosan vagy laza kis csoportokban él, korallok vagy törmelék közelében.",
    "en": "Territorial little dottyback living alone or in loose small groups at the bases of steep outer reef slopes and channel walls, close to coral or rubble."
@@ -420,6 +496,16 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "gramma",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Békés, de fajtársaival szemben területvédő gramma. A természetben szinte függőleges sziklafalakon és meredek falakon él, gyakran fejjel lefelé úszik, és veszély esetén üregbe húzódik.",
    "en": "Peaceful basslet that is territorial towards its own kind. Lives on nearly vertical cliffs and drop-offs beyond outer reefs, often swimming upside-down and retreating into recesses when alarmed."
@@ -486,6 +572,20 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "aggressive",
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "dottyback",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Nagyobb termetű, területvédő királyhal; a természetben általában magányosan, néha párban él meredek falakon, korallok és szivacsok közelében. Kisebb, félénk halakkal agresszív lehet.",
    "en": "Larger, territorial dottyback; usually solitary, occasionally in pairs, on drop-offs close to corals and sponges. Can be aggressive towards smaller, shy fish."

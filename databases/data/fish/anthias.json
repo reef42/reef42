@@ -26,6 +26,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "en": "Schooling haremic species (one male, several females); peaceful mid-water plankton feeders.",
    "hu": "Rajban élő, háremes faj (egy hím, több nőstény); békés, a vízoszlopban planktont fogyaszt."
@@ -93,6 +98,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés, csapatban élő anthias; a természetben meredek külső zátonylejtők peremén, mérsékelt áramlásban nagy, vegyes ivarú rajokban táplálkozik. Akváriumban egy hím mellé több nőstény ajánlott.",
    "en": "Peaceful shoaling anthias; in the wild it feeds in large mixed-sex aggregations along the upper edge of steep outer reef slopes in moderate current. In the aquarium keep one male with several females."
@@ -160,6 +170,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés, csapatban élő anthias, amely a zátonyfalak felső részén és a külső lagúnákban rajokban úszik. Csoportban, sok úszótérrel tartandó.",
    "en": "Peaceful schooling anthias that swims in groups along the upper parts of drop-offs and in outer reef lagoons. Keep in a group with plenty of swimming space."
@@ -227,6 +242,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias, amely a természetben part menti zátonyfalak mentén él. Csoportban, egy hímmel és több nősténnyel tartandó.",
    "en": "Peaceful anthias that lives along coastal drop-offs. Keep in a group of one male and several females."
@@ -287,6 +307,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias, amely a természetben nagy, gyakran más anthiasokkal vegyes rajokban él.",
    "en": "Peaceful anthias that forms large schools in the wild, often mixed with other anthias."
@@ -354,6 +379,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias, amely a természetben kis csoportokban él korallkiemelkedések fölött vagy hasadékok, peremek közelében, áramlásos helyeken.",
    "en": "Peaceful anthias living in small groups above coral outcrops or near crevices and ledges in current-prone areas."
@@ -421,6 +451,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias, amely a természetben 20 m-nél mélyebben, áramlásos zátonyfalak mentén laza kis csoportokban él.",
    "en": "Peaceful anthias that lives in small, loose aggregations along current-swept drop-offs, usually deeper than 20 m."
@@ -488,6 +523,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias; a természetben áramlásos zátonyfalak pereme fölött néhány méterrel él, a hímek és nőstények külön vagy vegyes csoportokban. A fiatalok magányosak és rejtekhely közelében maradnak.",
    "en": "Peaceful anthias that lives a few metres above the edges of current-swept drop-offs, with males and females in separate or mixed groups. Juveniles are solitary and stay near shelter."
@@ -555,6 +595,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Kis termetű, békés anthias, amely a természetben barlangok, peremek és meredek falak közelében kis csoportokban él 10–70 m mélyen.",
    "en": "Small, peaceful anthias living in small groups near caves, ledges and steep drop-offs at 10–70 m."
@@ -615,6 +660,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés anthias, amely a természetben elszigetelt korallfejek és törmelékfoltok körül csoportosul; a fiatalok kikötőkbe és iszapos sziklás zátonyokra is behatolnak.",
    "en": "Peaceful anthias that aggregates around isolated coral heads and rubble patches; juveniles also enter harbours and silty rocky reefs."
@@ -682,6 +732,11 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3,
+   "min_age_months": 3
+  },
   "behavior": {
    "hu": "Békés, csapatban élő anthias, amely a természetben külső zátonylejtőkön, 30 m-nél mélyebbre is lehúzódó rajokban él.",
    "en": "Peaceful schooling anthias that lives in aggregations on outer reef slopes, down to more than 30 m."

@@ -26,6 +26,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 800
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Active, semi-aggressive herbivore; territorial towards other tangs, especially its own species. Keep one per tank unless in a very large system.",
    "hu": "Aktív, félig agresszív növényevő; más doktorhalakkal, főleg fajtársaival szemben territoriális. Egy akváriumba egy példány ajánlott, kivéve nagyon nagy rendszerekben."
@@ -93,6 +111,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Similar to the yellow tang but generally more aggressive and territorial; intolerant of other Zebrasoma species.",
    "hu": "A sárga doktorhalhoz hasonló, de általában agresszívabb és territoriálisabb; más Zebrasoma-fajokat nem tűr meg."
@@ -160,6 +196,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 800
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Less aggressive than its Zebrasoma relatives; still territorial towards other tangs. Melanistic and koi-like variants exist.",
    "hu": "A Zebrasoma-rokonainál kevésbé agresszív; más doktorhalakkal szemben akkor is territoriális. Léteznek sötét (melanista) és koi-szerű változatai."
@@ -227,6 +281,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Active but shy; peaceful towards non-tangs but intolerant of other surgeonfish. Very sensitive to stress and shipping.",
    "hu": "Aktív, de félénk; a nem doktorhal fajokkal békés, más doktorhalakkal szemben intoleráns. Kifejezetten érzékeny a stresszre és a szállításra."
@@ -294,6 +366,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "One of the most aggressive surgeonfish; will dominate a tank and may attack even large tankmates.",
    "hu": "Az egyik legagresszívabb doktorhal; az akvárium dominánsává válik, és akár nagyobb társhalakat is megtámadhat."
@@ -361,6 +451,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Semi-aggressive, active swimmer; intolerant of other tangs. Shy during acclimation.",
    "hu": "Félig agresszív, aktívan úszó; más doktorhalakat nem tűr meg. Beszoktatás alatt félénk."
@@ -428,6 +536,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; similar temperament to the powder blue tang but slightly bolder.",
    "hu": "Félig agresszív; természete a kék doktorhaléhoz hasonló, de kissé merészebb."
@@ -495,6 +621,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Generally peaceful for a large tang, but needs swimming room; territorial with other surgeonfish.",
    "hu": "Nagy doktorhalhoz képest békés, de sok úszóhelyet igényel; más doktorhalakkal territoriális."
@@ -562,6 +706,24 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "ctenochaetus",
+     "ok_from_l": 600
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "One of the most peaceful tangs; gets along with most fish and rarely bothers corals.",
    "hu": "A legbékésebb doktorhalak egyike; a legtöbb hallal jól kijön, a korallokat ritkán bántja."
@@ -628,6 +790,24 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "ctenochaetus",
+     "ok_from_l": 600
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful bristletooth tang; suitable for smaller reef tanks. May be bullied by larger tangs.",
    "hu": "Békés kefésfogú doktorhal; kisebb zátonyos akváriumokba is való. Nagyobb doktorhalak zaklathatják."
@@ -694,6 +874,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "naso",
+     "ok_from_l": 1500
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful towards other fish but needs constant swimming room; males develop long 'streamer' tails.",
    "hu": "Más halakkal békés, de folyamatos úszóhelyet igényel; a hímeknél hosszú 'szalag' farok alakul ki."
@@ -761,6 +959,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "naso",
+     "ok_from_l": 1500
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful but enormous; adults are public-aquarium sized. Males grow a frontal horn.",
    "hu": "Békés, de óriásira nő; a kifejlett példányok akváriuméri méretűek. A hímek homlokszarvat növesztenek."
@@ -827,6 +1043,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "paracanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, schools in the wild; shy in captivity and hides when stressed. Needs hiding places.",
    "hu": "Békés, a természetben rajban él; fogságban félénk, stressz esetén elbújik. Búvóhelyeket igényel."
@@ -895,6 +1129,24 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "One of the most aggressive surgeonfish; strongly territorial. Best kept as the only tang in a large tank. Can be kept with other robust, assertive fish.",
    "hu": "Az egyik legagresszívabb doktorhal; erősen territoriális. Nagy akváriumban ideális egyedként tartandó, más robusztus, határozott halak társaságában."
@@ -962,6 +1214,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive, active swimmer; like the Achilles tang it is territorial towards other surgeonfish. Usually peaceful towards non-tang tankmates.",
    "hu": "Félig agresszív, aktívan úszkáló; az Achilles-doktorhalhoz hasonlóan más doktorhalakkal szemben territoriális. Nem doktorhal társai felé általában békés."
@@ -1029,6 +1299,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful to semi-aggressive; juveniles mimic dwarf angelfish (Centropyge) in coloration. Usually tolerant of other peaceful fish.",
    "hu": "Békés vagy félig agresszív; a fiatal példányok a törpe császárhalak (Centropyge) színét utánozzák. Más békés halakkal szemben általában toleráns."
@@ -1096,6 +1384,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive, robust tang; territorial towards other surgeonfish, peaceful with larger non-tang fish.",
    "hu": "Félig agresszív, robusztus doktorhal; más doktorhalakkal szemben territoriális, nagyobb, nem doktorhal társakkal békés."
@@ -1163,6 +1469,21 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, open-water swimmer that forms schools over reefs in the wild. In the aquarium best kept in a group in a large tank.",
    "hu": "Békés, nyílt vízben úszó halfaj, amely a zátonyok felett rajokban táplálkozik. Akváriumban nagy medencében csoportban tartása a legjobb."
@@ -1230,6 +1551,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, schooling herbivore; one of the most tolerant surgeonfish towards tankmates, including other tangs.",
    "hu": "Békés, rajzó növényevő; a legtoleránsabb doktorhalak egyike a társakkal, más doktorhalakkal szemben is."
@@ -1298,6 +1637,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "acanthurus",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive; treat like its parent species (Achilles and whitecheek tangs): territorial towards other surgeonfish.",
    "hu": "Félig agresszív; a szülőfajaihoz (Achilles- és aranyszegélyes fekete doktorhal) hasonlóan territóriumot tart más doktorhalakkal szemben."
@@ -1359,6 +1716,24 @@
    "detritus-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "ctenochaetus",
+     "ok_from_l": 600
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, hardy bristletooth tang; one of the best detritus and film-algae grazers for reef tanks. Can be kept in small groups in large systems.",
    "hu": "Békés, ellenálló sörtésfogú doktorhal; az egyik legjobb detritusz- és algaréteg-legelő zátonyos akváriumokba. Nagy rendszerekben kisebb csoportban is tartható."
@@ -1427,6 +1802,24 @@
    "detritus-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "ctenochaetus",
+     "ok_from_l": 600
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, shy bristletooth; prefers rockwork with hiding places and may hide for days after introduction.",
    "hu": "Békés, visszahúzódó sörtésfogú; kőzetrejtek-szerető, behelyezés után napokig rejtőzhet."
@@ -1495,6 +1888,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "ctenochaetus",
+     "ok_from_l": 600
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, deep-water bristletooth; more plankton-feeding than its shallow-water relatives. Shy at first.",
    "hu": "Békés, mélyvízi sörtésfogú; a sekélyvízi rokonainál inkább planktonnal táplálkozik. Eleinte visszahúzódó."
@@ -1563,6 +1974,24 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "naso",
+     "ok_from_l": 1500
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive, large open-water swimmer; peaceful towards non-tang tankmates. Needs strong swimming room.",
    "hu": "Félig agresszív, nagy testű, nyílt vízben úszó; a nem doktorhal társakkal békés. Nagy úszófelületet igényel."
@@ -1630,6 +2059,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 1200
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive sailfin tang; large adult size with dramatic dorsal and anal fins. Territorial towards other tangs.",
    "hu": "Félig agresszív vitorlaúszójú doktorhal; nagy testű, látványos hát- és farok alatti úszókkal. Más doktorhalakkal szemben territoriális."
@@ -1697,6 +2144,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 1000
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive but generally well-mannered tang; usually the dominant fish in the aquarium.",
    "hu": "Félig agresszív, de általában jól nevelhető doktorhal; gyakran az akvárium domináns hala."
@@ -1764,6 +2229,24 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "macroalgae"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "zebrasoma",
+     "ok_from_l": 1200
+    },
+    {
+     "key": "tang",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive sailfin tang with spectacular fins; territorial towards other Zebrasoma tangs.",
    "hu": "Félig agresszív vitorlaúszójú doktorhal látványos úszókkal; más Zebrasoma doktorhalakkal szemben territoriális."

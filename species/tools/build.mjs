@@ -19,8 +19,8 @@ const PARENTS = { coral: { lps: { prefix: 'lps-', en: 'LPS (Large Polyp Stony)',
 
 const COMMON = ['id', 'group', 'category', 'scientific_name', 'name_en', 'name_hu', 'difficulty', 'notes', 'diseases', 'sources', 'image', 'feeding', 'origin'];
 const KEYS = {
-  fish: [...COMMON, 'size_cm', 'lifespan_wild_years', 'lifespan_captivity_years', 'tank_min_l', 'tank_ideal_l', 'utility', 'reef_safety', 'behavior'],
-  coral: [...COMMON, 'type', 'light', 'flow', 'growth', 'placement', 'aggression'],
+  fish: [...COMMON, 'size_cm', 'lifespan_wild_years', 'lifespan_captivity_years', 'tank_min_l', 'tank_ideal_l', 'utility', 'reef_safety', 'compat', 'behavior'],
+  coral: [...COMMON, 'type', 'light', 'flow', 'growth', 'placement', 'aggression', 'compat'],
   disease: ['id', 'group', 'category', 'name_en', 'name_hu', 'pathogen', 'affected', 'symptoms', 'causes', 'prevention', 'treatment', 'warnings', 'sources']
 };
 KEYS.invertebrate = KEYS.fish;
@@ -90,6 +90,36 @@ function photo(e) {
   return { url, thumb_500: at(500), thumb_960: at(960), page: img.source_page, author, license: img.license, license_url: licenseUrl(img.license) };
 }
 
+// "compat": the facts the fit estimate (shared/compat.js) works from; fields are described in databases/data/SCHEMA.md.
+const COMPAT_KEYS = ['temperament', 'shy', 'eats', 'may_eat', 'avoid', 'max_same', 'rivals', 'group_min', 'min_age_months', 'jumper', 'neighbours', 'wanders', 'partners'];
+const isPosInt = (v) => Number.isInteger(v) && v > 0;
+Object.entries(tax.enums.prey || {}).forEach(([k, p]) => {
+  (p.categories || []).forEach((c) => { if (!Object.values(tax.categories).some((g) => g[c])) err('taxonomy', 'prey "' + k + '": no category "' + c + '"'); });
+});
+function checkCompat(e, allIds) {
+  const c = e.compat;
+  if (c == null) { warn(e.id, 'compat missing – no fit estimate for this species'); return; }
+  if (typeof c !== 'object' || Array.isArray(c)) { err(e.id, 'compat is not an object'); return; }
+  Object.keys(c).forEach((k) => { if (!COMPAT_KEYS.includes(k)) warn(e.id, 'compat: unknown field "' + k + '"'); });
+  if (c.temperament != null && !(tax.enums.temperament || {})[c.temperament]) err(e.id, 'compat.temperament "' + c.temperament + '" is not in taxonomy.json');
+  if (c.neighbours != null && !(tax.enums.neighbours || {})[c.neighbours]) err(e.id, 'compat.neighbours "' + c.neighbours + '" is not in taxonomy.json');
+  ['shy', 'jumper', 'wanders'].forEach((k) => { if (c[k] != null && typeof c[k] !== 'boolean') err(e.id, 'compat.' + k + ' is not true/false'); });
+  ['eats', 'may_eat', 'avoid'].forEach((k) => {
+    if (c[k] == null) return;
+    if (!Array.isArray(c[k])) { err(e.id, 'compat.' + k + ' is not a list'); return; }
+    c[k].forEach((v) => { if (!(tax.enums.prey || {})[v]) err(e.id, 'compat.' + k + ' "' + v + '" is not a prey group in taxonomy.json'); });
+  });
+  ['max_same', 'group_min', 'min_age_months'].forEach((k) => { if (c[k] != null && !isPosInt(c[k])) err(e.id, 'compat.' + k + ' is not a positive whole number'); });
+  if (c.rivals != null) {
+    if (!Array.isArray(c.rivals)) err(e.id, 'compat.rivals is not a list');
+    else c.rivals.forEach((r) => {
+      if (!r || typeof r.key !== 'string' || !r.key) err(e.id, 'compat.rivals: entry without key');
+      else if (r.ok_from_l !== null && !isPosInt(r.ok_from_l)) err(e.id, 'compat.rivals "' + r.key + '": ok_from_l must be litres or null');
+    });
+  }
+  (c.partners || []).forEach((id) => { if (!allIds.has(id)) err(e.id, 'compat.partners "' + id + '" does not exist'); });
+}
+
 const species = [];
 const diseases = {};
 entries.forEach((e) => {
@@ -120,6 +150,7 @@ entries.forEach((e) => {
   ['tank_min_l', 'tank_ideal_l'].forEach((k) => { if (e[k] != null && !isNum(e[k])) warn(e.id, k + ' is not a number'); });
   (e.diseases || []).forEach((d) => { if (!diseaseIds.has(d)) err(e.id, 'disease "' + d + '" does not exist'); });
   (e.sources || []).forEach((s) => { if (!s || !s.url || !s.name) warn(e.id, 'source without name or url'); });
+  checkCompat(e, ids);
 
   const out = {};
   KEYS[g].forEach((k) => { if (e[k] != null && k !== 'image') out[k] = e[k]; });

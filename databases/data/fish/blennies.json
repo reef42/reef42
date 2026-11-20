@@ -26,6 +26,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "combtooth-blenny",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, comical perch-and-sit fish; territorial towards other blennies. Spends its day grazing rockwork.",
    "hu": "Békés, mulatságos 'ülő-leső' hal; más blennikhez territoriális. A napját a köveken legelve tölti."
@@ -91,6 +107,22 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "combtooth-blenny",
+     "ok_from_l": 400
+    }
+   ],
+   "min_age_months": 3,
+   "jumper": true
+  },
   "behavior": {
    "en": "Similar to the lawnmower blenny; perches on rocks and grazes algae. Individual specimens may nip corals.",
    "hu": "A fűnyíró nyálkáshalhez hasonló; a köveken ül és algát legel. Egyes példányok csipkedhetik a korallokat."
@@ -156,6 +188,21 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "combtooth-blenny",
+     "ok_from_l": 400
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Small, curious blenny that darts into holes; may fight with other blennies or gobies.",
    "hu": "Kis, kíváncsi nyálkáshal, amely lyukakba cikázik; más blennikkel vagy gébhalakkal összeverekedhet."
@@ -221,6 +268,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Reef-safe fang blenny; venomous bite deters predators. Peaceful but active. Pairs possible.",
    "hu": "Korallbiztos méregfogú nyálkáshal; méregcsípése elriasztja a ragadozókat. Békés, de aktív. Párosan is tartható."
@@ -286,6 +337,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful fangblenny with venomous fangs used only in self-defence; hovers mid-water unlike most blennies.",
    "hu": "Békés méregfogú nyálkáshal, amelynek méregfogait kizárólag önvédelemre használja; a legtöbb nyálkáshalval ellentétben a víz közepén lebeg."
@@ -351,6 +406,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Slim, pearl-white fangblenny with a black eye-stripe; swims mid-water in short hops.",
    "hu": "Karcsú, gyöngyfehér méregfogú nyálkáshal fekete szemcsíkkal; rövid ugrásokkal úszkál a víz közepén."
@@ -416,6 +475,21 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "combtooth-blenny",
+     "ok_from_l": 400
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Dark comb-tooth blenny with a yellow tail; perches on rocks and grazes algae and detritus.",
    "hu": "Sötét testű, sárga farkú fésűsfogú nyálkáshal; köveken ülve algát és detrituszt legel."

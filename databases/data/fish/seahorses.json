@@ -27,6 +27,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones",
+    "lps"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Nyugodt, párban vagy kis csoportban tartható csikóhal; a FishBase szerint a természetben gyakran kemény korallokba kapaszkodik.",
    "en": "Calm seahorse that can be kept in pairs or small groups; according to FishBase it often clings to hard coral in the wild."
@@ -94,6 +103,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones",
+    "lps"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Nyugodt csikóhal; a felnőttek párban élnek. A FishBase szerint a laboratóriumban nem bizonyult monogámnak.",
    "en": "Calm seahorse; adults live in pairs. According to FishBase it was not shown to be monogamous in the laboratory."
@@ -161,6 +179,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones",
+    "lps"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Monogám csikóhal; a FishBase szerint mindig párban él, kizárólagos terület védése nélkül. Gorgóniákba vagy tengerifűbe kapaszkodik.",
    "en": "Monogamous seahorse; according to FishBase it always lives in home-ranging pairs without defending an exclusive territory. Clings to gorgonians or seagrass."
@@ -228,6 +255,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones",
+    "lps"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Nyugodt, párban vagy csoportban tartható csikóhal; gorgóniákba vagy tengerifűbe kapaszkodik, de a nyílt vízben is úszik.",
    "en": "Calm seahorse that can be kept in pairs or groups; clings to gorgonians or seagrass but also swims freely in midwater."
@@ -295,6 +331,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones"
+   ],
+   "max_same": 2,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés csőhal, amely magányosan, párban vagy kis csoportokban él barlangokban és peremek alatt. Gyors, falánk halak mellett éhezik.",
    "en": "Peaceful pipefish living alone, in pairs or small groups in caves and under ledges. Starves next to fast, greedy fish."
@@ -362,6 +407,14 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "avoid": [
+    "anemones"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Nyugodt, lassú csőhal, amely védett, sekély part menti vizekben algák, tengerifű vagy sodródó hínár között él; farkával kapaszkodik.",
    "en": "Calm, slow pipefish living in sheltered coastal shallows among algae, seagrass or floating weed; holds on with its tail."

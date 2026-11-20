@@ -21,6 +21,10 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful reef starfish; sensitive to acclimation (never expose to air) and parameter swings.",
    "hu": "Békés zátonyi tengeri csillag; érzékeny a beszoktatásra (soha ne érje levegő) és a paraméter-ingadozásra."
@@ -74,6 +78,10 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Peaceful but delicate; often arrives starved and rarely recovers. Sensitive to any parameter change.",
    "hu": "Békés, de kényes; gyakran már kimerülten érkezik, és ritkán épül fel. Bármilyen paraméterváltozásra érzékeny."
@@ -127,6 +135,17 @@
    "detritus-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "bivalves"
+   ]
+  },
   "behavior": {
    "en": "Hardy and entertaining, but a predator that eats snails, clams, corals and even sleeping fish.",
    "hu": "Ellenálló és szórakoztató, de ragadozó – csigákat, kagylókat, korallokat és akár alvó halakat is megesz."
@@ -180,6 +199,12 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
   "behavior": {
    "en": "Excellent algae grazer; carries bits of rubble, shell and macroalgae as camouflage ('hat-wearing').",
    "hu": "Kiváló algaevő; törmelékdarabokat, héjakat és makroalgát hordoz álcázásul ('kalaposos' sün)."
@@ -233,6 +258,12 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
   "behavior": {
    "en": "Grazes rocks clean of algae; can rasp coralline algae patches. Generally reef-safe.",
    "hu": "Az algától tisztára legeli a köveket; a kéregalgát is kaparhatja. Általában korallbiztos."
@@ -286,6 +317,12 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
   "behavior": {
    "en": "Voracious algae eater that 'collects' shells and rubble on its spines; peaceful.",
    "hu": "Falánk algaevő, amely a tüskéin 'gyűjti' a héjakat és törmeléket; békés."
@@ -343,6 +380,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Sessile; attaches by byssus threads to rock. Needs strong light to thrive.",
    "hu": "Szezílkedő; byssusz-szálakkal a kőhöz tapad. Erős fényt igényel a jólléthez."
@@ -402,6 +443,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Bores into rock ('boring clam'); sits in crevices. Requires the strongest light of all tridacnas.",
    "hu": "A sziklába fúrkálódik ('fúró kagyló'); repedésekben ül. Minden tridacna közül a legerősebb fényt igényli."
@@ -461,6 +506,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Smooth-shelled fast-growing giant clam; sits on the sandbed or flat rock.",
    "hu": "Simahéjú, gyorsan növő óriáskagyló; a homokágyon vagy lapos kőzeten ül."
@@ -518,6 +567,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Fluted scutes on the shell; attaches weakly by byssus, often placed on sand.",
    "hu": "Redőzött pikkelyek a héjon; gyengén tapad byssusszal, gyakran homokra helyezik."
@@ -574,6 +627,10 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Nocturnal sandbed cleaner; hides during the day. Peaceful.",
    "hu": "Éjjel aktív homokágy-takarító; nappal rejtőzködik. Békés."
@@ -623,6 +680,10 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Active detritus consumer on the sandbed; peaceful.",
    "hu": "Aktív detrituszfogyasztó a homokágyon; békés."
@@ -676,6 +737,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "min_age_months": 6,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "The classic clownfish host anemone; attaches its foot into rock crevices. Can wander and sting corals.",
    "hu": "A klasszikus bohóchal-anemón; lábfejét sziklarepedésekbe tapasztja. Vándorolhat és korallokat csíphet."
@@ -731,6 +801,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "Large, high-light anemone that perches on rock summits; hosts many clownfish species.",
    "hu": "Nagy, erős fényt igénylő anemón, amely a sziklacsúcsokon ül; sok bohóhalfajt fogad."
@@ -784,6 +863,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "min_age_months": 6,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "Buried foot in the sandbed; prefers sand-adjacent rock. Hosts A. percula, A. clarkii and others.",
    "hu": "Lábfejét a homokágyba ássa; a homok melletti köveket kedveli. Az A. percula, A. clarkii és mások fogadják."
@@ -837,6 +925,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "small-fish",
+    "shrimps"
+   ],
+   "min_age_months": 6,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "Small carpet anemone for nano tanks; sticky tentacles can catch small fish and shrimp.",
    "hu": "Kis szőnyeganémon nano akváriumokba; ragadós csápjaival kis halakat és garnélákat foghat."
@@ -888,6 +985,18 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "eats": [
+    "small-fish"
+   ],
+   "may_eat": [
+    "shrimps",
+    "crabs"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "The largest carpet anemone; sits on rockwork with strong light. Will eat fish that wander into its tentacles.",
    "hu": "A legnagyobb szőnyeganémon; erős fényű sziklázaton ül. A csápjai közé tévedő halakat megeszi."
@@ -939,6 +1048,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "small-fish",
+    "shrimps"
+   ],
+   "min_age_months": 6,
+   "neighbours": "sting",
+   "wanders": true
+  },
   "behavior": {
    "en": "Flattened 'pizza' disc with short sticky tentacles; buries its foot deeply.",
    "hu": "Lapos 'pizza' korong rövid, ragadós csápokkal; lábfejét mélyen elássa."
@@ -992,6 +1110,9 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Sedentary fan worm in a leathery tube; retracts instantly when disturbed. Peaceful.",
    "hu": "Helyben ülő legyezőféreg bőrszerű csőben; megzavarva azonnal visszahúzódik. Békés."

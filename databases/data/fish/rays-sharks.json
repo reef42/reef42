@@ -27,6 +27,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs",
+    "snails",
+    "bivalves",
+    "worms"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Dagálykor csoportosan a sekély homokos részekre vonul táplálkozni, apálykor barlangokban és peremek alatt húzódik meg; ritkán ássa be magát a homokba.",
    "en": "Migrates in groups into shallow sandy areas on the rising tide to feed and disperses on the falling tide to shelter in caves and under ledges; rarely buries itself in sand."
@@ -92,6 +104,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs",
+    "snails",
+    "bivalves",
+    "worms"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Homokos aljzaton, sziklás vagy korallzátonyok közelében él; dagálykor a zátonytetőre és a sekély lagúnákba úszik. Néha beássa magát, csak a szeme és a farka látszik ki.",
    "en": "Lives on sandy bottoms near rocky or coral reefs; moves onto reef flats and into shallow lagoons at high tide. Occasionally buries itself, leaving only its eyes and tail visible."
@@ -157,6 +181,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs",
+    "snails",
+    "bivalves",
+    "worms"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Kis fenéklakó cápa, amely korallzátonyokon, gyakran árapálymedencékben él. A FishBase szerint akár 12 órát is kibír a vízen kívül.",
    "en": "Small bottom-dwelling shark living on coral reefs, often in tide pools. According to FishBase it can survive up to 12 hours out of water."
@@ -222,6 +258,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs",
+    "snails",
+    "bivalves",
+    "worms"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Kevéssé ismert, part menti fenéklakó cápa, amely sziklás és korallzátonyokon él.",
    "en": "Little-known inshore bottom-dwelling shark found on rocky and coral reefs."

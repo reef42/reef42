@@ -26,6 +26,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish",
+    "crabs"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "hawkfish",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "en": "Perches on rocks and corals; bold and curious. Will eat small shrimps and tiny fish.",
    "hu": "Kövekre és korallokra ül; merész és kíváncsi. Kis garnélákat és apró halakat megesz."
@@ -91,6 +108,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish",
+    "crabs"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "hawkfish",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "en": "Small nano hawkfish; perches on rockwork. Semi-aggressive towards similar-sized fish.",
    "hu": "Kis nano korallcsősz; a szikladekoráción ül. Hasonló méretű halakkal szemben félig agresszív."
@@ -157,6 +191,22 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "hawkfish",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Monogám, erősen területvédő korallcsősz, amely a természetben áramlásos, meredek külső zátonyfalakon nagy gorgóniákon és feketekorallokon ül. Más halakkal általában békés.",
    "en": "Monogamous, strongly territorial hawkfish that perches in large gorgonians and black corals on steep, current-exposed outer reef slopes. Usually peaceful towards other fish."
@@ -223,6 +273,23 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "small-fish"
+   ],
+   "may_eat": [
+    "crabs"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "hawkfish",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő, háremet tartó korallcsősz; a természetben nyíltan ül a Stylophora-, Pocillopora- és Acropora-telepek legkülső ágain. Kis halakat és garnélákat megtámad.",
    "en": "Territorial, haremic hawkfish that perches openly on the outermost branches of Stylophora, Pocillopora and Acropora colonies. It attacks small fish and shrimp."
@@ -289,6 +356,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish",
+    "crabs"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "hawkfish",
+     "ok_from_l": 400
+    }
+   ]
+  },
   "behavior": {
    "hu": "Kis termetű, területvédő korallcsősz; a hímek háremet tartanak. A természetben kemény és lágy korallokon, azok belsejében vagy alattuk pihen.",
    "en": "Small, territorial hawkfish; males are haremic. Rests on, in or beneath hard and soft corals in the wild."
@@ -355,6 +439,12 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "shrimps"
+   ]
+  },
   "behavior": {
    "hu": "A korallcsőszök közül a legbékésebb; a többivel ellentétben nem ül folyamatosan az aljzaton, hanem áramlásos lejtők és kis korallfejek fölött néhány méterrel lebeg.",
    "en": "The most peaceful hawkfish; unlike the others it does not perch all the time, but hovers several metres above current-exposed slopes and small coral heads."

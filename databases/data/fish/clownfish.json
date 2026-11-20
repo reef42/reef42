@@ -25,6 +25,21 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "heteractis-magnifica",
+    "stichodactyla-mertensii",
+    "entacmaea-quadricolor"
+   ]
+  },
   "behavior": {
    "en": "Peaceful, easy to keep; may squabble with its own kind. Hosts anemones (Entacmaea, Heteractis, Stichodactyla) but thrives without them. Protandrous hermaphrodite: the largest individual becomes female.",
    "hu": "Békés, könnyen tartható; fajtársaival civakodhat. Anémonokban (Entacmaea, Heteractis, Stichodactyla) él szimbiózisban, de anémon nélkül is jól érzi magát. Protandrikus hermafrodita: a legnagyobb példány nősténnyé alakul."
@@ -90,6 +105,21 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "heteractis-magnifica",
+    "stichodactyla-mertensii",
+    "entacmaea-quadricolor"
+   ]
+  },
   "behavior": {
    "en": "Very similar to A. ocellaris; slightly more sensitive and less tolerant of poor water quality. Forms pairs or small groups.",
    "hu": "Nagyon hasonlít az A. ocellarishoz; kissé érzékenyebb és a rossz vízminőséget kevésbé tűri. Párokban vagy kis csoportokban él."
@@ -156,6 +186,24 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "entacmaea-quadricolor",
+    "heteractis-magnifica",
+    "macrodactyla-doreensis",
+    "stichodactyla-mertensii",
+    "stichodactyla-tapetum",
+    "cryptodendrum-adhaesivum"
+   ]
+  },
   "behavior": {
    "en": "The most widespread and one of the most aggressive clownfish; dominant fish may bully smaller tankmates.",
    "hu": "A legelterjedtebb és egyik legagresszívabb bohóchal; a domináns példány kisebb társait zaklathatja."
@@ -221,6 +269,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "entacmaea-quadricolor"
+   ]
+  },
   "behavior": {
    "en": "Semi-aggressive, hardy; defends its territory vigorously, especially when hosting an anemone.",
    "hu": "Félig agresszív, ellenálló; területét határozottan védi, különösen ha anémonban él."
@@ -286,6 +347,20 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "entacmaea-quadricolor",
+    "heteractis-magnifica"
+   ]
+  },
   "behavior": {
    "en": "Aggressive for its size; defends host anemones fiercely.",
    "hu": "Méretéhez képest agresszív; az anémonját hevesen védi."
@@ -351,6 +426,21 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "heteractis-magnifica",
+    "stichodactyla-mertensii",
+    "entacmaea-quadricolor"
+   ]
+  },
   "behavior": {
    "en": "One of the larger, bolder clownfish; semi-aggressive, especially towards other anemonefish.",
    "hu": "A nagyobb, merészebb bohóchalak egyike; félig agresszív, különösen más anémonhalakkal szemben."
@@ -416,6 +506,20 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "stichodactyla-tapetum",
+    "heteractis-magnifica"
+   ]
+  },
   "behavior": {
    "en": "Semi-aggressive; naturally lives on muddy/sandy bottoms near host anemones (Stichodactyla haddoni). Prefers to stay near the substrate.",
    "hu": "Félig agresszív; természetesen iszapos/homokos aljzaton él, anémonok (Stichodactyla haddoni) közelében. Inkább az aljzat közelében tartózkodik."
@@ -481,6 +585,20 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "heteractis-magnifica",
+    "macrodactyla-doreensis"
+   ]
+  },
   "behavior": {
    "en": "Shy and peaceful; easily bullied by aggressive tankmates. Best kept in pairs in calm tanks.",
    "hu": "Félénk és békés; agresszív társak könnyen megzaklathatják. Legjobb párban, nyugodt akváriumban tartani."
@@ -546,6 +664,19 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "clownfish",
+     "ok_from_l": null
+    }
+   ],
+   "partners": [
+    "entacmaea-quadricolor"
+   ]
+  },
   "behavior": {
    "en": "The most aggressive common clownfish; females grow much larger than males and can bite during maintenance.",
    "hu": "A legagresszívabb gyakori bohóchal; a nőstények jóval nagyobbra nőnek, és a karbantartás során is csíphetnek."

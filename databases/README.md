@@ -41,11 +41,13 @@ Az adatbázis „forrás igazsága” a `data/` mappa; a `site/js/data.js` belő
 
 ## Adatmezők (JSON séma)
 
+A teljes, mezőnkénti leírás (a `compat` együtt tarthatósági mezővel együtt): [`data/SCHEMA.md`](data/SCHEMA.md).
+
 Közös mezők: `id`, `group`, `category`, `scientific_name`, `name_en`, `name_hu`, `difficulty`, `diseases` (id-lista), `sources`, `image`.
 
-Halak/gerinctelenek: `size_cm`, `lifespan_wild_years`, `lifespan_captivity_years`, `tank_min_l`, `tank_ideal_l`, `utility` (lista), `reef_safety`, `behavior`, `feeding`, `origin`, `notes`.
+Halak/gerinctelenek: `size_cm`, `lifespan_wild_years`, `lifespan_captivity_years`, `tank_min_l`, `tank_ideal_l`, `utility` (lista), `reef_safety`, `compat`, `behavior`, `feeding`, `origin`, `notes`.
 
-Korallok: `type`, `light`, `flow`, `growth`, `placement`, `aggression`, `feeding`, `origin`, `notes`.
+Korallok: `type`, `light`, `flow`, `growth`, `placement`, `aggression`, `compat`, `feeding`, `origin`, `notes`.
 
 Betegségek: `pathogen`, `affected`, `symptoms`, `causes`, `prevention`, `treatment`, `warnings`.
 

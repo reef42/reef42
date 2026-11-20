@@ -26,6 +26,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "sps"
+   ],
+   "max_same": 2,
+   "min_age_months": 12
+  },
   "behavior": {
    "en": "Peaceful, obligate Acropora-polyp specialist; hovers among Acropora branches in pairs.",
    "hu": "Békés, kizárólag Acropora-polipokon élő specialista; párban az Acropora ágai közt lebeg."
@@ -92,6 +101,18 @@
    "aiptasia-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "anemones"
+   ],
+   "may_eat": [
+    "zoanthids",
+    "soft-corals",
+    "lps"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Békés, magányos bőrhal, amely a természetben sekély zátonyokon algás, törmelékes részeken és tengerifű-mezőkön él; mozdulatlanul lebegve levélnek álcázza magát.",
    "en": "Peaceful, solitary filefish living over weed and rubble on shallow reefs and in seagrass beds; it camouflages itself as a leaf by hovering motionless."
@@ -158,6 +179,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "bivalves",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányosan vagy párban élő, félénk kis gömbhal, amely a természetben 30 m-nél mélyebben, meredek falak barlangjaiban él.",
    "en": "Shy small puffer living alone or in pairs in caves along deep drop-offs, usually below 30 m."
@@ -217,6 +251,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "bivalves",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "A hímek területvédők és gyakran verekednek egymással; a természetben 10–100 egyedes vagy nagyobb csoportokban is előfordul. Más halakkal általában békés.",
    "en": "Males are territorial and often fight each other; in the wild it may form shoals of 10–100 or more. Usually peaceful towards other fish."
@@ -283,6 +330,26 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "small-fish"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Lassú, kíváncsi gömbhal; a felnőttek gyakran párban, néha magányosan élnek. Más halakkal általában békés, de az uszonyos, lassú halakat csipkedheti.",
    "en": "Slow, curious puffer; adults are often seen in pairs, sometimes alone. Generally peaceful towards other fish but may nip slow-moving, long-finned tankmates."
@@ -349,6 +416,17 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "shrimps",
+    "worms",
+    "bivalves",
+    "snails"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Lassú, félénk dobozhal; a felnőttek magányosak, a fiatalok gyakran kis csoportokban élnek. Gyors, agresszív társak mellett nem jut eleséghez.",
    "en": "Slow, shy boxfish; adults are solitary, juveniles often form small groups. Cannot compete for food with fast, aggressive tankmates."
@@ -415,6 +493,17 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "shrimps",
+    "worms",
+    "bivalves",
+    "snails"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányos, lassú dobozhal; a fiatalok szűk hasadékokban rejtőzködnek, gyakran Acropora-korallok között. Gyors, agresszív társak mellett nem jut eleséghez.",
    "en": "Solitary, slow boxfish; small juveniles hide in narrow crevices, often among Acropora corals. Cannot compete for food with fast, aggressive tankmates."
@@ -481,6 +570,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "bivalves",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányosan vagy párban élő, félénk kis gömbhal; a természetben elhalt és élő korallok üregeiben, szivacsok közelében rejtőzik. Más halakkal általában békés.",
    "en": "Shy little puffer living alone or in pairs; it hides in holes in dead and living corals near sponges. Usually peaceful towards other fish."

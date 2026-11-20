@@ -1,5 +1,5 @@
 {
- "version": "1.14.0",
+ "version": "1.15.0",
  "updated": "2026-11-20",
  "groups": {
   "fish": {
@@ -340,6 +340,147 @@
    "none": {
     "en": "Ornamental",
     "hu": "Díszállat"
+   }
+  },
+  "temperament": {
+   "peaceful": {
+    "en": "Peaceful",
+    "hu": "Békés"
+   },
+   "semi-aggressive": {
+    "en": "Semi-aggressive",
+    "hu": "Mérsékelten agresszív"
+   },
+   "aggressive": {
+    "en": "Aggressive",
+    "hu": "Agresszív"
+   }
+  },
+  "prey": {
+   "small-fish": {
+    "en": "small fish",
+    "hu": "kis halak",
+    "group": "fish"
+   },
+   "shrimps": {
+    "en": "shrimps",
+    "hu": "garnélák",
+    "categories": [
+     "shrimps"
+    ]
+   },
+   "crabs": {
+    "en": "crabs and hermit crabs",
+    "hu": "rákok és remeterákok",
+    "categories": [
+     "crabs",
+     "hermit-crabs"
+    ]
+   },
+   "snails": {
+    "en": "snails",
+    "hu": "csigák",
+    "categories": [
+     "snails"
+    ]
+   },
+   "starfish": {
+    "en": "sea stars",
+    "hu": "tengeri csillagok",
+    "categories": [
+     "starfish"
+    ]
+   },
+   "urchins": {
+    "en": "urchins",
+    "hu": "tengerisünök",
+    "categories": [
+     "urchins"
+    ]
+   },
+   "bivalves": {
+    "en": "clams",
+    "hu": "kagylók",
+    "categories": [
+     "bivalves"
+    ]
+   },
+   "worms": {
+    "en": "tube and feather duster worms",
+    "hu": "csöves és legyezőférgek",
+    "categories": [
+     "worms"
+    ]
+   },
+   "sea-cucumbers": {
+    "en": "sea cucumbers",
+    "hu": "tengeri uborkák",
+    "categories": [
+     "sea-cucumbers"
+    ]
+   },
+   "sps": {
+    "en": "SPS corals",
+    "hu": "SPS korallok",
+    "categories": [
+     "sps"
+    ]
+   },
+   "lps": {
+    "en": "LPS corals",
+    "hu": "LPS korallok",
+    "categories": [
+     "lps-euphyllia",
+     "lps-brain",
+     "lps-acan",
+     "lps-goniopora",
+     "lps-plate",
+     "lps-other",
+     "nps"
+    ]
+   },
+   "soft-corals": {
+    "en": "soft corals and mushrooms",
+    "hu": "lágykorallok és gombakorallok",
+    "categories": [
+     "soft",
+     "mushrooms"
+    ]
+   },
+   "zoanthids": {
+    "en": "zoanthids",
+    "hu": "zoák",
+    "categories": [
+     "zoanthids"
+    ]
+   },
+   "anemones": {
+    "en": "anemones",
+    "hu": "anemónák",
+    "categories": [
+     "anemones"
+    ]
+   },
+   "macroalgae": {
+    "en": "macroalgae",
+    "hu": "makroalgák",
+    "categories": [
+     "algae"
+    ]
+   }
+  },
+  "neighbours": {
+   "sting": {
+    "en": "Stings its neighbours",
+    "hu": "Csalánozza a szomszédait"
+   },
+   "chemical": {
+    "en": "Chemical warfare against other corals",
+    "hu": "Vegyi anyagokkal támadja a többi korallt"
+   },
+   "spreads": {
+    "en": "Spreads and overgrows",
+    "hu": "Terjed, benövi a környezetét"
    }
   }
  },

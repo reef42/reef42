@@ -27,6 +27,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a fiatalok kis csoportokban sekély tengerifű-mezőkön és Acropora-korallok között élnek, a felnőttek többnyire párban sekély zátonyokon.",
    "en": "Peaceful rabbitfish; juveniles live in small schools in shallow seagrass beds and among Acropora corals, adults usually in pairs on shallow reefs."
@@ -93,6 +104,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a fiatalok csapatban, a 7 cm feletti példányok párban élnek, de ezek a párok is laza csapatokba állnak. A felnőttek a lagúnák mélyebb részein és a zátonyszéleken párban legelnek.",
    "en": "Peaceful rabbitfish; juveniles school, and fish over 7 cm form pairs that still gather in loose schools. Adults graze in pairs in deeper lagoons and along reef edges."
@@ -159,6 +181,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Egész életében csapatban élő rókapofa (a felnőttek 10–15 fős csoportokban); a FishBase szerint a többi rókapofával ellentétben éjjel is aktív.",
    "en": "A rabbitfish that schools throughout life (adults in groups of about 10–15); according to FishBase, unlike other rabbitfish it is also active at night."
@@ -225,6 +258,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a felnőttek párban vagy magányosan, a fiatalok rejtőzködve, korallok között élnek.",
    "en": "Peaceful rabbitfish; adults live in pairs or alone, juveniles hide among corals."
@@ -291,6 +335,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a 7 cm alatti fiatalok nagy csapatokban élnek a dús Acropora-telepek között, a felnőttek párban.",
    "en": "Peaceful rabbitfish; juveniles up to 7 cm form large schools among lush Acropora growth, adults live in pairs."
@@ -357,6 +412,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa, amely kis (általában 10 egyednél kisebb) csapatokban él sekély zátonytetőkön; a fiatalok nagyobb számban gyűlnek össze az algás tövű korallok között.",
    "en": "Peaceful rabbitfish living in small schools (usually under 10 fish) on shallow reef flats; juveniles gather in larger numbers among corals with algae-grown bases."
@@ -423,6 +489,16 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a kis fiatalok több százas csapatokban, a nagyobb fiatalok és a felnőttek párban élnek, gyakran szarvasagancs-korallok (Acropora) között.",
    "en": "Peaceful rabbitfish; small juveniles form schools of up to a few hundred, larger juveniles and adults live in pairs, often among staghorn corals (Acropora)."
@@ -489,6 +565,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a fiatalok csapatban, a felnőttek párban élnek zátonyszéli falakon és a zátonytetők mélyebb medencéiben.",
    "en": "Peaceful rabbitfish; juveniles school and adults live in pairs on reef-edge drop-offs and in deep pools inside reef crests."
@@ -555,6 +642,17 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés rókapofa; a nagyobb fiatalok és a felnőttek párban élnek part menti zátonytetőkön, lejtőkön és torkolatokban; a zavaros vizet is tűri.",
    "en": "Peaceful rabbitfish; larger juveniles and adults live in pairs on coastal reef flats, slopes and estuaries; tolerates murky water."
@@ -621,6 +719,16 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ],
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "hu": "Békés, de fajtársaival szemben területvédő rókapofa; általában magányosan vagy párban él, de a fiatalok és a félig kifejlett példányok néha nagy csapatokban legelnek az Acropora-telepek elhalt tövén.",
    "en": "Peaceful rabbitfish, territorial towards its own kind; usually alone or in pairs, but juveniles and subadults sometimes graze in large schools on algae at the dead bases of Acropora branches."

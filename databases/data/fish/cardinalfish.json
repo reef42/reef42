@@ -25,6 +25,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2
+  },
   "behavior": {
    "en": "Peaceful, schooling; males mouthbrood the eggs. Small groups are best (3-6). Slow swimmer that can be outcompeted at feeding.",
    "hu": "Békés, rajban élő; a hímek szájban költik az ikrát. Kis csoportban (3-6 példány) a legjobb. Lassú úszó, etetésnél lekörözhető."
@@ -90,6 +94,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3
+  },
   "behavior": {
    "en": "Peaceful schooling cardinalfish; hovers under overhangs during the day. Mouthbrooder.",
    "hu": "Békés, rajban élő kardinálishal; nappal a kihajolások alatt lebeg. Szájköltő."
@@ -156,6 +164,9 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "hu": "Békés kardinálishal, amely a természetben kis vagy nagy csoportokban peremek alatt, üregekben vagy akár tengerisünök tüskéi között húzódik meg. Szájköltő.",
    "en": "Peaceful cardinalfish found in small or large aggregations under ledges, in holes or even among the long spines of sea urchins. Mouthbrooder."
@@ -222,6 +233,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 5
+  },
   "behavior": {
    "hu": "Békés, csapatban élő kardinálishal; a természetben ágas Porites-korallok fölött, védett öblökben és lagúnákban, gyakran más kardinálishalakkal együtt él. Monogám párokat alkot, kizárólagos terület védése nélkül. Éjjel aktívabb.",
    "en": "Peaceful schooling cardinalfish; in the wild it hovers above branching Porites coral in sheltered bays and lagoons, often with other cardinalfish. Forms monogamous pairs without defending an exclusive territory. More active at night."
@@ -288,6 +303,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "group_min": 3
+  },
   "behavior": {
    "hu": "Apró, békés kardinálishal, amely a természetben öblök sziklás zátonyai körül, áramlásos helyeken csoportosan él. Szájköltő.",
    "en": "Tiny, peaceful cardinalfish that gathers around rocky reefs in bays and current-prone areas. Mouthbrooder."

@@ -26,6 +26,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "One of the hardiest and least fussy butterflyfish; peaceful with tankmates but may bicker with its own kind.",
    "hu": "A legellenállóbb és legkevésbé válogatós pillangóhalak egyike; a társhalakkal békés, de fajtársaival civakodhat."
@@ -92,6 +105,21 @@
    "aiptasia-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "anemones",
+    "worms"
+   ],
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Nocturnal by nature; peaceful, bold once settled. Best kept singly or as an established pair.",
    "hu": "Természeténél fogva éjjel aktív; békés, berendezkedés után merész. Egyedül vagy bevált párosan tartható."
@@ -158,6 +186,21 @@
    "aiptasia-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "anemones",
+    "worms"
+   ],
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful and active; may fight with other butterflyfish. Indian Ocean specimens lack the black eye-spot band.",
    "hu": "Békés és aktív; más pillangóhalakkal összeverekedhet. Az Indiai-óceáni példányoknál hiányzik a fekete szemfolt."
@@ -224,6 +267,19 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Semi-aggressive towards other butterflyfish; otherwise peaceful.",
    "hu": "Más pillangóhalakkal szemben félig agresszív; egyébként békés."
@@ -290,6 +346,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful, schools in the wild; shy at first and needs quiet tankmates and hiding places.",
    "hu": "Békés, a természetben rajban úszik; kezdetben félénk, nyugodt társakat és búvóhelyeket igényel."
@@ -356,6 +425,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful; may be bullied by aggressive feeders. Pairs are possible in larger tanks.",
    "hu": "Békés; agresszív evők zaklathatják. Nagyobb akváriumban párosan is tartható."
@@ -422,6 +504,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful schooling fish; often called the 'poor man's Moorish idol'. Best in groups of 3+.",
    "hu": "Békés rajhal; gyakran 'szegény ember mór bálványa' néven emlegetik. Legalább 3 példányos csoportban a legjobb."
@@ -488,6 +583,20 @@
    "aiptasia-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "anemones",
+    "worms"
+   ],
+   "may_eat": [
+    "lps",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Peaceful but shy and slow feeder; can be bullied by aggressive fish. Best kept singly.",
    "hu": "Békés, de félénk és lassú evő; agresszív halak zaklathatják. Egyedben tartva a legjobb."
@@ -555,6 +664,19 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Párban élő, monogám pillangóhal; a természetben a pár közösen védi táplálkozóterületét más párokkal szemben, de más fajokkal általában nem agresszív.",
    "en": "Monogamous butterflyfish that lives in pairs; in the wild the pair jointly defends a feeding territory against other pairs, but it is usually not aggressive towards other species."
@@ -622,6 +744,19 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "A felnőttek gyakran párban, a fiatalok magányosan élnek. Más pillangóhalakkal szemben területvédő lehet.",
    "en": "Adults are often seen in pairs, juveniles alone. Can be territorial towards other butterflyfish."
@@ -689,6 +824,19 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Gyakran párban élő, békés pillangóhal; a természetben korallokban gazdag lagúnákban és zátonyokon él.",
    "en": "Peaceful butterflyfish, often seen in pairs; lives in coral-rich lagoons and reefs in the wild."
@@ -756,6 +904,14 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "worms"
+   ],
+   "group_min": 3,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés, csapatban élő pillangóhal, amely a természetben áramlásos külső zátonylejtők fölött, a nyílt vízben nagy rajokban táplálkozik. Kisebb csoportban is tartható.",
    "en": "Peaceful, shoaling butterflyfish that feeds in large schools in open water above current-swept outer reef slopes. Can be kept in a small group."
@@ -823,6 +979,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés, általában párban élő, monogám pillangóhal. Más pillangóhalakkal szemben is ritkán agresszív.",
    "en": "Peaceful, monogamous butterflyfish usually seen in pairs. Rarely aggressive even towards other butterflyfish."
@@ -890,6 +1059,21 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés zászlóshal; a fiatalok magányosak, gyakran torkolatokban és lagúnákban élnek, a felnőttek többnyire párban, korallokban gazdag zátonyokon.",
    "en": "Peaceful bannerfish; juveniles are solitary and often found in estuaries and lagoons, adults usually in pairs on coral-rich reefs."
@@ -957,6 +1141,14 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "worms"
+   ],
+   "group_min": 3,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés, csapatban élő zászlóshal; a felnőttek nagy rajokban úsznak a fenék fölött, külső zátonylejtők mentén és áramlásos csatornákban. Csoportban tartható. A fiatalok – és néha a felnőttek is – más halakat tisztogathatnak.",
    "en": "Peaceful schooling bannerfish; adults swim in large schools well above the bottom along outer reef slopes and in current channels. Can be kept in a group. Juveniles – and sometimes adults – may clean other fish."
@@ -1024,6 +1216,19 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "worms"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Monogám zászlóshal; a fiatalok nagy csoportokban élnek a zátony tövében (néha a H. diphreutesszel együtt), a felnőttek magányosan vagy párban, alkalmanként csoportban.",
    "en": "Monogamous bannerfish; juveniles live in large groups at the base of the reef (sometimes with H. diphreutes), adults alone or in pairs, occasionally in groups."

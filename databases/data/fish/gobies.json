@@ -26,6 +26,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Forms a famous symbiosis with pistol shrimp (Alpheus): the shrimp digs, the goby guards. Territorial towards its own kind.",
    "hu": "Híres szimbiózist alkot a pisztolygarnélával (Alpheus): a garnéla ás, a gébhal őrködik. Fajtársaival szemben territoriális."
@@ -91,6 +102,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Classic shrimp-goby; shares burrows with Alpheus pistol shrimp and warns it of danger.",
    "hu": "Klasszikus garnéla-gébhal; Alpheus pisztolygarnélával közös járatban él, és figyelmezteti a veszélyre."
@@ -156,6 +178,12 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful pair-living goby; constantly sifts sand through its gills and spits it out, sometimes covering corals.",
    "hu": "Békés, párosan élő gébhal; folyamatosan szűri át a homokot a kopoltyúin, és kifújja azt, néha ezzel borítva be a korallokat."
@@ -221,6 +249,12 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Sand-sifting goby; peaceful and lives in pairs in the wild. Constantly processes the sand bed.",
    "hu": "Homokszűrő gébhal; békés, a természetben párban él. Folyamatosan átdolgozza a homokágyat."
@@ -286,6 +320,11 @@
    "parasite-cleaner"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Set up cleaning stations and remove parasites from tankmates; completely peaceful. Captive-bred widely.",
    "hu": "Tisztogatóállomást tart fenn, és a társhalakról szedi le a parazitákat; teljesen békés. Széles körben tenyésztett."
@@ -351,6 +390,13 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "min_age_months": 12,
+   "jumper": true
+  },
   "behavior": {
    "en": "Mimics a crab with its eye-spots; lives in pairs and hovers over its burrow. Very shy.",
    "hu": "Szemfoltjaival rákot utánoz; párban él, és a járata fölött lebeg. Nagyon félénk."
@@ -416,6 +462,11 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful; hovers above the sand and takes mouthfuls of it to sift out food.",
    "hu": "Békés; a homok fölött lebeg, és csippentett homokból szűri ki a táplálékot."
@@ -481,6 +532,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful symbiotic watchman goby; shares its burrow with snapping shrimps (Alpheus). Stays near its burrow entrance, darting back at any threat.",
    "hu": "Békés szimbiotikus őrzőgéb; üregét rákhalakkal (Alpheus) közösen használja. A nyílás közelében tartózkodik, veszély esetén azonnal visszabújik."
@@ -546,6 +608,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful watchman goby living symbiotically with snapping shrimps; hovers near its shared burrow.",
    "hu": "Békés őrzőgéb, amely rákhalakkal közös üregben él; a nyílás közelében lebeg."
@@ -611,6 +684,11 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, hovering goby that constantly picks food from the substrate and water column; less shy than the watchman gobies.",
    "hu": "Békés, lebegő géb, amely folyamatosan keres táplálékot az aljzaton és a vízoszlopban; az őrzőgébeknél kevésbé félénk."
@@ -676,6 +754,11 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, hovering goby that grazes filamentous algae from rocks and the sand surface.",
    "hu": "Békés, lebegő géb, amely fonalas algát legel a kövekről és a homok felszínéről."
@@ -741,6 +824,12 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Small, peaceful hovering goby; grazes filamentous algae constantly. Can be shy without enough rock cover.",
    "hu": "Kis, békés, lebegő géb; folyamatosan fonalas algát legel. Kevés sziklabúvóhely mellett félénk lehet."
@@ -806,6 +895,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful watchman goby living in symbiosis with snapping shrimps; spends most of the day at its burrow entrance.",
    "hu": "Békés őrzőgéb, rákhalakkal szimbiózisban; a nap nagy részét az üregnyílásnál tölti."
@@ -864,6 +964,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, peaceful coral goby; perches directly on Acropora branches and defends a small coral territory.",
    "hu": "Apró, békés korallgéb; közvetlenül az Acropora ágakon ül, és egy kis korallterületet véd."
@@ -929,6 +1037,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, bright green coral goby; perches on Acropora branches and rarely strays far from its coral.",
    "hu": "Apró, élénkzöld korallgéb; Acropora ágakon üldögél, és ritkán távolodik el a koralljától."
@@ -994,6 +1110,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, cheerful yellow coral goby; perches on coral branches and hovers briefly between them.",
    "hu": "Apró, vidám sárga korallgéb; korallágakon ül, és rövid szakaszokon repked közöttük."
@@ -1059,6 +1183,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Small coral goby with five dark body lines; perches on branching corals.",
    "hu": "Kis korallgéb öt sötét testvonalal; elágazó korallokon üldögél."
@@ -1124,6 +1256,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "sps"
+   ],
+   "max_same": 2,
+   "jumper": true
+  },
   "behavior": {
    "en": "Small, robust coral goby; perches on Acropora and other branching corals.",
    "hu": "Kis, robusztus korallgéb; Acroporán és más elágazó korallokon üldögél."
@@ -1189,6 +1329,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Elegant white-and-orange watchman goby with long first dorsal rays; lives with snapping shrimps in a shared burrow.",
    "hu": "Elegans fehér-narancs őrzőgéb hosszú első hátúszó sugarakkal; rákhalakkal közös üregben él."
@@ -1254,6 +1405,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Popular white-and-brown watchman goby with black fin rays; classic partner of snapping shrimps.",
    "hu": "Népszerű fehér-barna őrzőgéb fekete úszósugarakkal; a rákhalak klasszikus partnere."
@@ -1319,6 +1481,17 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "shrimp-goby",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "White-bodied watchman goby with a yellow snout; lives symbiotically with snapping shrimps.",
    "hu": "Fehér testű őrzőgéb sárga orr-résszel; rákhalakkal szimbiózisban él."
@@ -1384,6 +1557,12 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Large sand-sifting watchman goby; constantly gulps sand to extract food, or hovers in pairs near the bottom.",
    "hu": "Nagy testű homokátforgató őrzőgéb; folyamatosan forgatja a homokot táplálék után, vagy párban lebeg az aljzat közelében."
@@ -1449,6 +1628,12 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "max_same": 2,
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Sand-sifting watchman goby with blue-spotted head; constantly processes the sand bed in search of food.",
    "hu": "Homokátforgató őrzőgéb kék pöttyös fejjel; folyamatosan átdolgozza a homokágyat táplálékot keresve."
@@ -1514,6 +1699,18 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "firefish",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Iconic firefish with a bright red-yellow body and an elongated first dorsal ray; hovers mid-water and dives into the rockwork when startled.",
    "hu": "Ikonszerű tűzgéb élénk vörös-sárga testtel és megnyúlt első hátúszósugárral; a víz közepén lebeg, és megriasztva a sziklázat közé vetődik."
@@ -1579,6 +1776,18 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "firefish",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Elegant purple-lilac firefish; hovers mid-water near its bolt-hole in the rockwork.",
    "hu": "Elegans lila-bíbor tűzgéb; a sziklázatban lévő búvólyuka közelében lebeg a víz közepén."
@@ -1644,6 +1853,18 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "firefish",
+     "ok_from_l": 300
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Small, stunning lilac-and-yellow firefish; hovers mid-water and retreats into tiny crevices.",
    "hu": "Kis, gyönyörű lila-sárga tűzgéb; a víz közepén lebeg, és apró résekbe húzódik vissza."
@@ -1710,6 +1931,12 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "group_min": 2,
+   "jumper": true
+  },
   "behavior": {
    "hu": "Békés torpedógéb; a felnőttek többnyire monogám párban, a fiatalok kis csoportokban élnek. A fenék fölött 1–2 m-rel lebegve táplálkozik, és veszély esetén elúszik, nem a járatába húzódik.",
    "en": "Peaceful dartfish; adults usually live in monogamous pairs, juveniles in small aggregations. Feeds while hovering 1–2 m above the bottom and swims away from danger rather than retreating into a burrow."
@@ -1776,6 +2003,12 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "group_min": 3,
+   "jumper": true
+  },
   "behavior": {
    "hu": "Apró, békés torpedógéb, amely kis csoportokban úszik korallok közelében, sekély, védett zátonyokon.",
    "en": "Tiny, peaceful dartfish swimming in small groups near corals on shallow, sheltered reefs."

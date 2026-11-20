@@ -27,6 +27,16 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "may_eat": [
+    "crabs"
+   ]
+  },
   "behavior": {
    "hu": "Nyugodt, éjszaka aktív ragadozó; nappal üregekben, peremek alatt pihen, a természetben néha kis csoportokban. Fajtársaival általában megfér, ha elég a hely.",
    "en": "Calm, nocturnal predator; rests in caves and under ledges by day, sometimes in small aggregations in the wild. Usually tolerates conspecifics if there is enough space."
@@ -93,6 +103,16 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "may_eat": [
+    "crabs"
+   ]
+  },
   "behavior": {
    "hu": "Éjszaka aktív ragadozó; nappal hasadékokban, kövek és korallok alatt rejtőzik, fejjel a búvóhely felé. Magányosan vagy csoportban, peremek és üregek alatt él.",
    "en": "Nocturnal predator; hides in crevices under rocks and coral by day, head towards the shelter. Lives alone or in groups under ledges and in holes."
@@ -159,6 +179,16 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "may_eat": [
+    "crabs"
+   ]
+  },
   "behavior": {
    "hu": "Éjszaka aktív ragadozó, amely nappal peremek alatt, keskeny hasadékokban és kis barlangokban pihen; a sziklás zátonyokat kedveli, a kőkorallokat kerüli.",
    "en": "Nocturnal predator that rests under ledges, in narrow crevices and small caves by day; prefers rocky reefs and seems to avoid stony corals."
@@ -225,6 +255,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Nagyra növő, éjszaka vadászó ragadozó; nappal gyakran fejjel lefelé, mozdulatlanul rejtőzik. A zsákmányt kitárt mellúszóival sarokba szorítja, majd egyben lenyeli.",
    "en": "Large, night-hunting predator; by day it often hides head-down and nearly motionless. It corners prey with its spread pectoral fins and swallows it whole."
@@ -291,6 +330,17 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "may_eat": [
+    "crabs"
+   ]
+  },
   "behavior": {
    "hu": "Lassú, lesből vadászó skorpióhal; álcázva mozdulatlanul vár a zsákmányra. Csak békés, lassú társakkal, vagy inkább egyedül tartható.",
    "en": "Slow, ambush-hunting scorpionfish that waits motionless and camouflaged for prey. Keep only with peaceful, slow tankmates, or preferably alone."
@@ -357,6 +407,17 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "may_eat": [
+    "crabs"
+   ]
+  },
   "behavior": {
    "hu": "Lassú, magányos, lesből vadászó skorpióhal, amely korallok, sziklák és algák között álcázza magát. Csak békés, lassú társakkal, vagy inkább egyedül tartható.",
    "en": "Slow, solitary ambush predator that camouflages itself among corals, rocks and weeds. Keep only with peaceful, slow tankmates, or preferably alone."
@@ -423,6 +484,14 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ]
+  },
   "behavior": {
    "hu": "Magányos, általában mozdulatlan kis skorpióhal; algák vagy tengerifű között ül, és oldalra hintázva lehulló levelet utánoz. A FishBase szerint havonta kétszer vedli a bőrét.",
    "en": "Solitary, usually motionless little scorpionfish that sits among algae or seagrass and sways from side to side to mimic a falling leaf. According to FishBase it moults its skin twice a month."

@@ -27,6 +27,17 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "crabs",
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "A murénák közül az egyik legbékésebb; magányos, éjjel aktív, nappal gyakran csak a feje látszik ki a búvóhelyéről. A FishBase szerint kisebb akváriumi halakkal is biztonságosan tartható.",
    "en": "One of the most peaceful morays; solitary and nocturnal, by day often only its head shows from its hiding place. According to FishBase it can be safely kept with small aquarium fish."
@@ -93,6 +104,17 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "crabs",
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Viszonylag békés muréna, amely zátonytetőkön, tiszta, sekély lagúnákban és külső zátonyokon él; nappal és éjjel is táplálkozik.",
    "en": "Relatively peaceful moray living on reef flats, in clear shallow lagoons and on seaward reefs; feeds both day and night."
@@ -159,6 +181,20 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "crabs",
+    "snails",
+    "bivalves",
+    "urchins"
+   ],
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Békés, lassú muréna; kis halakat általában nem bánt, mert tompa, őrlő fogaival főleg héjas zsákmányt eszik.",
    "en": "Peaceful, slow moray; usually ignores small fish because its blunt, crushing teeth are adapted to shelled prey."
@@ -225,6 +261,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Az indo-csendes-óceáni murénák közül az egyik legnagyobb; a nagy felnőttek a FishBase szerint agresszívek lehetnek. Gyakran tisztogató ajakoshalakkal vagy garnélákkal osztozik az üregén.",
    "en": "One of the two largest Indo-Pacific morays; according to FishBase large adults may be aggressive. Often shares its hole with cleaner wrasses or shrimp."
@@ -291,6 +336,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányos, nappal is aktív ragadozó, gyakran más ragadozókkal együtt vadászik. A FishBase szerint harapása nagyon veszélyes, és az emberrel szemben szokatlanul agresszív lehet.",
    "en": "Solitary predator that is also active by day, sometimes hunting alongside other predators. According to FishBase its bite is very dangerous and it can be unusually aggressive towards people."
@@ -357,6 +411,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Rejtőzködő muréna, amely homokba vagy törmelékbe ásva él, gyakran csak a feje látszik ki. Félénk, stresszre érzékeny.",
    "en": "Secretive moray that lives buried in sand or rubble, often with only its head showing. Shy and sensitive to stress."
@@ -423,6 +486,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányos muréna, amely zátonytetőkön és sziklás árapályzónában él; a FishBase szerint zsákmány után néha a vízből is kimászik.",
    "en": "Solitary moray living on reef flats and rocky intertidal shores; according to FishBase it sometimes leaves the water in pursuit of prey."
@@ -489,6 +561,12 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "group_min": 3,
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Békés, kolóniában élő angolna; a természetben akár több száz egyed él együtt homokos lejtőkön, mindegyik saját járatában, amelyből csak a teste elülső része emelkedik ki. Megközelítéskor visszahúzódik.",
    "en": "Peaceful colonial eel; in the wild up to several hundred individuals live together on sandy slopes, each in its own burrow with only the front of the body raised. Withdraws when approached."

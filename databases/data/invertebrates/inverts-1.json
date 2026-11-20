@@ -21,6 +21,13 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "en": "Nocturnal and secretive; generally peaceful but may attack small fish when large or underfed.",
    "hu": "Éjjel aktív és rejtőzködő; általában békés, de nagy méretben vagy aluletetve kis halakat támadhat."
@@ -74,6 +81,14 @@
    "algae-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
   "behavior": {
    "en": "Fast, flat crab that scuttles over rocks; becomes bolder and can catch small fish as it grows.",
    "hu": "Gyors, lapos rák, amely a köveken szalad; ahogy nő, egyre merészebb, és kis halakat is elkaphat."
@@ -127,6 +142,15 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "partners": [
+    "heteractis-magnifica",
+    "stichodactyla-mertensii",
+    "entacmaea-quadricolor",
+    "cryptodendrum-adhaesivum"
+   ]
+  },
   "behavior": {
    "en": "Lives on or near host anemones, waving filtering fans; peaceful pairs are possible.",
    "hu": "Anémonokon vagy azok közelében él, szűrő legyezőit lengeti; békés párok lehetségesek."
@@ -175,6 +199,10 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true
+  },
   "behavior": {
    "en": "Carries small anemones in its claws for defence; fascinating to watch. Peaceful.",
    "hu": "Kis anémonokat hordoz a csápjai közt védekezésül; lenyűgöző látvány. Békés."
@@ -224,6 +252,12 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
   "behavior": {
    "en": "Active algae and detritus grazer; may squabble over shells with other hermits.",
    "hu": "Aktív alga- és detrituszlegelő; más remeterákokkal összekaphat a házak miatt."
@@ -278,6 +312,12 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
   "behavior": {
    "en": "Small, gregarious clean-up crew crab; mostly peaceful but can kill snails for their shells if short of empties.",
    "hu": "Kis, csoportos takarítórák; többnyire békés, de ha nincs üres ház, csigákat ölhet értük."
@@ -332,6 +372,12 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
   "behavior": {
    "en": "Small algae grazer with striped legs; peaceful.",
    "hu": "Kis algaevő csíkos lábakkal; békés."
@@ -385,6 +431,9 @@
    "parasite-cleaner"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Sets up cleaning stations for fish; completely peaceful. Molts regularly and is hermaphroditic - pairs can breed.",
    "hu": "Tisztogatóállomást tart fenn a halaknak; teljesen békés. Rendszeresen vedlik és hermafrodita – párok szaporodhatnak."
@@ -438,6 +487,9 @@
    "parasite-cleaner"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Shyer than the skunk cleaner; also cleans fish. Mostly nocturnal in bright tanks.",
    "hu": "A tisztogató garnélánál félénkebb; ez is tisztogatja a halakat. Világos akváriumban inkább éjjel aktív."
@@ -491,6 +543,12 @@
    "aiptasia-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "anemones"
+   ]
+  },
   "behavior": {
    "en": "Nocturnal; the classic Aiptasia-control shrimp. Generally peaceful, may pick at LPS polyps occasionally.",
    "hu": "Éjjel aktív; a klasszikus Aiptasia-irtó garnéla. Általában békés, alkalmanként LPS polipokat piszkálhat."
@@ -544,6 +602,19 @@
    "parasite-cleaner"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "stenopus",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "en": "Large, territorial shrimp; pairs bond long-term. May catch small slow fish and bristleworms.",
    "hu": "Nagy, territoriális garnéla; a párok hosszú távon összekötődnek. Kis, lassú halakat és csillagférgeket is elkaphat."
@@ -597,6 +668,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "group_min": 3
+  },
   "behavior": {
    "en": "Nocturnal schooling shrimp; swarms out at feeding time. May bother LPS and soft corals.",
    "hu": "Éjjel aktív rajgarnéla; etetéskor rajban rajzik elő. Az LPS és lágy korallokat zavarhatja."
@@ -650,6 +730,15 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "partners": [
+    "entacmaea-quadricolor",
+    "heteractis-magnifica",
+    "stichodactyla-mertensii",
+    "macrodactyla-doreensis"
+   ]
+  },
   "behavior": {
    "en": "Tiny shrimp that 'dances' by wiggling its abdomen; lives on host anemones and mushrooms. Groups are hilarious.",
    "hu": "Apró garnéla, amely a potrohát riszálva 'táncol'; anémonokon és gombakorallokon él. Csoportban kifejezetten mulatságos."
@@ -703,6 +792,15 @@
    "detritus-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "shrimps"
+   ]
+  },
   "behavior": {
    "en": "Nocturnal predator of polyps; changes colour dramatically between day and night. Not for coral tanks.",
    "hu": "Éjjel aktív polipragadozó; a nappali és éjszakai színezete drámaian eltérő. Korallakváriumba nem való."
@@ -756,6 +854,9 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Excellent glass and rock algae grazer; can right itself when flipped (unlike astrea). Nocturnal but active by day too.",
    "hu": "Kiváló üveg- és kőalga-legelő; ha felfordul, magától visszafordul (az astrea-tól eltérően). Éjjel aktív, de nappal is mozog."
@@ -804,6 +905,9 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Heavy, ravenous algae grazer; bulldozes loose frags and can knock over small corals.",
    "hu": "Nehéz, falánk algaevő; a lazán rögzített fragokat eldöntheti, kis korallokat felboríthat."
@@ -857,6 +961,9 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Classic Caribbean algae snail; grazes day and night. Cannot right itself when flipped - predation risk on the sandbed.",
    "hu": "Klasszikus karibi algacsiga; nappal és éjjel legel. Felfordulva nem tud magától visszafordulni – a homokágyon a ragadozók elérhetik."
@@ -907,6 +1014,9 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "One of the few snails that cleans BOTH the sandbed surface and the rocks; burrows slightly. Nocturnal mostly.",
    "hu": "Az egyik kevés csiga, amely a homokágy felszínét ÉS a köveket is tisztítja; kicsit beássa magát. Főleg éjjel aktív."
@@ -961,6 +1071,9 @@
    "sand-sifter"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Buried in the sand until food hits the water - then swarms out within seconds. Detritus cleanup for sandbeds.",
    "hu": "A homokba ásva vár, míg táplálék kerül a vízbe – másodperceken belül előrajzik. A homokágy detritusz-takarítója."
@@ -1014,6 +1127,9 @@
    "algae-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Grazes algae down to the glass; excellent film algae control. Some species climb out of tanks.",
    "hu": "Az algát az üvegre is lelegeli; kiváló bevonatalga-kontroll. Egyes fajok kimásznak az akváriumból."
@@ -1069,6 +1185,9 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
   "behavior": {
    "en": "Spends the day ploughing through the sandbed eating detritus and algae; comical 'hopping' movement.",
    "hu": "A napját a homokágyon ásva tölti, detrituszt és algát eszik; mulatságos 'ugráló' mozgással."
@@ -1118,6 +1237,12 @@
    "pest-snail-control"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
   "behavior": {
    "en": "Attractive striped scavenger; eats leftover food and dead animals. Some individuals eat bristleworms and possibly small beneficial snails.",
    "hu": "Vonzó csíkozású dögevő; maradék táplálékot és elhullott állatokat fogyaszt. Egyes példányok csillagférgeket és esetleg kis hasznos csigákat is esznek."

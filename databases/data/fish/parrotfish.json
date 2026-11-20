@@ -27,6 +27,18 @@
    "algae-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps"
+   ],
+   "may_eat": [
+    "zoanthids",
+    "soft-corals"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Magányosan vagy kis csoportokban élő papagájhal; a természetben dagálykor a zátonytetőkre úszik algát legelni.",
    "en": "Parrotfish living alone or in small groups; in the wild it moves onto intertidal flats at high tide to graze on algae."
@@ -93,6 +105,18 @@
    "algae-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps"
+   ],
+   "may_eat": [
+    "zoanthids",
+    "soft-corals"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Papagájhal, amelynek kezdeti (nőstény) színfázisú példányai kis csapatokban táplálkoznak zátonytetőkön, lagúnákban és külső zátonyokon.",
    "en": "Parrotfish whose initial-phase (female) fish usually feed in small schools on reef flats, in lagoons and on seaward reefs."
@@ -159,6 +183,18 @@
    "algae-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps"
+   ],
+   "may_eat": [
+    "zoanthids",
+    "soft-corals"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Nagy termetű papagájhal; a fiatalok magányosak, a felnőttek gyakran háremben élnek. Szaporodáskor jól elkülönülő párokat alkot.",
    "en": "Large parrotfish; juveniles are solitary, adults often live in harems. Forms distinct pairs during breeding."

@@ -26,6 +26,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "en": "Relatively placid trigger; can be kept in small groups when young. Becomes bolder and nippier with age.",
    "hu": "Viszonylag szelíd íjhal; fiatalon kis csoportban is tartható. Korával merészebbé és csipkelősebbé válik."
@@ -91,6 +108,30 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "en": "Bold, aggressive and intelligent; rearranges rockwork and bites during tank maintenance.",
    "hu": "Merész, agresszív és intelligens; átrendezi a dekorációt, és a karbantartás alatt csíp."
@@ -157,6 +198,30 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Magányos, felnőttként rendkívül agresszív és területvédő íjhal; a társait, sőt a nála nagyobb halakat is megtámadhatja. A fiatalok rejtőzködők, kis üregekben élnek.",
    "en": "Solitary triggerfish that becomes extremely aggressive and territorial as an adult; it may attack tankmates, even larger ones. Juveniles are secretive and hide in small caves."
@@ -223,6 +288,30 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Erősen területvédő, agresszív íjhal; a természetben korallokban gazdag lagúnákban és külső zátonyokon él. Akváriumban egyedül tartandó, társait gyakran megöli.",
    "en": "Highly territorial, aggressive triggerfish living in coral-rich lagoons and seaward reefs. Keep it alone; it often kills tankmates."
@@ -289,6 +378,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "hu": "Az íjhalak közül viszonylag békés; a természetben a zátonytetők és lejtők peremén laza csoportokban vagy magányosan él, és gyakran a fenék fölött úszva planktont csipeget.",
    "en": "Relatively peaceful for a triggerfish; lives in loose aggregations or alone along reef crests and slopes, often swimming high above the bottom to feed on plankton."
@@ -355,6 +461,23 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "hu": "Az íjhalak közül viszonylag békés; a természetben áramlásos, korallokban gazdag zátonyokon, közepes mélységben, kis laza csoportokban él.",
    "en": "Relatively peaceful for a triggerfish; lives in small loose groups at moderate depths on current-exposed, coral-rich reefs."
@@ -421,6 +544,30 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Területvédő íjhal; a természetben a hullámveréses külső zátonyok sekély részén, csupasz sziklán és törmeléken él. Társaival szemben agresszív lehet.",
    "en": "Territorial triggerfish living on shallow, surge-swept outer reefs over bare rock and rubble. May be aggressive towards tankmates."
@@ -487,6 +634,30 @@
    "none"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "bivalves",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": null
+    }
+   ]
+  },
   "behavior": {
    "hu": "Félénk íjhal, amely a természetben algás-törmelékes részeken, laza csoportokban vagy magányosan él; zavarás esetén elúszik vagy üregbe bújik. Az íjhalak közül szelídebb, de a gerinctelenekre veszélyes.",
    "en": "Shy triggerfish living in loose aggregations or alone on rubble-algal flats; it swims away or dives into holes when disturbed. Milder than most triggerfish but dangerous to invertebrates."
@@ -553,6 +724,21 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "worms"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "hu": "Az íjhalak közül az egyik legbékésebb; a természetben áramlásos külső zátonyfalak peremén, 20 m-nél mélyebben, kis laza csoportokban táplálkozik a fenék fölött néhány méterrel.",
    "en": "One of the most peaceful triggerfish; feeds in small loose groups a few metres above the bottom along current-swept outer drop-offs, usually deeper than 20 m."
@@ -619,6 +805,21 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "worms"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "hu": "Viszonylag békés íjhal, amely a természetben külső zátonyok fölött, a falak mentén csapatban táplálkozik.",
    "en": "Relatively peaceful triggerfish that feeds in schools above seaward reefs along drop-offs."
@@ -685,6 +886,21 @@
    "plankton-feeder"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "worms"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "triggerfish",
+     "ok_from_l": 1000
+    }
+   ]
+  },
   "behavior": {
    "hu": "Viszonylag békés íjhal, amely a természetben magányosan vagy kis csoportokban, többnyire 30 m-nél mélyebb zátonylejtőkön él.",
    "en": "Relatively peaceful triggerfish living alone or in small groups, mostly on reef slopes deeper than 30 m."

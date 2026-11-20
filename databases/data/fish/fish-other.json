@@ -26,6 +26,18 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "worms",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "min_age_months": 6
+  },
   "behavior": {
    "en": "Wild-caught only; shy, stress-prone, and notoriously difficult to get feeding.",
    "hu": "Csak vadon fogott; félénk, stresszérzékeny, és hírhedten nehezen etethető."
@@ -94,6 +106,16 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "soft-corals",
+    "lps",
+    "anemones"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "A felnőttek általában magányosan, meredek külső zátonylejtők peremei alatt élnek, néha nagy csapatokban vonulnak; a fiatalok mangrovékban és védett belső zátonyokon, barlangokban és peremek alatt rejtőznek.",
    "en": "Adults are usually solitary under overhangs of steep outer reef slopes, sometimes travelling in large schools; juveniles shelter in caves and under ledges in mangroves and sheltered inner reefs."
@@ -162,6 +184,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs",
+    "worms"
+   ],
+   "may_eat": [
+    "snails"
+   ]
+  },
   "behavior": {
    "hu": "A fiatalok csapatban, a felnőttek többnyire magányosan élnek homokos, sziklás vagy törmelékes aljzaton; nappal aktív. Bajuszszálaival a homokot és a réseket kutatja.",
    "en": "Juveniles school, adults are usually solitary over sand, rock or rubble; active by day. Probes sand and crevices with its barbels."
@@ -228,6 +262,18 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish",
+    "snails"
+   ]
+  },
   "behavior": {
    "hu": "A felnőttek magányosak, nappal peremek és barlangok közelében pihennek; a fiatalok korallok között élnek, és jellegzetes, hullámzó úszással mozognak.",
    "en": "Adults are solitary and rest near and under ledges or caves by day; juveniles live among corals and move with a distinctive undulating swim."
@@ -295,6 +341,15 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "urchins",
+    "bivalves"
+   ],
+   "min_age_months": 6
+  },
   "behavior": {
    "hu": "Apró, békés tapadóhal, amely a természetben hosszú tüskéjű tengerisünök (Diadema) tüskéi vagy ágas korallok között él védett zátonyokon.",
    "en": "Tiny, peaceful clingfish that lives among the spines of long-spined sea urchins (Diadema) or branching corals on sheltered reefs."
@@ -361,6 +416,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "small-fish",
+    "shrimps",
+    "crabs"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Lassú, de falánk ragadozó sügér; nappal elhalt vagy iszapos zátonyrészeken, árapálymedencékben is előfordul. Minden halat és rákot megeszik, ami a szájába fér.",
    "en": "Slow but voracious predatory grouper; found in dead or silty reef areas and tide pools. Eats any fish or crustacean that fits in its mouth."
@@ -428,6 +492,15 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "shy": true,
+   "eats": [
+    "small-fish",
+    "shrimps"
+   ],
+   "max_same": 1
+  },
   "behavior": {
    "hu": "Félénk, éjszaka aktív hal, amely nappal peremek alatt és üregekben rejtőzik. Veszély esetén a fejét üregbe dugja, és farkát mutatja, amely a hátúszó szemfoltjával egy muréna fejét utánozza.",
    "en": "Shy, nocturnal fish that hides under ledges and in holes by day. When alarmed it pokes its head into a hole and exposes its tail end, which, with the dorsal-fin eyespot, mimics the head of a moray."

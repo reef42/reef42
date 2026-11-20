@@ -22,6 +22,9 @@
    "en": "Long stinging tentacles - keep 15+ cm from neighbours.",
    "hu": "Hosszú csípőcsápok – 15+ cm távolság a szomszédoktól."
   },
+  "compat": {
+   "neighbours": "sting"
+  },
   "feeding": {
    "en": "Photosynthetic; eagerly accepts meaty foods on tentacles.",
    "hu": "Fotoszintetizáló; mohón elfogadja a csápokra kínált húsos táplálékot."
@@ -74,6 +77,7 @@
    "en": "Peaceful; short sweepers.",
    "hu": "Békés; rövid csápok."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; very eager meaty target feeder.",
    "hu": "Fotoszintetizáló; nagyon mohón fogadja a húsos célzott etetést."
@@ -125,6 +129,9 @@
   "aggression": {
    "en": "EXTREMELY long sweeper tentacles (can reach 20+ cm) that sting hard.",
    "hu": "Rendkívül hosszú csápok (20+ cm-re is elérnek), amelyek erősen csípenek."
+  },
+  "compat": {
+   "neighbours": "sting"
   },
   "feeding": {
    "en": "Photosynthetic; occasional plankton feeding.",
@@ -178,6 +185,7 @@
    "en": "Low aggression.",
    "hu": "Alacsony agresszió."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; fine plankton occasionally.",
    "hu": "Fotoszintetizáló; alkalmanként finom plankton."
@@ -228,6 +236,7 @@
    "en": "Peaceful.",
    "hu": "Békés."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; loves meaty target feeding - can swallow whole krill.",
    "hu": "Fotoszintetizáló; kedveli a húsos célzott etetést – egész krillt is lenyelhet."
@@ -280,6 +289,9 @@
    "en": "Peaceful.",
    "hu": "Békés."
   },
+  "compat": {
+   "min_age_months": 6
+  },
   "feeding": {
    "en": "NON-photosynthetic: must be target-fed (mysis, brine, roe) 2-3x per week; polyps open at night or when trained.",
    "hu": "NEM fotoszintetizáló: célzottan kell etetni (mysis, sórák, ikra) heti 2-3-szor; a polipok éjjel nyílnak, vagy betanítva."
@@ -329,6 +341,9 @@
   "aggression": {
    "en": "Overgrows slow neighbours - chemical and shading warfare.",
    "hu": "Benövi a lassú szomszédokat – árnyékolással és kémiai úton versenyez."
+  },
+  "compat": {
+   "neighbours": "spreads"
   },
   "feeding": {
    "en": "Photosynthetic; absorbs dissolved organics; occasional phytoplankton.",
@@ -382,6 +397,9 @@
    "en": "Overgrows neighbours.",
    "hu": "Benövi a szomszédokat."
   },
+  "compat": {
+   "neighbours": "spreads"
+  },
   "feeding": {
    "en": "Photosynthetic; captures particulate food.",
    "hu": "Fotoszintetizáló; részecskés táplálékot fog."
@@ -431,6 +449,9 @@
   "aggression": {
    "en": "Peaceful but fast spreading.",
    "hu": "Békés, de gyorsan terül."
+  },
+  "compat": {
+   "neighbours": "spreads"
   },
   "feeding": {
    "en": "Photosynthetic plus particulate; readily catches floating food.",
@@ -482,6 +503,9 @@
    "en": "Peaceful; can overgrow slow corals.",
    "hu": "Békés; benőheti a lassú korallokat."
   },
+  "compat": {
+   "neighbours": "spreads"
+  },
   "feeding": {
    "en": "Photosynthetic; absorbs nutrients - no target feeding needed.",
    "hu": "Fotoszintetizáló; tápanyagot vesz fel – célzott etetés nem kell."
@@ -531,6 +555,9 @@
   "aggression": {
    "en": "Peaceful but can sting corals it touches.",
    "hu": "Békés, de a hozzáérő korallokat megcsípheti."
+  },
+  "compat": {
+   "neighbours": "spreads"
   },
   "feeding": {
    "en": "Photosynthetic; larger polyps take meaty scraps.",
@@ -582,6 +609,9 @@
    "en": "Peaceful.",
    "hu": "Békés."
   },
+  "compat": {
+   "neighbours": "spreads"
+  },
   "feeding": {
    "en": "Photosynthetic; fine foods occasionally.",
    "hu": "Fotoszintetizáló; alkalmanként finom táplálék."
@@ -631,6 +661,9 @@
   "aggression": {
    "en": "Chemical warfare: releases terpenes that slow stony corals - use carbon and provide space.",
    "hu": "Kémiai védelem: terpéneket bocsát ki, amelyek lassítják a kemény korallokat – használjunk szenet, és hagyjunk helyet."
+  },
+  "compat": {
+   "neighbours": "chemical"
   },
   "feeding": {
    "en": "Photosynthetic; no target feeding needed.",
@@ -682,6 +715,9 @@
    "en": "Chemical warfare against SPS; keep distance and run carbon.",
    "hu": "Kémiai hatás az SPS-rek; tartsuk távol és futtassunk szenet."
   },
+  "compat": {
+   "neighbours": "chemical"
+  },
   "feeding": {
    "en": "Photosynthetic.",
    "hu": "Fotoszintetizáló."
@@ -731,6 +767,9 @@
   "aggression": {
    "en": "Low chemical aggression.",
    "hu": "Alacsony kémiai agresszió."
+  },
+  "compat": {
+   "neighbours": "chemical"
   },
   "feeding": {
    "en": "Photosynthetic.",
@@ -782,6 +821,9 @@
    "en": "Overgrows everything in nutrient-rich tanks.",
    "hu": "Tápanyagban gazdag akváriumban mindent benő."
   },
+  "compat": {
+   "neighbours": "spreads"
+  },
   "feeding": {
    "en": "Photosynthetic; pulses aid nutrient uptake - no feeding needed.",
    "hu": "Fotoszintetizáló; a pulzálás segíti a tápanyagfelvételt – etetés nem kell."
@@ -832,6 +874,9 @@
    "en": "Encrusts over everything in its path.",
    "hu": "Mindent benő, ami az útjába kerül."
   },
+  "compat": {
+   "neighbours": "spreads"
+  },
   "feeding": {
    "en": "Photosynthetic.",
    "hu": "Fotoszintetizáló."
@@ -877,6 +922,7 @@
    "en": "Peaceful.",
    "hu": "Békés."
   },
+  "compat": {},
   "feeding": {
    "en": "Most need regular plankton feeding (phyto + zooplankton substitutes); some photosynthetic.",
    "hu": "A legtöbb rendszeres planktonetetést igényel (fito + zooplankton-helyettesítő); egyesek fotoszintetizálóak."
@@ -922,6 +968,7 @@
    "en": "None.",
    "hu": "Nincs."
   },
+  "compat": {},
   "feeding": {
    "en": "Consumes nitrate and phosphate - the main 'nutrient export' algae.",
    "hu": "Nitrátot és foszfátot fogyaszt – a fő 'tápanyagexport' alga."
@@ -971,6 +1018,9 @@
   "aggression": {
    "en": "None in refugium; can smother display corals if it escapes.",
    "hu": "Refugiumban nincs; ha kiszabadul, elnyomhatja a korallokat."
+  },
+  "compat": {
+   "neighbours": "spreads"
   },
   "feeding": {
    "en": "Consumes nitrate and phosphate.",
@@ -1022,6 +1072,7 @@
    "en": "None.",
    "hu": "Nincs."
   },
+  "compat": {},
   "feeding": {
    "en": "Consumes nitrate/phosphate; needs stable calcium and alkalinity.",
    "hu": "Nitrátot/foszfátot fogyaszt; stabil kalciumot és alkalitást igényel."

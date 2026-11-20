@@ -26,6 +26,10 @@
    "parasite-cleaner"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Sets up a cleaning station; peaceful with all fish. Should ideally be kept with fish that carry parasites.",
    "hu": "Tisztogatóállomást létesít; minden hallal békés. Ideálisan olyan halak közé valós, amelyek parazitákat hordoznak."
@@ -91,6 +95,20 @@
    "detritus-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms"
+   ],
+   "may_eat": [
+    "small-fish"
+   ],
+   "max_same": 1,
+   "jumper": true
+  },
   "behavior": {
    "en": "Fast, aggressive feeder; will outcompete shy fish. Eats small invertebrates, snails and shrimps.",
    "hu": "Gyors, agresszív evő; elnyomja a félénk halakat. Kis gerincteleneket, csigákat és garnélákat fogyaszt."
@@ -157,6 +175,14 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active hunter of small invertebrates; sleeps buried in the sand. Keep a deep sand bed with fine sand.",
    "hu": "Békés, aktívan vadászik kis gerinctelenekre; a homokba ásva alszik. Finom, mély homokágyat igényel."
@@ -222,6 +248,14 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, reef-safe hunter; buries in sand to sleep. Compatible with most community fish.",
    "hu": "Békés, korallbiztos vadász; alváshoz a homokba ássa magát. A legtöbb közösségi hallal kompatibilis."
@@ -287,6 +321,14 @@
    "detritus-eater"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful; similar habits to H. melanurus - buries in fine sand at night.",
    "hu": "Békés; a H. melanurushoz hasonló életmódú – éjszaka finom homokba ássa magát."
@@ -352,6 +394,20 @@
    "detritus-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "worms",
+    "bivalves"
+   ],
+   "max_same": 1,
+   "jumper": true
+  },
   "behavior": {
    "en": "Large, active hunter; juveniles are strikingly red with white saddles. Will eat most inverts including shrimp and crabs.",
    "hu": "Nagy, aktív vadász; a fiatalok feltűnő vörösek fehér foltokkal. A gerinctelenek többségét, garnélát és rákot is megeszi."
@@ -417,6 +473,23 @@
    "detritus-eater"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "worms"
+   ],
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "pseudocheilinus",
+     "ok_from_l": null
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Small but territorial; darts among rocks. May harass shy fish and eat small ornamental shrimps.",
    "hu": "Kicsi, de territoriális; a kövek közt cikázik. Félénk halakat zaklathat, kis díszgarnélákat megehet."
@@ -482,6 +555,19 @@
    "detritus-eater"
   ],
   "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "urchins",
+    "starfish",
+    "worms"
+   ],
+   "max_same": 1,
+   "jumper": true
+  },
   "behavior": {
    "en": "Famous for flipping rocks, rubble and corals while hunting; juveniles drift like seaweed. Very destructive in reef tanks.",
    "hu": "Arról híres, hogy vadászat közben köveket, törmeléket és korallokat forgat meg; a fiatalok hínárként sodródnak. Zátonyos akváriumban nagyon romboló."
@@ -547,6 +633,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Typical fairy wrasse: peaceful, active mid-water swimmer; males display to each other. One male with several females.",
    "hu": "Tipikus tündérsügér: békés, aktívan a víz középső rétegében úszik; a hímek egymásnak mutatkoznak. Egy hím és több nőstény."
@@ -612,6 +702,17 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "worms",
+    "snails",
+    "shrimps"
+   ],
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Semi-aggressive, active wrasse of the Anampses group; peaceful towards non-wrasse tankmates. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep.",
    "hu": "Félig agresszív, aktív Anampses-ajakoshal; a nem ajakoshal társakkal békés. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat."
@@ -677,6 +778,17 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "may_eat": [
+    "worms",
+    "snails",
+    "shrimps"
+   ],
+   "min_age_months": 6,
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful but shy; may be bullied by aggressive wrasses. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep.",
    "hu": "Békés, de visszahúzódó; agresszív ajakoshalak zaklathatják. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat."
@@ -742,6 +854,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -800,6 +916,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -865,6 +985,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -930,6 +1054,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -988,6 +1116,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1053,6 +1185,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1118,6 +1254,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1183,6 +1323,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1248,6 +1392,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1313,6 +1461,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1378,6 +1530,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
    "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1443,6 +1599,16 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
    "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1508,6 +1674,19 @@
    "pest-snail-control"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "snails",
+    "worms"
+   ],
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "small-fish"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
    "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1573,6 +1752,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
    "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1638,6 +1825,16 @@
    "none"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
    "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1703,6 +1900,14 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails",
+    "worms"
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
    "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1761,6 +1966,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
    "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1826,6 +2035,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
    "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1891,6 +2104,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
    "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -1956,6 +2173,10 @@
    "plankton-feeder"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "jumper": true
+  },
   "behavior": {
    "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
    "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -2014,6 +2235,23 @@
    "none"
   ],
   "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "worms"
+   ],
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "pseudocheilinus",
+     "ok_from_l": null
+    }
+   ],
+   "jumper": true
+  },
   "behavior": {
    "en": "Small, secretive but hardy wrasse that patrols rockwork crevices; peaceful towards most tankmates. Known jumper — a tightly fitted lid is essential.",
    "hu": "Kis termetű, rejtekhely-kedvelő, de ellenálló ajakoshal, amely a kőzetüregeket járja; a legtöbb társával békés. Ismert ugró — a jól záró fedő elengedhetetlen."
@@ -2080,6 +2318,19 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "crabs"
+   ],
+   "may_eat": [
+    "small-fish",
+    "snails"
+   ],
+   "max_same": 1,
+   "jumper": true
+  },
   "behavior": {
    "hu": "Aktív, magányos ajakoshal, amely korallokban gazdag lagúnákban és külső zátonyokon él. Kisebb, félénk halakkal agresszív lehet.",
    "en": "Active, solitary wrasse living in coral-rich lagoons and seaward reefs. Can be aggressive towards smaller, shy fish."
@@ -2146,6 +2397,19 @@
    "carnivore-predator"
   ],
   "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "eats": [
+    "shrimps",
+    "crabs"
+   ],
+   "may_eat": [
+    "small-fish",
+    "snails"
+   ],
+   "max_same": 1,
+   "jumper": true
+  },
   "behavior": {
    "hu": "Aktív, magányos ajakoshal, amely korallokban gazdag lagúnákban, külső zátonyokon és sziklás zátonyokon él. Kisebb, félénk halakkal agresszív lehet.",
    "en": "Active, solitary wrasse living in coral-rich lagoons, seaward reefs and rocky reefs. Can be aggressive towards smaller, shy fish."

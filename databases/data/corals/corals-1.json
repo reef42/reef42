@@ -22,6 +22,9 @@
    "en": "Not aggressive itself, but sensitive to stinging and chemical warfare from neighbours.",
    "hu": "Önmagában nem agresszív, de érzékeny a szomszédok csípéseire és kémiai hatásaira."
   },
+  "compat": {
+   "min_age_months": 12
+  },
   "feeding": {
    "en": "Primarily photosynthetic (Zooxanthellae); benefits from amino acids and fine plankton (REEF-roids type) feeding.",
    "hu": "Főként fotoszintetizáló (zooxanthellák); hasznos az aminosav- és finom planktonetetés."
@@ -74,6 +77,9 @@
   "aggression": {
    "en": "Peaceful; can be overgrown by or lose to more aggressive neighbours.",
    "hu": "Békés; agresszívabb szomszédok elnyomhatják vagy benőhetik."
+  },
+  "compat": {
+   "min_age_months": 6
   },
   "feeding": {
    "en": "Photosynthetic; benefits from fine plankton and amino acids.",
@@ -128,6 +134,9 @@
    "en": "Peaceful; polyps have weak sweepers.",
    "hu": "Békés; a polipok csípőcsápjai gyengék."
   },
+  "compat": {
+   "min_age_months": 6
+  },
   "feeding": {
    "en": "Photosynthetic; small plankton occasionally.",
    "hu": "Fotoszintetizáló; alkalmanként kis plankton."
@@ -179,6 +188,9 @@
   "aggression": {
    "en": "Peaceful.",
    "hu": "Békés."
+  },
+  "compat": {
+   "min_age_months": 6
   },
   "feeding": {
    "en": "Photosynthetic.",
@@ -232,6 +244,9 @@
    "en": "Peaceful; sweeper tentacles are short.",
    "hu": "Békés; a csápok rövidek."
   },
+  "compat": {
+   "min_age_months": 6
+  },
   "feeding": {
    "en": "Photosynthetic; opportunist plankton feeder.",
    "hu": "Fotoszintetizáló; opportunista planktonevő."
@@ -284,6 +299,7 @@
    "en": "Peaceful.",
    "hu": "Békés."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; tiny polyps can take ultra-fine plankton.",
    "hu": "Fotoszintetizáló; apró polipjai ultrafinom planktont is elfogadhatnak."
@@ -333,6 +349,9 @@
   "aggression": {
    "en": "Highly aggressive: long sweeper tentacles sting neighbours. Species within the genus tolerate each other.",
    "hu": "Erősen agresszív: hosszú csápjaival megcsípi a szomszédokat. A nemzetségen belüli fajok egymást tűrik."
+  },
+  "compat": {
+   "neighbours": "sting"
   },
   "feeding": {
    "en": "Photosynthetic; eagerly eats mysis and pellet offered to tentacles.",
@@ -386,6 +405,9 @@
    "en": "Extends sweeper tentacles at night - space accordingly.",
    "hu": "Éjszaka csápokat nyújt – ennek megfelelő hely kell."
   },
+  "compat": {
+   "neighbours": "sting"
+  },
   "feeding": {
    "en": "Photosynthetic; target-feed small meaty items to accelerate growth.",
    "hu": "Fotoszintetizáló; célzott kis húsos etetés gyorsítja a növekedést."
@@ -437,6 +459,9 @@
   "aggression": {
    "en": "Sweeper tentacles at night.",
    "hu": "Éjszakai csápnyújtás."
+  },
+  "compat": {
+   "neighbours": "sting"
   },
   "feeding": {
    "en": "Photosynthetic; enjoys target feeding.",
@@ -490,6 +515,7 @@
    "en": "Sweepers at night.",
    "hu": "Éjszakai csápok."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; target feeding helps.",
    "hu": "Fotoszintetizáló; a célzott etetés segít."
@@ -542,6 +568,7 @@
    "en": "Can extend modest sweepers.",
    "hu": "Mérsékelt csápokat nyújthat."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; occasional meaty target feeds.",
    "hu": "Fotoszintetizáló; alkalmanként húsos célzott etetés."
@@ -594,6 +621,7 @@
    "en": "Aggressive sweeper tentacles - give space.",
    "hu": "Agresszív csápok – helyet kell hagyni."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic and eager meaty feeder; big foods (krill, silverside pieces).",
    "hu": "Fotoszintetizáló és mohó húsevő; nagyobb táplálék (krill, kis halfajták)."
@@ -646,6 +674,7 @@
    "en": "Can extend sweepers towards neighbours.",
    "hu": "A szomszédok felé csápokat nyújthat."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; loves target feeding mysis/roe - polyps visibly fatten.",
    "hu": "Fotoszintetizáló; kedveli a célzott mysis/ikra etetést – a polipok láthatóan kövérednek."
@@ -693,6 +722,7 @@
    "en": "Peaceful; short or no sweepers.",
    "hu": "Békés; rövid vagy nincs csáp."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; target feed small meaty foods occasionally.",
    "hu": "Fotoszintetizáló; alkalmanként célzott kis húsos etetés."
@@ -744,6 +774,9 @@
   "aggression": {
    "en": "Moderate sweepers; keep away from neighbours.",
    "hu": "Mérsékelt csápok; tartsuk távol a szomszédoktól."
+  },
+  "compat": {
+   "min_age_months": 12
   },
   "feeding": {
    "en": "Photosynthetic; benefits strongly from regular phytoplankton and fine particle feeding.",
@@ -797,6 +830,9 @@
    "en": "Moderate sweepers.",
    "hu": "Mérsékelt csápok."
   },
+  "compat": {
+   "min_age_months": 12
+  },
   "feeding": {
    "en": "Photosynthetic; appreciates phytoplankton and fine foods.",
    "hu": "Fotoszintetizáló; kedveli a fitoplanktont és a finom táplálékot."
@@ -849,6 +885,7 @@
    "en": "Can move slightly and sting neighbours; can inflate to surprising size.",
    "hu": "Kicsit mozogni tud és megcsípheti a szomszédokat; meglepő méretre fújhatja fel magát."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; takes meaty foods placed on the disc.",
    "hu": "Fotoszintetizáló; a korongra tett húsos táplálékot elfogadja."
@@ -900,6 +937,9 @@
   "aggression": {
    "en": "Long stinging tentacles - keep other corals out of reach.",
    "hu": "Hosszú csípőcsápok – más korallokat tartsunk távol."
+  },
+  "compat": {
+   "neighbours": "sting"
   },
   "feeding": {
    "en": "Photosynthetic; meaty target feeding to tentacles.",
@@ -953,6 +993,7 @@
    "en": "Low; modest sweepers.",
    "hu": "Alacsony; mérsékelt csápok."
   },
+  "compat": {},
   "feeding": {
    "en": "Photosynthetic; accepts small meaty foods.",
    "hu": "Fotoszintetizáló; kis húsos táplálékot elfogad."
