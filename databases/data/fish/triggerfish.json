@@ -1,0 +1,726 @@
+[
+ {
+  "id": "odonus-niger",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Odonus niger",
+  "name_en": "Niger Trigger / Redtooth Triggerfish",
+  "name_hu": "Fekete íjhal",
+  "size_cm": {
+   "min": 25,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 15
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Relatively placid trigger; can be kept in small groups when young. Becomes bolder and nippier with age.",
+   "hu": "Viszonylag szelíd íjhal; fiatalon kis csoportban is tartható. Korával merészebbé és csipkelősebbé válik."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, krill, chopped seafood, hard-shelled inverts to wear down teeth.",
+   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús, kemény héjú gerinctelenek a fogak kopásztására."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "One of the more reef-tolerable triggers; still a risk to inverts and small fish. Only one per tank as adult.",
+   "hu": "A korallbarátabb íjhalak egyike; a gerinctelenekre és kis halakra még így is kockázatot jelent. Felnőttként akváriumonként egy példány."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219883"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Odonus-niger.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pez_ballesta_de_dientes_rojos_%28Odonus_niger%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_88.jpg/1280px-Pez_ballesta_de_dientes_rojos_%28Odonus_niger%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_ballesta_de_dientes_rojos_(Odonus_niger),_Anilao,_Filipinas,_2023-08-23,_DD_88.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "rhinecanthus-aculeatus",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Rhinecanthus aculeatus",
+  "name_en": "Picasso Triggerfish",
+  "name_hu": "Picasso íjhal",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 8,
+   "max": 15
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "en": "Bold, aggressive and intelligent; rearranges rockwork and bites during tank maintenance.",
+   "hu": "Merész, agresszív és intelligens; átrendezi a dekorációt, és a karbantartás alatt csíp."
+  },
+  "feeding": {
+   "en": "Carnivore: krill, chopped seafood, hard-shelled shrimp; powerful teeth need abrasive foods.",
+   "hu": "Húsevő: krill, apróra vágott tengeri hús, kemény héjú rákok; erős fogai koptató táplálékot igényelnek."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Hardy character fish for aggressive fish-only systems; not compatible with inverts or timid fish.",
+   "hu": "Ellenálló 'karakterhal' agresszív halas rendszerekhez; gerinctelenekkel és félénk halakkal nem kompatibilis."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219890"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinecanthus-aculeatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hawaiian_Triggerfish%2C_Rhinecanthus_aculeatus_%28Linnaeus_1758%29.jpg/1280px-Hawaiian_Triggerfish%2C_Rhinecanthus_aculeatus_%28Linnaeus_1758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hawaiian_Triggerfish,_Rhinecanthus_aculeatus_(Linnaeus_1758).jpg",
+   "author": "Crobe12",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "balistoides-conspicillum",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Balistoides conspicillum",
+  "name_en": "Clown Triggerfish",
+  "name_hu": "Bohóc íjhal",
+  "size_cm": {
+   "min": 30,
+   "max": 50
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1000,
+  "tank_ideal_l": 2000,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Magányos, felnőttként rendkívül agresszív és területvédő íjhal; a társait, sőt a nála nagyobb halakat is megtámadhatja. A fiatalok rejtőzködők, kis üregekben élnek.",
+   "en": "Solitary triggerfish that becomes extremely aggressive and territorial as an adult; it may attack tankmates, even larger ones. Juveniles are secretive and hide in small caves."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben tengerisünök, rákok és más rákfélék, puhatestűek és zsákállatok; akváriumban kagyló, garnéla, krill, tintahal, héjas eleség a fogak koptatására.",
+   "en": "Carnivore: sea urchins, crabs and other crustaceans, molluscs and tunicates in the wild; in the aquarium clams, shrimp, krill, squid and shelled food to wear down the teeth."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Észak-Ausztrálián át Szamoáig; északon Dél-Japánig. Tiszta vizű külső zátonyokon, meredek falak közelében.",
+   "en": "Indo-Pacific: East Africa through northern Australia to Samoa; north to southern Japan. Clear seaward reefs next to steep drop-offs."
+  },
+  "notes": {
+   "hu": "A fehér pöttyös hasú, sárga hálós hátú „bohóc” mintázat miatt népszerű, de a FishBase szerint 50 cm-re is megnő, ezért csak nagyon nagy, halas akváriumba való, felnőttként egyedül. A FishBase szerint elterjedési területe nagy részén nem gyakori vagy ritka.",
+   "en": "Popular for its white-spotted belly and yellow-netted back, but FishBase gives a maximum of 50 cm, so it belongs only in very large fish-only tanks, alone as an adult. According to FishBase it is uncommon to rare throughout most of its range."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219876"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Balistoides-conspicillum.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Balistoides_conspicillum_01.jpg/960px-Balistoides_conspicillum_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Balistoides_conspicillum_01.jpg",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "balistapus-undulatus",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Balistapus undulatus",
+  "name_en": "Orange-lined Triggerfish",
+  "name_hu": "Orange-lined Triggerfish",
+  "size_cm": {
+   "min": 25,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Erősen területvédő, agresszív íjhal; a természetben korallokban gazdag lagúnákban és külső zátonyokon él. Akváriumban egyedül tartandó, társait gyakran megöli.",
+   "en": "Highly territorial, aggressive triggerfish living in coral-rich lagoons and seaward reefs. Keep it alone; it often kills tankmates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben algák, tüskésbőrűek, halak, puhatestűek, zsákállatok, szivacsok és hidraállatok; akváriumban kagyló, garnéla, krill, tintahal, algás eleség.",
+   "en": "Omnivore: algae, echinoderms, fish, molluscs, tunicates, sponges and hydrozoans in the wild; in the aquarium clams, shrimp, krill, squid and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől délen a dél-afrikai Natalig, keleten a Line-, Marquises- és Tuamotu-szigetekig; északon Dél-Japánig, délen a Nagy-korallzátony déli részéig és Új-Kaledóniáig.",
+   "en": "Indo-Pacific: Red Sea south to Natal, South Africa, and east to the Line, Marquesan and Tuamotu islands; north to southern Japan, south to the southern Great Barrier Reef and New Caledonia."
+  },
+  "notes": {
+   "hu": "Az egyik legagresszívebb íjhal; zátonyakváriumba és vegyes közösségbe nem való. A Korallós Akváriumban csak latin néven szerepel, és nincs használt magyar neve, ezért az angol név áll itt.",
+   "en": "One of the most aggressive triggerfish; unsuitable for reef tanks and mixed communities. Listed only by its Latin name in the shop and with no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219874"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Balistapus-undulatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Pez_ballesta_ondulado_%28Balistapus_undulatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_22.jpg/960px-Pez_ballesta_ondulado_%28Balistapus_undulatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_ballesta_ondulado_(Balistapus_undulatus),_Anilao,_Filipinas,_2023-08-21,_DD_22.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "melichthys-niger",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Melichthys niger",
+  "name_en": "Black Triggerfish / Black Durgon",
+  "name_hu": "Pontozott íjhal",
+  "size_cm": {
+   "min": 30,
+   "max": 50
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1000,
+  "tank_ideal_l": 1800,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Az íjhalak közül viszonylag békés; a természetben a zátonytetők és lejtők peremén laza csoportokban vagy magányosan él, és gyakran a fenék fölött úszva planktont csipeget.",
+   "en": "Relatively peaceful for a triggerfish; lives in loose aggregations or alone along reef crests and slopes, often swimming high above the bottom to feed on plankton."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben főleg mészalgák és zooplankton, valamint fitoplankton; akváriumban algás eleség, nori, mysis, krill, garnéla.",
+   "en": "Omnivore: mainly calcareous algae and zooplankton, also phytoplankton in the wild; in the aquarium algae-based food, nori, mysis, krill and shrimp."
+  },
+  "origin": {
+   "hu": "Világszerte a trópusi tengerekben; a legtöbb helyen nem gyakori, de elszigetelt óceáni szigetek körül tömeges.",
+   "en": "Circumglobal in tropical seas; uncommon in most areas but abundant around isolated oceanic islands."
+  },
+  "notes": {
+   "hu": "Fekete test, a hát- és farok alatti úszók tövénél világoskék vonallal. A FishBase szerint 50 cm-re is megnő (a szokásos méret 30 cm körüli), ezért nagy akváriumot igényel. Kisebb rákokat és csigákat megehet.",
+   "en": "Black body with light-blue lines along the bases of the dorsal and anal fins. FishBase gives a maximum of 50 cm (commonly around 30 cm), so it needs a large tank. May eat small crustaceans and snails."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219881"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Melichthys-niger.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Melichthys_niger_-_Schwarzer_Dr%C3%BCckerfisch_167403510_%28cropped%29.jpg/960px-Melichthys_niger_-_Schwarzer_Dr%C3%BCckerfisch_167403510_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Melichthys_niger_-_Schwarzer_Drückerfisch_167403510_(cropped).jpg",
+   "author": "João D'Andretta",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "melichthys-vidua",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Melichthys vidua",
+  "name_en": "Pinktail Triggerfish",
+  "name_hu": "Rózsaszínfarkú íjhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Az íjhalak közül viszonylag békés; a természetben áramlásos, korallokban gazdag zátonyokon, közepes mélységben, kis laza csoportokban él.",
+   "en": "Relatively peaceful for a triggerfish; lives in small loose groups at moderate depths on current-exposed, coral-rich reefs."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben főleg algák és törmelék, emellett rákok, polipok, szivacsok és halak; akváriumban algás eleség, nori, mysis, krill, garnéla.",
+   "en": "Omnivore: mainly algae and detritus, plus crustaceans, octopus, sponges and fish in the wild; in the aquarium algae-based food, nori, mysis, krill and shrimp."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Észak-Ausztrálián át a Hawaii- és a Tuamotu-szigetekig; északon Dél-Japánig.",
+   "en": "Indo-Pacific: East Africa through northern Australia to the Hawaiian and Tuamotu islands; north to southern Japan."
+  },
+  "notes": {
+   "hu": "Sötétbarna test, fehér-rózsaszín farokúszó. Nagyobb halas akváriumba jó választás; a gerinctelenekre kockázatot jelent.",
+   "en": "Dark brown body with a white-and-pink tail. A good choice for larger fish-only tanks; a risk to invertebrates."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219879"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Melichthys-vidua.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pez_ballesta_de_aleta_rosada_%28Melichthys_vidua%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_55.jpg/960px-Pez_ballesta_de_aleta_rosada_%28Melichthys_vidua%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_55.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_ballesta_de_aleta_rosada_(Melichthys_vidua),_Anilao,_Filipinas,_2023-08-25,_DD_55.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "rhinecanthus-rectangulus",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Rhinecanthus rectangulus",
+  "name_en": "Wedgetail Triggerfish / Reef Triggerfish",
+  "name_hu": "Derékszögű íjhal",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Területvédő íjhal; a természetben a hullámveréses külső zátonyok sekély részén, csupasz sziklán és törmeléken él. Társaival szemben agresszív lehet.",
+   "en": "Territorial triggerfish living on shallow, surge-swept outer reefs over bare rock and rubble. May be aggressive towards tankmates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben algák, törmelék, puhatestűek, rákok, férgek, tüskésbőrűek, halak, szivacsok és ikra; akváriumban kagyló, garnéla, krill, tintahal, algás eleség.",
+   "en": "Omnivore: algae, detritus, molluscs, crustaceans, worms, echinoderms, fish, sponges and eggs in the wild; in the aquarium clams, shrimp, krill, squid and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Indonézián és Észak-Ausztrálián át Hawaiiig és a Pitcairn-szigetekig; északon Dél-Japánig.",
+   "en": "Indo-Pacific: Red Sea and East Africa through Indonesia and northern Australia to Hawai'i and the Pitcairn Islands; north to southern Japan."
+  },
+  "notes": {
+   "hu": "A farokszárán fekete ék alakú folt van. Hawaii állami hala. A Picasso íjhalhoz hasonlóan merész és kíváncsi, de valamivel kisebb.",
+   "en": "Has a black wedge-shaped mark on the caudal peduncle. The state fish of Hawai'i. Bold and curious like the Picasso triggerfish, but slightly smaller."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219886"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinecanthus-rectangulus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Wedgetail_triggerfish_%28Rhinecanthus_rectangulus%29_%2842586037405%29.jpg/960px-Wedgetail_triggerfish_%28Rhinecanthus_rectangulus%29_%2842586037405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Wedgetail_triggerfish_(Rhinecanthus_rectangulus)_(42586037405).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "rhinecanthus-verrucosus",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Rhinecanthus verrucosus",
+  "name_en": "Blackbelly Triggerfish / Blackpatch Triggerfish",
+  "name_hu": "Feketehasú íjhal",
+  "size_cm": {
+   "min": 18,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Félénk íjhal, amely a természetben algás-törmelékes részeken, laza csoportokban vagy magányosan él; zavarás esetén elúszik vagy üregbe bújik. Az íjhalak közül szelídebb, de a gerinctelenekre veszélyes.",
+   "en": "Shy triggerfish living in loose aggregations or alone on rubble-algal flats; it swims away or dives into holes when disturbed. Milder than most triggerfish but dangerous to invertebrates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: akváriumban kagyló, garnéla, krill, mysis, algás eleség.",
+   "en": "Omnivore: in the aquarium clams, shrimp, krill, mysis and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Seychelle- és a Csagosz-szigetektől Észak-Ausztrálián át Vanuatuig; északon Dél-Japánig. Lagúnákban és védett zátonytetőkön.",
+   "en": "Indo-West Pacific: Seychelles and Chagos Archipelago through northern Australia to Vanuatu; north to southern Japan. Lagoons and sheltered reef flats."
+  },
+  "notes": {
+   "hu": "A hasán nagy fekete folt látható. A FishBase szerinti maximális méret 23 cm, így a Rhinecanthus íjhalak közül a kisebbek közé tartozik.",
+   "en": "Has a large black patch on the belly. FishBase gives a maximum of 23 cm, making it one of the smaller Rhinecanthus species."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219888"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinecanthus-verrucosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Blackpatch_triggerfish_%28Rhinecanthus_verrucosus%29_%2842586038625%29.jpg/960px-Blackpatch_triggerfish_%28Rhinecanthus_verrucosus%29_%2842586038625%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blackpatch_triggerfish_(Rhinecanthus_verrucosus)_(42586038625).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "xanthichthys-auromarginatus",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Xanthichthys auromarginatus",
+  "name_en": "Gilded Triggerfish / Bluechin Triggerfish",
+  "name_hu": "Kékállú íjhal",
+  "size_cm": {
+   "min": 22,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Az íjhalak közül az egyik legbékésebb; a természetben áramlásos külső zátonyfalak peremén, 20 m-nél mélyebben, kis laza csoportokban táplálkozik a fenék fölött néhány méterrel.",
+   "en": "One of the most peaceful triggerfish; feeds in small loose groups a few metres above the bottom along current-swept outer drop-offs, usually deeper than 20 m."
+  },
+  "feeding": {
+   "hu": "Planktonevő: a természetben főleg evezőlábú rákok; akváriumban mysis, krill, sórák, pellet, naponta többször.",
+   "en": "Planktivore: mainly copepods in the wild; in the aquarium mysis, krill, brine shrimp and pellets several times a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Mauritiustól Észak-Ausztrálián át a Hawaii- és a Társaság-szigetekig; északon Dél-Japánig.",
+   "en": "Indo-Pacific: Mauritius through northern Australia to the Hawaiian and Society islands; north to southern Japan."
+  },
+  "notes": {
+   "hu": "A hímeknek kék az álluk, és sárga szegélyűek az úszóik. Planktonevő életmódja miatt az íjhalak közül ez illik leginkább zátonyakváriumba, de apró rákokat, garnélákat megehet.",
+   "en": "Males have a blue chin and yellow-edged fins. Its planktivorous lifestyle makes it the most reef-compatible kind of triggerfish, but it may eat small crustaceans and shrimp."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219897"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Xanthichthys-auromarginatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Xanthichthys_auromarginatus_472234043.jpg/960px-Xanthichthys_auromarginatus_472234043.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Xanthichthys_auromarginatus_472234043.jpg",
+   "author": "Justin Philbois",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "xanthichthys-mento",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Xanthichthys mento",
+  "name_en": "Redtail Triggerfish / Crosshatch Triggerfish",
+  "name_hu": "Keresztmintás íjhal",
+  "size_cm": {
+   "min": 22,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Viszonylag békés íjhal, amely a természetben külső zátonyok fölött, a falak mentén csapatban táplálkozik.",
+   "en": "Relatively peaceful triggerfish that feeds in schools above seaward reefs along drop-offs."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, krill, sórák, pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, krill, brine shrimp and pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Csendes-óceán, antitropikus elterjedéssel: Dél-Japán, a Hawaii-szigetek, a Clipperton- és a Revillagigedo-szigetek, Dél-Kalifornia, a Húsvét-sziget és a Pitcairn-szigetek; óceáni szigetek körül és kontinentális partok zátonyain.",
+   "en": "Pacific Ocean, antitropical: southern Japan, the Hawaiian Islands, Clipperton and Revillagigedo islands, southern California, Easter Island and the Pitcairn Islands; around oceanic islands and continental reefs."
+  },
+  "notes": {
+   "hu": "A hímek farka piros, a pikkelyeken finom keresztmintázat látható. A FishBase szerint a hímek ívási területet védenek, az ikrákat a nőstény gondozza, de mindkét szülő őrzi.",
+   "en": "Males have a red tail and fine crosshatching on the scales. According to FishBase males establish a spawning territory; only females tend the eggs, but both parents guard them."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276247"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Xanthichthys-mento.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Xanthichthys_mento_at_Waikiki_Aquarium-01.jpg/960px-Xanthichthys_mento_at_Waikiki_Aquarium-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Xanthichthys_mento_at_Waikiki_Aquarium-01.jpg",
+   "author": "Davidng913",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "xanthichthys-ringens",
+  "group": "fish",
+  "category": "triggerfish",
+  "scientific_name": "Xanthichthys ringens",
+  "name_en": "Sargassum Triggerfish",
+  "name_hu": "Aprópettyes íjhal",
+  "size_cm": {
+   "min": 20,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Viszonylag békés íjhal, amely a természetben magányosan vagy kis csoportokban, többnyire 30 m-nél mélyebb zátonylejtőkön él.",
+   "en": "Relatively peaceful triggerfish living alone or in small groups, mostly on reef slopes deeper than 30 m."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a FishBase szerint a természetben rákokat és tengerisünöket eszik; akváriumban mysis, krill, garnéla, pellet.",
+   "en": "Omnivore: according to FishBase it feeds on crabs and sea urchins in the wild; in the aquarium mysis, krill, shrimp and pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Dél-Karolinától (USA) a Mexikói-öblön át a Kis-Antillákig.",
+   "en": "Western Atlantic: from South Carolina (USA) through the Gulf of Mexico to the Lesser Antilles."
+  },
+  "notes": {
+   "hu": "Az egyetlen atlanti faj a körben. A fiatalok lebegő Sargassum-hínárban élnek. Rákokat és tengerisünöket eszik, ezért gerinctelenekkel csak óvatosan tartható.",
+   "en": "The only Atlantic species in this round. Juveniles live among floating Sargassum weed. It eats crabs and sea urchins, so keep it with invertebrates only with caution."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159486"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Xanthichthys-ringens.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sargassum_Triggerfish_%28Xanthichthys_ringens%29.jpg/960px-Sargassum_Triggerfish_%28Xanthichthys_ringens%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Sargassum_Triggerfish_(Xanthichthys_ringens).jpg",
+   "author": "Cliff",
+   "license": "CC BY 2.0"
+  }
+ }
+]

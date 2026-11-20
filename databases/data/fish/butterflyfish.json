@@ -3,7 +3,7 @@
   "id": "chaetodon-kleini",
   "group": "fish",
   "category": "butterflyfish",
-  "scientific_name": "Chaetodon kleini",
+  "scientific_name": "Chaetodon kleinii",
   "name_en": "Klein's Butterflyfish",
   "name_hu": "Klein-pillangóhal",
   "size_cm": {
@@ -39,8 +39,8 @@
    "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Hawaiig és Mikronéziáig."
   },
   "notes": {
-   "en": "A good starter butterflyfish; usually ignores corals but individual specimens may nip at soft corals and zoanthids.",
-   "hu": "Jó kezdő pillangóhal; általában nem bántja a korallokat, de egyes példányok a lágy korallokat és zoanthidákat csipkedhetik."
+   "en": "A good starter butterflyfish; usually ignores corals but individual specimens may nip at soft corals and zoanthids. The accepted spelling in WoRMS is Chaetodon kleinii (the older 'kleini' form is kept in the id).",
+   "hu": "Jó kezdő pillangóhal; általában nem bántja a korallokat, de egyes példányok a lágy korallokat és zoanthidákat csipkedhetik. A WoRMS szerint elfogadott írásmód: Chaetodon kleinii (a régebbi „kleini” alak az azonosítóban megmaradt)."
   },
   "diseases": [
    "marine-ich",
@@ -78,8 +78,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 9,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 5,
@@ -137,7 +137,7 @@
   "category": "butterflyfish",
   "scientific_name": "Chaetodon auriga",
   "name_en": "Threadfin Butterflyfish",
-  "name_hu": "Szálúszós pillangóhal",
+  "name_hu": "Fonálúszójú pillangóhal",
   "size_cm": {
    "min": 15,
    "max": 20
@@ -335,15 +335,15 @@
   "category": "butterflyfish",
   "scientific_name": "Forcipiger flavissimus",
   "name_en": "Longnose Butterflyfish",
-  "name_hu": "Hosszúorrú pillangóhal",
+  "name_hu": "Sárga csipeszhal",
   "size_cm": {
    "min": 15,
    "max": 22
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 18,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 4,
@@ -370,7 +370,7 @@
   },
   "notes": {
    "en": "Generally reef-compatible; may nip small tubeworms and zoanthids. Do not confuse with the rarer F. longirostris.",
-   "hu": "Általában zátonykompatibilis; kis csőférgeket és zoanthidákat csipkedhet. Ne keverjük a ritkább F. longirostrisszal."
+   "hu": "Általában zátonykompatibilis; kis csőférgeket és zoanthidákat csipkedhet. Ne keverjük a ritkább, hosszabb csőrű F. longirostrisszal (Hosszúcsipeszű hal)."
   },
   "diseases": [
    "marine-ich",
@@ -401,7 +401,7 @@
   "category": "butterflyfish",
   "scientific_name": "Heniochus acuminatus",
   "name_en": "Longfin Bannerfish / Schooling Bannerfish",
-  "name_hu": "Csíkos zászlóhal",
+  "name_hu": "Hosszú úszójú zászlóshal",
   "size_cm": {
    "min": 15,
    "max": 21
@@ -459,6 +459,608 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Heniochus_acuminatus,_jeune_individu.jpg",
    "author": "Philippe Bourjon",
    "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "chelmon-rostratus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chelmon rostratus",
+  "name_en": "Copperband Butterflyfish",
+  "name_hu": "Csipeszhal",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 10,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 350,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "aiptasia-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful but shy and slow feeder; can be bullied by aggressive fish. Best kept singly.",
+   "hu": "Békés, de félénk és lassú evő; agresszív halak zaklathatják. Egyedben tartva a legjobb."
+  },
+  "feeding": {
+   "en": "Carnivore: live and frozen brine, mysis, finely chopped clam/mussel; classic Aiptasia predator.",
+   "hu": "Húsevő: élő és fagyasztott sórák, mysis, finoman vágott kagyló; klasszikus Aiptasia-zabáló."
+  },
+  "origin": {
+   "en": "Western Pacific: Andaman Sea to Japan and Australia.",
+   "hu": "Nyugat-Csendes-óceán: Andamán-tengertől Japánig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Prized Aiptasia-eater; feeding response varies - buy specimens already eating. May nip tubeworms and clam mantles. Sold as 'Csipeszhal' in Hungarian shops.",
+   "hu": "Kedvelt Aiptasia-fogyasztó; az étvágy példányonként változik – csak már evő halat vásároljunk. Csőférgeket és kagylóköpenyt is csipkedhet. A boltokban „Csipeszhal” néven kapható (korábbi nevünk: rézsávos pillangóhal)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "brooklynella"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218758"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chelmon-rostratus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Artis_20180519_153302_-_Chelmon_rostratus.jpg/1280px-Artis_20180519_153302_-_Chelmon_rostratus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Artis_20180519_153302_-_Chelmon_rostratus.jpg",
+   "author": "Rudolphous",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chaetodon-vagabundus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon vagabundus",
+  "name_en": "Vagabond Butterflyfish",
+  "name_hu": "Vagabond pillangóhal",
+  "size_cm": {
+   "min": 18,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Párban élő, monogám pillangóhal; a természetben a pár közösen védi táplálkozóterületét más párokkal szemben, de más fajokkal általában nem agresszív.",
+   "en": "Monogamous butterflyfish that lives in pairs; in the wild the pair jointly defends a feeding territory against other pairs, but it is usually not aggressive towards other species."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben algák, korallpolipok, rákok és férgek; akváriumban mysis, sórák, kagylóhús, pellet, algás eleség.",
+   "en": "Omnivore: algae, coral polyps, crustaceans and worms in the wild; in the aquarium mysis, brine shrimp, clam meat, pellets and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Line- és a Tuamotu-szigetekig; északon Dél-Japánig, délen a Lord Howe- és az Ausztrál-szigetekig.",
+   "en": "Indo-Pacific: East Africa to the Line and Tuamotu islands; north to southern Japan, south to Lord Howe and the Austral islands."
+  },
+  "notes": {
+   "hu": "A FishBase szerint akváriumban könnyen tartható, a pillangóhalak közül az egyik legstrapabíróbb. Korallpolipokat is eszik, ezért zátonyakváriumba nem való. Közeli rokona a Chaetodon decussatus.",
+   "en": "According to FishBase it is easily maintained in aquaria and is one of the hardiest butterflyfish. It also eats coral polyps, so it is not suitable for reef tanks. Closely related to Chaetodon decussatus."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218754"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-vagabundus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Vagabond_butterflyfish_%28Chaetodon_vagabundus%29_-_49150549918.jpg/960px-Vagabond_butterflyfish_%28Chaetodon_vagabundus%29_-_49150549918.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Vagabond_butterflyfish_(Chaetodon_vagabundus)_-_49150549918.jpg",
+   "author": "krokodiver",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chaetodon-ephippium",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon ephippium",
+  "name_en": "Saddle Butterflyfish",
+  "name_hu": "Saddle Butterflyfish",
+  "size_cm": {
+   "min": 25,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "A felnőttek gyakran párban, a fiatalok magányosan élnek. Más pillangóhalakkal szemben területvédő lehet.",
+   "en": "Adults are often seen in pairs, juveniles alone. Can be territorial towards other butterflyfish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben fonalas algák, apró gerinctelenek, korallpolipok és halikra; akváriumban mysis, sórák, kagylóhús, pellet, algás eleség.",
+   "en": "Omnivore: filamentous algae, small invertebrates, coral polyps and fish eggs in the wild; in the aquarium mysis, brine shrimp, clam meat, pellets and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Srí Lankától és a Cocos (Keeling)-szigetektől a Hawaii-, Marquises- és Tuamotu-szigetekig; északon Dél-Japánig, délen a Rowley Shoalsig és Új-Dél-Walesig.",
+   "en": "Indo-Pacific: Sri Lanka and the Cocos-Keeling Islands to the Hawaiian, Marquesan and Tuamotu islands; north to southern Japan, south to Rowley Shoals and New South Wales."
+  },
+  "notes": {
+   "hu": "Sárga test nagy fekete, fehér szegélyű nyeregfolttal. A pillangóhalak közül nagyra nő (a FishBase szerint 30 cm), ezért nagy akváriumot igényel. Korallpolipokat is eszik. Nincs használt magyar neve, ezért az angol név szerepel.",
+   "en": "Yellow body with a large white-edged black saddle. One of the larger butterflyfish (30 cm according to FishBase), so it needs a big tank. It also eats coral polyps. It has no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273335"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-ephippium.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Chaetodon_ephippium_PLW_edit.jpg/960px-Chaetodon_ephippium_PLW_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chaetodon_ephippium_PLW_edit.jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chaetodon-rafflesii",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Chaetodon rafflesii",
+  "name_en": "Latticed Butterflyfish",
+  "name_hu": "Latticed Butterflyfish",
+  "size_cm": {
+   "min": 15,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Gyakran párban élő, békés pillangóhal; a természetben korallokban gazdag lagúnákban és zátonyokon él.",
+   "en": "Peaceful butterflyfish, often seen in pairs; lives in coral-rich lagoons and reefs in the wild."
+  },
+  "feeding": {
+   "hu": "A természetben tengeri rózsákat, soksertéjű férgeket, valamint lágy- és kőkorallok polipjait eszi. A FishBase szerint akváriumban algás köveken és ráhelyezett eleségpéppel bevont „etetőköveken” érdemes etetni; emellett mysis, kagylóhús.",
+   "en": "In the wild it eats sea anemones, polychaete worms and the polyps of soft and stony corals. According to FishBase, in captivity it should be fed algae-covered stones and 'feeding stones' coated with food paste; also mysis and clam meat."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Srí Lankától a Tuamotu-szigetekig; északon Dél-Japánig, délen a Nagy-korallzátonyig; Mikronéziában Palautól a Karolina-szigetek keleti részéig.",
+   "en": "Indo-Pacific: Sri Lanka to the Tuamotu Islands; north to southern Japan, south to the Great Barrier Reef; Palau to the eastern Caroline Islands in Micronesia."
+  },
+  "notes": {
+   "hu": "A Korallós Akváriumban „Chaetodon rafflesi” néven szerepel; a WoRMS szerint az érvényes írásmód rafflesii. Sárga test sötét hálós mintázattal. Korallokat és tengeri rózsákat eszik, ezért csak halas akváriumba való, és a beszoktatása nehéz. Nincs használt magyar neve, ezért az angol név szerepel.",
+   "en": "Listed as 'Chaetodon rafflesi' in the shop; the valid spelling in WoRMS is rafflesii. Yellow body with a dark lattice pattern. It eats corals and anemones, so it belongs in fish-only tanks, and it is hard to wean onto prepared food. It has no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273357"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chaetodon-rafflesii.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Laticed_butterflyfish_%28Chaetodon_rafflesii%29_%2849605301486%29.jpg/960px-Laticed_butterflyfish_%28Chaetodon_rafflesii%29_%2849605301486%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Laticed_butterflyfish_(Chaetodon_rafflesii)_(49605301486).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "hemitaurichthys-polylepis",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Hemitaurichthys polylepis",
+  "name_en": "Pyramid Butterflyfish",
+  "name_hu": "Piramis pillangóhal",
+  "size_cm": {
+   "min": 15,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, csapatban élő pillangóhal, amely a természetben áramlásos külső zátonylejtők fölött, a nyílt vízben nagy rajokban táplálkozik. Kisebb csoportban is tartható.",
+   "en": "Peaceful, shoaling butterflyfish that feeds in large schools in open water above current-swept outer reef slopes. Can be kept in a small group."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: a keleti Indiai-óceánban a Karácsony-szigettől Indonézián át a Hawaii-, Line- és Pitcairn-szigetekig; északon Dél-Japánig, délen a Rowley Shoalsig és Új-Kaledóniáig. Az Indiai-óceánban a Hemitaurichthys zoster helyettesíti.",
+   "en": "Pacific Ocean: Christmas Island in the eastern Indian Ocean to Indonesia and the Hawaiian, Line and Pitcairn islands; north to southern Japan, south to Rowley Shoals and New Caledonia. Replaced by Hemitaurichthys zoster in the Indian Ocean."
+  },
+  "notes": {
+   "hu": "Fehér test sárga háromszög alakú hátsó résszel és barna fejjel. Planktonevő, ezért a pillangóhalak közül az egyik legjobb választás zátonyakváriumba; nagy úszóteret és erős áramlást igényel.",
+   "en": "White body with a yellow triangular rear and a brown head. As a planktivore it is one of the best butterflyfish for reef tanks; needs plenty of swimming space and strong flow."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277575"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Hemitaurichthys-polylepis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Butterfly_Fish_off_Rabaul%2C_PNG.jpg/960px-Butterfly_Fish_off_Rabaul%2C_PNG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_Fish_off_Rabaul,_PNG.jpg",
+   "author": "Barry Peters`",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "forcipiger-longirostris",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Forcipiger longirostris",
+  "name_en": "Big Longnose Butterflyfish",
+  "name_hu": "Hosszúcsipeszű hal",
+  "size_cm": {
+   "min": 18,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés, általában párban élő, monogám pillangóhal. Más pillangóhalakkal szemben is ritkán agresszív.",
+   "en": "Peaceful, monogamous butterflyfish usually seen in pairs. Rarely aggressive even towards other butterflyfish."
+  },
+  "feeding": {
+   "hu": "Ragadozó jellegű mindenevő: a természetben főleg egész apró rákokat eszik; akváriumban mysis, sórák, apróra vágott garnéla és kagylóhús.",
+   "en": "Carnivorous omnivore: in the wild it mainly eats whole small crustaceans; in the aquarium mysis, brine shrimp, chopped shrimp and clam meat."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Hawaii-, Marquises- és Pitcairn-szigetekig; északon az Ogaszavara-szigetekig, délen Új-Kaledóniáig és az Ausztrál-szigetekig; egész Mikronéziában. Külső zátonyokon 60 m-nél mélyebben is.",
+   "en": "Indo-Pacific: East Africa to the Hawaiian, Marquesan and Pitcairn islands; north to the Ogasawara (Bonin) Islands, south to New Caledonia and the Austral Islands; throughout Micronesia. On seaward reefs to depths beyond 60 m."
+  },
+  "notes": {
+   "hu": "A Forcipiger flavissimusnál hosszabb, vékonyabb „csőrű” rokon faj; a kereskedelemben gyakran összekeverik a kettőt (a Tropus is egy terméknéven árulja őket). A FishBase szerint egyes példányok sárga helyett sötétbarnák. Kis csőférgeket és garnélákat megehet.",
+   "en": "Relative of Forcipiger flavissimus with a longer, thinner snout; the two are often confused in the trade (Tropus sells them under one product name). According to FishBase some individuals are dark brown instead of yellow. May eat small tubeworms and shrimp."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218759"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Forcipiger-longirostris.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Big_longnose_butterflyfish_%28Forcipiger_longirostris%29_%2828655665197%29.jpg/960px-Big_longnose_butterflyfish_%28Forcipiger_longirostris%29_%2828655665197%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Big_longnose_butterflyfish_(Forcipiger_longirostris)_(28655665197).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "heniochus-chrysostomus",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Heniochus chrysostomus",
+  "name_en": "Pennant Bannerfish / Threeband Pennantfish",
+  "name_hu": "Vitorlás zászlóshal",
+  "size_cm": {
+   "min": 15,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Békés zászlóshal; a fiatalok magányosak, gyakran torkolatokban és lagúnákban élnek, a felnőttek többnyire párban, korallokban gazdag zátonyokon.",
+   "en": "Peaceful bannerfish; juveniles are solitary and often found in estuaries and lagoons, adults usually in pairs on coral-rich reefs."
+  },
+  "feeding": {
+   "hu": "A természetben főleg korallpolipokat eszik; akváriumban mysis, sórák, kagylóhús, pellet, változatos fagyasztott eleség. A beszoktatása nehezebb, mint a többi zászlóshalé.",
+   "en": "Feeds mainly on coral polyps in the wild; in the aquarium mysis, brine shrimp, clam meat, pellets and varied frozen food. Harder to wean than other bannerfish."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Nyugat-Indiától a Pitcairn-szigetekig; északon Dél-Japánig, délen a Rowley Shoalsig, Dél-Queenslandig és Új-Kaledóniáig; egész Mikronéziában.",
+   "en": "Indo-Pacific: western India to the Pitcairn Islands; north to southern Japan, south to Rowley Shoals, southern Queensland and New Caledonia; throughout Micronesia."
+  },
+  "notes": {
+   "hu": "Három széles sötét sáv a fehér testen, rövidebb „zászlóval”. Korallpolipokat eszik, ezért zátonyakváriumba nem való.",
+   "en": "Three broad dark bands on a white body with a shorter 'pennant'. It eats coral polyps, so it is not suitable for reef tanks."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276748"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Heniochus-chrysostomus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Heniochus_chrysostomus.jpg/960px-Heniochus_chrysostomus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Heniochus_chrysostomus.jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "heniochus-diphreutes",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Heniochus diphreutes",
+  "name_en": "Schooling Bannerfish / False Moorish Idol",
+  "name_hu": "Iskolás zászlóshal",
+  "size_cm": {
+   "min": 15,
+   "max": 21
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés, csapatban élő zászlóshal; a felnőttek nagy rajokban úsznak a fenék fölött, külső zátonylejtők mentén és áramlásos csatornákban. Csoportban tartható. A fiatalok – és néha a felnőttek is – más halakat tisztogathatnak.",
+   "en": "Peaceful schooling bannerfish; adults swim in large schools well above the bottom along outer reef slopes and in current channels. Can be kept in a group. Juveniles – and sometimes adults – may clean other fish."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, krill, pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, krill and pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől Dél-Afrikáig, Réunion, Mauritius, a Seychelle- és a Maldív-szigetek; máshol Indonéziáig, Japánig, Ausztráliáig és Hawaiig; Óceánia nagy részéről hiányzik. Indonéziában a felnőttek 40–50 m mélyen a leggyakoribbak.",
+   "en": "Indo-Pacific: Red Sea to South Africa, Réunion, Mauritius, Seychelles and Maldives; elsewhere to Indonesia, Japan, Australia and Hawai'i; absent from much of Oceania. In Indonesia adults are most common at 40–50 m."
+  },
+  "notes": {
+   "hu": "A Heniochus acuminatushoz nagyon hasonló, de planktonevő, ezért a zászlóshalak közül ez a legjobb választás zátonyakváriumba; egyes példányok azért csipkedhetik a korallokat. Az etikus alternatívája a Mór bálványnak (Zanclus cornutus).",
+   "en": "Very similar to Heniochus acuminatus but a planktivore, making it the best bannerfish for reef tanks, though some individuals may still nip corals. The ethical alternative to the Moorish idol (Zanclus cornutus)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218763"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Heniochus-diphreutes.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Heniochus_diphreutes_305766262.jpg/960px-Heniochus_diphreutes_305766262.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Heniochus_diphreutes_305766262.jpg",
+   "author": "portioid",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "heniochus-intermedius",
+  "group": "fish",
+  "category": "butterflyfish",
+  "scientific_name": "Heniochus intermedius",
+  "name_en": "Red Sea Bannerfish",
+  "name_hu": "Vörös-tengeri zászlóshal",
+  "size_cm": {
+   "min": 15,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Monogám zászlóshal; a fiatalok nagy csoportokban élnek a zátony tövében (néha a H. diphreutesszel együtt), a felnőttek magányosan vagy párban, alkalmanként csoportban.",
+   "en": "Monogamous bannerfish; juveniles live in large groups at the base of the reef (sometimes with H. diphreutes), adults alone or in pairs, occasionally in groups."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben zooplankton és fenéklakó gerinctelenek; akváriumban mysis, sórák, kagylóhús, pellet.",
+   "en": "Omnivore: zooplankton and benthic invertebrates in the wild; in the aquarium mysis, brine shrimp, clam meat and pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: Vörös-tenger és Ádeni-öböl.",
+   "en": "Western Indian Ocean: Red Sea and Gulf of Aden."
+  },
+  "notes": {
+   "hu": "Sárga test két ferde fekete sávval, fehéres arccal és sárga farokkal. A Tropus „Vörös tengeri zászlóshal” néven árulja. Ülő gerincteleneket és korallpolipokat csipkedhet.",
+   "en": "Yellow body with two oblique black bands, a whitish face and a yellow tail. May nip sessile invertebrates and coral polyps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218767"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Heniochus-intermedius.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Pez_estandarte_del_mar_Rojo_%28Heniochus_intermedius%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_36.jpg/960px-Pez_estandarte_del_mar_Rojo_%28Heniochus_intermedius%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_estandarte_del_mar_Rojo_(Heniochus_intermedius),_mar_Rojo,_Egipto,_2023-04-15,_DD_36.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
   }
  }
 ]

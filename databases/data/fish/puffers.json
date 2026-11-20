@@ -1,0 +1,522 @@
+[
+ {
+  "id": "oxymonacanthus-longirostris",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Oxymonacanthus longirostris",
+  "name_en": "Harlequin Filefish",
+  "name_hu": "Arlekin bőrhal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 1,
+   "max": 5
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "expert",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful, obligate Acropora-polyp specialist; hovers among Acropora branches in pairs.",
+   "hu": "Békés, kizárólag Acropora-polipokon élő specialista; párban az Acropora ágai közt lebeg."
+  },
+  "feeding": {
+   "en": "Wild diet: almost exclusively Acropora polyps. Only viable in Acropora-rich tanks; frozen substitutes rarely work long-term.",
+   "hu": "Vad étrend: szinte kizárólag Acropora-polipok. Csak Acropora-ban gazdag akváriumban életképes; a fagyasztott helyettesítők ritkán működnek hosszú távon."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Japan, Australia and the Tuamotus.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig, Ausztráliáig és a Tuamotu-szigetekig."
+  },
+  "notes": {
+   "en": "Not for beginners; heavy mortality in shipping and acclimation. Listed as IUCN Vulnerable due to coral habitat loss.",
+   "hu": "Nem kezdőknek; szállításban és beszoktatásban jelentős veszteség. A korallélőhelyek csökkenése miatt IUCN: sebezhető."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220063"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Oxymonacanthus-longirostris.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/2_Oxymonacanthus_longirostris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:2_Oxymonacanthus_longirostris.jpg",
+   "author": "Paul Ehlen",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "acreichthys-tomentosus",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Acreichthys tomentosus",
+  "name_en": "Bristletail Filefish / Aiptasia-eating Filefish",
+  "name_hu": "Levélhal",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "aiptasia-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés, magányos bőrhal, amely a természetben sekély zátonyokon algás, törmelékes részeken és tengerifű-mezőkön él; mozdulatlanul lebegve levélnek álcázza magát.",
+   "en": "Peaceful, solitary filefish living over weed and rubble on shallow reefs and in seagrass beds; it camouflages itself as a leaf by hovering motionless."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben főleg felemáslábú rákok, soksertéjű férgek és puhatestűek; akváriumban mysis, sórák, apróra vágott tengeri hús. Az Aiptasia-rózsákat is megeszi.",
+   "en": "Carnivore: mainly amphipods, polychaete worms and molluscs in the wild; in the aquarium mysis, brine shrimp and chopped seafood. Also eats Aiptasia anemones."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Srí Lankától Indonézián át Új-Kaledóniáig; északon Dél-Japánig.",
+   "en": "Indo-West Pacific: Sri Lanka through Indonesia to New Caledonia; north to southern Japan."
+  },
+  "notes": {
+   "hu": "Az akvaristák elsősorban Aiptasia-irtásra veszik, változó sikerrel. Zoanthus- és más polipos korallokat, valamint óriáskagylók köpenyét csipkedheti. A FishBase szerinti maximális méret 14 cm standard hossz (SL); akváriumban jellemzően kisebb marad.",
+   "en": "Mainly bought for Aiptasia control, with variable success. May nip zoanthids and other polyp corals and the mantles of giant clams. FishBase gives a maximum of 14 cm standard length (SL); usually stays smaller in aquaria."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220054"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Acreichthys-tomentosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Acreichthys_tomentosus_2.JPG/960px-Acreichthys_tomentosus_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acreichthys_tomentosus_2.JPG",
+   "author": "Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "canthigaster-leoparda",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Canthigaster leoparda",
+  "name_en": "Leopard Sharpnose Puffer",
+  "name_hu": "Leopárd gömbhal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Magányosan vagy párban élő, félénk kis gömbhal, amely a természetben 30 m-nél mélyebben, meredek falak barlangjaiban él.",
+   "en": "Shy small puffer living alone or in pairs in caves along deep drop-offs, usually below 30 m."
+  },
+  "feeding": {
+   "hu": "Mindenevő: akváriumban mysis, garnéla, kagylóhús, héjas eleség a fogak koptatására, algás eleség.",
+   "en": "Omnivore: in the aquarium mysis, shrimp, clam meat, shelled food to wear down the teeth and algae-based food."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán (Karácsony-sziget) és Nyugat-Csendes-óceán (Fülöp-szigetek, Indonézia – Ambon, Guam). Az Indiai-óceánban Ambonig a Canthigaster tyleri helyettesíti.",
+   "en": "Eastern Indian Ocean (Christmas Island) to the Western Pacific (Philippines, Indonesia – Ambon, and Guam). Replaced by Canthigaster tyleri in the Indian Ocean east to Ambon."
+  },
+  "notes": {
+   "hu": "Ritka, mélyvízi faj; visszafogottabb fényt és sok búvóhelyet igényel. A FishBase szerinti maximális méret 7,5 cm standard hossz (SL). Mint minden gömbhal, tetrodotoxint tartalmaz. Apró rákokat, csigákat és korallpolipokat csipkedhet.",
+   "en": "A rare deep-water species; needs subdued light and plenty of hiding places. FishBase gives a maximum of 7.5 cm standard length (SL). Like all puffers it contains tetrodotoxin. May nip small crustaceans, snails and coral polyps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275258"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Canthigaster-leoparda.html"
+   }
+  ]
+ },
+ {
+  "id": "canthigaster-valentini",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Canthigaster valentini",
+  "name_en": "Valentin's Sharpnose Puffer / Saddled Toby",
+  "name_hu": "Valentin gömbhal",
+  "size_cm": {
+   "min": 8,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "A hímek területvédők és gyakran verekednek egymással; a természetben 10–100 egyedes vagy nagyobb csoportokban is előfordul. Más halakkal általában békés.",
+   "en": "Males are territorial and often fight each other; in the wild it may form shoals of 10–100 or more. Usually peaceful towards other fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben főleg fonalas zöld- és vörösalgák, zsákállatok, kisebb mennyiségben korallok, mohaállatok, soksertéjű férgek, tüskésbőrűek és puhatestűek; akváriumban mysis, garnéla, kagylóhús, héjas eleség, algás eleség.",
+   "en": "Omnivore: mainly filamentous green and red algae and tunicates, with smaller amounts of corals, bryozoans, polychaetes, echinoderms and molluscs in the wild; in the aquarium mysis, shrimp, clam meat, shelled food and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől délen a dél-afrikai Durbanig, keleten a Tuamotu-szigetekig; északon Dél-Japánig, délen a Lord Howe-szigetig.",
+   "en": "Indo-Pacific: Red Sea south to Durban, South Africa, and east to the Tuamotu Islands; north to southern Japan, south to Lord Howe Island."
+  },
+  "notes": {
+   "hu": "A Tropus „Valentini íjhal” néven árulja, de nem íjhal, hanem gömbhal. Mérgező (tetrodotoxin), ezért a Paraluteres prionurus bőrhal az ő mintázatát utánozza. Korallpolipokat, csigákat és apró rákokat csipkedhet.",
+   "en": "Sold by Tropus as a 'triggerfish' (íjhal), but it is a puffer. It is toxic (tetrodotoxin), and the filefish Paraluteres prionurus mimics its pattern. May nip coral polyps, snails and small crustaceans."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219947"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Canthigaster-valentini.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Pez_globo_de_Valentini_%28Canthigaster_valentini%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_96.jpg/960px-Pez_globo_de_Valentini_%28Canthigaster_valentini%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_globo_de_Valentini_(Canthigaster_valentini),_Anilao,_Filipinas,_2023-08-24,_DD_96.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "arothron-nigropunctatus",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Arothron nigropunctatus",
+  "name_en": "Blackspotted Puffer / Dog-faced Puffer",
+  "name_hu": "Foltos gömbhal",
+  "size_cm": {
+   "min": 25,
+   "max": 33
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Lassú, kíváncsi gömbhal; a felnőttek gyakran párban, néha magányosan élnek. Más halakkal általában békés, de az uszonyos, lassú halakat csipkedheti.",
+   "en": "Slow, curious puffer; adults are often seen in pairs, sometimes alone. Generally peaceful towards other fish but may nip slow-moving, long-finned tankmates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben korallok (főleg Acropora-ágvégek), rákok, puhatestűek, szivacsok, zsákállatok és algák; akváriumban kagyló héjastul, garnéla, krill, tintahal.",
+   "en": "Omnivore: corals (usually Acropora tips), crustaceans, molluscs, sponges, tunicates and algae in the wild; in the aquarium clams in the shell, shrimp, krill and squid."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Mikronéziáig és Szamoáig; északon Dél-Japánig, délen Új-Dél-Walesig. A Vörös-tengerben az Arothron diadematus helyettesíti.",
+   "en": "Indo-Pacific: East Africa to Micronesia and Samoa; north to southern Japan, south to New South Wales. Replaced by Arothron diadematus in the Red Sea."
+  },
+  "notes": {
+   "hu": "Színe szürkétől sárgáig változhat, mindig fekete foltokkal. Kőkorallokat (Acropora) eszik, ezért zátonyakváriumba nem való. Héjas eleség kell a folyamatosan növő fogai koptatásához. Tetrodotoxint tartalmaz.",
+   "en": "Colour ranges from grey to yellow, always with black spots. It eats stony corals (Acropora), so it is not reef-safe. Needs shelled food to wear down its continuously growing teeth. Contains tetrodotoxin."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219921"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Arothron-nigropunctatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Botete_cara_de_perro_%28Arothron_nigropunctatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_53.jpg/960px-Botete_cara_de_perro_%28Arothron_nigropunctatus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_53.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Botete_cara_de_perro_(Arothron_nigropunctatus),_Anilao,_Filipinas,_2023-08-25,_DD_53.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "lactoria-cornuta",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Lactoria cornuta",
+  "name_en": "Longhorn Cowfish",
+  "name_hu": "Tehénhal",
+  "size_cm": {
+   "min": 30,
+   "max": 46
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Lassú, félénk dobozhal; a felnőttek magányosak, a fiatalok gyakran kis csoportokban élnek. Gyors, agresszív társak mellett nem jut eleséghez.",
+   "en": "Slow, shy boxfish; adults are solitary, juveniles often form small groups. Cannot compete for food with fast, aggressive tankmates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben fenéklakó gerincteleneket eszik, amelyeket a homok elfújásával tár fel; akváriumban mysis, garnéla, kagylóhús, algás eleség.",
+   "en": "Omnivore: feeds on benthic invertebrates that it uncovers by blowing away sand; in the aquarium mysis, shrimp, clam meat and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Marquises- és a Tuamotu-szigetekig; északon Dél-Japánig, délen a Lord Howe-szigetig. Csendes öblök iszapos-homokos részein, kikötőkben és torkolatokban; a fiatalok brakkvízben is.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Marquesan and Tuamotu islands; north to southern Japan, south to Lord Howe Island. Muddy or sandy areas of calm bays, harbours and estuaries; juveniles also in brackish water."
+  },
+  "notes": {
+   "hu": "A homlokán két hosszú „szarv” van. A FishBase szerint 46 cm-re is megnő. Stressz vagy pusztulás esetén mérgező anyagot (osztracitoxint) bocsáthat ki, amely az egész akvárium halállományát megölheti; ezért nagy, stabil, halas akváriumba való, jó fölözővel és aktív szénnel.",
+   "en": "Has two long 'horns' on the forehead. FishBase gives a maximum of 46 cm. When stressed or dying it may release a toxin (ostracitoxin) that can kill every fish in the tank, so it belongs in a large, stable fish-only system with a good skimmer and activated carbon."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219904"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Lactoria-cornuta.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Lactoria_cornuta.004_-_Aquarium_Finisterrae.JPG/960px-Lactoria_cornuta.004_-_Aquarium_Finisterrae.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lactoria_cornuta.004_-_Aquarium_Finisterrae.JPG",
+   "author": "Fernando Losada Rodríguez",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ostracion-cubicum",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Ostracion cubicum",
+  "name_en": "Yellow Boxfish",
+  "name_hu": "Dobozhal",
+  "size_cm": {
+   "min": 30,
+   "max": 45
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Magányos, lassú dobozhal; a fiatalok szűk hasadékokban rejtőzködnek, gyakran Acropora-korallok között. Gyors, agresszív társak mellett nem jut eleséghez.",
+   "en": "Solitary, slow boxfish; small juveniles hide in narrow crevices, often among Acropora corals. Cannot compete for food with fast, aggressive tankmates."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben főleg algák, emellett mikroorganizmusok, gerinctelenek, puhatestűek, szivacsok, homoklakó férgek, rákok, likacsosházúak és halak; akváriumban algás eleség, nori, mysis, garnéla, kagylóhús.",
+   "en": "Omnivore: mainly algae, plus micro-organisms, invertebrates, molluscs, sponges, sand-dwelling polychaetes, crustaceans, foraminiferans and fish in the wild; in the aquarium algae-based food, nori, mysis, shrimp and clam meat."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Perzsa-öböltől, a Vörös-tengertől és Kelet-Afrikától a Hawaii- és a Tuamotu-szigetekig; északon a Rjúkjú-szigetekig, délen a Lord Howe-szigetig.",
+   "en": "Indo-Pacific: Persian Gulf, Red Sea and East Africa to the Hawaiian and Tuamotu islands; north to the Ryukyu Islands, south to Lord Howe Island."
+  },
+  "notes": {
+   "hu": "A boltokban „Ostracion cubicus” néven szerepel; a WoRMS szerint az elfogadott írásmód cubicum. A fiatalok élénksárgák fekete pöttyökkel; felnőttként tompább színű, és a FishBase szerint 45 cm-re nő. Stressz vagy pusztulás esetén osztracitoxint bocsáthat ki, amely az akvárium többi halát is megölheti.",
+   "en": "Sold as 'Ostracion cubicus'; the accepted spelling in WoRMS is cubicum. Juveniles are bright yellow with black spots; adults are duller and reach 45 cm according to FishBase. When stressed or dying it may release ostracitoxin, which can kill the other fish in the tank."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=403462"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ostracion-cubicus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ostracion_cubicus_%28juvenile%29.jpg/960px-Ostracion_cubicus_%28juvenile%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ostracion_cubicus_(juvenile).jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "canthigaster-janthinoptera",
+  "group": "fish",
+  "category": "puffers",
+  "scientific_name": "Canthigaster janthinoptera",
+  "name_en": "Honeycomb Toby / Spotted Sharpnose Puffer",
+  "name_hu": "Honeycomb Toby",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Magányosan vagy párban élő, félénk kis gömbhal; a természetben elhalt és élő korallok üregeiben, szivacsok közelében rejtőzik. Más halakkal általában békés.",
+   "en": "Shy little puffer living alone or in pairs; it hides in holes in dead and living corals near sponges. Usually peaceful towards other fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben szivacsok, soksertéjű férgek, fonalas algák, kisebb mennyiségben zsákállatok, rákok, tüskésbőrűek és korallok; akváriumban mysis, garnéla, kagylóhús, héjas eleség, algás eleség.",
+   "en": "Omnivore: sponges, polychaetes and filamentous algae, plus smaller amounts of tunicates, crustaceans, echinoderms and corals in the wild; in the aquarium mysis, shrimp, clam meat, shelled food and algae-based food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától délen a dél-afrikai Transkeiig, keleten a Line-, Marquises- és Oeno-szigetekig; északon Dél-Japánig, délen a Lord Howe-szigetig. Hawaiin a Canthigaster jactator helyettesíti.",
+   "en": "Indo-Pacific: East Africa south to Transkei, South Africa, and east to the Line, Marquesan and Oeno islands; north to southern Japan, south to Lord Howe Island. Replaced by Canthigaster jactator in Hawai'i."
+  },
+  "notes": {
+   "hu": "Barna test sűrű fehér pöttyökkel. A Korallós Akváriumban kapható; nincs használt magyar neve, ezért az angol név szerepel. Tetrodotoxint tartalmaz. Korallpolipokat, csigákat és apró rákokat csipkedhet.",
+   "en": "Brown body densely covered in white spots. Available at Korallós Akvárium; it has no established Hungarian name, so the English name is used. Contains tetrodotoxin. May nip coral polyps, snails and small crustaceans."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219940"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Canthigaster-janthinoptera.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Pez_globo_%28Canthigaster_janthinoptera%29%2C_Mauricio%2C_2025-09-24%2C_DD_31.jpg/960px-Pez_globo_%28Canthigaster_janthinoptera%29%2C_Mauricio%2C_2025-09-24%2C_DD_31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_globo_(Canthigaster_janthinoptera),_Mauricio,_2025-09-24,_DD_31.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

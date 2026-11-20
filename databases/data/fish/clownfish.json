@@ -142,8 +142,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 11,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 10,
@@ -272,8 +272,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 5,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 10,
@@ -559,8 +559,8 @@
    "hu": "Indo-Nyugat-Csendes-óceán: Indonézia és Új-Guineától Észak-Ausztráliáig és a Fülöp-szigetekig."
   },
   "notes": {
-   "en": "Premnas (type genus) hosts bubble-tip anemones; gold-stripe variants exist. Only one per tank; handle with care.",
-   "hu": "A Premnas nemzetség fáklyásanémonokban él; létezik arany csíkú változata. Akváriumonként egy példány; óvatosan kezelendő."
+   "en": "Premnas (type genus) hosts bubble-tip anemones; gold-stripe variants exist. Only one per tank; handle with care. In WoRMS the valid name is Amphiprion biaculeatus; the trade still uses the old name Premnas biaculeatus.",
+   "hu": "A Premnas nemzetség fáklyásanémonokban él; létezik arany csíkú változata. Akváriumonként egy példány; óvatosan kezelendő. A WoRMS szerint az érvényes név Amphiprion biaculeatus; a kereskedelemben a régi Premnas biaculeatus név használatos."
   },
   "diseases": [
    "marine-ich",

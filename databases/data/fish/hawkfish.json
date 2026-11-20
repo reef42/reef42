@@ -1,0 +1,396 @@
+[
+ {
+  "id": "paracirrhites-arcatus",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Paracirrhites arcatus",
+  "name_en": "Arc-eye Hawkfish",
+  "name_hu": "Ívfoltos sólyomhal",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Perches on rocks and corals; bold and curious. Will eat small shrimps and tiny fish.",
+   "hu": "Kövekre és korallokra ül; merész és kíváncsi. Kis garnélákat és apró halakat megesz."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, krill, chopped seafood.",
+   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to Hawai'i, north to Japan, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Hardy and characterful; safe with corals but not with small ornamental shrimps.",
+   "hu": "Ellenálló és egyéniségű; a korallokkal biztonságos, de a kis díszgarnélákkal nem."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218866"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracirrhites-arcatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Arc-eye_Hawkfish_%28Paracirrhites_arcatus%29_%286972950838%29.jpg/1280px-Arc-eye_Hawkfish_%28Paracirrhites_arcatus%29_%286972950838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Arc-eye_Hawkfish_(Paracirrhites_arcatus)_(6972950838).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "cirrhitichthys-falco",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Cirrhitichthys falco",
+  "name_en": "Falco Hawkfish",
+  "name_hu": "Falco sólyomhal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Small nano hawkfish; perches on rockwork. Semi-aggressive towards similar-sized fish.",
+   "hu": "Kis nano korallcsősz; a szikladekoráción ül. Hasonló méretű halakkal szemben félig agresszív."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets.",
+   "hu": "Húsevő: mysis, sórák, kis pellet."
+  },
+  "origin": {
+   "en": "Western Pacific: Japan to the Philippines and New Guinea, east to Samoa.",
+   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigetekig és Új-Guineáig, keleten Szamoáig."
+  },
+  "notes": {
+   "en": "Popular nano hawkfish; will eat small shrimps and may bully tiny fish.",
+   "hu": "Népszerű nano korallcsősz; kis garnélákat eszik, apró halakat zaklathat."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218854"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhitichthys-falco.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cirrhitichthys_falco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhitichthys_falco.jpg",
+   "author": "Richard Ling",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "oxycirrhites-typus",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Oxycirrhites typus",
+  "name_en": "Longnose Hawkfish",
+  "name_hu": "Hosszúcsőrű korallcsősz",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Monogám, erősen területvédő korallcsősz, amely a természetben áramlásos, meredek külső zátonyfalakon nagy gorgóniákon és feketekorallokon ül. Más halakkal általában békés.",
+   "en": "Monogamous, strongly territorial hawkfish that perches in large gorgonians and black corals on steep, current-exposed outer reef slopes. Usually peaceful towards other fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben apró fenéklakó és planktonikus rákok; akváriumban mysis, sórák, apró krill.",
+   "en": "Carnivore: small benthic and planktonic crustaceans in the wild; in the aquarium mysis, brine shrimp and small krill."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől és Dél-Afrikától a Hawaii-szigetekig; északon Dél-Japánig, délen Új-Kaledóniáig. Kelet-Csendes-óceán: a Kaliforniai-öböltől Észak-Kolumbiáig és a Galápagos-szigetekig.",
+   "en": "Indo-West Pacific: Red Sea and South Africa to the Hawaiian Islands; north to southern Japan, south to New Caledonia. Eastern Pacific: Gulf of California to northern Colombia and the Galápagos Islands."
+  },
+  "notes": {
+   "hu": "Piros-fehér kockás mintázat, hosszú, csőrszerű orr. A FishBase szerint 25 m alatt gyakori. Apró garnélákat megehet; szereti a magas ülőhelyeket (gorgóniák, sziklák teteje). Az akváriumból kiugorhat, ezért fedett akvárium ajánlott.",
+   "en": "Red-and-white checkered pattern with a long, beak-like snout. According to FishBase it is common below 25 m. May eat tiny shrimp; likes high perches such as gorgonians and rock tops. It can jump, so a covered tank is recommended."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218865"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Oxycirrhites-typus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Oxycirrhites_typus_Kyoto.jpg/960px-Oxycirrhites_typus_Kyoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Oxycirrhites_typus_Kyoto.jpg",
+   "author": "Totti",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "paracirrhites-forsteri",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Paracirrhites forsteri",
+  "name_en": "Freckled Hawkfish / Blackside Hawkfish",
+  "name_hu": "Freckled Hawkfish",
+  "size_cm": {
+   "min": 18,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Területvédő, háremet tartó korallcsősz; a természetben nyíltan ül a Stylophora-, Pocillopora- és Acropora-telepek legkülső ágain. Kis halakat és garnélákat megtámad.",
+   "en": "Territorial, haremic hawkfish that perches openly on the outermost branches of Stylophora, Pocillopora and Acropora colonies. It attacks small fish and shrimp."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben főleg kis halak és rákok, néha garnélák; akváriumban krill, mysis, apróra vágott tengeri hús.",
+   "en": "Carnivore: mainly small fish and crustaceans, sometimes shrimp in the wild; in the aquarium krill, mysis and chopped seafood."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Hawaii-, Line-, Marquises- és Ducie-szigetekig; északon Dél-Japánig, délen Új-Kaledóniáig és az Ausztrál-szigetekig. A Perzsa- és az Ománi-öbölből nem ismert.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Hawaiian, Line, Marquesan and Ducie islands; north to southern Japan, south to New Caledonia and the Austral Islands. Unknown from the Persian and Oman gulfs."
+  },
+  "notes": {
+   "hu": "A legnagyobb akváriumi korallcsőszök egyike (a FishBase szerint 22 cm). Kis díszgarnélákkal és apró halakkal nem tartható. A Tropus általános „Sólyomhal” néven árulja; mivel nincs külön magyar neve, az angol név szerepel.",
+   "en": "One of the largest aquarium hawkfish (22 cm according to FishBase). Not compatible with small ornamental shrimp or tiny fish. Tropus sells it under the generic name 'Sólyomhal'; with no specific Hungarian name, the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218867"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracirrhites-forsteri.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Blackside_Hawkfish_%28Paracirrhites_forsteri%29_%286056321818%29.jpg/960px-Blackside_Hawkfish_%28Paracirrhites_forsteri%29_%286056321818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blackside_Hawkfish_(Paracirrhites_forsteri)_(6056321818).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "cirrhitichthys-oxycephalus",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Cirrhitichthys oxycephalus",
+  "name_en": "Coral Hawkfish / Pixy Hawkfish",
+  "name_hu": "Coral Hawkfish",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Kis termetű, területvédő korallcsősz; a hímek háremet tartanak. A természetben kemény és lágy korallokon, azok belsejében vagy alattuk pihen.",
+   "en": "Small, territorial hawkfish; males are haremic. Rests on, in or beneath hard and soft corals in the wild."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben rákok és kis halak; akváriumban mysis, sórák, krill, pellet.",
+   "en": "Carnivore: crustaceans and small fish in the wild; in the aquarium mysis, brine shrimp, krill and pellets."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől délen a dél-afrikai East Londonig, keleten a Marquises-szigetekig; északon a Mariana-szigetekig, délen Új-Kaledóniáig. Kelet-Csendes-óceán: a Kaliforniai-öböltől Kolumbiáig és a Galápagos-szigetekig.",
+   "en": "Indo-Pacific: Red Sea south to East London, South Africa, and east to the Marquesan Islands; north to the Mariana Islands, south to New Caledonia. Eastern Pacific: Gulf of California to Colombia and the Galápagos Islands."
+  },
+  "notes": {
+   "hu": "Piros-barna foltos test. A Falco sólyomhalhoz hasonlóan nano- és kisebb zátonyakváriumba is jó, de kis garnélákat és apró halakat megehet. A FishBase szerinti maximális méret 15,2 cm standard hossz (SL), akváriumban jellemzően 10 cm alatt marad. Az Acropora általános „korallcsősz” néven árulja, ezért az angol név szerepel.",
+   "en": "Red-brown spotted body. Like the Falco hawkfish it suits nano and smaller reef tanks, but may eat small shrimp and tiny fish. FishBase gives a maximum of 15.2 cm standard length (SL); in aquaria it usually stays under 10 cm. Acropora sells it under the generic name 'korallcsősz', so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218853"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhitichthys-oxycephalus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pez_halc%C3%B3n_de_coral_%28Cirrhitichthys_oxycephalus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-30%2C_DD_06.jpg/960px-Pez_halc%C3%B3n_de_coral_%28Cirrhitichthys_oxycephalus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-30%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_halcón_de_coral_(Cirrhitichthys_oxycephalus),_Zanzíbar,_Tanzania,_2024-05-30,_DD_06.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cyprinocirrhites-polyactis",
+  "group": "fish",
+  "category": "hawkfish",
+  "scientific_name": "Cyprinocirrhites polyactis",
+  "name_en": "Swallowtail Hawkfish",
+  "name_hu": "Fecskefarkú korallcsősz",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "A korallcsőszök közül a legbékésebb; a többivel ellentétben nem ül folyamatosan az aljzaton, hanem áramlásos lejtők és kis korallfejek fölött néhány méterrel lebeg.",
+   "en": "The most peaceful hawkfish; unlike the others it does not perch all the time, but hovers several metres above current-exposed slopes and small coral heads."
+  },
+  "feeding": {
+   "hu": "Planktonevő: a természetben főleg nyílt vízi rákok, copepoda és más planktonállatok; akváriumban mysis, sórák, copepoda, pellet, naponta többször.",
+   "en": "Planktivore: mainly pelagic crustaceans, copepods and other plankton in the wild; in the aquarium mysis, brine shrimp, copepods and pellets several times a day."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Kelet-Afrikától délen Dél-Afrika délkeleti partjáig, keleten Tongáig; északon Dél-Japánig, délen Új-Kaledóniáig, Délkelet-Ausztráliáig és Új-Zéland északi részéig.",
+   "en": "Indo-West Pacific: East Africa south to the south-east coast of South Africa and east to Tonga; north to southern Japan, south to New Caledonia, south-eastern Australia and northern New Zealand."
+  },
+  "notes": {
+   "hu": "Narancs-barna test, villás „fecskefarok”. Planktonevő életmódja miatt a korallcsőszök közül ez a legjobb választás zátonyakváriumba; a garnélákra kevésbé veszélyes.",
+   "en": "Orange-brown body with a forked 'swallow' tail. Its planktivorous lifestyle makes it the best hawkfish for reef tanks; less of a threat to shrimp."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218864"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cyprinocirrhites-polyactis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cyprinocirrhites_polyactis_683252365.jpg/960px-Cyprinocirrhites_polyactis_683252365.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cyprinocirrhites_polyactis_683252365.jpg",
+   "author": "呂一起(Lyu yi-chi)",
+   "license": "CC BY 4.0"
+  }
+ }
+]

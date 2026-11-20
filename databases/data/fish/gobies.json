@@ -300,7 +300,7 @@
   },
   "notes": {
    "en": "Perfect nano reef fish; ideal parasite control without the ethical issues of cleaner wrasses.",
-   "hu": "Tökéletes nano zátonyhal; ideális parazitakontroll a tisztogató ajaksügerek etikai problémái nélkül."
+   "hu": "Tökéletes nano zátonyhal; ideális parazitakontroll a tisztogató ajakoshalerek etikai problémái nélkül."
   },
   "diseases": [
    "marine-ich",
@@ -452,6 +452,1366 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Amblygobius_phalaena.jpg",
    "author": "Haplochromis",
    "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "amblyeleotris-aurora",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblyeleotris aurora",
+  "name_en": "Pinkbar Goby / Aurora Shrimpgoby",
+  "name_hu": "Szimbionta géb",
+  "size_cm": {
+   "min": 8,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful symbiotic watchman goby; shares its burrow with snapping shrimps (Alpheus). Stays near its burrow entrance, darting back at any threat.",
+   "hu": "Békés szimbiotikus őrzőgéb; üregét rákhalakkal (Alpheus) közösen használja. A nyílás közelében tartózkodik, veszély esetén azonnal visszabújik."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, finely chopped seafood and small pellets.",
+   "hu": "Húsevő: mysis, sórák, apróra vágott tengeri hús és kis pellet."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Maldives southward to northern South Africa; reported from the Andaman Sea.",
+   "hu": "Nyugat-Indiai-óceán: a Maldív-szigetektől délre Dél-Afrika északi részéig; az Andamán-tengerből is jelentve."
+  },
+  "notes": {
+   "en": "Classic shrimp-goby symbiosis: the goby guards, the shrimp digs. Needs a deep sand/rubble bed for the burrow. Rarely bothers other fish.",
+   "hu": "Klasszikus géb-rák szimbiózis: a géb őriz, a rák ás. Mély homok/kavicságyat igényel az üreghez. Más halakat általában nem zavarja."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=209272"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblyeleotris-aurora.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Amblyeleotris_aurora_Maldives.JPG/960px-Amblyeleotris_aurora_Maldives.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblyeleotris_aurora_Maldives.JPG",
+   "author": "Julien Bidet for MDC Seamarc",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "amblyeleotris-guttata",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblyeleotris guttata",
+  "name_en": "Spotted Prawn-goby / Orange-spotted Shrimp Goby",
+  "name_hu": "Narancspöttyös géb",
+  "size_cm": {
+   "min": 8,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful watchman goby living symbiotically with snapping shrimps; hovers near its shared burrow.",
+   "hu": "Békés őrzőgéb, amely rákhalakkal közös üregben él; a nyílás közelében lebeg."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp and small meaty foods; should not starve in a young tank.",
+   "hu": "Húsevő: mysis, sórák és kis húsos táplálék; fiatal akváriumban nem hagyjuk éhezni."
+  },
+  "origin": {
+   "en": "Western Pacific: Philippines to Tonga, north to the Ryukyu Islands, south to Australia.",
+   "hu": "Nyugat-Csendes-óceán: a Fülöp-szigetektől Tongáig, északon a Rjúkjú-szigetekig, délen Ausztráliáig."
+  },
+  "notes": {
+   "en": "One of the most popular shrimp gobies; orange-spotted body. Provide a deep sand bed and a compatible snapping shrimp if possible.",
+   "hu": "Az egyik legnépszerűbb szimbiózis géb; narancs pöttyös testtel. Biztosítsunk mély homokágyat, és ha lehetséges, kompatibilis rákhalat."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278967"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblyeleotris-guttata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Amblyeleotris_guttata-Orange_Spotted_Goby.jpg/960px-Amblyeleotris_guttata-Orange_Spotted_Goby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblyeleotris_guttata-Orange_Spotted_Goby.jpg",
+   "author": "Sushi Girl1995",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "amblygobius-bynoensis",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblygobius bynoensis",
+  "name_en": "Bynoe Goby",
+  "name_hu": "Bynoe goby",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, hovering goby that constantly picks food from the substrate and water column; less shy than the watchman gobies.",
+   "hu": "Békés, lebegő géb, amely folyamatosan keres táplálékot az aljzaton és a vízoszlopban; az őrzőgébeknél kevésbé félénk."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets; also picks detritus and microfauna from the sand.",
+   "hu": "Húsevő: mysis, sórák, kis pellet; a homokból detrituszt és mikrofaunát is szedeget."
+  },
+  "origin": {
+   "en": "Indo-Pacific.",
+   "hu": "Indo-Csendes-óceán."
+  },
+  "notes": {
+   "en": "Undemanding, hardy goby; hovers mid-water rather than hiding. Good candidate for peaceful community reef tanks.",
+   "hu": "Igénytelen, ellenálló géb; a víz közepén lebeg inkább, semmint rejtőzik. Jó választás békés közösségi zátonyos akváriumokba."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278650"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblygobius-bynoensis.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/FMIB_36178_Amblygobius_bynoeusis%2C_Richardson.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:FMIB_36178_Amblygobius_bynoeusis,_Richardson.jpeg",
+   "author": "Allan Riverstone McCulloch",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "amblygobius-hectori",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblygobius hectori",
+  "name_en": "Hector's Goby",
+  "name_hu": "Sárgacsíkos algázó géb",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, hovering goby that grazes filamentous algae from rocks and the sand surface.",
+   "hu": "Békés, lebegő géb, amely fonalas algát legel a kövekről és a homok felszínéről."
+  },
+  "feeding": {
+   "en": "Omnivore: algae, spirulina, mysis and small pellets.",
+   "hu": "Mindenevő: algák, spirulina, mysis és kis pellet."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: from the Seychelles to Fiji; north to Japan, south to New Caledonia.",
+   "hu": "Indo-Nyugat-Csendes-óceán: a Seychelle-szigetektől Fidzsiig; északon Japánig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Popular algae grazer for nano and mid-size reef tanks. In WoRMS the valid name is Koumansetta hectori (Amblygobius hectori is a synonym).",
+   "hu": "Népszerű algalegelő nano- és közepes zátonyos akváriumokba. A WoRMS szerint az érvényes név Koumansetta hectori (az Amblygobius hectori szinonima)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219375"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblygobius-hectori.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Amblygobius_hectori_Landaagiraavaru.JPG/960px-Amblygobius_hectori_Landaagiraavaru.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblygobius_hectori_Landaagiraavaru.JPG",
+   "author": "Frédéric Ducarme",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "amblygobius-rainfordi",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Amblygobius rainfordi",
+  "name_en": "Rainford's Goby (Old Glory)",
+  "name_hu": "Piroscsíkos algázó géb",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small, peaceful hovering goby; grazes filamentous algae constantly. Can be shy without enough rock cover.",
+   "hu": "Kis, békés, lebegő géb; folyamatosan fonalas algát legel. Kevés sziklabúvóhely mellett félénk lehet."
+  },
+  "feeding": {
+   "en": "Herbivore-leaning omnivore: algae, spirulina-based foods, fine pellets and frozen food.",
+   "hu": "Növényevőre hajló mindenevő: algák, spirulina-alapú tápok, apró pellet és fagyasztott eleség."
+  },
+  "origin": {
+   "en": "Western Pacific: from eastern and western Australia to Tonga; north to Taiwan and the Philippines; throughout Indonesia, PNG, the Marshall, Solomon and Fiji Islands.",
+   "hu": "Nyugat-Csendes-óceán: Kelet- és Nyugat-Ausztráliától Tongáig; északon Tajvanig és a Fülöp-szigetekig; Indonézián, Pápua Új-Guineán, a Marshall-, Salamon- és Fidzsi-szigeteken át."
+  },
+  "notes": {
+   "en": "Helps with hair algae control in mature tanks. In WoRMS the valid name is Koumansetta rainfordi (Amblygobius rainfordi is a synonym).",
+   "hu": "Érett akváriumokban segít a fonalas algák kontrolljában. A WoRMS szerint az érvényes név Koumansetta rainfordi (az Amblygobius rainfordi szinonima)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278656"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Amblygobius-rainfordi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Amblygobius_rainfordi_TW_1.jpg/960px-Amblygobius_rainfordi_TW_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Amblygobius_rainfordi_TW_1.jpg",
+   "author": "Timwijgerde",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "cryptocentrus-cyanotaenia",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Cryptocentrus cyanotaenia",
+  "name_en": "Lagoon Shrimpgoby",
+  "name_hu": "Lagúna szimbiózis géb",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful watchman goby living in symbiosis with snapping shrimps; spends most of the day at its burrow entrance.",
+   "hu": "Békés őrzőgéb, rákhalakkal szimbiózisban; a nap nagy részét az üregnyílásnál tölti."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, chopped seafood; benefits from frequent small feedings.",
+   "hu": "Húsevő: mysis, sórák, aprított tengeri hús; a gyakori kis adagolás jót tesz neki."
+  },
+  "origin": {
+   "en": "Western Central Pacific: Java, Indonesia to Papua New Guinea; Palau in Micronesia.",
+   "hu": "Nyugat-közép-Csendes-óceán: Jávától Pápua Új-Guineáig; Palau Mikronéziában."
+  },
+  "notes": {
+   "en": "Beautiful blue-banded watchman goby. No suitably licensed image was available, so the species is shown without a photo. In the trade it is often sold as a 'lagoon' symbiosis goby.",
+   "hu": "Szép, kék sávos őrzőgéb. Megfelelő licencű kép nem állt rendelkezésre, ezért a faj fotó nélkül szerepel. A kereskedelemben gyakran 'lagúnás' szimbiózis gébként árulják."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278327"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cryptocentrus-cyanotaenia.html"
+   }
+  ]
+ },
+ {
+  "id": "gobiodon-citrinus",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Gobiodon citrinus",
+  "name_en": "Citrine Goby (Poison Goby)",
+  "name_hu": "Citrine goby",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, peaceful coral goby; perches directly on Acropora branches and defends a small coral territory.",
+   "hu": "Apró, békés korallgéb; közvetlenül az Acropora ágakon ül, és egy kis korallterületet véd."
+  },
+  "feeding": {
+   "en": "Carnivore: tiny frozen foods (copepods, cyclops, finely chopped mysis) and small pellets.",
+   "hu": "Húsevő: apró fagyasztott eleség (kopepod, cyclops, apróra vágott mysis) és kis pellet."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Red Sea south to Mozambique and east to Samoa, north to southern Japan, south to the Great Barrier Reef.",
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől délre Mozambikig és keletre Szamoáig, északon Japán déli részéig, délen a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "Its skin contains a mild toxin (hence 'poison goby') — do not house with predatory fish. Prefers branching SPS corals to perch on.",
+   "hu": "Bőre enyhe toxint tartalmaz ( innen a 'méreggéb' név) — ragadozó halakkal ne tartsuk. Elágazó SPS korallokon szeret üldögélni."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219479"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gobiodon-citrinus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Gobiidae_Gobiodon_citrinus_1.jpg/960px-Gobiidae_Gobiodon_citrinus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gobiidae_Gobiodon_citrinus_1.jpg",
+   "author": "NasserHalaweh",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gobiodon-histrio",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Gobiodon histrio",
+  "name_en": "Green Clown Goby (Broad-barred Goby)",
+  "name_hu": "Zöld mini géb",
+  "size_cm": {
+   "min": 3,
+   "max": 3.5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, bright green coral goby; perches on Acropora branches and rarely strays far from its coral.",
+   "hu": "Apró, élénkzöld korallgéb; Acropora ágakon üldögél, és ritkán távolodik el a koralljától."
+  },
+  "feeding": {
+   "en": "Carnivore: tiny frozen foods and small pellets; frequent small feedings.",
+   "hu": "Húsevő: apró fagyasztott eleség és kis pellet; gyakori kis adagolás."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Red Sea to Samoa, north to southern Japan, south to the Great Barrier Reef.",
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől Szamoáig, északon Japán déli részéig, délen a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "Perfect nano reef fish; may spawn on SPS branches. Its skin contains a mild toxin that deters predators.",
+   "hu": "Tökéletes nano zátonyhal; SPS ágakon ikrázhat. Bőre enyhe toxint tartalmaz, ami elriasztja a ragadozókat."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276928"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gobiodon-histrio.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gobiodon_histrio_6.1.2011_030_b.jpg/960px-Gobiodon_histrio_6.1.2011_030_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gobiodon_histrio_6.1.2011_030_b.jpg",
+   "author": "Dr. Oliver Schneider",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "gobiodon-okinawae",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Gobiodon okinawae",
+  "name_en": "Yellow Clown Goby",
+  "name_hu": "Sárga mini géb",
+  "size_cm": {
+   "min": 2.5,
+   "max": 3.5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, cheerful yellow coral goby; perches on coral branches and hovers briefly between them.",
+   "hu": "Apró, vidám sárga korallgéb; korallágakon ül, és rövid szakaszokon repked közöttük."
+  },
+  "feeding": {
+   "en": "Carnivore: tiny frozen foods, cyclops and fine pellets; 2-3 small feedings a day.",
+   "hu": "Húsevő: apró fagyasztott eleség, cyclops és apró pellet; napi 2-3 kis adag."
+  },
+  "origin": {
+   "en": "Western Pacific: north to southern Japan, south to Rowley Shoals and the southern Great Barrier Reef; Palau and Marshall Islands.",
+   "hu": "Nyugat-Csendes-óceán: északon Japán déli részéig, délen a Rowley-zátonyokig és a Nagy Korallzátony déli részéig; Palau és a Marshall-szigetek."
+  },
+  "notes": {
+   "en": "One of the best nano reef fish; harmless to corals (may perch on and irritate individual polyps).",
+   "hu": "Az egyik legjobb nano zátonyhal; a koralloknak ártalmatlan (egyes polipokon ülve kissé zavarhatja őket)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276931"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gobiodon-okinawae.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Gobidon_okinawae1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gobidon_okinawae1.jpg",
+   "author": "Jenny",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "gobiodon-quinquestrigatus",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Gobiodon quinquestrigatus",
+  "name_en": "Five-lined Coral Goby",
+  "name_hu": "Five-lined coral goby",
+  "size_cm": {
+   "min": 4,
+   "max": 5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small coral goby with five dark body lines; perches on branching corals.",
+   "hu": "Kis korallgéb öt sötét testvonalal; elágazó korallokon üldögél."
+  },
+  "feeding": {
+   "en": "Carnivore: tiny frozen foods and fine pellets.",
+   "hu": "Húsevő: apró fagyasztott eleség és apró pellet."
+  },
+  "origin": {
+   "en": "Pacific Ocean: Philippines to the Society Islands, north to southern Japan, south to Australia and Tonga.",
+   "hu": "Csendes-óceán: a Fülöp-szigetektől a Társaság-szigetekig, északon Japán déli részéig, délen Ausztráliáig és Tongáig."
+  },
+  "notes": {
+   "en": "Quiet, unobtrusive coral goby for peaceful nano and mid-size reefs.",
+   "hu": "Csendes, feltűnést nem keltő korallgéb békés nano- és közepes zátonyos akváriumokba."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276933"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gobiodon-quinquestrigatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/GobiodQuinquestrigPhilMunday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:GobiodQuinquestrigPhilMunday.jpg",
+   "author": "Phil Munday / Lizard Island Field Guide",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "gobiodon-rivulatus",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Gobiodon rivulatus",
+  "name_en": "Rippled Coralgoby",
+  "name_hu": "Pettyes mini géb",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small, robust coral goby; perches on Acropora and other branching corals.",
+   "hu": "Kis, robusztus korallgéb; Acroporán és más elágazó korallokon üldögél."
+  },
+  "feeding": {
+   "en": "Carnivore: small frozen foods and fine pellets.",
+   "hu": "Húsevő: kis fagyasztott eleség és apró pellet."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Red Sea and East Africa to the Tuamotu Islands, north to the Ryukyu Islands.",
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tenger és Kelet-Afrika a Tuamotu-szigetekig, északon a Rjúkjú-szigetekig."
+  },
+  "notes": {
+   "en": "Hardier than most coral gobies; skin contains a mild toxin. Tolerates other Gobiodon poorly — keep one per tank unless a pair forms.",
+   "hu": "A legtöbb korallgébnél ellenállóbb; bőre enyhe toxint tartalmaz. Más Gobiodon fajokat rosszul tűr — akváriumonként egyet tartsunk, hacsak nem alakul ki pár."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219478"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gobiodon-rivulatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gobiodon_rivulatus_R%C3%A9union.jpg/960px-Gobiodon_rivulatus_R%C3%A9union.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gobiodon_rivulatus_R%C3%A9union.jpg",
+   "author": "Christophe Cadet",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "stonogobiops-dracula",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Stonogobiops dracula",
+  "name_en": "Dracula Shrimp-goby",
+  "name_hu": "Drakula szimbiózis géb",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Elegant white-and-orange watchman goby with long first dorsal rays; lives with snapping shrimps in a shared burrow.",
+   "hu": "Elegans fehér-narancs őrzőgéb hosszú első hátúszó sugarakkal; rákhalakkal közös üregben él."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small chopped seafood; target feeding near the burrow helps.",
+   "hu": "Húsevő: mysis, sórák, kis aprított tengeri hús; az üreg melletti célzott etetés segít."
+  },
+  "origin": {
+   "en": "Western Indian Ocean: Seychelles, Maldives.",
+   "hu": "Nyugat-Indiai-óceán: Seychelle-szigetek, Maldív-szigetek."
+  },
+  "notes": {
+   "en": "Shy but hardy symbiosis goby; needs a deep sand bed and calm tankmates. Named for its 'fang-like' teeth.",
+   "hu": "Félénk, de ellenálló szimbiózis géb; mély homokágyat és nyugodt társakat igényel. Nevét 'agyaras' fogairól kapta."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219570"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Stonogobiops-dracula.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dracula_shrimpgoby.jpg/960px-Dracula_shrimpgoby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Dracula_shrimpgoby.jpg",
+   "author": "RatioTile",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "stonogobiops-nematodes",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Stonogobiops nematodes",
+  "name_en": "Black-ray Goby (Filament-finned Prawn-goby)",
+  "name_hu": "Feketeöves szimbiózis géb",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Popular white-and-brown watchman goby with black fin rays; classic partner of snapping shrimps.",
+   "hu": "Népszerű fehér-barna őrzőgéb fekete úszósugarakkal; a rákhalak klasszikus partnere."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small meaty foods.",
+   "hu": "Húsevő: mysis, sórák, kis húsos eleség."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: Seychelles, the Philippines and Bali, Indonesia.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Seychelle-szigetek, Fülöp-szigetek és Bali, Indonézia."
+  },
+  "notes": {
+   "en": "The textbook shrimp-goby pair for display tanks; fascinating to watch the shrimp-goby communication.",
+   "hu": "A tankönyvi géb-rák páros bemutató akváriumokba; lenyűgöző megfigyelni a géb-rák kommunikációt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219571"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Stonogobiops-nematodes.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Black-ray_goby.jpg/960px-Black-ray_goby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Black-ray_goby.jpg",
+   "author": "Sammydee at English Wikipedia",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "stonogobiops-xanthorhinica",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Stonogobiops xanthorhinica",
+  "name_en": "Yellownose Prawn-goby",
+  "name_hu": "Sárgafejű szimbiózis géb",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "White-bodied watchman goby with a yellow snout; lives symbiotically with snapping shrimps.",
+   "hu": "Fehér testű őrzőgéb sárga orr-résszel; rákhalakkal szimbiózisban él."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small meaty foods.",
+   "hu": "Húsevő: mysis, sórák, kis húsos eleség."
+  },
+  "origin": {
+   "en": "Western Pacific: Indonesia, New Guinea, the Solomon Islands, the northern Great Barrier Reef and southern Japan.",
+   "hu": "Nyugat-Csendes-óceán: Indonézia, Új-Guinea, a Salamon-szigetek, a Nagy Korallzátony északi része és Japán déli része."
+  },
+  "notes": {
+   "en": "In the Indian Ocean it is replaced by the closely related S. dracula. In WoRMS the valid spelling of the name is Stonogobiops xanthorhinicus.",
+   "hu": "Az Indiai-óceánon a közeli rokon S. dracula váltja. A WoRMS szerint a név érvényes alakja Stonogobiops xanthorhinicus."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1593962"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Stonogobiops-xanthorhinica.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Nejirinbo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Nejirinbo.jpg",
+   "author": "Izuzuki",
+   "license": "CC BY-SA 2.5"
+  }
+ },
+ {
+  "id": "valenciennea-helsdingenii",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Valenciennea helsdingenii",
+  "name_en": "Twostripe Goby",
+  "name_hu": "Kétcsíkos talajforgató géb",
+  "size_cm": {
+   "min": 18,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Large sand-sifting watchman goby; constantly gulps sand to extract food, or hovers in pairs near the bottom.",
+   "hu": "Nagy testű homokátforgató őrzőgéb; folyamatosan forgatja a homokot táplálék után, vagy párban lebeg az aljzat közelében."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small seafood pieces; needs frequent feedings in young tanks.",
+   "hu": "Húsevő: mysis, sórák, kis tengerihús-darabok; fiatal akváriumban gyakori etetést igényel."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: southern Red Sea and East Africa to Indonesia, north to southern Japan, south to the Great Barrier Reef.",
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tenger déli része és Kelet-Afrika Indonéziáig, északon Japán déli részéig, délen a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "One of the largest watchman gobies — adults need a spacious tank with a deep sand bed. May bury under rocks; secure rockwork well.",
+   "hu": "Az egyik legnagyobb őrzőgéb — a kifejlett példány tágas akváriumot és mély homokágyat igényel. Kövek alá áshatja magát; a sziklázatot rögzítsük jól."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219594"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Valenciennea-helsdingenii.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Gobios_%28Valenciennea_helsdingenii%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_126.jpg/960px-Gobios_%28Valenciennea_helsdingenii%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gobios_(Valenciennea_helsdingenii),_Anilao,_Filipinas,_2023-08-23,_DD_126.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "valenciennea-sexguttata",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Valenciennea sexguttata",
+  "name_en": "Sixspot Goby",
+  "name_hu": "Sixspot goby",
+  "size_cm": {
+   "min": 11,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Sand-sifting watchman goby with blue-spotted head; constantly processes the sand bed in search of food.",
+   "hu": "Homokátforgató őrzőgéb kék pöttyös fejjel; folyamatosan átdolgozza a homokágyat táplálékot keresve."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets; small frequent feedings.",
+   "hu": "Húsevő: mysis, sórák, kis pellet; gyakori kis adagolás."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea, Persian Gulf and East Africa to Samoa; north to the Yaeyama Islands, south to Queensland.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger, Perzsa-öböl és Kelet-Afrika Szamoáig; északon a Jaejama-szigetekig, délen Queenslandig."
+  },
+  "notes": {
+   "en": "Excellent sand stirrer for larger reef tanks; can starve in tanks with little natural food.",
+   "hu": "Kiváló homokmozgató nagyobb zátonyos akváriumokba; kevés természetes táplálékú akváriumban éhezhet."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219598"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Valenciennea-sexguttata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sixspot_Gobies_%28Valenciennea_sexguttata%29_%286097130488%29.jpg/960px-Sixspot_Gobies_%28Valenciennea_sexguttata%29_%286097130488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Sixspot_Gobies_(Valenciennea_sexguttata)_(6097130488).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "nemateleotris-magnifica",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Nemateleotris magnifica",
+  "name_en": "Fire Goby / Firefish",
+  "name_hu": "Tűzgéb",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Iconic firefish with a bright red-yellow body and an elongated first dorsal ray; hovers mid-water and dives into the rockwork when startled.",
+   "hu": "Ikonszerű tűzgéb élénk vörös-sárga testtel és megnyúlt első hátúszósugárral; a víz közepén lebeg, és megriasztva a sziklázat közé vetődik."
+  },
+  "feeding": {
+   "en": "Plankton feeder: mysis, brine shrimp, cyclops and small pellets; frequent small feedings.",
+   "hu": "Planktonevő: mysis, sórák, cyclops és kis pellet; gyakori kis adagolás."
+  },
+  "origin": {
+   "en": "Indo-Pacific: East Africa to the Hawaiian, Marquesan and Pitcairn islands, north to the Ryukyu Islands, south to New Caledonia; throughout Micronesia.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Hawaii-, Marquises- és Pitcairn-szigetekig, északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig; Mikronéziában mindenhol."
+  },
+  "notes": {
+   "en": "Known jumper — a tightly closed lid is essential. Peaceful; keep singly or as an established pair.",
+   "hu": "Ismert ugró — a jól záródó fedél elengedhetetlen. Békés; egyedül vagy kialakult párban tartsuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219611"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Nemateleotris-magnifica.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Fire_dartfish_%28Nemateleotris_magnifica%29_%2843372442502%29.jpg/960px-Fire_dartfish_%28Nemateleotris_magnifica%29_%2843372442502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Fire_dartfish_(Nemateleotris_magnifica)_(43372442502).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "nemateleotris-decora",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Nemateleotris decora",
+  "name_en": "Elegant Firefish / Purple Firefish",
+  "name_hu": "Lila tűzgéb",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Elegant purple-lilac firefish; hovers mid-water near its bolt-hole in the rockwork.",
+   "hu": "Elegans lila-bíbor tűzgéb; a sziklázatban lévő búvólyuka közelében lebeg a víz közepén."
+  },
+  "feeding": {
+   "en": "Plankton feeder: mysis, brine shrimp, cyclops and small pellets.",
+   "hu": "Planktonevő: mysis, sórák, cyclops és kis pellet."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Mauritius to Samoa, north to the Ryukyu Islands, south to New Caledonia.",
+   "hu": "Indo-Csendes-óceán: Mauritiustól Szamoáig, északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig."
+  },
+  "notes": {
+   "en": "Shy jumper — needs a closed lid and calm tankmates. One of the most beautiful and popular reef fish.",
+   "hu": "Félénk ugró — záródó fedélre és nyugodt társakra van szüksége. Az egyik legszebb és legnépszerűbb zátonyhal."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219612"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Nemateleotris-decora.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Decorated_dartfish_%28Nemateleotris_decora%29_%2843710164492%29.jpg/960px-Decorated_dartfish_%28Nemateleotris_decora%29_%2843710164492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Decorated_dartfish_(Nemateleotris_decora)_(43710164492).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "nemateleotris-helfrichi",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Nemateleotris helfrichi",
+  "name_en": "Helfrich's Dartfish / Helfrich's Firefish",
+  "name_hu": "Helfrich tűzgéb",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 6
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small, stunning lilac-and-yellow firefish; hovers mid-water and retreats into tiny crevices.",
+   "hu": "Kis, gyönyörű lila-sárga tűzgéb; a víz közepén lebeg, és apró résekbe húzódik vissza."
+  },
+  "feeding": {
+   "en": "Plankton feeder: mysis, brine shrimp, cyclops and fine pellets.",
+   "hu": "Planktonevő: mysis, sórák, cyclops és apró pellet."
+  },
+  "origin": {
+   "en": "Pacific: French Polynesia; populations elsewhere in the tropical Pacific.",
+   "hu": "Csendes-óceán: Francia Polinézia; a trópusi Csendes-óceán más részein is előfordul."
+  },
+  "notes": {
+   "en": "The most expensive firefish; very peaceful and shy. Known jumper — a closed lid is essential.",
+   "hu": "A legdrágább tűzgéb; nagyon békés és félénk. Ismert ugró — a záródó fedél elengedhetetlen."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277115"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Nemateleotris-helfrichi.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nemateleotris_helfrichi_by_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Nemateleotris_helfrichi_by_NPS.jpg",
+   "author": "NPS photo - Bryan Harry - Waikiki Aquarium",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "ptereleotris-evides",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Ptereleotris evides",
+  "name_en": "Blackfin Dartfish / Scissortail Dartfish",
+  "name_hu": "Ollófarkú hal",
+  "size_cm": {
+   "min": 10,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés torpedógéb; a felnőttek többnyire monogám párban, a fiatalok kis csoportokban élnek. A fenék fölött 1–2 m-rel lebegve táplálkozik, és veszély esetén elúszik, nem a járatába húzódik.",
+   "en": "Peaceful dartfish; adults usually live in monogamous pairs, juveniles in small aggregations. Feeds while hovering 1–2 m above the bottom and swims away from danger rather than retreating into a burrow."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Line- és a Társaság-szigetekig; északon a Rjúkjú- és az Ogaszavara-szigetekig, délen Új-Dél-Walesig, a Lord Howe-szigetig és Rapáig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Line and Society islands; north to the Ryukyu and Ogasawara islands, south to New South Wales, Lord Howe Island and Rapa."
+  },
+  "notes": {
+   "hu": "Ezüstös-kék elülső és sötét hátsó testfél, ollószerű farok. A tűzgébekhez hasonlóan kiugrásra hajlamos, ezért fedett akvárium ajánlott.",
+   "en": "Silvery-blue front half and dark rear half with a scissor-like tail. Like the firefish it is prone to jumping, so a covered tank is recommended."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219622"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ptereleotris-evides.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Pez_drag%C3%B3n_de_aleta_negra_%28Ptereleotris_evides%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_96.jpg/960px-Pez_drag%C3%B3n_de_aleta_negra_%28Ptereleotris_evides%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-17%2C_DD_96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_dragón_de_aleta_negra_(Ptereleotris_evides),_mar_Rojo,_Egipto,_2023-04-17,_DD_96.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "aioliops-megastigma",
+  "group": "fish",
+  "category": "gobies",
+  "scientific_name": "Aioliops megastigma",
+  "name_en": "Bigspot Minidartfish",
+  "name_hu": "Törpe torpedógéb",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 80,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Apró, békés torpedógéb, amely kis csoportokban úszik korallok közelében, sekély, védett zátonyokon.",
+   "en": "Tiny, peaceful dartfish swimming in small groups near corals on shallow, sheltered reefs."
+  },
+  "feeding": {
+   "hu": "Planktonevő: copepoda, frissen kelt sórák, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: copepods, newly hatched brine shrimp, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Csendes-óceán; lagúnák és védett zátonyok 2–10 m mélyen.",
+   "en": "Western Central Pacific; lagoons and sheltered reefs at 2–10 m."
+  },
+  "notes": {
+   "hu": "A FishBase szerinti maximális méret 3 cm standard hossz (SL), így nano-akváriumba is alkalmas, de nagyobb halak mellett könnyen áldozattá válik. Csapatban tartva a legszebb.",
+   "en": "FishBase gives a maximum of 3 cm standard length (SL), so it suits nano tanks, but it easily becomes prey next to larger fish. Looks best kept in a group."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=279528"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Aioliops-megastigma.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Aioliops_megastigma.jpg/500px-Aioliops_megastigma.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Aioliops_megastigma.jpg",
+   "author": "Brent Tibbats",
+   "license": "CC BY 3.0"
   }
  }
 ]

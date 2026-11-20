@@ -1,0 +1,404 @@
+[
+ {
+  "id": "hippocampus-barbouri",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Hippocampus barbouri",
+  "name_en": "Barbour's Seahorse",
+  "name_hu": "Barbour's Seahorse",
+  "size_cm": {
+   "min": 12,
+   "max": 17
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nyugodt, párban vagy kis csoportban tartható csikóhal; a FishBase szerint a természetben gyakran kemény korallokba kapaszkodik.",
+   "en": "Calm seahorse that can be kept in pairs or small groups; according to FishBase it often clings to hard coral in the wild."
+  },
+  "feeding": {
+   "hu": "Húsevő: naponta 2–3-szor dúsított fagyasztott mysis, élő sórák és evezőlábú rák; a vadon fogott példányok gyakran csak élő eleséget fogadnak el.",
+   "en": "Carnivore: enriched frozen mysis 2–3 times a day, live brine shrimp and copepods; wild-caught specimens often accept only live food."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Csendes-óceán: Indonézia, Malajzia és a Fülöp-szigetek.",
+   "en": "Western Central Pacific: Indonesia, Malaysia and the Philippines."
+  },
+  "notes": {
+   "hu": "Tüskés bőrű csikóhal. A FishBase szerinti maximális méret 17,2 cm standard hossz (SL). A Tropus általános „Csikóhal” néven árulja, ezért az angol név szerepel. Lassú, kitartó evő: gyors, falánk halakkal (doktorhalak, ajakoshalak, korallsügérek) nem tartható, a csalánzó tengeri rózsák és egyes korallok is veszélyesek rá. Kapaszkodóhelyeket (gorgóniák, makroalgák, műanyag ágak) és mérsékelt áramlást igényel. Tenyésztett példányt érdemes venni, mert az könnyebben szokik a fagyasztott eleségre. Az ikrákat a hím költőtasakjában hordja, amely a farok alatt van.",
+   "en": "A spiny seahorse. FishBase gives a maximum of 17.2 cm standard length (SL). Tropus sells it under the generic name 'Csikóhal', so the English name is used. A slow, deliberate feeder: it cannot be kept with fast, greedy fish (tangs, wrasses, damsels), and stinging anemones and some corals are dangerous to it. Needs hitching posts (gorgonians, macroalgae, artificial branches) and moderate flow. Choose captive-bred specimens, which accept frozen food more readily. The male carries the eggs in a brood pouch under the tail."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275186"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Hippocampus-barbouri.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hippocampus_barbouri_01.JPG/960px-Hippocampus_barbouri_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hippocampus_barbouri_01.JPG",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "hippocampus-kuda",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Hippocampus kuda",
+  "name_en": "Spotted Seahorse / Yellow Seahorse",
+  "name_hu": "Spotted Seahorse",
+  "size_cm": {
+   "min": 14,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nyugodt csikóhal; a felnőttek párban élnek. A FishBase szerint a laboratóriumban nem bizonyult monogámnak.",
+   "en": "Calm seahorse; adults live in pairs. According to FishBase it was not shown to be monogamous in the laboratory."
+  },
+  "feeding": {
+   "hu": "Húsevő: naponta 2–3-szor dúsított fagyasztott mysis, élő sórák és evezőlábú rák; a vadon fogott példányok gyakran csak élő eleséget fogadnak el.",
+   "en": "Carnivore: enriched frozen mysis 2–3 times a day, live brine shrimp and copepods; wild-caught specimens often accept only live food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Dél-Afrikától és a Vörös-tengertől Hawaiiig és Francia Polinéziáig; északon Japánig, délen Ausztráliáig. Torkolatokban, tengerifű- és algamezőkön, sodródó Sargassumon is.",
+   "en": "Indo-Pacific: southern Africa and the Red Sea to Hawai'i and French Polynesia; north to Japan, south to Australia. Estuaries, seagrass and algae beds, also on drifting Sargassum."
+  },
+  "notes": {
+   "hu": "Sárga, barna vagy fekete színű lehet. A FishBase szerint 30 cm-re is megnő (teljes hossz), és nagyon népszerű akváriumi faj; tenyésztik is. A Tropus általános „Csikóhal” néven árulja, ezért az angol név szerepel. Lassú, kitartó evő: gyors, falánk halakkal (doktorhalak, ajakoshalak, korallsügérek) nem tartható, a csalánzó tengeri rózsák és egyes korallok is veszélyesek rá. Kapaszkodóhelyeket (gorgóniák, makroalgák, műanyag ágak) és mérsékelt áramlást igényel. Tenyésztett példányt érdemes venni, mert az könnyebben szokik a fagyasztott eleségre. Az ikrákat a hím költőtasakjában hordja, amely a farok alatt van.",
+   "en": "Can be yellow, brown or black. FishBase gives up to 30 cm total length and notes it is a very popular aquarium fish; it is also farmed. Tropus sells it under the generic name 'Csikóhal', so the English name is used. A slow, deliberate feeder: it cannot be kept with fast, greedy fish (tangs, wrasses, damsels), and stinging anemones and some corals are dangerous to it. Needs hitching posts (gorgonians, macroalgae, artificial branches) and moderate flow. Choose captive-bred specimens, which accept frozen food more readily. The male carries the eggs in a brood pouch under the tail."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212237"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Hippocampus-kuda.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Hippocampus_kuda%2C_hembra.jpg/960px-Hippocampus_kuda%2C_hembra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hippocampus_kuda,_hembra.jpg",
+   "author": "prilfish",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "hippocampus-reidi",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Hippocampus reidi",
+  "name_en": "Longsnout Seahorse / Slender Seahorse",
+  "name_hu": "Longsnout Seahorse",
+  "size_cm": {
+   "min": 12,
+   "max": 17
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Monogám csikóhal; a FishBase szerint mindig párban él, kizárólagos terület védése nélkül. Gorgóniákba vagy tengerifűbe kapaszkodik.",
+   "en": "Monogamous seahorse; according to FishBase it always lives in home-ranging pairs without defending an exclusive territory. Clings to gorgonians or seagrass."
+  },
+  "feeding": {
+   "hu": "Húsevő: naponta 2–3-szor dúsított fagyasztott mysis, élő sórák és evezőlábú rák; a vadon fogott példányok gyakran csak élő eleséget fogadnak el.",
+   "en": "Carnivore: enriched frozen mysis 2–3 times a day, live brine shrimp and copepods; wild-caught specimens often accept only live food."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Észak-Karolinától (USA) Brazíliáig; Karib-tenger.",
+   "en": "Western Atlantic: North Carolina (USA) to Brazil; Caribbean Sea."
+  },
+  "notes": {
+   "hu": "Karcsú, hosszú orrú csikóhal; színe sárga, narancs, piros vagy barna lehet. A FishBase szerint fogságban tenyésztik; a kereskedelemben főleg tenyésztett példányok kaphatók. A Tropus általános „Csikóhal” néven árulja, ezért az angol név szerepel. Lassú, kitartó evő: gyors, falánk halakkal (doktorhalak, ajakoshalak, korallsügérek) nem tartható, a csalánzó tengeri rózsák és egyes korallok is veszélyesek rá. Kapaszkodóhelyeket (gorgóniák, makroalgák, műanyag ágak) és mérsékelt áramlást igényel. Tenyésztett példányt érdemes venni, mert az könnyebben szokik a fagyasztott eleségre. Az ikrákat a hím költőtasakjában hordja, amely a farok alatt van.",
+   "en": "Slender, long-snouted seahorse; may be yellow, orange, red or brown. According to FishBase it has been reared in captivity; mainly captive-bred specimens are traded. Tropus sells it under the generic name 'Csikóhal', so the English name is used. A slow, deliberate feeder: it cannot be kept with fast, greedy fish (tangs, wrasses, damsels), and stinging anemones and some corals are dangerous to it. Needs hitching posts (gorgonians, macroalgae, artificial branches) and moderate flow. Choose captive-bred specimens, which accept frozen food more readily. The male carries the eggs in a brood pouch under the tail."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159446"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Hippocampus-reidi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Longsnout_Seahorse_%28Hippocampus_reidi%29.jpg/960px-Longsnout_Seahorse_%28Hippocampus_reidi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Longsnout_Seahorse_(Hippocampus_reidi).jpg",
+   "author": "Cliff",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "hippocampus-erectus",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Hippocampus erectus",
+  "name_en": "Lined Seahorse",
+  "name_hu": "Lined Seahorse",
+  "size_cm": {
+   "min": 12,
+   "max": 18
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nyugodt, párban vagy csoportban tartható csikóhal; gorgóniákba vagy tengerifűbe kapaszkodik, de a nyílt vízben is úszik.",
+   "en": "Calm seahorse that can be kept in pairs or groups; clings to gorgonians or seagrass but also swims freely in midwater."
+  },
+  "feeding": {
+   "hu": "Húsevő: a FishBase szerint hosszú orrát pipettaként használva szívja be az apró élőlényeket. Akváriumban dúsított fagyasztott mysis, élő sórák, evezőlábú rák, naponta 2–3-szor.",
+   "en": "Carnivore: according to FishBase it sucks in small organisms using its long snout as a pipette. In the aquarium enriched frozen mysis, live brine shrimp and copepods 2–3 times a day."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Kanadától (Új-Skócia selfje) Brazíliáig, a Mexikói-öböl országaival és Nyugat-Indiákkal. Telente mélyebb vízbe húzódik.",
+   "en": "Western Atlantic: Canada (off the Scotian Shelf) to Brazil, including the Gulf of Mexico and the West Indies. Moves into deeper water in winter."
+  },
+  "notes": {
+   "hu": "Testén finom vonalak láthatók. A FishBase szerint fogságban tenyésztik; a tenyésztett példányok a legjobb kezdő csikóhalak közé tartoznak, és hűvösebb vizet (22–24 °C) is tűrnek. A Tropus általános „Csikóhal” néven árulja, ezért az angol név szerepel. Lassú, kitartó evő: gyors, falánk halakkal (doktorhalak, ajakoshalak, korallsügérek) nem tartható, a csalánzó tengeri rózsák és egyes korallok is veszélyesek rá. Kapaszkodóhelyeket (gorgóniák, makroalgák, műanyag ágak) és mérsékelt áramlást igényel. Tenyésztett példányt érdemes venni, mert az könnyebben szokik a fagyasztott eleségre. Az ikrákat a hím költőtasakjában hordja, amely a farok alatt van.",
+   "en": "Fine lines run along its body. According to FishBase it has been reared in captivity; captive-bred specimens are among the best beginner seahorses and also tolerate cooler water (22–24 °C). Tropus sells it under the generic name 'Csikóhal', so the English name is used. A slow, deliberate feeder: it cannot be kept with fast, greedy fish (tangs, wrasses, damsels), and stinging anemones and some corals are dangerous to it. Needs hitching posts (gorgonians, macroalgae, artificial branches) and moderate flow. Choose captive-bred specimens, which accept frozen food more readily. The male carries the eggs in a brood pouch under the tail."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159445"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Hippocampus-erectus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Hippocampus_erectus_340674824.jpg/500px-Hippocampus_erectus_340674824.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hippocampus_erectus_340674824.jpg",
+   "author": "Pauline Walsh Jacobson",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "dunckerocampus-dactyliophorus",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Dunckerocampus dactyliophorus",
+  "name_en": "Ringed Pipefish / Banded Pipefish",
+  "name_hu": "Csíkos csőhal",
+  "size_cm": {
+   "min": 15,
+   "max": 19
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 250,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés csőhal, amely magányosan, párban vagy kis csoportokban él barlangokban és peremek alatt. Gyors, falánk halak mellett éhezik.",
+   "en": "Peaceful pipefish living alone, in pairs or small groups in caves and under ledges. Starves next to fast, greedy fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: a természetben apró gerinctelenek; akváriumban élő vagy fagyasztott copepoda, apró mysis, sórák, naponta többször. Egyes példányok parazitákat is leszednek más halakról.",
+   "en": "Carnivore: small invertebrates in the wild; in the aquarium live or frozen copepods, small mysis and brine shrimp several times a day. Some individuals also pick parasites off other fish."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Szamoáig; északon Japánig, délen Ausztráliáig. Árapálymedencékben, lagúnákban és külső zátonylejtőkön.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Samoa; north to Japan, south to Australia. Tide pools, lagoons and outer reef slopes."
+  },
+  "notes": {
+   "hu": "Piros-fehér gyűrűs test, feltűnő farokúszó. A Tropus a régebbi Doryrhamphus dactyliophorus néven árulja; a WoRMS szerint az érvényes név Dunckerocampus dactyliophorus. A FishBase szerint fogságban tenyésztik. Csalánzó korallok és tengeri rózsák mellett kerülendő. Az ikrákat a hím hordja.",
+   "en": "Red-and-white ringed body with a conspicuous tail fin. Tropus sells it under the older name Doryrhamphus dactyliophorus; the valid name in WoRMS is Dunckerocampus dactyliophorus. According to FishBase it has been reared in captivity. Avoid strongly stinging corals and anemones. The male carries the eggs."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218005"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Doryrhamphus-dactyliophorus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Pez_pipa_bandeado_%28Dunckerocampus_dactyliophorus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_279.jpg/960px-Pez_pipa_bandeado_%28Dunckerocampus_dactyliophorus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_279.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_pipa_bandeado_(Dunckerocampus_dactyliophorus),_Anilao,_Filipinas,_2023-08-25,_DD_279.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "syngnathoides-biaculeatus",
+  "group": "fish",
+  "category": "seahorses",
+  "scientific_name": "Syngnathoides biaculeatus",
+  "name_en": "Alligator Pipefish",
+  "name_hu": "Sárga csőhal",
+  "size_cm": {
+   "min": 20,
+   "max": 29
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nyugodt, lassú csőhal, amely védett, sekély part menti vizekben algák, tengerifű vagy sodródó hínár között él; farkával kapaszkodik.",
+   "en": "Calm, slow pipefish living in sheltered coastal shallows among algae, seagrass or floating weed; holds on with its tail."
+  },
+  "feeding": {
+   "hu": "Húsevő: naponta 2–3-szor dúsított fagyasztott mysis, élő sórák és evezőlábú rák; a vadon fogott példányok gyakran csak élő eleséget fogadnak el.",
+   "en": "Carnivore: enriched frozen mysis 2–3 times a day, live brine shrimp and copepods; wild-caught specimens often accept only live food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és a dél-afrikai Knysnától Szamoáig; északon Dél-Japánig, délen Új-Dél-Walesig.",
+   "en": "Indo-Pacific: Red Sea and Knysna, South Africa, to Samoa; north to southern Japan, south to New South Wales."
+  },
+  "notes": {
+   "hu": "Zöldes-sárgás, hosszú test, csavarodó farok. A FishBase szerint 29 cm-re is megnő, és fogságban már tenyésztették. Csikóhalakkal együtt, nyugodt fajakváriumban tartható. Az ikrákat a hím hordja.",
+   "en": "Greenish-yellow elongated body with a prehensile tail. FishBase gives up to 29 cm and notes it has been reared in captivity. Can be kept with seahorses in a calm species tank. The male carries the eggs."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218035"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Syngnathoides-biaculeatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Syngnathoides_biaculeatus_04.JPG/960px-Syngnathoides_biaculeatus_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Syngnathoides_biaculeatus_04.JPG",
+   "author": "Bjoertvedt",
+   "license": "CC BY-SA 3.0"
+  }
+ }
+]

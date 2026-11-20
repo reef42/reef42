@@ -5,7 +5,7 @@
   "category": "blennies",
   "scientific_name": "Salarias fasciatus",
   "name_en": "Lawnmower Blenny",
-  "name_hu": "Fűnyíró blenny",
+  "name_hu": "Fűnyíró nyálkáshal",
   "size_cm": {
    "min": 10,
    "max": 14
@@ -70,7 +70,7 @@
   "category": "blennies",
   "scientific_name": "Salarias ramosus",
   "name_en": "Starry Blenny",
-  "name_hu": "Csillagos blenny",
+  "name_hu": "Csillagos nyálkáshal",
   "size_cm": {
    "min": 10,
    "max": 14
@@ -93,7 +93,7 @@
   "reef_safety": "with-caution",
   "behavior": {
    "en": "Similar to the lawnmower blenny; perches on rocks and grazes algae. Individual specimens may nip corals.",
-   "hu": "A fűnyíró blennyhez hasonló; a köveken ül és algát legel. Egyes példányok csipkedhetik a korallokat."
+   "hu": "A fűnyíró nyálkáshalhez hasonló; a köveken ül és algát legel. Egyes példányok csipkedhetik a korallokat."
   },
   "feeding": {
    "en": "Herbivore: algae film, nori, spirulina.",
@@ -135,7 +135,7 @@
   "category": "blennies",
   "scientific_name": "Ecsenius bicolor",
   "name_en": "Bicolor Blenny",
-  "name_hu": "Kétszínű blenny",
+  "name_hu": "Kétszínű nyálkáshal",
   "size_cm": {
    "min": 7,
    "max": 10
@@ -158,7 +158,7 @@
   "reef_safety": "with-caution",
   "behavior": {
    "en": "Small, curious blenny that darts into holes; may fight with other blennies or gobies.",
-   "hu": "Kis, kíváncsi blenny, amely lyukakba cikázik; más blennikkel vagy gébhalakkal összeverekedhet."
+   "hu": "Kis, kíváncsi nyálkáshal, amely lyukakba cikázik; más blennikkel vagy gébhalakkal összeverekedhet."
   },
   "feeding": {
    "en": "Herbivore/omnivore: algae, spirulina, mysis, small pellets.",
@@ -170,7 +170,7 @@
   },
   "notes": {
    "en": "Good nano reef blenny; occasional SPS polyp nipping has been reported.",
-   "hu": "Jó nano zátony-blenny; SPS polipcsipkelésről időnként beszámolnak."
+   "hu": "Jó nano zátony-nyálkáshal; SPS polipcsipkelésről időnként beszámolnak."
   },
   "diseases": [
    "marine-ich",
@@ -223,7 +223,7 @@
   "reef_safety": "reef-safe",
   "behavior": {
    "en": "Reef-safe fang blenny; venomous bite deters predators. Peaceful but active. Pairs possible.",
-   "hu": "Korallbiztos méregfogú blenny; méregcsípése elriasztja a ragadozókat. Békés, de aktív. Párosan is tartható."
+   "hu": "Korallbiztos méregfogú nyálkáshal; méregcsípése elriasztja a ragadozókat. Békés, de aktív. Párosan is tartható."
   },
   "feeding": {
    "en": "Carnivore: mysis, brine shrimp, small pellets.",
@@ -255,6 +255,201 @@
    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Yellowtail_fangblenny_%28Meiacanthus_atrodorsalis%29_%2841734731570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
    "source": "Wikimedia Commons",
    "source_page": "https://commons.wikimedia.org/wiki/File:Yellowtail_fangblenny_(Meiacanthus_atrodorsalis)_(41734731570).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "meiacanthus-grammistes",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Meiacanthus grammistes",
+  "name_en": "Striped Fangblenny",
+  "name_hu": "Csíkos méregfogú nyálkáshal",
+  "size_cm": {
+   "min": 9,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful fangblenny with venomous fangs used only in self-defence; hovers mid-water unlike most blennies.",
+   "hu": "Békés méregfogú nyálkáshal, amelynek méregfogait kizárólag önvédelemre használja; a legtöbb nyálkáshalval ellentétben a víz közepén lebeg."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, cyclops and small pellets.",
+   "hu": "Húsevő: mysis, sórák, cyclops és kis pellet."
+  },
+  "origin": {
+   "en": "Western Pacific: Indochina to Papua New Guinea, north to the Ryukyu Islands, south to northwestern Australia and the Great Barrier Reef.",
+   "hu": "Nyugat-Csendes-óceán: Indokínától Pápua Új-Guineáig, északon a Rjúkjú-szigetekig, délen Ausztrália északnyugati részéig és a Nagy Korallzátonyig."
+  },
+  "notes": {
+   "en": "Its bite is painful to humans only if handled. Do not keep with aggressive fish that may attack it.",
+   "hu": "Csak kézbe véve fájó a harapása. Agresszív, rá támadó halakkal ne tartsuk együtt."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=279310"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Meiacanthus-grammistes.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Meiacanthus_grammistes.JPG/960px-Meiacanthus_grammistes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Meiacanthus_grammistes.JPG",
+   "author": "Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "meiacanthus-smithi",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Meiacanthus smithi",
+  "name_en": "Smith's Fangblenny",
+  "name_hu": "Smithi méregfogú nyálkáshal",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Slim, pearl-white fangblenny with a black eye-stripe; swims mid-water in short hops.",
+   "hu": "Karcsú, gyöngyfehér méregfogú nyálkáshal fekete szemcsíkkal; rövid ugrásokkal úszkál a víz közepén."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, cyclops and small pellets.",
+   "hu": "Húsevő: mysis, sórák, cyclops és kis pellet."
+  },
+  "origin": {
+   "en": "Indo-West Pacific: northern Sri Lanka and the western Java Sea; reported from southeast India.",
+   "hu": "Indo-Nyugat-Csendes-óceán: Srí Lanka északi része és a Jáva-tenger nyugati része; Délkelet-Indiából is jelentve."
+  },
+  "notes": {
+   "en": "Venomous fangs serve purely for self-defence. Hardy and easy to keep in peaceful community tanks.",
+   "hu": "Méregfogai tisztán önvédelemre szolgálnak. Ellenálló és könnyen tartható békés közösségi akváriumokban."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219308"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Meiacanthus-smithi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Meiacanthus_smithi_188584846.jpg/960px-Meiacanthus_smithi_188584846.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Meiacanthus_smithi_188584846.jpg",
+   "author": "Emanuele Santarelli",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ecsenius-namiyei",
+  "group": "fish",
+  "category": "blennies",
+  "scientific_name": "Ecsenius namiyei",
+  "name_en": "Black Comb-tooth Blenny",
+  "name_hu": "Sárgafarkú nyálkáshal",
+  "size_cm": {
+   "min": 9,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 8
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Dark comb-tooth blenny with a yellow tail; perches on rocks and grazes algae and detritus.",
+   "hu": "Sötét testű, sárga farkú fésűsfogú nyálkáshal; köveken ülve algát és detrituszt legel."
+  },
+  "feeding": {
+   "en": "Herbivore-leaning omnivore: algae, spirulina, mysis and small pellets.",
+   "hu": "Növényevőre hajló mindenevő: algák, spirulina, mysis és kis pellet."
+  },
+  "origin": {
+   "en": "Western Pacific: Taiwan to the Solomon Islands.",
+   "hu": "Nyugat-Csendes-óceán: Tajvantól a Salamon-szigetekig."
+  },
+  "notes": {
+   "en": "Larger blennies may nip at small-polyp corals or clam mantles — keep an eye on it in SPS-heavy tanks.",
+   "hu": "A nagyobb nyálkáshalak csipkedhetik a kis polipú korallokat vagy a kagylókötöpenyt — SPS-ben gazdag akváriumban figyeljük."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277668"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Ecsenius-namiyei.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Black_combtooth-blenny_%28Ecsenius_namiyei%29.jpg/960px-Black_combtooth-blenny_%28Ecsenius_namiyei%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Black_combtooth-blenny_(Ecsenius_namiyei).jpg",
    "author": "Rickard Zerpe",
    "license": "CC BY 2.0"
   }

@@ -1,0 +1,724 @@
+[
+ {
+  "id": "pseudanthias-squamipinnis",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias squamipinnis",
+  "name_en": "Lyretail Anthias",
+  "name_hu": "Lírafarkú anthias",
+  "size_cm": {
+   "min": 9,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Schooling haremic species (one male, several females); peaceful mid-water plankton feeders.",
+   "hu": "Rajban élő, háremes faj (egy hím, több nőstény); békés, a vízoszlopban planktont fogyaszt."
+  },
+  "feeding": {
+   "en": "Planktivore: small meaty foods at least 2-3x daily (mysis, roe, copepods).",
+   "hu": "Planktonevő: napi legalább 2-3-szor kis húsos táplálék (mysis, ikra, evezőlábú rákok)."
+  },
+  "origin": {
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
+   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+  },
+  "notes": {
+   "en": "Vivid orange reef fish that brings constant motion; sensitive to poor water quality and underfeeding.",
+   "hu": "Élénk narancs zátonyhal, folyamatos mozgást hoz az akváriumba; érzékeny a rossz vízminőségre és az aluletetésre."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218278"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-squamipinnis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anthias_cola_de_lira_%28Pseudanthias_squamipinnis%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_34.jpg/1280px-Anthias_cola_de_lira_%28Pseudanthias_squamipinnis%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anthias_cola_de_lira_(Pseudanthias_squamipinnis),_Mahé,_Seychelles,_2025-09-07,_DD_34.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "nemanthias-dispar",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Nemanthias dispar",
+  "name_en": "Peach Fairy Basslet / Dispar Anthias",
+  "name_hu": "Barack anthias",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, csapatban élő anthias; a természetben meredek külső zátonylejtők peremén, mérsékelt áramlásban nagy, vegyes ivarú rajokban táplálkozik. Akváriumban egy hím mellé több nőstény ajánlott.",
+   "en": "Peaceful shoaling anthias; in the wild it feeds in large mixed-sex aggregations along the upper edge of steep outer reef slopes in moderate current. In the aquarium keep one male with several females."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta legalább 2–3 etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; at least 2–3 feedings a day."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: a keleti Indiai-óceánban a Karácsony-szigettől a Line-szigetekig; északon a Jaejama-szigetekig, délen a Nagy-korallzátonyig, Fidzsiig és Szamoáig. Az Indiai-óceánban a Pseudanthias ignitus helyettesíti.",
+   "en": "Pacific Ocean: Christmas Island in the eastern Indian Ocean to the Line Islands; north to the Yaeyama Islands, south to the Great Barrier Reef, Fiji and Samoa. Replaced by Pseudanthias ignitus in the Indian Ocean."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Nemanthias dispar (Gill 2022-es anthias-revíziója óta); a boltokban Pseudanthias dispar és Mirolabrichthys dispar néven is szerepel. Az Acropora „dispar / ignitis” néven árulja, mert a két hasonló faj (N. dispar és P. ignitus) a kereskedelemben keveredik. A hímek háta piros, testük barackszínű.",
+   "en": "In WoRMS the valid name is Nemanthias dispar (following Gill's 2022 revision of the anthias genera); shops also sell it as Pseudanthias dispar és Mirolabrichthys dispar. Acropora lists it as 'dispar / ignitis' because the two similar species (N. dispar and P. ignitus) are mixed in the trade. Males have a red dorsal fin and a peach-coloured body."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1908927"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Nemanthias-dispar.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pseudanthias_dispar_-_Anthias_p%C3%AAche%2C_Barbier_-_Aqua_Porte_Dor%C3%A9e_01.JPG/960px-Pseudanthias_dispar_-_Anthias_p%C3%AAche%2C_Barbier_-_Aqua_Porte_Dor%C3%A9e_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pseudanthias_dispar_-_Anthias_pêche,_Barbier_-_Aqua_Porte_Dorée_01.JPG",
+   "author": "Cedricguppy - Loury Cédric",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "mirolabrichthys-evansi",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Mirolabrichthys evansi",
+  "name_en": "Yellowback Anthias",
+  "name_hu": "Sárgahátú anthias",
+  "size_cm": {
+   "min": 9,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, csapatban élő anthias, amely a zátonyfalak felső részén és a külső lagúnákban rajokban úszik. Csoportban, sok úszótérrel tartandó.",
+   "en": "Peaceful schooling anthias that swims in groups along the upper parts of drop-offs and in outer reef lagoons. Keep in a group with plenty of swimming space."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indiai-óceán: Kelet-Afrikától a Cocos (Keeling)- és a Karácsony-szigetig, északon az Andamán-tengerig.",
+   "en": "Indian Ocean: East Africa to the Cocos-Keeling and Christmas islands, north to the Andaman Sea."
+  },
+  "notes": {
+   "hu": "Lila test, sárga hát és farok. A WoRMS szerint az érvényes név Mirolabrichthys evansi (Gill 2022-es anthias-revíziója óta); a boltokban Pseudanthias evansi néven is szerepel. A FishBase szerinti maximális méret 12 cm standard hossz (SL).",
+   "en": "Purple body with a yellow back and tail. In WoRMS the valid name is Mirolabrichthys evansi (following Gill's 2022 revision of the anthias genera); shops also sell it as Pseudanthias evansi. FishBase gives a maximum of 12 cm standard length (SL)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=312504"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Mirolabrichthys-evansi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Anthias_%28Mirolabrichthys_evansi%29%2C_Mauricio%2C_2025-09-24%2C_DD_76.jpg/960px-Anthias_%28Mirolabrichthys_evansi%29%2C_Mauricio%2C_2025-09-24%2C_DD_76.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anthias_(Mirolabrichthys_evansi),_Mauricio,_2025-09-24,_DD_76.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pseudanthias-bimaculatus",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias bimaculatus",
+  "name_en": "Two-spot Anthias",
+  "name_hu": "Kétfoltos anthias",
+  "size_cm": {
+   "min": 11,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias, amely a természetben part menti zátonyfalak mentén él. Csoportban, egy hímmel és több nősténnyel tartandó.",
+   "en": "Peaceful anthias that lives along coastal drop-offs. Keep in a group of one male and several females."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Kelet-Afrika, a Maldív-szigetek és Indonézia.",
+   "en": "Indo-West Pacific: East Africa, the Maldives and Indonesia."
+  },
+  "notes": {
+   "hu": "A Tropus „Sárga-lila anthias” néven árulja. A FishBase szerint a közeli rokon P. pleurotaenia fajjal együtt ívhat, és véletlen hibridek is előfordulnak.",
+   "en": "Sold by Tropus as 'Sárga-lila anthias'. According to FishBase it may spawn alongside the closely related P. pleurotaenia, producing occasional hybrids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218274"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-bimaculatus.html"
+   }
+  ]
+ },
+ {
+  "id": "pyronotanthias-flavoguttatus",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pyronotanthias flavoguttatus",
+  "name_en": "Yellow-spotted Anthias",
+  "name_hu": "Sárgafoltos anthias",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias, amely a természetben nagy, gyakran más anthiasokkal vegyes rajokban él.",
+   "en": "Peaceful anthias that forms large schools in the wild, often mixed with other anthias."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Karácsony-szigettől, Indonéziától, Palautól és a Marshall-szigetektől északra Japánig.",
+   "en": "Indo-West Pacific: from Christmas Island, Indonesia, Palau and the Marshall Islands north to Japan."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Pyronotanthias flavoguttatus (Gill 2022-es anthias-revíziója óta); a boltokban Pseudanthias flavoguttatus néven is szerepel. A FishBase szerint a hímek legfeljebb 10,2 cm, a nőstények 8,2 cm standard hosszúak (SL).",
+   "en": "In WoRMS the valid name is Pyronotanthias flavoguttatus (following Gill's 2022 revision of the anthias genera); shops also sell it as Pseudanthias flavoguttatus. According to FishBase males reach 10.2 cm and females 8.2 cm standard length (SL)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1803578"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pyronotanthias-flavoguttatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Pseudanthias_flavoguttatus_%2810.5281-zenodo.4050419%29_Figure_8.png/960px-Pseudanthias_flavoguttatus_%2810.5281-zenodo.4050419%29_Figure_8.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pseudanthias_flavoguttatus_(10.5281-zenodo.4050419)_Figure_8.png",
+   "author": "Victor, Benjamin C., Teitelbaum, Antoine, & Randall, John E. (2020). Pseudanthias timanoa, a new fairy basslet from New Caledonia, South Pacific (Teleostei: Serranidae: Anthiadinae",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "nemanthias-bicolor",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Nemanthias bicolor",
+  "name_en": "Bicolor Anthias",
+  "name_hu": "Kétszínű anthias",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias, amely a természetben kis csoportokban él korallkiemelkedések fölött vagy hasadékok, peremek közelében, áramlásos helyeken.",
+   "en": "Peaceful anthias living in small groups above coral outcrops or near crevices and ledges in current-prone areas."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Mauritiustól a Hawaii- és a Line-szigetekig; északon a Rjúkjú-szigetekig, délen a Loyalty-szigetekig; Mikronéziában a Marshall- és a Karolina-szigetek.",
+   "en": "Indo-Pacific: Mauritius to the Hawaiian and Line islands; north to the Ryukyu Islands, south to the Loyalty Islands; Marshall and Caroline islands in Micronesia."
+  },
+  "notes": {
+   "hu": "Narancssárga felső és rózsaszínes-lila alsó testfél. A WoRMS szerint az érvényes név Nemanthias bicolor (Gill 2022-es anthias-revíziója óta); a boltokban Pseudanthias bicolor néven is szerepel.",
+   "en": "Orange upper half and pinkish-lilac lower half. In WoRMS the valid name is Nemanthias bicolor (following Gill's 2022 revision of the anthias genera); shops also sell it as Pseudanthias bicolor."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1770896"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Nemanthias-bicolor.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/HutairoHG.jpg/500px-HutairoHG.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:HutairoHG.jpg",
+   "author": "Izuzuki",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "pseudanthias-kashiwae",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias kashiwae",
+  "name_en": "Kashiwae Anthias / Whitemask Anthias",
+  "name_hu": "Fehérmaszkos anthias",
+  "size_cm": {
+   "min": 11,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias, amely a természetben 20 m-nél mélyebben, áramlásos zátonyfalak mentén laza kis csoportokban él.",
+   "en": "Peaceful anthias that lives in small, loose aggregations along current-swept drop-offs, usually deeper than 20 m."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán (a FishBase a P. cooperi néven adja meg): Kelet-Afrikától Szamoáig és a Line-szigetekig; északon Dél-Japánig, délen a Nagy-korallzátonyig.",
+   "en": "Indo-Pacific (given by FishBase under P. cooperi): East Africa to Samoa and the Line Islands; north to southern Japan, south to the Great Barrier Reef."
+  },
+  "notes": {
+   "hu": "A WoRMS és a FishBase a Pseudanthias kashiwae nevet a Pseudanthias cooperi szinonimájaként kezeli; a kereskedelemben a fehér arcmaszkos, mélyvízi formát árulják kashiwae néven. A méretadat a P. cooperi FishBase-lapjáról származik.",
+   "en": "WoRMS and FishBase treat Pseudanthias kashiwae as a synonym of Pseudanthias cooperi; the trade sells the white-masked deep-water form as kashiwae. The size data come from the P. cooperi FishBase page."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218275"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-kashiwae.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/KashiwaHDsnup.jpg/500px-KashiwaHDsnup.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:KashiwaHDsnup.jpg",
+   "author": "Izuzuki",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "pseudanthias-pleurotaenia",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias pleurotaenia",
+  "name_en": "Square-spot Anthias",
+  "name_hu": "Kockás anthias",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias; a természetben áramlásos zátonyfalak pereme fölött néhány méterrel él, a hímek és nőstények külön vagy vegyes csoportokban. A fiatalok magányosak és rejtekhely közelében maradnak.",
+   "en": "Peaceful anthias that lives a few metres above the edges of current-swept drop-offs, with males and females in separate or mixed groups. Juveniles are solitary and stay near shelter."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: Indonéziától Szamoáig; északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig, a keleti Indiai-óceánban a Rowley Shoalsig és a Karácsony-szigetig.",
+   "en": "Pacific Ocean: Indonesia to Samoa; north to the Ryukyu Islands, south to New Caledonia, Rowley Shoals and Christmas Island in the eastern Indian Ocean."
+  },
+  "notes": {
+   "hu": "A hímek oldalán jellegzetes, négyzet alakú bíbor folt van. A FishBase szerint ritkán kerül kereskedelembe; mélyebb vízből gyűjtik, ezért visszafogottabb fényt és kiváló vízminőséget igényel.",
+   "en": "Males bear a distinctive square magenta patch on the side. According to FishBase it is seldom seen in the trade; collected from deeper water, it needs subdued light and excellent water quality."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277473"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-pleurotaenia.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Squarespot_anthias_%28Pseudanthias_pleurotaenia%29_%2829887548488%29.jpg/960px-Squarespot_anthias_%28Pseudanthias_pleurotaenia%29_%2829887548488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Squarespot_anthias_(Pseudanthias_pleurotaenia)_(29887548488).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pseudanthias-pulcherrimus",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias pulcherrimus",
+  "name_en": "Resplendent Anthias",
+  "name_hu": "Lila anthias",
+  "size_cm": {
+   "min": 6,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Kis termetű, békés anthias, amely a természetben barlangok, peremek és meredek falak közelében kis csoportokban él 10–70 m mélyen.",
+   "en": "Small, peaceful anthias living in small groups near caves, ledges and steep drop-offs at 10–70 m."
+  },
+  "feeding": {
+   "hu": "Planktonevő: copepoda, apró mysis, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: copepods, small mysis, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: Andamán-szigetek, Maldív-szigetek, Csagosz-szigetek, Seychelle-szigetek és Mauritius.",
+   "en": "Western Indian Ocean: Andaman Islands, Maldives, Chagos Archipelago, Seychelles and Mauritius."
+  },
+  "notes": {
+   "hu": "A Tropus „Lila anthias” néven árulja. Kis mérete miatt kisebb akváriumba is alkalmas a nagyobb anthiasoknál. A FishBase szerinti maximális méret 7 cm standard hossz (SL).",
+   "en": "Sold by Tropus as 'Lila anthias'. Its small size makes it suitable for smaller tanks than the larger anthias. FishBase gives a maximum of 7 cm standard length (SL)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218279"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-pulcherrimus.html"
+   }
+  ]
+ },
+ {
+  "id": "pseudanthias-rubrizonatus",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Pseudanthias rubrizonatus",
+  "name_en": "Red-belted Anthias",
+  "name_hu": "Vörösöves anthias",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés anthias, amely a természetben elszigetelt korallfejek és törmelékfoltok körül csoportosul; a fiatalok kikötőkbe és iszapos sziklás zátonyokra is behatolnak.",
+   "en": "Peaceful anthias that aggregates around isolated coral heads and rubble patches; juveniles also enter harbours and silty rocky reefs."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra, finom pellet; naponta többszöri etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods, fish roe, fine pellets; several feedings a day."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: az Andamán-tengertől a Salamon-szigetekig; északon Dél-Japánig, délen Északnyugat-Ausztráliáig és a Nagy-korallzátonyig.",
+   "en": "Western Pacific: Andaman Sea to the Solomon Islands; north to southern Japan, south to north-western Australia and the Great Barrier Reef."
+  },
+  "notes": {
+   "hu": "A hímek testén jellegzetes vörös öv látható. A rossz vízminőségre és az aluletetésre érzékeny, mint a legtöbb anthias.",
+   "en": "Males show a distinctive red belt. Like most anthias it is sensitive to poor water quality and underfeeding."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277477"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudanthias-rubrizonatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AkaobiHDsnup.jpg/500px-AkaobiHDsnup.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:AkaobiHDsnup.jpg",
+   "author": "Izuzuki",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "mirolabrichthys-tuka",
+  "group": "fish",
+  "category": "anthias",
+  "scientific_name": "Mirolabrichthys tuka",
+  "name_en": "Purple Queen Anthias / Yellowstriped Fairy Basslet",
+  "name_hu": "Sárgacsíkos anthias",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, csapatban élő anthias, amely a természetben külső zátonylejtőkön, 30 m-nél mélyebbre is lehúzódó rajokban él.",
+   "en": "Peaceful schooling anthias that lives in aggregations on outer reef slopes, down to more than 30 m."
+  },
+  "feeding": {
+   "hu": "Planktonevő: a természetben planktonikus rákok és halikra; akváriumban mysis, copepoda, halikra, finom pellet, naponta többször. Gyakran nehezen szokik rá az akváriumi eleségre.",
+   "en": "Planktivore: planktonic crustaceans and fish eggs in the wild; in the aquarium mysis, copepods, fish roe and fine pellets several times a day. Often hard to wean onto aquarium food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Mauritiustól a Fülöp-szigetekig és Balitól a Salamon-szigetekig; délen a Rowley Shoalsig és a Nagy-korallzátonyig; Mikronéziában Palau; Dél-Japánból is jelezték.",
+   "en": "Indo-West Pacific: Mauritius to the Philippines and Bali to the Solomon Islands; south to Rowley Shoals and the Great Barrier Reef; Palau in Micronesia; also reported from southern Japan."
+  },
+  "notes": {
+   "hu": "Lila test sárga hátcsíkkal. A WoRMS szerint az érvényes név Mirolabrichthys tuka (Gill 2022-es anthias-revíziója óta); a boltokban Pseudanthias tuka néven is szerepel. Az anthiasok közül az érzékenyebbek közé tartozik; csak érett, stabil akváriumba.",
+   "en": "Purple body with a yellow dorsal stripe. In WoRMS the valid name is Mirolabrichthys tuka (following Gill's 2022 revision of the anthias genera); shops also sell it as Pseudanthias tuka. One of the more delicate anthias; only for mature, stable aquaria."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=312510"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Mirolabrichthys-tuka.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Purple_anthias_%28Pseudanthias_tuka%29_%2848279160591%29.jpg/960px-Purple_anthias_%28Pseudanthias_tuka%29_%2848279160591%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Purple_anthias_(Pseudanthias_tuka)_(48279160591).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ }
+]

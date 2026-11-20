@@ -1,0 +1,460 @@
+[
+ {
+  "id": "synchiropus-splendidus",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus splendidus",
+  "name_en": "Green Mandarin / Mandarin Dragonet",
+  "name_hu": "Közönséges mandarinhal",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": 4,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 12
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful bottom-dweller with a slow, hopping swim style; males fight each other.",
+   "hu": "Békés talajlakó, lassú, ugráló úszástól; a hímek egymással verekednek."
+  },
+  "feeding": {
+   "en": "Live copepod specialist; needs a mature tank with a large refugium or regular pod supplementation. Some accept frozen mysis/roe with training.",
+   "hu": "Élő evezőlábú-rák specialista; érett akváriumot, nagy refugiumot vagy rendszeres 'pod'-utánpótlást igényel. Egyes példányok betanítással fagyasztott mysist/ikrát is elfogadnak."
+  },
+  "origin": {
+   "en": "Western Pacific: Ryukyu Islands to Australia (Queensland).",
+   "hu": "Nyugat-Csendes-óceán: Ryukyu-szigetektől Ausztráliáig (Queensland)."
+  },
+  "notes": {
+   "en": "Iconic psychedelic fish; only add to tanks at least 6-12 months old with visible pod populations. Captive-bred specimens trained to frozen foods are the better choice.",
+   "hu": "Ikonszerű pszichedelikus hal; csak legalább 6-12 hónapos, látható evezőlábú-populációjú akváriumba tegyük. A fagyasztottra betanított tenyésztett példányok a jobb választás."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273264"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-splendidus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Peces_mandar%C3%ADn_%28Synchiropus_splendidus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_226.jpg/1280px-Peces_mandar%C3%ADn_%28Synchiropus_splendidus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Peces_mandarín_(Synchiropus_splendidus),_Anilao,_Filipinas,_2023-08-24,_DD_226.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "synchiropus-picturatus",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus picturatus",
+  "name_en": "Psychedelic Mandarin / Target Mandarin",
+  "name_hu": "Pettyes mandarinhal",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": 4,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 12
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Same habits as the green mandarin; peaceful, slow, copepod-hunting bottom-dweller.",
+   "hu": "A közönséges mandarinhallal azonos életmódú; békés, lassú, evezőlábúakra vadászó talajlakó."
+  },
+  "feeding": {
+   "en": "Live copepods primarily; mature tank with refugium strongly recommended.",
+   "hu": "Főként élő evezőlábú rákok; érett akvárium refugiummal erősen ajánlott."
+  },
+  "origin": {
+   "en": "Western Pacific: Philippines and Indonesia to New Guinea.",
+   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetek és Indonézia Új-Guineáig."
+  },
+  "notes": {
+   "en": "Green-and-black spotted variant; identical care requirements to S. splendidus.",
+   "hu": "Zöld-fekete pöttyös rokon faj; a gondozása azonos az S. splendiduséval."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273257"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-picturatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Callionymoidei_-_Synchiropus_picturatus_-_1.jpg/1280px-Callionymoidei_-_Synchiropus_picturatus_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Callionymoidei_-_Synchiropus_picturatus_-_1.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "synchiropus-marmoratus",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus marmoratus",
+  "name_en": "Marbled Dragonet",
+  "name_hu": "Márványos mandarinhal",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, a fenéken mozgó mandarinhal, amely a természetben algák és tengerifű között él. A hímek egymással verekednek.",
+   "en": "Peaceful bottom-dwelling dragonet that lives among algae and seagrass in the wild. Males fight each other."
+  },
+  "feeding": {
+   "hu": "Élő evezőlábú rákok (copepoda) és apró fenéklakó gerinctelenek; érett, legalább 6–12 hónapos, refugiumos akvárium kell. Egyes példányok betaníthatók fagyasztott eleségre.",
+   "en": "Live copepods and small benthic invertebrates; needs a mature tank (at least 6–12 months old) with a refugium. Some individuals can be trained onto frozen food."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: délen a mozambiki Delagoa-öbölig.",
+   "en": "Western Indian Ocean: south to Delagoa Bay, Mozambique."
+  },
+  "notes": {
+   "hu": "A nagyobb mandarinhalak közé tartozik: a FishBase szerint a hímek 13, a nőstények 11 cm-esek. A Tropus „Vörös mandarinhal” (S. moyeri / S. marmoratus), illetve „Foltos mandarinhal” (S. stellatus / S. marmoratus) termékként is árulja.",
+   "en": "One of the larger dragonets: according to FishBase males reach 13 cm and females 11 cm. Tropus also sells it under combined products with S. moyeri and S. stellatus."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219786"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-marmoratus.html"
+   }
+  ]
+ },
+ {
+  "id": "synchiropus-stellatus",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus stellatus",
+  "name_en": "Starry Dragonet",
+  "name_hu": "Csillagos mandarinhal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, a fenéken mozgó mandarinhal, amely a természetben védett zátonyokon, törmeléken és algás köveken él. Egy hím tartható egy akváriumban.",
+   "en": "Peaceful bottom-dwelling dragonet that lives on protected reefs over rubble and algae-covered rocks. Keep only one male per tank."
+  },
+  "feeding": {
+   "hu": "Élő evezőlábú rákok (copepoda) és apró fenéklakó gerinctelenek; érett, legalább 6–12 hónapos, refugiumos akvárium kell. Egyes példányok betaníthatók fagyasztott eleségre.",
+   "en": "Live copepods and small benthic invertebrates; needs a mature tank (at least 6–12 months old) with a refugium. Some individuals can be trained onto frozen food."
+  },
+  "origin": {
+   "hu": "Indiai-óceán: Kelet-Afrikától Szumátráig, valamint az óceáni szigetek környékén.",
+   "en": "Indian Ocean: East Africa to Sumatra, and around the oceanic islands."
+  },
+  "notes": {
+   "hu": "A Csendes-óceánban a hasonló Synchiropus moyeri helyettesíti. A Tropus „Foltos mandarinhal” néven, S. marmoratusszal közös termékként árulja.",
+   "en": "Replaced by the similar Synchiropus moyeri in the Pacific. Tropus sells it as 'Foltos mandarinhal' in a combined product with S. marmoratus."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219787"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-stellatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Synchiropus_stellatus_Ise_1.jpg/960px-Synchiropus_stellatus_Ise_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Synchiropus_stellatus_Ise_1.jpg",
+   "author": "Totti",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "synchiropus-sycorax",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus sycorax",
+  "name_en": "Ruby Red Dragonet",
+  "name_hu": "Vörös mandarinhal",
+  "size_cm": {
+   "min": 3,
+   "max": 4
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Apró, békés mandarinhal, amely a természetben lágy- és kőkorallokkal tarkított koralltörmeléken él. A hímek egymással szemben területvédők.",
+   "en": "Tiny, peaceful dragonet that lives on coral rubble interspersed with soft and stony corals. Males are territorial towards each other."
+  },
+  "feeding": {
+   "hu": "Élő evezőlábú rákok (copepoda) és apró fenéklakó gerinctelenek; érett, legalább 6–12 hónapos, refugiumos akvárium kell. Egyes példányok betaníthatók fagyasztott eleségre.",
+   "en": "Live copepods and small benthic invertebrates; needs a mature tank (at least 6–12 months old) with a refugium. Some individuals can be trained onto frozen food."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetek.",
+   "en": "Western Pacific: Philippines."
+  },
+  "notes": {
+   "hu": "2016-ban leírt faj. A FishBase szerint a hímek legfeljebb 4 cm, a nőstények 2,7 cm standard hosszúak (SL), így nano-akváriumba is alkalmas, ha elég az evezőlábú rák.",
+   "en": "Described in 2016. According to FishBase males reach 4 cm and females 2.7 cm standard length (SL), so it suits nano tanks if there are enough copepods."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1042751"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-sycorax.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Synchiropus_sycorax.jpg/960px-Synchiropus_sycorax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Synchiropus_sycorax.jpg",
+   "author": "Fedtred",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "synchiropus-moyeri",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Synchiropus moyeri",
+  "name_en": "Moyer's Dragonet",
+  "name_hu": "Moyer-mandarinhal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, a fenéken mozgó mandarinhal; a természetben laza kis csoportokban él, amelyekben egy nagy hím uralja a terület egy részét. Akváriumban egy hím tartható.",
+   "en": "Peaceful bottom-dwelling dragonet; in the wild it lives in small loose groups in which one large male dominates a section of reef. Keep only one male per tank."
+  },
+  "feeding": {
+   "hu": "Élő evezőlábú rákok (copepoda) és apró fenéklakó gerinctelenek; érett, legalább 6–12 hónapos, refugiumos akvárium kell. Egyes példányok betaníthatók fagyasztott eleségre.",
+   "en": "Live copepods and small benthic invertebrates; needs a mature tank (at least 6–12 months old) with a refugium. Some individuals can be trained onto frozen food."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: széles körben elterjedt; az Indiai-óceánban a Synchiropus stellatus helyettesíti.",
+   "en": "Western Pacific: widespread; replaced by Synchiropus stellatus in the Indian Ocean."
+  },
+  "notes": {
+   "hu": "A Tropus „Vörös mandarinhal” néven, S. marmoratusszal közös termékként árulja; mivel ez a név az Acroporánál a S. sycoraxé, itt a „Moyer-mandarinhal” név szerepel.",
+   "en": "Tropus sells it as 'Vörös mandarinhal' in a combined product with S. marmoratus; since Acropora uses that name for S. sycorax, 'Moyer-mandarinhal' is used here."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273252"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Synchiropus-moyeri.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/MiyakeTR.jpg/500px-MiyakeTR.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:MiyakeTR.jpg",
+   "author": "Izuzuki",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "neosynchiropus-ocellatus",
+  "group": "fish",
+  "category": "dragonets",
+  "scientific_name": "Neosynchiropus ocellatus",
+  "name_en": "Ocellated Dragonet",
+  "name_hu": "Ocellated Dragonet",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, a fenéken mozgó mandarinhal; a természetben sekély, védett sziklás zátonyokon, laza kis csoportokban él. A hímek egymással verekednek.",
+   "en": "Peaceful bottom-dwelling dragonet; in the wild it lives in small loose groups on shallow, sheltered rocky reefs. Males fight each other."
+  },
+  "feeding": {
+   "hu": "Élő evezőlábú rákok (copepoda) és apró fenéklakó gerinctelenek; érett, legalább 6–12 hónapos, refugiumos akvárium kell. Egyes példányok betaníthatók fagyasztott eleségre.",
+   "en": "Live copepods and small benthic invertebrates; needs a mature tank (at least 6–12 months old) with a refugium. Some individuals can be trained onto frozen food."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: Indonéziától a Pitcairn-szigetekig; északon Japánig, délen Ausztráliáig. Törmeléken, algagyepen és árapálymedencékben él.",
+   "en": "Pacific Ocean: Indonesia to the Pitcairn Group; north to Japan, south to Australia. Lives over rubble, algal turf and in tide pools."
+  },
+  "notes": {
+   "hu": "A Tropus a régebbi Synchiropus ocellatus néven, általános „Mandarinhal” megnevezéssel árulja; a WoRMS szerint az érvényes név Neosynchiropus ocellatus. Nincs külön használt magyar neve, ezért az angol név szerepel.",
+   "en": "Tropus sells it under the older name Synchiropus ocellatus as a generic 'Mandarinhal'; the valid name in WoRMS is Neosynchiropus ocellatus. It has no specific Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "uronema"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=315019"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Neosynchiropus-ocellatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ocellated_dragonet.jpg/500px-Ocellated_dragonet.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ocellated_dragonet.jpg",
+   "author": "David Starr Jordan and Alvin Seale",
+   "license": "Public domain"
+  }
+ }
+]

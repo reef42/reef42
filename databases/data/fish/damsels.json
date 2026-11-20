@@ -1,0 +1,1315 @@
+[
+ {
+  "id": "chromis-viridis",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chromis viridis",
+  "name_en": "Blue Green Chromis",
+  "name_hu": "Kék-zöld korallsügér",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, rajban élő korallsügér; a természetben nagy csapatokban lebeg az ágas Acropora-telepek fölött. Csapatban (legalább 5–7 példány) tartandó, mert egyesével vagy párban a fajtársak gyakran elüldözik egymást.",
+   "en": "Peaceful, shoaling damsel; in the wild it hovers in large aggregations above branching Acropora thickets. Keep in a group (at least 5–7 fish), since singles or pairs often chase each other."
+  },
+  "feeding": {
+   "hu": "Planktonevő: fagyasztott mysis, sórák, copepoda, finom pellet és pehely; naponta több kisebb adag.",
+   "en": "Planktivore: frozen mysis, brine shrimp, copepods, fine pellets and flakes; several small feedings a day."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrika partjaitól a Line-szigetekig és a Tuamotu-szigetekig; északon a Rjúkjú-szigetekig, délen a Nagy-korallzátonyig és Új-Kaledóniáig.",
+   "en": "Indo-Pacific: east coast of Africa to the Line Islands and Tuamotu Archipelago; north to the Ryukyu Islands, south to the Great Barrier Reef and New Caledonia."
+  },
+  "notes": {
+   "hu": "Az egyik legolcsóbb és legelterjedtebb zátonyhal. A rajból gyakran fokozatosan fogynak a gyengébb egyedek, ezért érdemes nagyobb csapattal indulni. Az Acropora-csoportok fölötti nyílt úszótér kedvez neki.",
+   "en": "One of the cheapest and most widespread reef fish. Weaker individuals are often whittled away from the group over time, so start with a larger shoal. Appreciates open swimming space above coral."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212811"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chromis-viridis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Chromis_viridis_wilhelma.jpg/960px-Chromis_viridis_wilhelma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chromis_viridis_wilhelma.jpg",
+   "author": "Elektrofisch",
+   "license": "CC BY-SA 3.0 de"
+  }
+ },
+ {
+  "id": "chromis-retrofasciata",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chromis retrofasciata",
+  "name_en": "Black-bar Chromis",
+  "name_hu": "Feketesávos korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Kis termetű, békés korallsügér; egyesével vagy kis csoportban él, és szorosan a sűrűn ágas korallok közelében marad. Fajtársaival szemben enyhén területvédő lehet.",
+   "en": "Small, peaceful damsel; lives singly or in small groups and stays close to thickly branching coral. Can be mildly territorial towards its own kind."
+  },
+  "feeding": {
+   "hu": "Planktonevő: fagyasztott mysis, copepoda, sórák, finom pellet.",
+   "en": "Planktivore: frozen mysis, copepods, brine shrimp, fine pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Indonéziától Fidzsiig; északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig; Tongáról is jelezték.",
+   "en": "Western Pacific: Indonesia to Fiji; north to the Ryukyu Islands, south to New Caledonia; also recorded from Tonga."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Pycnochromis retrofasciatus (a Chromis retrofasciata szinonima; a kereskedelemben a régi név használatos). A FishBase-ben megadott maximális méret 6 cm standard hossz (SL). Nano-akváriumba is jó választás.",
+   "en": "In WoRMS the valid name is Pycnochromis retrofasciatus (Chromis retrofasciata is a synonym still used in the trade). FishBase gives a maximum of 6 cm standard length (SL). A good choice for nano tanks."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1592353"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chromis-retrofasciata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Blackbar_chromis_%28Chromis_retrofasciata%29.jpg/960px-Blackbar_chromis_%28Chromis_retrofasciata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blackbar_chromis_(Chromis_retrofasciata).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chromis-dimidiata",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chromis dimidiata",
+  "name_en": "Chocolate-dip Chromis",
+  "name_hu": "Fekete-fehér korallsügér",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, csapatban élő korallsügér, amely a zátonytetők és lejtők fölött tömegesen fordul elő. Csoportban tartva a legjobb; fajtársai között rangsort alakít ki.",
+   "en": "Peaceful, shoaling damsel that occurs in large aggregations over reef tops and upper slopes. Best kept in a group; forms a hierarchy among conspecifics."
+  },
+  "feeding": {
+   "hu": "Planktonevő: fagyasztott mysis, copepoda, sórák, finom pellet és pehely.",
+   "en": "Planktivore: frozen mysis, copepods, brine shrimp, fine pellets and flakes."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: a FishBase szerint a Vörös-tengerre korlátozódik.",
+   "en": "Western Indian Ocean: restricted to the Red Sea according to FishBase."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Pycnochromis dimidiatus (a Chromis dimidiata szinonima). Az Indiai-óceán többi részéről érkező, nagyon hasonló példányok a Pycnochromis fieldi fajhoz tartozhatnak.",
+   "en": "In WoRMS the valid name is Pycnochromis dimidiatus (Chromis dimidiata is a synonym). Very similar fish from elsewhere in the Indian Ocean may belong to Pycnochromis fieldi."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1551089"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chromis-dimidiata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Pomac%C3%A9ntrido_%28Chromis_dimidiata%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_58.jpg/960px-Pomac%C3%A9ntrido_%28Chromis_dimidiata%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacéntrido_(Chromis_dimidiata),_mar_Rojo,_Egipto,_2023-04-18,_DD_58.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chrysiptera-parasema",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera parasema",
+  "name_en": "Yellowtail Blue Damsel",
+  "name_hu": "Sárgafarkú korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "A korallsügérek közül az egyik legbékésebb; kis csoportban is tartható. Más, hasonló színű kis halakkal szemben azért területvédő lehet.",
+   "en": "One of the most peaceful damsels; can be kept in small groups. May still be territorial towards other small, similarly coloured fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: fagyasztott mysis, sórák, pellet, pehely, kevés algás eleség.",
+   "en": "Omnivore: frozen mysis, brine shrimp, pellets, flakes, some algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Salamon-szigetek, Pápua Új-Guinea északi része, Fülöp-szigetek és a Rjúkjú-szigetek.",
+   "en": "Western Pacific: Solomon Islands, northern Papua New Guinea, the Philippines and the Ryukyu Islands."
+  },
+  "notes": {
+   "hu": "Élénk kék test, sárga farok. A természetben sekély, védett lagúnákban él Acropora-foltokon. Kezdőknek és közösségi zátonyakváriumba is jó választás.",
+   "en": "Bright blue body with a yellow tail. In the wild it lives in sheltered lagoons on Acropora patches. A good beginner and community reef fish."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276836"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-parasema.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Chrysiptera_parasema_01_ssj_20050812.jpg/960px-Chrysiptera_parasema_01_ssj_20050812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chrysiptera_parasema_01_ssj_20050812.jpg",
+   "author": "Paweł Cieśla Staszek_Szybki_Jest",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chrysiptera-hemicyanea",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera hemicyanea",
+  "name_en": "Azure Damselfish",
+  "name_hu": "Sárgahasú korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Félig agresszív, területvédő korallsügér. Párban vagy kis csoportban tartható, de a később betelepített halakat elüldözheti a rejtekhelyétől.",
+   "en": "Semi-aggressive, territorial damsel. Can be kept singly or in a small group, but may chase later additions away from its shelter."
+  },
+  "feeding": {
+   "hu": "Mindenevő: fagyasztott mysis, sórák, pellet, pehely; a természetben a fenék fölött planktont csipeget.",
+   "en": "Omnivore: frozen mysis, brine shrimp, pellets, flakes; in the wild it picks plankton just above the substrate."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a keleti Indiai-óceán (Rowley Shoals, Scott- és Ashmore-zátony) és Indonézia.",
+   "en": "Indo-West Pacific: eastern Indian Ocean (Rowley Shoals, Scott and Ashmore reefs) and Indonesia."
+  },
+  "notes": {
+   "hu": "Kék hát, sárga has és farok. Érdemes az utolsók között betelepíteni, hogy ne foglaljon el túl nagy területet.",
+   "en": "Blue back with a yellow belly and tail. Best added late so it does not claim too much territory."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276832"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-hemicyanea.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Azure_damsel_%28Chrysiptera_hemicyanea%29_%2839851326313%29.jpg/960px-Azure_damsel_%28Chrysiptera_hemicyanea%29_%2839851326313%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Azure_damsel_(Chrysiptera_hemicyanea)_(39851326313).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chrysiptera-talboti",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera talboti",
+  "name_en": "Talbot's Damselfish",
+  "name_hu": "Talbot-korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 120,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Kis termetű, a nemzetségen belül kifejezetten békés korallsügér; egyesével vagy kis csoportban is tartható.",
+   "en": "Small and, for its genus, notably peaceful damsel; can be kept singly or in small groups."
+  },
+  "feeding": {
+   "hu": "Planktonevő-mindenevő: copepoda, mysis, sórák, finom pellet.",
+   "en": "Planktivorous omnivore: copepods, mysis, brine shrimp, fine pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: a keleti Indiai-óceánban az Andamán-tengertől Fidzsiig; északon Palauig, délen a Nagy-korallzátony déli részéig; Tongáról is jelezték.",
+   "en": "Western Pacific: Andaman Sea in the eastern Indian Ocean to Fiji; north to Palau, south to the southern Great Barrier Reef; also recorded from Tonga."
+  },
+  "notes": {
+   "hu": "Halványlila-sárga test, a hátúszón fekete folttal. Kis zátonyakváriumok egyik legjobb korallsügér-választása.",
+   "en": "Pale lilac-yellow body with a black spot on the dorsal fin. One of the best damsel choices for small reef tanks."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276845"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-talboti.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Chrysiptera_talboti_-_Demoiselle_de_Talbot_-_Aqua_Porte_Dor%C3%A9e_01.JPG/960px-Chrysiptera_talboti_-_Demoiselle_de_Talbot_-_Aqua_Porte_Dor%C3%A9e_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chrysiptera_talboti_-_Demoiselle_de_Talbot_-_Aqua_Porte_Dorée_01.JPG",
+   "author": "Cedricguppy - Loury Cédric",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "chrysiptera-cyanea",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera cyanea",
+  "name_en": "Sapphire Devil",
+  "name_hu": "Kék ördög",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Agresszív, erősen területvédő korallsügér, főleg a hímek; egy hím mellett több nőstény tartható. Kis, békés halakat (pl. gébeket, nano halakat) zaklathat.",
+   "en": "Aggressive, strongly territorial damsel, especially males; one male can be kept with several females. May harass small peaceful fish such as gobies and nano species."
+  },
+  "feeding": {
+   "hu": "Mindenevő: algák, mysis, sórák, copepoda, pellet és pehely.",
+   "en": "Omnivore: algae, mysis, brine shrimp, copepods, pellets and flakes."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: az Indiai-óceán keleti szélétől és Nyugat-Ausztráliától Új-Guineáig, a Salamon-szigetekig, a Mariana- és Karolina-szigetekig, Indonéziáig, a Fülöp-szigetekig, Tajvanig és a Rjúkjú-szigetekig.",
+   "en": "Indo-West Pacific: eastern edge of the Indian Ocean and Western Australia to New Guinea, the Solomon Islands, Mariana and Caroline Islands, Indonesia, the Philippines, Taiwan and the Ryukyu Islands."
+  },
+  "notes": {
+   "hu": "Rendkívül strapabíró, de a természete miatt a közösségi akváriumba csak megfontoltan, utolsó halként érdemes betelepíteni. A hímeknek gyakran narancssárga a farka.",
+   "en": "Extremely hardy, but because of its temperament it should go into community tanks with care and as the last addition. Males often have an orange tail."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218781"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-cyanea.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Aquarium_de_Dunkerque_Chrysiptera_cyanea_08102017_1.jpg/960px-Aquarium_de_Dunkerque_Chrysiptera_cyanea_08102017_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Aquarium_de_Dunkerque_Chrysiptera_cyanea_08102017_1.jpg",
+   "author": "Vassil",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "chrysiptera-leucopoma",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera leucopoma",
+  "name_en": "Surge Damselfish",
+  "name_hu": "Kékcsíkos korallsügér",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő korallsügér, amely a természetben csoportban él, de a rejtekhelyéhez közel marad. Kis, békés halakkal szemben agresszív lehet.",
+   "en": "Territorial damsel that lives in groups in the wild but stays close to shelter. Can be aggressive towards small peaceful fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a természetben főleg fenéklakó algákat és apró rákokat eszik; akváriumban algás eleség, mysis, pellet.",
+   "en": "Omnivore: in the wild mainly benthic algae and small crustaceans; in the aquarium algae-based food, mysis and pellets."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Marquises- és a Társaság-szigetekig; északon Japánig, délen Ausztráliáig.",
+   "en": "Indo-Pacific: East Africa to the Marquesas and Society Islands; north to Japan, south to Australia."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Chrysiptera brownriggii; a „leucopoma” a faj sárga, kék hátcsíkos színváltozatának régi neve. A természetben a hullámveréses zónában él, ezért erős vízmozgást kedvel.",
+   "en": "In WoRMS the valid name is Chrysiptera brownriggii; 'leucopoma' is the old name of the yellow, blue-striped colour form. Lives in the surge zone in the wild, so it appreciates strong water movement."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276827"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-leucopoma.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Surge_Demoiselle%2C_yellow_form_-_Chrysiptera_brownriggii.jpg/960px-Surge_Demoiselle%2C_yellow_form_-_Chrysiptera_brownriggii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Surge_Demoiselle,_yellow_form_-_Chrysiptera_brownriggii.jpg",
+   "author": "Francois Libert",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "chrysiptera-rollandi",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera rollandi",
+  "name_en": "Rolland's Damselfish",
+  "name_hu": "Feketefoltos korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 120,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "A korallsügérek közül az egyik legbékésebb, kis termetű faj; egyesével vagy kis csoportban tartható.",
+   "en": "One of the most peaceful, small damsels; can be kept singly or in a small group."
+  },
+  "feeding": {
+   "hu": "Planktonevő: copepoda, mysis, sórák, finom pellet és pehely.",
+   "en": "Planktivore: copepods, mysis, brine shrimp, fine pellets and flakes."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán és Nyugat-Csendes-óceán: az Andamán-tengertől a Loyalty-szigetekig; északon a Fülöp-szigetekig, délen a Nagy-korallzátonyig és Új-Kaledóniáig; Tongáról is jelezték.",
+   "en": "Eastern Indian Ocean and Western Pacific: Andaman Sea to the Loyalty Islands; north to the Philippines, south to the Great Barrier Reef and New Caledonia; also recorded from Tonga."
+  },
+  "notes": {
+   "hu": "Fekete-fehér test sárgás hátsó résszel. A FishBase szerint DNS-vizsgálatok alapján a faj több fajra bontható lehet.",
+   "en": "Black-and-white body with a yellowish rear. According to FishBase, DNA analysis suggests the species could be split into several species."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276840"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-rollandi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Rolland%27s_demoiselle_%28Chrysiptera_rollandi%29_%2840321693112%29.jpg/960px-Rolland%27s_demoiselle_%28Chrysiptera_rollandi%29_%2840321693112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Rolland's_demoiselle_(Chrysiptera_rollandi)_(40321693112).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chrysiptera-arnazae",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Chrysiptera arnazae",
+  "name_en": "Arnaz's Damselfish",
+  "name_hu": "Arnaz's Damselfish",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 120,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Apró, kis csoportban élő korallsügér, amely a természetben szorosan az élő, ágas korallokhoz (Acropora, Seriatopora hystrix) kötődik, és kicsivel a fenék fölött lebeg.",
+   "en": "Tiny damsel living in small groups, closely associated with live branching corals (Acropora, Seriatopora hystrix) and hovering just above the substrate."
+  },
+  "feeding": {
+   "hu": "Feltehetően planktonevő: copepoda, apró mysis, finom pellet.",
+   "en": "Presumably a planktivore: copepods, small mysis, fine pellets."
+  },
+  "origin": {
+   "hu": "Indiai- és Csendes-óceán: Indonézia és Pápua Új-Guinea; védett, öblökben lévő szegélyzátonyok 3–20 m mélyen.",
+   "en": "Indian and Pacific Oceans: Indonesia and Papua New Guinea; sheltered fringing reefs in bays at about 3–20 m."
+  },
+  "notes": {
+   "hu": "2010-ben leírt faj, akvarisztikai tartási tapasztalat még kevés van róla. A FishBase szerint a maximális méret 3,9 cm standard hossz (SL). Nincs használt magyar neve, ezért az angol név szerepel.",
+   "en": "Described in 2010; aquarium experience is still limited. FishBase gives a maximum of 3.9 cm standard length (SL). It has no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=712754"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chrysiptera-arnazae.html"
+   }
+  ]
+ },
+ {
+  "id": "dascyllus-aruanus",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Dascyllus aruanus",
+  "name_en": "Humbug Damselfish",
+  "name_hu": "Háromcsíkos poroszhal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 6,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő, a korral egyre agresszívebb poroszhal. A természetben ágas korallok (Acropora) fölött csapatban él; a hím ívás után hevesen védi az ikrákat.",
+   "en": "Territorial dascyllus that becomes more aggressive with age. In the wild it lives in groups above branching Acropora; the male fiercely guards the eggs after spawning."
+  },
+  "feeding": {
+   "hu": "Mindenevő: zooplankton, apró fenéklakó gerinctelenek és algák; akváriumban mysis, sórák, pellet, pehely.",
+   "en": "Omnivore: zooplankton, small benthic invertebrates and algae; in the aquarium mysis, brine shrimp, pellets and flakes."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: a Lombok-szorostól északra és keletre a Line-, Marquises- és Tuamotu-szigetekig; északon Dél-Japánig, délen Új-Kaledóniáig.",
+   "en": "Pacific Ocean: north and east of the Lombok Strait to the Line, Marquesas and Tuamotu islands; north to southern Japan, south to New Caledonia."
+  },
+  "notes": {
+   "hu": "Fehér test három fekete sávval, fehér farokkal. Rendkívül strapabíró, de kis, békés halakkal nem ajánlott; a betelepítési sorrendben az utolsók közé tegyük.",
+   "en": "White body with three black bars and a white tail. Extremely hardy but not recommended with small peaceful fish; add it among the last."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212843"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Dascyllus-aruanus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg/960px-Humbug_dascyllus_%28Dascyllus_aruanus%29_%2848652156722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Humbug_dascyllus_(Dascyllus_aruanus)_(48652156722).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "dascyllus-melanurus",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Dascyllus melanurus",
+  "name_en": "Blacktail Dascyllus",
+  "name_hu": "Négycsíkos poroszhal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő, agresszív poroszhal, amely a természetben csapatban él kisebb korallfejek körül. Akváriumban a fajtársait és a kisebb halakat is üldözheti.",
+   "en": "Territorial, aggressive dascyllus that lives in groups around small coral heads in the wild. In the aquarium it may chase conspecifics and smaller fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: sokféle plankton (rák- és garnélalárvák, copepoda, ikra), algák; akváriumban mysis, sórák, pellet.",
+   "en": "Omnivore: a variety of plankton (crab and shrimp larvae, copepods, fish eggs) and algae; in the aquarium mysis, brine shrimp, pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Szumátrától Vanuatuig; északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig; Tongáról is jelezték.",
+   "en": "Western Pacific: Sumatra to Vanuatu; north to the Ryukyu Islands, south to New Caledonia; also recorded from Tonga."
+  },
+  "notes": {
+   "hu": "A háromcsíkos poroszhaltól a fekete farokrész különbözteti meg. Hasonlóan strapabíró és hasonlóan harcias.",
+   "en": "Distinguished from the humbug damsel by its black tail. Equally hardy and equally feisty."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278451"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Dascyllus-melanurus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Blacktailed_dascyllus_%28Dascyllus_melanurus%29_%2848651647008%29.jpg/960px-Blacktailed_dascyllus_%28Dascyllus_melanurus%29_%2848651647008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blacktailed_dascyllus_(Dascyllus_melanurus)_(48651647008).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "dascyllus-trimaculatus",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Dascyllus trimaculatus",
+  "name_en": "Domino Damselfish",
+  "name_hu": "Dominó poroszhal",
+  "size_cm": {
+   "min": 11,
+   "max": 14
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "A poroszhalak közül az egyik legnagyobb és legagresszívebb; idősebb korában a nagyobb halakat is megtámadhatja. A fiatalok gyakran nagy tengeri anemonok, tüskésbőrűek vagy korallfejek közelében élnek.",
+   "en": "One of the largest and most aggressive dascyllus species; older fish may attack even larger tankmates. Juveniles often associate with large sea anemones, sea urchins or coral heads."
+  },
+  "feeding": {
+   "hu": "Mindenevő: algák, copepoda és más planktonikus rákok; akváriumban mysis, sórák, pellet, nori.",
+   "en": "Omnivore: algae, copepods and other planktonic crustaceans; in the aquarium mysis, brine shrimp, pellets, nori."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Line- és a Pitcairn-szigetekig; északon Dél-Japánig, délen Sydney-ig. Hawaii és a Marquises-szigetek környékén nem fordul elő.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Line and Pitcairn islands; north to southern Japan, south to Sydney. Absent from Hawai'i and the Marquesas."
+  },
+  "notes": {
+   "hu": "A boltban „Domino sügér” néven szerepel. A fiatal, fekete alapon fehér pöttyös példányok aranyosak, de a felnőtt hal nagyobb, harcias közösségi akváriumba való.",
+   "en": "Sold as 'Domino sügér' in the shop. The black juveniles with white spots look cute, but adults belong in larger, robust community tanks."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212846"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Dascyllus-trimaculatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Damisela_domin%C3%B3_%28Dascyllus_trimaculatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_113.jpg/960px-Damisela_domin%C3%B3_%28Dascyllus_trimaculatus%29_en_una_an%C3%A9mona_magn%C3%ADfica_%28Heteractis_magnifica%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_113.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Damisela_dominó_(Dascyllus_trimaculatus)_en_una_anémona_magnífica_(Heteractis_magnifica),_mar_Rojo,_Egipto,_2023-04-18,_DD_113.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "neoglyphidodon-crossi",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Neoglyphidodon crossi",
+  "name_en": "Cross's Damselfish",
+  "name_hu": "Türkizkék csíkos korallsügér",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Fiatalon látványos, idősebb korában területvédő és agresszív korallsügér. A természetben magányos, félénk, és gyakran a víz felszíne közelében úszik.",
+   "en": "Striking as a juvenile, territorial and aggressive as an adult. In the wild it is solitary, shy and often swims near the surface."
+  },
+  "feeding": {
+   "hu": "Mindenevő: mysis, sórák, pellet, pehely, algás eleség.",
+   "en": "Omnivore: mysis, brine shrimp, pellets, flakes, algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Csendes-óceán: csak Sulawesiről és a Molukkákról ismert.",
+   "en": "Western Central Pacific: known only from Sulawesi and the Moluccas."
+  },
+  "notes": {
+   "hu": "A fiatalok narancssárgák, neonkék csíkokkal; a felnőttek elszíneződnek, és szürkésbarnák lesznek. A FishBase szerint a maximális méret 10 cm standard hossz (SL).",
+   "en": "Juveniles are orange with neon-blue stripes; adults fade to greyish-brown. FishBase gives a maximum of 10 cm standard length (SL)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278812"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Neoglyphidodon-crossi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Cross%27s_damsel_%28Neoglyphidodon_crossi%29_%2848652010581%29.jpg/960px-Cross%27s_damsel_%28Neoglyphidodon_crossi%29_%2848652010581%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cross's_damsel_(Neoglyphidodon_crossi)_(48652010581).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "neoglyphidodon-oxyodon",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Neoglyphidodon oxyodon",
+  "name_en": "Bluestreak Damselfish",
+  "name_hu": "Bluestreak Damselfish",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Nagyra növő, idősebb korában agresszív, területvédő korallsügér. A természetben áramlásos zátonytetőkön laza csoportokban él.",
+   "en": "Large damsel that becomes aggressive and territorial with age. In the wild it lives in loose groups on current-swept reef flats."
+  },
+  "feeding": {
+   "hu": "Mindenevő: mysis, sórák, pellet, pehely, algás eleség.",
+   "en": "Omnivore: mysis, brine shrimp, pellets, flakes, algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Csendes-óceán: Indo-ausztrál szigetvilág, beleértve a Fülöp-szigeteket, Indonéziát és az Ashmore-zátonyt (Timor-tenger).",
+   "en": "Western Central Pacific: Indo-Australian Archipelago, including the Philippines, Indonesia and Ashmore Reef (Timor Sea)."
+  },
+  "notes": {
+   "hu": "A fiatalok bársonyfeketék neonkék csíkokkal és sárga sávval; a felnőttek egyszínű sötétek. A Tropusnál „Kékcsíkos korallsügér” néven szerepel, de ez a név a Chrysiptera leucopomáé is, ezért itt az angol név áll.",
+   "en": "Juveniles are velvet-black with neon-blue lines and a yellow bar; adults become uniformly dark. Sold as 'Kékcsíkos korallsügér', a name also used for Chrysiptera leucopoma, so the English name is used here."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278814"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Neoglyphidodon-oxyodon.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Neoglyphidodon_oxyodon_384765101.jpg/960px-Neoglyphidodon_oxyodon_384765101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Neoglyphidodon_oxyodon_384765101.jpg",
+   "author": "portioid",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pomacentrus-alleni",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Pomacentrus alleni",
+  "name_en": "Andaman Damselfish",
+  "name_hu": "Világító kék korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "A nemzetségen belül viszonylag békés korallsügér; kis csoportban is tartható, ha van elég rejtekhely.",
+   "en": "Relatively peaceful for its genus; can be kept in a small group if there is enough shelter."
+  },
+  "feeding": {
+   "hu": "Mindenevő: mysis, sórák, copepoda, pellet és pehely.",
+   "en": "Omnivore: mysis, brine shrimp, copepods, pellets and flakes."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán: Similan-szigetek (Thaiföld); Indonéziából is jelezték.",
+   "en": "Eastern Indian Ocean: Similan Islands, Thailand; also reported from Indonesia."
+  },
+  "notes": {
+   "hu": "Ragyogó kék test, a farok alsó része sárgás. Az Acropora a „Világító kék / Adaman korallsügér”, a Tropus a „Világító kék korallsügér” nevet használja.",
+   "en": "Brilliant blue body with a yellowish lower tail. Hungarian shops sell it under the name 'Világító kék korallsügér'."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277131"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacentrus-alleni.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/PomacentAlleniGRA.jpg/960px-PomacentAlleniGRA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:PomacentAlleniGRA.jpg",
+   "author": "Gerald R. Allen",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "pomacentrus-auriventris",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Pomacentrus auriventris",
+  "name_en": "Goldbelly Damselfish",
+  "name_hu": "Sárgahasú világító kék korallsügér",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Félig agresszív, területvédő korallsügér, amely a fenék közelében kis csoportokban él.",
+   "en": "Semi-aggressive, territorial damsel that lives in small groups close to the bottom."
+  },
+  "feeding": {
+   "hu": "Mindenevő: mysis, sórák, pellet, pehely, algás eleség.",
+   "en": "Omnivore: mysis, brine shrimp, pellets, flakes, algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Csendes-óceán: Mikronéziától Indonéziáig; a keleti Indiai-óceánban a Karácsony-szigetről is jelezték.",
+   "en": "Western Central Pacific: Micronesia to Indonesia; also reported from Christmas Island in the eastern Indian Ocean."
+  },
+  "notes": {
+   "hu": "Kék test sárga hassal. A FishBase szerint a maximális méret 5,5 cm standard hossz (SL).",
+   "en": "Blue body with a yellow belly. FishBase gives a maximum of 5.5 cm standard length (SL)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277137"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacentrus-auriventris.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Goldbelly_damsel_%28Pomacentrus_auriventris%29_%2831571157928%29.jpg/960px-Goldbelly_damsel_%28Pomacentrus_auriventris%29_%2831571157928%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Goldbelly_damsel_(Pomacentrus_auriventris)_(31571157928).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pomacentrus-caeruleus",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Pomacentrus caeruleus",
+  "name_en": "Caerulean Damselfish",
+  "name_hu": "Sárgafarkú világító kék korallsügér",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Félig agresszív, területvédő korallsügér; a hasonló színű halakkal szemben különösen.",
+   "en": "Semi-aggressive, territorial damsel, especially towards similarly coloured fish."
+  },
+  "feeding": {
+   "hu": "Mindenevő: mysis, sórák, pellet, pehely, algás eleség.",
+   "en": "Omnivore: mysis, brine shrimp, pellets, flakes, algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: Kelet-Afrikától (délen Durbanig) a Maldív-szigetekig.",
+   "en": "Western Indian Ocean: East Africa (south to Durban) to the Maldives."
+  },
+  "notes": {
+   "hu": "Kék test sárga hassal és farokkal; könnyen összetéveszthető a Chrysiptera parasemával, de nagyobbra nő és harciasabb.",
+   "en": "Blue body with a yellow belly and tail; easily confused with Chrysiptera parasema but grows larger and is feistier."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212993"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacentrus-caeruleus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Pomac%C3%A9ntrido_%28Pomacentrus_caeruleus%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_68.jpg/960px-Pomac%C3%A9ntrido_%28Pomacentrus_caeruleus%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_68.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacéntrido_(Pomacentrus_caeruleus),_Mahé,_Seychelles,_2025-09-07,_DD_68.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pomacentrus-coelestis",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Pomacentrus coelestis",
+  "name_en": "Neon Damselfish",
+  "name_hu": "Neon korallsügér",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Félig agresszív, területvédő korallsügér; a fiatalok csapatban élnek, a felnőttek kis csoportokban.",
+   "en": "Semi-aggressive, territorial damsel; juveniles school, adults live in small groups."
+  },
+  "feeding": {
+   "hu": "Mindenevő: főleg zooplankton, kisebb részben fenéklakó algák; akváriumban mysis, sórák, pellet, pehely.",
+   "en": "Omnivore: mainly zooplankton and to a lesser extent benthic algae; in the aquarium mysis, brine shrimp, pellets, flakes."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán és Nyugat-Közép-Csendes-óceán: Srí Lankától a Line- és a Tuamotu-szigetekig; északon Dél-Japánig, délen a Rowley Shoalsig és a Lord Howe-szigetig.",
+   "en": "Eastern Indian Ocean and Western Central Pacific: Sri Lanka to the Line and Tuamotu islands; north to southern Japan, south to Rowley Shoals and Lord Howe Island."
+  },
+  "notes": {
+   "hu": "Neonkék test, sárga has- és farokrész. A Tropus a „Világító kék korallsügér”, az Acropora a „Neon korallsügér” nevet használja; az utóbbi egyértelmű, ezért ez szerepel.",
+   "en": "Neon-blue body with yellow belly and tail. Hungarian shops use both 'Világító kék' and 'Neon korallsügér'; the latter is unambiguous and is used here."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277145"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacentrus-coelestis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Neon_damsel_%28Pomacentrus_coelestis%29_%2841949799330%29.jpg/960px-Neon_damsel_%28Pomacentrus_coelestis%29_%2841949799330%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Neon_damsel_(Pomacentrus_coelestis)_(41949799330).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pomacentrus-moluccensis",
+  "group": "fish",
+  "category": "damsels",
+  "scientific_name": "Pomacentrus moluccensis",
+  "name_en": "Lemon Damselfish",
+  "name_hu": "Sárga korallsügér",
+  "size_cm": {
+   "min": 7,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Félig agresszív, területvédő korallsügér, amely a természetben kis csoportokban él ágas korallok között.",
+   "en": "Semi-aggressive, territorial damsel living in small groups among branching corals in the wild."
+  },
+  "feeding": {
+   "hu": "Mindenevő: főleg algák és planktonikus rákok; akváriumban mysis, sórák, pellet, algás eleség.",
+   "en": "Omnivore: mainly algae and planktonic crustaceans; in the aquarium mysis, brine shrimp, pellets, algae-based food."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: a keleti Indiai-óceánban az Andamán-tengertől és a Rowley Shoalstól Fidzsiig; északon a Rjúkjú-szigetekig, délen a Lord Howe-szigetig; Tongáról is jelezték.",
+   "en": "Western Pacific: Andaman Sea and Rowley Shoals in the eastern Indian Ocean to Fiji; north to the Ryukyu Islands, south to Lord Howe Island; also recorded from Tonga."
+  },
+  "notes": {
+   "hu": "Citromsárga színű, strapabíró faj. Vigyázat: sárga színe miatt a sárga törpe császárhalakkal (Centropyge) és más sárga halakkal szemben agresszívebb lehet.",
+   "en": "Lemon-yellow, hardy species. Caution: it may be more aggressive towards yellow dwarf angelfish and other yellow fish."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277159"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pomacentrus-moluccensis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lemon_damsel_%28Pomacentrus_moluccensis%29_%2839851325753%29.jpg/960px-Lemon_damsel_%28Pomacentrus_moluccensis%29_%2839851325753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lemon_damsel_(Pomacentrus_moluccensis)_(39851325753).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ }
+]

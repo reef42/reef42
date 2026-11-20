@@ -1,0 +1,200 @@
+[
+ {
+  "id": "scarus-quoyi",
+  "group": "fish",
+  "category": "parrotfish",
+  "scientific_name": "Scarus quoyi",
+  "name_en": "Quoy's Parrotfish / Greenblotch Parrotfish",
+  "name_hu": "Zöldfoltos papagájhal",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Magányosan vagy kis csoportokban élő papagájhal; a természetben dagálykor a zátonytetőkre úszik algát legelni.",
+   "en": "Parrotfish living alone or in small groups; in the wild it moves onto intertidal flats at high tide to graze on algae."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák; akváriumban nori, spirulina, algás pellet, élő kövek algabevonata, kiegészítésként mysis.",
+   "en": "Herbivore: algae; in the aquarium nori, spirulina, algae pellets and algae on live rock, with mysis as a supplement."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Indiától Vanuatuig; északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig; Mikronéziában Palau.",
+   "en": "Indo-West Pacific: India to Vanuatu; north to the Ryukyu Islands, south to New Caledonia; Palau in Micronesia."
+  },
+  "notes": {
+   "hu": "Az Acropora „Quoy féle / zöldfoltos papagájhal” néven árulja; a Tropus a S. psittacusszal közös termékként („Szivárvány papagájhal”). A FishBase szerint 40 cm-re is megnő, ezért csak nagyon nagy akváriumba való. Erős csőrszerű fogaival algát kapar le a sziklákról és az elhalt korallokról, eközben élő korallokat is megrongálhat; a FishBase szerint éjszakára nyálkagubót választ ki maga köré.",
+   "en": "Sold by Acropora as 'Quoy féle / zöldfoltos papagájhal' and by Tropus in a combined product with S. psittacus ('Szivárvány papagájhal'). FishBase gives up to 40 cm, so it belongs only in very large tanks. It scrapes algae off rock and dead coral with its strong beak-like teeth and may damage live corals in the process; according to FishBase it secretes a mucus cocoon at night."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=276058"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Scarus-quoyi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Quoy%27s_parrotfish_%28Scarus_quoyi%29_%2826887272167%29.jpg/960px-Quoy%27s_parrotfish_%28Scarus_quoyi%29_%2826887272167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Quoy's_parrotfish_(Scarus_quoyi)_(26887272167).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "scarus-psittacus",
+  "group": "fish",
+  "category": "parrotfish",
+  "scientific_name": "Scarus psittacus",
+  "name_en": "Common Parrotfish / Palenose Parrotfish",
+  "name_hu": "Szivárvány papagájhal",
+  "size_cm": {
+   "min": 30,
+   "max": 43
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 5,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Papagájhal, amelynek kezdeti (nőstény) színfázisú példányai kis csapatokban táplálkoznak zátonytetőkön, lagúnákban és külső zátonyokon.",
+   "en": "Parrotfish whose initial-phase (female) fish usually feed in small schools on reef flats, in lagoons and on seaward reefs."
+  },
+  "feeding": {
+   "hu": "Növényevő: fenéklakó algák; akváriumban nori, spirulina, algás pellet, élő kövek algabevonata.",
+   "en": "Herbivore: benthic algae; in the aquarium nori, spirulina, algae pellets and algae on live rock."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől délen a dél-afrikai Sodwana-öbölig, keleten a Hawaii-, Marquises- és Tuamotu-szigetekig; északon Dél-Japánig, délen a nyugat-ausztráliai Shark Bayig és a Lord Howe-szigetig.",
+   "en": "Indo-Pacific: Red Sea south to Sodwana Bay, South Africa, and east to the Hawaiian, Marquesan and Tuamotu islands; north to southern Japan, south to Shark Bay, Western Australia, and Lord Howe Island."
+  },
+  "notes": {
+   "hu": "A hímek (végső színfázis) zöld-kék-rózsaszínek, a nőstények barnásszürkék. A Tropus „Scarus quoyi / Scarus psittacus – Szivárvány papagájhal” közös termékként árulja. A FishBase szerint 43 cm-re is megnő. Erős csőrszerű fogaival algát kapar le a sziklákról és az elhalt korallokról, eközben élő korallokat is megrongálhat; a FishBase szerint éjszakára nyálkagubót választ ki maga köré.",
+   "en": "Terminal-phase males are green, blue and pink, initial-phase fish brownish-grey. Tropus sells it in a combined product 'Scarus quoyi / Scarus psittacus – Szivárvány papagájhal'. FishBase gives up to 43 cm. It scrapes algae off rock and dead coral with its strong beak-like teeth and may damage live corals in the process; according to FishBase it secretes a mucus cocoon at night."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219125"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Scarus-psittacus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Scarus_psittacus_%28cropped%29.JPG/960px-Scarus_psittacus_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Scarus_psittacus_(cropped).JPG",
+   "author": "Julien Bidet",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cetoscarus-bicolor",
+  "group": "fish",
+  "category": "parrotfish",
+  "scientific_name": "Cetoscarus bicolor",
+  "name_en": "Bicolour Parrotfish",
+  "name_hu": "Kétszínű papagájhal",
+  "size_cm": {
+   "min": 40,
+   "max": 50
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 3000,
+  "tank_ideal_l": 6000,
+  "difficulty": "expert",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Nagy termetű papagájhal; a fiatalok magányosak, a felnőttek gyakran háremben élnek. Szaporodáskor jól elkülönülő párokat alkot.",
+   "en": "Large parrotfish; juveniles are solitary, adults often live in harems. Forms distinct pairs during breeding."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák; akváriumban nori, spirulina, algás pellet, élő kövek algabevonata.",
+   "en": "Herbivore: algae; in the aquarium nori, spirulina, algae pellets and algae on live rock."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: vörös-tengeri endemikus faj.",
+   "en": "Western Indian Ocean: endemic to the Red Sea."
+  },
+  "notes": {
+   "hu": "A fiatalok fehérek, narancssárga szemfolttal és sávval – a kereskedelemben ezeket árulják –, a felnőtt hímek zöld-kékek rózsaszín foltokkal. A FishBase szerint 50 cm standard hosszra (SL) is megnő, ezért csak közakváriumi méretű rendszerbe való. A Tropus „Kétszínű papagájhal” néven árulja. Erős csőrszerű fogaival algát kapar le a sziklákról és az elhalt korallokról, eközben élő korallokat is megrongálhat; a FishBase szerint éjszakára nyálkagubót választ ki maga köré.",
+   "en": "Juveniles are white with an orange eye band and saddle – these are what the trade sells – while adult males are green and blue with pink spots. FishBase gives up to 50 cm standard length (SL), so it belongs only in public-aquarium-scale systems. Tropus sells it as 'Kétszínű papagájhal'. It scrapes algae off rock and dead coral with its strong beak-like teeth and may damage live corals in the process; according to FishBase it secretes a mucus cocoon at night."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219078"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cetoscarus-bicolor.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%D0%94%D0%B2%D1%83%D1%85%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9%2C_Cetoscarus_bicolor_%28Bicolour_parrotfish%29_DSCF5397WI.jpg/960px-%D0%94%D0%B2%D1%83%D1%85%D1%86%D0%B2%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%BF%D1%83%D0%B3%D0%B0%D0%B9%2C_Cetoscarus_bicolor_%28Bicolour_parrotfish%29_DSCF5397WI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Двухцветный_попугай,_Cetoscarus_bicolor_(Bicolour_parrotfish)_DSCF5397WI.jpg",
+   "author": "Kora27",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

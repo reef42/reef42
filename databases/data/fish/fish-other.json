@@ -1,590 +1,5 @@
 [
  {
-  "id": "pterapogon-kauderni",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Pterapogon kauderni",
-  "name_en": "Banggai Cardinalfish",
-  "name_hu": "Banggai kardinálhal",
-  "size_cm": {
-   "min": 7,
-   "max": 10
-  },
-  "lifespan_wild_years": {
-   "min": 2,
-   "max": 5
-  },
-  "lifespan_captivity_years": {
-   "min": 5,
-   "max": 10
-  },
-  "tank_min_l": 100,
-  "tank_ideal_l": 250,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Peaceful, schooling; males mouthbrood the eggs. Small groups are best (3-6). Slow swimmer that can be outcompeted at feeding.",
-   "hu": "Békés, rajban élő; a hímek szájban költik az ikrát. Kis csoportban (3-6 példány) a legjobb. Lassú úszó, etetésnél lekörözhető."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, small pellets; newly imported fish may need live brine first.",
-   "hu": "Húsevő: mysis, sórák, kis pellet; a frissen importált halaknak először élő sórák kellhet."
-  },
-  "origin": {
-   "en": "Endemic to the Banggai Islands, Indonesia (introduced elsewhere); IUCN Endangered.",
-   "hu": "Kizárólag a banggai-szigeteken élő endemikus faj (máshová betelepítették); IUCN: veszélyeztetett."
-  },
-  "notes": {
-   "en": "A conservation-relevant species - prefer captive-bred specimens. Easy to breed at home; mouthbrooding males should not be netted.",
-   "hu": "Természetvédelmi szempontból fontos faj – a tenyésztett példányokat részesítsük előnyben. Otthon könnyen tenyészthető; a szájukban ikrát költő hímeket nem szabad hálózni."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=282494"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Pterapogon-kauderni.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Banggai_cardinalfish_%28Pterapogon_kauderni%29_%2814225883270%29.jpg/1280px-Banggai_cardinalfish_%28Pterapogon_kauderni%29_%2814225883270%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Banggai_cardinalfish_(Pterapogon_kauderni)_(14225883270).jpg",
-   "author": "Rickard Zerpe",
-   "license": "CC BY-SA 2.0"
-  }
- },
- {
-  "id": "sphaeramia-nematoptera",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Sphaeramia nematoptera",
-  "name_en": "Pajama Cardinalfish",
-  "name_hu": "Pizsamás kardinálhal",
-  "size_cm": {
-   "min": 6,
-   "max": 8
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 8
-  },
-  "tank_min_l": 100,
-  "tank_ideal_l": 250,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Peaceful schooling cardinalfish; hovers under overhangs during the day. Mouthbrooder.",
-   "hu": "Békés, rajban élő kardinálhal; nappal a kihajolások alatt lebeg. Szájköltő."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, small pellets.",
-   "hu": "Húsevő: mysis, sórák, kis pellet."
-  },
-  "origin": {
-   "en": "Western Pacific: Japan to the Philippines and Indonesia.",
-   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigetekig és Indonéziáig."
-  },
-  "notes": {
-   "en": "Ideal beginner fish for small reef tanks; best in groups of 5+.",
-   "hu": "Ideális kezdőhal kis zátonyos akváriumokba; 5+ fős csoportban a legjobb."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278349"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Sphaeramia-nematoptera.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Apogonidae_Sphaeramia_nematoptera_3.jpg/1280px-Apogonidae_Sphaeramia_nematoptera_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Apogonidae_Sphaeramia_nematoptera_3.jpg",
-   "author": "NasserHalaweh",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "chelmon-rostratus",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Chelmon rostratus",
-  "name_en": "Copperband Butterflyfish",
-  "name_hu": "Rézsávos pillangóhal (copperband)",
-  "size_cm": {
-   "min": 15,
-   "max": 20
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 10
-  },
-  "tank_min_l": 350,
-  "tank_ideal_l": 600,
-  "difficulty": "difficult",
-  "utility": [
-   "aiptasia-eater"
-  ],
-  "reef_safety": "with-caution",
-  "behavior": {
-   "en": "Peaceful but shy and slow feeder; can be bullied by aggressive fish. Best kept singly.",
-   "hu": "Békés, de félénk és lassú evő; agresszív halak zaklathatják. Egyedben tartva a legjobb."
-  },
-  "feeding": {
-   "en": "Carnivore: live and frozen brine, mysis, finely chopped clam/mussel; classic Aiptasia predator.",
-   "hu": "Húsevő: élő és fagyasztott sórák, mysis, finoman vágott kagyló; klasszikus Aiptasia-zabáló."
-  },
-  "origin": {
-   "en": "Western Pacific: Andaman Sea to Japan and Australia.",
-   "hu": "Nyugat-Csendes-óceán: Andamán-tengertől Japánig és Ausztráliáig."
-  },
-  "notes": {
-   "en": "Prized Aiptasia-eater; feeding response varies - buy specimens already eating. May nip tubeworms and clam mantles.",
-   "hu": "Kedvelt Aiptasia-fogyasztó; az étvágy példányonként változik – csak már evő halat vásároljunk. Csőférgeket és kagylóköpenyt is csipkedhet."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet",
-   "brooklynella"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218758"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Chelmon-rostratus.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Artis_20180519_153302_-_Chelmon_rostratus.jpg/1280px-Artis_20180519_153302_-_Chelmon_rostratus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Artis_20180519_153302_-_Chelmon_rostratus.jpg",
-   "author": "Rudolphous",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "oxymonacanthus-longirostris",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Oxymonacanthus longirostris",
-  "name_en": "Harlequin Filefish",
-  "name_hu": "Arlekin fejhalféle",
-  "size_cm": {
-   "min": 7,
-   "max": 10
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 1,
-   "max": 5
-  },
-  "tank_min_l": 200,
-  "tank_ideal_l": 400,
-  "difficulty": "expert",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "with-caution",
-  "behavior": {
-   "en": "Peaceful, obligate Acropora-polyp specialist; hovers among Acropora branches in pairs.",
-   "hu": "Békés, kizárólag Acropora-polipokon élő specialista; párban az Acropora ágai közt lebeg."
-  },
-  "feeding": {
-   "en": "Wild diet: almost exclusively Acropora polyps. Only viable in Acropora-rich tanks; frozen substitutes rarely work long-term.",
-   "hu": "Vad étrend: szinte kizárólag Acropora-polipok. Csak Acropora-ban gazdag akváriumban életképes; a fagyasztott helyettesítők ritkán működnek hosszú távon."
-  },
-  "origin": {
-   "en": "Indo-Pacific: East Africa to Japan, Australia and the Tuamotus.",
-   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig, Ausztráliáig és a Tuamotu-szigetekig."
-  },
-  "notes": {
-   "en": "Not for beginners; heavy mortality in shipping and acclimation. Listed as IUCN Vulnerable due to coral habitat loss.",
-   "hu": "Nem kezdőknek; szállításban és beszoktatásban jelentős veszteség. A korallélőhelyek csökkenése miatt IUCN: sebezhető."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220063"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Oxymonacanthus-longirostris.html"
-   }
-  ],
-  "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/2_Oxymonacanthus_longirostris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:2_Oxymonacanthus_longirostris.jpg",
-   "author": "Paul Ehlen",
-   "license": "CC BY 3.0"
-  }
- },
- {
-  "id": "synchiropus-splendidus",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Synchiropus splendidus",
-  "name_en": "Green Mandarin / Mandarin Dragonet",
-  "name_hu": "Zöld mandarinhal",
-  "size_cm": {
-   "min": 6,
-   "max": 9
-  },
-  "lifespan_wild_years": {
-   "min": 4,
-   "max": 10
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 12
-  },
-  "tank_min_l": 100,
-  "tank_ideal_l": 300,
-  "difficulty": "difficult",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Peaceful bottom-dweller with a slow, hopping swim style; males fight each other.",
-   "hu": "Békés talajlakó, lassú, ugráló úszástól; a hímek egymással verekednek."
-  },
-  "feeding": {
-   "en": "Live copepod specialist; needs a mature tank with a large refugium or regular pod supplementation. Some accept frozen mysis/roe with training.",
-   "hu": "Élő evezőlábú-rák specialista; érett akváriumot, nagy refugiumot vagy rendszeres 'pod'-utánpótlást igényel. Egyes példányok betanítással fagyasztott mysist/ikrát is elfogadnak."
-  },
-  "origin": {
-   "en": "Western Pacific: Ryukyu Islands to Australia (Queensland).",
-   "hu": "Nyugat-Csendes-óceán: Ryukyu-szigetektől Ausztráliáig (Queensland)."
-  },
-  "notes": {
-   "en": "Iconic psychedelic fish; only add to tanks at least 6-12 months old with visible pod populations. Captive-bred specimens trained to frozen foods are the better choice.",
-   "hu": "Ikonszerű pszichedelikus hal; csak legalább 6-12 hónapos, látható evezőlábú-populációjú akváriumba tegyük. A fagyasztottra betanított tenyésztett példányok a jobb választás."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet",
-   "uronema"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273264"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Synchiropus-splendidus.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Peces_mandar%C3%ADn_%28Synchiropus_splendidus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_226.jpg/1280px-Peces_mandar%C3%ADn_%28Synchiropus_splendidus%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Peces_mandarín_(Synchiropus_splendidus),_Anilao,_Filipinas,_2023-08-24,_DD_226.jpg",
-   "author": "Diego Delso",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "synchiropus-picturatus",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Synchiropus picturatus",
-  "name_en": "Psychedelic Mandarin / Target Mandarin",
-  "name_hu": "Pöttyös mandarinhal",
-  "size_cm": {
-   "min": 6,
-   "max": 9
-  },
-  "lifespan_wild_years": {
-   "min": 4,
-   "max": 10
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 12
-  },
-  "tank_min_l": 100,
-  "tank_ideal_l": 300,
-  "difficulty": "difficult",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Same habits as the green mandarin; peaceful, slow, copepod-hunting bottom-dweller.",
-   "hu": "A zöld mandarinnal azonos életmódú; békés, lassú, evezőlábúakra vadászó talajlakó."
-  },
-  "feeding": {
-   "en": "Live copepods primarily; mature tank with refugium strongly recommended.",
-   "hu": "Főként élő evezőlábú rákok; érett akvárium refugiummal erősen ajánlott."
-  },
-  "origin": {
-   "en": "Western Pacific: Philippines and Indonesia to New Guinea.",
-   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetek és Indonézia Új-Guineáig."
-  },
-  "notes": {
-   "en": "Green-and-black spotted variant; identical care requirements to S. splendidus.",
-   "hu": "Zöld-fekete pöttyös változat; a gondozása azonos az S. splendiduséval."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet",
-   "uronema"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273257"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Synchiropus-picturatus.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Callionymoidei_-_Synchiropus_picturatus_-_1.jpg/1280px-Callionymoidei_-_Synchiropus_picturatus_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Callionymoidei_-_Synchiropus_picturatus_-_1.jpg",
-   "author": "Emőke Dénes",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "pseudochromis-fridmani",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Pseudochromis fridmani",
-  "name_en": "Orchid Dottyback",
-  "name_hu": "Orchidea díszhal",
-  "size_cm": {
-   "min": 6,
-   "max": 8
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 10
-  },
-  "tank_min_l": 80,
-  "tank_ideal_l": 200,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Peaceful for a dottyback; can be territorial around its favourite cave. One per tank unless a confirmed pair.",
-   "hu": "Díszhalhoz képest békés; a kedvenc barlangja körül territoriális lehet. Akváriumonként egy példány, hacsak nem bevált pár."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, small pellets.",
-   "hu": "Húsevő: mysis, sórák, kis pellet."
-  },
-  "origin": {
-   "en": "Endemic to the Red Sea.",
-   "hu": "A Vörös-tenger endemikus faja."
-  },
-  "notes": {
-   "en": "Brilliant violet fish; widely captive-bred (one of the first marine species bred commercially).",
-   "hu": "Briliáns ibolyaszín hal; széles körben tenyésztett (az első kereskedelmi tenyésztésű tengeri fajok egyike)."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218336"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Pseudochromis-fridmani.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/K%C3%B6nig_Salomon_Zwergbarsch_%28Pseudochromis_fridmani%29.jpg/1280px-K%C3%B6nig_Salomon_Zwergbarsch_%28Pseudochromis_fridmani%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:König_Salomon_Zwergbarsch_(Pseudochromis_fridmani).jpg",
-   "author": "Jürgen Damm",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "pseudochromis-aldabraensis",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Pseudochromis aldabraensis",
-  "name_en": "Neon Dottyback",
-  "name_hu": "Neon díszhal",
-  "size_cm": {
-   "min": 7,
-   "max": 10
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 4,
-   "max": 10
-  },
-  "tank_min_l": 120,
-  "tank_ideal_l": 300,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "More aggressive than the orchid dottyback; will bully small, shy fish.",
-   "hu": "Az orchidea díszhalnál agresszívabb; kicsi, félénk halakat zaklathat."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, pellets.",
-   "hu": "Húsevő: mysis, sórák, pellet."
-  },
-  "origin": {
-   "en": "Indian Ocean: Aldabra and East Africa to the Persian Gulf.",
-   "hu": "Indiai-óceán: Aldabra és Kelet-Afrika a Perzsa-öbölig."
-  },
-  "notes": {
-   "en": "Electric blue stripes; hardy and frequently captive-bred.",
-   "hu": "Elektromos kék csíkok; ellenálló és gyakran tenyésztett."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218333"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Pseudochromis-aldabraensis.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Perca_enana_de_Aldabra_%28Pseudochromis_aldabraensis%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_55.jpg/1280px-Perca_enana_de_Aldabra_%28Pseudochromis_aldabraensis%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_55.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Perca_enana_de_Aldabra_(Pseudochromis_aldabraensis),_islas_Ad_Dimaniyat,_Omán,_2024-08-15,_DD_55.jpg",
-   "author": "Diego Delso",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "gramma-loreto",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Gramma loreto",
-  "name_en": "Royal Gramma / Fairy Basslet",
-  "name_hu": "Király basszlet",
-  "size_cm": {
-   "min": 7,
-   "max": 10
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 5,
-   "max": 12
-  },
-  "tank_min_l": 100,
-  "tank_ideal_l": 250,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "reef-safe",
-  "behavior": {
-   "en": "Peaceful cave-dweller; can be territorial towards its own kind. Often hovers upside down under overhangs.",
-   "hu": "Békés barlanglakó; saját fajához territoriális lehet. Gyakran fejjel lefelé lebeg a kihajolások alatt."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, small pellets.",
-   "hu": "Húsevő: mysis, sórák, kis pellet."
-  },
-  "origin": {
-   "en": "Western Atlantic: Florida and the Caribbean to Venezuela and Brazil.",
-   "hu": "Nyugat-Atlanti-óceán: Florida és a Karib-tenger Venezueláig és Brazíliáig."
-  },
-  "notes": {
-   "en": "Classic purple-and-yellow nano fish; similar Royal Gramma look-alike Pictichromis paccagnellae (dottyback) is often sold under the same name.",
-   "hu": "Klasszikus lila-sárga nano hal; a hasonló Pictichromis paccagnellae díszhalat gyakran ugyanezen a néven árusítják."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=280932"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Gramma-loreto.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Fairy_Basslet_-_Gramma_loreto.jpg/1280px-Fairy_Basslet_-_Gramma_loreto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Fairy_Basslet_-_Gramma_loreto.jpg",
-   "author": "Andy Blackledge",
-   "license": "CC BY 2.0"
-  }
- },
- {
   "id": "zanclus-cornutus",
   "group": "fish",
   "category": "fish-other",
@@ -625,7 +40,7 @@
   },
   "notes": {
    "en": "Almost always a poor choice - the similar Heniochus bannerfish is the ethical alternative. Kept successfully mostly in large public aquariums.",
-   "hu": "Szinte mindig rossz választás – a hasonló Heniochus zászlóhal az etikus alternatíva. Főleg nagy közakváriumokban tartják sikerrel."
+   "hu": "Szinte mindig rossz választás – a hasonló Heniochus zászlóshal az etikus alternatíva. Főleg nagy közakváriumokban tartják sikerrel."
   },
   "diseases": [
    "marine-ich",
@@ -652,15 +67,15 @@
   }
  },
  {
-  "id": "odonus-niger",
+  "id": "platax-pinnatus",
   "group": "fish",
   "category": "fish-other",
-  "scientific_name": "Odonus niger",
-  "name_en": "Niger Trigger / Redtooth Triggerfish",
-  "name_hu": "Fekete kékzápfogú halféle",
+  "scientific_name": "Platax pinnatus",
+  "name_en": "Pinnate Batfish / Dusky Batfish",
+  "name_hu": "Narancsszegélyes denevérhal",
   "size_cm": {
-   "min": 25,
-   "max": 40
+   "min": 30,
+   "max": 45
   },
   "lifespan_wild_years": {
    "min": null,
@@ -668,194 +83,66 @@
    "note": "unknown"
   },
   "lifespan_captivity_years": {
-   "min": 8,
-   "max": 15
+   "min": null,
+   "max": null,
+   "note": "unknown"
   },
-  "tank_min_l": 600,
-  "tank_ideal_l": 1000,
-  "difficulty": "moderate",
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "expert",
   "utility": [
    "none"
   ],
   "reef_safety": "with-caution",
   "behavior": {
-   "en": "Relatively placid trigger; can be kept in small groups when young. Becomes bolder and nippier with age.",
-   "hu": "Viszonylag szelíd halféle; fiatalon kis csoportban is tartható. Korával merészebbé és csipkelősebbé válik."
+   "hu": "A felnőttek általában magányosan, meredek külső zátonylejtők peremei alatt élnek, néha nagy csapatokban vonulnak; a fiatalok mangrovékban és védett belső zátonyokon, barlangokban és peremek alatt rejtőznek.",
+   "en": "Adults are usually solitary under overhangs of steep outer reef slopes, sometimes travelling in large schools; juveniles shelter in caves and under ledges in mangroves and sheltered inner reefs."
   },
   "feeding": {
-   "en": "Carnivore: mysis, krill, chopped seafood, hard-shelled inverts to wear down teeth.",
-   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús, kemény héjú gerinctelenek a fogak kopásztására."
+   "hu": "Mindenevő: a FishBase szerint algák, valamint medúzák és más kocsonyás zooplankton; akváriumban mysis, krill, kagylóhús, algás eleség. A fiatalok beszoktatása gyakran nehéz.",
+   "en": "Omnivore: according to FishBase algae as well as jellyfish and other gelatinous zooplankton; in the aquarium mysis, krill, clam meat and algae-based food. Juveniles are often hard to wean."
   },
   "origin": {
-   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
-   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+   "hu": "Nyugat-Csendes-óceán: a Rjúkjú-szigetektől Ausztráliáig; indiai-óceáni előfordulása kétséges.",
+   "en": "Western Pacific: Ryukyu Islands to Australia; its occurrence in the Indian Ocean is doubtful."
   },
   "notes": {
-   "en": "One of the more reef-tolerable triggers; still a risk to inverts and small fish. Only one per tank as adult.",
-   "hu": "A korallbarátabb halfélék egyike; a gerinctelenekre és kis halakra még így is kockázatot jelent. Felnőttként akváriumonként egy példány."
+   "hu": "A fiatalok fekete testét narancssárga szegély keretezi (egy mérgező laposféreg utánzása), és nagyon magas úszóik vannak; felnőttként ezüstszürkék. A FishBase szerint 45 cm-re is megnő, és nagyon magas akváriumot igényel. Lassú evő, gyors társak mellett éhezik.",
+   "en": "Juveniles are black with an orange border (mimicking a toxic flatworm) and very tall fins; adults turn silvery grey. FishBase gives up to 45 cm, and it needs a very tall tank. A slow feeder that starves next to fast tankmates."
   },
   "diseases": [
    "marine-ich",
-   "velvet"
+   "velvet",
+   "flukes"
   ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219883"
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218712"
    },
    {
     "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Odonus-niger.html"
+    "url": "https://www.fishbase.se/summary/Platax-pinnatus.html"
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pez_ballesta_de_dientes_rojos_%28Odonus_niger%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_88.jpg/1280px-Pez_ballesta_de_dientes_rojos_%28Odonus_niger%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Dusky_Batfish_%28Platax_pinnatus%29_%286135858057%29.jpg/960px-Dusky_Batfish_%28Platax_pinnatus%29_%286135858057%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_ballesta_de_dientes_rojos_(Odonus_niger),_Anilao,_Filipinas,_2023-08-23,_DD_88.jpg",
-   "author": "Diego Delso",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "rhinecanthus-aculeatus",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Rhinecanthus aculeatus",
-  "name_en": "Picasso Triggerfish",
-  "name_hu": "Picasso halféle",
-  "size_cm": {
-   "min": 20,
-   "max": 30
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 8,
-   "max": 15
-  },
-  "tank_min_l": 500,
-  "tank_ideal_l": 900,
-  "difficulty": "moderate",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "not-reef-safe",
-  "behavior": {
-   "en": "Bold, aggressive and intelligent; rearranges rockwork and bites during tank maintenance.",
-   "hu": "Merész, agresszív és intelligens; átrendezi a dekorációt, és a karbantartás alatt csíp."
-  },
-  "feeding": {
-   "en": "Carnivore: krill, chopped seafood, hard-shelled shrimp; powerful teeth need abrasive foods.",
-   "hu": "Húsevő: krill, apróra vágott tengeri hús, kemény héjú rákok; erős fogai koptató táplálékot igényelnek."
-  },
-  "origin": {
-   "en": "Indo-Pacific: East Africa to Japan, Hawai'i and Australia.",
-   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
-  },
-  "notes": {
-   "en": "Hardy character fish for aggressive fish-only systems; not compatible with inverts or timid fish.",
-   "hu": "Ellenálló 'karakterhal' agresszív halas rendszerekhez; gerinctelenekkel és félénk halakkal nem kompatibilis."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219890"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Rhinecanthus-aculeatus.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Hawaiian_Triggerfish%2C_Rhinecanthus_aculeatus_%28Linnaeus_1758%29.jpg/1280px-Hawaiian_Triggerfish%2C_Rhinecanthus_aculeatus_%28Linnaeus_1758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Hawaiian_Triggerfish,_Rhinecanthus_aculeatus_(Linnaeus_1758).jpg",
-   "author": "Crobe12",
-   "license": "CC BY-SA 4.0"
-  }
- },
- {
-  "id": "paracirrhites-arcatus",
-  "group": "fish",
-  "category": "fish-other",
-  "scientific_name": "Paracirrhites arcatus",
-  "name_en": "Arc-eye Hawkfish",
-  "name_hu": "Ívfoltos sólyomhal",
-  "size_cm": {
-   "min": 12,
-   "max": 15
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": 5,
-   "max": 10
-  },
-  "tank_min_l": 200,
-  "tank_ideal_l": 400,
-  "difficulty": "easy",
-  "utility": [
-   "none"
-  ],
-  "reef_safety": "with-caution",
-  "behavior": {
-   "en": "Perches on rocks and corals; bold and curious. Will eat small shrimps and tiny fish.",
-   "hu": "Kövekre és korallokra ül; merész és kíváncsi. Kis garnélákat és apró halakat megesz."
-  },
-  "feeding": {
-   "en": "Carnivore: mysis, krill, chopped seafood.",
-   "hu": "Húsevő: mysis, krill, apróra vágott tengeri hús."
-  },
-  "origin": {
-   "en": "Indo-Pacific: East Africa to Hawai'i, north to Japan, south to New Caledonia.",
-   "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Kaledóniáig."
-  },
-  "notes": {
-   "en": "Hardy and characterful; safe with corals but not with small ornamental shrimps.",
-   "hu": "Ellenálló és egyéniségű; a korallokkal biztonságos, de a kis díszgarnélákkal nem."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218866"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Paracirrhites-arcatus.html"
-   }
-  ],
-  "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Arc-eye_Hawkfish_%28Paracirrhites_arcatus%29_%286972950838%29.jpg/1280px-Arc-eye_Hawkfish_%28Paracirrhites_arcatus%29_%286972950838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Arc-eye_Hawkfish_(Paracirrhites_arcatus)_(6972950838).jpg",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Dusky_Batfish_(Platax_pinnatus)_(6135858057).jpg",
    "author": "Bernard DUPONT from FRANCE",
    "license": "CC BY-SA 2.0"
   }
  },
  {
-  "id": "cirrhitichthys-falco",
+  "id": "parupeneus-cyclostomus",
   "group": "fish",
   "category": "fish-other",
-  "scientific_name": "Cirrhitichthys falco",
-  "name_en": "Falco Hawkfish",
-  "name_hu": "Falco sólyomhal",
+  "scientific_name": "Parupeneus cyclostomus",
+  "name_en": "Gold-saddle Goatfish / Yellowsaddle Goatfish",
+  "name_hu": "Sárga kecskehal",
   "size_cm": {
-   "min": 6,
-   "max": 8
+   "min": 30,
+   "max": 50
   },
   "lifespan_wild_years": {
    "min": null,
@@ -863,31 +150,33 @@
    "note": "unknown"
   },
   "lifespan_captivity_years": {
-   "min": 4,
-   "max": 8
+   "min": null,
+   "max": null,
+   "note": "unknown"
   },
-  "tank_min_l": 100,
-  "tank_ideal_l": 250,
-  "difficulty": "easy",
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "moderate",
   "utility": [
-   "none"
+   "sand-sifter",
+   "carnivore-predator"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "not-reef-safe",
   "behavior": {
-   "en": "Small nano hawkfish; perches on rockwork. Semi-aggressive towards similar-sized fish.",
-   "hu": "Kis nano sólyomhal; a szikladekoráción ül. Hasonló méretű halakkal szemben félig agresszív."
+   "hu": "A fiatalok csapatban, a felnőttek többnyire magányosan élnek homokos, sziklás vagy törmelékes aljzaton; nappal aktív. Bajuszszálaival a homokot és a réseket kutatja.",
+   "en": "Juveniles school, adults are usually solitary over sand, rock or rubble; active by day. Probes sand and crevices with its barbels."
   },
   "feeding": {
-   "en": "Carnivore: mysis, brine shrimp, small pellets.",
-   "hu": "Húsevő: mysis, sórák, kis pellet."
+   "hu": "Ragadozó: a FishBase szerint kis halak, rákok, sipunculida férgek, garnélák, polipok és kis csigák; akváriumban mysis, krill, garnéla, apróra vágott tengeri hús.",
+   "en": "Predator: according to FishBase small fish, crustaceans, peanut worms, shrimp, crabs, octopus and small snails; in the aquarium mysis, krill, shrimp and chopped seafood."
   },
   "origin": {
-   "en": "Western Pacific: Japan to the Philippines and New Guinea, east to Samoa.",
-   "hu": "Nyugat-Csendes-óceán: Japántól a Fülöp-szigetekig és Új-Guineáig, keleten Szamoáig."
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Afrika keleti partjától (délen Durbanig) a Hawaii-szigetekig, Francia Polinéziáig és a Pitcairn-szigetekig; északon a Rjúkjú- és az Ogaszavara-szigetekig.",
+   "en": "Indo-Pacific: Red Sea and the east coast of Africa (south to Durban) to the Hawaiian Islands, French Polynesia and the Pitcairn Islands; north to the Ryukyu and Ogasawara islands."
   },
   "notes": {
-   "en": "Popular nano hawkfish; will eat small shrimps and may bully tiny fish.",
-   "hu": "Népszerű nano sólyomhal; kis garnélákat eszik, apró halakat zaklathat."
+   "hu": "Sárga vagy sárgászöld test, a farokszáron sárga nyereggel. A FishBase szerint 50 cm-re is megnő. Átforgatja a homokot, de garnélákat, rákokat és kis halakat megeszik.",
+   "en": "Yellow or yellow-green body with a yellow saddle on the caudal peduncle. FishBase gives up to 50 cm. Turns over the sand bed but eats shrimp, crabs and small fish."
   },
   "diseases": [
    "marine-ich",
@@ -896,31 +185,31 @@
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218854"
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218665"
    },
    {
     "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Cirrhitichthys-falco.html"
+    "url": "https://www.fishbase.se/summary/Parupeneus-cyclostomus.html"
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cirrhitichthys_falco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Salmonete_amarillo_%28Parupeneus_cyclostomus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_60.jpg/960px-Salmonete_amarillo_%28Parupeneus_cyclostomus%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-15%2C_DD_60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhitichthys_falco.jpg",
-   "author": "Richard Ling",
-   "license": "CC BY-SA 2.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Salmonete_amarillo_(Parupeneus_cyclostomus),_mar_Rojo,_Egipto,_2023-04-15,_DD_60.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
   }
  },
  {
-  "id": "pseudanthias-squamipinnis",
+  "id": "plectorhinchus-chaetodonoides",
   "group": "fish",
   "category": "fish-other",
-  "scientific_name": "Pseudanthias squamipinnis",
-  "name_en": "Lyretail Anthias",
-  "name_hu": "Lyretail anthias",
+  "scientific_name": "Plectorhinchus chaetodonoides",
+  "name_en": "Harlequin Sweetlips",
+  "name_hu": "Dominóhal",
   "size_cm": {
-   "min": 9,
-   "max": 12
+   "min": 30,
+   "max": 72
   },
   "lifespan_wild_years": {
    "min": null,
@@ -928,53 +217,253 @@
    "note": "unknown"
   },
   "lifespan_captivity_years": {
-   "min": 3,
-   "max": 8
+   "min": null,
+   "max": null,
+   "note": "unknown"
   },
-  "tank_min_l": 300,
-  "tank_ideal_l": 600,
-  "difficulty": "moderate",
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "expert",
   "utility": [
-   "plankton-feeder"
+   "carnivore-predator"
   ],
-  "reef_safety": "reef-safe",
+  "reef_safety": "with-caution",
   "behavior": {
-   "en": "Schooling haremic species (one male, several females); peaceful mid-water plankton feeders.",
-   "hu": "Rajban élő, háremes faj (egy hím, több nőstény); békés, a vízoszlopban planktont fogyaszt."
+   "hu": "A felnőttek magányosak, nappal peremek és barlangok közelében pihennek; a fiatalok korallok között élnek, és jellegzetes, hullámzó úszással mozognak.",
+   "en": "Adults are solitary and rest near and under ledges or caves by day; juveniles live among corals and move with a distinctive undulating swim."
   },
   "feeding": {
-   "en": "Planktivore: small meaty foods at least 2-3x daily (mysis, roe, copepods).",
-   "hu": "Planktonevő: napi legalább 2-3-szor kis húsos táplálék (mysis, ikra, evezőlábú rákok)."
+   "hu": "Ragadozó: a FishBase szerint éjjel rákokat, puhatestűeket és halakat eszik; akváriumban mysis, krill, kagylóhús, garnéla. A fiatalok beszoktatása gyakran nehéz.",
+   "en": "Predator: according to FishBase it feeds at night on crustaceans, molluscs and fish; in the aquarium mysis, krill, clam meat and shrimp. Juveniles are often hard to wean."
   },
   "origin": {
-   "en": "Indo-Pacific: Red Sea and East Africa to Japan, Hawai'i and Australia.",
-   "hu": "Indo-Csendes-óceán: Vörös-tenger és Kelet-Afrikától Japánon át Hawaiig és Ausztráliáig."
+   "hu": "Indo-Nyugat-Csendes-óceán: a Maldív- és a Cocos-szigetek; Szumátrától Fidzsiig és Új-Kaledóniáig; északon a Rjúkjú-szigetekig, délen a Rowley Shoalsig.",
+   "en": "Indo-West Pacific: Maldives and Cocos Islands; Sumatra to Fiji and New Caledonia; north to the Ryukyu Islands, south to Rowley Shoals."
   },
   "notes": {
-   "en": "Vivid orange reef fish that brings constant motion; sensitive to poor water quality and underfeeding.",
-   "hu": "Élénk narancs zátonyhal, folyamatos mozgást hoz az akváriumba; érzékeny a rossz vízminőségre és az aluletetésre."
+   "hu": "A fiatalok barnák nagy, fehér szegélyű foltokkal; a FishBase szerint egy mérgező laposférget utánozhatnak. Felnőttként fehér alapon sötét pöttyösek. A FishBase szerint 72 cm-re is megnő; a kereskedelemben fiatal példányokat árulnak, amelyek nagy része nem szokik rá az akváriumi eleségre.",
+   "en": "Juveniles are brown with large white-edged blotches and, according to FishBase, may mimic a toxic flatworm. Adults are white with dark spots. FishBase gives up to 72 cm; the trade sells juveniles, many of which never accept aquarium food."
   },
   "diseases": [
    "marine-ich",
    "velvet",
-   "uronema"
+   "flukes"
   ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218278"
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273483"
    },
    {
     "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Pseudanthias-squamipinnis.html"
+    "url": "https://www.fishbase.se/summary/Plectorhinchus-chaetodonoides.html"
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Anthias_cola_de_lira_%28Pseudanthias_squamipinnis%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_34.jpg/1280px-Anthias_cola_de_lira_%28Pseudanthias_squamipinnis%29%2C_Mah%C3%A9%2C_Seychelles%2C_2025-09-07%2C_DD_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Haemulidae_Plectorhinchus_chaetodonoides_2.2.jpg/960px-Haemulidae_Plectorhinchus_chaetodonoides_2.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Anthias_cola_de_lira_(Pseudanthias_squamipinnis),_Mahé,_Seychelles,_2025-09-07,_DD_34.jpg",
-   "author": "Diego Delso",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Haemulidae_Plectorhinchus_chaetodonoides_2.2.jpg",
+   "author": "NasserHalaweh",
    "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "diademichthys-lineatus",
+  "group": "fish",
+  "category": "fish-other",
+  "scientific_name": "Diademichthys lineatus",
+  "name_en": "Striped Clingfish / Urchin Clingfish",
+  "name_hu": "Sünlakó hal",
+  "size_cm": {
+   "min": 4,
+   "max": 5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Apró, békés tapadóhal, amely a természetben hosszú tüskéjű tengerisünök (Diadema) tüskéi vagy ágas korallok között él védett zátonyokon.",
+   "en": "Tiny, peaceful clingfish that lives among the spines of long-spined sea urchins (Diadema) or branching corals on sheltered reefs."
+  },
+  "feeding": {
+   "hu": "A FishBase szerint a fiatalok a gazdasün apró függelékeit és a sünön élő evezőlábú rákokat, a felnőttek korallokba fúródó kagylókat, a sün csőlábait és garnélaikrát esznek; akváriumban copepoda, apró mysis, frissen kelt sórák.",
+   "en": "According to FishBase juveniles eat parts of the host urchin's pedicellariae and the copepods living on it, while adults eat coral-boring bivalves, the host's tube feet and shrimp eggs; in the aquarium copepods, small mysis and newly hatched brine shrimp."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: Omán és Mauritius. Nyugat-Csendes-óceán: Indonéziától Fidzsiig és Tongáig; északon Dél-Japánig, délen Észak-Ausztráliáig.",
+   "en": "Western Indian Ocean: Oman and Mauritius. Western Pacific: Indonesia to Fiji and Tonga; north to southern Japan, south to northern Australia."
+  },
+  "notes": {
+   "hu": "Vörösbarna test sárgás hosszanti csíkokkal. Lehetőleg Diadema-sünnel együtt, nyugodt fajakváriumba való; nagyobb halak mellett nem életképes.",
+   "en": "Reddish-brown body with yellowish longitudinal stripes. Best kept with a Diadema urchin in a calm species tank; not viable next to larger fish."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219756"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Diademichthys-lineatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Urchin_clingfish_%28Diademichthys_lineatus%29_%2827492821857%29.jpg/960px-Urchin_clingfish_%28Diademichthys_lineatus%29_%2827492821857%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Urchin_clingfish_(Diademichthys_lineatus)_(27492821857).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "cromileptes-altivelis",
+  "group": "fish",
+  "category": "fish-other",
+  "scientific_name": "Cromileptes altivelis",
+  "name_en": "Humpback Grouper / Panther Grouper",
+  "name_hu": "Párduc sügér",
+  "size_cm": {
+   "min": 40,
+   "max": 70
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Lassú, de falánk ragadozó sügér; nappal elhalt vagy iszapos zátonyrészeken, árapálymedencékben is előfordul. Minden halat és rákot megeszik, ami a szájába fér.",
+   "en": "Slow but voracious predatory grouper; found in dead or silty reef areas and tide pools. Eats any fish or crustacean that fits in its mouth."
+  },
+  "feeding": {
+   "hu": "Ragadozó: kis halak és rákok; akváriumban hal, tintahal, garnéla, krill.",
+   "en": "Predator: small fish and crustaceans; in the aquarium fish, squid, shrimp and krill."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Dél-Japántól Palauig, Guamig, Új-Kaledóniáig és Dél-Queenslandig. Keleti Indiai-óceán: a Nikobár-szigetektől a nyugat-ausztráliai Broome-ig.",
+   "en": "Western Pacific: southern Japan to Palau, Guam, New Caledonia and southern Queensland. Eastern Indian Ocean: Nicobar Islands to Broome, Western Australia."
+  },
+  "notes": {
+   "hu": "A fiatalok fehérek nagy fekete pöttyökkel. A FishBase szerint 70 cm-re is megnő, de nagyon lassan; csak nagyon nagy, halas akváriumba, nagyobb társakkal. A Tropus „Párduc sügér” néven árulja.",
+   "en": "Juveniles are white with large black spots. FishBase gives up to 70 cm, though growth is very slow; only for very large fish-only tanks with bigger tankmates. Sold by Tropus as 'Párduc sügér'."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet",
+   "flukes"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218193"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cromileptes-altivelis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Cromileptes_altivelis.jpg/960px-Cromileptes_altivelis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cromileptes_altivelis.jpg",
+   "author": "Steve Childs",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "calloplesiops-altivelis",
+  "group": "fish",
+  "category": "fish-other",
+  "scientific_name": "Calloplesiops altivelis",
+  "name_en": "Comet / Marine Betta",
+  "name_hu": "Tengeri betta",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 9,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 500,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Félénk, éjszaka aktív hal, amely nappal peremek alatt és üregekben rejtőzik. Veszély esetén a fejét üregbe dugja, és farkát mutatja, amely a hátúszó szemfoltjával egy muréna fejét utánozza.",
+   "en": "Shy, nocturnal fish that hides under ledges and in holes by day. When alarmed it pokes its head into a hole and exposes its tail end, which, with the dorsal-fin eyespot, mimics the head of a moray."
+  },
+  "feeding": {
+   "hu": "Ragadozó: élő vagy fagyasztott garnéla, mysis, krill; a fagyasztott eleségre fokozatosan szoktatható.",
+   "en": "Predator: live or frozen shrimp, mysis and krill; can gradually be weaned onto frozen food."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Tongáig és a Line-szigetekig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Tonga and the Line Islands."
+  },
+  "notes": {
+   "hu": "Sötét test sűrű fehér pöttyökkel, a hátúszón szemfolttal. A FishBase szerinti legnagyobb ismert életkor 9 év. Az ikrákat a hím őrzi. Kis halakat és garnélákat megeszik, de korallokkal biztonságos.",
+   "en": "Dark body with dense white spots and an eyespot on the dorsal fin. FishBase gives a maximum reported age of 9 years. The male guards the eggs. Eats small fish and shrimp but is safe with corals."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218340"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Calloplesiops-altivelis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Calloplesiops_altivelis_Comet.jpg/960px-Calloplesiops_altivelis_Comet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Calloplesiops_altivelis_Comet.jpg",
+   "author": "Lonnie Huffman",
+   "license": "CC BY 3.0"
   }
  }
 ]

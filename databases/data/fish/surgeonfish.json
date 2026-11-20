@@ -146,8 +146,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 33,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 5,
@@ -173,8 +173,8 @@
    "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Japánig, délen Új-Kaledóniáig."
   },
   "notes": {
-   "en": "A cheaper, hardier alternative to the yellow tang with the same care profile.",
-   "hu": "A sárga doktorhal olcsóbb, ellenállóbb alternatívája, azonos tartási igénnyel."
+   "en": "A cheaper, hardier alternative to the yellow tang with the same care profile. FishBase gives 40 cm standard length (SL) as the maximum; this is a rare record size, aquarium specimens typically reach 15–20 cm.",
+   "hu": "A sárga doktorhal olcsóbb, ellenállóbb alternatívája, azonos tartási igénnyel. A FishBase 40 cm standard hosszat (SL) ad meg legnagyobb méretként; ez ritka rekordméret, akváriumban jellemzően 15–20 cm."
   },
   "diseases": [
    "marine-ich",
@@ -240,8 +240,8 @@
    "hu": "Indiai-óceán: Kelet-Afrikától az Andamán-tengerig, Srí Lanka és a Maldív-szigetek."
   },
   "notes": {
-   "en": "Notorious ich magnet; always quarantine. Prone to HLLE. Choose a healthy, actively swimming specimen that is already eating.",
-   "hu": "Híres ich-mágnes; mindig karanténba helyezendő. HLLE-re hajlamos. Csak egészséges, aktívan úszó, már evő példányt érdemes választani."
+   "en": "Notorious ich magnet; always quarantine. Prone to HLLE. Choose a healthy, actively swimming specimen that is already eating. FishBase gives 54 cm as the maximum; this is a rare record size, aquarium specimens typically reach 20–30 cm.",
+   "hu": "Híres ich-mágnes; mindig karanténba helyezendő. HLLE-re hajlamos. Csak egészséges, aktívan úszó, már evő példányt érdemes választani. A FishBase 54 cm-t ad meg legnagyobb méretként; ez ritka rekordméret, akváriumban jellemzően 20–30 cm."
   },
   "diseases": [
    "marine-ich",
@@ -481,8 +481,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 33,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 5,
@@ -747,8 +747,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 55,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 5,
@@ -880,8 +880,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 46,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 8,
@@ -948,8 +948,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 34,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 6,
@@ -1015,8 +1015,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 28,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 6,
@@ -1031,7 +1031,7 @@
   "reef_safety": "with-caution",
   "behavior": {
    "en": "Peaceful to semi-aggressive; juveniles mimic dwarf angelfish (Centropyge) in coloration. Usually tolerant of other peaceful fish.",
-   "hu": "Békés vagy félig agresszív; a fiatal példányok a törpe angyalhalak (Centropyge) színét utánozzák. Más békés halakkal szemben általában toleráns."
+   "hu": "Békés vagy félig agresszív; a fiatal példányok a törpe császárhalak (Centropyge) színét utánozzák. Más békés halakkal szemben általában toleráns."
   },
   "feeding": {
    "en": "Herbivore leaning omnivore: nori, herbivore pellets, spirulina, frozen foods.",
@@ -1344,8 +1344,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 36,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 6,
@@ -1475,8 +1475,8 @@
   "name_en": "Truncated Bristletooth",
   "name_hu": "Truncated bristletooth",
   "size_cm": {
-   "min": 15,
-   "max": 22
+   "min": 12,
+   "max": 19
   },
   "lifespan_wild_years": {
    "min": null,
@@ -1750,8 +1750,8 @@
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 27,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 8,

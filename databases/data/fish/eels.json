@@ -1,0 +1,530 @@
+[
+ {
+  "id": "echidna-nebulosa",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Echidna nebulosa",
+  "name_en": "Snowflake Moray / Starry Moray",
+  "name_hu": "Hópihe muréna",
+  "size_cm": {
+   "min": 50,
+   "max": 75
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "A murénák közül az egyik legbékésebb; magányos, éjjel aktív, nappal gyakran csak a feje látszik ki a búvóhelyéről. A FishBase szerint kisebb akváriumi halakkal is biztonságosan tartható.",
+   "en": "One of the most peaceful morays; solitary and nocturnal, by day often only its head shows from its hiding place. According to FishBase it can be safely kept with small aquarium fish."
+  },
+  "feeding": {
+   "hu": "Főleg rákevő: a természetben rákok; akváriumban garnéla, krill, kagyló, tintahal, csipesszel etetve.",
+   "en": "Mainly crustacean-eating: crabs in the wild; in the aquarium shrimp, krill, clams and squid, fed with tongs."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől, Kelet-Afrikától és a Perzsa-öböltől a Társaság-szigetekig; északon Dél-Japánig és a Hawaii-szigetekig, délen a Lord Howe-szigetig; egész Mikronéziában.",
+   "en": "Indo-West Pacific: Red Sea, East Africa and the Persian Gulf to the Society Islands; north to southern Japan and the Hawaiian Islands, south to Lord Howe Island; throughout Micronesia."
+  },
+  "notes": {
+   "hu": "Fehér test fekete-sárga „hópehely” foltokkal. A FishBase szerint 1 m-re is megnőhet, akváriumban jellemzően 50–75 cm. Garnélákat és rákokat megeszik. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "White body with black-and-yellow 'snowflake' blotches. FishBase gives up to 1 m; in aquaria it typically reaches 50–75 cm. Eats shrimp and crabs. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217469"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Echidna-nebulosa.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Morena_estriada_%28Echidna_nebulosa%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_108.jpg/960px-Morena_estriada_%28Echidna_nebulosa%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Morena_estriada_(Echidna_nebulosa),_Zanzíbar,_Tanzania,_2024-06-01,_DD_108.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "echidna-polyzona",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Echidna polyzona",
+  "name_en": "Barred Moray",
+  "name_hu": "Barred Moray",
+  "size_cm": {
+   "min": 50,
+   "max": 70
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Viszonylag békés muréna, amely zátonytetőkön, tiszta, sekély lagúnákban és külső zátonyokon él; nappal és éjjel is táplálkozik.",
+   "en": "Relatively peaceful moray living on reef flats, in clear shallow lagoons and on seaward reefs; feeds both day and night."
+  },
+  "feeding": {
+   "hu": "Főleg rákevő: a természetben apró rákok; akváriumban garnéla, krill, kagyló, tintahal.",
+   "en": "Mainly crustacean-eating: small crustaceans in the wild; in the aquarium shrimp, krill, clams and squid."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Hawaii-, Marquises- és Tuamotu-szigetekig; északon a Rjúkjú-szigetekig, délen a Nagy-korallzátonyig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Hawaiian, Marquesan and Tuamotu islands; north to the Ryukyu Islands, south to the Great Barrier Reef."
+  },
+  "notes": {
+   "hu": "A fiatalok sötét-világos sávosak, a felnőttek fakóbbak. A Tropus „Zebra muréna” néven árulja, de ez a név a Gymnomuraena zebráé; ezért itt az angol név szerepel. A FishBase szerinti maximális méret 80 cm standard hossz (SL). Garnélákat és rákokat megeszik. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "Juveniles are banded dark and light, adults paler. Tropus sells it as 'Zebra muréna', a name that belongs to Gymnomuraena zebra, so the English name is used here. FishBase gives a maximum of 80 cm standard length (SL). Eats shrimp and crabs. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217467"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Echidna-polyzona.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Echidna_polyzona_-_2.JPG/960px-Echidna_polyzona_-_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Echidna_polyzona_-_2.JPG",
+   "author": "Sébastien Vasquez",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gymnomuraena-zebra",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Gymnomuraena zebra",
+  "name_en": "Zebra Moray",
+  "name_hu": "Zebra muréna",
+  "size_cm": {
+   "min": 60,
+   "max": 150
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1200,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés, lassú muréna; kis halakat általában nem bánt, mert tompa, őrlő fogaival főleg héjas zsákmányt eszik.",
+   "en": "Peaceful, slow moray; usually ignores small fish because its blunt, crushing teeth are adapted to shelled prey."
+  },
+  "feeding": {
+   "hu": "A FishBase szerint főleg rákokat (Xanthidae), emellett más rákféléket, puhatestűeket és tengerisünöket eszik; akváriumban kagyló, garnéla, krill, rák.",
+   "en": "According to FishBase it feeds primarily on xanthid crabs, also on other crustaceans, molluscs and sea urchins; in the aquarium clams, shrimp, krill and crab."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől, Kelet-Afrikától és a Perzsa-öböltől a Társaság-szigetekig; északon a Rjúkjú- és a Hawaii-szigetekig, délen a Nagy-korallzátonyig; a Kelet-Közép-Csendes-óceánban is.",
+   "en": "Indo-West Pacific: Red Sea, East Africa and the Persian Gulf to the Society Islands; north to the Ryukyu and Hawaiian islands, south to the Great Barrier Reef; also the Eastern Central Pacific."
+  },
+  "notes": {
+   "hu": "Sötétbarna test sűrű fehér gyűrűkkel. A FishBase szerint 1,5 m-re is megnő, akváriumban lassan nő. Rákokat, csigákat és sünöket megeszik, de halakra kevésbé veszélyes. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "Dark brown body with dense white rings. FishBase gives up to 1.5 m; it grows slowly in aquaria. Eats crabs, snails and urchins but is less dangerous to fish. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217476"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gymnomuraena-zebra.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Morena_cebra_%28Gymnomuraena_zebra%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-14%2C_DD_24.jpg/960px-Morena_cebra_%28Gymnomuraena_zebra%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-14%2C_DD_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Morena_cebra_(Gymnomuraena_zebra),_islas_Ad_Dimaniyat,_Omán,_2024-08-14,_DD_24.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gymnothorax-favagineus",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Gymnothorax favagineus",
+  "name_en": "Laced Moray / Honeycomb Moray",
+  "name_hu": "Méhsejt muréna",
+  "size_cm": {
+   "min": 150,
+   "max": 300
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 2000,
+  "tank_ideal_l": 4000,
+  "difficulty": "difficult",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Az indo-csendes-óceáni murénák közül az egyik legnagyobb; a nagy felnőttek a FishBase szerint agresszívek lehetnek. Gyakran tisztogató ajakoshalakkal vagy garnélákkal osztozik az üregén.",
+   "en": "One of the two largest Indo-Pacific morays; according to FishBase large adults may be aggressive. Often shares its hole with cleaner wrasses or shrimp."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a természetben fejlábúak és kis halak; akváriumban hal, tintahal, garnéla, csipesszel etetve.",
+   "en": "Predator: cephalopods and small fish in the wild; in the aquarium fish, squid and shrimp, fed with tongs."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Pápua Új-Guineáig; északon Dél-Japánig, délen Ausztráliáig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Papua New Guinea; north to southern Japan, south to Australia."
+  },
+  "notes": {
+   "hu": "Fehér-sárgás test sűrű fekete „méhsejt” mintázattal. A FishBase szerint 3 m-re is megnő, ezért csak nagyon nagy, közakváriumi méretű rendszerbe való; a bolti példányok fiatalok. Minden kisebb halat és gerinctelent megeszik. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "Whitish-yellow body with a dense black 'honeycomb' pattern. FishBase gives up to 3 m, so it belongs only in very large, public-aquarium-scale systems; shop specimens are juveniles. Eats any smaller fish and invertebrate. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217509"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gymnothorax-favagineus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Morena_leopardo_%28Gymnothorax_favagineus%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_62.jpg/960px-Morena_leopardo_%28Gymnothorax_favagineus%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_62.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Morena_leopardo_(Gymnothorax_favagineus),_islas_Ad_Dimaniyat,_Omán,_2024-08-15,_DD_62.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gymnothorax-moringa",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Gymnothorax moringa",
+  "name_en": "Spotted Moray",
+  "name_hu": "Pöttyös muréna",
+  "size_cm": {
+   "min": 60,
+   "max": 120
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1000,
+  "tank_ideal_l": 2000,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Magányos, nappal is aktív ragadozó, gyakran más ragadozókkal együtt vadászik. A FishBase szerint harapása nagyon veszélyes, és az emberrel szemben szokatlanul agresszív lehet.",
+   "en": "Solitary predator that is also active by day, sometimes hunting alongside other predators. According to FishBase its bite is very dangerous and it can be unusually aggressive towards people."
+  },
+  "feeding": {
+   "hu": "Ragadozó: halak és rákok; akváriumban hal, tintahal, garnéla, krill, csipesszel etetve.",
+   "en": "Predator: fish and crustaceans; in the aquarium fish, squid, shrimp and krill, fed with tongs."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Észak-Karolinától (USA) és a Bermudáktól Brazíliáig, a Mexikói-öblöt és a Karib-tengert is beleértve; Kelet-Atlanti-óceán: Ascension és Szent Ilona.",
+   "en": "Western Atlantic: North Carolina (USA) and Bermuda to Brazil, including the Gulf of Mexico and the Caribbean; Eastern Atlantic: Ascension and St Helena."
+  },
+  "notes": {
+   "hu": "Sárgásfehér test sűrű sötét pöttyökkel. A FishBase szerint 2 m-re is megnő; nagy, halas akváriumba való. Kisebb halakat és gerincteleneket megeszik. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "Yellowish-white body densely covered in dark spots. FishBase gives up to 2 m; for large fish-only tanks. Eats smaller fish and invertebrates. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=158584"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gymnothorax-moringa.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Gymnothorax_moringa_%28Spotted_Moray_Eel%29.jpg/960px-Gymnothorax_moringa_%28Spotted_Moray_Eel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gymnothorax_moringa_(Spotted_Moray_Eel).jpg",
+   "author": "Nhobgood (talk) Nick Hobgood",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "rhinomuraena-quaesita",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Rhinomuraena quaesita",
+  "name_en": "Ribbon Moray / Ribbon Eel",
+  "name_hu": "Kék-sárga szalagos muréna",
+  "size_cm": {
+   "min": 90,
+   "max": 130
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Rejtőzködő muréna, amely homokba vagy törmelékbe ásva él, gyakran csak a feje látszik ki. Félénk, stresszre érzékeny.",
+   "en": "Secretive moray that lives buried in sand or rubble, often with only its head showing. Shy and sensitive to stress."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a természetben kis halak; akváriumban gyakran csak élő eleséget fogad el, sok példány éhen pusztul.",
+   "en": "Predator: small fish in the wild; in the aquarium it often accepts only live food, and many specimens starve."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Tuamotu-szigetekig; északon Dél-Japánig, délen Új-Kaledóniáig és Francia Polinéziáig; a Mariana- és a Marshall-szigeteken is.",
+   "en": "Indo-Pacific: East Africa to the Tuamotu Islands; north to southern Japan, south to New Caledonia and French Polynesia; including the Marianas and Marshalls."
+  },
+  "notes": {
+   "hu": "A FishBase szerint az egyetlen muréna, amely hirtelen színt és ivart vált: a fiatalok feketék, a hímek kékek sárga hátúszóval, a nőstények szinte teljesen sárgák. A kereskedelmi példányok nagy része nem szokik rá az akváriumi eleségre, ezért csak nagyon tapasztalt tartóknak. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "According to FishBase it is the only moray with abrupt changes in colour and sex: juveniles are black, males blue with a yellow dorsal fin, females almost entirely yellow. Most traded specimens never accept aquarium food, so it is for very experienced keepers only. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217529"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinomuraena-quaesita.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Blue_ribbon_eel_%28Rhinomuraena_quaesita%29_%2816059233369%29.jpg/960px-Blue_ribbon_eel_%28Rhinomuraena_quaesita%29_%2816059233369%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blue_ribbon_eel_(Rhinomuraena_quaesita)_(16059233369).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "gymnothorax-pictus",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Gymnothorax pictus",
+  "name_en": "Peppered Moray / Paintspotted Moray",
+  "name_hu": "Peppered Moray",
+  "size_cm": {
+   "min": 80,
+   "max": 140
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1000,
+  "tank_ideal_l": 2000,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "behavior": {
+   "hu": "Magányos muréna, amely zátonytetőkön és sziklás árapályzónában él; a FishBase szerint zsákmány után néha a vízből is kimászik.",
+   "en": "Solitary moray living on reef flats and rocky intertidal shores; according to FishBase it sometimes leaves the water in pursuit of prey."
+  },
+  "feeding": {
+   "hu": "Ragadozó: kis halak és rákok; akváriumban hal, tintahal, garnéla, rák.",
+   "en": "Predator: small fish and crustaceans; in the aquarium fish, squid, shrimp and crab."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Galápagos-, Cocos- és Clipperton-szigetekig; északon a Hawaii- és a Rjúkjú-szigetekig, délen Ausztráliáig és a Kermadec-szigetekig.",
+   "en": "Indo-Pacific: East Africa to the Galápagos, Cocos and Clipperton islands; north to the Hawaiian and Ryukyu islands, south to Australia and the Kermadec Islands."
+  },
+  "notes": {
+   "hu": "Fehéres test apró sötét pöttyökkel. A Tropus „Siderea picta – Sárgaszájú muréna” néven árulja; a WoRMS szerint az érvényes név Gymnothorax pictus, és a „sárgaszájú” név más fajra (G. nudivomer) illik, ezért itt az angol név szerepel. A FishBase szerint 1,4 m-re is megnő. Kisebb halakat és rákokat megeszik. Kiváló szökevény: az akvárium fedelét résmentesen le kell zárni.",
+   "en": "Whitish body with small dark spots. Tropus sells it as 'Siderea picta – Sárgaszájú muréna'; the valid name in WoRMS is Gymnothorax pictus, and 'yellowmouth' belongs to another species (G. nudivomer), so the English name is used here. FishBase gives up to 1.4 m. Eats smaller fish and crustaceans. An accomplished escape artist: the tank lid must be sealed without gaps."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217491"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siderea-picta.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Peppered_moray_Gymnothorax_pictus_%287622354010%29.jpg/960px-Peppered_moray_Gymnothorax_pictus_%287622354010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Peppered_moray_Gymnothorax_pictus_(7622354010).jpg",
+   "author": "Paul Asman and Jill Lenoble",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "heteroconger-hassi",
+  "group": "fish",
+  "category": "eels",
+  "scientific_name": "Heteroconger hassi",
+  "name_en": "Spotted Garden Eel",
+  "name_hu": "Homoki angolna",
+  "size_cm": {
+   "min": 30,
+   "max": 40
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, kolóniában élő angolna; a természetben akár több száz egyed él együtt homokos lejtőkön, mindegyik saját járatában, amelyből csak a teste elülső része emelkedik ki. Megközelítéskor visszahúzódik.",
+   "en": "Peaceful colonial eel; in the wild up to several hundred individuals live together on sandy slopes, each in its own burrow with only the front of the body raised. Withdraws when approached."
+  },
+  "feeding": {
+   "hu": "Planktonevő: mysis, sórák, copepoda, halikra; naponta többszöri, az áramlásba adagolt etetés.",
+   "en": "Planktivore: mysis, brine shrimp, copepods and fish roe; several feedings a day, released into the current."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Társaság-szigetekig; északon a Rjúkjú- és az Ogaszavara-szigetekig, délen Északnyugat-Ausztráliáig és Új-Kaledóniáig; egész Mikronéziában. Többnyire 15 m alatti homokos lejtőkön.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the Society Islands; north to the Ryukyu and Ogasawara islands, south to north-western Australia and New Caledonia; throughout Micronesia. Mostly on sandy slopes below 15 m."
+  },
+  "notes": {
+   "hu": "Nem muréna, hanem angolna (Congridae). Legalább 15–20 cm mély, finom homokágyat és csoportos tartást igényel; agresszív vagy gyors evő társak mellett éhezik. Kiugrásra hajlamos, ezért fedett akvárium kell.",
+   "en": "Not a moray but a conger eel (Congridae). Needs a fine sand bed at least 15–20 cm deep and should be kept in a group; it starves next to aggressive or fast-feeding tankmates. Prone to jumping, so a covered tank is required."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217552"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Heteroconger-hassi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Spotted_garden_eel_%28Heteroconger_hassi%29_%2837534978102%29.jpg/960px-Spotted_garden_eel_%28Heteroconger_hassi%29_%2837534978102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Spotted_garden_eel_(Heteroconger_hassi)_(37534978102).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ }
+]

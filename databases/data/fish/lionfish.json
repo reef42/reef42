@@ -1,0 +1,464 @@
+[
+ {
+  "id": "dendrochirus-zebra",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Dendrochirus zebra",
+  "name_en": "Zebra Lionfish / Dwarf Lionfish",
+  "name_hu": "Törpe tűzhal",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nyugodt, éjszaka aktív ragadozó; nappal üregekben, peremek alatt pihen, a természetben néha kis csoportokban. Fajtársaival általában megfér, ha elég a hely.",
+   "en": "Calm, nocturnal predator; rests in caves and under ledges by day, sometimes in small aggregations in the wild. Usually tolerates conspecifics if there is enough space."
+  },
+  "feeding": {
+   "hu": "Ragadozó: élő vagy fagyasztott garnéla, krill, mysis, apróra vágott hal és tintahal; az élő eleségről fokozatosan szoktatható át fagyasztottra.",
+   "en": "Predator: live or frozen shrimp, krill, mysis, chopped fish and squid; can gradually be weaned from live to frozen food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Szamoáig; északon Dél-Japánig és az Ogaszavara-szigetekig, délen Ausztráliáig és a Lord Howe-szigetig.",
+   "en": "Indo-West Pacific: Red Sea and East Africa to Samoa; north to southern Japan and the Ogasawara Islands, south to Australia and Lord Howe Island."
+  },
+  "notes": {
+   "hu": "Kis termete miatt a legjobb tűzhal-választás közepes akváriumba. A FishBase szerint fogságban már ívott. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk. Minden halat és garnélát megeszik, ami a szájába fér, ezért csak nála jóval nagyobb társakkal tartható.",
+   "en": "Its small size makes it the best lionfish choice for mid-sized tanks. According to FishBase it has spawned in captivity. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed. It eats any fish or shrimp that fits in its mouth, so keep it only with much larger tankmates."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218053"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Dendrochirus-zebra.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Dendrochirus_zebra_362385941.jpg/960px-Dendrochirus_zebra_362385941.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Dendrochirus_zebra_362385941.jpg",
+   "author": "Ditch Townsend",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pteropterus-antennatus",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Pteropterus antennatus",
+  "name_en": "Spotfin Lionfish / Broadbarred Firefish",
+  "name_hu": "Antennás tűzhal",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Éjszaka aktív ragadozó; nappal hasadékokban, kövek és korallok alatt rejtőzik, fejjel a búvóhely felé. Magányosan vagy csoportban, peremek és üregek alatt él.",
+   "en": "Nocturnal predator; hides in crevices under rocks and coral by day, head towards the shelter. Lives alone or in groups under ledges and in holes."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a természetben garnélák és rákok; akváriumban garnéla, krill, mysis, apróra vágott tengeri hús.",
+   "en": "Predator: shrimp and crabs in the wild; in the aquarium shrimp, krill, mysis and chopped seafood."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Marquises- és a Mangareva-szigetekig; északon Dél-Japánig, délen Queenslandig, a Kermadec- és az Ausztrál-szigetekig.",
+   "en": "Indo-Pacific: East Africa to the Marquesan and Mangareva islands; north to southern Japan, south to Queensland, the Kermadec and Austral islands."
+  },
+  "notes": {
+   "hu": "Hosszú, csápra emlékeztető szemfelettes nyúlványok és fehér úszósugarak. A Tropus általános „Tűzhal” néven árulja; a WoRMS szerint a régi Pterois antennata név helyett ma Pteropterus antennatus az érvényes. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk. Minden halat és garnélát megeszik, ami a szájába fér, ezért csak nála jóval nagyobb társakkal tartható.",
+   "en": "Long, antenna-like tentacles above the eyes and white fin rays. Tropus sells it under the generic name 'Tűzhal'; in WoRMS the old name Pterois antennata has been replaced by Pteropterus antennatus. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed. It eats any fish or shrimp that fits in its mouth, so keep it only with much larger tankmates."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1877675"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pterois-antennata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pez_le%C3%B3n_%28Pterois_antennata%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_10.jpg/960px-Pez_le%C3%B3n_%28Pterois_antennata%29%2C_Anilao%2C_Filipinas%2C_2023-08-24%2C_DD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_león_(Pterois_antennata),_Anilao,_Filipinas,_2023-08-24,_DD_10.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pteropterus-radiatus",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Pteropterus radiatus",
+  "name_en": "Radial Firefish / Clearfin Lionfish",
+  "name_hu": "Fehérsugarú tűzhal",
+  "size_cm": {
+   "min": 18,
+   "max": 24
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Éjszaka aktív ragadozó, amely nappal peremek alatt, keskeny hasadékokban és kis barlangokban pihen; a sziklás zátonyokat kedveli, a kőkorallokat kerüli.",
+   "en": "Nocturnal predator that rests under ledges, in narrow crevices and small caves by day; prefers rocky reefs and seems to avoid stony corals."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a FishBase szerint kizárólag kis rákokat és garnélákat eszik; akváriumban garnéla, krill, mysis.",
+   "en": "Predator: according to FishBase it feeds exclusively on small crabs and shrimp; in the aquarium shrimp, krill and mysis."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől a dél-afrikai Sodwana-öbölig és a Társaság-szigetekig; északon a Rjúkjú-szigetekig, délen Új-Kaledóniáig.",
+   "en": "Indo-Pacific: Red Sea to Sodwana Bay, South Africa, and to the Society Islands; north to the Ryukyu Islands, south to New Caledonia."
+  },
+  "notes": {
+   "hu": "Mellúszóin hosszú, fehér, hártya nélküli sugarak, a farokszáron két vízszintes fehér vonal. A Tropus általános „Tűzhal” néven árulja; a WoRMS szerint a régi Pterois radiata név helyett ma Pteropterus radiatus az érvényes, ezért a magyar név leíró jellegű. Mivel szinte csak rákféléket eszik, a halakra kevésbé veszélyes, a garnélákra viszont igen. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk.",
+   "en": "Long, white, membrane-free rays on the pectoral fins and two horizontal white lines on the caudal peduncle. Tropus sells it under the generic name 'Tűzhal'; in WoRMS the old name Pterois radiata has been replaced by Pteropterus radiatus, so the Hungarian name is descriptive. Since it eats almost only crustaceans, it is less of a threat to fish but a major one to shrimp. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=401019"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pterois-radiata.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Clearfin_lionfish_%28Pterois_radiata%29.JPG/960px-Clearfin_lionfish_%28Pterois_radiata%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Clearfin_lionfish_(Pterois_radiata).JPG",
+   "author": "The High Fin Sperm Whale",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "pterois-volitans",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Pterois volitans",
+  "name_en": "Red Lionfish / Volitans Lionfish",
+  "name_hu": "Vörös tűzhal",
+  "size_cm": {
+   "min": 30,
+   "max": 38
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 10,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1200,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nagyra növő, éjszaka vadászó ragadozó; nappal gyakran fejjel lefelé, mozdulatlanul rejtőzik. A zsákmányt kitárt mellúszóival sarokba szorítja, majd egyben lenyeli.",
+   "en": "Large, night-hunting predator; by day it often hides head-down and nearly motionless. It corners prey with its spread pectoral fins and swallows it whole."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a természetben kis halak, garnélák és rákok; akváriumban garnéla, krill, tintahal, halhús. Élő édesvízi halakkal ne etessük.",
+   "en": "Predator: small fish, shrimp and crabs in the wild; in the aquarium shrimp, krill, squid and fish meat. Do not feed live freshwater fish."
+  },
+  "origin": {
+   "hu": "Csendes-óceán: a keleti Indiai-óceánban a Cocos (Keeling)-szigetektől és Nyugat-Ausztráliától a Marquises-szigetekig és Oenóig (Pitcairn); északon Dél-Japánig és Dél-Koreáig, délen a Lord Howe-szigetig. Behurcolt, invazív faj a Nyugat-Atlanti-óceánban és a Karib-tengeren.",
+   "en": "Pacific Ocean: Cocos-Keeling Islands and Western Australia in the eastern Indian Ocean to the Marquesas and Oeno (Pitcairn group); north to southern Japan and South Korea, south to Lord Howe Island. Introduced and invasive in the Western Atlantic and Caribbean."
+  },
+  "notes": {
+   "hu": "A FishBase szerint 45 cm-re is megnő, ezért nagy akváriumot igényel. A Tropus általános „Tűzhal” néven árulja. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk. Minden halat és garnélát megeszik, ami a szájába fér, ezért csak nála jóval nagyobb társakkal tartható.",
+   "en": "FishBase gives a maximum of 45 cm, so it needs a large tank. Tropus sells it under the generic name 'Tűzhal'. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed. It eats any fish or shrimp that fits in its mouth, so keep it only with much larger tankmates."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=159559"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pterois-volitans.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Common_lion_fish_Pterois_volitans.jpg/960px-Common_lion_fish_Pterois_volitans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Common_lion_fish_Pterois_volitans.jpg",
+   "author": "Michael Gäbler",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "rhinopias-eschmeyeri",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Rhinopias eschmeyeri",
+  "name_en": "Eschmeyer's Scorpionfish",
+  "name_hu": "Lila békahal",
+  "size_cm": {
+   "min": 18,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Lassú, lesből vadászó skorpióhal; álcázva mozdulatlanul vár a zsákmányra. Csak békés, lassú társakkal, vagy inkább egyedül tartható.",
+   "en": "Slow, ambush-hunting scorpionfish that waits motionless and camouflaged for prey. Keep only with peaceful, slow tankmates, or preferably alone."
+  },
+  "feeding": {
+   "hu": "Ragadozó: kis halak és rákok; akváriumban gyakran csak élő eleséget fogad el, a fagyasztottra szoktatás nehéz.",
+   "en": "Predator: small fish and crustaceans; in the aquarium it often accepts only live food and is hard to wean onto frozen food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán; korallzátonyokon és törmelékes aljzaton 18–55 m mélyen.",
+   "en": "Indo-West Pacific; coral reefs and rubble bottoms at 18–55 m."
+  },
+  "notes": {
+   "hu": "A Tropus „Lila békahal” néven árulja, de nem békahal (Antennariidae), hanem skorpióhal. A FishBase szerint a japán kereskedelemben a R. frondosától külön alakként árulják, a két faj közeli rokon. Ritka, drága, tapasztalt tartóknak való. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk.",
+   "en": "Sold by Tropus as a 'frogfish' (békahal), but it is a scorpionfish, not a true frogfish (Antennariidae). According to FishBase it is traded in Japan separately from R. frondosa as a different morphotype; the two are close relatives. Rare, expensive and for experienced keepers. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218088"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinopias-eschmeyeri.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Eschmeyer%27s_scorpionfish_%28Rhinopias_eschmeyeri%29.jpg/960px-Eschmeyer%27s_scorpionfish_%28Rhinopias_eschmeyeri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Eschmeyer's_scorpionfish_(Rhinopias_eschmeyeri).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "rhinopias-frondosa",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Rhinopias frondosa",
+  "name_en": "Weedy Scorpionfish",
+  "name_hu": "Sárga békahal",
+  "size_cm": {
+   "min": 18,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Lassú, magányos, lesből vadászó skorpióhal, amely korallok, sziklák és algák között álcázza magát. Csak békés, lassú társakkal, vagy inkább egyedül tartható.",
+   "en": "Slow, solitary ambush predator that camouflages itself among corals, rocks and weeds. Keep only with peaceful, slow tankmates, or preferably alone."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a FishBase szerint éjjel vadászik halakra és apró gerinctelenekre; akváriumban gyakran csak élő eleséget fogad el.",
+   "en": "Predator: according to FishBase it hunts fish and small invertebrates at night; in the aquarium it often accepts only live food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Dél-Afrikától (Durban mellől) keletre Dél-Japánig, a Karolina-szigetekig és Kelet-Ausztráliáig; áramlásos csatornák puha aljzatán, sziklás vagy mészalgás élőhelyeken.",
+   "en": "Indo-West Pacific: South Africa (off Durban) east to southern Japan, the Caroline Islands and eastern Australia; soft bottoms in current-prone channels and rocky or coralline habitats."
+  },
+  "notes": {
+   "hu": "Rojtos bőrnyúlványok, változatos szín (sárga, rózsaszín, lila, barna). A Tropus „Sárga békahal” néven árulja, de skorpióhal, nem békahal. Ritka, drága, tapasztalt tartóknak való. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk.",
+   "en": "Fringed skin flaps and variable colour (yellow, pink, purple, brown). Sold by Tropus as 'Sárga békahal', but it is a scorpionfish, not a frogfish. Rare, expensive and for experienced keepers. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218087"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Rhinopias-frondosa.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Weedy_scorpionfish_%28Rhinopias_frondosa%29_%2840822913312%29.jpg/960px-Weedy_scorpionfish_%28Rhinopias_frondosa%29_%2840822913312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Weedy_scorpionfish_(Rhinopias_frondosa)_(40822913312).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "taenianotus-triacanthus",
+  "group": "fish",
+  "category": "lionfish",
+  "scientific_name": "Taenianotus triacanthus",
+  "name_en": "Leaf Scorpionfish",
+  "name_hu": "Levél-skorpióhal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Magányos, általában mozdulatlan kis skorpióhal; algák vagy tengerifű között ül, és oldalra hintázva lehulló levelet utánoz. A FishBase szerint havonta kétszer vedli a bőrét.",
+   "en": "Solitary, usually motionless little scorpionfish that sits among algae or seagrass and sways from side to side to mimic a falling leaf. According to FishBase it moults its skin twice a month."
+  },
+  "feeding": {
+   "hu": "Ragadozó: apró rákok és kis halak; akváriumban élő vagy fagyasztott garnéla, mysis, kezdetben gyakran csak élő eleség.",
+   "en": "Predator: small crustaceans and small fish; in the aquarium live or frozen shrimp and mysis, often only live food at first."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Galápagos-szigetekig; északon a Rjúkjú- és a Hawaii-szigetekig, délen Ausztráliáig és a Tuamotu-szigetekig.",
+   "en": "Indo-Pacific: East Africa to the Galápagos Islands; north to the Ryukyu and Hawaiian islands, south to Australia and the Tuamotu Islands."
+  },
+  "notes": {
+   "hu": "Színe sárga, piros, barna, fehér vagy fekete lehet; a Tropus külön termékként árulja a piros és a sárga változatot („Piros békahal”, „Sárga békahal”), de ez egy faj. Nem békahal, hanem skorpióhal, ezért a magyar név leíró jellegű. Kis garnélákat és apró halakat megeszik. Hátúszójának tüskéi méregmirigyekkel kapcsolódnak, a szúrása nagyon fájdalmas; karbantartáskor óvatosan, szükség esetén védőkesztyűben dolgozzunk.",
+   "en": "Colour can be yellow, red, brown, white or black; Tropus sells the red and yellow forms as separate products, but they are one species. It is a scorpionfish, not a frogfish, so the Hungarian name here is descriptive. Eats small shrimp and tiny fish. Its dorsal spines are connected to venom glands and the sting is very painful; take care during maintenance and use protective gloves if needed."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218119"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Taenianotus-triacanthus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Pez_escorpi%C3%B3n_de_vela_%28Taenianotus_triacanthus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-29%2C_DD_16.jpg/960px-Pez_escorpi%C3%B3n_de_vela_%28Taenianotus_triacanthus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-05-29%2C_DD_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_escorpión_de_vela_(Taenianotus_triacanthus),_Zanzíbar,_Tanzania,_2024-05-29,_DD_16.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ }
+]

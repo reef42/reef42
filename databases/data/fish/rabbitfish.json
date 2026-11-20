@@ -1,0 +1,662 @@
+[
+ {
+  "id": "siganus-corallinus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus corallinus",
+  "name_en": "Blue-spotted Spinefoot / Coral Rabbitfish",
+  "name_hu": "Kékpettyes rókapofa",
+  "size_cm": {
+   "min": 25,
+   "max": 35
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a fiatalok kis csoportokban sekély tengerifű-mezőkön és Acropora-korallok között élnek, a felnőttek többnyire párban sekély zátonyokon.",
+   "en": "Peaceful rabbitfish; juveniles live in small schools in shallow seagrass beds and among Acropora corals, adults usually in pairs on shallow reefs."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: az Aldabra- és a Seychelle-szigetektől és a Maldív-szigetektől az Andamán-tengeren, Indonézián és a Fülöp-szigeteken át a Rjúkjú- és az Ogaszavara-szigetekig, Palauig és Pápua Új-Guineáig.",
+   "en": "Indo-West Pacific: Aldabra, Seychelles and Maldives through the Andaman Sea, Indonesia and the Philippines to the Ryukyu and Ogasawara islands, Palau and Papua New Guinea."
+  },
+  "notes": {
+   "hu": "Sárga test sűrű kék pöttyökkel. Az Acropora „Pöttyös rókapofa” néven, a Tropus „Siganus tetrazonus – Kékpettyes rókapofa” néven árulja; a WoRMS szerint a S. tetrazonus a S. corallinus szinonimája, ezért egy bejegyzésként szerepel. A FishBase szerint 35 cm standard hosszra (SL) is megnő, ezért nagy akváriumot igényel. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Yellow body densely covered in blue spots. Sold by Acropora as 'Pöttyös rókapofa' and by Tropus as 'Siganus tetrazonus – Kékpettyes rókapofa'; WoRMS treats S. tetrazonus as a synonym of S. corallinus, so it appears as one entry. FishBase gives a maximum of 35 cm standard length (SL), so it needs a large tank. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219690"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-corallinus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Siganus_corallinus_juvenil.jpg/960px-Siganus_corallinus_juvenil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_corallinus_juvenil.jpg",
+   "author": "Graham Edgar/Reef Life Survey",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "siganus-doliatus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus doliatus",
+  "name_en": "Barred Spinefoot",
+  "name_hu": "Írásos rókapofa",
+  "size_cm": {
+   "min": 20,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a fiatalok csapatban, a 7 cm feletti példányok párban élnek, de ezek a párok is laza csapatokba állnak. A felnőttek a lagúnák mélyebb részein és a zátonyszéleken párban legelnek.",
+   "en": "Peaceful rabbitfish; juveniles school, and fish over 7 cm form pairs that still gather in loose schools. Adults graze in pairs in deeper lagoons and along reef edges."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: az indo-maláj térségbe alig hatol be (Kelet-Indonéziát kivéve); északon Palauig és Kosraéig, délen Északnyugat-Ausztráliáig és Tongáig. Az Indiai-óceánban a közeli rokon Siganus virgatus helyettesíti.",
+   "en": "Western Pacific: barely entering the Indo-Malayan area (except eastern Indonesia); north to Palau and Kosrae, south to north-western Australia and Tonga. Replaced by the closely related Siganus virgatus to the west."
+  },
+  "notes": {
+   "hu": "Sárga-fehér test finom kék „írásszerű” vonalakkal és két sötét fejsávval. A FishBase szerinti maximális méret 25 cm standard hossz (SL). Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Yellow-and-white body with fine blue 'scribbled' lines and two dark head bars. FishBase gives a maximum of 25 cm standard length (SL). The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273911"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-doliatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Siganus_doliatus_edit.jpg/960px-Siganus_doliatus_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_doliatus_edit.jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "siganus-guttatus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus guttatus",
+  "name_en": "Goldlined Spinefoot / Orange-spotted Rabbitfish",
+  "name_hu": "Pettyes rókapofa",
+  "size_cm": {
+   "min": 30,
+   "max": 42
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1000,
+  "tank_ideal_l": 2000,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Egész életében csapatban élő rókapofa (a felnőttek 10–15 fős csoportokban); a FishBase szerint a többi rókapofával ellentétben éjjel is aktív.",
+   "en": "A rabbitfish that schools throughout life (adults in groups of about 10–15); according to FishBase, unlike other rabbitfish it is also active at night."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán és Nyugat-Csendes-óceán: Andamán-szigetek, Thaiföld, Malajzia, Szingapúr, Indonézia, Vietnam, a Rjúkjú-szigetek, Dél- és Kelet-Kína, Tajvan, a Dél-kínai-tenger és a Fülöp-szigetek.",
+   "en": "Eastern Indian Ocean and Western Pacific: Andaman Islands, Thailand, Malaysia, Singapore, Indonesia, Viet Nam, the Ryukyus, southern and eastern China, Taiwan, the South China Sea and the Philippines."
+  },
+  "notes": {
+   "hu": "Ezüstös-sárgás test narancssárga pöttyökkel. A part menti zátonyok és mangrovék lakója, az alacsonyabb sótartalmat is jól tűri. A FishBase szerint 42 cm-re is megnő, ezért csak nagyon nagy akváriumba való. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás).",
+   "en": "Silvery-yellow body with orange spots. Lives on inshore reefs and in mangroves and tolerates lower salinity. FishBase gives a maximum of 42 cm, so it belongs only in very large tanks. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273913"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-guttatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Siganus_guttatus_4.jpg/960px-Siganus_guttatus_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_guttatus_4.jpg",
+   "author": "Karelj",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "siganus-magnificus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus magnificus",
+  "name_en": "Magnificent Rabbitfish / Magnificent Foxface",
+  "name_hu": "Ezüst rókapofa",
+  "size_cm": {
+   "min": 20,
+   "max": 24
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a felnőttek párban vagy magányosan, a fiatalok rejtőzködve, korallok között élnek.",
+   "en": "Peaceful rabbitfish; adults live in pairs or alone, juveniles hide among corals."
+  },
+  "feeding": {
+   "hu": "Növényevő-mindenevő: a természetben algák és apró gerinctelenek; akváriumban nori, spirulina, algás pellet, kiegészítésként mysis.",
+   "en": "Herbivore-omnivore: algae and small invertebrates in the wild; in the aquarium nori, spirulina and algae pellets, with mysis as a supplement."
+  },
+  "origin": {
+   "hu": "Keleti Indiai-óceán: Thaiföldtől (a Similan-szigeteket is beleértve) az indonéziai Jáváig.",
+   "en": "Eastern Indian Ocean: Thailand, including the Similan Islands, to Java, Indonesia."
+  },
+  "notes": {
+   "hu": "Fehér-sárga test fekete fej- és hátsávval. A FishBase szerinti maximális méret 24 cm standard hossz (SL). Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "White-and-yellow body with a black head and back band. FishBase gives a maximum of 24 cm standard length (SL). The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273917"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-magnificus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Siganus_magnificus_Andamanen_Fuchsgesicht.jpg/960px-Siganus_magnificus_Andamanen_Fuchsgesicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_magnificus_Andamanen_Fuchsgesicht.jpg",
+   "author": "Holger Krisp",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "siganus-puellus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus puellus",
+  "name_en": "Masked Spinefoot / Masked Rabbitfish",
+  "name_hu": "Maszkos rókapofa",
+  "size_cm": {
+   "min": 30,
+   "max": 38
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 800,
+  "tank_ideal_l": 1500,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a 7 cm alatti fiatalok nagy csapatokban élnek a dús Acropora-telepek között, a felnőttek párban.",
+   "en": "Peaceful rabbitfish; juveniles up to 7 cm form large schools among lush Acropora growth, adults live in pairs."
+  },
+  "feeding": {
+   "hu": "Mindenevő: a fiatalok fonalas algákat, a felnőttek algákat, zsákállatokat és szivacsokat esznek; akváriumban nori, spirulina, algás pellet, mysis.",
+   "en": "Omnivore: juveniles eat filamentous algae, adults algae, tunicates and sponges; in the aquarium nori, spirulina, algae pellets and mysis."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Cocos (Keeling)-szigetektől és a Dél-kínai-tengertől a Gilbert-szigetekig; északon a Rjúkjú-szigetekig, délen a Nagy-korallzátony déli részéig és Új-Kaledóniáig.",
+   "en": "Indo-West Pacific: Cocos-Keeling Islands and the South China Sea to the Gilbert Islands; north to the Ryukyu Islands, south to the southern Great Barrier Reef and New Caledonia."
+  },
+  "notes": {
+   "hu": "Sárga test kék vonalakkal és fekete szemsávval („maszk”). A FishBase szerint 38 cm-re is megnő. Szivacsokat és zsákállatokat is eszik, ezért korallos akváriumban kockázatosabb. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás).",
+   "en": "Yellow body with blue lines and a black eye band ('mask'). FishBase gives a maximum of 38 cm. It also eats sponges and tunicates, so it is riskier in reef tanks. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273920"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-puellus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Siganus_puellus_edit_2.jpg/960px-Siganus_puellus_edit_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_puellus_edit_2.jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "siganus-spinus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus spinus",
+  "name_en": "Little Spinefoot",
+  "name_hu": "Little Spinefoot",
+  "size_cm": {
+   "min": 20,
+   "max": 28
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa, amely kis (általában 10 egyednél kisebb) csapatokban él sekély zátonytetőkön; a fiatalok nagyobb számban gyűlnek össze az algás tövű korallok között.",
+   "en": "Peaceful rabbitfish living in small schools (usually under 10 fish) on shallow reef flats; juveniles gather in larger numbers among corals with algae-grown bases."
+  },
+  "feeding": {
+   "hu": "Növényevő: a FishBase szerint fiatalon finom, fonalas algákat, nagyobb korban durvább algákat legel; nappal táplálkozik. Akváriumban nori, spirulina, algás pellet.",
+   "en": "Herbivore: according to FishBase it browses fine filamentous algae when young and switches to coarser algae as it grows; a diurnal feeder. In the aquarium nori, spirulina and algae pellets."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Indiától Francia Polinéziáig; északon Japánig, délen Új-Kaledóniáig. Folyókba is behatol.",
+   "en": "Indo-West Pacific: India to French Polynesia; north to Japan, south to New Caledonia. Also enters rivers."
+  },
+  "notes": {
+   "hu": "Barnás-márványos, rejtőszínű rókapofa. A Korallós Akváriumban csak latin néven kapható, és nincs használt magyar neve, ezért az angol név szerepel. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás).",
+   "en": "Brownish, marbled, cryptically coloured rabbitfish. Listed only by its Latin name at Korallós Akvárium and with no established Hungarian name, so the English name is used. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance)."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219689"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-spinus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Scribbled_rabbitfish_%28Siganus_spinus%29_%2828822254937%29.jpg/960px-Scribbled_rabbitfish_%28Siganus_spinus%29_%2828822254937%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Scribbled_rabbitfish_(Siganus_spinus)_(28822254937).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "siganus-unimaculatus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus unimaculatus",
+  "name_en": "Blotched Foxface / One-spot Foxface",
+  "name_hu": "Egyfoltos rókapofa",
+  "size_cm": {
+   "min": 15,
+   "max": 20
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a kis fiatalok több százas csapatokban, a nagyobb fiatalok és a felnőttek párban élnek, gyakran szarvasagancs-korallok (Acropora) között.",
+   "en": "Peaceful rabbitfish; small juveniles form schools of up to a few hundred, larger juveniles and adults live in pairs, often among staghorn corals (Acropora)."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: a Rjúkjú-szigetek, a Fülöp-szigetek és Nyugat-Ausztrália északnyugati selfje.",
+   "en": "Western Pacific: Ryukyu Islands, the Philippines and the North West Shelf of Western Australia."
+  },
+  "notes": {
+   "hu": "Megjelenése a közönséges rókapofáé (S. vulpinus), de oldalán egy nagy fekete folt van. A FishBase szerinti maximális méret 20 cm standard hossz (SL). Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Looks like the common foxface (S. vulpinus) but has a large black blotch on the side. FishBase gives a maximum of 20 cm standard length (SL). The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273925"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-unimaculatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Acanthuroidei_-_Siganus_unimaculatus_-_3.jpg/960px-Acanthuroidei_-_Siganus_unimaculatus_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthuroidei_-_Siganus_unimaculatus_-_3.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "siganus-uspi",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus uspi",
+  "name_en": "Bicolored Foxface",
+  "name_hu": "Felemás rókapofa",
+  "size_cm": {
+   "min": 18,
+   "max": 24
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 900,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a fiatalok csapatban, a felnőttek párban élnek zátonyszéli falakon és a zátonytetők mélyebb medencéiben.",
+   "en": "Peaceful rabbitfish; juveniles school and adults live in pairs on reef-edge drop-offs and in deep pools inside reef crests."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Fidzsi-szigeteki endemikus faj; Új-Kaledóniából kóborló példányai ismertek.",
+   "en": "Western Pacific: endemic to Fiji, with strays recorded from New Caledonia."
+  },
+  "notes": {
+   "hu": "Sötétbarna-fekete test, élénksárga farokrésszel. Szűk elterjedésű faj, ezért ritkábban kerül kereskedelembe. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Dark brown to black body with a bright yellow rear. A narrowly distributed species, so it is less common in the trade. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273926"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-uspi.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Siganidae_Siganus_uspi_2.jpg/960px-Siganidae_Siganus_uspi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganidae_Siganus_uspi_2.jpg",
+   "author": "NasserHalaweh",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "siganus-virgatus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus virgatus",
+  "name_en": "Barhead Spinefoot / Virgate Rabbitfish",
+  "name_hu": "Kétsávos rókapofa",
+  "size_cm": {
+   "min": 22,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés rókapofa; a nagyobb fiatalok és a felnőttek párban élnek part menti zátonytetőkön, lejtőkön és torkolatokban; a zavaros vizet is tűri.",
+   "en": "Peaceful rabbitfish; larger juveniles and adults live in pairs on coastal reef flats, slopes and estuaries; tolerates murky water."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Dél-India, Srí Lanka, Andamán-szigetek, Thaiföld, Dél- és Kelet-Kína partjai, Tajvan, a Rjúkjú-szigetek, a Fülöp-szigetek, Malajzia, Szingapúr, Indonézia és Ausztrália Északi területe.",
+   "en": "Indo-West Pacific: southern India, Sri Lanka, Andaman Islands, Thailand, southern and eastern China, Taiwan, the Ryukyus, the Philippines, Malaysia, Singapore, Indonesia and the Northern Territory of Australia."
+  },
+  "notes": {
+   "hu": "Sárga-fehér test kék vonalakkal és két sötét fejsávval; a nagyon hasonló Írásos rókapofát (S. doliatus) a Csendes-óceánban helyettesíti. A fiatalok mangrovékban, akár édesvízben is előfordulnak. Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Yellow-and-white body with blue lines and two dark head bars; replaced in the Pacific by the very similar barred spinefoot (S. doliatus). Juveniles occur in mangroves and even fresh water. The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273928"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-virgatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Siganus_virgatus_427268746_%28cropped%29.jpg/960px-Siganus_virgatus_427268746_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_virgatus_427268746_(cropped).jpg",
+   "author": "Ioannis Magouras",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "siganus-vulpinus",
+  "group": "fish",
+  "category": "rabbitfish",
+  "scientific_name": "Siganus vulpinus",
+  "name_en": "Foxface Rabbitfish",
+  "name_hu": "Rókapofa",
+  "size_cm": {
+   "min": 18,
+   "max": 25
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Békés, de fajtársaival szemben területvédő rókapofa; általában magányosan vagy párban él, de a fiatalok és a félig kifejlett példányok néha nagy csapatokban legelnek az Acropora-telepek elhalt tövén.",
+   "en": "Peaceful rabbitfish, territorial towards its own kind; usually alone or in pairs, but juveniles and subadults sometimes graze in large schools on algae at the dead bases of Acropora branches."
+  },
+  "feeding": {
+   "hu": "Növényevő: algák és tengeri hínárok; akváriumban nori, spirulina, algás pellet, blansírozott zöldség, kiegészítésként mysis. Hasznos algairtó, a buborékalgát (Valonia) is megeheti.",
+   "en": "Herbivore: algae and seaweeds; in the aquarium nori, spirulina, algae pellets, blanched vegetables, with mysis as a supplement. A useful algae grazer that may also eat bubble algae (Valonia)."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: a Fülöp-szigetek nyugati része, Indonézia, Új-Guinea, a Nagy-korallzátony, Új-Kaledónia, a Karolina- és a Marshall-szigetek; Vanuatuból, Naururól és Kiribatiból is jelezték.",
+   "en": "Western Pacific: western Philippines, Indonesia, New Guinea, the Great Barrier Reef, New Caledonia, the Caroline and Marshall islands; also sighted at Vanuatu, Nauru and Kiribati."
+  },
+  "notes": {
+   "hu": "Sárga test, fekete-fehér „rókaarc”. Az egyik legnépszerűbb akváriumi algairtó hal; stressz esetén és éjjel foltos rejtőszínt vesz fel. A FishBase szerinti maximális méret 25 cm standard hossz (SL). Hát-, has- és farok alatti úszójának tüskéi méregmirigyekkel kapcsolódnak, és fájdalmas szúrást okozhatnak; óvatosan kell vele bánni (pl. hálóval fogás, karbantartás). Zátonyakváriumban egyes példányok LPS-korallokat és Zoanthus-telepeket csipkedhetnek.",
+   "en": "Yellow body with a black-and-white 'fox face'. One of the most popular aquarium algae grazers; it takes on a blotchy camouflage colouring when stressed and at night. FishBase gives a maximum of 25 cm standard length (SL). The spines of its dorsal, pelvic and anal fins are connected to venom glands and can inflict a painful sting; handle with care (netting, maintenance). In reef tanks some individuals may nip LPS corals and zoanthids."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=273929"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Siganus-vulpinus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Siganus_vulpinus_1_edit.jpg/960px-Siganus_vulpinus_1_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Siganus_vulpinus_1_edit.jpg",
+   "author": "Leonard Low from Australia",
+   "license": "CC BY 2.0"
+  }
+ }
+]

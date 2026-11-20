@@ -5,15 +5,15 @@
   "category": "wrasses",
   "scientific_name": "Labroides dimidiatus",
   "name_en": "Cleaner Wrasse",
-  "name_hu": "Tisztogató ajaksügér",
+  "name_hu": "Tisztogató ajakoshal",
   "size_cm": {
    "min": 9,
    "max": 12
   },
   "lifespan_wild_years": {
    "min": null,
-   "max": null,
-   "note": "unknown"
+   "max": 4,
+   "note": "max. reported age (FishBase)"
   },
   "lifespan_captivity_years": {
    "min": 1,
@@ -69,7 +69,7 @@
   "group": "fish",
   "category": "wrasses",
   "scientific_name": "Thalassoma lunare",
-  "name_en": "Moon Wrasse / Lunar Wrasse",
+  "name_en": "Moon Wrasse (Crescent Wrasse)",
   "name_cm": null,
   "size_cm": {
    "min": 20,
@@ -127,7 +127,8 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Lábrido_lunar_(Thalassoma_lunare),_Nosy_Tanikely,_Madagascar,_2025-09-19,_DD_06.jpg",
    "author": "Diego Delso",
    "license": "CC BY-SA 4.0"
-  }
+  },
+  "name_hu": "Félhold ajakoshal"
  },
  {
   "id": "halichoeres-chrysus",
@@ -135,7 +136,7 @@
   "category": "wrasses",
   "scientific_name": "Halichoeres chrysus",
   "name_en": "Yellow Coris Wrasse / Canary Wrasse",
-  "name_hu": "Kanári ajaksügér",
+  "name_hu": "Kanári ajakoshal",
   "size_cm": {
    "min": 10,
    "max": 12
@@ -170,7 +171,7 @@
   },
   "notes": {
    "en": "Popular 'workhorse' wrasse for pest control (flatworms, planaria). Jump risk - use a tight lid.",
-   "hu": "Népszerű 'munkaló' ajaksügér kártevőirtásra (laposférgek, planáriák). Ugrásra hajlamos – jól záródó fedél szükséges."
+   "hu": "Népszerű 'munkaló' ajakoshal kártevőirtásra (laposférgek, planáriák). Ugrásra hajlamos – jól záródó fedél szükséges."
   },
   "diseases": [
    "marine-ich",
@@ -200,7 +201,7 @@
   "category": "wrasses",
   "scientific_name": "Halichoeres melanurus",
   "name_en": "Melanurus Wrasse / Hoeven's Wrasse",
-  "name_hu": "Melanurus ajaksügér",
+  "name_hu": "Melanurus ajakoshal",
   "size_cm": {
    "min": 12,
    "max": 15
@@ -235,7 +236,7 @@
   },
   "notes": {
    "en": "One of the best pest-control wrasses for reef tanks; active by day. Needs 3-5 cm fine sand cover.",
-   "hu": "Az egyik legjobb kártevőirtó ajaksügér zátonyos akváriumokba; nappal aktív. 3–5 cm finom homoktakarót igényel."
+   "hu": "Az egyik legjobb kártevőirtó ajakoshal zátonyos akváriumokba; nappal aktív. 3–5 cm finom homoktakarót igényel."
   },
   "diseases": [
    "marine-ich",
@@ -265,7 +266,7 @@
   "category": "wrasses",
   "scientific_name": "Halichoeres iridis",
   "name_en": "Iridis Wrasse / Rainbow Wrasse",
-  "name_hu": "Szivárvány ajaksügér",
+  "name_hu": "Szivárvány ajakoshal",
   "size_cm": {
    "min": 10,
    "max": 12
@@ -330,7 +331,7 @@
   "category": "wrasses",
   "scientific_name": "Coris gaimard",
   "name_en": "Yellowtail Coris / Gaimard's Wrasse",
-  "name_hu": "Sárgafarkú ajaksügér",
+  "name_hu": "Sárgafarkú ajakoshal",
   "size_cm": {
    "min": 25,
    "max": 40
@@ -395,7 +396,7 @@
   "category": "wrasses",
   "scientific_name": "Pseudocheilinus hexataenia",
   "name_en": "Six-line Wrasse",
-  "name_hu": "Hatcsíkos ajaksügér",
+  "name_hu": "Hatcsíkos ajakoshal",
   "size_cm": {
    "min": 7,
    "max": 10
@@ -460,7 +461,7 @@
   "category": "wrasses",
   "scientific_name": "Novaculichthys taeniourus",
   "name_en": "Dragon Wrasse / Rockmover Wrasse",
-  "name_hu": "Sárkány ajaksügér",
+  "name_hu": "Sárkány ajakoshal",
   "size_cm": {
    "min": 20,
    "max": 30
@@ -525,7 +526,7 @@
   "category": "wrasses",
   "scientific_name": "Cirrhilabrus rubrimarginatus",
   "name_en": "Red-margin Fairy Wrasse",
-  "name_hu": "Vörösszegélyű tündérsügér",
+  "name_hu": "Vörösszegélyű tündér ajakoshal",
   "size_cm": {
    "min": 8,
    "max": 12
@@ -560,7 +561,7 @@
   },
   "notes": {
    "en": "Perfect reef-safe wrasse; vivid colors. Jump risk - tight lid required. Do not mix with Pseudocheilinus species.",
-   "hu": "Tökéletes korallbiztos ajaksügér; élénk színekkel. Ugrásveszély – jól záródó fedél kell. Pseudocheilinus fajokkal ne keverjük."
+   "hu": "Tökéletes korallbiztos ajakoshal; élénk színekkel. Ugrásveszély – jól záródó fedél kell. Pseudocheilinus fajokkal ne keverjük."
   },
   "diseases": [
    "marine-ich",
@@ -582,6 +583,1605 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_rubrimarginatus.jpg",
    "author": "User:Izuzuki",
    "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "anampses-caeruleopunctatus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Anampses caeruleopunctatus",
+  "name_en": "Bluespotted Wrasse",
+  "name_hu": "Kékpöttyös ajakoshal",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 500,
+  "tank_ideal_l": 800,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Semi-aggressive, active wrasse of the Anampses group; peaceful towards non-wrasse tankmates. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep.",
+   "hu": "Félig agresszív, aktív Anampses-ajakoshal; a nem ajakoshal társakkal békés. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, finely chopped seafood; accepts pellets with time. Feed 2-3 times daily.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; idővel pelletet is elfogad. Napi 2-3 etetés."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from East Africa and the Red Sea to the Line Islands and Samoa.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától és a Vörös-tengertől a Line-szigetekig és Samoáig."
+  },
+  "notes": {
+   "en": "Delicate after shipping and difficult to acclimate; sensitive to poor water quality. A covered tank and mature reef with plenty of live rock are essential. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Szállítás után érzékeny, nehezen szoktatható; a rossz vízminőségre érzékeny. A fedett akvárium és az érett, élő kövekben gazdag zátony alapfeltétel. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218920"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Anampses-caeruleopunctatus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/AnampsesCaeruleopunctatus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:AnampsesCaeruleopunctatus.png",
+   "author": "Francis Day (1829–1889)",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "anampses-meleagrides",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Anampses meleagrides",
+  "name_en": "Spotted Wrasse (Turkey Wrasse)",
+  "name_hu": "Fehérpettyes ajakoshal",
+  "size_cm": {
+   "min": 18,
+   "max": 22
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 10
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Peaceful but shy; may be bullied by aggressive wrasses. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep.",
+   "hu": "Békés, de visszahúzódó; agresszív ajakoshalak zaklathatják. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat."
+  },
+  "feeding": {
+   "en": "Carnivore: small frozen foods (mysis, cyclops, finely chopped krill); frequent small feedings.",
+   "hu": "Húsevő: kis méretű fagyasztott eleségek (mysis, cyclops, apróra vágott krill); gyakori, kis adagok."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from East Africa to the central Pacific islands.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a közép-csendes-óceáni szigetekig."
+  },
+  "notes": {
+   "en": "One of the more delicate Anampses wrasses; often refuses food after import. Only for experienced aquarists with mature tanks. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Az egyik legérzékenyebb Anampses-faj; behozatal után gyakran nem táplálkozik. Csak érett akváriummal rendelkező tapasztalt akvaristának való. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218923"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Anampses-meleagrides.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Anampses_meleagrides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anampses_meleagrides.jpg",
+   "author": "Rob",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-aurantidorsalis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus aurantidorsalis",
+  "name_en": "Yellowback Fairy Wrasse",
+  "name_hu": "Narancshátú ajakoshal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indonesia (from Sumbawa to the Banda Arc).",
+   "hu": "Indonézia (Sumbawától a Banda-ívfolyosóig)."
+  },
+  "notes": {
+   "en": "A recent, still rarely imported fairy wrasse; males show a bright orange back and yellow dorsal fin. No licensed image available yet.",
+   "hu": "Újonnan leírt, még ritkán forgalmazott tündér ajakoshal; a hímek hátát élénk narancs sáv díszíti. Licencbiztos kép egyelőre nem áll rendelkezésre."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277837"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-aurantidorsalis.html"
+   }
+  ]
+ },
+ {
+  "id": "cirrhilabrus-cyanopleura",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus cyanopleura",
+  "name_en": "Bluehead Fairy Wrasse",
+  "name_hu": "Kékfejű tündér ajakoshal",
+  "size_cm": {
+   "min": 12,
+   "max": 15
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Andaman Sea to Fiji, north to the Ryukyu Islands.",
+   "hu": "Indo-Csendes-óceán: az Andamán-tengertől Fidzsiig, északra a Ryukyu-szigetekig."
+  },
+  "notes": {
+   "en": "One of the larger fairy wrasses; can dominate smaller Cirrhilabrus species. Colours vary greatly by collection locality.",
+   "hu": "A nagyobb termetű tündér ajakoshalak egyike; a kisebb Cirrhilabrus-fajok fölé kerekedhet. Színezete a begyűjtés helye szerint erősen változik."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277842"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-cyanopleura.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bluehead_Fairy_Wrasse_%E2%80%93_Cirrhilabrus_cyanopleura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Bluehead_Fairy_Wrasse_%E2%80%93_Cirrhilabrus_cyanopleura.jpg",
+   "author": "Brian Gratwicke",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-exquisitus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus exquisitus",
+  "name_en": "Exquisite Fairy Wrasse",
+  "name_hu": "Éles tündér ajakoshal",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from East Africa to the Marshall and Tuamotu islands.",
+   "hu": "Indo-Csendes-óceán: Kelet-Afrikától a Marshall- és Tuamotu-szigetekig."
+  },
+  "notes": {
+   "en": "One of the hardiest and most popular fairy wrasses; males display a green back and red body stripes.",
+   "hu": "A legellenállóbb és legnépszerűbb tündér ajakoshalak egyike; a hímek zöld hátát és vörös csíkjait mutatják."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218954"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-exquisitus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cirrhilabrus_exquisitus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_exquisitus.jpg",
+   "author": "User:Izuzuki",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-filamentosus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus filamentosus",
+  "name_en": "Filamented Fairy Wrasse",
+  "name_hu": "Fehérhasú piros tündér ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Western Pacific: Indonesia, Philippines and Palau.",
+   "hu": "Nyugat-Csendes-óceán: Indonézia, a Fülöp-szigetek és Palau."
+  },
+  "notes": {
+   "en": "Tiny species; males carry filament extensions on the dorsal fin. No licensed image available yet.",
+   "hu": "Apró faj; a hímek hátúszóján fonalas nyúlványok vannak. Licencbiztos kép egyelőre nem áll rendelkezésre."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277844"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-filamentosus.html"
+   }
+  ]
+ },
+ {
+  "id": "cirrhilabrus-flavidorsalis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus flavidorsalis",
+  "name_en": "Yellowfin Fairy Wrasse",
+  "name_hu": "Sárgaúszójú tündér ajakoshal",
+  "size_cm": {
+   "min": 5,
+   "max": 6.5
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Western Pacific: Indonesia, Papua New Guinea and the Philippines.",
+   "hu": "Nyugat-Csendes-óceán: Indonézia, Pápua Új-Guinea és a Fülöp-szigetek."
+  },
+  "notes": {
+   "en": "Small, peaceful species with a yellow dorsal fin; perfect for nano and small reef tanks.",
+   "hu": "Kis termetű, békés faj sárga hátúszóval; nano- és kis zátonyos akváriumokba ideális."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277845"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-flavidorsalis.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cirrhilabrus_flavidorsalis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_flavidorsalis.jpg",
+   "author": "EVRARD Pierre-Paul",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-lubbocki",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus lubbocki",
+  "name_en": "Lubbock's Fairy Wrasse",
+  "name_hu": "Gyémánt tündér ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Western Pacific: from the Philippines to Vanuatu.",
+   "hu": "Nyugat-Csendes-óceán: a Fülöp-szigetektől Vanuatuiig."
+  },
+  "notes": {
+   "en": "A classic beginner fairy wrasse; hardy, vividly coloured and inexpensive. Named after wrasse researcher Roger Lubbock.",
+   "hu": "A klasszikus kezdő tündér ajakoshal; ellenálló, élénk színű és kedvező árú. Roger Lubbock ajakoshal-kutatóról nevezték el."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277854"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-lubbocki.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cirrhilabrus_lubbocki_350284402.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_lubbocki_350284402.jpg",
+   "author": "portioid",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-rubripinnis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus rubripinnis",
+  "name_en": "Rosy-fin Fairy Wrasse",
+  "name_hu": "Pirosúszós tündér ajakoshal",
+  "size_cm": {
+   "min": 7,
+   "max": 9.1
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Western Pacific: Philippines, Indonesia and northern Australia.",
+   "hu": "Nyugat-Csendes-óceán: Fülöp-szigetek, Indonézia és Észak-Ausztrália."
+  },
+  "notes": {
+   "en": "Medium-sized fairy wrasse with rosy-red fin edges; males display intensively during courtship.",
+   "hu": "Közepes termetű tündér ajakoshal rózsaszínen vörös úszószegéllyel; a hímek udvarláskor intenzíven mutatkoznak."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277866"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-rubripinnis.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Cirrhilabrus_rubripinnis%2C_montani_point%2C_Sabang_Beach%2C_Puerto_Galera%2C_Oriental_Mindoro%2C_Philippines_imported_from_iNaturalist_photo_32668541.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_rubripinnis,_montani_point,_Sabang_Beach,_Puerto_Galera,_Oriental_Mindoro,_Philippines_imported_from_iNaturalist_photo_32668541.jpg",
+   "author": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-rubriventralis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus rubriventralis",
+  "name_en": "Social Wrasse",
+  "name_hu": "Hosszú úszójú tündér ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Red Sea and the north-western Indian Ocean.",
+   "hu": "Vörös-tenger és az Indiai-óceán északnyugati része."
+  },
+  "notes": {
+   "en": "Small Red Sea species; the male's long pelvic fins are used in display. 'Social' refers to its grouping behaviour.",
+   "hu": "Kis termetű Vörös-tengeri faj; a hím hosszú hasúszói a szépségkirakodás eszközei. Nevét csapatban élő viselkedéséről kapta."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218953"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-rubriventralis.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Social_Wrasse_iNaturalist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Social_Wrasse_iNaturalist.jpg",
+   "author": "(c) Julien Renoult, some rights reserved (CC BY)",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-solorensis",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus solorensis",
+  "name_en": "Solor Fairy Wrasse",
+  "name_hu": "Vörösfejű tündér ajakoshal",
+  "size_cm": {
+   "min": 8,
+   "max": 11
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indonesia (Bali, Solor Islands) east to the Solomon Islands.",
+   "hu": "Indonézia (Bali, Solor-szigetek) keletre a Salamon-szigetekig."
+  },
+  "notes": {
+   "en": "Popular, hardy fairy wrasse; the male shows a red head and yellow-edged fins. Named after the Solor Islands.",
+   "hu": "Népszerű, ellenálló tündér ajakoshal; a hím vörös feje és sárga úszószegélye jellemző. A Solor-szigetekről kapta a nevét."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277869"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-solorensis.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cirrhilabrus_solorensis_332727275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_solorensis_332727275.jpg",
+   "author": "desertnaturalist",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-temminckii",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus temminckii",
+  "name_en": "Long-finned Fairy Wrasse",
+  "name_hu": "Lilaúszós tündér ajakoshal",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Andaman Sea to Japan and Fiji.",
+   "hu": "Indo-Csendes-óceán: az Andamán-tengertől Japánig és Fidzsiig."
+  },
+  "notes": {
+   "en": "Also sold as 'Threadfin wrasse'; males develop elongated fin filaments. Named after Coenraad Temminck.",
+   "hu": "Threadfin néven is forgalmazzák; a hímek megnyúlt úszófonalakat fejlesztenek. Coenraad Temminckről nevezték el."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277870"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-temminckii.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Threadfin_wrasse_%28Cirrhilabrus_temminckii%29_%2835189041884%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Threadfin_wrasse_(Cirrhilabrus_temminckii)_(35189041884).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "cirrhilabrus-scottorum",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Cirrhilabrus scottorum",
+  "name_en": "Scott's Fairy Wrasse",
+  "name_hu": "Scott's fairy wrasse",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: fagyasztott mysis, cyclops, dúsított sórák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "South Pacific: Coral Sea, Fiji, Tonga and French Polynesia.",
+   "hu": "Dél-Csendes-óceán: Korall-tenger, Fidzsi, Tonga és Francia Polinézia."
+  },
+  "notes": {
+   "en": "Larger fairy wrasse collected in deeper water; sensitive during shipping but hardy after acclimation. No widely used Hungarian name; the English name is used.",
+   "hu": "Mélyebb vízből gyűjtött, nagyobb tündér ajakoshal; szállításra érzékeny, de szoktatás után ellenálló. Elfogadott magyar név nélküli faj; az angol nevet használjuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277868"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Cirrhilabrus-scottorum.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cirrhilabrus_scottorum%2C_Oqea_Levu%2C_Fiji_imported_from_iNaturalist_photo_444189889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cirrhilabrus_scottorum,_Oqea_Levu,_Fiji_imported_from_iNaturalist_photo_444189889.jpg",
+   "author": "(c) Debra Baker, some rights reserved (CC BY)",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "halichoeres-chloropterus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres chloropterus",
+  "name_en": "Green Wrasse (Weaver's Wrasse)",
+  "name_hu": "Zöld ajakoshal",
+  "size_cm": {
+   "min": 15,
+   "max": 23
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, chopped seafood; also pellets. Eats small snails, flatworms and fireworms in the tank.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; pellet is. Az akváriumban kis csigákat, laposférgeket és tűz férgeket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Andaman Sea to Micronesia.",
+   "hu": "Indo-Csendes-óceán: az Andamán-tengertől Mikronéziáig."
+  },
+  "notes": {
+   "en": "A larger Halichoeres species (FishBase: up to 19 cm standard length); suited to medium-large aquaria. Can eat small shrimps and snails. The historic image is a scientific illustration.",
+   "hu": "Nagyobb termetű Halichoeres-faj (a FishBase szerint legfeljebb 19 cm standard hossz); közepes-nagy akváriumba való. Képes kis garnélákat és csigákat megfogni. A képen történelmi tudományos illusztráció látható."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275758"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-chloropterus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/D._Marcus_Elieser_Bloch%27s%2C_aus%C3%BCbenden_Arztes_zu_Berlin_..._Oeconomische_Naturgeschichte_der_Fische_Deutschlands_%2820850952706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:D._Marcus_Elieser_Bloch%27s,_aus%C3%BCbenden_Arztes_zu_Berlin_..._Oeconomische_Naturgeschichte_der_Fische_Deutschlands_(20850952706).jpg",
+   "author": "Berger, Daniel; Berger, F. G.; Bloch, Marcus Elieser; Bodenehr, G.; Bodenehr, Ge",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "halichoeres-hortulanus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres hortulanus",
+  "name_en": "Checkerboard Wrasse",
+  "name_hu": "Négyzethálós ajakoshal",
+  "size_cm": {
+   "min": 22,
+   "max": 27
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 700,
+  "difficulty": "easy",
+  "utility": [
+   "pest-snail-control"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, chopped seafood; also pellets. Eats small snails, flatworms and fireworms in the tank.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; pellet is. Az akváriumban kis csigákat, laposférgeket és tűz férgeket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Red Sea and East Africa to the Tuamotu Islands.",
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Tuamotu-szigetekig."
+  },
+  "notes": {
+   "en": "Named after the checkerboard pattern of juveniles. A useful predator of pyramid snails and other small pests.",
+   "hu": "A fiatal példányok négyzethálós mintájáról nevezték el. Hasznos piramiscsiga- és más apró kártevőfogó."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218985"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-hortulanus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Checkerboard_wrasse_%28Halichoeres_hortulanus%29_%2842786087155%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Checkerboard_wrasse_(Halichoeres_hortulanus)_(42786087155).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "halichoeres-leucoxanthus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres leucoxanthus",
+  "name_en": "Canary Wrasse",
+  "name_hu": "Feketefoltos sárga ajakoshal",
+  "size_cm": {
+   "min": 10,
+   "max": 12
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, chopped seafood; also pellets. Eats small snails, flatworms and fireworms in the tank.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; pellet is. Az akváriumban kis csigákat, laposférgeket és tűz férgeket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indian Ocean: Red Sea, East Africa, Maldives and Sri Lanka.",
+   "hu": "Indiai-óceán: Vörös-tenger, Kelet-Afrika, Maldív-szigetek és Srí Lanka."
+  },
+  "notes": {
+   "en": "Small, bright yellow wrasse with black spot markings; an excellent flatworm controller in reef tanks.",
+   "hu": "Kis termetű, élénksárga ajakoshal fekete foltokkal; kiváló laposféreg-vadász zátonyos akváriumokban."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275770"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-leucoxanthus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Labridae_Halichoeres_leucoxanthus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Labridae_Halichoeres_leucoxanthus_2.jpg",
+   "author": "NasserHalaweh",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "halichoeres-margaritaceus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres margaritaceus",
+  "name_en": "Pearl Wrasse (Pink-belly Wrasse)",
+  "name_hu": "Pearl wrasse",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 500,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, chopped seafood; also pellets. Eats small snails, flatworms and fireworms in the tank.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; pellet is. Az akváriumban kis csigákat, laposférgeket és tűz férgeket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indo-Pacific: from the Red Sea and East Africa to French Polynesia.",
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Francia Polinéziáig."
+  },
+  "notes": {
+   "en": "Females and juveniles show a pearly pink-and-white pattern; males turn green with a pink belly. No widely used Hungarian name; the English name is used.",
+   "hu": "A nőstények és fiatalok gyöngyházas rózsaszín-fehér mintát viselnek; a hímek zölddé válnak rózsaszín hassal. Elfogadott magyar név nélküli faj; az angol nevet használjuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218987"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-margaritaceus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Halichoeres_margaritaceus_137567206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Halichoeres_margaritaceus_137567206.jpg",
+   "author": "Susan Prior",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "halichoeres-rubricephalus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Halichoeres rubricephalus",
+  "name_en": "Red-head Wrasse",
+  "name_hu": "Vörösfejű zöld ajakoshal",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 250,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Hardy, active burrowing wrasse; peaceful to semi-aggressive depending on size. Buries in the sand to sleep and when startled; provide a fine-grained sand bed several centimetres deep. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Ellenálló, aktív, homokba ásó ajakoshal; mérettől függően békés vagy félig agresszív. Alváshoz és veszély esetén a homokba ássa magát; biztosítsunk több centiméter mély, finom szemcséjű homokágyat. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: frozen mysis, krill, chopped seafood; also pellets. Eats small snails, flatworms and fireworms in the tank.",
+   "hu": "Húsevő: fagyasztott mysis, krill, apróra vágott tengeri hús; pellet is. Az akváriumban kis csigákat, laposférgeket és tűz férgeket is fogyaszt."
+  },
+  "origin": {
+   "en": "Indonesia (described from Bali and Komodo).",
+   "hu": "Indonézia (Bali és Komodo környékéről leírva)."
+  },
+  "notes": {
+   "en": "Recently described (2018) species; males show a red head and green body. Still rare in the trade. No licensed image available yet.",
+   "hu": "Nemrégiben leírt (2018) faj; a hímek vörös fejjel és zöld testtel bírnak. A kereskedelemben még ritka. Licencbiztos kép egyelőre nem áll rendelkezésre."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=275796"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Halichoeres-rubricephalus.html"
+   }
+  ]
+ },
+ {
+  "id": "paracheilinus-carpenteri",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Paracheilinus carpenteri",
+  "name_en": "Carpenter's Flasher Wrasse",
+  "name_hu": "Carpenter-villantó ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: cyclops, mysis, enriched baby brine shrimp and fine pellets, 2-3 times daily. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: cyclops, mysis, dúsított sórák-lárvák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-West and Central Pacific.",
+   "hu": "Indo-nyugati és középső Csendes-óceán."
+  },
+  "notes": {
+   "en": "Orange-red with a yellow dorsal fin; one of the most popular flasher wrasses. Named after fish researcher Kent Carpenter.",
+   "hu": "Narancsvörös testtel és sárga hátúszóval; a legnépszerűbb villantó ajakoshalak egyike. Kent Carpenter halkutatóról nevezték el."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278282"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracheilinus-carpenteri.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paracheilinus_carpenteri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Paracheilinus_carpenteri.jpg",
+   "author": "Gdiggers",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "paracheilinus-cyaneus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Paracheilinus cyaneus",
+  "name_en": "Cyan Flasher Wrasse",
+  "name_hu": "Kék villantó ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: cyclops, mysis, enriched baby brine shrimp and fine pellets, 2-3 times daily. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: cyclops, mysis, dúsított sórák-lárvák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-West and Central Pacific.",
+   "hu": "Indo-nyugati és középső Csendes-óceán."
+  },
+  "notes": {
+   "en": "Brilliant blue-bodied flasher wrasse; males flash electric-blue fins during courtship.",
+   "hu": "Elevenkék testű villantó ajakoshal; a hímek udvarláskor elektromoskék úszóikat villantják."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278283"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracheilinus-cyaneus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Blue_flasherwrasse_%28Paracheilinus_cyaneus%29_%2826593621328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blue_flasherwrasse_(Paracheilinus_cyaneus)_(26593621328).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "paracheilinus-filamentosus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Paracheilinus filamentosus",
+  "name_en": "Filament Flasher Wrasse",
+  "name_hu": "Fonalas villantó ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: cyclops, mysis, enriched baby brine shrimp and fine pellets, 2-3 times daily. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: cyclops, mysis, dúsított sórák-lárvák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-West and Central Pacific.",
+   "hu": "Indo-nyugati és középső Csendes-óceán."
+  },
+  "notes": {
+   "en": "Males carry long fin filaments and flash red-orange during display. A favourite for nano reefs.",
+   "hu": "A hímek hosszú úszófonalakat hordanak, és mutatkozáskor vörös-narancs színben tündökölnek. A nano zátonyok kedvence."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=278284"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracheilinus-filamentosus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Flasher_Wrasses_%28Paracheilinus_filamentosus%29_%288457391504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Flasher_Wrasses_(Paracheilinus_filamentosus)_(8457391504).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "paracheilinus-mccoskeri",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Paracheilinus mccoskeri",
+  "name_en": "McCosker's Flasher Wrasse",
+  "name_hu": "McCosker-villantó ajakoshal",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 3,
+   "max": 8
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Tiny, peaceful, mid-water swimmer; males 'flash' their fins in spectacular displays. Best kept in harems or small groups. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Apró, békés, középvízi úszó; a hímek látványos úszójátékkal 'villantanak'. Háremben vagy kisebb csoportban a legszebb. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Planktivore: cyclops, mysis, enriched baby brine shrimp and fine pellets, 2-3 times daily. In the wild it feeds on zooplankton above the reef.",
+   "hu": "Planktonevő: cyclops, mysis, dúsított sórák-lárvák és apró pellet, napi 2-3 alkalommal. Természetben a zátony felett úszó zooplanktonnal táplálkozik."
+  },
+  "origin": {
+   "en": "Indo-West and Central Pacific.",
+   "hu": "Indo-nyugati és középső Csendes-óceán."
+  },
+  "notes": {
+   "en": "Classic red-striped flasher wrasse; extremely peaceful. Named after Richard McCosker. No licensed image available yet.",
+   "hu": "Klasszikus vörös csíkos villantó ajakoshal; rendkívül békés. Richard McCoskerról nevezték el. Licencbiztos kép egyelőre nem áll rendelkezésre."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=219042"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Paracheilinus-mccoskeri.html"
+   }
+  ]
+ },
+ {
+  "id": "pseudocheilinus-evanidus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Pseudocheilinus evanidus",
+  "name_en": "Striated Wrasse",
+  "name_hu": "Striated wrasse",
+  "size_cm": {
+   "min": 6,
+   "max": 9
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 350,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Small, secretive but hardy wrasse that patrols rockwork crevices; peaceful towards most tankmates. Known jumper — a tightly fitted lid is essential.",
+   "hu": "Kis termetű, rejtekhely-kedvelő, de ellenálló ajakoshal, amely a kőzetüregeket járja; a legtöbb társával békés. Ismert ugró — a jól záró fedő elengedhetetlen."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, cyclops, small krill and pellets; also hunts small bristleworms and flatworms among the rocks.",
+   "hu": "Húsevő: mysis, cyclops, kis krill és pellet; a kövek közt kis keverékféregre és laposféregre is vadászik."
+  },
+  "origin": {
+   "en": "Central Pacific, including Hawai'i.",
+   "hu": "Középső Csendes-óceán, Hawaiit is beleértve."
+  },
+  "notes": {
+   "en": "Related to the sixline wrasse (P. hexataenia) but with a plain, faintly striped pattern. No widely used Hungarian name; the English name is used.",
+   "hu": "A hatcsíkos ajakoshal (P. hexataenia) rokona, de halvány csíkozású. Elfogadott magyar név nélküli faj; az angol nevet használjuk."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208917"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudocheilinus-evanidus.html"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/FMIB_42502_Pseudocheilinus_evanidus_Jordan_%26_Evermann.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:FMIB_42502_Pseudocheilinus_evanidus_Jordan_%26_Evermann.jpeg",
+   "author": "David Starr Jordan / Barton Warren Evermann",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "gomphosus-varius",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Gomphosus varius",
+  "name_en": "Bird Wrasse",
+  "name_hu": "Madár ajakoshal",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Aktív, magányos ajakoshal, amely korallokban gazdag lagúnákban és külső zátonyokon él. Kisebb, félénk halakkal agresszív lehet.",
+   "en": "Active, solitary wrasse living in coral-rich lagoons and seaward reefs. Can be aggressive towards smaller, shy fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: a FishBase szerint főleg apró fenéklakó rákok, néha kis halak, kígyókarú tengericsillagok és puhatestűek; akváriumban mysis, krill, garnéla, pellet.",
+   "en": "Carnivore: according to FishBase mainly small benthic crustaceans, sometimes small fish, brittle stars and molluscs; in the aquarium mysis, krill, shrimp and pellets."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Cocos (Keeling)-szigetektől a Hawaii-, Marquises- és Tuamotu-szigetekig; északon Dél-Japánig, délen a Rowley Shoalsig, a Lord Howe-szigetig és Rapáig. Az Indiai-óceánban a Gomphosus caeruleus helyettesíti.",
+   "en": "Indo-Pacific: Cocos-Keeling to the Hawaiian, Marquesan and Tuamotu islands; north to southern Japan, south to Rowley Shoals, Lord Howe and Rapa islands. Replaced by Gomphosus caeruleus in the Indian Ocean."
+  },
+  "notes": {
+   "hu": "A hímek zöldek, a nőstények fehér-fekete színűek. A Tropus a G. caeruleusszal közös termékként, „Madár ajakoshal” néven árulja. A FishBase szerinti maximális méret 30 cm standard hossz (SL). Hosszú, csőrszerű orrával a korallok és sziklák réseiből szedi ki a zsákmányt. Nagyon gyors, aktív úszó, sok szabad úszóteret igényel. Garnélákat, kis rákokat, csigákat és tüskésbőrűeket megeszik.",
+   "en": "Males are green, females white and black. Tropus sells it in a combined product with G. caeruleus as 'Madár ajakoshal'. FishBase gives a maximum of 30 cm standard length (SL). It picks prey from crevices in coral and rock with its long, beak-like snout. A very fast, active swimmer that needs plenty of open swimming space. Eats shrimp, small crabs, snails and echinoderms."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218975"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gomphosus-varius.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pacific_bird_wrasse_male_%28Gomphosus_varius%29_%2843419851351%29.jpg/960px-Pacific_bird_wrasse_male_%28Gomphosus_varius%29_%2843419851351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pacific_bird_wrasse_male_(Gomphosus_varius)_(43419851351).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "gomphosus-caeruleus",
+  "group": "fish",
+  "category": "wrasses",
+  "scientific_name": "Gomphosus caeruleus",
+  "name_en": "Green Birdmouth Wrasse",
+  "name_hu": "Green Birdmouth Wrasse",
+  "size_cm": {
+   "min": 22,
+   "max": 32
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1000,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Aktív, magányos ajakoshal, amely korallokban gazdag lagúnákban, külső zátonyokon és sziklás zátonyokon él. Kisebb, félénk halakkal agresszív lehet.",
+   "en": "Active, solitary wrasse living in coral-rich lagoons, seaward reefs and rocky reefs. Can be aggressive towards smaller, shy fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: apró gerinctelenek; akváriumban mysis, krill, garnéla, pellet.",
+   "en": "Carnivore: small invertebrates; in the aquarium mysis, krill, shrimp and pellets."
+  },
+  "origin": {
+   "hu": "Indiai-óceán: Kelet-Afrikától délen a dél-afrikai Natalig, keleten az Andamán-tengerig.",
+   "en": "Indian Ocean: East Africa south to Natal, South Africa, and east to the Andaman Sea."
+  },
+  "notes": {
+   "hu": "A hímek kék-zöldek, a nőstények sárgás-barnásak. A Tropus a G. variusszal közös termékként, „Madár ajakoshal” néven árulja; mivel ez a név a G. variusé, itt az angol név szerepel. A FishBase szerint 32 cm-re is megnő. Hosszú, csőrszerű orrával a korallok és sziklák réseiből szedi ki a zsákmányt. Nagyon gyors, aktív úszó, sok szabad úszóteret igényel. Garnélákat, kis rákokat, csigákat és tüskésbőrűeket megeszik.",
+   "en": "Males are blue-green, females yellowish-brown. Tropus sells it in a combined product with G. varius as 'Madár ajakoshal'; since that name goes to G. varius, the English name is used here. FishBase gives up to 32 cm. It picks prey from crevices in coral and rock with its long, beak-like snout. A very fast, active swimmer that needs plenty of open swimming space. Eats shrimp, small crabs, snails and echinoderms."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218976"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gomphosus-caeruleus.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gomphosus_caeruleus_at_Red_Sea_Aquarium_by_Hatem_Moushir.JPG/960px-Gomphosus_caeruleus_at_Red_Sea_Aquarium_by_Hatem_Moushir.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gomphosus_caeruleus_at_Red_Sea_Aquarium_by_Hatem_Moushir.JPG",
+   "author": "Hatem Moushir",
+   "license": "CC BY-SA 4.0"
   }
  }
 ]

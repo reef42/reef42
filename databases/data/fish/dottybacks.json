@@ -1,0 +1,527 @@
+[
+ {
+  "id": "pseudochromis-fridmani",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Pseudochromis fridmani",
+  "name_en": "Orchid Dottyback",
+  "name_hu": "Lila királyhal",
+  "size_cm": {
+   "min": 5,
+   "max": 6.3
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful for a dottyback; can be territorial around its favourite cave. One per tank unless a confirmed pair.",
+   "hu": "Díszhalhoz képest békés; a kedvenc barlangja körül territoriális lehet. Akváriumonként egy példány, hacsak nem bevált pár."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets.",
+   "hu": "Húsevő: mysis, sórák, kis pellet."
+  },
+  "origin": {
+   "en": "Endemic to the Red Sea.",
+   "hu": "A Vörös-tenger endemikus faja."
+  },
+  "notes": {
+   "en": "Brilliant violet fish; widely captive-bred (one of the first marine species bred commercially). Tropus sells it in a combined product with the similar Pictichromis porphyrea as 'Lila királyhal'.",
+   "hu": "Briliáns ibolyaszín hal; széles körben tenyésztett (az első kereskedelmi tenyésztésű tengeri fajok egyike). A Tropus a hasonló Pictichromis porphyreával közös termékként, „Lila királyhal” néven árulja."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218336"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudochromis-fridmani.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/K%C3%B6nig_Salomon_Zwergbarsch_%28Pseudochromis_fridmani%29.jpg/1280px-K%C3%B6nig_Salomon_Zwergbarsch_%28Pseudochromis_fridmani%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:König_Salomon_Zwergbarsch_(Pseudochromis_fridmani).jpg",
+   "author": "Jürgen Damm",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "pseudochromis-aldabraensis",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Pseudochromis aldabraensis",
+  "name_en": "Neon Dottyback",
+  "name_hu": "Neon királyhal",
+  "size_cm": {
+   "min": 7,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 4,
+   "max": 10
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "More aggressive than the orchid dottyback; will bully small, shy fish.",
+   "hu": "A lila királyhalnál (P. fridmani) agresszívabb; kicsi, félénk halakat zaklathat."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, pellets.",
+   "hu": "Húsevő: mysis, sórák, pellet."
+  },
+  "origin": {
+   "en": "Indian Ocean: Aldabra and East Africa to the Persian Gulf.",
+   "hu": "Indiai-óceán: Aldabra és Kelet-Afrika a Perzsa-öbölig."
+  },
+  "notes": {
+   "en": "Electric blue stripes; hardy and frequently captive-bred.",
+   "hu": "Elektromos kék csíkok; ellenálló és gyakran tenyésztett."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218333"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudochromis-aldabraensis.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Perca_enana_de_Aldabra_%28Pseudochromis_aldabraensis%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_55.jpg/1280px-Perca_enana_de_Aldabra_%28Pseudochromis_aldabraensis%29%2C_islas_Ad_Dimaniyat%2C_Om%C3%A1n%2C_2024-08-15%2C_DD_55.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Perca_enana_de_Aldabra_(Pseudochromis_aldabraensis),_islas_Ad_Dimaniyat,_Omán,_2024-08-15,_DD_55.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gramma-loreto",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Gramma loreto",
+  "name_en": "Royal Gramma / Fairy Basslet",
+  "name_hu": "Királygramma",
+  "size_cm": {
+   "min": 6,
+   "max": 8
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": 5,
+   "max": 12
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 250,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "en": "Peaceful cave-dweller; can be territorial towards its own kind. Often hovers upside down under overhangs.",
+   "hu": "Békés barlanglakó; saját fajához territoriális lehet. Gyakran fejjel lefelé lebeg a kihajolások alatt."
+  },
+  "feeding": {
+   "en": "Carnivore: mysis, brine shrimp, small pellets.",
+   "hu": "Húsevő: mysis, sórák, kis pellet."
+  },
+  "origin": {
+   "en": "Western Atlantic: Florida and the Caribbean to Venezuela and Brazil.",
+   "hu": "Nyugat-Atlanti-óceán: Florida és a Karib-tenger Venezueláig és Brazíliáig."
+  },
+  "notes": {
+   "en": "Classic purple-and-yellow nano fish; similar Royal Gramma look-alike Pictichromis paccagnellae (dottyback) is often sold under the same name.",
+   "hu": "Klasszikus lila-sárga nano hal; a hasonló Pictichromis paccagnellae királyhalat gyakran ugyanezen a néven árusítják."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=280932"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gramma-loreto.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Fairy_Basslet_-_Gramma_loreto.jpg/1280px-Fairy_Basslet_-_Gramma_loreto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Fairy_Basslet_-_Gramma_loreto.jpg",
+   "author": "Andy Blackledge",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pictichromis-paccagnellae",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Pictichromis paccagnellae",
+  "name_en": "Royal Dottyback / Bicolor Dottyback",
+  "name_hu": "Királyhal",
+  "size_cm": {
+   "min": 5,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő kis királyhal, amely a természetben magányosan vagy laza kis csoportokban, korallok és törmelék közelében lebeg. Fajtársaival és a hasonló alakú halakkal (pl. Gramma loreto) agresszív; akváriumonként egy példány ajánlott.",
+   "en": "Territorial little dottyback that hovers alone or in loose small groups close to coral or rubble. Aggressive towards conspecifics and similarly shaped fish (e.g. Gramma loreto); keep one per tank."
+  },
+  "feeding": {
+   "hu": "Húsevő: mysis, sórák, copepoda, apró pellet.",
+   "en": "Carnivore: mysis, brine shrimp, copepods, small pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: Indonéziától (Jáva, Sulawesi) Vanuatuig; Mikronéziában Palau. Sekély part menti és mély külső zátonyfalakon.",
+   "en": "Western Pacific: Indonesia (Java and Sulawesi) to Vanuatu; Palau in Micronesia. Shallow coastal to deep outer-reef drop-offs."
+  },
+  "notes": {
+   "hu": "Elöl bíborlila, hátul sárga, a két szín között éles határral. A nagyon hasonló Királygrammától (Gramma loreto) az éles színhatár különbözteti meg; a grammának emellett fekete folt van a hátúszóján és fekete sáv a szemén át. A Tropus „Királyhal”, az Acropora „Király / Royal dottyback sügér” néven árulja.",
+   "en": "Purple front and yellow rear with a sharp boundary. Told apart from the very similar Royal Gramma (Gramma loreto) by this sharp boundary; the gramma also has a black spot on the dorsal fin and a black line through the eye. Sold by Hungarian shops as 'Királyhal'."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=398494"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pictichromis-paccagnellae.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Royal_Dottyback_%28Pictichromis_paccagnellae%29_%286059229328%29.jpg/960px-Royal_Dottyback_%28Pictichromis_paccagnellae%29_%286059229328%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Royal_Dottyback_(Pictichromis_paccagnellae)_(6059229328).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "pseudochromis-flavivertex",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Pseudochromis flavivertex",
+  "name_en": "Sunrise Dottyback",
+  "name_hu": "Kék-sárga királyhal",
+  "size_cm": {
+   "min": 6,
+   "max": 7
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő királyhal, amely a természetben homokos aljzaton kisebb kövek és korallfejek tövében él. Fajtársaival és hasonló halakkal agresszív lehet.",
+   "en": "Territorial dottyback that lives around the bases of small rocks and coral heads on sandy bottoms. Can be aggressive towards conspecifics and similar fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: mysis, sórák, copepoda, apró pellet.",
+   "en": "Carnivore: mysis, brine shrimp, copepods, small pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán: Vörös-tenger és Ádeni-öböl.",
+   "en": "Western Indian Ocean: Red Sea and Gulf of Aden."
+  },
+  "notes": {
+   "hu": "Kék test, a hát sárga. A FishBase szerint fogságban már tenyésztették, és mindkét irányú ivarváltását is igazolták.",
+   "en": "Blue body with a yellow back. According to FishBase it has been reared in captivity, and bi-directional sex change has been confirmed."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=218331"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pseudochromis-flavivertex.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Pseudochromis_flavivertex.jpg/960px-Pseudochromis_flavivertex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pseudochromis_flavivertex.jpg",
+   "author": "Rob",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "pictichromis-porphyrea",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Pictichromis porphyrea",
+  "name_en": "Magenta Dottyback",
+  "name_hu": "Magenta Dottyback",
+  "size_cm": {
+   "min": 5,
+   "max": 6
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 80,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Területvédő kis királyhal; a természetben meredek külső zátonylejtők és csatornafalak tövében, magányosan vagy laza kis csoportokban él, korallok vagy törmelék közelében.",
+   "en": "Territorial little dottyback living alone or in loose small groups at the bases of steep outer reef slopes and channel walls, close to coral or rubble."
+  },
+  "feeding": {
+   "hu": "Húsevő: mysis, sórák, copepoda, apró pellet.",
+   "en": "Carnivore: mysis, brine shrimp, copepods, small pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán: a Fülöp-szigetektől Szamoáig; északon a Rjúkjú-szigetekig, délen a Molukkákig és az Admiralitás-szigetekig.",
+   "en": "Western Pacific: Philippines to Samoa; north to the Ryukyu Islands, south to the Moluccas and Admiralty Islands."
+  },
+  "notes": {
+   "hu": "Egyszínű bíborlila. A Tropus a P. fridmanival közös termékként („Pseudochromis fridmani/porphyreus – Lila királyhal”) árulja; a WoRMS szerint az érvényes név Pictichromis porphyrea. A Lila királyhaltól (P. fridmani) a szem előtti sötét vonal hiánya különbözteti meg. Nincs külön magyar neve, ezért az angol név szerepel.",
+   "en": "Uniform magenta. Tropus sells it in a combined product with P. fridmani ('Lila királyhal'); the valid name in WoRMS is Pictichromis porphyrea. It lacks the dark line in front of the eye seen in P. fridmani. It has no specific Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=398495"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Pictichromis-porphyrea.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Pictichromis_porphyreus_DMM2.jpg/960px-Pictichromis_porphyreus_DMM2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pictichromis_porphyreus_DMM2.jpg",
+   "author": "Totti",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "gramma-melacara",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Gramma melacara",
+  "name_en": "Blackcap Basslet",
+  "name_hu": "Blackcap Basslet",
+  "size_cm": {
+   "min": 8,
+   "max": 10
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 120,
+  "tank_ideal_l": 250,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "behavior": {
+   "hu": "Békés, de fajtársaival szemben területvédő gramma. A természetben szinte függőleges sziklafalakon és meredek falakon él, gyakran fejjel lefelé úszik, és veszély esetén üregbe húzódik.",
+   "en": "Peaceful basslet that is territorial towards its own kind. Lives on nearly vertical cliffs and drop-offs beyond outer reefs, often swimming upside-down and retreating into recesses when alarmed."
+  },
+  "feeding": {
+   "hu": "Húsevő: mysis, sórák, copepoda, apró pellet.",
+   "en": "Carnivore: mysis, brine shrimp, copepods, small pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Közép-Atlanti-óceán: Nyugat-Indiák, beleértve a Bahamákat és Közép-Amerikát; főleg 30 m-nél mélyebben.",
+   "en": "Western Central Atlantic: West Indies including the Bahamas and Central America; most common deeper than 30 m."
+  },
+  "notes": {
+   "hu": "Bíborlila test, fekete „sapkával” a hátúszón. A FishBase szerint 15–30 m között fokozatosan felváltja a Király-grammát (G. loreto), és fogságban már tenyésztették. Mélyvízi faj, visszafogottabb fényt kedvel. Nincs használt magyar neve, ezért az angol név szerepel.",
+   "en": "Purple body with a black 'cap' along the dorsal fin. According to FishBase it gradually replaces G. loreto at 15–30 m and has been reared in captivity. A deep-water species that prefers subdued light. It has no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=280933"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Gramma-melacara.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Grammatidae_-_Gramma_melacara.JPG/960px-Grammatidae_-_Gramma_melacara.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Grammatidae_-_Gramma_melacara.JPG",
+   "author": "Hectonichus",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "manonichthys-splendens",
+  "group": "fish",
+  "category": "dottybacks",
+  "scientific_name": "Manonichthys splendens",
+  "name_en": "Splendid Dottyback",
+  "name_hu": "Splendid Dottyback",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Nagyobb termetű, területvédő királyhal; a természetben általában magányosan, néha párban él meredek falakon, korallok és szivacsok közelében. Kisebb, félénk halakkal agresszív lehet.",
+   "en": "Larger, territorial dottyback; usually solitary, occasionally in pairs, on drop-offs close to corals and sponges. Can be aggressive towards smaller, shy fish."
+  },
+  "feeding": {
+   "hu": "Húsevő: mysis, sórák, krill, apróra vágott tengeri hús, pellet.",
+   "en": "Carnivore: mysis, brine shrimp, krill, chopped seafood, pellets."
+  },
+  "origin": {
+   "hu": "Kelet-Indo-Nyugat-Csendes-óceán: a Fülöp-szigetektől és Délkelet-Indonéziától Ausztráliáig.",
+   "en": "Eastern Indo-West Pacific: Philippines and south-eastern Indonesia to Australia."
+  },
+  "notes": {
+   "hu": "Sárga-narancs test kék szegélyű úszókkal. A FishBase szerint 13 cm-re is megnő, ezért kis garnélákat és apró halakat megehet. Nincs használt magyar neve, ezért az angol név szerepel.",
+   "en": "Yellow-orange body with blue-edged fins. FishBase gives a maximum of 13 cm, so it may eat small shrimp and tiny fish. It has no established Hungarian name, so the English name is used."
+  },
+  "diseases": [
+   "marine-ich",
+   "velvet"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=475083"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Manonichthys-splendens.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Manonichthys_splendens.jpg/960px-Manonichthys_splendens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Manonichthys_splendens.jpg",
+   "author": "Jenny (JennyHuang) from Taipei",
+   "license": "CC BY 2.0"
+  }
+ }
+]

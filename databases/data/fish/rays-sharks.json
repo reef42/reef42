@@ -1,0 +1,262 @@
+[
+ {
+  "id": "taeniura-lymma",
+  "group": "fish",
+  "category": "rays-sharks",
+  "scientific_name": "Taeniura lymma",
+  "name_en": "Bluespotted Ribbontail Ray",
+  "name_hu": "Kékpettyes rája",
+  "size_cm": {
+   "min": 25,
+   "max": 35
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 1500,
+  "tank_ideal_l": 3000,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Dagálykor csoportosan a sekély homokos részekre vonul táplálkozni, apálykor barlangokban és peremek alatt húzódik meg; ritkán ássa be magát a homokba.",
+   "en": "Migrates in groups into shallow sandy areas on the rising tide to feed and disperses on the falling tide to shelter in caves and under ledges; rarely buries itself in sand."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a FishBase szerint puhatestűek, férgek, garnélák és rákok; akváriumban kagylóhús, garnéla, tintahal, naponta többször.",
+   "en": "Predator: according to FishBase molluscs, worms, shrimp and crabs; in the aquarium clam meat, shrimp and squid several times a day."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: a Perzsa-öböl, a Vörös-tenger és Kelet-Afrika partjaitól a Salamon-szigetekig; északon Dél-Japánig, délen Észak-Ausztráliáig.",
+   "en": "Indo-West Pacific: Persian Gulf, Red Sea and East Africa to the Solomon Islands; north to southern Japan, south to northern Australia."
+  },
+  "notes": {
+   "hu": "A korongszélesség (WD) a FishBase szerint legfeljebb 35 cm, a teljes hossz kb. 70 cm. A FishBase szerint akváriumban rosszul bírja, ezért csak nagyon tapasztalt tartóknak, nagy alapterületű rendszerbe. A Tropus „Kékpettyes rája” néven árulja. Farokúszóján méregtüske van, amely fájdalmas sebet okozhat. Legalább 10–15 cm mély, finom homokágyat, nagy alapterületet és kiváló vízminőséget igényel; a réz- és egyes gyógyszeres kezeléseket nem tűri.",
+   "en": "FishBase gives a maximum disc width (WD) of 35 cm and a total length of about 70 cm. According to FishBase it does not do well in aquaria, so it is for very experienced keepers with large-footprint systems only. Its tail bears a venomous spine that can inflict a painful wound. Needs a fine sand bed at least 10–15 cm deep, a large footprint and excellent water quality; does not tolerate copper and some medications."
+  },
+  "diseases": [
+   "bacterial-infections"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217422"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Taeniura-lymma.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Raya_de_arrecife_%28Taeniura_lymma%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-14%2C_DD_64.jpg/960px-Raya_de_arrecife_%28Taeniura_lymma%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-14%2C_DD_64.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Raya_de_arrecife_(Taeniura_lymma),_mar_Rojo,_Egipto,_2023-04-14,_DD_64.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "neotrygon-kuhlii",
+  "group": "fish",
+  "category": "rays-sharks",
+  "scientific_name": "Neotrygon kuhlii",
+  "name_en": "Blue-spotted Stingray / Kuhl's Maskray",
+  "name_hu": "Kuhl-rája",
+  "size_cm": {
+   "min": 30,
+   "max": 45
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 2000,
+  "tank_ideal_l": 4000,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Homokos aljzaton, sziklás vagy korallzátonyok közelében él; dagálykor a zátonytetőre és a sekély lagúnákba úszik. Néha beássa magát, csak a szeme és a farka látszik ki.",
+   "en": "Lives on sandy bottoms near rocky or coral reefs; moves onto reef flats and into shallow lagoons at high tide. Occasionally buries itself, leaving only its eyes and tail visible."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a FishBase szerint rákok és garnélák; akváriumban garnéla, kagylóhús, tintahal.",
+   "en": "Predator: according to FishBase crabs and shrimp; in the aquarium shrimp, clam meat and squid."
+  },
+  "origin": {
+   "hu": "Délnyugat-Csendes-óceán: Salamon-szigetek, valószínűleg szélesebb elterjedéssel Óceániában. A FishBase szerint fajkomplexet alkot több közeli rokon fajjal (pl. Neotrygon australiae).",
+   "en": "South-west Pacific: Solomon Islands, probably more widespread in Oceania. According to FishBase it forms a species complex with several close relatives (e.g. Neotrygon australiae)."
+  },
+  "notes": {
+   "hu": "A Tropus a régebbi Dasyatis kuhlii néven, „Kékpettyes rája” megnevezéssel árulja; a WoRMS szerint az érvényes név Neotrygon kuhlii. Mivel a fajkomplexet újabban több fajra bontották, a kereskedelmi példányok közeli rokon fajhoz is tartozhatnak. A magyar név leíró jellegű, hogy ne ütközzön a Taeniura lymmáéval. Farokúszóján méregtüske van, amely fájdalmas sebet okozhat. Legalább 10–15 cm mély, finom homokágyat, nagy alapterületet és kiváló vízminőséget igényel; a réz- és egyes gyógyszeres kezeléseket nem tűri.",
+   "en": "Tropus sells it under the older name Dasyatis kuhlii as 'Kékpettyes rája'; the valid name in WoRMS is Neotrygon kuhlii. Because the species complex has recently been split, traded specimens may belong to a close relative. The Hungarian name is descriptive to avoid clashing with Taeniura lymma. Its tail bears a venomous spine that can inflict a painful wound. Needs a fine sand bed at least 10–15 cm deep, a large footprint and excellent water quality; does not tolerate copper and some medications."
+  },
+  "diseases": [
+   "bacterial-infections"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=398330"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Neotrygon-kuhlii.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Blue-spotted_Stingray_%28Neotrygon_kuhlii%29_%288465011759%29.jpg/960px-Blue-spotted_Stingray_%28Neotrygon_kuhlii%29_%288465011759%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blue-spotted_Stingray_(Neotrygon_kuhlii)_(8465011759).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "chiloscyllium-punctatum",
+  "group": "fish",
+  "category": "rays-sharks",
+  "scientific_name": "Chiloscyllium punctatum",
+  "name_en": "Brownbanded Bamboo Shark",
+  "name_hu": "Barnasávos bambuszcápa",
+  "size_cm": {
+   "min": 90,
+   "max": 132
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 3000,
+  "tank_ideal_l": 6000,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Kis fenéklakó cápa, amely korallzátonyokon, gyakran árapálymedencékben él. A FishBase szerint akár 12 órát is kibír a vízen kívül.",
+   "en": "Small bottom-dwelling shark living on coral reefs, often in tide pools. According to FishBase it can survive up to 12 hours out of water."
+  },
+  "feeding": {
+   "hu": "Ragadozó: fenéklakó gerinctelenek és kis halak; akváriumban tintahal, kagyló, garnéla, hal, hetente néhányszor.",
+   "en": "Predator: bottom invertebrates and small fish; in the aquarium squid, clams, shrimp and fish a few times a week."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: az Andamán-szigetektől és Indiától keletre a Fülöp-szigetekig; északon Japánig, délen Ausztráliáig.",
+   "en": "Indo-West Pacific: Andaman Islands and India east to the Philippines; north to Japan, south to Australia."
+  },
+  "notes": {
+   "hu": "A fiatalok sötét-világos sávosak, a felnőttek egyszínű barnák. A FishBase szerint 132 cm-re is megnő, ezért csak közakváriumi méretű rendszerbe való. Petékből kel ki; a kereskedelemben gyakran tojásként (cápatojás) is árulják. A Tropus a C. plagiosummal közös termékként árulja. Lassan mozgó, éjjel aktív fenéklakó cápa; legalább 2–3 m hosszú alapterületű akváriumot, sima, sérülésmentes aljzatot és erős szűrést igényel. A réz- és egyes gyógyszeres kezeléseket nem tűri. Kisebb halakat és rákokat megeszik.",
+   "en": "Juveniles are banded dark and light, adults plain brown. FishBase gives up to 132 cm, so it belongs only in public-aquarium-scale systems. Hatches from eggs and is often sold as an egg case. Tropus sells it in a combined product with C. plagiosum. A slow-moving, nocturnal bottom-dwelling shark; needs a tank with a footprint at least 2–3 m long, a smooth, non-abrasive substrate and strong filtration. Does not tolerate copper and some medications. Eats smaller fish and crustaceans."
+  },
+  "diseases": [
+   "bacterial-infections"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277833"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chiloscyllium-punctatum.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Chiloscyllium_punctatum.jpg/960px-Chiloscyllium_punctatum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chiloscyllium_punctatum.jpg",
+   "author": "Zul M Rosle from Kuantan, Malaysia",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "chiloscyllium-plagiosum",
+  "group": "fish",
+  "category": "rays-sharks",
+  "scientific_name": "Chiloscyllium plagiosum",
+  "name_en": "Whitespotted Bamboo Shark",
+  "name_hu": "Whitespotted Bamboo Shark",
+  "size_cm": {
+   "min": 60,
+   "max": 83
+  },
+  "lifespan_wild_years": {
+   "min": null,
+   "max": 25,
+   "note": "max. reported age (FishBase)"
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 2500,
+  "tank_ideal_l": 5000,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "behavior": {
+   "hu": "Kevéssé ismert, part menti fenéklakó cápa, amely sziklás és korallzátonyokon él.",
+   "en": "Little-known inshore bottom-dwelling shark found on rocky and coral reefs."
+  },
+  "feeding": {
+   "hu": "Ragadozó: a FishBase szerint csontos halak és rákok; akváriumban tintahal, kagyló, garnéla, hal, hetente néhányszor.",
+   "en": "Predator: according to FishBase bony fish and crustaceans; in the aquarium squid, clams, shrimp and fish a few times a week."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán: Indiától és a Maldív-szigetektől keletre Pápua Új-Guineáig; északon Japánig, délen Indonéziáig; Koreából is jelezték.",
+   "en": "Indo-West Pacific: India and the Maldives east to Papua New Guinea; north to Japan, south to Indonesia; also reported from Korea."
+  },
+  "notes": {
+   "hu": "Sötét sávos test fehér pöttyökkel. A FishBase szerint 83 cm-re is megnő. A Tropus a C. punctatummal közös termékként („Barnasávos bambuszcápa”) árulja; mivel ez a név a C. punctatumé, itt az angol név szerepel. Lassan mozgó, éjjel aktív fenéklakó cápa; legalább 2–3 m hosszú alapterületű akváriumot, sima, sérülésmentes aljzatot és erős szűrést igényel. A réz- és egyes gyógyszeres kezeléseket nem tűri. Kisebb halakat és rákokat megeszik.",
+   "en": "Dark-banded body with white spots. FishBase gives up to 83 cm. Tropus sells it in a combined product with C. punctatum ('Barnasávos bambuszcápa'); since that name goes to C. punctatum, the English name is used here. A slow-moving, nocturnal bottom-dwelling shark; needs a tank with a footprint at least 2–3 m long, a smooth, non-abrasive substrate and strong filtration. Does not tolerate copper and some medications. Eats smaller fish and crustaceans."
+  },
+  "diseases": [
+   "bacterial-infections"
+  ],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=277832"
+   },
+   {
+    "name": "FishBase",
+    "url": "https://www.fishbase.se/summary/Chiloscyllium-plagiosum.html"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chiloscyllium_plagiosum_in_Aquarium.jpg/960px-Chiloscyllium_plagiosum_in_Aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Chiloscyllium_plagiosum_in_Aquarium.jpg",
+   "author": "Eddie Maloney from  North Las Vegas, USA",
+   "license": "CC BY-SA 2.0"
+  }
+ }
+]
