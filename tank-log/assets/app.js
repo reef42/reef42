@@ -95,7 +95,25 @@
       sharedBanner: 'Read-only snapshot shared with you', saveShared: 'Save as my tank', backToMine: 'My tanks',
       sharedBad: 'This shared link is broken or incomplete.', latest: 'Latest values', sharedSaved: 'Saved as a new tank',
       feedback: 'feedback and ideas:', localOnly: 'data is stored only in your browser',
-      confirm: 'Confirm', running: 'Running timers', valuesOf: 'Values', measured: 'measured'
+      confirm: 'Confirm', running: 'Running timers', valuesOf: 'Values', measured: 'measured',
+      livestock: 'Livestock', typeLbl: 'Type', startLbl: 'Started', noType: 'not set', plannedLbl: 'planned',
+      ageDays: '{n} days old', ageMonths: '{n} months old', ageYears: '{n} years old',
+      wzNew: 'New tank', wzEdit: 'Tank details', wzStep: 'Step {n} of {m}', next: 'Next', back: 'Back', skip: 'Skip',
+      wzType: 'What kind of tank is it?', wzTypeHelp: 'It also sets the target ranges; you can fine-tune them later in Settings.',
+      wzVolume: 'Water volume (L)', wzVolumeHelp: 'Net water volume, sump included.', wzCalc: 'Not sure? Calculator →',
+      wzNano: 'Under 100 L this is a nano tank: mistakes, evaporation and temperature swings hit faster.',
+      wzStart: 'When was it started?', wzStartHelp: 'The day it was filled with saltwater. It tells how settled the tank is.',
+      wzPlanned: 'Not running yet, just planning', wzLive: 'Who lives in it?', wzLiveHelp: 'Optional: you can add or remove livestock any time on the Livestock tab.',
+      wzSummary: 'Summary', wzApplyTpl: 'Set the target ranges for this type', wzNeedName: 'Give the tank a name.',
+      setupNudge: 'Add the type, size and start date of your tank to see which species suit it.', setupBtn: 'Set up', setupHide: 'Not now',
+      lvEmpty: 'No livestock yet.', lvAdd: '+ Add livestock', lvEditTank: 'Edit tank details', lvLoad: 'Fish load',
+      lvLoadHelp: 'Rough estimate from the adult size of the fish and the tank volume.', lvAdded: 'added {date}',
+      lvDisclaimer: 'Rules-of-thumb estimate; individual animals can differ. Ask on Discord before buying.',
+      lvRemove: 'Remove', confirmRemoveLive: 'Remove {name} from {tank}?', lvMore: 'Details', lvCard: 'Care card →',
+      lvFish: 'Fish', lvCoral: 'Corals', lvInvert: 'Invertebrates', lvCount: 'Count', lvLess: 'One less', lvPlus: 'One more',
+      pkTitle: 'Add livestock', pkSearch: 'Search species…', pkAll: 'All', pkFit: 'Only suitable ones', pkMore: 'Show more',
+      pkNone: 'No species match.', pkAddBtn: 'Add to the tank', pkDate: 'Added on', pkBack: '← Back to the list',
+      pkBadConfirm: '{name} is not recommended for this tank. Add it anyway?', pkAdded: '{name} added', dbErr: 'The species data could not be loaded.'
     },
     hu: {
       tank: 'Akvárium', defaultTank: 'Saját akvárium',
@@ -149,7 +167,25 @@
       sharedBanner: 'Veled megosztott, csak olvasható pillanatkép', saveShared: 'Mentés saját akváriumként', backToMine: 'Saját akváriumaim',
       sharedBad: 'Ez a megosztott link hibás vagy hiányos.', latest: 'Legutóbbi értékek', sharedSaved: 'Új akváriumként elmentve',
       feedback: 'visszajelzés, ötletek:', localOnly: 'az adatok csak a böngésződben tárolódnak',
-      confirm: 'Megerősítés', running: 'Futó időzítők', valuesOf: 'Értékek', measured: 'mérve'
+      confirm: 'Megerősítés', running: 'Futó időzítők', valuesOf: 'Értékek', measured: 'mérve',
+      livestock: 'Lakók', typeLbl: 'Fajta', startLbl: 'Indulás', noType: 'nincs megadva', plannedLbl: 'tervezett',
+      ageDays: '{n} napos', ageMonths: '{n} hónapos', ageYears: '{n} éves',
+      wzNew: 'Új akvárium', wzEdit: 'Akvárium adatai', wzStep: '{n}/{m}. lépés', next: 'Tovább', back: 'Vissza', skip: 'Kihagyom',
+      wzType: 'Milyen akvárium?', wzTypeHelp: 'Ez a célértékeket is beállítja; később a Beállításokban finomíthatod.',
+      wzVolume: 'Víztérfogat (l)', wzVolumeHelp: 'Nettó víztérfogat, a sumppal együtt.', wzCalc: 'Nem tudod? Kalkulátor →',
+      wzNano: '100 l alatt ez nanoakvárium: a hibák, a párolgás és a hőingadozás gyorsabban okoznak gondot.',
+      wzStart: 'Mikor indult?', wzStartHelp: 'A nap, amikor sós vízzel feltöltötted. Ebből látszik, mennyire beállt a tank.',
+      wzPlanned: 'Még nem indult, csak tervezem', wzLive: 'Kik laknak benne?', wzLiveHelp: 'Nem kötelező: a lakókat bármikor hozzáadhatod vagy törölheted a Lakók fülön.',
+      wzSummary: 'Összegzés', wzApplyTpl: 'A célértékek beállítása ehhez a fajtához', wzNeedName: 'Adj nevet az akváriumnak.',
+      setupNudge: 'Add meg az akváriumod fajtáját, méretét és indulását, és megmutatjuk, mely fajok illenek hozzá.', setupBtn: 'Beállítás', setupHide: 'Most nem',
+      lvEmpty: 'Még nincsenek lakók.', lvAdd: '+ Lakó hozzáadása', lvEditTank: 'Adatok szerkesztése', lvLoad: 'Halterhelés',
+      lvLoadHelp: 'Durva becslés a halak felnőttkori mérete és a térfogat alapján.', lvAdded: 'hozzáadva: {date}',
+      lvDisclaimer: 'Ökölszabályokon alapuló becslés, egyes állatok eltérhetnek. Vásárlás előtt kérdezz rá a Discordon.',
+      lvRemove: 'Eltávolítás', confirmRemoveLive: 'Eltávolítod ezt a lakót: {name} ({tank})?', lvMore: 'Részletek', lvCard: 'Adatlap →',
+      lvFish: 'Halak', lvCoral: 'Korallok', lvInvert: 'Gerinctelenek', lvCount: 'Darab', lvLess: 'Eggyel kevesebb', lvPlus: 'Eggyel több',
+      pkTitle: 'Lakó hozzáadása', pkSearch: 'Faj keresése…', pkAll: 'Mind', pkFit: 'Csak a nekem valók', pkMore: 'Továbbiak',
+      pkNone: 'Nincs ilyen faj.', pkAddBtn: 'Hozzáadás a tankhoz', pkDate: 'Bekerült', pkBack: '← Vissza a listához',
+      pkBadConfirm: 'Ez a faj ebbe a tankba nem ajánlott: {name}. Mégis hozzáadod?', pkAdded: 'Hozzáadva: {name}', dbErr: 'Nem sikerült betölteni a fajadatokat.'
     }
   };
 
@@ -255,7 +291,7 @@
     });
   }
   function makeTank(name, tplId) {
-    const tank = { id: uid(), name, volume: null, params: [], created: Date.now() };
+    const tank = { id: uid(), name, volume: null, type: null, start: null, livestock: [], params: [], created: Date.now() };
     const tpl = templateList().find((x) => x.id === tplId) || templateList()[0];
     applyTemplate(tank, tpl);
     return tank;
@@ -266,6 +302,8 @@
       if (!tk || !tk.id) return;
       out.tanks.push({
         id: String(tk.id), name: String(tk.name || 'Tank'), volume: tk.volume == null ? null : Number(tk.volume) || null, created: tk.created || Date.now(),
+        type: reef42Compat.typeOf(tk.type) ? tk.type : null, start: isDay(tk.start) ? tk.start : null, planned: !!tk.planned, setupHidden: !!tk.setupHidden,
+        livestock: (tk.livestock || []).filter((x) => x && x.sp).map((x) => ({ id: String(x.id || uid()), sp: String(x.sp), n: Math.max(1, Math.round(Number(x.n) || 1)), added: isDay(x.added) ? x.added : null })),
         params: (tk.params || []).filter((p) => p && p.id).map((p) => ({
           id: String(p.id), key: CATALOG[p.key] ? p.key : null, name: p.name ? String(p.name) : '', unit: p.unit == null ? '' : String(p.unit),
           min: numOrNull(p.min), max: numOrNull(p.max), timer: numOrNull(p.timer), hidden: !!p.hidden
@@ -286,6 +324,7 @@
     return out;
   }
   function numOrNull(v) { if (v === null || v === undefined || v === '') return null; const n = Number(v); return isFinite(n) ? n : null; }
+  const isDay = (s) => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s);
 
   let S;
   let storageOk = true;
@@ -368,8 +407,11 @@
     if (h.startsWith('shared/')) return { view: 'shared', data: h.slice(7) };
     const parts = h.split('/');
     const v = parts[0];
-    return { view: ['measure', 'charts', 'history', 'guide', 'settings'].includes(v) ? v : 'measure', key: parts[1] || null };
+    if (v === 'setup') return { view: 'setup' };
+    if (v === 'livestock' && parts[1] === 'add' && parts[2]) return { view: 'livestock', add: decodeURIComponent(parts[2]) };
+    return { view: VIEWS.includes(v) ? v : 'measure', key: parts[1] || null };
   }
+  const VIEWS = ['measure', 'livestock', 'charts', 'history', 'guide', 'settings'];
 
   let langPicker = null;
   const NEW_TANK = '__new';
@@ -382,7 +424,7 @@
       '<option value="' + NEW_TANK + '">' + esc(t('newTankOpt')) + '</option>';
     const r = route();
     sel.parentElement.hidden = r.view === 'shared';
-    $('#tabs').innerHTML = ['measure', 'charts', 'history', 'guide', 'settings'].map((v) =>
+    $('#tabs').innerHTML = VIEWS.map((v) =>
       '<a href="#/' + v + '"' + (r.view === v ? ' aria-current="page"' : '') + '>' + esc(t(v)) + '</a>').join('');
     $('#footer').innerHTML = '<div class="inner"><span>reef42 · Tank Log – ' + esc(t('localOnly')) + '</span><span>' + esc(t('feedback')) +
       ' <a href="mailto:info.reef42@gmail.com">info.reef42@gmail.com</a></span></div>';
@@ -403,7 +445,18 @@
     renderChrome();
     renderBanner();
     const r = route();
-    if (r.view === 'shared') renderShared(r.data);
+    if (r.view === 'setup') {
+      // From the species pages: set up the active tank if it has no details yet, otherwise start a new one.
+      history.replaceState(null, '', '#/livestock');
+      renderLivestock();
+      tankWizard(ready(activeTank()) ? null : activeTank());
+    } else if (r.view === 'livestock') {
+      renderLivestock();
+      if (r.add) {
+        history.replaceState(null, '', '#/livestock');
+        if (ready(activeTank())) pickSpecies(activeTank(), r.add); else tankWizard(activeTank(), r.add);
+      }
+    } else if (r.view === 'shared') renderShared(r.data);
     else if (r.view === 'charts') renderCharts();
     else if (r.view === 'history') renderHistory();
     else if (r.view === 'guide') renderGuide(r.key);
@@ -466,7 +519,7 @@
     const params = tank.params.filter((p) => !p.hidden);
     const sessions = tankSessions(tank);
     const last = lastValues(params, sessions);
-    let html = backupNudge(sessions.length);
+    let html = backupNudge(sessions.length) + setupNudge(tank);
     html += '<div class="vhead"><h1>' + esc(tank.name) + '</h1>' +
       (sessions.length ? '<button class="btn" type="button" data-act="share">' + esc(t('share')) + '</button>' : '') + '</div>';
     if (!params.length) html += '<p class="empty">' + esc(t('noParams')) + '</p>';
@@ -486,6 +539,12 @@
     if (days != null && days < 30) return '';
     const msg = days == null ? t('backupNever') : t('backupOld', { n: days });
     return '<div class="nudge"><span>' + esc(msg) + '</span><button class="btn small" type="button" data-act="exportJson">' + esc(t('backupNow')) + '</button></div>';
+  }
+
+  function setupNudge(tank) {
+    if (ready(tank) || tank.setupHidden) return '';
+    return '<div class="nudge"><span>' + esc(t('setupNudge')) + '</span><span class="btns tight"><button class="btn small primary" type="button" data-act="setup">' +
+      esc(t('setupBtn')) + '</button><button class="btn small" type="button" data-act="setupHide">' + esc(t('setupHide')) + '</button></span></div>';
   }
 
   function rowHtml(p, prev) {
@@ -1087,6 +1146,280 @@
     toast(t('saved'));
   }
 
+  /* ---------- livestock and fit estimate (rules in shared/compat.js) ---------- */
+  const C = reef42Compat;
+  const ready = (tank) => C.ready(tank);
+  const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  let dbPromise = null;
+  function loadDb() {
+    if (!dbPromise) {
+      dbPromise = fetch('../databases/reef42_species.json').then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((db) => C.index(db)).catch((e) => { dbPromise = null; throw e; });
+    }
+    return dbPromise;
+  }
+  const spTitle = (sp) => (lang === 'hu' && sp.name_hu ? sp.name_hu : sp.name_en || sp.scientific_name);
+  const spHref = (sp) => '../species/#/' + encodeURIComponent(sp.id);
+  const thumb = (sp) => (sp.image && sp.image.thumb_500 ? '<img class="lv-thumb" src="' + esc(sp.image.thumb_500) + '" alt="" loading="lazy" decoding="async">' : '<span class="lv-thumb none" aria-hidden="true"></span>');
+  const dayMs = (d) => Date.parse(d + 'T12:00:00');
+  function ageText(tank) {
+    const d = C.ageDays(tank);
+    if (d == null || d < 0 || tank.planned) return '';
+    if (d < 60) return t('ageDays', { n: d });
+    if (d < 730) return t('ageMonths', { n: Math.floor(d / 30.44) });
+    return t('ageYears', { n: Math.floor(d / 365.25) });
+  }
+  const typeLabel = (id) => { const ty = C.typeOf(id); return ty ? ty[lang] || ty.en : t('noType'); };
+  function tankFacts(tank) {
+    const st = C.stage(tank);
+    const start = tank.planned ? '' : tank.start ? fmtDate(dayMs(tank.start), true) + ' · ' + ageText(tank) : '–';
+    return '<dl class="tfacts" data-no-gloss><div><dt>' + esc(t('typeLbl')) + '</dt><dd>' + esc(typeLabel(tank.type)) + '</dd></div>' +
+      '<div><dt>' + esc(t('volume')) + '</dt><dd>' + esc(tank.volume ? fmtNum(tank.volume) : '–') + '</dd></div>' +
+      '<div><dt>' + esc(t('startLbl')) + '</dt><dd>' + esc(start) + (st ? ' <span class="stage s-' + st + '">' + esc(C.text(lang, st)) + '</span>' : '') + '</dd></div></dl>';
+  }
+  const FIT = { good: 'good', caution: 'warn', bad: 'bad', unknown: 'neutral' };
+  const fitBadge = (r) => '<span class="dchip fit ' + FIT[r.level] + '">' + esc(r.label) + '</span>';
+  const reasonsHtml = (r) => (r.reasons.length ? '<ul class="reasons">' + r.reasons.map((x) => '<li class="r-' + x.level + '">' + esc(x.text) + '</li>').join('') + '</ul>' : '');
+
+  function renderLivestock() {
+    const tank = activeTank();
+    let h = '<div class="vhead"><h1>' + esc(tank.name) + '</h1><button class="btn" type="button" data-act="setup">' + esc(t('lvEditTank')) + '</button></div>' + tankFacts(tank);
+    if (!ready(tank)) h += '<div class="nudge"><span>' + esc(t('setupNudge')) + '</span><button class="btn small primary" type="button" data-act="setup">' + esc(t('setupBtn')) + '</button></div>';
+    app.innerHTML = h + '<div id="lvBody"><p class="loading">…</p></div>';
+    loadDb().then((db) => {
+      const b = $('#lvBody');
+      if (b && route().view === 'livestock' && activeTank() === tank) b.innerHTML = livestockHtml(tank, db);
+    }).catch(() => { const b = $('#lvBody'); if (b) b.innerHTML = '<p class="empty">' + esc(t('dbErr')) + '</p>'; });
+  }
+  function loadCard(db, tank) {
+    const pct = C.load(db.byId, tank);
+    if (pct == null || !tank.livestock.some((x) => db.byId[x.sp] && db.byId[x.sp].group === 'fish')) return '';
+    const cls = pct > 100 ? 'bad' : pct > 80 ? 'warn' : 'good';
+    return '<section class="card loadcard"><div class="lhead"><h2>' + esc(t('lvLoad')) + '</h2><b class="lpct ' + cls + '">' + pct + '%</b></div>' +
+      '<div class="loadbar" role="img" aria-label="' + esc(t('lvLoad')) + ': ' + pct + '%"><span class="' + cls + '" style="width:' + Math.min(100, pct) + '%"></span></div>' +
+      '<p class="hint">' + esc(t('lvLoadHelp')) + '</p></section>';
+  }
+  function livestockHtml(tank, db) {
+    const live = tank.livestock.filter((x) => db.byId[x.sp]);
+    let h = loadCard(db, tank);
+    if (!live.length) h += '<p class="empty">' + esc(t('lvEmpty')) + '</p>';
+    [['fish', 'lvFish'], ['coral', 'lvCoral'], ['invertebrate', 'lvInvert']].forEach(([g, k]) => {
+      const xs = live.filter((x) => db.byId[x.sp].group === g);
+      if (xs.length) h += '<h2 class="lvgroup">' + esc(t(k)) + '</h2><ul class="lv-list">' + xs.map((x) => liveItem(tank, db, x)).join('') + '</ul>';
+    });
+    return h + '<div class="btns"><button class="btn primary" type="button" data-act="lvAdd">' + esc(t('lvAdd')) + '</button></div>' +
+      '<p class="hint disclaimer">' + esc(t('lvDisclaimer')) + '</p>';
+  }
+  function liveItem(tank, db, x) {
+    const sp = db.byId[x.sp];
+    const r = C.evaluate(db, sp, tank, lang, { exclude: x.id, n: x.n });
+    const shown = r.reasons.filter((y) => y.level !== 'info' || r.level !== 'good');
+    return '<li class="lv-item" data-lid="' + esc(x.id) + '">' + thumb(sp) +
+      '<div class="lv-main"><div class="lv-name"><a href="' + spHref(sp) + '">' + esc(spTitle(sp)) + '</a> ' + fitBadge(r) + '</div>' +
+      '<div class="lv-sub"><i>' + esc(sp.scientific_name) + '</i>' + (x.added ? ' · ' + esc(t('lvAdded', { date: fmtDate(dayMs(x.added), true) })) : '') + '</div>' +
+      (shown.length ? '<details class="lv-why"><summary>' + esc(t('lvMore')) + '</summary>' + reasonsHtml({ reasons: shown }) + '</details>' : '') + '</div>' +
+      '<div class="lv-acts"><span class="stepper"><button type="button" class="iconbtn" data-act="lvMinus" aria-label="' + esc(t('lvLess')) + '"' + (x.n <= 1 ? ' disabled' : '') + '>−</button>' +
+      '<span class="lv-n" title="' + esc(t('lvCount')) + '">' + x.n + '</span>' +
+      '<button type="button" class="iconbtn" data-act="lvPlus" aria-label="' + esc(t('lvPlus')) + '">+</button></span>' +
+      '<button type="button" class="iconbtn" data-act="lvDel" aria-label="' + esc(t('lvRemove')) + '" title="' + esc(t('lvRemove')) + '">✕</button></div></li>';
+  }
+
+  // Species picker with the fit estimate for every species. tank: the tank (or the wizard's draft) to judge against;
+  // presetId opens one species directly; onPick(entry) receives the new entry instead of saving it into the tank.
+  async function pickSpecies(tank, presetId, onPick) {
+    let db;
+    try { db = await loadDb(); } catch (e) { toast(t('dbErr')); return; }
+    const list = db.species.filter((s) => ['fish', 'coral', 'invertebrate'].includes(s.group));
+    const RANK = { good: 0, caution: 1, unknown: 2, bad: 3 };
+    let q = '', grp = '', fitOnly = false, shown = 40, cur = presetId && db.byId[presetId] ? presetId : null;
+    let rates = {};
+    const rateAll = () => { rates = {}; list.forEach((s) => { rates[s.id] = C.evaluate(db, s, tank, lang); }); };
+    rateAll();
+    const groups = [['', 'pkAll'], ['fish', 'lvFish'], ['coral', 'lvCoral'], ['invertebrate', 'lvInvert']];
+    const body = '<div class="pk"><div class="pk-tools"><input type="search" class="pk-q" autocomplete="off" placeholder="' + esc(t('pkSearch')) + '" aria-label="' + esc(t('pkSearch')) + '">' +
+      '<div class="chips">' + groups.map(([g, k]) => '<button type="button" class="chip pk-g' + (g === grp ? ' on' : '') + '" data-g="' + g + '" aria-pressed="' + (g === grp) + '">' + esc(t(k)) + '</button>').join('') + '</div>' +
+      '<label class="chk"><input type="checkbox" class="pk-fit"> ' + esc(t('pkFit')) + '</label></div><div class="pk-list"></div><div class="pk-detail" hidden></div></div>';
+    await modal(t('pkTitle'), body, [], (d, close) => {
+      const tools = $('.pk-tools', d), listEl = $('.pk-list', d), det = $('.pk-detail', d);
+      function drawList() {
+        const qq = norm(q.trim());
+        const xs = list.filter((s) => (!grp || s.group === grp) && (!fitOnly || rates[s.id].level !== 'bad') &&
+          (!qq || norm([s.name_hu, s.name_en, s.scientific_name].join(' ')).includes(qq)))
+          .sort((a, b) => RANK[rates[a.id].level] - RANK[rates[b.id].level] || spTitle(a).localeCompare(spTitle(b), lang));
+        listEl.innerHTML = xs.length
+          ? '<ul>' + xs.slice(0, shown).map((s) => '<li><button type="button" class="pk-item" data-sp="' + esc(s.id) + '">' + thumb(s) +
+            '<span class="pk-nm"><b>' + esc(spTitle(s)) + '</b><i>' + esc(s.scientific_name) + '</i></span>' + fitBadge(rates[s.id]) + '</button></li>').join('') + '</ul>' +
+            (xs.length > shown ? '<button type="button" class="btn small pk-more">' + esc(t('pkMore')) + '</button>' : '')
+          : '<p class="empty">' + esc(t('pkNone')) + '</p>';
+      }
+      function drawDetail() {
+        const sp = db.byId[cur];
+        const n = Math.max(1, Math.round(Number(($('.pk-n', det) || {}).value) || 1));
+        const r = C.evaluate(db, sp, tank, lang, { n });
+        det.innerHTML = (presetId ? '' : '<button type="button" class="linkbtn pk-back">' + esc(t('pkBack')) + '</button>') +
+          '<div class="pk-head">' + thumb(sp) + '<div><h3>' + esc(spTitle(sp)) + '</h3><p class="lv-sub"><i>' + esc(sp.scientific_name) + '</i> · <a href="' + spHref(sp) + '" target="_blank" rel="noopener">' + esc(t('lvCard')) + '</a></p>' + fitBadge(r) + '</div></div>' +
+          reasonsHtml(r) +
+          '<div class="frow"><label class="field narrow"><span>' + esc(t('lvCount')) + '</span><input type="number" class="pk-n" min="1" max="99" value="' + n + '"></label>' +
+          '<label class="field"><span>' + esc(t('pkDate')) + '</span><input type="date" class="pk-date" value="' + today() + '"></label></div>' +
+          '<div class="btns"><button type="button" class="btn primary pk-add">' + esc(t('pkAddBtn')) + '</button></div>';
+      }
+      function show() {
+        tools.hidden = !!cur; listEl.hidden = !!cur; det.hidden = !cur;
+        if (cur) drawDetail(); else { det.innerHTML = ''; drawList(); }
+      }
+      d.addEventListener('input', (e) => {
+        if (e.target.classList.contains('pk-q')) { q = e.target.value; shown = 40; drawList(); }
+      });
+      d.addEventListener('change', (e) => {
+        if (e.target.classList.contains('pk-fit')) { fitOnly = e.target.checked; drawList(); }
+        if (e.target.classList.contains('pk-n')) { const date = $('.pk-date', det).value; drawDetail(); $('.pk-date', det).value = date; }
+      });
+      d.addEventListener('click', async (e) => {
+        const g = e.target.closest('.pk-g');
+        if (g) {
+          grp = g.dataset.g; shown = 40;
+          $$('.pk-g', d).forEach((c) => { const on = c === g; c.classList.toggle('on', on); c.setAttribute('aria-pressed', on); });
+          drawList();
+        }
+        if (e.target.closest('.pk-more')) { shown += 40; drawList(); }
+        const it = e.target.closest('.pk-item');
+        if (it) { cur = it.dataset.sp; show(); det.scrollIntoView({ block: 'start' }); }
+        if (e.target.closest('.pk-back')) { cur = null; show(); }
+        if (e.target.closest('.pk-add')) {
+          const sp = db.byId[cur];
+          const n = Math.max(1, Math.min(99, Math.round(Number($('.pk-n', det).value) || 1)));
+          const date = $('.pk-date', det).value;
+          const r = C.evaluate(db, sp, tank, lang, { n });
+          if (r.level === 'bad' && !(await confirmBox(t('pkBadConfirm', { name: spTitle(sp) }), t('pkAddBtn'), true))) return;
+          const entry = { id: uid(), sp: sp.id, n, added: isDay(date) ? date : null };
+          if (onPick) onPick(entry);
+          else { tank.livestock.push(entry); save(); }
+          toast(t('pkAdded', { name: spTitle(sp) }));
+          if (presetId) { close('ok'); return; }
+          cur = null; rateAll(); show();
+        }
+      });
+      show();
+      if (!cur) $('.pk-q', d).focus();
+    });
+    if (!onPick) render();
+  }
+
+  // Step-by-step tank setup: name and type, volume, start date, livestock, summary. tank = null creates a new one;
+  // thenAdd opens the picker on that species afterwards (link from a species card).
+  async function tankWizard(tank, thenAdd) {
+    const editing = !!tank;
+    const w = {
+      name: tank ? tank.name : '', type: tank ? tank.type : null, volume: tank ? tank.volume : null,
+      start: tank && tank.start ? tank.start : today(), planned: !!(tank && tank.planned),
+      live: tank ? tank.livestock.map((x) => Object.assign({}, x)) : [], applyTpl: true
+    };
+    const draft = () => ({ type: w.type, volume: w.volume, start: w.planned ? null : w.start, planned: w.planned, livestock: w.live });
+    const STEPS = ['type', 'volume', 'start', 'live', 'summary'];
+    let i = 0;
+    const r = await modal(editing ? t('wzEdit') : t('wzNew'), '<div class="wz"></div>', [], (d, close) => {
+      const root = $('.wz', d);
+      function read() {
+        const st = STEPS[i];
+        if (st === 'type') {
+          w.name = $('.wz-name', root).value.trim();
+          const c = $('input[name="wzType"]:checked', root);
+          w.type = c ? c.value : null;
+        }
+        if (st === 'volume') {
+          const n = parseNum($('.wz-vol', root).value);
+          if (Number.isNaN(n)) { toast(t('invalid')); return false; }
+          w.volume = n && n > 0 ? n : null;
+        }
+        if (st === 'start') {
+          w.planned = $('.wz-planned', root).checked;
+          const v = $('.wz-start', root).value;
+          if (isDay(v)) w.start = v;
+        }
+        if (st === 'summary') { const a = $('.wz-tpl', root); if (a) w.applyTpl = a.checked; }
+        return true;
+      }
+      function nav(last) {
+        return '<div class="wz-nav">' + (i ? '<button type="button" class="btn wz-back">' + esc(t('back')) + '</button>' : '<span></span>') +
+          '<button type="button" class="btn primary wz-next">' + esc(last ? (editing ? t('save') : t('create')) : t('next')) + '</button></div>';
+      }
+      function liveList(db) {
+        if (!w.live.length) return '<p class="empty">' + esc(t('lvEmpty')) + '</p>';
+        return '<ul class="lv-list compact">' + w.live.map((x) => {
+          const sp = db.byId[x.sp];
+          if (!sp) return '';
+          const rr = C.evaluate(db, sp, draft(), lang, { exclude: x.id, n: x.n });
+          return '<li class="lv-item" data-wl="' + esc(x.id) + '">' + thumb(sp) + '<div class="lv-main"><div class="lv-name">' + esc(spTitle(sp)) + (x.n > 1 ? ' × ' + x.n : '') + ' ' + fitBadge(rr) + '</div></div>' +
+            '<div class="lv-acts"><button type="button" class="iconbtn wz-del" aria-label="' + esc(t('lvRemove')) + '">✕</button></div></li>';
+        }).join('') + '</ul>';
+      }
+      function draw() {
+        const st = STEPS[i];
+        let h = '<p class="kicker">' + esc(t('wzStep', { n: i + 1, m: STEPS.length })) + '</p>';
+        if (st === 'type') {
+          h += '<label class="field"><span>' + esc(t('name')) + '</span><input type="text" class="wz-name" maxlength="60" value="' + esc(w.name) + '" placeholder="' + esc(t('defaultTank')) + '"></label>' +
+            '<fieldset class="wz-types"><legend>' + esc(t('wzType')) + '</legend>' + C.TYPES.map((ty) =>
+              '<label class="wz-type"><input type="radio" name="wzType" value="' + ty.id + '"' + (w.type === ty.id ? ' checked' : '') + '><span><b>' + esc(ty[lang] || ty.en) + '</b><small>' + esc(lang === 'hu' ? ty.dhu : ty.den) + '</small></span></label>').join('') +
+            '</fieldset><p class="hint">' + esc(t('wzTypeHelp')) + '</p>';
+        } else if (st === 'volume') {
+          h += '<label class="field narrow"><span>' + esc(t('wzVolume')) + '</span><input type="text" inputmode="decimal" class="wz-vol" value="' + esc(w.volume ? fmtNum(w.volume) : '') + '"></label>' +
+            '<p class="hint">' + esc(t('wzVolumeHelp')) + ' <a href="../calculators/#/volume" target="_blank" rel="noopener">' + esc(t('wzCalc')) + '</a></p>' +
+            (w.volume && w.volume < 100 ? '<p class="hint">' + esc(t('wzNano')) + '</p>' : '');
+        } else if (st === 'start') {
+          h += '<label class="field narrow"><span>' + esc(t('wzStart')) + '</span><input type="date" class="wz-start" value="' + esc(w.start) + '" max="' + today() + '"' + (w.planned ? ' disabled' : '') + '></label>' +
+            '<label class="chk"><input type="checkbox" class="wz-planned"' + (w.planned ? ' checked' : '') + '> ' + esc(t('wzPlanned')) + '</label>' +
+            '<p class="hint">' + esc(t('wzStartHelp')) + '</p>';
+        } else if (st === 'live') {
+          h += '<h3>' + esc(t('wzLive')) + '</h3><div class="wz-live"><p class="loading">…</p></div>' +
+            '<div class="btns"><button type="button" class="btn wz-add">' + esc(t('lvAdd')) + '</button></div><p class="hint">' + esc(t('wzLiveHelp')) + '</p>';
+        } else {
+          const changedType = editing && w.type && w.type !== tank.type;
+          h += '<h3>' + esc(t('wzSummary')) + '</h3>' + tankFacts(Object.assign({ name: w.name }, draft())) +
+            '<p>' + esc(t('livestock')) + ': <b>' + w.live.reduce((a, x) => a + x.n, 0) + '</b></p>' +
+            (changedType ? '<label class="chk"><input type="checkbox" class="wz-tpl"' + (w.applyTpl ? ' checked' : '') + '> ' + esc(t('wzApplyTpl')) + '</label>' : '');
+        }
+        root.innerHTML = h + nav(i === STEPS.length - 1);
+        if (st === 'live') loadDb().then((db) => { const el = $('.wz-live', root); if (el) el.innerHTML = liveList(db); }).catch(() => { const el = $('.wz-live', root); if (el) el.innerHTML = '<p class="empty">' + esc(t('dbErr')) + '</p>'; });
+        const first = $('input:not([type="radio"]):not(:disabled), input[type="radio"]:checked', root);
+        if (first && st !== 'live' && st !== 'summary') first.focus();
+      }
+      root.addEventListener('change', (e) => {
+        if (e.target.classList.contains('wz-planned')) $('.wz-start', root).disabled = e.target.checked;
+      });
+      root.addEventListener('click', (e) => {
+        if (e.target.closest('.wz-back')) { if (read()) { i--; draw(); } }
+        if (e.target.closest('.wz-next')) {
+          if (!read()) return;
+          if (i === STEPS.length - 1) close('ok'); else { i++; draw(); }
+        }
+        if (e.target.closest('.wz-add')) pickSpecies(draft(), null, (entry) => { w.live.push(entry); draw(); });
+        const del = e.target.closest('.wz-del');
+        if (del) { const id = del.closest('[data-wl]').dataset.wl; w.live = w.live.filter((x) => x.id !== id); draw(); }
+      });
+      draw();
+    });
+    if (r.value !== 'ok') return;
+    let tk = tank;
+    const ty = C.typeOf(w.type);
+    if (!editing) {
+      tk = makeTank(w.name || t('defaultTank') + ' ' + (S.tanks.length + 1), ty ? ty.tpl : 'b-mixed');
+      S.tanks.push(tk);
+      S.active = tk.id;
+    } else if (ty && w.type !== tank.type && w.applyTpl) {
+      const tpl = templateList().find((x) => x.id === ty.tpl);
+      if (tpl) applyTemplate(tk, tpl);
+    }
+    if (w.name) tk.name = w.name;
+    tk.type = w.type;
+    tk.volume = w.volume;
+    tk.planned = w.planned;
+    tk.start = w.planned ? null : w.start;
+    tk.livestock = w.live;
+    save();
+    render();
+    if (thenAdd) pickSpecies(tk, thenAdd);
+  }
+
   /* ---------- settings ---------- */
   function renderSettings() {
     const tank = activeTank();
@@ -1096,7 +1429,11 @@
     h += '<section class="card"><h2>' + esc(t('tankSec')) + '</h2><div class="frow">' +
       '<label class="field grow"><span>' + esc(t('name')) + '</span><input type="text" data-tank-field="name" value="' + esc(tank.name) + '" maxlength="60"></label>' +
       '<label class="field narrow"><span>' + esc(t('volume')) + '</span><input type="text" inputmode="decimal" data-tank-field="volume" value="' + esc(tank.volume != null ? fmtNum(tank.volume) : '') + '"></label></div>' +
-      '<div class="btns"><button class="btn danger" type="button" data-act="delTank">' + esc(t('delTank')) + '</button></div></section>';
+      '<div class="frow"><label class="field grow"><span>' + esc(t('typeLbl')) + '</span><select data-tank-field="type"><option value="">' + esc(t('noType')) + '</option>' +
+      C.TYPES.map((ty) => '<option value="' + ty.id + '"' + (tank.type === ty.id ? ' selected' : '') + '>' + esc(ty[lang] || ty.en) + '</option>').join('') + '</select></label>' +
+      '<label class="field narrow"><span>' + esc(t('startLbl')) + '</span><input type="date" data-tank-field="start" max="' + today() + '" value="' + esc(tank.start || '') + '"></label></div>' +
+      '<div class="btns"><button class="btn" type="button" data-act="setup">' + esc(t('lvEditTank')) + '</button>' +
+      '<button class="btn danger" type="button" data-act="delTank">' + esc(t('delTank')) + '</button></div></section>';
 
     h += '<section class="card"><h2>' + esc(t('tanksSec')) + '</h2><p class="hint">' + esc(t('newTankHelp')) + '</p>' +
       '<div class="btns"><button class="btn" type="button" data-act="newTank">' + esc(t('newTankOpt')) + '</button></div></section>';
@@ -1186,21 +1523,6 @@
       save();
       render();
     }
-  }
-
-  async function newTankDialog() {
-    const tpls = templateList();
-    const body = '<label class="field"><span>' + esc(t('name')) + '</span><input type="text" name="name" maxlength="60" required></label>' +
-      '<label class="field"><span>' + esc(t('template')) + '</span><select name="tpl">' + tpls.map((x) => '<option value="' + esc(x.id) + '">' + esc(x.label) + '</option>').join('') + '</select></label>';
-    const r = await modal(t('newTank'), body, [{ label: t('cancel'), value: '' }, { label: t('create'), value: 'ok', primary: true }]);
-    if (r.value !== 'ok') return;
-    const f = r.el.querySelector('form');
-    const name = f.elements.name.value.trim() || t('defaultTank') + ' ' + (S.tanks.length + 1);
-    const tank = makeTank(name, f.elements.tpl.value);
-    S.tanks.push(tank);
-    S.active = tank.id;
-    save();
-    render();
   }
 
   async function saveTemplateDialog() {
@@ -1482,7 +1804,8 @@
     const params = tank.params.filter((p) => !p.hidden);
     const from = days ? Date.now() - days * DAY : 0;
     return {
-      v: 1, n: tank.name, vol: tank.volume,
+      v: 1, n: tank.name, vol: tank.volume, ty: tank.type || undefined, st: tank.start || undefined, pl: tank.planned ? 1 : undefined,
+      l: tank.livestock.length ? tank.livestock.map((x) => [x.sp, x.n, x.added || '']) : undefined,
       p: params.map((p) => [p.key || '', p.key ? '' : p.name, p.unit, p.min, p.max]),
       s: sessions.filter((s) => s.t >= from).map((s) => {
         const row = [Math.round(s.t / 60000), params.map((p) => (s.v[p.id] != null ? s.v[p.id] : null))];
@@ -1495,6 +1818,8 @@
     if (!o || !Array.isArray(o.p) || !Array.isArray(o.s)) throw new Error('shape');
     const tank = {
       id: 'shared', name: String(o.n || 'Tank'), volume: o.vol || null,
+      type: C.typeOf(o.ty) ? o.ty : null, start: isDay(o.st) ? o.st : null, planned: !!o.pl,
+      livestock: (Array.isArray(o.l) ? o.l : []).filter((a) => Array.isArray(a) && a[0]).map((a, i) => ({ id: 'l' + i, sp: String(a[0]), n: Math.max(1, Math.round(Number(a[1]) || 1)), added: isDay(a[2]) ? a[2] : null })),
       params: o.p.map((a, i) => ({ id: 'p' + i, key: CATALOG[a[0]] ? a[0] : null, name: a[1] || '', unit: a[2] || '', min: numOrNull(a[3]), max: numOrNull(a[4]), timer: null, hidden: false }))
     };
     const sessions = o.s.map((r, i) => {
@@ -1560,6 +1885,18 @@
     let h = '<div class="sharedhead"><p class="kicker">' + esc(t('sharedBanner')) + '</p><h1>' + esc(tank.name) + '</h1>' +
       '<div class="btns"><button type="button" class="btn primary" data-act="saveShared">' + esc(t('saveShared')) + '</button>' +
       '<a class="btn" href="#/measure">' + esc(t('backToMine')) + '</a></div></div>';
+    if (tank.type || tank.volume || tank.start) h += tankFacts(tank);
+    if (tank.livestock.length) h += '<section class="card"><h2>' + esc(t('livestock')) + '</h2><div id="shLive"><p class="loading">…</p></div></section>';
+    if (tank.livestock.length) {
+      loadDb().then((db) => {
+        const el = $('#shLive');
+        if (el) el.innerHTML = '<ul class="lv-list compact">' + tank.livestock.filter((x) => db.byId[x.sp]).map((x) => {
+          const sp = db.byId[x.sp];
+          return '<li class="lv-item">' + thumb(sp) + '<div class="lv-main"><div class="lv-name"><a href="' + spHref(sp) + '">' + esc(spTitle(sp)) + '</a>' + (x.n > 1 ? ' × ' + x.n : '') + '</div>' +
+            '<div class="lv-sub"><i>' + esc(sp.scientific_name) + '</i></div></div></li>';
+        }).join('') + '</ul>';
+      }).catch(() => {});
+    }
     if (!sessions.length) { app.innerHTML = h + '<p class="empty">' + esc(t('noData')) + '</p>'; return; }
     h += '<section class="card"><h2>' + esc(t('latest')) + '</h2><ul class="latest">' + tank.params.map((p) => {
       const l = last[p.id];
@@ -1577,7 +1914,11 @@
     if (!sharedCache) return;
     const { tank, sessions } = sharedCache.snap;
     const idMap = {};
-    const nt = { id: uid(), name: tank.name, volume: tank.volume, created: Date.now(), params: tank.params.map((p) => { const np = Object.assign({}, p, { id: uid() }); idMap[p.id] = np.id; return np; }) };
+    const nt = {
+      id: uid(), name: tank.name, volume: tank.volume, type: tank.type, start: tank.start, planned: tank.planned, created: Date.now(),
+      livestock: tank.livestock.map((x) => Object.assign({}, x, { id: uid() })),
+      params: tank.params.map((p) => { const np = Object.assign({}, p, { id: uid() }); idMap[p.id] = np.id; return np; })
+    };
     S.tanks.push(nt);
     sessions.forEach((s) => {
       const v = {};
@@ -1618,7 +1959,10 @@
     const el = e.target;
     const tank = activeTank();
     if (el.dataset.tankField) {
-      if (el.dataset.tankField === 'name') tank.name = el.value.trim() || tank.name;
+      const f = el.dataset.tankField;
+      if (f === 'name') tank.name = el.value.trim() || tank.name;
+      else if (f === 'type') tank.type = C.typeOf(el.value) ? el.value : null;
+      else if (f === 'start') { tank.start = isDay(el.value) ? el.value : null; if (tank.start) tank.planned = false; }
       else { const n = parseNum(el.value); tank.volume = n && !Number.isNaN(n) ? n : null; }
       save();
       renderChrome();
@@ -1694,7 +2038,25 @@
           render();
         }
         break;
-      case 'newTank': newTankDialog(); break;
+      case 'newTank': tankWizard(null); break;
+      case 'setup': tankWizard(tank); break;
+      case 'setupHide': tank.setupHidden = true; save(); render(); break;
+      case 'lvAdd': pickSpecies(tank); break;
+      case 'lvMinus':
+      case 'lvPlus':
+      case 'lvDel': {
+        const x = tank.livestock.find((y) => y.id === btn.closest('[data-lid]').dataset.lid);
+        if (!x) break;
+        if (act === 'lvDel') {
+          const db = await loadDb().catch(() => null);
+          const name = db && db.byId[x.sp] ? spTitle(db.byId[x.sp]) : x.sp;
+          if (!(await confirmBox(t('confirmRemoveLive', { name, tank: tank.name }), t('lvRemove'), true))) break;
+          tank.livestock = tank.livestock.filter((y) => y !== x);
+        } else x.n = Math.max(1, Math.min(99, x.n + (act === 'lvPlus' ? 1 : -1)));
+        save();
+        render();
+        break;
+      }
       case 'delTank':
         if (S.tanks.length < 2) { toast(t('lastTank')); break; }
         if (await confirmBox(t('confirmDelTank', { name: tank.name }), t('del'), true)) {
@@ -1784,7 +2146,7 @@
   $('#tankSelect').addEventListener('change', (e) => {
     if (e.target.value === NEW_TANK) {
       e.target.value = activeTank().id;
-      newTankDialog();
+      tankWizard(null);
       return;
     }
     S.active = e.target.value;

@@ -16,7 +16,16 @@ step, no backend, no external libraries.
 - **Target ranges and templates** (mixed reef, SPS, LPS/soft, FOWLR, quarantine, or your own saved ones).
 - **Charts** per parameter with the target band, out-of-range points, notes and hover/tap details.
 - **History** table (edit / delete) and **notes** per measurement (water change, dosing, new livestock…).
-- **Several tanks**.
+- **Several tanks**, each set up with a wizard: name and type (mixed reef, SPS, LPS/soft, FOWLR, quarantine – the type
+  also picks the target ranges), water volume, start date (or "just planning") and livestock. Tanks without these
+  details get a nudge on the Measure tab.
+- **Livestock** tab: the tank's details and age (cycling, young, settled, mature), the estimated fish load, and its
+  livestock from the species database with count and date. Each species gets a fit estimate against the tank and the
+  other livestock (good / with conditions / not recommended, with every reason listed); the species picker shows it
+  for every species before adding, and asks before adding a not recommended one. The rules live in
+  [`shared/compat.js`](../shared/compat.js) and work from the `compat` data of each species
+  ([`databases/data/SCHEMA.md`](../databases/data/SCHEMA.md)). `#/setup` opens the wizard and
+  `#/livestock/add/<species id>` the picker on one species (both linked from the species pages).
 - **Guide** tab: a card per parameter with what it is, why it matters, ideal and tolerable range, safe rate of
   change, how to raise and lower it, where it comes from and a testing tip, next to your own target and last reading.
   The ⓘ button next to a parameter on the Measure tab opens its card. Content lives in `data/guide.json` (EN/HU).
@@ -46,7 +55,8 @@ step, no backend, no external libraries.
 ```json
 {
   "v": 1,
-  "tanks": [{ "id": "…", "name": "My reef", "volume": 300,
+  "tanks": [{ "id": "…", "name": "My reef", "volume": 300, "type": "reef-mixed", "start": "2025-06-01", "planned": false,
+              "livestock": [{ "id": "…", "sp": "amphiprion-ocellaris", "n": 2, "added": "2025-08-01" }],
               "params": [{ "id": "…", "key": "kh", "name": "", "unit": "dKH", "min": 7, "max": 9, "timer": 180, "hidden": false }] }],
   "sessions": [{ "id": "…", "tankId": "…", "t": 1762690000000, "v": { "<param id>": 8.2 }, "note": "" }],
   "templates": [{ "id": "…", "name": "My SPS", "p": [{ "key": "kh", "name": "", "unit": "dKH", "min": 7, "max": 8.5 }] }],
@@ -56,6 +66,10 @@ step, no backend, no external libraries.
 ```
 
 `key` refers to a built-in parameter (name translated automatically); custom parameters have `key: null` and a `name`.
+`type` is one of the ids in `TYPES` of `shared/compat.js` (or `null`), `start` the day the tank was filled
+(`null` with `planned: true` while it is only planned), and `livestock[].sp` a species id from
+`databases/reef42_species.json`. The species pages read this storage (same origin) to show the fit estimate for the
+user's tanks. Share links carry the type, start date and livestock too.
 
 ## Running locally
 
