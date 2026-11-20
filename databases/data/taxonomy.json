@@ -1,5 +1,5 @@
 {
- "version": "1.15.0",
+ "version": "1.16.0",
  "updated": "2026-11-20",
  "groups": {
   "fish": {
@@ -195,7 +195,7 @@
    },
    "anemones": {
     "en": "Sea Anemones",
-    "hu": "Tengeri anémonák"
+    "hu": "Tengeri anemónák"
    },
    "worms": {
     "en": "Fan Worms / Feather Dusters",
@@ -481,6 +481,16 @@
    "spreads": {
     "en": "Spreads and overgrows",
     "hu": "Terjed, benövi a környezetét"
+   }
+  },
+  "disease_risk": {
+   "elevated": {
+    "en": "More prone",
+    "hu": "Hajlamosabb"
+   },
+   "high": {
+    "en": "Highly susceptible",
+    "hu": "Kiemelten érzékeny"
    }
   }
  },

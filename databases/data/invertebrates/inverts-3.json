@@ -1,0 +1,2518 @@
+[
+ {
+  "id": "ancylomenes-pedersoni",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Ancylomenes pedersoni",
+  "name_en": "Pederson Cleaner Shrimp",
+  "name_hu": "Szakállas anemónarák",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "moderate",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Áttetsző testű tisztogató garnéla, amely egy tengeri rózsa (pl. Condylactis, Bartholomea) csápjai között él, és onnan tisztogatja a hozzá érkező halakat.",
+   "en": "Transparent cleaner shrimp that lives among the tentacles of a sea anemone (e.g. Condylactis, Bartholomea) and cleans visiting fish from there."
+  },
+  "feeding": {
+   "hu": "Halakról leszedett paraziták és elhalt szövet, emellett apró húsos eleség (mysis-darabok, finom pellet).",
+   "en": "Parasites and dead tissue picked from fish, plus small meaty foods (mysis pieces, fine pellets)."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Karib-tenger, Bahamák, Florida.",
+   "en": "Western Atlantic: Caribbean, Bahamas, Florida."
+  },
+  "notes": {
+   "hu": "Lila-fehér pöttyös, áttetsző test. Gazda-anemónával a legszebb, de anélkül is tartható. Nagyobb garnélák és ragadozó halak mellett nem biztonságos. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Transparent body with purple and white spots. Best with a host anemone but can be kept without one. Not safe with larger shrimp or predatory fish. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=514493"
+   }
+  ]
+ },
+ {
+  "id": "hymenocera-picta",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Hymenocera picta",
+  "name_en": "Harlequin Shrimp",
+  "name_hu": "Harlekin garnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "expert",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "shy": true,
+   "eats": [
+    "starfish"
+   ],
+   "max_same": 2
+  },
+  "behavior": {
+   "hu": "Párban élő, rejtőzködő garnéla, amely kizárólag tengeri csillagokra vadászik.",
+   "en": "Secretive shrimp living in pairs that preys exclusively on starfish."
+  },
+  "feeding": {
+   "hu": "Specialista: kizárólag tengeri csillagok (a kereskedelemben főleg Linckia- és Asterina-csillagok) csőlábait és szövetét eszi; folyamatos csillagutánpótlás nélkül éhen hal.",
+   "en": "Specialist: feeds only on the tube feet and tissue of starfish (in the trade mainly Linckia and Asterina); starves without a constant supply of starfish."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Hawaiiig és a Galápagos-szigetekig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i and the Galápagos."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint a H. elegans a H. picta szinonimája; a boltok mindkét néven árulják. Az Asterina-csillagok irtására is használják, de tartása etikailag megfontolandó, mert élő csillagokkal kell etetni. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "In WoRMS H. elegans is a synonym of H. picta; shops sell it under both names. Also used to eradicate Asterina starfish, but keeping it raises ethical questions because it must be fed live starfish. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=210554"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Hymenocera_picta_63934020.jpg/960px-Hymenocera_picta_63934020.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hymenocera_picta_63934020.jpg",
+   "author": "Kai Squires",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "ancylocaris-brevicarpalis",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Ancylocaris brevicarpalis",
+  "name_en": "Sarasvati Anemone Shrimp / White-spotted Anemone Shrimp",
+  "name_hu": "Fehérfoltos anemónarák",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "moderate",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "partners": [
+    "stichodactyla-gigantea",
+    "stichodactyla-haddoni",
+    "stichodactyla-mertensii",
+    "cryptodendrum-adhaesivum",
+    "entacmaea-quadricolor"
+   ]
+  },
+  "behavior": {
+   "hu": "Apró, áttetsző garnéla, amely nagy tengeri rózsákban (pl. Stichodactyla, Cryptodendrum) él, gyakran párban.",
+   "en": "Tiny transparent shrimp living in large sea anemones (e.g. Stichodactyla, Cryptodendrum), often in pairs."
+  },
+  "feeding": {
+   "hu": "Apró húsos eleség, a gazda-anemónán megtapadt részecskék; finom mysis és pellet.",
+   "en": "Small meaty foods and particles caught on the host anemone; fine mysis and pellets."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Japánig és Ausztráliáig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia."
+  },
+  "notes": {
+   "hu": "A boltokban a régebbi Periclimenes brevicarpalis néven szerepel; a WoRMS szerint ma Ancylocaris brevicarpalis az érvényes. Fehér, narancs szegélyű foltok az áttetsző testen. Az Acropora hím-nőstény párként árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Sold under the older name Periclimenes brevicarpalis; the valid name in WoRMS is now Ancylocaris brevicarpalis. White, orange-edged spots on a transparent body. Acropora sells male-female pairs. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=587984"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Camarones_%28Ancylocaris_brevicarpalis%29%2C_Mauricio%2C_2025-09-23%2C_DD_74.jpg/960px-Camarones_%28Ancylocaris_brevicarpalis%29%2C_Mauricio%2C_2025-09-23%2C_DD_74.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Camarones_(Ancylocaris_brevicarpalis),_Mauricio,_2025-09-23,_DD_74.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "periclimenes-yucatanicus",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Periclimenes yucatanicus",
+  "name_en": "Spotted Cleaner Shrimp",
+  "name_hu": "Kéklábú anemónarák",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "moderate",
+  "utility": [
+   "parasite-cleaner"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Áttetsző, tisztogató garnéla, amely tengeri rózsák csápjai között él.",
+   "en": "Transparent cleaner shrimp living among anemone tentacles."
+  },
+  "feeding": {
+   "hu": "Halakról leszedett paraziták, apró húsos eleség, finom pellet.",
+   "en": "Parasites picked from fish, small meaty foods, fine pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Karib-tenger, Florida, Mexikói-öböl.",
+   "en": "Western Atlantic: Caribbean, Florida, Gulf of Mexico."
+  },
+  "notes": {
+   "hu": "Barna-fehér nyeregfoltok, lila-fehér csíkos lábak. Gazda-anemónával tartva a legjobb. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Brown-and-white saddle markings and purple-and-white banded legs. Best kept with a host anemone. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=421713"
+   }
+  ]
+ },
+ {
+  "id": "stenopus-tenuirostris",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Stenopus tenuirostris",
+  "name_en": "Blue Boxer Shrimp",
+  "name_hu": "Kék bokszoló garnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "stenopus",
+     "ok_from_l": null
+    }
+   ]
+  },
+  "behavior": {
+   "hu": "Területvédő bokszoló garnéla; párban tartható, de más bokszoló garnélákkal és fajtársakkal verekszik. Kis, lassú halakat és garnélákat elkaphat.",
+   "en": "Territorial boxer shrimp; can be kept as a pair but fights other boxer shrimp. May catch small, slow fish and shrimp."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: mysis, krill, apróra vágott tengeri hús, maradékok.",
+   "en": "Scavenger-predator: mysis, krill, chopped seafood, leftovers."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Kék-piros-fehér színezetű bokszoló garnéla. A Tropus „Stenopus tenuirostris / Stenopus cyanoscelis – Boxoló garnéla” közös termékként árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Blue, red and white boxer shrimp. Tropus sells it in a combined product with S. cyanoscelis. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=210368"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Blue_boxer_shrimp_%28Stenopus_tenuirostris%29_%2848929246528%29.jpg/960px-Blue_boxer_shrimp_%28Stenopus_tenuirostris%29_%2848929246528%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Blue_boxer_shrimp_(Stenopus_tenuirostris)_(48929246528).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "stenopus-cyanoscelis",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Stenopus cyanoscelis",
+  "name_en": "Blue-legged Boxer Shrimp",
+  "name_hu": "Kéklábú bokszoló garnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps"
+   ],
+   "max_same": 2,
+   "rivals": [
+    {
+     "key": "stenopus",
+     "ok_from_l": null
+    }
+   ]
+  },
+  "behavior": {
+   "hu": "Területvédő bokszoló garnéla; párban tartható, de más bokszoló garnélákkal és fajtársakkal verekszik. Kis, lassú halakat és garnélákat elkaphat.",
+   "en": "Territorial boxer shrimp; can be kept as a pair but fights other boxer shrimp. May catch small, slow fish and shrimp."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: mysis, krill, apróra vágott tengeri hús, maradékok.",
+   "en": "Scavenger-predator: mysis, krill, chopped seafood, leftovers."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Kék lábú, piros-fehér sávos bokszoló garnéla. A Tropus a S. tenuirostrisszal közös termékként árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Red-and-white banded boxer shrimp with blue legs. Tropus sells it in a combined product with S. tenuirostris. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=210365"
+   }
+  ]
+ },
+ {
+  "id": "lysmata-kuekenthali",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Lysmata kuekenthali",
+  "name_en": "Kükenthal's Shrimp / Striped Cleaner Shrimp",
+  "name_hu": "Kükenthal-garnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 4
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "anemones"
+   ]
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, rejtőzködő garnéla, amely csoportban is tartható.",
+   "en": "Nocturnal, secretive shrimp that can be kept in groups."
+  },
+  "feeding": {
+   "hu": "Dögevő: maradék eleség, mysis, pellet; egyes példányok az Aiptasia-rózsákat is eszik.",
+   "en": "Scavenger: leftover food, mysis, pellets; some individuals also eat Aiptasia anemones."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Piros-fehér hosszanti csíkos test. Az Acropora „Kükenthal / csíkos garnéla” néven árulja. A borsmentás garnélához hasonlóan Aiptasia-irtóként is ajánlják, de a hatása egyedenként változó. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Red-and-white striped body. Sold by Acropora as 'Kükenthal / csíkos garnéla'. Like the peppermint shrimp it is recommended for Aiptasia control, but effectiveness varies by individual. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=515372"
+   }
+  ]
+ },
+ {
+  "id": "lysmata-boggessi",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Lysmata boggessi",
+  "name_en": "Peppermint Shrimp (Boggess')",
+  "name_hu": "Boggess-borsmentás garnéla",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "aiptasia-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "anemones"
+   ]
+  },
+  "behavior": {
+   "hu": "Éjjel aktív garnéla; csoportban is tartható. Ritkán LPS-korallok polipjait is csipkedheti.",
+   "en": "Nocturnal shrimp; can be kept in groups. Occasionally picks at LPS polyps."
+  },
+  "feeding": {
+   "hu": "Dögevő: Aiptasia-rózsák, maradék eleség, mysis, pellet.",
+   "en": "Scavenger: Aiptasia anemones, leftover food, mysis, pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Florida és a Mexikói-öböl keleti része.",
+   "en": "Western Atlantic: Florida and the eastern Gulf of Mexico."
+  },
+  "notes": {
+   "hu": "A kereskedelemben „borsmentás garnéla” néven a L. wurdemannival együtt árulják (a Tropus „Lysmata wurdemanni/boggessi” termékként). A két faj külsőre szinte azonos; a kereskedelmi „Aiptasia-irtó” példányok jelentős része L. boggessi. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Sold together with L. wurdemanni as 'peppermint shrimp' (Tropus: 'Lysmata wurdemanni/boggessi'). The two species look almost identical; many traded 'Aiptasia-eating' peppermint shrimp are L. boggessi. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=421779"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lysmata_boggessi.jpg/960px-Lysmata_boggessi.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Lysmata_boggessi.jpg",
+   "author": "chprieur",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "alpheus-bellulus",
+  "group": "invertebrate",
+  "category": "shrimps",
+  "scientific_name": "Alpheus bellulus",
+  "name_en": "Tiger Pistol Shrimp",
+  "name_hu": "Tigris pisztolyrák",
+  "size_cm": {
+   "min": 3,
+   "max": 5
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "partners": [
+    "cryptocentrus-cinctus",
+    "cryptocentrus-cyanotaenia",
+    "amblyeleotris-randalli",
+    "amblyeleotris-aurora",
+    "amblyeleotris-guttata",
+    "stonogobiops-dracula",
+    "stonogobiops-nematodes",
+    "stonogobiops-xanthorhinica"
+   ]
+  },
+  "behavior": {
+   "hu": "Szimbiózisban él gébekkel (pl. Amblyeleotris, Cryptocentrus, Stonogobiops): a rák ássa és tartja karban a közös üreget, a géb őrködik. Ollójával hangos csattanást ad.",
+   "en": "Lives in symbiosis with gobies (e.g. Amblyeleotris, Cryptocentrus, Stonogobiops): the shrimp digs and maintains the shared burrow while the goby keeps watch. Produces a loud snap with its claw."
+  },
+  "feeding": {
+   "hu": "Dögevő: maradék eleség, mysis, pellet.",
+   "en": "Scavenger: leftover food, mysis, pellets."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán.",
+   "en": "Western Pacific."
+  },
+  "notes": {
+   "hu": "Sárga-fehér test barna-lila tigrismintával. Legalább 5–8 cm mély, vegyes szemcséjű homokágyat igényel; szimbionta gébbel együtt érdemes betelepíteni. A Tropus „Tigris szimbiózis rák”, az Acropora „Tigris pisztolyrák” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Yellow-white body with a brown-purple tiger pattern. Needs a sand bed at least 5–8 cm deep with mixed grain sizes; best added together with a partner goby. Sold by Hungarian shops as 'Tigris szimbiózis rák' / 'Tigris pisztolyrák'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=514833"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Alpheus_bellulus_57108149.jpg/960px-Alpheus_bellulus_57108149.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Alpheus_bellulus_57108149.jpg",
+   "author": "Dan Schofield",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "enoplometopus-daumi",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Enoplometopus daumi",
+  "name_en": "Daum's Reef Lobster / Purple Reef Lobster",
+  "name_hu": "Királyrák",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "reef-lobster",
+     "ok_from_l": null
+    }
+   ]
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, rejtőzködő zátonyhomár; nappal üregekben pihen. Fajtársaival és más homárokkal verekszik; kis halakat, garnélákat és csigákat elkaphat.",
+   "en": "Nocturnal, secretive reef lobster that rests in caves by day. Fights conspecifics and other lobsters; may catch small fish, shrimp and snails."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: mysis, krill, garnéla, kagylóhús, maradékok.",
+   "en": "Scavenger-predator: mysis, krill, shrimp, clam meat, leftovers."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Lila-narancs színű, fehér pöttyös kis homár. A Tropus „Királyrák” néven árulja. Korallokat általában nem bánt, de a sziklázatot átrendezheti. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Purple-orange small lobster with white spots. Sold by Tropus as 'Királyrák'. Usually leaves corals alone but may rearrange rockwork. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=382833"
+   }
+  ]
+ },
+ {
+  "id": "enoplometopus-debelius",
+  "group": "invertebrate",
+  "category": "crabs",
+  "scientific_name": "Enoplometopus debelius",
+  "name_en": "Debelius' Reef Lobster / Purple Spotted Reef Lobster",
+  "name_hu": "Szirti homár",
+  "size_cm": {
+   "min": 10,
+   "max": 13
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "moderate",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "semi-aggressive",
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails",
+    "small-fish"
+   ],
+   "max_same": 1,
+   "rivals": [
+    {
+     "key": "reef-lobster",
+     "ok_from_l": null
+    }
+   ]
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, rejtőzködő zátonyhomár; nappal üregekben pihen. Fajtársaival és más homárokkal verekszik; kis halakat, garnélákat és csigákat elkaphat.",
+   "en": "Nocturnal, secretive reef lobster that rests in caves by day. Fights conspecifics and other lobsters; may catch small fish, shrimp and snails."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: mysis, krill, garnéla, kagylóhús, maradékok.",
+   "en": "Scavenger-predator: mysis, krill, shrimp, clam meat, leftovers."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Fehér-rózsaszín test lila pöttyökkel. A Tropus „Szirti homár” néven árulja. Korallokat általában nem bánt, de a sziklázatot átrendezheti. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "White-pink body with purple spots. Sold by Tropus as 'Szirti homár'. Usually leaves corals alone but may rearrange rockwork. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=382834"
+   }
+  ]
+ },
+ {
+  "id": "ciliopagurus-strigatus",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Ciliopagurus strigatus",
+  "name_en": "Halloween Hermit Crab",
+  "name_hu": "Narancslábú remeterák",
+  "size_cm": {
+   "min": 4,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 200,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater",
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
+  "behavior": {
+   "hu": "Aktív, látványos remeterák; más remeterákokkal házakon verekedhet, és csigákat is megölhet a házukért.",
+   "en": "Active, striking hermit crab; may fight other hermits over shells and kill snails for theirs."
+  },
+  "feeding": {
+   "hu": "Mindenevő: alga, detritusz, maradék eleség, pellet.",
+   "en": "Omnivore: algae, detritus, leftover food, pellets."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Narancs-piros csíkos lábak („Halloween” remeterák). Nagyobb termetű, ezért a kisebb csigákra és remerákokra veszélyesebb; mindig legyen tartalék üres ház. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Orange-and-red banded legs ('Halloween' hermit). A larger species, so more dangerous to small snails and hermits; always provide spare empty shells. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=246257"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Ciliopagurus_strigatus.jpg/960px-Ciliopagurus_strigatus.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ciliopagurus_strigatus.jpg",
+   "author": "User:Haplochromis",
+   "license": "CC BY 2.5"
+  }
+ },
+ {
+  "id": "paguristes-cadenati",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Paguristes cadenati",
+  "name_en": "Scarlet Reef Hermit Crab",
+  "name_hu": "Piroslábú remeterák",
+  "size_cm": {
+   "min": 2,
+   "max": 4
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
+  "behavior": {
+   "hu": "Kis, békés remeterák, amely a sziklázaton algát és törmeléket legel.",
+   "en": "Small, peaceful hermit that grazes algae and debris on the rockwork."
+  },
+  "feeding": {
+   "hu": "Alga (fonalas alga, bevonatalga), detritusz, maradék eleség.",
+   "en": "Algae (hair algae, film algae), detritus, leftover food."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Karib-tenger.",
+   "en": "Western Atlantic: Caribbean."
+  },
+  "notes": {
+   "hu": "Élénkpiros lábak, sárga szemkocsányok. Az egyik legbékésebb remeterák, nano-akváriumba is jó; tegyünk tartalék házakat. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Bright red legs and yellow eyestalks. One of the most peaceful hermits, also good for nano tanks; provide spare shells. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368215"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Paguristes_cadenati.jpg/960px-Paguristes_cadenati.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Paguristes_cadenati.jpg",
+   "author": "Andreas März from Darmstadt, Germany",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "dardanus-megistos",
+  "group": "invertebrate",
+  "category": "hermit-crabs",
+  "scientific_name": "Dardanus megistos",
+  "name_en": "White-spotted Hermit Crab",
+  "name_hu": "Fehérpettyes óriás-remeterák",
+  "size_cm": {
+   "min": 10,
+   "max": 15
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "aggressive",
+   "eats": [
+    "snails",
+    "bivalves",
+    "crabs",
+    "shrimps"
+   ],
+   "may_eat": [
+    "small-fish",
+    "soft-corals",
+    "zoanthids"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy, erős remeterák; csigákat, kagylókat, kisebb rákokat és alvó halakat is megtámad, és a korallokat felboríthatja.",
+   "en": "Large, powerful hermit crab; attacks snails, clams, smaller crabs and sleeping fish, and may knock over corals."
+  },
+  "feeding": {
+   "hu": "Mindenevő-ragadozó: húsos eleség, kagyló, garnéla, maradékok, alga.",
+   "en": "Omnivore-predator: meaty foods, clams, shrimp, leftovers, algae."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Piros test fekete szegélyű fehér pöttyökkel. Csak halas akváriumba való, nem takarító remeterák. A Tropus „Paguristes/Dardanus megistos – Piroslábú remeterák” közös termékként árulja; mivel a „Piroslábú” név a Paguristes cadenatié, itt leíró név szerepel. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Red body with black-edged white spots. For fish-only tanks; not a clean-up hermit. Tropus sells it in a combined product with Paguristes; since 'Piroslábú' belongs to Paguristes cadenati, a descriptive name is used here. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208700"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cangrejo_ermita%C3%B1o_%28Dardanus_megistos%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_198.jpg/960px-Cangrejo_ermita%C3%B1o_%28Dardanus_megistos%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_198.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Cangrejo_ermitaño_(Dardanus_megistos),_Anilao,_Filipinas,_2023-08-23,_DD_198.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "engina-mendicaria",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Engina mendicaria",
+  "name_en": "Bumblebee Snail",
+  "name_hu": "Darázscsiga",
+  "size_cm": {
+   "min": 1.5,
+   "max": 2
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 100,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "snails"
+   ]
+  },
+  "behavior": {
+   "hu": "Apró, éjjel aktív dögevő csiga.",
+   "en": "Tiny nocturnal scavenger snail."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: maradék eleség, elhullott állatok, apró férgek; egyes példányok kisebb csigákat is megtámadhatnak.",
+   "en": "Scavenger-predator: leftovers, carrion, small worms; some individuals may attack smaller snails."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Fekete-sárga csíkos ház („darázs”). A Tropus „Pusiostoma engina – Darázscsiga” néven árulja; a WoRMS szerint az érvényes név Engina mendicaria. A gyakran hirdetett vermetidcsiga-irtó hatása nem bizonyított. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Black-and-yellow striped shell ('bumblebee'). Sold by Tropus as 'Pusiostoma engina'; the valid name in WoRMS is Engina mendicaria. Its often-advertised vermetid-snail control is not proven. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212164"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Engina_mendicaria_01.JPG/960px-Engina_mendicaria_01.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Engina_mendicaria_01.JPG",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "tectus-fenestratus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Tectus fenestratus",
+  "name_en": "Fenestrate Top Snail",
+  "name_hu": "Algaevő csiga (Tectus fenestratus)",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Békés, nappal és éjjel is legelő algaevő csiga a sziklázaton és az üvegen.",
+   "en": "Peaceful algae grazer working day and night on rockwork and glass."
+  },
+  "feeding": {
+   "hu": "Bevonatalgák, kovamoszatok, finom fonalas alga; ha elfogy az alga, norival egészítsük ki.",
+   "en": "Film algae, diatoms, fine hair algae; supplement with nori if algae runs out."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Kis, kúp alakú algaevő csiga; felborulva maga is visszafordul. Nano-akváriumba is jó. A boltok egyszerűen „Algaevő csiga” néven árulják. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Small, cone-shaped algae-eating snail; rights itself when flipped. Good for nano tanks. Shops sell it simply as 'Algaevő csiga'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=567234"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Tectus_fenestratus_01.JPG/960px-Tectus_fenestratus_01.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Tectus_fenestratus_01.JPG",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "tectus-pyramis",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Tectus pyramis",
+  "name_en": "Pyramid Top Snail",
+  "name_hu": "Piramis algaevő csiga",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Békés, nappal és éjjel is legelő algaevő csiga a sziklázaton és az üvegen.",
+   "en": "Peaceful algae grazer working day and night on rockwork and glass."
+  },
+  "feeding": {
+   "hu": "Bevonatalgák, kovamoszatok, finom fonalas alga; ha elfogy az alga, norival egészítsük ki.",
+   "en": "Film algae, diatoms, fine hair algae; supplement with nori if algae runs out."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Nagy, piramis alakú algaevő csiga; felborulva maga is visszafordul. Nagyobb akváriumba való. A Tropus „Piramis algaevő csiga” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Large, pyramid-shaped algae-eating snail; rights itself when flipped. For larger tanks. Sold by Tropus as 'Piramis algaevő csiga'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=216328"
+   }
+  ]
+ },
+ {
+  "id": "trochus-histrio",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Trochus histrio",
+  "name_en": "Banded Trochus Snail",
+  "name_hu": "Algaevő csiga (Trochus histrio)",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Békés, nappal és éjjel is legelő algaevő csiga a sziklázaton és az üvegen.",
+   "en": "Peaceful algae grazer working day and night on rockwork and glass."
+  },
+  "feeding": {
+   "hu": "Bevonatalgák, kovamoszatok, finom fonalas alga; ha elfogy az alga, norival egészítsük ki.",
+   "en": "Film algae, diatoms, fine hair algae; supplement with nori if algae runs out."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Kis, csíkos házú algaevő csiga; felborulva maga is visszafordul, és akváriumban szaporodhat. Az Acropora „Algaevő csiga” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Small algae-eating snail with a banded shell; rights itself when flipped and may breed in aquaria. Sold by Acropora as 'Algaevő csiga'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=718918"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Trochus_histrio_01.jpg/960px-Trochus_histrio_01.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Trochus_histrio_01.jpg",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "cypraea-tigris",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Cypraea tigris",
+  "name_en": "Tiger Cowrie",
+  "name_hu": "Tigriscsiga",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "soft-corals",
+    "lps"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy, éjjel aktív porceláncsiga; köpenyével borítja a házát. Teste nagy, ezért a sziklázaton a lazán rögzített korallokat felboríthatja.",
+   "en": "Large, nocturnal cowrie that covers its shell with its mantle. Its bulk can topple loosely placed corals."
+  },
+  "feeding": {
+   "hu": "Mindenevő: algák, szivacsok, detritusz; akváriumban nori, algás pellet, alkalmanként húsos eleség. Egyes példányok lágy- és LPS-korallokat is csipkednek.",
+   "en": "Omnivore: algae, sponges, detritus; in the aquarium nori, algae pellets and occasional meaty food. Some individuals nibble soft and LPS corals."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától Hawaiiig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to Hawai'i."
+  },
+  "notes": {
+   "hu": "Fényes, fekete pöttyös ház. Inkább halas vagy kevés korallos akváriumba való. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Glossy shell with black spots. Better suited to fish-only or lightly stocked reef tanks. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=216843"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Caracol_marino_%28Cypraea_tigris%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_69.jpg/960px-Caracol_marino_%28Cypraea_tigris%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_69.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Caracol_marino_(Cypraea_tigris),_Ambalihabe,_Madagascar,_2025-09-16,_DD_69.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "monetaria-annulus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Monetaria annulus",
+  "name_en": "Gold-ringer Cowrie",
+  "name_hu": "Gyűrűs porceláncsiga",
+  "size_cm": {
+   "min": 2,
+   "max": 3
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 60,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Kis porceláncsiga, amely éjjel legel a sziklázaton.",
+   "en": "Small cowrie that grazes the rockwork at night."
+  },
+  "feeding": {
+   "hu": "Algaevő: bevonatalgák, fonalas alga; norival kiegészíthető.",
+   "en": "Algae grazer: film algae, hair algae; can be supplemented with nori."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Fehéres ház aranysárga gyűrűvel. A Korallós Akváriumban „Cyprea anullus” néven kapható; a WoRMS szerint az érvényes név Monetaria annulus. A nagy porceláncsigákkal ellentétben korallos akváriumba is jó. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Whitish shell with a golden ring. Sold as 'Cyprea anullus'; the valid name in WoRMS is Monetaria annulus. Unlike the large cowries it is suitable for reef tanks. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=216875"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Monetaria_annulus_01.JPG/960px-Monetaria_annulus_01.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Monetaria_annulus_01.JPG",
+   "author": "H. Zell",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "dolabella-auricularia",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Dolabella auricularia",
+  "name_en": "Wedge Sea Hare / Bali Monster",
+  "name_hu": "Bali szörny (tengeri nyúl)",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy, lassú tengeri nyúl, amely éjjel-nappal algát legel. Stresszre lila festékanyagot bocsáthat ki.",
+   "en": "Large, slow sea hare that grazes algae day and night. May release purple ink when stressed."
+  },
+  "feeding": {
+   "hu": "Növényevő: fonalas alga, Bryopsis és más makroalgák; ha elfogy az alga, éhen hal – norival kiegészíthető.",
+   "en": "Herbivore: hair algae, Bryopsis and other macroalgae; starves when algae runs out – can be supplemented with nori."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Ideiglenes „algairtó brigádként” használják erős fonalasalga-fertőzésnél. A szivattyúk szívónyílását védeni kell, mert beszívódhat. Az Acropora „Tengeri nyúl / Bali szörny”, a Tropus „Bali szörny” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Used as a temporary 'algae clean-up crew' for heavy hair-algae outbreaks. Guard pump intakes, as it can be sucked in. Sold as 'Bali szörny' in Hungarian shops. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208629"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Liebre_de_mar_%28Dolabella_auricularia%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_154.jpg/960px-Liebre_de_mar_%28Dolabella_auricularia%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_154.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Liebre_de_mar_(Dolabella_auricularia),_Zanzíbar,_Tanzania,_2024-06-01,_DD_154.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "conomurex-luhuanus",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Conomurex luhuanus",
+  "name_en": "Strawberry Conch",
+  "name_hu": "Epercsiga",
+  "size_cm": {
+   "min": 4,
+   "max": 7
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "sand-sifter",
+   "algae-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Homokágyon élő, ugráló mozgású szárnyascsiga; nappal gyakran beássa magát.",
+   "en": "Sand-dwelling conch with a hopping gait; often burrows during the day."
+  },
+  "feeding": {
+   "hu": "Algák és detritusz a homokágy felszínén; ha kevés, norival egészítsük ki.",
+   "en": "Algae and detritus on the sand surface; supplement with nori if scarce."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán.",
+   "en": "Western Pacific."
+  },
+  "notes": {
+   "hu": "Narancspiros szájnyílású ház (eperszín). Mély, finom homokágyat igényel. Az Acropora „Epercsiga, Ormányos csiga” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Shell with an orange-red aperture (strawberry colour). Needs a deep, fine sand bed. Sold by Acropora as 'Epercsiga'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=565370"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Conomurex_luhuanus_01.JPG/960px-Conomurex_luhuanus_01.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Conomurex_luhuanus_01.JPG",
+   "author": "Llez",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "phrontis-vibex",
+  "group": "invertebrate",
+  "category": "snails",
+  "scientific_name": "Phrontis vibex",
+  "name_en": "Bruised Nassa Snail",
+  "name_hu": "Talajforgató csiga (Phrontis vibex)",
+  "size_cm": {
+   "min": 1,
+   "max": 2
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 40,
+  "tank_ideal_l": 150,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater",
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "A homokba ásva él, és etetéskor előbújik; a homokágy felszínét forgatja.",
+   "en": "Lives buried in the sand and emerges at feeding time; turns over the sand surface."
+  },
+  "feeding": {
+   "hu": "Dögevő: maradék eleség, detritusz.",
+   "en": "Scavenger: leftover food, detritus."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Karib-tenger és Mexikói-öböl.",
+   "en": "Western Atlantic: Caribbean and Gulf of Mexico."
+  },
+  "notes": {
+   "hu": "A kereskedelemben „Nassarius” csigaként árulják (Acropora: „Nassarius vibex – Talajforgató csiga”); a WoRMS szerint az érvényes név Phrontis vibex. Algát nem eszik. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Sold in the trade as a 'Nassarius' snail; the valid name in WoRMS is Phrontis vibex. Does not eat algae. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=877061"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Phrontis_vibex.jpg/960px-Phrontis_vibex.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Phrontis_vibex.jpg",
+   "author": "RealGatba",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "diadema-setosum",
+  "group": "invertebrate",
+  "category": "urchins",
+  "scientific_name": "Diadema setosum",
+  "name_en": "Long-spined Sea Urchin",
+  "name_hu": "Diadémsün",
+  "size_cm": {
+   "min": 10,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, nappal üregekben rejtőző sün nagyon hosszú, törékeny, mérgező tüskékkel.",
+   "en": "Nocturnal urchin that hides in crevices by day, with very long, brittle, venomous spines."
+  },
+  "feeding": {
+   "hu": "Algaevő: fonalas alga, bevonatalga, kéregalga; ha elfogy az alga, norival egészítsük ki.",
+   "en": "Algae grazer: hair algae, film algae, coralline algae; supplement with nori if algae runs out."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán: a Vörös-tengertől és Kelet-Afrikától a Csendes-óceán nyugati részéig.",
+   "en": "Indo-Pacific: Red Sea and East Africa to the western Pacific."
+  },
+  "notes": {
+   "hu": "A tüskék vékony, merev hegye a bőrbe törve fájdalmas szúrást okoz – karbantartáskor óvatosan! Nagy testtel a korallokat felboríthatja; a sünlakó hal (Diademichthys lineatus) gazdaállata. A tüskék tövénél a narancssárga gyűrű a faj ismertetőjele. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "The thin, rigid spine tips break off in the skin and cause painful stings – take care during maintenance! Its bulk can topple corals; host of the urchin clingfish (Diademichthys lineatus). The orange ring around the anal cone is a diagnostic feature. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213372"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Erizo_diadema_%28Diadema_setosum%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_153.jpg/960px-Erizo_diadema_%28Diadema_setosum%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_153.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Erizo_diadema_(Diadema_setosum),_Zanzíbar,_Tanzania,_2024-06-01,_DD_153.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "echinometra-mathaei",
+  "group": "invertebrate",
+  "category": "urchins",
+  "scientific_name": "Echinometra mathaei",
+  "name_en": "Burrowing Urchin / Rock-boring Urchin",
+  "name_hu": "Sziklavájó sün (Echinometra mathaei)",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "algae-eater"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "macroalgae"
+   ]
+  },
+  "behavior": {
+   "hu": "Sziklarésekben, saját maga vájta üregekben élő sün; éjjel legel.",
+   "en": "Lives in crevices and self-bored holes in the rock; grazes at night."
+  },
+  "feeding": {
+   "hu": "Algaevő: bevonatalga, fonalas alga, kéregalga.",
+   "en": "Algae grazer: film algae, hair algae, coralline algae."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Lilás-zöldes tüskék. A kéregalgát is lekaparhatja, és lassan koptatja a sziklázatot; a lazán rögzített korallokat elmozdíthatja. A Tropus „Tengeri sün” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Purplish-green spines. May scrape off coralline algae and slowly erode rockwork; can dislodge loosely placed corals. Sold by Tropus as 'Tengeri sün'. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213383"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Burrowing_urchin_%28Echinometra_mathaei%29_%2826242721069%29.jpg/960px-Burrowing_urchin_%28Echinometra_mathaei%29_%2826242721069%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Burrowing_urchin_(Echinometra_mathaei)_(26242721069).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "archaster-typicus",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Archaster typicus",
+  "name_en": "Sand Sifting Starfish",
+  "name_hu": "Talajforgató csillag",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Homokba ásva élő tengeri csillag; a homokágy felső rétegét átforgatja.",
+   "en": "Burrowing starfish that turns over the top layer of the sand bed."
+  },
+  "feeding": {
+   "hu": "Detritusz, mikroorganizmusok és apró gerinctelenek a homokban; kis akváriumban gyorsan kiéli a homokot és éhen hal – kiegészítő etetés (süllyedő pellet) kell.",
+   "en": "Detritus, micro-organisms and small invertebrates in the sand; in small tanks it quickly depletes the sand bed and starves – supplementary feeding (sinking pellets) is needed."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Legalább 400 literes, nagy homokfelületű akváriumba ajánlott, mert a homokágy hasznos mikrofaunáját is megeszi. Mindhárom bolt „Talajforgató csillag” néven árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Recommended for tanks of at least 400 L with a large sand area, as it also consumes the beneficial sand-bed microfauna. Sold as 'Talajforgató csillag' in Hungarian shops. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213119"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Archaster_typicus_15025036.jpg/960px-Archaster_typicus_15025036.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Archaster_typicus_15025036.jpg",
+   "author": "coenobita",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "echinaster-luzonicus",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Echinaster luzonicus",
+  "name_en": "Luzon Sea Star / Red Thorny Starfish",
+  "name_hu": "Piros csillag (Echinaster luzonicus)",
+  "size_cm": {
+   "min": 8,
+   "max": 12
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 200,
+  "tank_ideal_l": 400,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Békés tengeri csillag, amely a sziklázaton biofilmet és detrituszt legel; ivartalanul, egy kar leválásával is szaporodik.",
+   "en": "Peaceful starfish that grazes biofilm and detritus on rockwork; also reproduces asexually by shedding an arm."
+  },
+  "feeding": {
+   "hu": "Biofilm, detritusz; apró eleségdarabok a karjai alá helyezve.",
+   "en": "Biofilm, detritus; small food pieces placed under its arms."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Piros-narancs, hosszú, keskeny karok. Stabil, érett akváriumot igényel. A Tropus „Echinaster luzonicus / Echinus esculentus – Piros csillag” néven árulja (az Echinus esculentus valójában egy hidegvízi sün). Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Red-orange body with long, slender arms. Needs a stable, mature tank. Tropus lists it as 'Echinaster luzonicus / Echinus esculentus' (Echinus esculentus is actually a cold-water urchin). Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=367951"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Echinaster_luzonicus_53842411.jpg/960px-Echinaster_luzonicus_53842411.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Echinaster_luzonicus_53842411.jpg",
+   "author": "naturewatchwidow",
+   "license": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "ophiarachna-incrassata",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Ophiarachna incrassata",
+  "name_en": "Green Brittle Star",
+  "name_hu": "Zöld kígyókarú csillag",
+  "size_cm": {
+   "min": 25,
+   "max": 50
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater",
+   "carnivore-predator"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "temperament": "peaceful",
+   "may_eat": [
+    "small-fish",
+    "shrimps"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy, éjjel aktív kígyókarú csillag; a sziklák alatt rejtőzik. Gyors ragadozó: kis halakat és garnélákat is elkaphat.",
+   "en": "Large, nocturnal brittle star that hides under rocks. A fast predator that can catch small fish and shrimp."
+  },
+  "feeding": {
+   "hu": "Dögevő-ragadozó: maradék eleség, húsos eleség, kis állatok.",
+   "en": "Scavenger-predator: leftovers, meaty foods, small animals."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Zöld, sávos karok, karátmérője 50 cm-t is elérhet. Kis halakkal (gébek, korallsügérek) és garnélákkal nem ajánlott. Az Acropora és a Tropus is árulja. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Green banded arms; arm span can reach 50 cm. Not recommended with small fish (gobies, damsels) or shrimp. Sold by both Acropora and Tropus. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213207"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Ophiodermatidae_Ophiarachna_incrassata_1.jpg/960px-Ophiodermatidae_Ophiarachna_incrassata_1.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ophiodermatidae_Ophiarachna_incrassata_1.jpg",
+   "author": "NasserHalaweh",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ophiomastix-annulosa",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Ophiomastix annulosa",
+  "name_en": "Banded Brittle Star",
+  "name_hu": "Kígyókarú csillag (Ophiomastix annulosa)",
+  "size_cm": {
+   "min": 15,
+   "max": 25
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, rejtőzködő kígyókarú csillag; a sziklák alól csak a karjai látszanak ki.",
+   "en": "Nocturnal, secretive brittle star; only its arms show from under rocks."
+  },
+  "feeding": {
+   "hu": "Dögevő: maradék eleség, detritusz.",
+   "en": "Scavenger: leftovers, detritus."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Sávos, tüskés karok. Hasznos takarító, a zöld kígyókarú csillagnál jóval kevésbé ragadozó. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Banded, spiny arms. A useful clean-up animal, much less predatory than the green brittle star. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=212396"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ophiomastix_annulosa.JPG/960px-Ophiomastix_annulosa.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ophiomastix_annulosa.JPG",
+   "author": "Frédéric Ducarme",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "ophiolepis-superba",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Ophiolepis superba",
+  "name_en": "Superb Brittle Star",
+  "name_hu": "Díszes kígyókarú csillag",
+  "size_cm": {
+   "min": 10,
+   "max": 15
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "easy",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful"
+  },
+  "behavior": {
+   "hu": "Éjjel aktív, rejtőzködő kígyókarú csillag; a homok és a sziklák határán él.",
+   "en": "Nocturnal, secretive brittle star living where sand meets rock."
+  },
+  "feeding": {
+   "hu": "Dögevő: maradék eleség, detritusz.",
+   "en": "Scavenger: leftovers, detritus."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Mintás, sárgás-barna korong és sávos karok. A Korallós Akváriumban kapható; nincs használt magyar neve, ezért leíró név szerepel. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Patterned yellowish-brown disc and banded arms. Available at Korallós Akvárium; it has no established Hungarian name, so a descriptive name is used. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213464"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Britle_star_%28Ophiolepis_superba%29_%2824463915368%29.jpg/960px-Britle_star_%28Ophiolepis_superba%29_%2824463915368%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Britle_star_(Ophiolepis_superba)_(24463915368).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
+  }
+ },
+ {
+  "id": "protoreaster-lincki",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Protoreaster lincki",
+  "name_en": "Red Knob Sea Star",
+  "name_hu": "Bíborvörös gombos csillag",
+  "size_cm": {
+   "min": 20,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "easy",
+  "utility": [
+   "carnivore-predator"
+  ],
+  "reef_safety": "not-reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "eats": [
+    "sps",
+    "lps",
+    "soft-corals",
+    "zoanthids",
+    "anemones",
+    "bivalves",
+    "snails"
+   ]
+  },
+  "behavior": {
+   "hu": "Ellenálló, nagy tengeri csillag; ragadozó, amely csigákat, kagylókat, korallokat és szivacsokat is megeszik.",
+   "en": "Hardy, large starfish; a predator that eats snails, clams, corals and sponges."
+  },
+  "feeding": {
+   "hu": "Húsevő-dögevő: a karjai alá helyezett húsos eleség (kagyló, garnéla, hal).",
+   "en": "Carnivore-scavenger: meaty foods placed under its arms (clam, shrimp, fish)."
+  },
+  "origin": {
+   "hu": "Nyugat-Indiai-óceán.",
+   "en": "Western Indian Ocean."
+  },
+  "notes": {
+   "hu": "Szürke test piros „gombokkal”. A csokidarabka csillaghoz (P. nodosus) hasonlóan csak halas akváriumba való. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Grey body with red 'knobs'. Like the chocolate chip starfish (P. nodosus) it belongs only in fish-only tanks. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213286"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Protoreaster_lincki.jpg/960px-Protoreaster_lincki.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Protoreaster_lincki.jpg",
+   "author": "Kinkreet",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "nardoa-novaecaledoniae",
+  "group": "invertebrate",
+  "category": "starfish",
+  "scientific_name": "Nardoa novaecaledoniae",
+  "name_en": "New Caledonian Sea Star",
+  "name_hu": "Új-kaledóniai tengeri csillag",
+  "size_cm": {
+   "min": 15,
+   "max": 25
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "moderate",
+  "utility": [
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Lassú, békés tengeri csillag, amely a sziklázaton biofilmet és detrituszt legel.",
+   "en": "Slow, peaceful starfish that grazes biofilm and detritus on rockwork."
+  },
+  "feeding": {
+   "hu": "Biofilm, detritusz; apró eleségdarabok a karjai alá helyezve.",
+   "en": "Biofilm, detritus; small food pieces placed under its arms."
+  },
+  "origin": {
+   "hu": "Nyugat-Csendes-óceán.",
+   "en": "Western Pacific."
+  },
+  "notes": {
+   "hu": "Narancs-barna, gömbölyded karok. Stabil, érett akváriumot igényel; a beszoktatás során soha ne érje levegő. Az Acropora árulja; nincs használt magyar neve, ezért leíró név szerepel. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Orange-brown, rounded arms. Needs a stable, mature tank; never expose it to air during acclimation. Sold by Acropora; it has no established Hungarian name, so a descriptive name is used. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=368972"
+   }
+  ]
+ },
+ {
+  "id": "ctenoides-scaber",
+  "group": "invertebrate",
+  "category": "bivalves",
+  "scientific_name": "Ctenoides scaber",
+  "name_en": "Flame Scallop / Rough Fileclam",
+  "name_hu": "Fésűkagyló (lángoló reszelőkagyló)",
+  "size_cm": {
+   "min": 5,
+   "max": 8
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Szabadon mozgó kagyló, amely sziklarésekben ül, és piros köpenyszegélyét, valamint hosszú csápjait mutatja.",
+   "en": "Free-moving bivalve that sits in rock crevices, showing its red mantle edge and long tentacles."
+  },
+  "feeding": {
+   "hu": "Szűrőtáplálkozó: rendszeres fitoplankton és nagyon finom lebegő eleség; kiegészítő etetés nélkül néhány hónap alatt éhen hal.",
+   "en": "Filter feeder: regular phytoplankton and very fine suspended food; starves within months without supplemental feeding."
+  },
+  "origin": {
+   "hu": "Nyugat-Atlanti-óceán: Karib-tenger.",
+   "en": "Western Atlantic: Caribbean."
+  },
+  "notes": {
+   "hu": "A köpenyszegélyen futó fénycsíkok miatt „villódzó”. A Tropus „Lima scabra / Ctenoides scaber – Fésűkagyló” néven árulja; valójában nem fésűkagyló, hanem reszelőkagyló (Limidae). Csak tapasztalt tartóknak, rendszeres planktonetetéssel. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Appears to 'flash' due to light-reflecting strips on the mantle edge. Sold by Tropus as 'Lima scabra / Ctenoides scaber – Fésűkagyló'; it is actually a file clam (Limidae), not a true scallop. Only for experienced keepers with regular plankton feeding. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=420747"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ctenoides_scaber_336113120.jpg/960px-Ctenoides_scaber_336113120.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Ctenoides_scaber_336113120.jpg",
+   "author": "Jana Miller",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "radianthus-crispa",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Radianthus crispa",
+  "name_en": "Sebae Anemone / Leathery Sea Anemone",
+  "name_hu": "Crispa anemóna",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true,
+   "partners": [
+    "amphiprion-clarkii",
+    "amphiprion-perideraion",
+    "amphiprion-ocellaris"
+   ]
+  },
+  "behavior": {
+   "hu": "Bohóchal-gazda tengeri rózsa; vándorolhat, és a közelébe kerülő korallokat csalánozza.",
+   "en": "Clownfish host anemone; may wander and sting nearby corals."
+  },
+  "feeding": {
+   "hu": "Fotoszintetizáló; hetente 1–2 alkalommal húsos etetés (mysis, garnéla, halhúsdarabok).",
+   "en": "Photosynthetic; meaty feedings (mysis, shrimp, fish pieces) once or twice a week."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Radianthus crispa (régebben Heteractis crispa). Sok bohóchalfaj (pl. A. clarkii, A. perideraion, A. ocellaris) gazdája. Lábfejét a homokba vagy sziklarésbe ássa. Erős fényt, stabil vízparamétereket és érett akváriumot igényel; a szivattyúk szívónyílását védeni kell. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "In WoRMS the valid name is Radianthus crispa (formerly Heteractis crispa). Hosts many clownfish species (e.g. A. clarkii, A. perideraion, A. ocellaris). Buries its foot in sand or rock crevices. Needs strong light, stable water parameters and a mature tank; guard pump intakes. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=290089"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/An%C3%A9mona_de_mar_%28Heteractis_crispa%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-29%2C_DD_43.jpg/960px-An%C3%A9mona_de_mar_%28Heteractis_crispa%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-29%2C_DD_43.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Anémona_de_mar_(Heteractis_crispa),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-29,_DD_43.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "radianthus-malu",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Radianthus malu",
+  "name_en": "Malu Anemone / Delicate Sea Anemone",
+  "name_hu": "Kunkorodó anemóna",
+  "size_cm": {
+   "min": 15,
+   "max": 30
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "difficult",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "may_eat": [
+    "shrimps",
+    "small-fish"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true,
+   "partners": [
+    "amphiprion-clarkii"
+   ]
+  },
+  "behavior": {
+   "hu": "Bohóchal-gazda tengeri rózsa; vándorolhat, és a közelébe kerülő korallokat csalánozza.",
+   "en": "Clownfish host anemone; may wander and sting nearby corals."
+  },
+  "feeding": {
+   "hu": "Fotoszintetizáló; hetente 1–2 alkalommal húsos etetés (mysis, garnéla, halhúsdarabok).",
+   "en": "Photosynthetic; meaty feedings (mysis, shrimp, fish pieces) once or twice a week."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "A WoRMS szerint az érvényes név Radianthus malu (régebben Heteractis malu). A természetben főleg az A. clarkii gazdája. Lábfejét a homokba ássa. Erős fényt, stabil vízparamétereket és érett akváriumot igényel; a szivattyúk szívónyílását védeni kell. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "In WoRMS the valid name is Radianthus malu (formerly Heteractis malu). In the wild it mainly hosts A. clarkii. Buries its foot in the sand. Needs strong light, stable water parameters and a mature tank; guard pump intakes. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=289229"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Heteractis_malu.JPG/960px-Heteractis_malu.JPG",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Heteractis_malu.JPG",
+   "author": "Haplochromis",
+   "license": "CC BY-SA 3.0"
+  }
+ },
+ {
+  "id": "stichodactyla-gigantea",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Stichodactyla gigantea",
+  "name_en": "Giant Carpet Anemone",
+  "name_hu": "Óriás szőnyeganemóna",
+  "size_cm": {
+   "min": 30,
+   "max": 60
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1200,
+  "difficulty": "expert",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "eats": [
+    "small-fish"
+   ],
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true,
+   "partners": [
+    "amphiprion-ocellaris",
+    "amphiprion-percula",
+    "amphiprion-clarkii"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy szőnyeganemóna; ragadós csápjaival halakat, garnélákat és csigákat is megfog és megeszik. Korallokat erősen csalánoz.",
+   "en": "Large carpet anemone whose sticky tentacles catch and eat fish, shrimp and snails. Stings corals strongly."
+  },
+  "feeding": {
+   "hu": "Fotoszintetizáló; hetente 1–2 alkalommal nagyobb húsos etetés (garnéla, halhús).",
+   "en": "Photosynthetic; larger meaty feedings (shrimp, fish) once or twice a week."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Nagyon ragadós csápú, nagy szőnyeganemóna; az A. ocellaris, A. percula és A. clarkii gazdája. Sekély, homokos élőhelyen él. A Tropus „Szőnyeganemóna” néven árulja. Nagyon erős fényt, mély homokágyat és nagy akváriumot igényel; elpusztulása az egész akvárium vízminőségét veszélyezteti. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Very sticky, large carpet anemone; hosts A. ocellaris, A. percula and A. clarkii. Lives in shallow sandy habitats. Sold by Tropus as 'Szőnyeganemóna'. Needs very strong light, a deep sand bed and a large tank; its death endangers the water quality of the whole aquarium. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=291133"
+   }
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Stichodactyla_gigantea%2C_Amphiprion_percula.jpeg/500px-Stichodactyla_gigantea%2C_Amphiprion_percula.jpeg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Stichodactyla_gigantea,_Amphiprion_percula.jpeg",
+   "author": "Anne Hoggett",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "stichodactyla-haddoni",
+  "group": "invertebrate",
+  "category": "anemones",
+  "scientific_name": "Stichodactyla haddoni",
+  "name_en": "Haddon's Carpet Anemone / Saddle Carpet Anemone",
+  "name_hu": "Haddon-szőnyeganemóna",
+  "size_cm": {
+   "min": 30,
+   "max": 60
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 600,
+  "tank_ideal_l": 1200,
+  "difficulty": "expert",
+  "utility": [
+   "none"
+  ],
+  "reef_safety": "with-caution",
+  "compat": {
+   "eats": [
+    "small-fish"
+   ],
+   "may_eat": [
+    "shrimps",
+    "crabs",
+    "snails"
+   ],
+   "min_age_months": 12,
+   "neighbours": "sting",
+   "wanders": true,
+   "partners": [
+    "amphiprion-clarkii",
+    "amphiprion-polymnus"
+   ]
+  },
+  "behavior": {
+   "hu": "Nagy szőnyeganemóna; ragadós csápjaival halakat, garnélákat és csigákat is megfog és megeszik. Korallokat erősen csalánoz.",
+   "en": "Large carpet anemone whose sticky tentacles catch and eat fish, shrimp and snails. Stings corals strongly."
+  },
+  "feeding": {
+   "hu": "Fotoszintetizáló; hetente 1–2 alkalommal nagyobb húsos etetés (garnéla, halhús).",
+   "en": "Photosynthetic; larger meaty feedings (shrimp, fish) once or twice a week."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Nagy, ragadós csápú szőnyeganemóna, amely homokba ássa lábfejét; a Clark-bohóchal és a nyerges bohóchal (A. polymnus) gazdája. A Tropus „Szőnyeganemóna” néven árulja. Nagyon erős fényt, mély homokágyat és nagy akváriumot igényel; elpusztulása az egész akvárium vízminőségét veszélyezteti. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Large, sticky carpet anemone that buries its foot in sand; hosts Clark's and saddleback clownfish (A. polymnus). Sold by Tropus as 'Szőnyeganemóna'. Needs very strong light, a deep sand bed and a large tank; its death endangers the water quality of the whole aquarium. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=291134"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Stichodactyla_haddoni%2C_Amphiprion_polymnus.jpg/960px-Stichodactyla_haddoni%2C_Amphiprion_polymnus.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Stichodactyla_haddoni,_Amphiprion_polymnus.jpg",
+   "author": "Chaloklum Diving",
+   "license": "CC BY 3.0"
+  }
+ },
+ {
+  "id": "holothuria-atra",
+  "group": "invertebrate",
+  "category": "sea-cucumbers",
+  "scientific_name": "Holothuria atra",
+  "name_en": "Black Sea Cucumber / Lollyfish",
+  "name_hu": "Fekete tengeri uborka (Holothuria atra)",
+  "size_cm": {
+   "min": 20,
+   "max": 40
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 400,
+  "tank_ideal_l": 800,
+  "difficulty": "moderate",
+  "utility": [
+   "sand-sifter",
+   "detritus-eater"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 6
+  },
+  "behavior": {
+   "hu": "Nagy, lassú tengeri uborka, amely a homokot nyeli le, és a benne lévő detrituszt emészti meg.",
+   "en": "Large, slow sea cucumber that swallows sand and digests the detritus in it."
+  },
+  "feeding": {
+   "hu": "A lenyelt homokból a detrituszt és a mikroorganizmusokat emészti meg; célzott etetés nem kell, de nagy homokfelület igen.",
+   "en": "Digests detritus and micro-organisms from swallowed sand; no target feeding, but a large sand area is needed."
+  },
+  "origin": {
+   "hu": "Indo-Csendes-óceán.",
+   "en": "Indo-Pacific."
+  },
+  "notes": {
+   "hu": "Fekete, gyakran homokszemcsékkel borított test. Stressz esetén mérgező anyagot (holoturint) bocsáthat ki; a szivattyúk szívónyílását védeni kell. A Tropus „Fekete tengeri uborka” néven árulja (a meglévő Actinopyga miliarisszal azonos magyar néven, ezért a tudományos név is szerepel). Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Black body, often coated with sand grains. When stressed it may release a toxin (holothurin); guard pump intakes. Sold by Tropus as 'Fekete tengeri uborka' (same Hungarian name as Actinopyga miliaris, so the scientific name is added). Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1672768"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pepino_de_mar_%28Holothuria_atra%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_155.jpg/960px-Pepino_de_mar_%28Holothuria_atra%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_155.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pepino_de_mar_(Holothuria_atra),_Anilao,_Filipinas,_2023-08-23,_DD_155.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "colochirus-robustus",
+  "group": "invertebrate",
+  "category": "sea-cucumbers",
+  "scientific_name": "Colochirus robustus",
+  "name_en": "Yellow Sea Cucumber",
+  "name_hu": "Sárga tengeri uborka",
+  "size_cm": {
+   "min": 5,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Szűrő tengeri uborka, amely a sziklázaton ül, és elágazó csápjaival fogja ki a planktont.",
+   "en": "Filter-feeding sea cucumber that sits on rockwork and catches plankton with its branched tentacles."
+  },
+  "feeding": {
+   "hu": "Szűrőtáplálkozó: rendszeres fitoplankton és finom lebegő eleség; kiegészítő etetés nélkül lassan éhen hal.",
+   "en": "Filter feeder: regular phytoplankton and fine suspended food; slowly starves without supplemental feeding."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Sárga, bütykös test. Stressz esetén mérgező anyagot bocsáthat ki; a szivattyúk szívónyílását védeni kell. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Yellow, knobbly body. May release a toxin when stressed; guard pump intakes. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=241806"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pepino_de_mar_amarillo_%28Colochirus_robustus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_24.jpg/960px-Pepino_de_mar_amarillo_%28Colochirus_robustus%29%2C_Anilao%2C_Filipinas%2C_2023-08-25%2C_DD_24.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pepino_de_mar_amarillo_(Colochirus_robustus),_Anilao,_Filipinas,_2023-08-25,_DD_24.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "comaster-multifidus",
+  "group": "invertebrate",
+  "category": "inv-other",
+  "scientific_name": "Comaster multifidus",
+  "name_en": "Feather Star / Crinoid",
+  "name_hu": "Tengeri liliom",
+  "size_cm": {
+   "min": 15,
+   "max": 25
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 300,
+  "tank_ideal_l": 600,
+  "difficulty": "expert",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Tollas karú tengeri liliom, amely a sziklázaton kapaszkodik meg, és karjait kiterjesztve fogja ki a planktont.",
+   "en": "Feather star that clings to rockwork and spreads its arms to catch plankton."
+  },
+  "feeding": {
+   "hu": "Szűrőtáplálkozó: nagy mennyiségű, rendszeres fitoplankton és nagyon finom zooplankton.",
+   "en": "Filter feeder: large, regular amounts of phytoplankton and very fine zooplankton."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Akváriumban a túlélése nagyon rossz, mert a szükséges planktonmennyiséget nehéz biztosítani; csak nagyon tapasztalt tartóknak, planktonos rendszerbe. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Survival in aquaria is very poor because providing enough plankton is difficult; only for very experienced keepers with plankton-rich systems. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=213356"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Feather_Star_Comaster_multifidus_%287944334486%29.jpg/960px-Feather_Star_Comaster_multifidus_%287944334486%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Feather_Star_Comaster_multifidus_(7944334486).jpg",
+   "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  }
+ },
+ {
+  "id": "polycarpa-aurata",
+  "group": "invertebrate",
+  "category": "inv-other",
+  "scientific_name": "Polycarpa aurata",
+  "name_en": "Gold-mouth Sea Squirt / Ink-spot Sea Squirt",
+  "name_hu": "Színes zsákállat",
+  "size_cm": {
+   "min": 5,
+   "max": 10
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 100,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Helyhez kötött zsákállat, amely a vizet szívónyílásán át szűri.",
+   "en": "Sessile sea squirt that filters water through its siphons."
+  },
+  "feeding": {
+   "hu": "Szűrőtáplálkozó: fitoplankton és nagyon finom lebegő eleség, rendszeresen.",
+   "en": "Filter feeder: regular phytoplankton and very fine suspended food."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Fehér-sárga test lila mintázattal és sárga szájnyílással. Mérsékelt áramlást és tápanyagban gazdagabb vizet kedvel; túlszűrt akváriumban éhen hal. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "White-yellow body with purple markings and a yellow siphon. Prefers moderate flow and slightly nutrient-rich water; starves in over-filtered tanks. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=251001"
+   }
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Polycarpa_aurata.jpg/960px-Polycarpa_aurata.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Polycarpa_aurata.jpg",
+   "author": "Mudasir Zainuddin",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ {
+  "id": "clathria-rugosa",
+  "group": "invertebrate",
+  "category": "inv-other",
+  "scientific_name": "Clathria rugosa",
+  "name_en": "Orange Tree Sponge",
+  "name_hu": "Narancssárga szivacs",
+  "size_cm": {
+   "min": 5,
+   "max": 20
+  },
+  "lifespan_captivity_years": {
+   "min": null,
+   "max": null,
+   "note": "unknown"
+  },
+  "tank_min_l": 150,
+  "tank_ideal_l": 300,
+  "difficulty": "difficult",
+  "utility": [
+   "plankton-feeder"
+  ],
+  "reef_safety": "reef-safe",
+  "compat": {
+   "temperament": "peaceful",
+   "min_age_months": 12
+  },
+  "behavior": {
+   "hu": "Helyhez kötött, fotoszintézisre nem képes szivacs; a vizet szűri.",
+   "en": "Sessile, non-photosynthetic sponge that filters water."
+  },
+  "feeding": {
+   "hu": "Szűrőtáplálkozó: baktériumok, fitoplankton és oldott szerves anyag; érett, tápanyagban nem túl szegény akvárium kell.",
+   "en": "Filter feeder: bacteria, phytoplankton and dissolved organic matter; needs a mature, not overly nutrient-poor tank."
+  },
+  "origin": {
+   "hu": "Indo-Nyugat-Csendes-óceán.",
+   "en": "Indo-West Pacific."
+  },
+  "notes": {
+   "hu": "Narancssárga, ágas telep. Árnyékos, áramlásos helyre tegyük; soha ne érje levegő, mert a beszorult légbuborékok miatt elhal. Mint minden gerinctelen, érzékeny a rézre és a hirtelen sótartalom-változásra; lassú, csepegtetéses beszoktatást igényel.",
+   "en": "Orange, branching colony. Place in a shaded spot with good flow; never expose it to air, as trapped air bubbles kill it. Like all invertebrates it is sensitive to copper and sudden salinity changes; acclimate slowly by drip."
+  },
+  "diseases": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=167804"
+   }
+  ]
+ }
+]

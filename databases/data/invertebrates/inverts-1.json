@@ -34,7 +34,7 @@
   },
   "feeding": {
    "en": "Herbivore/detritus: eats bubble algae (Valonia) - its main claim to fame; also scavenges leftover food.",
-   "hu": "Növényevő/detrituszfogyasztó: hajsalgát (Valonia) eszik – ez a fő erénye; a maradék táplálékot is felkapja."
+   "hu": "Növényevő/detrituszfogyasztó: a buborékalgát (Valonia) eszi – ez a fő erénye; a maradék táplálékot is felkapja."
   },
   "origin": {
    "en": "Caribbean and western Atlantic.",
@@ -42,7 +42,7 @@
   },
   "notes": {
    "en": "The go-to bubble algae control crab; one or two per tank. Supplement with nori if algae runs out.",
-   "hu": "A hajsalga-irtás legjobb rákja; akváriumonként egy-két példány. Ha elfogy az alga, norival egészítsük ki."
+   "hu": "A buborékalga (Valonia) irtásának legismertebb rákja; akváriumonként egy-két példány. Ha elfogy az alga, norival egészítsük ki."
   },
   "diseases": [],
   "sources": [
@@ -103,7 +103,7 @@
   },
   "notes": {
    "en": "Useful algae eater when small; rehome once it exceeds 5 cm in a fish-stocked reef.",
-   "hu": "Kicsiben hasznos algaevő; ha 5 cm-nél nagyobbra nő halas zátonyban, helyezzük máshová."
+   "hu": "Kicsiben hasznos algaevő; ha halas reef tankban 5 cm-nél nagyobbra nő, helyezzük máshová."
   },
   "diseases": [],
   "sources": [
@@ -124,9 +124,9 @@
   "id": "neopetrolisthes-oshimai",
   "group": "invertebrate",
   "category": "crabs",
-  "scientific_name": "Neopetrolisthes oshimai",
+  "scientific_name": "Neopetrolisthes ohshimai",
   "name_en": "Porcelain Anemone Crab",
-  "name_hu": "Porcelánkráb",
+  "name_hu": "Porcelánrák",
   "size_cm": {
    "min": 2,
    "max": 3
@@ -153,7 +153,7 @@
   },
   "behavior": {
    "en": "Lives on or near host anemones, waving filtering fans; peaceful pairs are possible.",
-   "hu": "Anémonokon vagy azok közelében él, szűrő legyezőit lengeti; békés párok lehetségesek."
+   "hu": "Anemónaokon vagy azok közelében él, szűrő legyezőit lengeti; békés párok lehetségesek."
   },
   "feeding": {
    "en": "Filter feeder: fine suspended foods (phytoplankton, powdered foods, roe).",
@@ -164,11 +164,16 @@
    "hu": "Indo-Csendes-óceán."
   },
   "notes": {
-   "en": "Charming nano crab; needs regular fine-food feedings to thrive. Moults look like a dead crab - don't panic.",
-   "hu": "Bájos nano rák; rendszeres finom etetés kell a jóllétéhez. A vedlett páncély elhullott ráknak tűnik – nem kell pánikba esni."
+   "en": "Charming nano crab; needs regular fine-food feedings to thrive. Moults look like a dead crab - don't panic. In WoRMS Neopetrolisthes ohshimai is a synonym of N. maculatus; the trade still uses the old name.",
+   "hu": "Bájos nano rák; rendszeres finom etetés kell a jóllétéhez. A vedlett páncély elhullott ráknak tűnik – nem kell pánikba esni. A WoRMS szerint a Neopetrolisthes ohshimai a N. maculatus szinonimája; a kereskedelemben a régi név használatos."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=492757"
+   }
+  ],
   "image": {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cangrejo_porcelana_%28Neopetrolisthes_maculatus%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_93.jpg/1280px-Cangrejo_porcelana_%28Neopetrolisthes_maculatus%29%2C_Ambalihabe%2C_Madagascar%2C_2025-09-16%2C_DD_93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
@@ -181,7 +186,7 @@
   "id": "lybia-tesselata",
   "group": "invertebrate",
   "category": "crabs",
-  "scientific_name": "Lybia tesselata",
+  "scientific_name": "Lybia tessellata",
   "name_en": "Boxing Crab / Pom-pom Crab",
   "name_hu": "Bokszoló rák (pom-pom rák)",
   "size_cm": {
@@ -205,11 +210,11 @@
   },
   "behavior": {
    "en": "Carries small anemones in its claws for defence; fascinating to watch. Peaceful.",
-   "hu": "Kis anémonokat hordoz a csápjai közt védekezésül; lenyűgöző látvány. Békés."
+   "hu": "Apró tengeri rózsákat hordoz az ollóiban védekezésül; lenyűgöző látvány. Békés."
   },
   "feeding": {
    "en": "Scavenger: finely chopped meaty foods; the anemones capture extra particles.",
-   "hu": "Dögevő: finoman vágott húsos táplálék; az anémonok extra részecskéket fognek."
+   "hu": "Dögevő: finoman vágott húsos táplálék; az ollóiban hordott tengeri rózsák további táplálékrészecskéket fognak."
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea to Japan and Australia.",
@@ -217,10 +222,15 @@
   },
   "notes": {
    "en": "Tiny character crab; may lose its pom-poms (they regrow). Safe with all but predatory fish.",
-   "hu": "Apró 'karakter' rák; elveszítheti a pom-pomjait (újraképesednek). Ragadozó halak kivételével mindenkivel biztonságos."
+   "hu": "Apró 'karakter' rák; elveszítheti a pom-pomjait (újranőnek). Ragadozó halak kivételével mindenkivel biztonságos."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=208964"
+   }
+  ],
   "image": {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Eueides_lybia_lybia_MHNT.jpg/1280px-Eueides_lybia_lybia_MHNT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
@@ -235,7 +245,7 @@
   "category": "hermit-crabs",
   "scientific_name": "Calcinus elegans",
   "name_en": "Electric Blue Hermit Crab",
-  "name_hu": "Elektromos kék remeterák",
+  "name_hu": "Kék remeterák",
   "size_cm": {
    "min": 2,
    "max": 4
@@ -295,7 +305,7 @@
   "category": "hermit-crabs",
   "scientific_name": "Clibanarius tricolor",
   "name_en": "Blue Leg Hermit Crab",
-  "name_hu": "Kéklábú remeterák",
+  "name_hu": "Háromszínű remeterák",
   "size_cm": {
    "min": 1,
    "max": 2
@@ -355,7 +365,7 @@
   "category": "hermit-crabs",
   "scientific_name": "Calcinus laevimanus",
   "name_en": "Zebra Hermit Crab / Dwarf Zebra Leg",
-  "name_hu": "Zebra remeterák",
+  "name_hu": "Kékszemű remeterák",
   "size_cm": {
    "min": 2,
    "max": 3
@@ -444,7 +454,7 @@
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea to Japan and Australia.",
-   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
   },
   "notes": {
    "en": "The most popular shrimp; hardy, visible, and even cleans hands during maintenance. Do not keep with predatory fish (triggers, lionfish).",
@@ -471,7 +481,7 @@
   "category": "shrimps",
   "scientific_name": "Lysmata debelius",
   "name_en": "Fire Shrimp / Blood Shrimp",
-  "name_hu": "Vérgarnéla (fire shrimp)",
+  "name_hu": "Tűzgarnéla",
   "size_cm": {
    "min": 5,
    "max": 7
@@ -555,7 +565,7 @@
   },
   "feeding": {
    "en": "Scavenger: Aiptasia anemones (small ones), leftovers, frozen foods.",
-   "hu": "Dögevő: Aiptasia anémonok (kisebbek), maradékok, fagyasztott táplálék."
+   "hu": "Dögevő: Aiptasia anemónák (kisebbek), maradékok, fagyasztott táplálék."
   },
   "origin": {
    "en": "Caribbean and Gulf of Mexico.",
@@ -586,7 +596,7 @@
   "category": "shrimps",
   "scientific_name": "Stenopus hispidus",
   "name_en": "Banded Coral Shrimp / Boxing Shrimp",
-  "name_hu": "Csíkos bokszgarnéla",
+  "name_hu": "Bokszoló garnéla",
   "size_cm": {
    "min": 6,
    "max": 8
@@ -621,7 +631,7 @@
   },
   "feeding": {
    "en": "Scavenger/predator: meaty foods, bristleworms, fish leftovers.",
-   "hu": "Dögevő/ragadozó: húsos táplálék, csillagférgek, haltakarékok."
+   "hu": "Dögevő/ragadozó: húsos táplálék, csillagférgek, a halak elől maradt eleség."
   },
   "origin": {
    "en": "Circumtropical: all tropical oceans.",
@@ -679,7 +689,7 @@
   },
   "behavior": {
    "en": "Nocturnal schooling shrimp; swarms out at feeding time. May bother LPS and soft corals.",
-   "hu": "Éjjel aktív rajgarnéla; etetéskor rajban rajzik elő. Az LPS és lágy korallokat zavarhatja."
+   "hu": "Éjjel aktív rajgarnéla; etetéskor csapatostul előjön. Az LPS és lágy korallokat zavarhatja."
   },
   "feeding": {
    "en": "Scavenger: leftovers, small frozen foods.",
@@ -691,7 +701,7 @@
   },
   "notes": {
    "en": "Cheap and hardy in groups; use in fish-only or FOWLR tanks. Red and white 'hinge-beak' appearance.",
-   "hu": "Olcsó és ellenálló csoportokban; halas vagy FOWLR akváriumokba való. Vörös-fehér 'csuklócsápú' megjelenés."
+   "hu": "Olcsó és ellenálló csoportokban; halas vagy FOWLR akváriumokba való. Piros-fehér mintázat, jellegzetes, felfelé hajló, ízelt orrnyúlvány."
   },
   "diseases": [],
   "sources": [
@@ -714,7 +724,7 @@
   "category": "shrimps",
   "scientific_name": "Thor amboinensis",
   "name_en": "Sexy Shrimp",
-  "name_hu": "Sexy garnéla (táncosgarnéla)",
+  "name_hu": "Szexi garnéla",
   "size_cm": {
    "min": 1,
    "max": 2
@@ -741,7 +751,7 @@
   },
   "behavior": {
    "en": "Tiny shrimp that 'dances' by wiggling its abdomen; lives on host anemones and mushrooms. Groups are hilarious.",
-   "hu": "Apró garnéla, amely a potrohát riszálva 'táncol'; anémonokon és gombakorallokon él. Csoportban kifejezetten mulatságos."
+   "hu": "Apró garnéla, amely a potrohát riszálva 'táncol'; anemónákon és gombakorallokon él. Csoportban kifejezetten mulatságos."
   },
   "feeding": {
    "en": "Scavenger: tiny meaty particles and leftovers.",
@@ -753,7 +763,7 @@
   },
   "notes": {
    "en": "Perfect nano shrimp; only with peaceful fish (they will be eaten by anything that can fit them in its mouth).",
-   "hu": "Tökéletes nano garnéla; csak békés halakkal (minden elnyelheti őket, ami befogadja a szájába)."
+   "hu": "Tökéletes nano garnéla; csak békés halakkal (minden hal megeszi, amelynek a szájába belefér)."
   },
   "diseases": [],
   "sources": [
@@ -811,7 +821,7 @@
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea to Japan and Australia.",
-   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
   },
   "notes": {
    "en": "Often sold as a 'cleaner' look-alike; verify the species - this one eats corals at night.",
@@ -870,11 +880,16 @@
    "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
   },
   "notes": {
-   "en": "The best all-round algae snail; breeds in home aquaria (planktonic larvae rarely survive). 1 per 20-30 L.",
-   "hu": "A legjobb univerzális algacsiga; otthoni akváriumban szaporodhat (planktonlárvái ritkán élik túl). 20–30 literenként 1 példány."
+   "en": "The best all-round algae snail; breeds in home aquaria (planktonic larvae rarely survive). 1 per 20-30 L. In WoRMS the valid name is Rochia nilotica.",
+   "hu": "A legjobb univerzális algacsiga; otthoni akváriumban szaporodhat (planktonlárvái ritkán élik túl). 20–30 literenként 1 példány. A WoRMS szerint az érvényes név Rochia nilotica."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1251282"
+   }
+  ],
   "image": {
    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/A_shell_of_Trochus_niloticus_snail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "source": "Wikimedia Commons",
@@ -978,10 +993,15 @@
   },
   "notes": {
    "en": "Cheap and effective CUC staple; flip stranded individuals back onto the rockwork.",
-   "hu": "Olasz és hatékony takarítócsapat-alapelem; a fennakadt példányokat fordítsuk vissza a sziklázatra."
+   "hu": "Olcsó és hatékony alapfaj a takarítócsapatba; a fennakadt példányokat fordítsuk vissza a sziklázatra."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=419499"
+   }
+  ],
   "image": {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Astraea_heliotropium_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_-_Genoa%2C_Italy_-_DSC03268.JPG/1280px-Astraea_heliotropium_-_Museo_Civico_di_Storia_Naturale_Giacomo_Doria_-_Genoa%2C_Italy_-_DSC03268.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
@@ -1031,7 +1051,7 @@
   },
   "notes": {
    "en": "Underrated all-round clean-up snail; digests detritus and diatom films. Will climb out of tanks without lids - keep water level low.",
-   "hu": "Alulértékelt univerzális takarítocsiga; a detrituszt és a kovamoszat-bevonatot fogyasztja. Fedél nélküli akváriumból kimászik – tartsuk alacsonyabban a vízszintet."
+   "hu": "Alulértékelt univerzális takarítócsiga; a detrituszt és a kovamoszat-bevonatot fogyasztja. Fedél nélküli akváriumból kimászhat – tartsuk kicsit lejjebb a vízszintet."
   },
   "diseases": [],
   "sources": [
@@ -1076,7 +1096,7 @@
   },
   "behavior": {
    "en": "Buried in the sand until food hits the water - then swarms out within seconds. Detritus cleanup for sandbeds.",
-   "hu": "A homokba ásva vár, míg táplálék kerül a vízbe – másodperceken belül előrajzik. A homokágy detritusz-takarítója."
+   "hu": "A homokba ásva vár, míg táplálék kerül a vízbe – másodperceken belül előbújnak. A homokágy detritusz-takarítója."
   },
   "feeding": {
    "en": "Detritus and leftover meaty food; no algae control.",
@@ -1088,7 +1108,7 @@
   },
   "notes": {
    "en": "Essential sandbed crew - 1 per 10-15 L of sand area. Their 'snail alarm clock' response at feeding time is unmistakable.",
-   "hu": "Alapvető homokágy-csapat – homokfelületenként 10–15 literenként 1 példány. Az etetéskor indult 'csiga-jelzőrendszer' útmutathatatlan."
+   "hu": "Alapvető homokágy-csapat – homokfelületenként 10–15 literenként 1 példány. Az etetéskor egyszerre előbújó csigák látványa félreismerhetetlen."
   },
   "diseases": [],
   "sources": [
@@ -1201,11 +1221,16 @@
    "hu": "Karib-tenger és a Mexikói-öböl."
   },
   "notes": {
-   "en": "The best sandbed cleaner for medium-large tanks; needs a deep sand bed. The related Queen Conch (Lobatus gigas) is CITES-protected - never take it from the wild.",
-   "hu": "A legjobb homokágy-takarító közepes-nagy akváriumokhoz; mély homokágyat igényel. A rokon királyi conch (Lobatus gigas) CITES-védett – soha ne gyűjtsük vadon."
+   "en": "The best sandbed cleaner for medium-large tanks; needs a deep sand bed. The related Queen Conch (Lobatus gigas) is CITES-protected - never take it from the wild. WoRMS treats Strombus alatus as a synonym of S. pugilis.",
+   "hu": "A legjobb homokágy-takarító közepes-nagy akváriumokhoz; mély homokágyat igényel. A rokon királyi conch (Lobatus gigas) CITES-védett – soha ne gyűjtsük vadon. A WoRMS a Strombus alatust a S. pugilis szinonimájaként kezeli."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=419695"
+   }
+  ],
   "image": {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Strombus_alatus_%28fighting_conch%29_%28Marco_Island%2C_Florida%2C_USA%29_1.jpg/1280px-Strombus_alatus_%28fighting_conch%29_%28Marco_Island%2C_Florida%2C_USA%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",
@@ -1220,7 +1245,7 @@
   "category": "snails",
   "scientific_name": "Babylonia areolata",
   "name_en": "Bumble Bee Snail",
-  "name_hu": "Darazs csiga (bumble bee)",
+  "name_hu": "Babylonia csiga",
   "size_cm": {
    "min": 1.5,
    "max": 2.5
@@ -1256,8 +1281,8 @@
    "hu": "Indo-Nyugat-Csendes-óceán."
   },
   "notes": {
-   "en": "Useful cleanup scavenger; nocturnal. Do not expect them to control vermetid snails as often advertised.",
-   "hu": "Hasznos takarító dögevő; éjjel aktív. Ne várjuk tőlük a hirdetett vermetidcsiga-kontrollt."
+   "en": "Useful cleanup scavenger; nocturnal. Do not expect them to control vermetid snails as often advertised. The snail sold as 'bumble bee snail' is actually Engina mendicaria; Babylonia areolata is a larger, sand-dwelling scavenger.",
+   "hu": "Hasznos takarító dögevő; éjjel aktív. Ne várjuk tőlük a hirdetett vermetidcsiga-kontrollt. A boltokban „darázscsiga” (bumble bee) néven árult faj valójában az Engina mendicaria; a Babylonia areolata egy nagyobb, homokban élő dögevő csiga."
   },
   "diseases": [],
   "sources": [

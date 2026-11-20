@@ -123,7 +123,7 @@
   },
   "notes": {
    "en": "Hardy and beautiful but only for fish-only or aggressive tanks; not for reef or peaceful community tanks.",
-   "hu": "Ellenálló és szép, de csak halas vagy agresszív akváriumba; zátonyos vagy békés közösséges akváriumba nem."
+   "hu": "Ellenálló és szép, de csak halas vagy agresszív akváriumba; reef tankba vagy békés közösségi akváriumba nem."
   },
   "diseases": [
    "marine-ich",
@@ -270,7 +270,7 @@
   },
   "notes": {
    "en": "One of the best pest-control wrasses for reef tanks; active by day. Needs 3-5 cm fine sand cover.",
-   "hu": "Az egyik legjobb kártevőirtó ajakoshal zátonyos akváriumokba; nappal aktív. 3–5 cm finom homoktakarót igényel."
+   "hu": "Az egyik legjobb kártevőirtó ajakoshal reef tankokba; nappal aktív. 3–5 cm finom homoktakarót igényel."
   },
   "diseases": [
    "marine-ich",
@@ -444,6 +444,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Coris_gaimard,_Macropharyngodon_meleagris.jpg",
    "author": "Kevin Lino NOAA/NMFS/PIFSC/ESD",
    "license": "CC BY 2.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Yellowtail_coris_juvenile_%28Coris_gaimard%29_%2841880844690%29.jpg/500px-Yellowtail_coris_juvenile_%28Coris_gaimard%29_%2841880844690%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Yellowtail_coris_juvenile_(Coris_gaimard)_(41880844690).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  },
  {
@@ -570,7 +577,7 @@
   },
   "behavior": {
    "en": "Famous for flipping rocks, rubble and corals while hunting; juveniles drift like seaweed. Very destructive in reef tanks.",
-   "hu": "Arról híres, hogy vadászat közben köveket, törmeléket és korallokat forgat meg; a fiatalok hínárként sodródnak. Zátonyos akváriumban nagyon romboló."
+   "hu": "Arról híres, hogy vadászat közben köveket, törmeléket és korallokat forgat meg; a fiatalok hínárként sodródnak. Reef tankban nagyon romboló."
   },
   "feeding": {
    "en": "Carnivore: mysis, krill, chopped seafood; digs for inverts in the sand.",
@@ -860,7 +867,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -922,7 +929,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -991,7 +998,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1060,7 +1067,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1122,7 +1129,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1134,7 +1141,7 @@
   },
   "notes": {
    "en": "Small, peaceful species with a yellow dorsal fin; perfect for nano and small reef tanks.",
-   "hu": "Kis termetű, békés faj sárga hátúszóval; nano- és kis zátonyos akváriumokba ideális."
+   "hu": "Kis termetű, békés faj sárga hátúszóval; nano- és kis reef tankokba ideális."
   },
   "diseases": [
    "marine-ich",
@@ -1191,7 +1198,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1260,7 +1267,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1329,7 +1336,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1398,7 +1405,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1467,7 +1474,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1536,7 +1543,7 @@
   },
   "behavior": {
    "en": "Peaceful, active mid-water swimmer; excellent community fish for reef tanks. Forms harems in the wild; one male with several females. Sex change from female to male occurs naturally. Known jumper — a tightly fitted lid is essential.",
-   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal zátonyos akváriumokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
+   "hu": "Békés, aktívan úszó, középvízi halfaj; kiváló közösségi hal reef tankokba. Természetben háremeket alkot: egy hím több nősténnyel. A nőstények természetes úton hímmé alakulhatnak. Ismert ugró — a jól záró fedő elengedhetetlen."
   },
   "feeding": {
    "en": "Planktivore: frozen mysis, cyclops, enriched brine shrimp and fine pellets, 2-3 times a day. In the wild it feeds on zooplankton above the reef.",
@@ -1723,6 +1730,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Checkerboard_wrasse_(Halichoeres_hortulanus)_(42786087155).jpg",
    "author": "Rickard Zerpe",
    "license": "CC BY 2.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Checkerboard_wrasse_juvenile_%28Halichoeres_hortulanus%29_%2841880845450%29.jpg/500px-Checkerboard_wrasse_juvenile_%28Halichoeres_hortulanus%29_%2841880845450%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Checkerboard_wrasse_juvenile_(Halichoeres_hortulanus)_(41880845450).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  },
  {
@@ -1774,7 +1788,7 @@
   },
   "notes": {
    "en": "Small, bright yellow wrasse with black spot markings; an excellent flatworm controller in reef tanks.",
-   "hu": "Kis termetű, élénksárga ajakoshal fekete foltokkal; kiváló laposféreg-vadász zátonyos akváriumokban."
+   "hu": "Kis termetű, élénksárga ajakoshal fekete foltokkal; kiváló laposféreg-vadász reef tankokban."
   },
   "diseases": [
    "marine-ich",

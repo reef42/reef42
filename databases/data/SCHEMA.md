@@ -31,9 +31,11 @@ bővítésekor minden mezőt e szerint kell kitölteni. Az ellenőrzést és az 
 | `scientific_name` | szöveg | Elfogadott tudományos név (WoRMS szerint) |
 | `name_en`, `name_hu` | szöveg | Angol és magyar név; magyar név hiányában az angol jelenik meg |
 | `difficulty` | enum | `easy`, `moderate`, `difficult`, `expert` |
-| `diseases` | lista | A `diseases.json` azonosítói |
+| `diseases` | lista | A `diseases.json` azonosítói: a fajnál előforduló, a hasonló halakra általában jellemző betegségek (nem jelent külön hajlamot) |
+| `disease_risk` | lista | Csak ott, ahol a faj az átlagosnál fogékonyabb: `{ "id", "level", "reason" }`. `id` a `diseases.json` azonosítója (a `diseases` listában is szerepel), `level` a `taxonomy.json` `enums.disease_risk` kulcsa: `elevated` (hajlamosabb, pl. minden doktorhal az ich-re a vékony nyálkaréteg miatt), `high` (kiemelten érzékeny, pl. az „ich-mágnes” doktorhalak); `reason` kétnyelvű indoklás |
 | `sources` | lista | `{ "name", "url" }` források |
 | `image` | objektum | `url`, `source_page`, `author`, `license` – csak CC BY, CC BY-SA, CC0 vagy public domain |
+| `image_juvenile` | objektum | Mint az `image`, a fiatal példányról; csak ott, ahol a fiatal kinézete jelentősen eltér a felnőttétől |
 | `feeding`, `origin`, `notes` | szöveg (hu/en) | Táplálkozás, származás, fontos tudnivalók |
 
 ## Halak és gerinctelenek
@@ -44,7 +46,7 @@ bővítésekor minden mezőt e szerint kell kitölteni. Az ellenőrzést és az 
 | `lifespan_wild_years`, `lifespan_captivity_years` | `{min, max}` | Élettartam években |
 | `tank_min_l`, `tank_ideal_l` | szám | Legkisebb és ideális akváriumméret literben (nettó víztérfogat) |
 | `utility` | enum-lista | Szerepe az akváriumban (`algae-eater`, `sand-sifter` …) |
-| `reef_safety` | enum | `reef-safe`, `with-caution`, `not-reef-safe` |
+| `reef_safety` | enum | Csak a korallokra és a gerinctelenekre jelentett veszély: `reef-safe` (nem bántja őket), `with-caution` (egyes példányok csipegetik a korallokat, vagy bizonyos gerincteleneket megesznek), `not-reef-safe` (rendszeresen korallt eszik, vagy a gerinctelen lakók nagy részét elpusztítja). A más halakkal szembeni viselkedés **nem** számít bele: az a `compat.temperament`, a `max_same` és a `rivals` mezőben van. A makroalgák fogyasztása sem számít bele. |
 | `compat` | objektum | Együtt tarthatóság, lásd lent |
 | `behavior` | szöveg (hu/en) | Viselkedés |
 
@@ -69,7 +71,7 @@ mondjon ellent egymásnak.
 
 | Mező | Típus | Jelentés | Hatás a becslésre |
 | --- | --- | --- | --- |
-| `temperament` | enum | `peaceful`, `semi-aggressive`, `aggressive` – a többi hallal szembeni viselkedés | Agresszív + félénk: nem ajánlott; agresszív + békés vagy félénk + mérsékelten agresszív: óvatosan |
+| `temperament` | enum | `peaceful`, `semi-aggressive`, `aggressive` – a más fajú halakkal szembeni viselkedés. A csak fajtársak vagy közeli rokonok elleni agresszió (pl. doktorhalak egymás közt) nem ide tartozik, hanem a `max_same` és a `rivals` mezőbe | Agresszív + félénk: nem ajánlott; agresszív + békés vagy félénk + mérsékelten agresszív: óvatosan |
 | `shy` | `true` | Félénk vagy lassú evő, a gyors, rámenős társak mellett éhezik | Lásd `temperament` |
 | `eats` | prey-lista | Biztosan megeszi vagy tönkreteszi | A tankban lévő ilyen lakóval: nem ajánlott; korall-prey (`sps`, `lps`, `soft-corals`, `zoanthids`) esetén korallos tankba sem ajánlott |
 | `may_eat` | prey-lista | Egyes példányok megeszik, csipegetik | Óvatosan; korall-prey esetén korallos tankban is |

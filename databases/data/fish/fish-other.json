@@ -60,6 +60,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -152,6 +162,13 @@
    "source": "Wikimedia Commons",
    "source_page": "https://commons.wikimedia.org/wiki/File:Dusky_Batfish_(Platax_pinnatus)_(6135858057).jpg",
    "author": "Bernard DUPONT from FRANCE",
+   "license": "CC BY-SA 2.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pinnate_batfish_juvenile_%28Platax_pinnatus%29_%2816219462856%29.jpg/500px-Pinnate_batfish_juvenile_%28Platax_pinnatus%29_%2816219462856%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pinnate_batfish_juvenile_(Platax_pinnatus)_(16219462856).jpg",
+   "author": "Rickard Zerpe",
    "license": "CC BY-SA 2.0"
   }
  },
@@ -311,6 +328,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Haemulidae_Plectorhinchus_chaetodonoides_2.2.jpg",
    "author": "NasserHalaweh",
    "license": "CC BY-SA 4.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Harlequin_sweetlips_juvenile_%28Plectorhinchus_chaetodonoides%29_%2829818385868%29.jpg/500px-Harlequin_sweetlips_juvenile_%28Plectorhinchus_chaetodonoides%29_%2829818385868%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Harlequin_sweetlips_juvenile_(Plectorhinchus_chaetodonoides)_(29818385868).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  },
  {

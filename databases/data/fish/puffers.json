@@ -25,7 +25,7 @@
   "utility": [
    "none"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "not-reef-safe",
   "compat": {
    "temperament": "peaceful",
    "shy": true,
@@ -363,7 +363,7 @@
    "en": "Indo-Pacific: East Africa to Micronesia and Samoa; north to southern Japan, south to New South Wales. Replaced by Arothron diadematus in the Red Sea."
   },
   "notes": {
-   "hu": "Színe szürkétől sárgáig változhat, mindig fekete foltokkal. Kőkorallokat (Acropora) eszik, ezért zátonyakváriumba nem való. Héjas eleség kell a folyamatosan növő fogai koptatásához. Tetrodotoxint tartalmaz.",
+   "hu": "Színe szürkétől sárgáig változhat, mindig fekete foltokkal. Kőkorallokat (Acropora) eszik, ezért reef tankba nem való. Héjas eleség kell a folyamatosan növő fogai koptatásához. Tetrodotoxint tartalmaz.",
    "en": "Colour ranges from grey to yellow, always with black spots. It eats stony corals (Acropora), so it is not reef-safe. Needs shelled food to wear down its continuously growing teeth. Contains tetrodotoxin."
   },
   "diseases": [

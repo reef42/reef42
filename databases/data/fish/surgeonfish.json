@@ -25,9 +25,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -45,12 +45,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Active, semi-aggressive herbivore; territorial towards other tangs, especially its own species. Keep one per tank unless in a very large system.",
-   "hu": "Aktív, félig agresszív növényevő; más doktorhalakkal, főleg fajtársaival szemben territoriális. Egy akváriumba egy példány ajánlott, kivéve nagyon nagy rendszerekben."
+   "hu": "Aktív növényevő; más halfajokkal általában békés, de a többi doktorhallal, főleg a fajtársaival szemben territoriális.",
+   "en": "Active herbivore; usually peaceful towards other fish families but territorial towards other tangs, especially its own species."
   },
   "feeding": {
    "en": "Herbivore: dried nori/seaweed sheets daily, herbivore pellets, spirulina; occasional mysis. Grazes filamentous algae all day.",
-   "hu": "Növényevő: napi nori/algalap, növényevő pellet, spirulina; alkalmanként mysis. Napközben folyamatosan legel."
+   "hu": "Növényevő: napi nori/algalap, növényi pellet, spirulina; alkalmanként mysis. Napközben folyamatosan legel."
   },
   "origin": {
    "en": "Pacific Ocean: from Japan and Hawai'i south to the Great Barrier Reef and Marquesas.",
@@ -65,6 +65,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -110,7 +128,7 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "semi-aggressive",
    "eats": [
@@ -135,7 +153,7 @@
   },
   "feeding": {
    "en": "Herbivore: nori sheets, herbivore pellets, spirulina; also grazes algae on rocks.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; a köveken legelő algát is fogyaszt."
+   "hu": "Növényevő: nori, növényi pellet, spirulina; a köveken legelő algát is fogyaszt."
   },
   "origin": {
    "en": "Western Indian Ocean: Red Sea, Gulf of Aden, east coast of Africa.",
@@ -150,6 +168,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -195,9 +231,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -220,7 +256,7 @@
   },
   "feeding": {
    "en": "Herbivore: nori, herbivore pellets, spirulina; grazes film algae.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; a bevonatalgát legeli."
+   "hu": "Növényevő: nori, növényi pellet, spirulina; a bevonatalgát legeli."
   },
   "origin": {
    "en": "Indo-Pacific: East Africa to Hawai'i, north to Japan, south to New Caledonia.",
@@ -235,6 +271,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -280,9 +334,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -305,7 +359,7 @@
   },
   "feeding": {
    "en": "Herbivore: nori, spirulina, herbivore pellets; frequent small feedings help weak specimens recover.",
-   "hu": "Növényevő: nori, spirulina, növényevő pellet; a gyakori kis adagolás segíti a legyengült példányok felépülését."
+   "hu": "Növényevő: nori, spirulina, növényi pellet; a gyakori kis adagolás segíti a legyengült példányok felépülését."
   },
   "origin": {
    "en": "Indian Ocean: East Africa to the Andaman Sea, Sri Lanka and the Maldives.",
@@ -321,6 +375,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "high",
+    "reason": {
+     "hu": "Közismert „ich-mágnes”: az ich a többi doktorhalnál is gyakrabban és súlyosabban jelentkezik rajta. Karantén kötelező, és csak stabil, érett akváriumba tegyük.",
+     "en": "A well-known 'ich magnet': ich appears more often and more severely than in other tangs. Quarantine is a must, and add it only to a stable, mature tank."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -332,11 +404,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Acanthurus_leucosternon_261420584.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Acanthurus_leucosternon_-_5311.jpg/500px-Acanthurus_leucosternon_-_5311.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_261420584.jpg",
-   "author": "Darren Obbard",
-   "license": "CC BY 4.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_leucosternon_-_5311.jpg",
+   "author": "Amada44",
+   "license": "CC BY-SA 3.0"
   }
  },
  {
@@ -365,7 +437,7 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "aggressive",
    "eats": [
@@ -405,6 +477,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -450,9 +540,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -470,8 +560,8 @@
    "min_age_months": 12
   },
   "behavior": {
-   "en": "Semi-aggressive, active swimmer; intolerant of other tangs. Shy during acclimation.",
-   "hu": "Félig agresszív, aktívan úszó; más doktorhalakat nem tűr meg. Beszoktatás alatt félénk."
+   "hu": "Aktívan úszó doktorhal; más halfajokkal általában békés, de más doktorhalakat nem tűr meg. Beszoktatás alatt félénk.",
+   "en": "Active swimmer; usually peaceful towards other fish families but does not tolerate other tangs. Shy during acclimation."
   },
   "feeding": {
    "en": "Herbivore: nori, spirulina, pellets; wild specimens often refuse food initially.",
@@ -490,6 +580,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "high",
+    "reason": {
+     "hu": "Közismert „ich-mágnes”: az ich a többi doktorhalnál is gyakrabban és súlyosabban jelentkezik rajta. Karantén kötelező, és csak stabil, érett akváriumba tegyük.",
+     "en": "A well-known 'ich magnet': ich appears more often and more severely than in other tangs. Quarantine is a must, and add it only to a stable, mature tank."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -535,9 +643,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -555,12 +663,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive; similar temperament to the powder blue tang but slightly bolder.",
-   "hu": "Félig agresszív; természete a kék doktorhaléhoz hasonló, de kissé merészebb."
+   "hu": "Más halfajokkal általában békés, de más doktorhalakkal szemben territoriális; természete a kék doktorhaléhoz hasonló, de kissé merészebb.",
+   "en": "Usually peaceful towards other fish families but territorial towards other tangs; similar in temperament to the powder blue tang but somewhat bolder."
   },
   "feeding": {
    "en": "Herbivore: nori, spirulina, herbivore pellets.",
-   "hu": "Növényevő: nori, spirulina, növényevő pellet."
+   "hu": "Növényevő: nori, spirulina, növényi pellet."
   },
   "origin": {
    "en": "Western Pacific: Japan, Philippines and northern Indonesia.",
@@ -575,6 +683,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "high",
+    "reason": {
+     "hu": "Közismert „ich-mágnes”: az ich a többi doktorhalnál is gyakrabban és súlyosabban jelentkezik rajta. Karantén kötelező, és csak stabil, érett akváriumba tegyük.",
+     "en": "A well-known 'ich magnet': ich appears more often and more severely than in other tangs. Quarantine is a must, and add it only to a stable, mature tank."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -620,9 +746,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -660,6 +786,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -738,12 +882,22 @@
   },
   "notes": {
    "en": "Excellent algae grazer for medium tanks; one of the best choices for a reef. Usually collected in Hawai'i.",
-   "hu": "Kiváló algaevő közepes akváriumokba; az egyik legjobb választás zátonyos akváriumhoz. Többnyire Hawaiiról származik."
+   "hu": "Kiváló algaevő közepes akváriumokba; az egyik legjobb választás reef tankhoz. Többnyire Hawaiiról származik."
   },
   "diseases": [
    "marine-ich",
    "velvet",
    "flukes"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
   ],
   "sources": [
    {
@@ -756,11 +910,11 @@
    }
   ],
   "image": {
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Acanthuridae_Ctenochaetus_strigosus_1.jpg/1280px-Acanthuridae_Ctenochaetus_strigosus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Butterfly_Pavilion_8-23_%2820915221696%29_%28cropped%29.jpg/500px-Butterfly_Pavilion_8-23_%2820915221696%29_%28cropped%29.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthuridae_Ctenochaetus_strigosus_1.jpg",
-   "author": "NasserHalaweh",
-   "license": "CC BY-SA 4.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly_Pavilion_8-23_(20915221696)_(cropped).jpg",
+   "author": "KimonBerlin",
+   "license": "CC BY-SA 2.0"
   }
  },
  {
@@ -810,7 +964,7 @@
   },
   "behavior": {
    "en": "Peaceful bristletooth tang; suitable for smaller reef tanks. May be bullied by larger tangs.",
-   "hu": "Békés kefésfogú doktorhal; kisebb zátonyos akváriumokba is való. Nagyobb doktorhalak zaklathatják."
+   "hu": "Békés kefésfogú doktorhal; kisebb reef tankokba is való. Nagyobb doktorhalak zaklathatják."
   },
   "feeding": {
    "en": "Grazes algae and detritus; supplement with nori, spirulina and pellets.",
@@ -822,12 +976,22 @@
   },
   "notes": {
    "en": "One of the smallest tangs; a great herbivore for 250-450 L reef tanks.",
-   "hu": "Az egyik legkisebb doktorhal; kiváló növényevő 250–450 literes zátonyos akváriumokba."
+   "hu": "Az egyik legkisebb doktorhal; kiváló növényevő 250–450 literes reef tankokba."
   },
   "diseases": [
    "marine-ich",
    "velvet",
    "flukes"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
   ],
   "sources": [
    {
@@ -873,9 +1037,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -893,8 +1057,8 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Peaceful towards other fish but needs constant swimming room; males develop long 'streamer' tails.",
-   "hu": "Más halakkal békés, de folyamatos úszóhelyet igényel; a hímeknél hosszú 'szalag' farok alakul ki."
+   "hu": "Más halakkal békés, de sok szabad úszóteret igényel; a hímeknél hosszú „szalag” farok alakul ki.",
+   "en": "Peaceful with other fish but needs plenty of open swimming space; males develop long 'streamer' tail filaments."
   },
   "feeding": {
    "en": "Herbivore: substantial amounts of nori, spirulina, pellets; also zooplankton in the wild.",
@@ -913,6 +1077,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -958,9 +1140,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -990,13 +1172,23 @@
    "hu": "Indo-Csendes-óceán: Kelet-Afrikától Hawaiig, északon Dél-Japánig."
   },
   "notes": {
-   "en": "Only suitable for very large home aquariums or institutions. Rarely appropriate for the hobby trade.",
-   "hu": "Csak nagyon nagy lakásakváriumokba vagy közintézményekbe való; a hobbi-kereskedelembe ritkán megfelelő."
+   "en": "Only for very large aquariums of several thousand litres or public aquariums; it cannot be kept properly in an average home aquarium.",
+   "hu": "Csak nagyon nagy, több ezer literes akváriumba vagy közakváriumba való; átlagos otthoni akváriumban nem tartható megfelelően."
   },
   "diseases": [
    "marine-ich",
    "velvet",
    "flukes"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
   ],
   "sources": [
    {
@@ -1042,9 +1234,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -1082,6 +1274,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "high",
+    "reason": {
+     "hu": "Közismert „ich-mágnes”: az ich a többi doktorhalnál is gyakrabban és súlyosabban jelentkezik rajta. Karantén kötelező, és csak stabil, érett akváriumba tegyük.",
+     "en": "A well-known 'ich magnet': ich appears more often and more severely than in other tangs. Quarantine is a must, and add it only to a stable, mature tank."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -1128,7 +1338,7 @@
    "algae-eater",
    "plankton-feeder"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "aggressive",
    "eats": [
@@ -1153,7 +1363,7 @@
   },
   "feeding": {
    "en": "In the wild feeds mainly on plankton picked from the water and algae films; in the aquarium nori, herbivore pellets, frozen mysis and plankton. Feed 2-3 times daily.",
-   "hu": "Természetben planktonnal és algaréteggel táplálkozik; akváriumban nori, növényevő pellet, fagyasztott mysis és plankton. Napi 2-3 alkalommal etetendő."
+   "hu": "Természetben planktonnal és algaréteggel táplálkozik; akváriumban nori, növényi pellet, fagyasztott mysis és plankton. Napi 2-3 alkalommal etetendő."
   },
   "origin": {
    "en": "Indo-Pacific: from East Africa to the Marquesas, north to southern Japan, south to New Caledonia.",
@@ -1169,6 +1379,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -1180,11 +1408,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Acanthurus_lineatus_060417w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Acanthurus_lineatus_Reunion.jpg/500px-Acanthurus_lineatus_Reunion.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_lineatus_060417w.jpg",
-   "author": "User:Strobilomyces",
-   "license": "CC BY-SA 3.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_lineatus_Reunion.jpg",
+   "author": "Zsispeo",
+   "license": "CC BY-SA 2.0"
   }
  },
  {
@@ -1213,9 +1441,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -1233,12 +1461,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive, active swimmer; like the Achilles tang it is territorial towards other surgeonfish. Usually peaceful towards non-tang tankmates.",
-   "hu": "Félig agresszív, aktívan úszkáló; az Achilles-doktorhalhoz hasonlóan más doktorhalakkal szemben territoriális. Nem doktorhal társai felé általában békés."
+   "hu": "Aktívan úszkáló doktorhal; az Achilles-doktorhalhoz hasonlóan más doktorhalakkal szemben territoriális, nem doktorhal társai felé általában békés.",
+   "en": "Active swimmer; like the Achilles tang it is territorial towards other tangs but usually peaceful towards non-tang tankmates."
   },
   "feeding": {
    "en": "Herbivore: nori, herbivore pellets, spirulina; occasional mysis. Constant grazing in the tank helps digestion.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; alkalmanként mysis. A folyamatos legelés segíti az emésztést."
+   "hu": "Növényevő: nori, növényi pellet, spirulina; alkalmanként mysis. A folyamatos legelés segíti az emésztést."
   },
   "origin": {
    "en": "Widespread in the tropical Pacific, including Hawai'i; also recorded from the eastern Indian Ocean.",
@@ -1246,13 +1474,31 @@
   },
   "notes": {
    "en": "Closely related to the Achilles tang, and the two hybridize where their ranges overlap (the hybrid is Acanthurus chronixis). Sensitive to poor water quality and prone to ich.",
-   "hu": "Az Achilles-doktorhal közeli rokona, ott, ahol az elterjedési területük átfedi egymást, hibrideket is alkotnak (ez a Acanthurus chronixis). Érzékeny a rossz vízminőségre, ich-hajlamos."
+   "hu": "Az Achilles-doktorhal közeli rokona, ott, ahol az elterjedési területük átfedi egymást, hibrideket is alkotnak (ez az Acanthurus chronixis). Érzékeny a rossz vízminőségre, ich-hajlamos."
   },
   "diseases": [
    "marine-ich",
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "high",
+    "reason": {
+     "hu": "Közismert „ich-mágnes”: az ich a többi doktorhalnál is gyakrabban és súlyosabban jelentkezik rajta. Karantén kötelező, és csak stabil, érett akváriumba tegyük.",
+     "en": "A well-known 'ich magnet': ich appears more often and more severely than in other tangs. Quarantine is a must, and add it only to a stable, mature tank."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -1265,11 +1511,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Acanthurus_nigricans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Corl0357_%2828010021732%29.jpg/500px-Corl0357_%2828010021732%29.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_nigricans.jpg",
-   "author": "R. Stuart-Smith",
-   "license": "CC BY 3.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Corl0357_(28010021732).jpg",
+   "author": "NOAA Photo Library",
+   "license": "CC BY 2.0"
   }
  },
  {
@@ -1298,9 +1544,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -1318,12 +1564,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Peaceful to semi-aggressive; juveniles mimic dwarf angelfish (Centropyge) in coloration. Usually tolerant of other peaceful fish.",
-   "hu": "Békés vagy félig agresszív; a fiatal példányok a törpe császárhalak (Centropyge) színét utánozzák. Más békés halakkal szemben általában toleráns."
+   "hu": "Más halfajokkal általában békés; a fiatal példányok a törpe császárhalak (Centropyge) színét utánozzák. Más doktorhalakkal szemben territoriális lehet.",
+   "en": "Usually peaceful towards other fish families; juveniles mimic the colours of dwarf angelfish (Centropyge). May be territorial towards other tangs."
   },
   "feeding": {
    "en": "Herbivore leaning omnivore: nori, herbivore pellets, spirulina, frozen foods.",
-   "hu": "Növényevőbe hajló mindenevő: nori, növényevő pellet, spirulina, fagyasztott eleségek."
+   "hu": "Növényevőbe hajló mindenevő: nori, növényi pellet, spirulina, fagyasztott eleségek."
   },
   "origin": {
    "en": "Western and Central Pacific: from the Great Barrier Reef to the Marquesas and Tuamotus.",
@@ -1338,6 +1584,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -1355,6 +1619,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:AcanthurPyrofRLS.jpg",
    "author": "Graham Edgar/Reef Live Survey",
    "license": "CC BY 2.5"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mimic_surgeonfish_juvenile_%28Acanthurus_pyroferus%29_%2837188512731%29.jpg/500px-Mimic_surgeonfish_juvenile_%28Acanthurus_pyroferus%29_%2837188512731%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Mimic_surgeonfish_juvenile_(Acanthurus_pyroferus)_(37188512731).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  },
  {
@@ -1383,9 +1654,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -1403,12 +1674,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive, robust tang; territorial towards other surgeonfish, peaceful with larger non-tang fish.",
-   "hu": "Félig agresszív, robusztus doktorhal; más doktorhalakkal szemben territoriális, nagyobb, nem doktorhal társakkal békés."
+   "hu": "Robusztus doktorhal; más doktorhalakkal szemben territoriális, nagyobb, nem doktorhal társakkal békés.",
+   "en": "Robust tang; territorial towards other tangs, peaceful with larger non-tang tankmates."
   },
   "feeding": {
    "en": "Herbivore: nori daily, herbivore pellets, spirulina; occasional mysis.",
-   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; alkalmanként mysis."
+   "hu": "Növényevő: napi nori, növényi pellet, spirulina; alkalmanként mysis."
   },
   "origin": {
    "en": "Indian Ocean: from East Africa and the Maldives to Java, Indonesia.",
@@ -1423,6 +1694,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -1468,7 +1757,7 @@
   "utility": [
    "plankton-feeder"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
    "max_same": 1,
@@ -1505,6 +1794,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -1550,7 +1857,7 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
    "eats": [
@@ -1570,12 +1877,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Peaceful, schooling herbivore; one of the most tolerant surgeonfish towards tankmates, including other tangs.",
-   "hu": "Békés, rajzó növényevő; a legtoleránsabb doktorhalak egyike a társakkal, más doktorhalakkal szemben is."
+   "hu": "Békés, rajban úszó növényevő; a legtoleránsabb doktorhalak egyike a társakkal, más doktorhalakkal szemben is.",
+   "en": "Peaceful, schooling herbivore; one of the most tolerant tangs towards tankmates, including other tangs."
   },
   "feeding": {
    "en": "Herbivore: nori, herbivore pellets, spirulina; grazes filamentous algae all day.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; napközben a fonalszerű algákat legeli."
+   "hu": "Növényevő: nori, növényi pellet, spirulina; napközben a fonalas algákat legeli."
   },
   "origin": {
    "en": "Indo-Pacific (including the Red Sea) and the eastern Pacific (Mexico to Ecuador).",
@@ -1591,6 +1898,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -1602,91 +1927,12 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Acanthurus_triostegus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Hal_-_Acanthurus_triostegus_-_1.jpg/500px-Hal_-_Acanthurus_triostegus_-_1.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthurus_triostegus.jpg",
-   "author": "",
-   "license": "Public domain"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Hal_-_Acanthurus_triostegus_-_1.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0"
   }
- },
- {
-  "id": "acanthurus-chronixis",
-  "group": "fish",
-  "category": "surgeonfish",
-  "scientific_name": "Acanthurus chronixis",
-  "name_en": "Chronixis Surgeonfish (hybrid)",
-  "name_hu": "Félfekete doktorhal",
-  "size_cm": {
-   "min": 20,
-   "max": 25
-  },
-  "lifespan_wild_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "lifespan_captivity_years": {
-   "min": null,
-   "max": null,
-   "note": "unknown"
-  },
-  "tank_min_l": 500,
-  "tank_ideal_l": 800,
-  "difficulty": "difficult",
-  "utility": [
-   "algae-eater"
-  ],
-  "reef_safety": "with-caution",
-  "compat": {
-   "temperament": "semi-aggressive",
-   "eats": [
-    "macroalgae"
-   ],
-   "max_same": 1,
-   "rivals": [
-    {
-     "key": "acanthurus",
-     "ok_from_l": 1000
-    },
-    {
-     "key": "tang",
-     "ok_from_l": 400
-    }
-   ],
-   "min_age_months": 6
-  },
-  "behavior": {
-   "en": "Semi-aggressive; treat like its parent species (Achilles and whitecheek tangs): territorial towards other surgeonfish.",
-   "hu": "Félig agresszív; a szülőfajaihoz (Achilles- és aranyszegélyes fekete doktorhal) hasonlóan territóriumot tart más doktorhalakkal szemben."
-  },
-  "feeding": {
-   "en": "Herbivore: nori, herbivore pellets, spirulina; occasional mysis.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; alkalmanként mysis."
-  },
-  "origin": {
-   "en": "Central Pacific, where the ranges of A. achilles and A. nigricans overlap (e.g. Marshall Islands area).",
-   "hu": "Középső Csendes-óceán, ahol az A. achilles és az A. nigricans elterjedési területe átfedi egymást (pl. a Marshall-szigetek környéke)."
-  },
-  "notes": {
-   "en": "Widely considered a natural hybrid of Acanthurus achilles × A. nigricans; the name is listed as accepted in WoRMS. Rarely imported; sensitive like its parent species.",
-   "hu": "Általában az Acanthurus achilles × A. nigricans természetes hibridjeként tartják számon; a név a WoRMS-ban elfogadott státuszú. Ritkán kerül forgalomba; a szülőfajaihoz hasonlóan érzékeny."
-  },
-  "diseases": [
-   "marine-ich",
-   "velvet",
-   "flukes",
-   "hlle"
-  ],
-  "sources": [
-   {
-    "name": "WoRMS – World Register of Marine Species",
-    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=272959"
-   },
-   {
-    "name": "FishBase",
-    "url": "https://www.fishbase.se/summary/Acanthurus-chronixis.html"
-   }
-  ]
  },
  {
   "id": "ctenochaetus-striatus",
@@ -1715,7 +1961,7 @@
    "algae-eater",
    "detritus-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
    "eats": [
@@ -1736,11 +1982,11 @@
   },
   "behavior": {
    "en": "Peaceful, hardy bristletooth tang; one of the best detritus and film-algae grazers for reef tanks. Can be kept in small groups in large systems.",
-   "hu": "Békés, ellenálló sörtésfogú doktorhal; az egyik legjobb detritusz- és algaréteg-legelő zátonyos akváriumokba. Nagy rendszerekben kisebb csoportban is tartható."
+   "hu": "Békés, ellenálló sörtésfogú doktorhal; az egyik legjobb detritusz- és algaréteg-legelő reef tankokba. Nagy rendszerekben kisebb csoportban is tartható."
   },
   "feeding": {
    "en": "Grazes algae films and detritus with its comb-like bristle teeth; supplement with nori, herbivore pellets and spirulina.",
-   "hu": "Fésűszerű sörtésfogával algaréteget és detrituszt legel; norival, növényevő pellettel és spirulinával egészítsük ki."
+   "hu": "Fésűszerű sörtésfogával algaréteget és detrituszt legel; norival, növényi pellettel és spirulinával egészítsük ki."
   },
   "origin": {
    "en": "Indo-Pacific: from the Red Sea and East Africa to Polynesia.",
@@ -1755,6 +2001,16 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
   ],
   "sources": [
    {
@@ -1801,7 +2057,7 @@
    "algae-eater",
    "detritus-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
    "eats": [
@@ -1821,12 +2077,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Peaceful, shy bristletooth; prefers rockwork with hiding places and may hide for days after introduction.",
-   "hu": "Békés, visszahúzódó sörtésfogú; kőzetrejtek-szerető, behelyezés után napokig rejtőzhet."
+   "hu": "Békés, visszahúzódó sörtésfogú; szívesen húzódik meg a kövek között, behelyezés után napokig rejtőzhet.",
+   "en": "Peaceful, retiring bristletooth that likes to shelter among the rocks; may hide for days after introduction."
   },
   "feeding": {
    "en": "Detritus and algae grazer; nori, herbivore pellets, spirulina.",
-   "hu": "Detritusz- és algaevő; nori, növényevő pellet, spirulina."
+   "hu": "Detritusz- és algaevő; nori, növényi pellet, spirulina."
   },
   "origin": {
    "en": "Indo-Pacific: East Africa to the Line and Marquesas islands.",
@@ -1841,6 +2097,16 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
   ],
   "sources": [
    {
@@ -1887,7 +2153,7 @@
    "plankton-feeder",
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
    "temperament": "peaceful",
    "eats": [
@@ -1912,7 +2178,7 @@
   },
   "feeding": {
    "en": "In the wild mainly zooplankton; in the aquarium frozen plankton substitutes, mysis, plus nori and herbivore pellets.",
-   "hu": "Természetben főleg zooplanktont eszik; akváriumban fagyasztott planktonpótlékok, mysis, valamint nori és növényevő pellet."
+   "hu": "Természetben főleg zooplanktont eszik; akváriumban fagyasztott planktonpótlékok, mysis, valamint nori és növényi pellet."
   },
   "origin": {
    "en": "Indian Ocean: from the Red Sea and East Africa to the Andaman Sea; also recorded from the Coral Triangle.",
@@ -1928,6 +2194,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -1939,11 +2215,11 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/CtenochaetusTruncatus%2C_Banda_Aceh%2C_Indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Indian_Goldring_Bristletooth_-_Ctenochaetus_truncatus.jpg/500px-Indian_Goldring_Bristletooth_-_Ctenochaetus_truncatus.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:CtenochaetusTruncatus,_Banda_Aceh,_Indonesia.jpg",
-   "author": "Graham Edgar / Reef Life Survey",
-   "license": "CC BY 3.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Indian_Goldring_Bristletooth_-_Ctenochaetus_truncatus.jpg",
+   "author": "Francois Libert",
+   "license": "CC BY-SA 2.0"
   }
  },
  {
@@ -1973,9 +2249,9 @@
    "algae-eater",
    "plankton-feeder"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -1993,12 +2269,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive, large open-water swimmer; peaceful towards non-tang tankmates. Needs strong swimming room.",
-   "hu": "Félig agresszív, nagy testű, nyílt vízben úszó; a nem doktorhal társakkal békés. Nagy úszófelületet igényel."
+   "hu": "Nagy testű, nyílt vízben úszó doktorhal; a nem doktorhal társakkal békés, más Naso-fajokkal szemben territoriális. Nagy úszófelületet igényel.",
+   "en": "Large open-water swimmer; peaceful with non-tang tankmates, territorial towards other Naso species. Needs a large swimming area."
   },
   "feeding": {
    "en": "Herbivore-planktivore: nori, herbivore pellets, frozen mysis and plankton substitutes.",
-   "hu": "Növényevő-planktonevő: nori, növényevő pellet, fagyasztott mysis és planktonpótlékok."
+   "hu": "Növényevő-planktonevő: nori, növényi pellet, fagyasztott mysis és planktonpótlékok."
   },
   "origin": {
    "en": "Indian Ocean: from the Red Sea and East Africa to Bali, Indonesia.",
@@ -2014,6 +2290,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -2025,10 +2319,10 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Elegant_Unicornfish%2C_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Pez_unicornio_elegante_%28Naso_elegans%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_42.jpg/500px-Pez_unicornio_elegante_%28Naso_elegans%29%2C_mar_Rojo%2C_Egipto%2C_2023-04-18%2C_DD_42.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Elegant_Unicornfish,_2_mile_reef_imported_from_iNaturalist_photo_15669956.jpg",
-   "author": "(c) Georgina Jones, some rights reserved (CC BY-SA)",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pez_unicornio_elegante_(Naso_elegans),_mar_Rojo,_Egipto,_2023-04-18,_DD_42.jpg",
+   "author": "Diego Delso",
    "license": "CC BY-SA 4.0"
   }
  },
@@ -2058,9 +2352,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -2078,12 +2372,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive sailfin tang; large adult size with dramatic dorsal and anal fins. Territorial towards other tangs.",
-   "hu": "Félig agresszív vitorlaúszójú doktorhal; nagy testű, látványos hát- és farok alatti úszókkal. Más doktorhalakkal szemben territoriális."
+   "hu": "Nagy testű vitorlaúszójú doktorhal látványos hát- és farok alatti úszókkal; más halfajokkal általában békés, más doktorhalakkal szemben territoriális.",
+   "en": "Large sailfin tang with spectacular dorsal and anal fins; usually peaceful towards other fish families, territorial towards other tangs."
   },
   "feeding": {
    "en": "Herbivore: nori daily, herbivore pellets, spirulina; grazes algae films constantly.",
-   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; folyamatosan algaréteget legel."
+   "hu": "Növényevő: napi nori, növényi pellet, spirulina; folyamatosan algaréteget legel."
   },
   "origin": {
    "en": "Indian Ocean: Red Sea, East Africa, Madagascar, Maldives, to Java.",
@@ -2098,6 +2392,24 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -2143,9 +2455,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -2163,12 +2475,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive but generally well-mannered tang; usually the dominant fish in the aquarium.",
-   "hu": "Félig agresszív, de általában jól nevelhető doktorhal; gyakran az akvárium domináns hala."
+   "hu": "Általában jól nevelhető doktorhal; más halfajokkal békés, de gyakran az akvárium domináns hala, és más doktorhalakkal szemben territoriális.",
+   "en": "Generally well-mannered tang; peaceful towards other fish families, but often the dominant fish and territorial towards other tangs."
   },
   "feeding": {
    "en": "Herbivore: nori, herbivore pellets, spirulina; accepts most frozen foods.",
-   "hu": "Növényevő: nori, növényevő pellet, spirulina; a legtöbb fagyasztott eleséget elfogadja."
+   "hu": "Növényevő: nori, növényi pellet, spirulina; a legtöbb fagyasztott eleséget elfogadja."
   },
   "origin": {
    "en": "Western Indian Ocean: Mauritius, Madagascar and Réunion.",
@@ -2184,6 +2496,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -2195,10 +2525,10 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cirujano_moteado_%28Zebrasoma_gemmatum%29%2C_Mauricio%2C_2025-09-23%2C_DD_65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Zebrasoma_gemmatum_61309675.jpg/500px-Zebrasoma_gemmatum_61309675.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Cirujano_moteado_(Zebrasoma_gemmatum),_Mauricio,_2025-09-23,_DD_65.jpg",
-   "author": "Diego Delso",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Zebrasoma_gemmatum_61309675.jpg",
+   "author": "Georgina Jones",
    "license": "CC BY-SA 4.0"
   }
  },
@@ -2228,9 +2558,9 @@
   "utility": [
    "algae-eater"
   ],
-  "reef_safety": "with-caution",
+  "reef_safety": "reef-safe",
   "compat": {
-   "temperament": "semi-aggressive",
+   "temperament": "peaceful",
    "eats": [
     "macroalgae"
    ],
@@ -2248,12 +2578,12 @@
    "min_age_months": 6
   },
   "behavior": {
-   "en": "Semi-aggressive sailfin tang with spectacular fins; territorial towards other Zebrasoma tangs.",
-   "hu": "Félig agresszív vitorlaúszójú doktorhal látványos úszókkal; más Zebrasoma doktorhalakkal szemben territoriális."
+   "hu": "Vitorlaúszójú doktorhal látványos úszókkal; más halfajokkal általában békés, más Zebrasoma-doktorhalakkal szemben territoriális.",
+   "en": "Sailfin tang with spectacular fins; usually peaceful towards other fish families, territorial towards other Zebrasoma tangs."
   },
   "feeding": {
    "en": "Herbivore: nori daily, herbivore pellets, spirulina; constant algae grazing.",
-   "hu": "Növényevő: napi nori, növényevő pellet, spirulina; folyamatos algalegelés."
+   "hu": "Növényevő: napi nori, növényi pellet, spirulina; folyamatos algalegelés."
   },
   "origin": {
    "en": "Pacific Ocean: from Indonesia and the Philippines to Hawai'i, north to Japan, south to Australia.",
@@ -2269,6 +2599,24 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "marine-ich",
+    "level": "elevated",
+    "reason": {
+     "hu": "A doktorhalak vékonyabb nyálkarétege miatt az ich valamivel könnyebben megtámadja őket, mint a legtöbb halat; karantén és stresszmentes beszoktatás mellett ez jól kezelhető.",
+     "en": "Tangs have a thinner slime coat, so ich takes hold somewhat more easily than in most fish; with quarantine and low-stress acclimation this is manageable."
+    }
+   },
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -2280,11 +2628,18 @@
    }
   ],
   "image": {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Acanthuridae_Zebrasoma_veliferum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Sailfin_Tang_%28Zebrasoma_veliferum%29_-_GRB.jpg/500px-Sailfin_Tang_%28Zebrasoma_veliferum%29_-_GRB.jpg",
    "source": "Wikimedia Commons",
-   "source_page": "https://commons.wikimedia.org/wiki/File:Acanthuridae_Zebrasoma_veliferum_1.jpg",
-   "author": "NasserHalaweh",
-   "license": "CC BY-SA 4.0"
+   "source_page": "https://commons.wikimedia.org/wiki/File:Sailfin_Tang_(Zebrasoma_veliferum)_-_GRB.jpg",
+   "author": "George Berninger Jr.",
+   "license": "CC BY-SA 3.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pacific_sailfin_tang_juvenile_%28Zebrasoma_veliferum%29_%2837158678772%29.jpg/500px-Pacific_sailfin_tang_juvenile_%28Zebrasoma_veliferum%29_%2837158678772%29.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pacific_sailfin_tang_juvenile_(Zebrasoma_veliferum)_(37158678772).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0"
   }
  }
 ]

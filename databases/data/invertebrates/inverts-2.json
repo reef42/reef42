@@ -219,7 +219,7 @@
   },
   "notes": {
    "en": "One of the best cleanup urchins for reef tanks; hides during the day, works at night. If it loses its 'clothes' it may be starving.",
-   "hu": "Az egyik legjobb takarító sün zátonyos akváriumokba; nappal rejtőzik, éjjel dolgozik. Ha 'elveszíti a ruháit', éhezhet."
+   "hu": "Az egyik legjobb takarító sün reef tankokba; nappal rejtőzik, éjjel dolgozik. Ha 'elveszíti a ruháit', éhezhet."
   },
   "diseases": [],
   "sources": [
@@ -386,15 +386,15 @@
   },
   "behavior": {
    "en": "Sessile; attaches by byssus threads to rock. Needs strong light to thrive.",
-   "hu": "Szezílkedő; byssusz-szálakkal a kőhöz tapad. Erős fényt igényel a jólléthez."
+   "hu": "Helyhez kötött; bisszuszfonalakkal tapad a kőhöz. Erős fényt igényel a jólléthez."
   },
   "feeding": {
    "en": "Photosynthetic (zooxanthellae); small clams (<5 cm) benefit from phytoplankton until established.",
-   "hu": "Fotoszintetizáló (zooxanthellák); a kis kagylók (<5 cm) fitoplanktont hasznosnak találják, míg berendezkednek."
+   "hu": "Fotoszintetizáló (zooxanthellák); a kis (5 cm alatti) példányoknak a megtelepedésig hasznos a fitoplankton."
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea to Japan and Australia.",
-   "hu": "Indo-Csendes-óceán: Vörős-tengertől Japánig és Ausztráliáig."
+   "hu": "Indo-Csendes-óceán: Vörös-tengertől Japánig és Ausztráliáig."
   },
   "notes": {
    "en": "The most popular giant clam for reefs; stunning blue/gold/green mantle morphs. All Tridacna are CITES-listed - buy aquacultured. Sensitive to poor alkalinity and predators (pyramid snails, wrasses).",
@@ -449,7 +449,7 @@
   },
   "behavior": {
    "en": "Bores into rock ('boring clam'); sits in crevices. Requires the strongest light of all tridacnas.",
-   "hu": "A sziklába fúrkálódik ('fúró kagyló'); repedésekben ül. Minden tridacna közül a legerősebb fényt igényli."
+   "hu": "Befúrja magát a sziklába ('fúró kagyló'); repedésekben ül. Minden tridacna közül a legerősebb fényt igényli."
   },
   "feeding": {
    "en": "Photosynthetic; small specimens benefit from phytoplankton.",
@@ -573,11 +573,11 @@
   },
   "behavior": {
    "en": "Fluted scutes on the shell; attaches weakly by byssus, often placed on sand.",
-   "hu": "Redőzött pikkelyek a héjon; gyengén tapad byssusszal, gyakran homokra helyezik."
+   "hu": "Redőzött pikkelyek a héjon; bisszuszfonalakkal csak gyengén tapad, gyakran homokra helyezik."
   },
   "feeding": {
    "en": "Photosynthetic; tolerates lower light than maxima.",
-   "hu": "Fotoszintetizáló; az maximánál alacsonyabb fényt is tűr."
+   "hu": "Fotoszintetizáló; a maximánál gyengébb fényt is tűr."
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea to Japan and Australia.",
@@ -585,7 +585,7 @@
   },
   "notes": {
    "en": "Blue-spotted mantles are prized; hardier than crocea. CITES-listed - aquacultured preferred.",
-   "hu": "A kék pöttyös köpenyek kedveltek; a croceánál ellenállóbb. CITES-listás – a tenyésztett az elsődleges."
+   "hu": "A kék pöttyös köpenyek kedveltek; a croceánál ellenállóbb. CITES-listás – lehetőleg tenyésztett példányt vegyünk."
   },
   "diseases": [
    "pyramid-snails"
@@ -648,7 +648,12 @@
    "hu": "Az egyik biztonságosabb uborka; stressz hatására mérgező cuvieri szerveket lövellhet ki – távolítsuk el gyorsan és futtassunk szenet."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1544534"
+   }
+  ],
   "image": {
    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Holothuria_thomasi_265082968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "source": "Wikimedia Commons",
@@ -690,7 +695,7 @@
   },
   "feeding": {
    "en": "Detritus and bacteria from ingested sand.",
-   "hu": "A bevitt homokból detritusz és baktériumok."
+   "hu": "A lenyelt homokból a detrituszt és a baktériumokat emészti meg."
   },
   "origin": {
    "en": "Indo-Pacific: East Africa to Japan and Australia.",
@@ -698,7 +703,7 @@
   },
   "notes": {
    "en": "Reef-safe cleaner; keep with a deep sand bed. Avoid fish that nip at cucumbers.",
-   "hu": "Korallbiztos takarító; mély homokágyjal tartsuk. Kerüljük az uborkákat csipkelő halakat."
+   "hu": "Korallbiztos takarító; mély homokággyal tartsuk. Kerüljük az uborkákat csipkelő halakat."
   },
   "diseases": [],
   "sources": [
@@ -721,7 +726,7 @@
   "category": "anemones",
   "scientific_name": "Entacmaea quadricolor",
   "name_en": "Bubble Tip Anemone (BTA)",
-  "name_hu": "Fáklyás anémon (bubble tip)",
+  "name_hu": "Buborékcsápú anemóna",
   "size_cm": {
    "min": 12,
    "max": 25
@@ -752,7 +757,7 @@
   },
   "feeding": {
    "en": "Photosynthetic; weekly meaty feeding (mysis, silverside pieces) speeds growth.",
-   "hu": "Fotoszintetizáló; a heti húsos etetés (mysis, halfajták) gyorsítja a növekedést."
+   "hu": "Fotoszintetizáló; a heti húsos etetés (mysis, halhúsdarabok) gyorsítja a növekedést."
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
@@ -785,7 +790,7 @@
   "category": "anemones",
   "scientific_name": "Heteractis magnifica",
   "name_en": "Magnificent Sea Anemone (Ritteri)",
-  "name_hu": "Nagy anémon (ritteri)",
+  "name_hu": "Magnifica anemóna (ritteri)",
   "size_cm": {
    "min": 20,
    "max": 50
@@ -812,7 +817,7 @@
   },
   "behavior": {
    "en": "Large, high-light anemone that perches on rock summits; hosts many clownfish species.",
-   "hu": "Nagy, erős fényt igénylő anemón, amely a sziklacsúcsokon ül; sok bohóhalfajt fogad."
+   "hu": "Nagy, erős fényt igénylő anemón, amely a sziklacsúcsokon ül; sok bohóchalfajnak ad otthont."
   },
   "feeding": {
    "en": "Photosynthetic; occasional meaty feeding.",
@@ -823,8 +828,8 @@
    "hu": "Indo-Csendes-óceán: Kelet-Afrikától Japánig és Ausztráliáig."
   },
   "notes": {
-   "en": "Demands very strong light and stable conditions; moves more than BTAs. For experienced keepers - a 'dying Ritteri' can nuke a tank.",
-   "hu": "Nagyon erős fényt és stabil körülményeket igényel; a BTA-nál többet vándorol. Tapasztalt tartóknak – egy 'elpusztuló ritteri' tönkreteheti az akváriumot."
+   "en": "Demands very strong light and stable conditions; moves more than BTAs. For experienced keepers - a 'dying Ritteri' can nuke a tank. In WoRMS the valid name is Radianthus magnifica.",
+   "hu": "Nagyon erős fényt és stabil körülményeket igényel; a buborékcsápú anemónánál többet vándorol. Tapasztalt tartóknak – egy 'elpusztuló ritteri' tönkreteheti az akváriumot. A WoRMS szerint az érvényes név Radianthus magnifica."
   },
   "diseases": [],
   "sources": [
@@ -847,7 +852,7 @@
   "category": "anemones",
   "scientific_name": "Macrodactyla doreensis",
   "name_en": "Long Tentacle Anemone (LTA)",
-  "name_hu": "Hosszúcsápú anémon (LTA)",
+  "name_hu": "Hosszúcsápú anemóna",
   "size_cm": {
    "min": 15,
    "max": 30
@@ -885,8 +890,8 @@
    "hu": "Indo-Csendes-óceán: Japántól Ausztráliáig és Fidzsiig."
   },
   "notes": {
-   "en": "Long graceful tentacles; generally stays put if given a deep sandbed next to rockwork.",
-   "hu": "Hosszú, kecses csápok; általában a helyén marad, ha mély homokágyat kap a sziklázat mellett."
+   "en": "Long graceful tentacles; generally stays put if given a deep sandbed next to rockwork. In WoRMS the valid name is Radianthus doreensis.",
+   "hu": "Hosszú, kecses csápok; általában a helyén marad, ha mély homokágyat kap a sziklázat mellett. A WoRMS szerint az érvényes név Radianthus doreensis."
   },
   "diseases": [],
   "sources": [
@@ -909,7 +914,7 @@
   "category": "anemones",
   "scientific_name": "Stichodactyla tapetum",
   "name_en": "Mini Carpet Anemone",
-  "name_hu": "Mini szőnyeganémon",
+  "name_hu": "Mini szőnyeganemóna",
   "size_cm": {
    "min": 5,
    "max": 10
@@ -936,7 +941,7 @@
   },
   "behavior": {
    "en": "Small carpet anemone for nano tanks; sticky tentacles can catch small fish and shrimp.",
-   "hu": "Kis szőnyeganémon nano akváriumokba; ragadós csápjaival kis halakat és garnélákat foghat."
+   "hu": "Kis szőnyeganemóna nano akváriumokba; ragadós csápjaival kis halakat és garnélákat foghat."
   },
   "feeding": {
    "en": "Photosynthetic; takes small meaty foods.",
@@ -971,7 +976,7 @@
   "category": "anemones",
   "scientific_name": "Stichodactyla mertensii",
   "name_en": "Merten's Carpet Anemone",
-  "name_hu": "Mertens-szőnyeganémon",
+  "name_hu": "Mertens-szőnyeganemóna",
   "size_cm": {
    "min": 30,
    "max": 80
@@ -999,11 +1004,11 @@
   },
   "behavior": {
    "en": "The largest carpet anemone; sits on rockwork with strong light. Will eat fish that wander into its tentacles.",
-   "hu": "A legnagyobb szőnyeganémon; erős fényű sziklázaton ül. A csápjai közé tévedő halakat megeszi."
+   "hu": "A legnagyobb szőnyeganemóna; erős fényű sziklázaton ül. A csápjai közé tévedő halakat megeszi."
   },
   "feeding": {
    "en": "Photosynthetic; large meaty feedings (whole silversides).",
-   "hu": "Fotoszintetizáló; nagy húsos etetések (egész kis halak)."
+   "hu": "Fotoszintetizáló; nagy húsos etetések (egész kis halak, pl. ezüstoldalú halak)."
   },
   "origin": {
    "en": "Indo-Pacific: Red Sea and East Africa to Japan and Australia.",
@@ -1034,7 +1039,7 @@
   "category": "anemones",
   "scientific_name": "Cryptodendrum adhaesivum",
   "name_en": "Pizza Anemone",
-  "name_hu": "Pizza anémon",
+  "name_hu": "Pizza anemóna",
   "size_cm": {
    "min": 15,
    "max": 30
@@ -1071,7 +1076,7 @@
   },
   "notes": {
    "en": "Distinctive two-colour tentacles (inner/outer); rarely hosts clownfish in aquaria. Sticky tentacles catch fish.",
-   "hu": "Jellegzetes kétszínű csápok (belső/külső); akváriumban ritkán fogad bohóhalat. Ragadós csápjaival halakat fog."
+   "hu": "Jellegzetes kétszínű csápok (belső/külső); akváriumban ritkán fogad be bohóchalat. Ragadós csápjaival halakat fog."
   },
   "diseases": [],
   "sources": [
@@ -1126,11 +1131,16 @@
    "hu": "Indo-Csendes-óceán (S. spectabilis: Karib-tenger)."
   },
   "notes": {
-   "en": "Beautiful radioles in many colours; can drop its crown and regrow it. Starves without supplemental feeding - not for 'set and forget' tanks.",
-   "hu": "Gyönyörű, sokszínű csőkorongúk; elveszítheti a korongját és újraképesíti. Kiegészítő etetés nélkül éhen hal – nem 'beáll és elfelejt' akváriumba való."
+   "en": "Beautiful radioles in many colours; can drop its crown and regrow it. Starves without supplemental feeding - not for 'set and forget' tanks. WoRMS treats S. indica as a synonym of S. spectabilis.",
+   "hu": "Gyönyörű, sokféle színű csápkoszorú; a koszorúját ledobhatja, de újranöveszti. Kiegészítő etetés nélkül éhen hal – nem 'beállítom és elfelejtem' típusú akváriumba való. A WoRMS a S. indicát a S. spectabilis szinonimájaként kezeli."
   },
   "diseases": [],
-  "sources": [],
+  "sources": [
+   {
+    "name": "WoRMS – World Register of Marine Species",
+    "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=429077"
+   }
+  ],
   "image": {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Gusano_plumero_tropical_%28Sabellastarte_spectabilis%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_191.jpg/1280px-Gusano_plumero_tropical_%28Sabellastarte_spectabilis%29%2C_Anilao%2C_Filipinas%2C_2023-08-22%2C_DD_191.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "source": "Wikimedia Commons",

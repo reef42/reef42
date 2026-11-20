@@ -294,7 +294,7 @@
   },
   "notes": {
    "en": "Attractive and relatively hardy, but will nip stony and soft corals; reef tanks are risky.",
-   "hu": "Vonzó és viszonylag ellenálló, de a kemény és lágy korallokat is csipkedi; zátonyos akváriumban kockázatos."
+   "hu": "Vonzó és viszonylag ellenálló, de a kemény és lágy korallokat is csipkedi; reef tankban kockázatos."
   },
   "diseases": [
    "marine-ich",
@@ -690,7 +690,7 @@
    "en": "Indo-Pacific: East Africa to the Line and Tuamotu islands; north to southern Japan, south to Lord Howe and the Austral islands."
   },
   "notes": {
-   "hu": "A FishBase szerint akváriumban könnyen tartható, a pillangóhalak közül az egyik legstrapabíróbb. Korallpolipokat is eszik, ezért zátonyakváriumba nem való. Közeli rokona a Chaetodon decussatus.",
+   "hu": "A FishBase szerint akváriumban könnyen tartható, a pillangóhalak közül az egyik legstrapabíróbb. Korallpolipokat is eszik, ezért reef tankba nem való. Közeli rokona a Chaetodon decussatus.",
    "en": "According to FishBase it is easily maintained in aquaria and is one of the hardiest butterflyfish. It also eats coral polyps, so it is not suitable for reef tanks. Closely related to Chaetodon decussatus."
   },
   "diseases": [
@@ -925,7 +925,7 @@
    "en": "Pacific Ocean: Christmas Island in the eastern Indian Ocean to Indonesia and the Hawaiian, Line and Pitcairn islands; north to southern Japan, south to Rowley Shoals and New Caledonia. Replaced by Hemitaurichthys zoster in the Indian Ocean."
   },
   "notes": {
-   "hu": "Fehér test sárga háromszög alakú hátsó résszel és barna fejjel. Planktonevő, ezért a pillangóhalak közül az egyik legjobb választás zátonyakváriumba; nagy úszóteret és erős áramlást igényel.",
+   "hu": "Fehér test sárga háromszög alakú hátsó résszel és barna fejjel. Planktonevő, ezért a pillangóhalak közül az egyik legjobb választás reef tankba; nagy úszóteret és erős áramlást igényel.",
    "en": "White body with a yellow triangular rear and a brown head. As a planktivore it is one of the best butterflyfish for reef tanks; needs plenty of swimming space and strong flow."
   },
   "diseases": [
@@ -1087,7 +1087,7 @@
    "en": "Indo-Pacific: western India to the Pitcairn Islands; north to southern Japan, south to Rowley Shoals, southern Queensland and New Caledonia; throughout Micronesia."
   },
   "notes": {
-   "hu": "Három széles sötét sáv a fehér testen, rövidebb „zászlóval”. Korallpolipokat eszik, ezért zátonyakváriumba nem való.",
+   "hu": "Három széles sötét sáv a fehér testen, rövidebb „zászlóval”. Korallpolipokat eszik, ezért reef tankba nem való.",
    "en": "Three broad dark bands on a white body with a shorter 'pennant'. It eats coral polyps, so it is not suitable for reef tanks."
   },
   "diseases": [
@@ -1162,7 +1162,7 @@
    "en": "Indo-Pacific: Red Sea to South Africa, Réunion, Mauritius, Seychelles and Maldives; elsewhere to Indonesia, Japan, Australia and Hawai'i; absent from much of Oceania. In Indonesia adults are most common at 40–50 m."
   },
   "notes": {
-   "hu": "A Heniochus acuminatushoz nagyon hasonló, de planktonevő, ezért a zászlóshalak közül ez a legjobb választás zátonyakváriumba; egyes példányok azért csipkedhetik a korallokat. Az etikus alternatívája a Mór bálványnak (Zanclus cornutus).",
+   "hu": "A Heniochus acuminatushoz nagyon hasonló, de planktonevő, ezért a zászlóshalak közül ez a legjobb választás reef tankba; egyes példányok azért csipkedhetik a korallokat. Az etikus alternatívája a Mór bálványnak (Zanclus cornutus).",
    "en": "Very similar to Heniochus acuminatus but a planktivore, making it the best bannerfish for reef tanks, though some individuals may still nip corals. The ethical alternative to the Moorish idol (Zanclus cornutus)."
   },
   "diseases": [

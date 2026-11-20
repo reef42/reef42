@@ -359,9 +359,9 @@
     },
     {
       "id": "reef-tank",
-      "hu": { "name": "Zátonyakvárium (reef akvárium)", "def": "Korallokat is tartó tengeri akvárium, ahol a halak mellett a korallok és gerinctelenek igényei (fény, áramlás, stabil vízparaméterek) határozzák meg a technikát és a fajválasztást." },
+      "hu": { "name": "Zátonyakvárium (reef tank)", "def": "Korallokat is tartó tengeri akvárium, ahol a halak mellett a korallok és gerinctelenek igényei (fény, áramlás, stabil vízparaméterek) határozzák meg a technikát és a fajválasztást." },
       "en": { "name": "Reef tank", "def": "A marine aquarium that keeps corals, where the needs of corals and invertebrates (light, flow, stable water parameters) shape the equipment and the choice of fish." },
-      "match": { "hu": ["zátonyakvárium\\p{L}*", "reef akvárium\\p{L}*", "reefakvárium\\p{L}*", "korallos akvárium\\p{L}*"], "en": ["reef tanks?", "reef aquariums?"] },
+      "match": { "hu": ["zátonyakvárium\\p{L}*", "reef akvárium\\p{L}*", "reefakvárium\\p{L}*", "korallos akvárium\\p{L}*", "reef[ -]?tank\\p{L}*"], "en": ["reef tanks?", "reef aquariums?"] },
       "see": ["reef-safe", "fowlr", "nano-tank"]
     },
     {

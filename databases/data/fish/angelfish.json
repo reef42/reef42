@@ -68,6 +68,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -84,6 +94,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:20180825_Vlinders_aan_de_Vliet_-_Pomacanthus_imperator.jpg",
    "author": "Rudolphous",
    "license": "CC BY-SA 4.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Pomacanthus_imperator_%28Emperor_angelfish%29_juvenile.jpg/500px-Pomacanthus_imperator_%28Emperor_angelfish%29_juvenile.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacanthus_imperator_(Emperor_angelfish)_juvenile.jpg",
+   "author": "Nick Hobgood",
+   "license": "CC BY-SA 3.0"
   }
  },
  {
@@ -155,6 +172,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -171,6 +198,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Pomacanthus_semicirculatus,_Timor_Este.jpg",
    "author": "Kevin Lino NOAA/NMFS/PIFSC/ESD",
    "license": "Public domain"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Pomacanthus_semicirculatus_juvenile_Kasai_aquarium.jpg/500px-Pomacanthus_semicirculatus_juvenile_Kasai_aquarium.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pomacanthus_semicirculatus_juvenile_Kasai_aquarium.jpg",
+   "author": "Totti",
+   "license": "CC BY-SA 4.0"
   }
  },
  {
@@ -242,6 +276,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -258,6 +302,13 @@
    "source_page": "https://commons.wikimedia.org/wiki/File:Grand_Aquarium_Saint-Malo_-_Pomacanthus_maculosus_01.jpg",
    "author": "Tylwyth Eldar",
    "license": "CC BY-SA 4.0"
+  },
+  "image_juvenile": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Juvenilemaculosus.jpg/500px-Juvenilemaculosus.jpg",
+   "source": "Wikimedia Commons",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Juvenilemaculosus.jpg",
+   "author": "Exaybachay",
+   "license": "CC BY 3.0"
   }
  },
  {
@@ -414,6 +465,16 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {
@@ -819,7 +880,7 @@
   },
   "notes": {
    "en": "One of the smallest angelfish (5-8 cm); suitable for 100 L+ reef tanks with caution.",
-   "hu": "Az egyik legkisebb császárhal (5–8 cm); 100 liter feletti zátonyos akváriumokba óvatosan megfelelő."
+   "hu": "Az egyik legkisebb császárhal (5–8 cm); 100 liter feletti reef tankokba óvatosan megfelelő."
   },
   "diseases": [
    "marine-ich",
@@ -977,7 +1038,7 @@
    "en": "Western Indian Ocean: Somalia to East London, South Africa, and around the oceanic islands; common off East Africa."
   },
   "notes": {
-   "hu": "Narancssárga hát és fej, sötétkék test, áttetsző farok. Főleg Kenyából exportálják. Kis mérete miatt kisebb zátonyakváriumba is jó, de mint minden törpe császárhal, csipkedheti a korallokat.",
+   "hu": "Narancssárga hát és fej, sötétkék test, áttetsző farok. Főleg Kenyából exportálják. Kis mérete miatt kisebb reef tankba is jó, de mint minden törpe császárhal, csipkedheti a korallokat.",
    "en": "Orange back and head, dark blue body and clear tail. Mainly exported from Kenya. Its small size suits smaller reef tanks, but like all pygmy angels it may nip corals."
   },
   "diseases": [
@@ -1621,7 +1682,7 @@
    "en": "Indo-West Pacific: Indo-Malayan region east to Vanuatu; north to southern Japan, south to the Great Barrier Reef."
   },
   "notes": {
-   "hu": "Az Acropora „feketesávos törpe császárhal” néven árulja, de nem törpe (Centropyge) faj, és 25 cm-re is megnő, ezért a „törpe” szó itt elmarad. A Genicanthus nemzetség nem csipkedi a korallokat, így zátonyakváriumba is jó választás.",
+   "hu": "Az Acropora „feketesávos törpe császárhal” néven árulja, de nem törpe (Centropyge) faj, és 25 cm-re is megnő, ezért a „törpe” szó itt elmarad. A Genicanthus nemzetség nem csipkedi a korallokat, így reef tankba is jó választás.",
    "en": "Sold by Acropora as a 'black-striped pygmy angelfish', but it is not a pygmy (Centropyge) species and reaches 25 cm, so 'pygmy' is dropped here. Genicanthus do not nip corals, making it a good reef choice."
   },
   "diseases": [
@@ -1718,6 +1779,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -1807,6 +1878,16 @@
    "flukes",
    "hlle"
   ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
+  ],
   "sources": [
    {
     "name": "WoRMS – World Register of Marine Species",
@@ -1891,6 +1972,16 @@
    "velvet",
    "flukes",
    "hlle"
+  ],
+  "disease_risk": [
+   {
+    "id": "hlle",
+    "level": "elevated",
+    "reason": {
+     "hu": "Szegényes, főleg növényi rost- és vitaminhiányos étrend vagy tartósan rossz vízminőség mellett hajlamosabb a HLLE-re; változatos, algában gazdag etetéssel megelőzhető.",
+     "en": "More prone to HLLE on a poor diet (lacking plant matter and vitamins) or in persistently poor water quality; preventable with a varied, algae-rich diet."
+    }
+   }
   ],
   "sources": [
    {

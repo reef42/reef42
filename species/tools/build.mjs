@@ -17,7 +17,7 @@ const FD_ALIAS = { velvet: 'marine-velvet' };
 // Categories with this id prefix are grouped under one main category; their names lose the "LPS – " part.
 const PARENTS = { coral: { lps: { prefix: 'lps-', en: 'LPS (Large Polyp Stony)', hu: 'LPS (nagy polipú kemény korallok)' } } };
 
-const COMMON = ['id', 'group', 'category', 'scientific_name', 'name_en', 'name_hu', 'difficulty', 'notes', 'diseases', 'sources', 'image', 'feeding', 'origin'];
+const COMMON = ['id', 'group', 'category', 'scientific_name', 'name_en', 'name_hu', 'difficulty', 'notes', 'diseases', 'disease_risk', 'sources', 'image', 'image_juvenile', 'feeding', 'origin'];
 const KEYS = {
   fish: [...COMMON, 'size_cm', 'lifespan_wild_years', 'lifespan_captivity_years', 'tank_min_l', 'tank_ideal_l', 'utility', 'reef_safety', 'compat', 'behavior'],
   coral: [...COMMON, 'type', 'light', 'flow', 'growth', 'placement', 'aggression', 'compat'],
@@ -69,9 +69,8 @@ function licenseUrl(l) {
 }
 // Wikimedia serves the same file in standard widths; tiles load 500 px, the card 960/1280 px.
 // The page falls back to the original url if a width is not served.
-function photo(e) {
-  const img = e.image;
-  if (!img || !img.url || !img.source_page || !img.license) { warn(e.id, 'no usable photo (url, source_page and license are needed)'); return null; }
+function photo(e, img = e.image, what = 'photo') {
+  if (!img || !img.url || !img.source_page || !img.license) { warn(e.id, 'no usable ' + what + ' (url, source_page and license are needed)'); return null; }
   let u;
   try { u = new URL(img.url); } catch (x) { err(e.id, 'bad image url'); return null; }
   u.search = '';
@@ -151,11 +150,23 @@ entries.forEach((e) => {
   (e.diseases || []).forEach((d) => { if (!diseaseIds.has(d)) err(e.id, 'disease "' + d + '" does not exist'); });
   (e.sources || []).forEach((s) => { if (!s || !s.url || !s.name) warn(e.id, 'source without name or url'); });
   checkCompat(e, ids);
+  // disease_risk: only the diseases this species is more prone to than similar fish, with a level and a reason.
+  if (e.disease_risk != null) {
+    if (!Array.isArray(e.disease_risk)) err(e.id, 'disease_risk is not a list');
+    else e.disease_risk.forEach((r) => {
+      if (!r || !diseaseIds.has(r.id)) err(e.id, 'disease_risk: disease "' + (r && r.id) + '" does not exist');
+      else if (!(e.diseases || []).includes(r.id)) warn(e.id, 'disease_risk "' + r.id + '" is not in its diseases list');
+      if (r && !(tax.enums.disease_risk || {})[r.level]) err(e.id, 'disease_risk "' + (r && r.id) + '": level "' + (r && r.level) + '" is not in taxonomy.json');
+      if (r && !isText(r.reason)) warn(e.id, 'disease_risk "' + r.id + '": reason missing or not bilingual');
+    });
+  }
 
   const out = {};
-  KEYS[g].forEach((k) => { if (e[k] != null && k !== 'image') out[k] = e[k]; });
+  KEYS[g].forEach((k) => { if (e[k] != null && k !== 'image' && k !== 'image_juvenile') out[k] = e[k]; });
   const p = photo(e);
   if (p) out.image = p;
+  const pj = e.image_juvenile ? photo(e, e.image_juvenile, 'juvenile photo') : null;
+  if (pj) out.image_juvenile = pj;
   species.push(out);
 });
 
