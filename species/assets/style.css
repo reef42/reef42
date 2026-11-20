@@ -231,3 +231,32 @@ main:focus-visible { outline: none; }
 .reasons .r-caution::before { content: "!"; color: var(--warn); left: 5px; }
 .reasons .r-good::before { content: "✓"; color: var(--ok); }
 .reasons .r-info::before { content: "i"; color: var(--muted); left: 5px; font-style: italic; }
+/* Toolbar in the sticky header: back, search, hide not recommended */
+.toolbar { border-top: 1px solid var(--border); }
+.toolbar .inner { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; max-width: 1100px; margin: 0 auto; padding: 8px 16px; }
+.toolbar .back { margin: 0; white-space: nowrap; }
+.toolbar .search { flex: 1 1 200px; max-width: 360px; }
+.toolbar .chip { white-space: nowrap; }
+@media (max-width: 480px) { .toolbar .search { flex-basis: 100%; max-width: none; order: 3; } }
+.tile.off { opacity: .45; filter: grayscale(1); }
+.tile.off:hover { opacity: .7; }
+.minelink { margin-top: 20px; }
+.fitbox h3 { margin: 10px 0 4px; font-size: .9rem; color: var(--muted); }
+.fitbtns { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 0; }
+.btn-s.sec { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.dots { display: inline-flex; gap: 3px; align-items: center; vertical-align: middle; padding: 2px 0; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; display: block; }
+.dots.d1 i { background: var(--ok); }
+.dots.d2 i { background: var(--warn); }
+.dots.d3 i { background: var(--danger); }
+.chip .dots { padding: 0; }
+.dlabel { font-weight: 600; margin-left: 4px; }
+.tag.risk-elevated { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.tag.risk-high { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+.riskwhy { margin: 2px 0 0; font-size: .85rem; color: var(--muted); }
+.photos { position: relative; }
+.photos .photo[hidden] { display: none; }
+.phototoggle { position: absolute; top: 12px; right: 12px; display: flex; background: rgba(0, 0, 0, .55); border-radius: 999px; padding: 3px; }
+.phototoggle button { border: 0; background: transparent; color: #fff; font-weight: 600; font-size: .85rem; padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.phototoggle button[aria-pressed="true"] { background: #fff; color: #13262b; }
+@media (max-width: 480px) { .phototoggle { top: 8px; right: 8px; } }

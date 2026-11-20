@@ -32,8 +32,17 @@ Fit estimate: each fish, coral and invertebrate has a `compat` field (temperamen
 rival species, how settled the tank must be, partners…). [`shared/compat.js`](shared/compat.js) judges a species against a
 tank (type, volume, start date, livestock) and lists every reason; Tank Log uses it for the livestock, and the species pages for
 the user's Tank Log tanks (a badge on the tiles, the reasons on the card, a "hide not recommended" switch kept in
-`localStorage['reef42-species-hidebad']`, and a "My species" tile and page, `#/mine`, with the tank's livestock). Without a
-tank set up, the species pages show a hint that links to the Tank Log wizard.
+`localStorage['reef42-species-hidebad']` that also updates the "n species" counts on the tiles and greys out empty ones, and a
+"My species" tile and page, `#/mine`, with the tank's livestock). A tank's planned livestock (`plan` in Tank Log) is judged
+too: the card shows the estimate with the current livestock and, when there is a plan, with the planned livestock as well,
+and the tiles get a second badge when the plan changes the verdict. Without a tank set up, the species pages show a hint that
+links to the Tank Log wizard.
+
+The species pages have a toolbar in the sticky header on every page: back, search (the overview and "My species" search all
+species; on a type or species page typing jumps to the category's results) and the "hide not recommended" switch. Care
+level is shown as 1–3 dots (green, orange, red; difficult and expert both three). Diseases a species is more prone to
+(`disease_risk`) come first on the card with their level and reason; species with a juvenile photo (`image_juvenile`) get an
+Adult / Juvenile switch on the photo.
 Reef42's own verdicts live apart from the delivered data in `databases/reef42_verdicts.json` (`"<id>": { "recommendation":
 "not_recommended", "reason": { "hu", "en" } }`); such species get a "Reef42: not recommended" badge and the reason on the card.
 
