@@ -9,11 +9,15 @@
       hu: [
         'Fajadatbázis: 75 helyett 265 halfaj, 14 új halcsaláddal (pl. anthiasok, damsel, hawkfish, sárkányhalak, ráják és cápák, csikóhalak, triggerfish).',
         'Reef game: az első küldetés kész kezdőcsomaggal és bemutatóval indul, az eszközök és az üres tartály fél áron eladhatók, és van 20× és 50× gyorsítás.',
+        'Új eszköz: Szótár. Az oldalakon a szakszavak alá vannak húzva: fölé állva vagy rákoppintva megjelenik a jelentésük, és egy kattintással megnyitható a szótárban.',
+        'Fajok: a kategória- és típuscsempéken minden betöltéskor más fajok fotói jelennek meg.',
         'Új: ez az újdonságok ablak 🙂'
       ],
       en: [
         'Species database: 265 fish species instead of 75, with 14 new fish families (e.g. anthias, damsels, hawkfish, dragonets, rays and sharks, seahorses, triggerfish).',
         'Reef game: the first mission starts with a ready-made starter pack and a tour, equipment and an empty tank can be sold for half price, and time can run 20× and 50× faster.',
+        'New tool: Glossary. Reef keeping terms are underlined across the site: hover or tap one to see what it means, and open it in the glossary with one click.',
+        'Species: the category and type tiles show photos of different species on every visit.',
         'New: this what’s new window 🙂'
       ]
     }

@@ -9,6 +9,7 @@ each tool lives in its own folder.
 | tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks and sharing; data stays in the browser |
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
 | species | [`species/`](species/) | Bilingual species care cards (draft data): overview with fish, coral and invertebrate lists, one card per species |
+| glossary | [`glossary/`](glossary/) | Bilingual reef keeping glossary with search and a letter index; the same terms are underlined with a hover/tap hint on every page (see below) |
 | reef game | [`reef-game/`](reef-game/) | Bilingual virtual reef tank for beginners: set up, cycle, stock and care for a tank, with missions, events and a memorial; saved in the browser with JSON import/export (design in [`reef-game/README.md`](reef-game/README.md)) |
 | links | [`links/`](links/) | Filterable list of Hungarian, European and international shops, communities, manufacturers and tools; edit `links/links.js` to add entries (logos in `links/logos/`) |
 
@@ -32,6 +33,20 @@ The diseases listed on a card link to the Fishy Doctor page of the same id (`fis
 `FD_ALIAS` in the build script); the others are shown by name only. Photos are freely licensed Wikimedia Commons files loaded
 from Wikimedia and shown with author, licence and a link to the file page, as the licences require. Species without a
 Hungarian name show the English name.
+
+### Glossary
+
+The terms live in [`glossary/terms.json`](glossary/terms.json): per term an `id`, `hu` / `en` `name` and `def`, related ids in
+`see`, and `match` patterns: `match.hu` and `match.en` are case-insensitive regular expressions for that language (Hungarian
+patterns spell out the suffixes, e.g. `detritu(?:sz|ss)\\p{L}*`), `match.abbr` are case-sensitive ones for both languages (`KH`,
+`SPS`). A match may not start or end inside a word. Every page loads [`shared/glossary.js`](shared/glossary.js), which
+underlines the first use of each term inside `<main>` (not in links, buttons, headings, form controls, dialogs, `.tag` / `.chip`
+or anything under `data-no-gloss`) and shows the definition on hover, focus or tap with a link to `glossary/#/<id>`. It rescans
+whenever the page re-renders. Check new patterns against the real texts before adding them: a word with several meanings (e.g.
+the Hungarian "ciklus") is better left out than linked to the wrong definition.
+
+On the species overview each category tile shows a mosaic of four random species photos, and each type tile a random photo of
+its species; the picks are made once per page load.
 
 ## Access gate
 
