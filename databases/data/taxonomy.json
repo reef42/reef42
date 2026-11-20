@@ -236,8 +236,8 @@
     "hu": "Könnyű"
    },
    "moderate": {
-    "en": "Moderate",
-    "hu": "Közepes"
+    "en": "Intermediate",
+    "hu": "Haladó"
    },
    "difficult": {
     "en": "Difficult",
@@ -245,7 +245,7 @@
    },
    "expert": {
     "en": "Expert",
-    "hu": "Szakértői"
+    "hu": "Szakértő"
    }
   },
   "reef_safety": {
