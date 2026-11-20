@@ -40,6 +40,13 @@ overlay that asks for a password and links to the Discord server for access. Aft
 it (`localStorage['reef42-gate']`) for every tool. It only hides the pages; the password and all files stay public. To open
 the site, remove the `gate.js` script tag from each `index.html`.
 
+## What's new window
+
+Every page loads [`shared/whatsnew.js`](shared/whatsnew.js), which shows the release notes once per new version, after the
+gate and after any dialog the page opens itself. The newest seen version is kept in `localStorage['reef42-seen-version']`;
+first-time visitors see only the latest entry. For a new release, add an entry to the top of `VERSIONS` in that file (`id` is
+the date, `YYYY-MM-DD`, with `hu` and `en` bullet lists).
+
 ## Running locally
 
 Everything is static HTML/CSS/JS with no build step. Serve the repository root over HTTP:
