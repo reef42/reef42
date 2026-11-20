@@ -11,6 +11,8 @@
         'Reef game: az első küldetés kész kezdőcsomaggal és bemutatóval indul, az eszközök és az üres tartály fél áron eladhatók, és van 20× és 50× gyorsítás.',
         'Új eszköz: Szótár. Az oldalakon a szakszavak alá vannak húzva: fölé állva vagy rákoppintva megjelenik a jelentésük, és egy kattintással megnyitható a szótárban.',
         'Fajok: a kategória- és típuscsempéken minden betöltéskor más fajok fotói jelennek meg.',
+        'Tank Log: új akvárium varázslóval (fajta, méret, indulás), és új Lakók fül: a fajadatbázisból felvett lakókkal és halterheléssel.',
+        'Illik hozzád? A Tank Logba felvett akváriumod alapján minden fajnál megmutatjuk, hogy jó választás-e, és miért (méret, fajta, a tank kora, ki kit eszik, ki kivel nem fér meg).',
         'Új: ez az újdonságok ablak 🙂'
       ],
       en: [
@@ -18,6 +20,8 @@
         'Reef game: the first mission starts with a ready-made starter pack and a tour, equipment and an empty tank can be sold for half price, and time can run 20× and 50× faster.',
         'New tool: Glossary. Reef keeping terms are underlined across the site: hover or tap one to see what it means, and open it in the glossary with one click.',
         'Species: the category and type tiles show photos of different species on every visit.',
+        'Tank Log: set up a new tank with a wizard (type, size, start date), and a new Livestock tab with residents from the species database and the fish load.',
+        'Does it suit you? Based on your Tank Log tank, every species shows whether it is a good choice, and why (size, tank type and age, who eats whom, who does not get along).',
         'New: this what’s new window 🙂'
       ]
     }

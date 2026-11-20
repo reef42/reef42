@@ -201,3 +201,33 @@ main:focus-visible { outline: none; }
   padding: 8px 20px; font-weight: 600; cursor: pointer;
 }
 .review-dialog .btn:hover { filter: brightness(1.08); }
+/* Fit estimate against the user's Tank Log tank */
+.tankbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 12px; font-size: .9rem; color: var(--muted); }
+.tankbar b { color: var(--text); }
+.tankbar select { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; font-weight: 600; }
+.tankhint {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 16px; padding: 10px 12px 10px 14px;
+  background: var(--accent-soft); border-radius: 10px; font-size: .92rem;
+}
+.tankhint span { flex: 1 1 260px; }
+.btn-s {
+  display: inline-block; font-weight: 600; font-size: .9rem; text-decoration: none; white-space: nowrap;
+  background: var(--accent); color: var(--accent-ink); border-radius: 999px; padding: 6px 14px;
+}
+.btn-s:hover { filter: brightness(1.08); }
+.hintx { border: 0; background: transparent; color: var(--muted); font-size: 1.3rem; line-height: 1; cursor: pointer; min-width: 32px; min-height: 32px; }
+.fitbox { margin: 16px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--surface-2); border-left: 4px solid var(--accent); }
+.fitbox.lvl-good { border-left-color: var(--ok); }
+.fitbox.lvl-caution { border-left-color: var(--warn); }
+.fitbox.lvl-bad { border-left-color: var(--danger); }
+.fitbox h2 { margin: 0 0 8px; font-size: 1rem; }
+.fitbox .fitname { color: var(--muted); font-weight: 600; font-size: .9rem; }
+.fitbox p { margin: 0 0 8px; max-width: 75ch; }
+.fitbox .hint { font-size: .8rem; color: var(--muted); }
+.reasons { margin: 0 0 10px; padding: 0; list-style: none; display: grid; gap: 4px; }
+.reasons li { position: relative; padding-left: 22px; line-height: 1.4; }
+.reasons li::before { position: absolute; left: 0; top: 0; font-weight: 700; }
+.reasons .r-bad::before { content: "✕"; color: var(--danger); }
+.reasons .r-caution::before { content: "!"; color: var(--warn); left: 5px; }
+.reasons .r-good::before { content: "✓"; color: var(--ok); }
+.reasons .r-info::before { content: "i"; color: var(--muted); left: 5px; font-style: italic; }

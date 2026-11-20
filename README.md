@@ -6,7 +6,7 @@ each tool lives in its own folder.
 | Tool | Folder | Description |
 | --- | --- | --- |
 | fishy doctor | [`fishy-doctor/`](fishy-doctor/) | Bilingual (English / Hungarian) fish disease identification and treatment guide based on humble.fish |
-| tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks and sharing; data stays in the browser |
+| tank log | [`tank-log/`](tank-log/) | Bilingual water parameter log with test-kit timers, target ranges, charts, multiple tanks set up with a wizard, livestock with a fit estimate, and sharing; data stays in the browser |
 | calculators | [`calculators/`](calculators/) | Bilingual reef calculators: tank volume, salt mix, salinity correction, sand bed, phosphate media, water change and unit converters |
 | species | [`species/`](species/) | Bilingual species care cards (draft data): overview with fish, coral and invertebrate lists, one card per species |
 | glossary | [`glossary/`](glossary/) | Bilingual reef keeping glossary with search and a letter index; the same terms are underlined with a hover/tap hint on every page (see below) |
@@ -23,9 +23,16 @@ each species has its own card (`#/fish/surgeonfish/<id>`). The `lps-*` coral typ
 types. Older links (`#/<id>`, `#/fish/<id>`, old type names) redirect to the current address, or to the category if the
 species is no longer in the data.
 
-The source of the data is [`databases/data/`](databases/data/) (schema in [`databases/README.md`](databases/README.md)).
-After every change run `node species/tools/build.mjs`: it checks the data (required fields, enum values, disease references,
-photos) and writes `databases/reef42_species.json`, the only file the page loads. With errors it writes nothing.
+The source of the data is [`databases/data/`](databases/data/) (field reference in
+[`databases/data/SCHEMA.md`](databases/data/SCHEMA.md)). After every change run `node species/tools/build.mjs`: it checks the
+data (required fields, enum values, disease references, photos, the `compat` field) and writes `databases/reef42_species.json`,
+the only file the page loads. With errors it writes nothing.
+
+Fit estimate: each fish, coral and invertebrate has a `compat` field (temperament, what it eats, how many fit in one tank,
+rival species, how settled the tank must be, partners…). [`shared/compat.js`](shared/compat.js) judges a species against a
+tank (type, volume, start date, livestock) and lists every reason; Tank Log uses it for the livestock, and the species pages for
+the user's Tank Log tanks (a "suits my tank" filter, a badge on the tiles and the reasons on the card). Without a tank set up,
+the species pages show a hint that links to the Tank Log wizard.
 Reef42's own verdicts live apart from the delivered data in `databases/reef42_verdicts.json` (`"<id>": { "recommendation":
 "not_recommended", "reason": { "hu", "en" } }`); such species get a "Reef42: not recommended" badge and the reason on the card.
 

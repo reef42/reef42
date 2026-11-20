@@ -34,7 +34,11 @@
       noticeTitle: 'Under review',
       noticeText: 'The species database is currently being reviewed. Care cards may contain inaccuracies or missing and outdated data, and the content keeps changing as we check it.',
       noticeCheck: 'Always double-check the details from several sources before you buy or decide anything.',
-      noticeMail: 'Spotted a mistake? Write to us:', noticeOk: 'Got it'
+      noticeMail: 'Spotted a mistake? Write to us:', noticeOk: 'Got it',
+      fitTitle: 'Does it suit your tank?', fitFor: 'Estimate for', fitAdd: 'Add to the livestock', fitOnly: 'Suits my tank',
+      fitHint: 'Add your tank in Tank Log, and every species will show whether it suits it.', fitHintGo: 'Set up my tank →', fitHide: 'Hide',
+      fitCta: 'Add your tank (type, size, start date and livestock) in Tank Log to see whether this species suits it.',
+      fitNote: 'Rules-of-thumb estimate; individual animals can differ. Ask on Discord before buying.'
     },
     hu: {
       app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invertebrate: 'Gerinctelenek',
@@ -55,7 +59,11 @@
       noticeTitle: 'Átnézés alatt',
       noticeText: 'A fajadatbázis jelenleg átnézés alatt áll. Az adatlapokon előfordulhatnak pontatlanságok, hiányzó vagy elavult adatok, és a tartalom az ellenőrzés során folyamatosan változik.',
       noticeCheck: 'Vásárlás vagy döntés előtt mindig ellenőrizd az adatokat több forrásból is.',
-      noticeMail: 'Hibát találtál? Írj nekünk:', noticeOk: 'Értem'
+      noticeMail: 'Hibát találtál? Írj nekünk:', noticeOk: 'Értem',
+      fitTitle: 'Illik az akváriumodba?', fitFor: 'Becslés ehhez:', fitAdd: 'Hozzáadás a lakókhoz', fitOnly: 'Nekem való',
+      fitHint: 'Vedd fel az akváriumodat a Tank Logban, és minden fajnál megmutatjuk, illik-e hozzá.', fitHintGo: 'Akváriumom felvétele →', fitHide: 'Elrejtés',
+      fitCta: 'Vedd fel az akváriumodat (fajta, méret, indulás és lakók) a Tank Logban, és megmutatjuk, illik-e hozzá ez a faj.',
+      fitNote: 'Ökölszabályokon alapuló becslés, egyes állatok eltérhetnek. Vásárlás előtt kérdezz rá a Discordon.'
     }
   };
 
@@ -72,7 +80,7 @@
   let species = [];
   let PATH = [];
   const FILTERS = {};
-  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '' }; });
+  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', fit: '' }; });
   let filt = FILTERS.fish;
   const listScroll = {};
 
@@ -148,6 +156,57 @@
     reviewDlg.showModal();
   }
 
+  /* ---------- fit estimate against the user's Tank Log tanks (rules in shared/compat.js) ---------- */
+  const TL_KEY = 'reef42-tanklog-v1';
+  const TANK_KEY = 'reef42-species-tank';
+  const HINT_KEY = 'reef42-species-tankhint';
+  const Fit = window.reef42Compat;
+  // Tanks with a type and a volume, read from Tank Log's storage (same origin).
+  function myTanks() {
+    try {
+      const d = JSON.parse(ls(true, TL_KEY) || 'null');
+      return d && Array.isArray(d.tanks) ? d.tanks.filter((x) => Fit.ready(x)).map((x) => Object.assign({ livestock: [] }, x)) : [];
+    } catch (e) { return []; }
+  }
+  function myTank() {
+    const xs = myTanks();
+    if (!xs.length) return null;
+    let id = ls(true, TANK_KEY);
+    if (!xs.some((x) => x.id === id)) { try { id = JSON.parse(ls(true, TL_KEY)).active; } catch (e) { id = null; } }
+    return xs.find((x) => x.id === id) || xs[0];
+  }
+  const FIT_TAG = { good: 'easy', caution: 'hard', bad: 'bad' };
+  const FIT_ICON = { good: '✓', caution: '!', bad: '✕' };
+  function fitOf(s, tank) { return tank && s.group !== 'disease' ? Fit.evaluate(Fit.index(DB), s, tank, lang) : null; }
+  const fitTag = (r) => (r && FIT_TAG[r.level] ? '<span class="tag fit ' + FIT_TAG[r.level] + '">' + FIT_ICON[r.level] + ' ' + esc(r.label) + '</span>' : '');
+  // Above lists and cards: which tank the estimate is for, or a hint to set one up.
+  function tankBar() {
+    const xs = myTanks();
+    if (xs.length) {
+      const cur = myTank();
+      return '<div class="tankbar" data-no-gloss><span>' + esc(t('fitFor')) + '</span>' + (xs.length > 1
+        ? '<select id="fitTank" aria-label="' + esc(t('fitFor')) + '">' + xs.map((x) => '<option value="' + esc(x.id) + '"' + (x.id === cur.id ? ' selected' : '') + '>' + esc(x.name) + '</option>').join('') + '</select>'
+        : '<b>' + esc(cur.name) + '</b>') + '</div>';
+    }
+    const hidden = Number(ls(true, HINT_KEY)) || 0;
+    if (Date.now() - hidden < 30 * 864e5) return '';
+    return '<div class="tankhint"><span>' + esc(t('fitHint')) + '</span><a class="btn-s" href="../tank-log/#/setup">' + esc(t('fitHintGo')) + '</a>' +
+      '<button type="button" class="hintx" data-hide-hint aria-label="' + esc(t('fitHide')) + '" title="' + esc(t('fitHide')) + '">×</button></div>';
+  }
+  function fitBox(s) {
+    const tank = myTank();
+    if (!tank) {
+      return '<section class="fitbox"><h2>' + esc(t('fitTitle')) + '</h2><p>' + esc(t('fitCta')) + '</p>' +
+        '<a class="btn-s" href="../tank-log/#/setup">' + esc(t('fitHintGo')) + '</a></section>';
+    }
+    const r = fitOf(s, tank);
+    return '<section class="fitbox lvl-' + r.level + '"><h2>' + esc(t('fitTitle')) + ' <span class="fitname" data-no-gloss>' + esc(tank.name) + '</span></h2>' +
+      '<p class="fitlevel">' + (fitTag(r) || '<span class="tag">' + esc(r.label) + '</span>') + '</p>' +
+      (r.reasons.length ? '<ul class="reasons">' + r.reasons.map((x) => '<li class="r-' + x.level + '">' + esc(x.text) + '</li>').join('') + '</ul>' : '') +
+      '<p class="hint">' + esc(t('fitNote')) + '</p>' +
+      '<a class="btn-s" href="../tank-log/#/livestock/add/' + encodeURIComponent(s.id) + '">' + esc(t('fitAdd')) + '</a></section>';
+  }
+
   /* ---------- photos (Wikimedia Commons, shown with author and licence) ---------- */
   function photoImg(s, big, lazy, alt) {
     const p = s.image;
@@ -204,6 +263,9 @@
     if (lab('reef_safety', s.reef_safety)) out.push('<span class="tag ' + (REEF_CLASS[s.reef_safety] || '') + '">' + esc(lab('reef_safety', s.reef_safety)) + '</span>');
     return '<div class="tags">' + out.join('') + '</div>';
   }
+  // The tank the estimates are for, refreshed on every render (Tank Log may change it in another tab).
+  let TANK = null;
+  const matchesFit = (s) => !filt.fit || !TANK || fitOf(s, TANK).level !== 'bad';
   function chipRow(key, values, labelOf) {
     return '<div class="chips" role="group">' + [''].concat(values).map((v) =>
       '<button type="button" class="chip" data-f="' + key + '" data-v="' + esc(v) + '" aria-pressed="' + (filt[key] === v) + '">' +
@@ -213,15 +275,16 @@
   function tile(s, withGroup) {
     const img = photoImg(s, false, true);
     const sub = (lang === 'hu' && s.name_hu && s.name_en ? esc(s.name_en) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span>';
+    const fit = fitTag(fitOf(s, TANK));
     return '<li><a class="tile' + (img ? ' has-photo' : '') + '" href="' + speciesHref(s) + '">' +
       (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + '</h2>' +
-      '<p class="sub">' + sub + '</p>' + tags(s, withGroup) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
+      '<p class="sub">' + sub + '</p>' + (fit ? '<div class="tags">' + fit + '</div>' : '') + tags(s, withGroup) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
   }
 
   // Category page: one tile per type (taxonomy order) with a photo of its first species; searching lists species directly.
   function renderCategory() {
     document.title = t(CAT) + ' – reef42';
-    app.innerHTML = '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' +
+    app.innerHTML = tankBar() + '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' +
       '<div class="filters"><input class="search" id="q" type="search" autocomplete="off" placeholder="' + esc(t('search')) + '" aria-label="' + esc(t('search')) + '" value="' + esc(filt.q) + '"></div>' +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     renderCategoryItems();
@@ -230,7 +293,7 @@
     const count = document.getElementById('count');
     const list = document.getElementById('list');
     if (filt.q.trim()) {
-      const items = species.filter(matchesQuery).sort(bySpecies);
+      const items = species.filter(matchesQuery).filter(matchesFit).sort(bySpecies);
       count.textContent = t('count', { n: items.length });
       list.innerHTML = items.length ? '<ul class="grid">' + items.map((s) => tile(s, true)).join('') + '</ul>' : '<p class="empty">' + esc(t('none')) + '</p>';
       return;
@@ -266,7 +329,7 @@
   // Main type with child types (LPS): its types as tiles.
   function renderGroups() {
     document.title = catName(CAT, PATH) + ' – ' + t(CAT) + ' – reef42';
-    app.innerHTML = upLink(PATH) + '<h1>' + esc(catName(CAT, PATH)) + '</h1><p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
+    app.innerHTML = upLink(PATH) + tankBar() + '<h1>' + esc(catName(CAT, PATH)) + '</h1><p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     groupGrid(PATH, document.getElementById('count'), document.getElementById('list'));
   }
   // Type page: the species of one type, easiest first.
@@ -275,10 +338,11 @@
     document.title = catName(CAT, PATH) + ' – ' + t(CAT) + ' – reef42';
     const cares = CARE_ORDER.filter((c) => xs.some((s) => s.difficulty === c));
     if (filt.care && !cares.includes(filt.care)) filt.care = '';
-    app.innerHTML = upLink(PATH) + '<h1>' + esc(catName(CAT, PATH)) + '</h1>' +
-      (cares.length > 1 ? '<div class="filters">' + chipRow('care', cares, (v) => lab('difficulty', v)) + '</div>' : '') +
+    const fitChip = TANK ? '<button type="button" class="chip" data-f="fit" data-v="' + (filt.fit ? '' : '1') + '" aria-pressed="' + !!filt.fit + '">' + esc(t('fitOnly')) + '</button>' : '';
+    app.innerHTML = upLink(PATH) + tankBar() + '<h1>' + esc(catName(CAT, PATH)) + '</h1>' +
+      (cares.length > 1 || fitChip ? '<div class="filters">' + (cares.length > 1 ? chipRow('care', cares, (v) => lab('difficulty', v)) : '') + fitChip + '</div>' : '') +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
-    const items = xs.filter(matchesCare).sort(bySpecies);
+    const items = xs.filter(matchesCare).filter(matchesFit).sort(bySpecies);
     document.getElementById('count').textContent = t('count', { n: items.length });
     document.getElementById('list').innerHTML = items.length ? '<ul class="grid">' + items.map((s) => tile(s)).join('') + '</ul>' : '<p class="empty">' + esc(t('none')) + '</p>';
     if (keepFocus) { const el = app.querySelector(keepFocus); if (el) el.focus(); }
@@ -330,9 +394,9 @@
       ? textSect(t('placement'), s.placement) + textSect(t('aggression'), s.aggression) + textSect(t('feeding'), s.feeding)
       : textSect(t('behavior'), s.behavior) + textSect(t('feeding'), s.feeding);
     const src = (s.sources || []).filter((x) => x && x.url);
-    app.innerHTML = back +
+    app.innerHTML = back + tankBar() +
       '<article class="card">' + photoFigure(s) + '<div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
-      tags(s, true) + '</div>' + verdictBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
+      tags(s, true) + '</div>' + verdictBox(s) + fitBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
       sections + textSect(t('origin'), s.origin) + textSect(t('notes'), s.notes) + diseaseSect(s) +
       (src.length ? '<section class="sect sources"><h2>' + esc(t('sources')) + '</h2><ul>' + src.map((x) =>
         '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name || x.url) + '</a></li>').join('') + '</ul></section>' : '') +
@@ -352,7 +416,7 @@
   }
   function renderHome() {
     document.title = t('app') + ' – reef42';
-    app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
+    app.innerHTML = tankBar() + '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
       CATS.map(catTile).join('') + '</ul>';
   }
 
@@ -384,6 +448,7 @@
     CAT = r.cat || null;
     if (CAT) { species = all.filter((s) => s.group === CAT); filt = FILTERS[CAT]; }
     PATH = CAT ? r.path : [];
+    TANK = myTank();
     renderChrome();
     const node = CAT && PATH.length ? nodeAt(CAT, PATH) : null;
     if (!CAT) renderHome();
@@ -397,9 +462,18 @@
     const b = e.target.closest('button[data-f]');
     if (!b) return;
     filt[b.dataset.f] = b.dataset.v;
-    renderSub('.chip[data-f="' + b.dataset.f + '"][data-v="' + b.dataset.v + '"]');
+    renderSub(b.dataset.f === 'fit' ? '.chip[data-f="fit"]' : '.chip[data-f="' + b.dataset.f + '"][data-v="' + b.dataset.v + '"]');
   });
   app.addEventListener('input', (e) => { if (e.target.id === 'q') { filt.q = e.target.value; renderCategoryItems(); } });
+  app.addEventListener('change', (e) => { if (e.target.id === 'fitTank') { ls(false, TANK_KEY, e.target.value); render(); } });
+  app.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-hide-hint]')) return;
+    ls(false, HINT_KEY, String(Date.now()));
+    const h = e.target.closest('.tankhint');
+    if (h) h.remove();
+  });
+  // Tank Log open in another tab: pick up tank changes.
+  window.addEventListener('storage', (e) => { if (e.key === TL_KEY && all.length) render(); });
   // Each list page remembers its own scroll position; cards always open at the top.
   window.addEventListener('hashchange', () => {
     render();
