@@ -394,7 +394,11 @@ main { flex: 1; width: 100%; min-width: 0; max-width: 1100px; margin: 0 auto; pa
 .stage[title] { cursor: help; }
 .dchip.fit { font-size: .78rem; font-weight: 700; padding: 1px 8px; }
 .loadcard .lhead { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
-.loadcard h2 { margin: 0; }
+.loadcard h2 { margin: 0 0 6px; }
+.lrow { display: flex; justify-content: space-between; gap: 8px; font-size: .9rem; color: var(--muted); }
+.lv-item.planned { border-style: dashed; }
+.lvplan { margin-top: 22px; }
+.lvplan .hint { margin: -4px 0 8px; }
 .lpct.good { color: var(--ok); } .lpct.warn { color: var(--warn); } .lpct.bad { color: var(--danger); }
 .loadbar { height: 10px; border-radius: 6px; background: var(--surface-2); overflow: hidden; margin: 8px 0 6px; }
 .loadbar span { display: block; height: 100%; border-radius: 6px; }

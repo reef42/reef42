@@ -26,6 +26,9 @@ step, no backend, no external libraries.
   [`shared/compat.js`](../shared/compat.js) and work from the `compat` data of each species
   ([`databases/data/SCHEMA.md`](../databases/data/SCHEMA.md)). `#/setup` opens the wizard and
   `#/livestock/add/<species id>` the picker on one species (both linked from the species pages).
+- **Planned livestock** on the same tab: species planned but not bought yet. They are judged against the livestock and
+  the rest of the plan, the fish load shows "now" and "with the planned ones", and "Moved in" moves an entry to the
+  livestock with today's date. `#/livestock/plan/<species id>` opens the picker in planning mode.
 - **Guide** tab: a card per parameter with what it is, why it matters, ideal and tolerable range, safe rate of
   change, how to raise and lower it, where it comes from and a testing tip, next to your own target and last reading.
   The ⓘ button next to a parameter on the Measure tab opens its card. Content lives in `data/guide.json` (EN/HU).
@@ -57,6 +60,7 @@ step, no backend, no external libraries.
   "v": 1,
   "tanks": [{ "id": "…", "name": "My reef", "volume": 300, "type": "reef-mixed", "start": "2025-06-01", "planned": false,
               "livestock": [{ "id": "…", "sp": "amphiprion-ocellaris", "n": 2, "added": "2025-08-01" }],
+              "plan": [{ "id": "…", "sp": "pseudanthias-squamipinnis", "n": 3 }],
               "params": [{ "id": "…", "key": "kh", "name": "", "unit": "dKH", "min": 7, "max": 9, "timer": 180, "hidden": false }] }],
   "sessions": [{ "id": "…", "tankId": "…", "t": 1762690000000, "v": { "<param id>": 8.2 }, "note": "" }],
   "templates": [{ "id": "…", "name": "My SPS", "p": [{ "key": "kh", "name": "", "unit": "dKH", "min": 7, "max": 8.5 }] }],

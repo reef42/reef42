@@ -1,6 +1,7 @@
 // reef42 fit estimate – "is this species right for your tank?" – shared by Tank Log and the species pages.
 // Works from the species data (tank size, reef safety, difficulty, Reef42 verdict and the compat field, see
-// databases/data/SCHEMA.md) and a tank: { type, volume, start: 'YYYY-MM-DD' | null, planned, livestock: [{ id, sp, n }] }.
+// databases/data/SCHEMA.md) and a tank: { type, volume, start: 'YYYY-MM-DD' | null, planned, livestock: [{ id, sp, n }],
+// plan: [{ id, sp, n }] (livestock planned but not in the tank yet; see withPlan) }.
 // Rules of thumb only; every reason is listed so the user can judge.
 (function () {
   var TYPES = [
@@ -60,7 +61,7 @@
       verdict: 'Reef42: nem ajánlott.',
       expert: 'Haladóknak való faj.',
       noCompat: 'Ehhez a fajhoz még nincs elég adat a társakról.',
-      already: 'Már van belőle a tankodban: {n} db.'
+      already: 'Már van belőle a tankodban: {n} db.', plannedTag: 'tervezett'
     },
     en: {
       good: 'Good choice', caution: 'With conditions', bad: 'Not recommended', unknown: 'No estimate',
@@ -110,7 +111,7 @@
       verdict: 'Reef42: not recommended.',
       expert: 'A species for experienced keepers.',
       noCompat: 'Not enough data about its tankmates yet.',
-      already: 'Already in your tank: {n}.'
+      already: 'Already in your tank: {n}.', plannedTag: 'planned'
     }
   };
 
@@ -260,7 +261,7 @@
     residents.forEach(function (x) {
       var r = byId[x.sp];
       if (r.id === sp.id) return;
-      var name = spName(r, lang);
+      var name = spName(r, lang) + (x.planned ? ' (' + tx(lang, 'plannedTag') + ')' : '');
       var rc = r.compat || {};
       // Natural partners (clownfish and host anemone) are not prey to each other.
       if ((c.partners || []).indexOf(r.id) >= 0 || (rc.partners || []).indexOf(sp.id) >= 0) { addName('good', 'partner', name); return; }
@@ -310,6 +311,12 @@
 
   // A tank is ready for estimates once it has a type and a volume.
   function ready(tank) { return !!(tank && tank.type && tank.volume); }
+  // The tank as if its planned livestock (tank.plan) had already moved in; planned entries are marked in the reasons.
+  function withPlan(tank) {
+    var plan = (tank && tank.plan) || [];
+    if (!plan.length) return null;
+    return Object.assign({}, tank, { livestock: (tank.livestock || []).concat(plan.map(function (x) { return Object.assign({}, x, { planned: true }); })) });
+  }
   function index(db) {
     if (!db.byId) { db.byId = {}; (db.species || []).forEach(function (s) { db.byId[s.id] = s; }); }
     return db;
@@ -317,6 +324,6 @@
 
   window.reef42Compat = {
     TYPES: TYPES, typeOf: typeOf, stage: stage, ageDays: ageDays, load: load, units: units,
-    evaluate: evaluate, ready: ready, index: index, text: tx
+    evaluate: evaluate, ready: ready, withPlan: withPlan, index: index, text: tx
   };
 })();

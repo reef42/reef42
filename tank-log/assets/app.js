@@ -108,7 +108,10 @@
       setupNudge: 'Add the type, size and start date of your tank to see which species suit it.', setupBtn: 'Set up', setupHide: 'Not now',
       lvEmpty: 'No livestock yet.', lvAdd: '+ Add livestock', lvEditTank: 'Edit tank details', lvLoad: 'Fish load',
       lvLoadHelp: 'Rough estimate from the adult size of the fish and the tank volume.', lvAdded: 'added {date}',
-      lvDisclaimer: 'This is only an estimate based on rules of thumb; individual animals may behave differently. It is worth asking on Discord before you buy.',
+      lvDisclaimer: 'Estimate. If you want to know more, let’s talk about it on {discord}.', discordWord: 'Discord',
+      lvPlan: 'Planned livestock', lvPlanAdd: '+ Plan livestock', lvMoveIn: 'Moved in', lvPlanHelp: 'Not in the tank yet: the estimates count them as if they were already in.',
+      lvLoadNow: 'now', lvLoadPlan: 'with the planned ones', pkTitlePlan: 'Plan livestock', pkPlanBtn: 'Add to the plan', pkPlanned: '{name} added to the plan',
+      fitNow: 'With the current livestock', fitPlan: 'With the planned ones too', lvMovedIn: '{name} moved in',
       lvRemove: 'Remove', confirmRemoveLive: 'Remove {name} from {tank}?', lvMore: 'Details', lvCard: 'Care card →',
       lvFish: 'Fish', lvCoral: 'Corals', lvInvert: 'Invertebrates', lvCount: 'Count', lvLess: 'One less', lvPlus: 'One more',
       pkTitle: 'Add livestock', pkSearch: 'Search species…', pkAll: 'All', pkFit: 'Hide not recommended', pkMore: 'Show more',
@@ -180,7 +183,10 @@
       setupNudge: 'Add meg az akváriumod fajtáját, méretét és indulását, és megmutatjuk, mely fajok illenek hozzá.', setupBtn: 'Beállítás', setupHide: 'Most nem',
       lvEmpty: 'Még nincsenek lakók.', lvAdd: '+ Lakó hozzáadása', lvEditTank: 'Adatok szerkesztése', lvLoad: 'Halterhelés',
       lvLoadHelp: 'Durva becslés a halak felnőttkori mérete és a térfogat alapján.', lvAdded: 'hozzáadva: {date}',
-      lvDisclaimer: 'Ez csak tapasztalati szabályokon alapuló becslés, az egyes állatok viselkedése ettől eltérhet. Vásárlás előtt érdemes rákérdezni a Discordon.',
+      lvDisclaimer: 'Becslés. Ha többet szeretnél tudni, beszéljünk róla {discord}.', discordWord: 'Discordon',
+      lvPlan: 'Tervezett lakók', lvPlanAdd: '+ Tervezett lakó', lvMoveIn: 'Beköltözött', lvPlanHelp: 'Még nincsenek a tankban: a becslés úgy számol velük, mintha már bent lennének.',
+      lvLoadNow: 'most', lvLoadPlan: 'a tervezettekkel', pkTitlePlan: 'Tervezett lakó', pkPlanBtn: 'Hozzáadás a tervhez', pkPlanned: 'Tervhez adva: {name}',
+      fitNow: 'A mostani lakókkal', fitPlan: 'A tervezettekkel együtt', lvMovedIn: 'Beköltözött: {name}',
       lvRemove: 'Eltávolítás', confirmRemoveLive: 'Eltávolítod ezt a lakót: {name} ({tank})?', lvMore: 'Részletek', lvCard: 'Adatlap →',
       lvFish: 'Halak', lvCoral: 'Korallok', lvInvert: 'Gerinctelenek', lvCount: 'Darab', lvLess: 'Eggyel kevesebb', lvPlus: 'Eggyel több',
       pkTitle: 'Lakó hozzáadása', pkSearch: 'Faj keresése…', pkAll: 'Mind', pkFit: 'Nem ajánlottak elrejtése', pkMore: 'Továbbiak',
@@ -291,7 +297,7 @@
     });
   }
   function makeTank(name, tplId) {
-    const tank = { id: uid(), name, volume: null, type: null, start: null, livestock: [], params: [], created: Date.now() };
+    const tank = { id: uid(), name, volume: null, type: null, start: null, livestock: [], plan: [], params: [], created: Date.now() };
     const tpl = templateList().find((x) => x.id === tplId) || templateList()[0];
     applyTemplate(tank, tpl);
     return tank;
@@ -304,6 +310,7 @@
         id: String(tk.id), name: String(tk.name || 'Tank'), volume: tk.volume == null ? null : Number(tk.volume) || null, created: tk.created || Date.now(),
         type: reef42Compat.typeOf(tk.type) ? tk.type : null, start: isDay(tk.start) ? tk.start : null, planned: !!tk.planned, setupHidden: !!tk.setupHidden,
         livestock: (tk.livestock || []).filter((x) => x && x.sp).map((x) => ({ id: String(x.id || uid()), sp: String(x.sp), n: Math.max(1, Math.round(Number(x.n) || 1)), added: isDay(x.added) ? x.added : null })),
+        plan: (tk.plan || []).filter((x) => x && x.sp).map((x) => ({ id: String(x.id || uid()), sp: String(x.sp), n: Math.max(1, Math.round(Number(x.n) || 1)) })),
         params: (tk.params || []).filter((p) => p && p.id).map((p) => ({
           id: String(p.id), key: CATALOG[p.key] ? p.key : null, name: p.name ? String(p.name) : '', unit: p.unit == null ? '' : String(p.unit),
           min: numOrNull(p.min), max: numOrNull(p.max), timer: numOrNull(p.timer), hidden: !!p.hidden
@@ -408,7 +415,7 @@
     const parts = h.split('/');
     const v = parts[0];
     if (v === 'setup') return { view: 'setup' };
-    if (v === 'livestock' && parts[1] === 'add' && parts[2]) return { view: 'livestock', add: decodeURIComponent(parts[2]) };
+    if (v === 'livestock' && (parts[1] === 'add' || parts[1] === 'plan') && parts[2]) return { view: 'livestock', add: decodeURIComponent(parts[2]), plan: parts[1] === 'plan' };
     return { view: VIEWS.includes(v) ? v : 'measure', key: parts[1] || null };
   }
   const VIEWS = ['measure', 'livestock', 'charts', 'history', 'guide', 'settings'];
@@ -454,7 +461,7 @@
       renderLivestock();
       if (r.add) {
         history.replaceState(null, '', '#/livestock');
-        if (ready(activeTank())) pickSpecies(activeTank(), r.add); else tankWizard(activeTank(), r.add);
+        if (ready(activeTank())) pickSpecies(activeTank(), r.add, null, r.plan); else tankWizard(activeTank(), r.add, r.plan);
       }
     } else if (r.view === 'shared') renderShared(r.data);
     else if (r.view === 'charts') renderCharts();
@@ -1192,55 +1199,70 @@
       if (b && route().view === 'livestock' && activeTank() === tank) b.innerHTML = livestockHtml(tank, db);
     }).catch(() => { const b = $('#lvBody'); if (b) b.innerHTML = '<p class="empty">' + esc(t('dbErr')) + '</p>'; });
   }
+  // Fish load now, and with the planned livestock when there is any.
   function loadCard(db, tank) {
-    const pct = C.load(db.byId, tank);
-    if (pct == null || !tank.livestock.some((x) => db.byId[x.sp] && db.byId[x.sp].group === 'fish')) return '';
-    const cls = pct > 100 ? 'bad' : pct > 80 ? 'warn' : 'good';
-    return '<section class="card loadcard"><div class="lhead"><h2>' + esc(t('lvLoad')) + '</h2><b class="lpct ' + cls + '">' + pct + '%</b></div>' +
-      '<div class="loadbar" role="img" aria-label="' + esc(t('lvLoad')) + ': ' + pct + '%"><span class="' + cls + '" style="width:' + Math.min(100, pct) + '%"></span></div>' +
+    const hasFish = (xs) => xs.some((x) => db.byId[x.sp] && db.byId[x.sp].group === 'fish');
+    const now = C.load(db.byId, tank);
+    const wp = C.withPlan(tank);
+    const withPlan = wp && hasFish(tank.plan) ? C.load(db.byId, wp) : null;
+    if (now == null || (!hasFish(tank.livestock) && withPlan == null)) return '';
+    const cls = (p) => (p > 100 ? 'bad' : p > 80 ? 'warn' : 'good');
+    const row = (label, p) => '<div class="lrow"><span>' + esc(label) + '</span><b class="lpct ' + cls(p) + '">' + p + '%</b></div>' +
+      '<div class="loadbar" role="img" aria-label="' + esc(t('lvLoad') + ', ' + label) + ': ' + p + '%"><span class="' + cls(p) + '" style="width:' + Math.min(100, p) + '%"></span></div>';
+    return '<section class="card loadcard"><h2>' + esc(t('lvLoad')) + '</h2>' + row(t('lvLoadNow'), now) + (withPlan != null ? row(t('lvLoadPlan'), withPlan) : '') +
       '<p class="hint">' + esc(t('lvLoadHelp')) + '</p></section>';
   }
+  const disclaimer = () => '<p class="hint disclaimer">' + esc(t('lvDisclaimer')).replace('{discord}',
+    '<a href="https://discord.gg/k3KC28gCH4" target="_blank" rel="noopener">' + esc(t('discordWord')) + '</a>') + '</p>';
   function livestockHtml(tank, db) {
     const live = tank.livestock.filter((x) => db.byId[x.sp]);
+    const plan = tank.plan.filter((x) => db.byId[x.sp]);
     let h = loadCard(db, tank);
     if (!live.length) h += '<p class="empty">' + esc(t('lvEmpty')) + '</p>';
     [['fish', 'lvFish'], ['coral', 'lvCoral'], ['invertebrate', 'lvInvert']].forEach(([g, k]) => {
       const xs = live.filter((x) => db.byId[x.sp].group === g);
       if (xs.length) h += '<h2 class="lvgroup">' + esc(t(k)) + '</h2><ul class="lv-list">' + xs.map((x) => liveItem(tank, db, x)).join('') + '</ul>';
     });
-    return h + '<div class="btns"><button class="btn primary" type="button" data-act="lvAdd">' + esc(t('lvAdd')) + '</button></div>' +
-      '<p class="hint disclaimer">' + esc(t('lvDisclaimer')) + '</p>';
+    h += '<div class="btns"><button class="btn primary" type="button" data-act="lvAdd">' + esc(t('lvAdd')) + '</button></div>';
+    h += '<section class="lvplan"><h2 class="lvgroup">' + esc(t('lvPlan')) + '</h2><p class="hint">' + esc(t('lvPlanHelp')) + '</p>' +
+      (plan.length ? '<ul class="lv-list">' + plan.map((x) => liveItem(tank, db, x, true)).join('') + '</ul>' : '') +
+      '<div class="btns"><button class="btn" type="button" data-act="lvPlanAdd">' + esc(t('lvPlanAdd')) + '</button></div></section>';
+    return h + disclaimer();
   }
-  function liveItem(tank, db, x) {
+  // A resident is judged against the rest of the livestock; a planned one against the livestock and the rest of the plan.
+  function liveItem(tank, db, x, planned) {
     const sp = db.byId[x.sp];
-    const r = C.evaluate(db, sp, tank, lang, { exclude: x.id, n: x.n });
+    const r = C.evaluate(db, sp, planned ? C.withPlan(tank) : tank, lang, { exclude: x.id, n: x.n });
     const shown = r.reasons.filter((y) => y.level !== 'info' || r.level !== 'good');
-    return '<li class="lv-item" data-lid="' + esc(x.id) + '">' + thumb(sp) +
+    return '<li class="lv-item' + (planned ? ' planned' : '') + '" data-lid="' + esc(x.id) + '" data-list="' + (planned ? 'plan' : 'livestock') + '">' + thumb(sp) +
       '<div class="lv-main"><div class="lv-name"><a href="' + spHref(sp) + '">' + esc(spTitle(sp)) + '</a> ' + fitBadge(r) + '</div>' +
       '<div class="lv-sub"><i>' + esc(sp.scientific_name) + '</i>' + (x.added ? ' · ' + esc(t('lvAdded', { date: fmtDate(dayMs(x.added), true) })) : '') + '</div>' +
       (shown.length ? '<details class="lv-why"><summary>' + esc(t('lvMore')) + '</summary>' + reasonsHtml({ reasons: shown }) + '</details>' : '') + '</div>' +
-      '<div class="lv-acts"><span class="stepper"><button type="button" class="iconbtn" data-act="lvMinus" aria-label="' + esc(t('lvLess')) + '"' + (x.n <= 1 ? ' disabled' : '') + '>−</button>' +
+      '<div class="lv-acts">' + (planned ? '<button type="button" class="btn small" data-act="lvMoveIn">' + esc(t('lvMoveIn')) + '</button>' : '') +
+      '<span class="stepper"><button type="button" class="iconbtn" data-act="lvMinus" aria-label="' + esc(t('lvLess')) + '"' + (x.n <= 1 ? ' disabled' : '') + '>−</button>' +
       '<span class="lv-n" title="' + esc(t('lvCount')) + '">' + x.n + '</span>' +
       '<button type="button" class="iconbtn" data-act="lvPlus" aria-label="' + esc(t('lvPlus')) + '">+</button></span>' +
       '<button type="button" class="iconbtn" data-act="lvDel" aria-label="' + esc(t('lvRemove')) + '" title="' + esc(t('lvRemove')) + '">✕</button></div></li>';
   }
 
-  // Species picker with the fit estimate for every species. tank: the tank (or the wizard's draft) to judge against;
-  // presetId opens one species directly; onPick(entry) receives the new entry instead of saving it into the tank.
-  async function pickSpecies(tank, presetId, onPick) {
+  // Species picker with the fit estimate for every species (against the livestock plus the plan). tank: the tank (or the
+  // wizard's draft) to judge against; presetId opens one species directly; onPick(entry) receives the new entry instead of
+  // saving it into the tank; plan adds to the tank's planned livestock instead.
+  async function pickSpecies(tank, presetId, onPick, plan) {
     let db;
     try { db = await loadDb(); } catch (e) { toast(t('dbErr')); return; }
     const list = db.species.filter((s) => ['fish', 'coral', 'invertebrate'].includes(s.group));
     const RANK = { good: 0, caution: 1, unknown: 2, bad: 3 };
     let q = '', grp = '', fitOnly = false, shown = 40, cur = presetId && db.byId[presetId] ? presetId : null;
     let rates = {};
-    const rateAll = () => { rates = {}; list.forEach((s) => { rates[s.id] = C.evaluate(db, s, tank, lang); }); };
+    const judgeTank = () => C.withPlan(tank) || tank;
+    const rateAll = () => { const jt = judgeTank(); rates = {}; list.forEach((s) => { rates[s.id] = C.evaluate(db, s, jt, lang); }); };
     rateAll();
     const groups = [['', 'pkAll'], ['fish', 'lvFish'], ['coral', 'lvCoral'], ['invertebrate', 'lvInvert']];
     const body = '<div class="pk"><div class="pk-tools"><input type="search" class="pk-q" autocomplete="off" placeholder="' + esc(t('pkSearch')) + '" aria-label="' + esc(t('pkSearch')) + '">' +
       '<div class="chips">' + groups.map(([g, k]) => '<button type="button" class="chip pk-g' + (g === grp ? ' on' : '') + '" data-g="' + g + '" aria-pressed="' + (g === grp) + '">' + esc(t(k)) + '</button>').join('') + '</div>' +
       '<label class="chk"><input type="checkbox" class="pk-fit"> ' + esc(t('pkFit')) + '</label></div><div class="pk-list"></div><div class="pk-detail" hidden></div></div>';
-    await modal(t('pkTitle'), body, [], (d, close) => {
+    await modal(plan ? t('pkTitlePlan') : t('pkTitle'), body, [], (d, close) => {
       const tools = $('.pk-tools', d), listEl = $('.pk-list', d), det = $('.pk-detail', d);
       function drawList() {
         const qq = norm(q.trim());
@@ -1256,13 +1278,13 @@
       function drawDetail() {
         const sp = db.byId[cur];
         const n = Math.max(1, Math.round(Number(($('.pk-n', det) || {}).value) || 1));
-        const r = C.evaluate(db, sp, tank, lang, { n });
+        const r = C.evaluate(db, sp, judgeTank(), lang, { n });
         det.innerHTML = (presetId ? '' : '<button type="button" class="linkbtn pk-back">' + esc(t('pkBack')) + '</button>') +
           '<div class="pk-head">' + thumb(sp) + '<div><h3>' + esc(spTitle(sp)) + '</h3><p class="lv-sub"><i>' + esc(sp.scientific_name) + '</i> · <a href="' + spHref(sp) + '" target="_blank" rel="noopener">' + esc(t('lvCard')) + '</a></p>' + fitBadge(r) + '</div></div>' +
           reasonsHtml(r) +
           '<div class="frow"><label class="field narrow"><span>' + esc(t('lvCount')) + '</span><input type="number" class="pk-n" min="1" max="99" value="' + n + '"></label>' +
-          '<label class="field"><span>' + esc(t('pkDate')) + '</span><input type="date" class="pk-date" value="' + today() + '"></label></div>' +
-          '<div class="btns"><button type="button" class="btn primary pk-add">' + esc(t('pkAddBtn')) + '</button></div>';
+          (plan ? '' : '<label class="field"><span>' + esc(t('pkDate')) + '</span><input type="date" class="pk-date" value="' + today() + '"></label>') + '</div>' +
+          '<div class="btns"><button type="button" class="btn primary pk-add">' + esc(plan ? t('pkPlanBtn') : t('pkAddBtn')) + '</button></div>';
       }
       function show() {
         tools.hidden = !!cur; listEl.hidden = !!cur; det.hidden = !cur;
@@ -1273,7 +1295,11 @@
       });
       d.addEventListener('change', (e) => {
         if (e.target.classList.contains('pk-fit')) { fitOnly = e.target.checked; drawList(); }
-        if (e.target.classList.contains('pk-n')) { const date = $('.pk-date', det).value; drawDetail(); $('.pk-date', det).value = date; }
+        if (e.target.classList.contains('pk-n')) {
+          const dt = $('.pk-date', det), date = dt ? dt.value : '';
+          drawDetail();
+          if (dt) $('.pk-date', det).value = date;
+        }
       });
       d.addEventListener('click', async (e) => {
         const g = e.target.closest('.pk-g');
@@ -1289,13 +1315,18 @@
         if (e.target.closest('.pk-add')) {
           const sp = db.byId[cur];
           const n = Math.max(1, Math.min(99, Math.round(Number($('.pk-n', det).value) || 1)));
-          const date = $('.pk-date', det).value;
-          const r = C.evaluate(db, sp, tank, lang, { n });
-          if (r.level === 'bad' && !(await confirmBox(t('pkBadConfirm', { name: spTitle(sp) }), t('pkAddBtn'), true))) return;
-          const entry = { id: uid(), sp: sp.id, n, added: isDay(date) ? date : null };
-          if (onPick) onPick(entry);
-          else { tank.livestock.push(entry); save(); }
-          toast(t('pkAdded', { name: spTitle(sp) }));
+          const date = plan ? '' : $('.pk-date', det).value;
+          const r = C.evaluate(db, sp, judgeTank(), lang, { n });
+          if (r.level === 'bad' && !(await confirmBox(t('pkBadConfirm', { name: spTitle(sp) }), plan ? t('pkPlanBtn') : t('pkAddBtn'), true))) return;
+          if (plan) {
+            tank.plan.push({ id: uid(), sp: sp.id, n });
+            save();
+          } else {
+            const entry = { id: uid(), sp: sp.id, n, added: isDay(date) ? date : null };
+            if (onPick) onPick(entry);
+            else { tank.livestock.push(entry); save(); }
+          }
+          toast(t(plan ? 'pkPlanned' : 'pkAdded', { name: spTitle(sp) }));
           if (presetId) { close('ok'); return; }
           cur = null; rateAll(); show();
         }
@@ -1308,7 +1339,7 @@
 
   // Step-by-step tank setup: name and type, volume, start date, livestock, summary. tank = null creates a new one;
   // thenAdd opens the picker on that species afterwards (link from a species card).
-  async function tankWizard(tank, thenAdd) {
+  async function tankWizard(tank, thenAdd, thenPlan) {
     const editing = !!tank;
     const w = {
       name: tank ? tank.name : '', type: tank ? tank.type : null, volume: tank ? tank.volume : null,
@@ -1418,7 +1449,7 @@
     tk.livestock = w.live;
     save();
     render();
-    if (thenAdd) pickSpecies(tk, thenAdd);
+    if (thenAdd) pickSpecies(tk, thenAdd, null, thenPlan);
   }
 
   /* ---------- settings ---------- */
@@ -1807,6 +1838,7 @@
     return {
       v: 1, n: tank.name, vol: tank.volume, ty: tank.type || undefined, st: tank.start || undefined, pl: tank.planned ? 1 : undefined,
       l: tank.livestock.length ? tank.livestock.map((x) => [x.sp, x.n, x.added || '']) : undefined,
+      w: tank.plan.length ? tank.plan.map((x) => [x.sp, x.n]) : undefined,
       p: params.map((p) => [p.key || '', p.key ? '' : p.name, p.unit, p.min, p.max]),
       s: sessions.filter((s) => s.t >= from).map((s) => {
         const row = [Math.round(s.t / 60000), params.map((p) => (s.v[p.id] != null ? s.v[p.id] : null))];
@@ -1821,6 +1853,7 @@
       id: 'shared', name: String(o.n || 'Tank'), volume: o.vol || null,
       type: C.typeOf(o.ty) ? o.ty : null, start: isDay(o.st) ? o.st : null, planned: !!o.pl,
       livestock: (Array.isArray(o.l) ? o.l : []).filter((a) => Array.isArray(a) && a[0]).map((a, i) => ({ id: 'l' + i, sp: String(a[0]), n: Math.max(1, Math.round(Number(a[1]) || 1)), added: isDay(a[2]) ? a[2] : null })),
+      plan: (Array.isArray(o.w) ? o.w : []).filter((a) => Array.isArray(a) && a[0]).map((a, i) => ({ id: 'w' + i, sp: String(a[0]), n: Math.max(1, Math.round(Number(a[1]) || 1)) })),
       params: o.p.map((a, i) => ({ id: 'p' + i, key: CATALOG[a[0]] ? a[0] : null, name: a[1] || '', unit: a[2] || '', min: numOrNull(a[3]), max: numOrNull(a[4]), timer: null, hidden: false }))
     };
     const sessions = o.s.map((r, i) => {
@@ -1918,6 +1951,7 @@
     const nt = {
       id: uid(), name: tank.name, volume: tank.volume, type: tank.type, start: tank.start, planned: tank.planned, created: Date.now(),
       livestock: tank.livestock.map((x) => Object.assign({}, x, { id: uid() })),
+      plan: tank.plan.map((x) => Object.assign({}, x, { id: uid() })),
       params: tank.params.map((p) => { const np = Object.assign({}, p, { id: uid() }); idMap[p.id] = np.id; return np; })
     };
     S.tanks.push(nt);
@@ -2043,16 +2077,24 @@
       case 'setup': tankWizard(tank); break;
       case 'setupHide': tank.setupHidden = true; save(); render(); break;
       case 'lvAdd': pickSpecies(tank); break;
+      case 'lvPlanAdd': pickSpecies(tank, null, null, true); break;
       case 'lvMinus':
       case 'lvPlus':
+      case 'lvMoveIn':
       case 'lvDel': {
-        const x = tank.livestock.find((y) => y.id === btn.closest('[data-lid]').dataset.lid);
+        const li = btn.closest('[data-lid]');
+        const key = li.dataset.list === 'plan' ? 'plan' : 'livestock';
+        const x = tank[key].find((y) => y.id === li.dataset.lid);
         if (!x) break;
+        const db = await loadDb().catch(() => null);
+        const name = db && db.byId[x.sp] ? spTitle(db.byId[x.sp]) : x.sp;
         if (act === 'lvDel') {
-          const db = await loadDb().catch(() => null);
-          const name = db && db.byId[x.sp] ? spTitle(db.byId[x.sp]) : x.sp;
           if (!(await confirmBox(t('confirmRemoveLive', { name, tank: tank.name }), t('lvRemove'), true))) break;
-          tank.livestock = tank.livestock.filter((y) => y !== x);
+          tank[key] = tank[key].filter((y) => y !== x);
+        } else if (act === 'lvMoveIn') {
+          tank.plan = tank.plan.filter((y) => y !== x);
+          tank.livestock.push({ id: uid(), sp: x.sp, n: x.n, added: today() });
+          toast(t('lvMovedIn', { name }));
         } else x.n = Math.max(1, Math.min(99, x.n + (act === 'lvPlus' ? 1 : -1)));
         save();
         render();
