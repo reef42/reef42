@@ -1,0 +1,578 @@
+{
+  "terms": [
+    {
+      "id": "nitrogen-cycle",
+      "hu": { "name": "Nitrogénciklus (beérés)", "def": "Az a folyamat, amelyben baktériumok a halak ürülékéből és az ételmaradékból keletkező mérgező ammóniát nitritté, majd a jóval kevésbé ártalmas nitráttá alakítják. Egy új akvárium akkor „érett be”, amikor ez a baktériumállomány kialakult, ami általában 4–8 hét. Előtte nem szabad állatokat betelepíteni." },
+      "en": { "name": "Nitrogen cycle (cycling)", "def": "The process in which bacteria turn toxic ammonia from waste and leftover food into nitrite and then into far less harmful nitrate. A new tank is “cycled” once this bacterial population has grown, which usually takes 4–8 weeks. No livestock should go in before that." },
+      "match": { "hu": ["nitrogénciklus\\p{L}*", "ciklizál\\p{L}*", "beérés\\p{L}*", "beérett\\p{L}*", "beéretlen\\p{L}*", "beérik"], "en": ["nitrogen cycle", "cycling", "cycled", "uncycled", "fishless cycle"] },
+      "see": ["ammonia", "nitrite", "nitrate", "nitrifying-bacteria", "mature-tank"]
+    },
+    {
+      "id": "ammonia",
+      "hu": { "name": "Ammónia (NH3/NH4)", "def": "A halak és más állatok fő anyagcsere-terméke, a bomló ételmaradékból és tetemekből is keletkezik. Már kis mennyiségben is mérgező, egy beérett akváriumban mérhetetlenül alacsony. Ha kimutatható, az túletetésre, elhullásra vagy be nem érett szűrésre utal." },
+      "en": { "name": "Ammonia (NH3/NH4)", "def": "The main waste product of fish and other animals, also released by rotting food and dead animals. It is toxic even in small amounts and should be undetectable in a cycled tank. A measurable level points to overfeeding, a death or an uncycled tank." },
+      "match": { "hu": ["ammóni\\p{L}*"], "en": ["ammonia", "ammonium"], "abbr": ["NH3", "NH4\\+?"] },
+      "see": ["nitrogen-cycle", "nitrite"]
+    },
+    {
+      "id": "nitrite",
+      "hu": { "name": "Nitrit (NO2)", "def": "A nitrogénciklus köztes terméke: baktériumok ammóniából állítják elő, majd tovább alakítják nitráttá. Mérgező, beérett akváriumban nem mérhető. Tengervízben kevésbé ártalmas, mint édesvízben, de a jelenléte azt jelzi, hogy a ciklus még nem állt be." },
+      "en": { "name": "Nitrite (NO2)", "def": "The middle step of the nitrogen cycle: bacteria make it from ammonia and turn it into nitrate. It is toxic and should not be measurable in a cycled tank. It is less harmful in saltwater than in freshwater, but its presence shows the cycle is not yet complete." },
+      "match": { "hu": ["nitrit\\p{L}*"], "en": ["nitrites?"], "abbr": ["NO2"] },
+      "see": ["nitrogen-cycle", "ammonia", "nitrate"]
+    },
+    {
+      "id": "nitrate",
+      "hu": { "name": "Nitrát (NO3)", "def": "A nitrogénciklus végterméke, lassan halmozódik fel a vízben. Halas akváriumban 20–40 mg/l alatt kevésbé veszélyes, korallos akváriumban általában 2–15 mg/l a cél. Túl sok esetén algásodás, túl kevés (nulla) esetén a korallok színvesztése és sorvadása jöhet. Vízcserével, fehérjefölözéssel és makroalgákkal csökkenthető." },
+      "en": { "name": "Nitrate (NO3)", "def": "The end product of the nitrogen cycle; it builds up slowly in the water. Fish-only tanks tolerate up to about 20–40 mg/l, reef tanks usually aim for 2–15 mg/l. Too much feeds nuisance algae, while zero can make corals pale and starve. Water changes, skimming and macroalgae bring it down." },
+      "match": { "hu": ["nitrát\\p{L}*"], "en": ["nitrates?"], "abbr": ["NO3"] },
+      "see": ["nitrogen-cycle", "phosphate", "macroalgae"]
+    },
+    {
+      "id": "phosphate",
+      "hu": { "name": "Foszfát (PO4)", "def": "Tápanyag, amely főleg az eleségből kerül a vízbe. Korallos akváriumban általában 0,03–0,1 mg/l a cél: több esetén elszaporodnak az algák és lassul a kemény korallok növekedése, nulla közelében viszont a korallok éheznek. Foszfátmegkötővel (GFO), vízcserével és mérsékelt etetéssel szabályozható." },
+      "en": { "name": "Phosphate (PO4)", "def": "A nutrient that mostly enters the water with food. Reef tanks usually aim for 0.03–0.1 mg/l: more fuels algae and slows stony coral growth, while near zero the corals starve. It is controlled with phosphate removers (GFO), water changes and moderate feeding." },
+      "match": { "hu": ["(?<!klorokin[ ])foszfát(?!megköt)\\p{L}*"], "en": ["(?<!chloroquine )phosphates?"], "abbr": ["PO4"] },
+      "see": ["nitrate", "gfo"]
+    },
+    {
+      "id": "alkalinity",
+      "hu": { "name": "KH (karbonátkeménység, alkalinitás)", "def": "A víz pufferkapacitása: azt mutatja, mennyi karbonát és hidrogénkarbonát van benne. Ez tartja stabilan a pH-t, és ebből építik vázukat a kemény korallok. Zátonyakváriumban általában 7–9 dKH a cél, a legfontosabb, hogy ne ingadozzon." },
+      "en": { "name": "Alkalinity (KH, dKH)", "def": "The water’s buffering capacity: how much carbonate and bicarbonate it holds. It keeps pH stable, and stony corals build their skeletons from it. Reef tanks usually aim for 7–9 dKH; above all it should stay steady." },
+      "match": { "hu": ["karbonátkeménység\\p{L}*", "alkalinitás\\p{L}*"], "en": ["alkalinity", "carbonate hardness"], "abbr": ["dKH", "KH"] },
+      "see": ["balling", "kalkwasser", "calcium-reactor"]
+    },
+    {
+      "id": "salinity",
+      "hu": { "name": "Sótartalom (szalinitás)", "def": "Mennyi só van oldva a vízben, általában ezrelékben (ppt) vagy fajsúlyban (SG) adják meg. Tengeri akváriumban a természetes tengervízhez igazodva kb. 35 ppt (1,025–1,026 SG) a cél. A párolgáskor csak a víz fogy, a só marad, ezért az elpárolgott vizet sómentes vízzel kell pótolni." },
+      "en": { "name": "Salinity", "def": "How much salt is dissolved in the water, given in parts per thousand (ppt) or as specific gravity (SG). Reef and marine tanks match natural seawater at about 35 ppt (1.025–1.026 SG). Evaporation removes only water and leaves the salt, so evaporated water is topped off with salt-free water." },
+      "match": { "hu": ["sótartalm\\p{L}*", "sótartalom\\p{L}*", "szalinitás\\p{L}*"], "en": ["salinity"], "abbr": ["ppt", "PSU"] },
+      "see": ["specific-gravity", "refractometer", "ato", "hyposalinity"]
+    },
+    {
+      "id": "specific-gravity",
+      "hu": { "name": "Fajsúly (SG)", "def": "A víz sűrűsége a tiszta vízhez viszonyítva, a sótartalom egyik mértékegysége. Tengeri akváriumban 1,025–1,026 a szokásos érték. Az értéke a hőmérséklettől is függ, ezért a mérőeszközök egy adott hőmérsékletre vannak kalibrálva." },
+      "en": { "name": "Specific gravity (SG)", "def": "The density of the water compared with pure water, one way of expressing salinity. Marine tanks usually sit at 1.025–1.026. It also depends on temperature, so meters are calibrated for a given temperature." },
+      "match": { "hu": ["fajsúly\\p{L}*", "fajlagos sűrűség\\p{L}*"], "en": ["specific gravity"], "abbr": ["SG"] },
+      "see": ["salinity", "refractometer", "hydrometer"]
+    },
+    {
+      "id": "refractometer",
+      "hu": { "name": "Refraktométer", "def": "Sótartalommérő, amely a fény törése alapján méri a sótartalmat. Néhány csepp víz kell hozzá, pontosabb a hidrométernél. Időnként kalibrálni kell, tengeri akváriumhoz 35 ppt-s kalibrálófolyadékkal érdemes." },
+      "en": { "name": "Refractometer", "def": "A salinity meter that reads salinity from how the water bends light. It needs only a few drops and is more accurate than a hydrometer. It should be calibrated now and then, ideally with a 35 ppt calibration fluid for seawater." },
+      "match": { "hu": ["refraktométer\\p{L}*"], "en": ["refractometers?"] },
+      "see": ["salinity", "hydrometer"]
+    },
+    {
+      "id": "hydrometer",
+      "hu": { "name": "Hidrométer (sűrűségmérő)", "def": "Egyszerű, olcsó sótartalommérő: úszó vagy mutatós eszköz, amely a víz sűrűségét (fajsúlyát) méri. Kevésbé pontos, mint a refraktométer, és érzékeny a hőmérsékletre meg a rátapadt buborékokra." },
+      "en": { "name": "Hydrometer", "def": "A simple, cheap salinity meter: a floating or swing-arm device that measures the water’s density (specific gravity). It is less accurate than a refractometer and sensitive to temperature and air bubbles." },
+      "match": { "hu": ["hidrométer\\p{L}*"], "en": ["hydrometers?"] },
+      "see": ["specific-gravity", "refractometer"]
+    },
+    {
+      "id": "ro-di",
+      "hu": { "name": "RO/DI víz (ozmózisvíz)", "def": "Fordított ozmózissal (RO) és ioncserélő gyantával (DI) tisztított, gyakorlatilag ásványianyag-mentes víz. Tengeri akváriumban ebből keverik a sós vizet és ezzel pótolják a párolgást, mert a csapvíz nitrátja, foszfátja, szilikátja és nehézfémei algásodást és korallproblémákat okozhatnak." },
+      "en": { "name": "RO/DI water", "def": "Water purified by reverse osmosis (RO) and deionising resin (DI), practically free of minerals. Marine keepers mix their saltwater from it and use it to top off evaporation, because nitrate, phosphate, silicate and heavy metals in tap water can cause algae and coral problems." },
+      "match": { "hu": ["ozmózisv[íi]z\\p{L}*", "fordított ozmózis\\p{L}*"], "en": ["reverse osmosis"], "abbr": ["RO/DI", "RODI", "RO-v[íi]z\\p{L}*"] },
+      "see": ["tds", "ato", "salinity"]
+    },
+    {
+      "id": "tds",
+      "hu": { "name": "TDS (összes oldott anyag)", "def": "A vízben oldott összes anyag mennyisége ppm-ben. A RO/DI víz minőségét mérik vele: a jó ozmózisvíz TDS-e 0. Ha emelkedik, ideje cserélni a gyantát vagy a membránt." },
+      "en": { "name": "TDS (total dissolved solids)", "def": "The total amount of dissolved substances in the water, in ppm. It is used to check RO/DI water: good RO/DI reads 0 TDS. When it rises, the resin or membrane needs replacing." },
+      "match": { "hu": ["összes oldott anyag\\p{L}*"], "en": ["total dissolved solids"], "abbr": ["TDS"] },
+      "see": ["ro-di"]
+    },
+    {
+      "id": "trace-elements",
+      "hu": { "name": "Nyomelemek", "def": "A tengervízben nagyon kis mennyiségben jelen lévő elemek (pl. jód, vas, stroncium, kálium). A korallok és algák fogyasztják őket, a rendszeres vízcsere általában pótolja őket. Célzott adagolásuk csak méréssel alátámasztva ajánlott." },
+      "en": { "name": "Trace elements", "def": "Elements present in seawater in very small amounts (e.g. iodine, iron, strontium, potassium). Corals and algae use them up, and regular water changes usually replace them. Dosing them is only advisable based on tests." },
+      "match": { "hu": ["nyomelem\\p{L}*"], "en": ["trace elements?"] },
+      "see": ["balling"]
+    },
+    {
+      "id": "orp",
+      "hu": { "name": "ORP (redoxpotenciál)", "def": "A víz oxidáló-redukáló képességét mutató érték millivoltban. Közvetve a víz „tisztaságát” jelzi: magasabb érték kevesebb bomló szerves anyagot jelent. Főleg ózonos rendszereknél figyelik, ahol a túl magas érték veszélyes." },
+      "en": { "name": "ORP (redox potential)", "def": "A reading in millivolts that shows how oxidising the water is. It indirectly reflects how “clean” the water is: higher values mean less decaying organic matter. It is mostly watched in tanks running ozone, where too high a value is dangerous." },
+      "match": { "hu": ["redoxpotenciál\\p{L}*", "redox potenciál\\p{L}*"], "en": ["redox potential"], "abbr": ["ORP"] },
+      "see": ["ozone"]
+    },
+    {
+      "id": "detritus",
+      "hu": { "name": "Detritusz", "def": "Az akváriumban lerakódó szerves törmelék: ürülék, ételmaradék, elhalt növény- és állatrészek. Lebomlásakor nitrát és foszfát szabadul fel, ezért nem jó, ha a kövek közt és a homokban felhalmozódik. Erős áramlás, takarítócsapat, szűrőzsák és rendszeres szifonozás segít ellene." },
+      "en": { "name": "Detritus", "def": "Organic debris that settles in the tank: waste, leftover food, dead plant and animal matter. As it breaks down it releases nitrate and phosphate, so it should not build up between the rocks and in the sand. Strong flow, a clean-up crew, filter socks and regular siphoning help." },
+      "match": { "hu": ["detritu(?:sz|ss)\\p{L}*"], "en": ["detritus"] },
+      "see": ["nitrate", "phosphate", "clean-up-crew", "filter-sock"]
+    },
+    {
+      "id": "bioload",
+      "hu": { "name": "Bioterhelés", "def": "Az akvárium lakóinak és az etetésnek a vízre rótt „szennyezési” terhe. Minél több és nagyobb hal él egy rendszerben, és minél többet etetnek, annál több hulladék keletkezik, amit a szűrésnek és a vízcserének kell kezelnie." },
+      "en": { "name": "Bioload", "def": "The waste burden the livestock and their feeding put on the water. The more and bigger fish a tank holds and the more they are fed, the more waste the filtration and water changes have to handle." },
+      "match": { "hu": ["bioterhel\\p{L}*"], "en": ["bioloads?"] },
+      "see": ["nitrogen-cycle", "protein-skimmer"]
+    },
+    {
+      "id": "nitrifying-bacteria",
+      "hu": { "name": "Nitrifikáló baktériumok", "def": "A köveken, a homokban és a szűrőanyagokon élő hasznos baktériumok, amelyek az ammóniát nitritté, a nitritet nitráttá alakítják. Ők viszik a nitrogénciklust; gyógyszerek (pl. antibiotikumok) károsíthatják őket." },
+      "en": { "name": "Nitrifying bacteria", "def": "Beneficial bacteria living on rock, sand and filter media that turn ammonia into nitrite and nitrite into nitrate. They drive the nitrogen cycle; medications such as antibiotics can harm them." },
+      "match": { "hu": ["nitrifik\\p{L}*"], "en": ["nitrifying bacteria", "nitrifying", "nitrification"] },
+      "see": ["nitrogen-cycle", "live-rock"]
+    },
+    {
+      "id": "live-rock",
+      "hu": { "name": "Élő kő", "def": "A tengerből (vagy tenyésztésből) származó porózus mészkő, amelyen baktériumok, algák és apró élőlények élnek. Biológiai szűrőként működik és gyorsítja a beérést, de kártevőket és nem kívánt potyautasokat is behozhat." },
+      "en": { "name": "Live rock", "def": "Porous limestone from the sea (or aquacultured) covered with bacteria, algae and small organisms. It works as a biological filter and speeds up cycling, but it can also bring in pests and unwanted hitchhikers." },
+      "match": { "hu": ["élő k(?:ő|öv)\\p{L}*", "élők(?:ő|öv)\\p{L}*"], "en": ["live rocks?"] },
+      "see": ["dry-rock", "hitchhiker", "nitrifying-bacteria"]
+    },
+    {
+      "id": "dry-rock",
+      "hu": { "name": "Száraz kő", "def": "Élőlényektől mentes, kiszárított porózus kő az akvárium építéséhez. Nem hoz be kártevőt, de a baktériumállománynak rajta kell kialakulnia, ezért a beérés hosszabb, és az első hónapokban gyakoribb a kovaalga- és algavirágzás." },
+      "en": { "name": "Dry rock", "def": "Porous rock with nothing living on it, used to build the aquascape. It brings in no pests, but the bacteria have to colonise it first, so cycling takes longer and diatom and algae blooms are more common in the first months." },
+      "match": { "hu": ["száraz k(?:ő|öv)\\p{L}*"], "en": ["dry rocks?"] },
+      "see": ["live-rock", "nitrogen-cycle", "diatoms"]
+    },
+    {
+      "id": "live-sand",
+      "hu": { "name": "Élő homok", "def": "Baktériumokkal és apró élőlényekkel benépesített akváriumhomok, általában aragonit. Segíti a biológiai szűrést és a beérést; a homokban élő állatok (pl. csigák, férgek) forgatják és tisztán tartják." },
+      "en": { "name": "Live sand", "def": "Aquarium sand, usually aragonite, populated with bacteria and small organisms. It helps biological filtration and cycling; sand-dwelling animals such as snails and worms turn it over and keep it clean." },
+      "match": { "hu": ["élő homok\\p{L}*"], "en": ["live sand"] },
+      "see": ["aragonite", "substrate"]
+    },
+    {
+      "id": "aragonite",
+      "hu": { "name": "Aragonit", "def": "Kalcium-karbonát ásványforma, a tengeri akváriumok homokjának és köveinek tipikus anyaga. Lassan oldódva kicsit segíti a pH és a KH stabilitását." },
+      "en": { "name": "Aragonite", "def": "A mineral form of calcium carbonate, the typical material of marine aquarium sand and rock. It dissolves slowly and helps a little with pH and alkalinity stability." },
+      "match": { "hu": ["aragonit\\p{L}*"], "en": ["aragonite"] },
+      "see": ["live-sand", "alkalinity"]
+    },
+    {
+      "id": "substrate",
+      "hu": { "name": "Aljzat", "def": "Az akvárium aljára szórt réteg, tengeri akváriumban általában aragonithomok. Sok hal és gerinctelen (pl. gébek, ásóhalak, csigák) homokban keres élelmet vagy abba ássa be magát éjszakára." },
+      "en": { "name": "Substrate", "def": "The layer covering the tank bottom, usually aragonite sand in marine tanks. Many fish and invertebrates (gobies, wrasses, snails) search the sand for food or bury themselves in it at night." },
+      "match": { "hu": ["aljzat\\p{L}*"], "en": ["substrates?"] },
+      "see": ["live-sand", "aragonite"]
+    },
+    {
+      "id": "biofilm",
+      "hu": { "name": "Biofilm", "def": "Baktériumokból, algákból és szerves anyagból álló vékony, nyálkás bevonat az üvegen, a köveken és a csöveken. Sok csiga, garnéla és hal fontos táplálékforrása, beérés közben különösen gyakori." },
+      "en": { "name": "Biofilm", "def": "A thin, slimy film of bacteria, algae and organic matter on glass, rock and plumbing. It is an important food for many snails, shrimps and fish and is especially common while a tank cycles." },
+      "match": { "hu": ["biofilm\\p{L}*"], "en": ["biofilms?"] },
+      "see": ["nitrogen-cycle", "clean-up-crew"]
+    },
+    {
+      "id": "mature-tank",
+      "hu": { "name": "Érett akvárium", "def": "Hónapok, inkább egy év óta stabilan működő rendszer, amelyben kialakult a mikroélővilág (podok, biofilm, mészalgák), és kiegyensúlyozottak a vízparaméterek. Az érzékenyebb fajok (pl. mandarinhalak, SPS korallok) csak ilyen akváriumba ajánlottak." },
+      "en": { "name": "Mature tank", "def": "A system that has run stably for months, ideally a year, with an established micro-fauna (pods, biofilm, coralline algae) and balanced water parameters. Sensitive species such as mandarins and SPS corals are only recommended for tanks like this." },
+      "match": { "hu": ["érett akvárium\\p{L}*", "érett rendszer\\p{L}*", "kiforrott akvárium\\p{L}*"], "en": ["mature tanks?", "mature systems?", "established tanks?", "mature aquariums?"] },
+      "see": ["nitrogen-cycle", "copepods", "sps"]
+    },
+    {
+      "id": "plankton",
+      "hu": { "name": "Plankton (zoo- és fitoplankton)", "def": "A vízben lebegő apró élőlények. A fitoplankton mikroszkopikus alga, a zooplankton apró állatok (pl. copepodák, lárvák). Sok korall, kagyló és hal ilyen táplálékot szűr ki a vízből; a „planktonevő” hal sok kis adagos etetést igényel." },
+      "en": { "name": "Plankton (zoo- and phytoplankton)", "def": "Tiny organisms drifting in the water. Phytoplankton is microscopic algae, zooplankton tiny animals (e.g. copepods, larvae). Many corals, clams and fish filter this food from the water; a “planktivore” fish needs many small feedings." },
+      "match": { "hu": ["zooplankton\\p{L}*", "fitoplankton\\p{L}*", "plankton\\p{L}*"], "en": ["zooplankton", "phytoplankton", "planktivor\\p{L}*", "plankton"] },
+      "see": ["copepods", "mysis"]
+    },
+    {
+      "id": "copepods",
+      "hu": { "name": "Copepodák (evezőlábú rákok, „podok”)", "def": "Apró, néhány milliméteres rákok, amelyek a kövek közt és a homokban élnek és algával, detritusszal táplálkoznak. Egy érett akváriumban maguktól szaporodnak, és sok hal (pl. mandarinhalak) fő táplálékai; palackozva vásárolhatók is." },
+      "en": { "name": "Copepods (“pods”)", "def": "Tiny crustaceans a few millimetres long that live in the rock and sand and feed on algae and detritus. They breed on their own in a mature tank and are the staple food of many fish such as mandarins; they are also sold bottled." },
+      "match": { "hu": ["copepod\\p{L}*", "kopepod\\p{L}*", "evezőlábú\\p{L}*"], "en": ["copepods?", "pods"] },
+      "see": ["plankton", "mature-tank", "refugium"]
+    },
+    {
+      "id": "mysis",
+      "hu": { "name": "Mysis", "def": "Apró, kb. 1 cm-es garnélaféle, a tengeri akvarisztika egyik legfontosabb fagyasztott eleségé. Tápláló, a legtöbb ragadozó és mindenevő hal szívesen eszi, ezért új, válogatós halak szoktatásához is jó." },
+      "en": { "name": "Mysis", "def": "A small shrimp-like crustacean about 1 cm long and one of the most important frozen foods in the marine hobby. It is nutritious and taken by most carnivorous and omnivorous fish, so it also helps get new, picky fish eating." },
+      "match": { "hu": ["mysis\\p{L}*"], "en": ["mysis"] },
+      "see": ["artemia", "plankton"]
+    },
+    {
+      "id": "artemia",
+      "hu": { "name": "Artemia (sórák)", "def": "Apró sórák, kikeltetett lárvája (nauplius) és kifejlett formája is gyakori élő vagy fagyasztott eleség. Önmagában kevéssé tápláló, ezért dúsítva vagy más eleség mellett ajánlott." },
+      "en": { "name": "Brine shrimp (Artemia)", "def": "A small crustacean whose hatched larvae (nauplii) and adults are common live or frozen foods. On its own it is not very nutritious, so it is best enriched or fed alongside other foods." },
+      "match": { "hu": ["artemi\\p{L}*", "sórák\\p{L}*"], "en": ["brine shrimps?", "artemia"] },
+      "see": ["mysis"]
+    },
+    {
+      "id": "zooxanthellae",
+      "hu": { "name": "Zooxantellák", "def": "A korallok, anemónák és óriáskagylók szövetében élő, fotoszintetizáló egysejtű algák. A gazdaállat energiájának nagy részét adják, ezért ezeknek az állatoknak erős fény kell. Stresszhatásra a gazdaállat kiveti őket: ez a kifehéredés." },
+      "en": { "name": "Zooxanthellae", "def": "Photosynthetic single-celled algae living in the tissue of corals, anemones and giant clams. They provide most of the host’s energy, which is why these animals need strong light. Under stress the host expels them: this is bleaching." },
+      "match": { "hu": ["zooxant\\p{L}*"], "en": ["zooxanthella\\p{L}*"] },
+      "see": ["bleaching", "par", "polyp"]
+    },
+    {
+      "id": "polyp",
+      "hu": { "name": "Polip (korallpolip)", "def": "A korallok és rokonaik alapegysége: apró, csőszerű testű állat, szájnyílása körül csalánsejtes tapogatókkal. Egy korallkolónia sok ezer összekapcsolt polipból áll; nyitott polipok általában a jó közérzet jelei." },
+      "en": { "name": "Polyp", "def": "The basic unit of corals and their relatives: a tiny tube-shaped animal with stinging tentacles around its mouth. A coral colony is made of thousands of connected polyps; open polyps are usually a sign of good health." },
+      "match": { "hu": ["polip\\p{L}*"], "en": ["polyps?"] },
+      "see": ["sps", "lps", "nematocyst"]
+    },
+    {
+      "id": "nematocyst",
+      "hu": { "name": "Csalánsejt (csalánzás)", "def": "A korallok, anemónák és medúzák szúró sejtjei, amelyekkel zsákmányt fognak és védekeznek. A korallok csalánzással a szomszédjaikat is megtámadhatják, ezért kell köztük elég távolság." },
+      "en": { "name": "Nematocyst (stinging)", "def": "The stinging cells of corals, anemones and jellyfish, used to catch prey and defend themselves. Corals also sting their neighbours with them, which is why they need space between them." },
+      "match": { "hu": ["csalánsejt\\p{L}*", "csaláno\\p{L}*", "csalánz\\p{L}*"], "en": ["nematocysts?", "stinging cells?"] },
+      "see": ["sweeper-tentacles", "polyp"]
+    },
+    {
+      "id": "sweeper-tentacles",
+      "hu": { "name": "Söprőcsápok", "def": "Egyes korallok (pl. sok LPS) által éjszaka kinyújtott, akár 10–20 cm-es, erősen csalánzó tapogatók, amelyekkel a közelükben lévő korallokat megtámadják. Az elhelyezésnél ezzel a távolsággal számolni kell." },
+      "en": { "name": "Sweeper tentacles", "def": "Long, strongly stinging tentacles, up to 10–20 cm, that some corals (many LPS) extend at night to attack nearby corals. Placement has to allow for this reach." },
+      "match": { "hu": ["söprőcsáp\\p{L}*"], "en": ["sweeper tentacles?", "sweepers"] },
+      "see": ["nematocyst", "lps"]
+    },
+    {
+      "id": "sps",
+      "hu": { "name": "SPS korallok", "def": "„Small Polyp Stony”: kis polipú kemény korallok, pl. Acropora és Montipora. Gyorsan nőnek és látványosak, de erős fényt, erős áramlást és nagyon stabil vízparamétereket (KH, kalcium, magnézium) igényelnek, ezért haladóknak valók." },
+      "en": { "name": "SPS corals", "def": "Small Polyp Stony corals such as Acropora and Montipora. They grow fast and look spectacular but need strong light, strong flow and very stable water parameters (alkalinity, calcium, magnesium), so they are for experienced keepers." },
+      "match": { "hu": ["kis polipú kemény korall\\p{L}*"], "en": ["small polyp stony"], "abbr": ["SPS"] },
+      "see": ["lps", "soft-coral", "alkalinity", "mature-tank"]
+    },
+    {
+      "id": "lps",
+      "hu": { "name": "LPS korallok", "def": "„Large Polyp Stony”: nagy polipú kemény korallok, pl. agykorallok, Euphyllia (fáklyás, kalapácsfejű), Duncan. Közepes fényt és áramlást kedvelnek, sokuk etethető; egy részük erősen csalánzó söprőcsápokat növeszt." },
+      "en": { "name": "LPS corals", "def": "Large Polyp Stony corals such as brain corals, Euphyllia (torch, hammer) and Duncans. They like moderate light and flow, many can be target-fed, and some grow strongly stinging sweeper tentacles." },
+      "match": { "hu": ["nagy polipú kemény korall\\p{L}*"], "en": ["large polyp stony"], "abbr": ["LPS"] },
+      "see": ["sps", "soft-coral", "sweeper-tentacles"]
+    },
+    {
+      "id": "soft-coral",
+      "hu": { "name": "Lágykorallok", "def": "Kemény mészváz nélküli korallok, pl. bőrkorallok, Xenia, gombakorallok, zoák. Általában a legkönnyebben tartható korallok, kezdőknek ajánlottak; egy részük gyorsan terjed, és vegyi anyagokkal versenyez a szomszédaival." },
+      "en": { "name": "Soft corals", "def": "Corals without a hard limestone skeleton, e.g. leathers, Xenia, mushrooms and zoanthids. They are usually the easiest corals and good for beginners; some spread quickly and fight neighbours with chemicals." },
+      "match": { "hu": ["lágykorall\\p{L}*", "lágy korall\\p{L}*"], "en": ["soft corals?"] },
+      "see": ["sps", "lps", "palytoxin"]
+    },
+    {
+      "id": "frag",
+      "hu": { "name": "Frag (korallhajtás)", "def": "Egy anyakolóniáról levágott, általában talpra ragasztott kis koralldarab, amelyből új kolónia nő. A frag tenyésztett, olcsóbb és jobban alkalmazkodik, mint a tengerből gyűjtött korall." },
+      "en": { "name": "Frag", "def": "A small piece cut from a mother colony, usually glued to a plug, that grows into a new colony. Frags are aquacultured, cheaper and adapt better than wild-collected corals." },
+      "match": { "hu": ["frag(?:ok|okat|ot|ként|ja|ját|jai|el|elés|elni)?"], "en": ["frags?", "fragging", "fragged"] },
+      "see": ["sps", "lps", "soft-coral"]
+    },
+    {
+      "id": "bleaching",
+      "hu": { "name": "Kifehéredés", "def": "Stressz (túl meleg víz, hirtelen fényváltozás, rossz vízparaméterek) hatására a korall kiveti a zooxantelláit, és elveszíti színét. Ha az ok gyorsan megszűnik, a korall regenerálódhat, tartós kifehéredés után elpusztul." },
+      "en": { "name": "Bleaching", "def": "Under stress (water too warm, sudden light changes, poor water quality) a coral expels its zooxanthellae and loses its colour. If the cause is removed quickly it can recover; prolonged bleaching kills it." },
+      "match": { "hu": ["kifehéred\\p{L}*"], "en": ["bleaching", "bleached"] },
+      "see": ["zooxanthellae", "rtn-stn"]
+    },
+    {
+      "id": "rtn-stn",
+      "hu": { "name": "RTN / STN (szövetelhalás)", "def": "Kemény korallok szövetelhalása: RTN (rapid tissue necrosis) esetén órák-napok alatt, STN (slow tissue necrosis) esetén lassan, az aljától vagy a csúcsokból indulva válik le a szövet a vázról. Többnyire vízparaméter-ingadozás vagy stressz áll a háttérben." },
+      "en": { "name": "RTN / STN (tissue necrosis)", "def": "Tissue loss in stony corals: with RTN (rapid tissue necrosis) the tissue peels off the skeleton within hours to days, with STN (slow tissue necrosis) gradually, from the base or the tips. Unstable water parameters or stress are usually behind it." },
+      "match": { "hu": ["szövetelhal\\p{L}*"], "en": ["tissue necrosis"], "abbr": ["RTN", "STN"] },
+      "see": ["sps", "bleaching", "alkalinity"]
+    },
+    {
+      "id": "coralline-algae",
+      "hu": { "name": "Mészalgák (korallin algák)", "def": "Rózsaszín-lila, kemény bevonatot képző algák a köveken és az üvegen. Az egészséges, érett akvárium jelei; kalciumot és KH-t fogyasztanak, és elfoglalják a helyet a kártékony algák elől." },
+      "en": { "name": "Coralline algae", "def": "Pink to purple algae that form a hard crust on rock and glass. They are a sign of a healthy, mature tank; they use calcium and alkalinity and take space away from nuisance algae." },
+      "match": { "hu": ["mészalg\\p{L}*", "korallin alg\\p{L}*", "korallinalg\\p{L}*"], "en": ["coralline algae", "coralline"] },
+      "see": ["mature-tank", "alkalinity"]
+    },
+    {
+      "id": "macroalgae",
+      "hu": { "name": "Makroalgák", "def": "Szabad szemmel jól látható, „növényszerű” algák, pl. Chaetomorpha, Caulerpa, vörös díszalgák. Refugiumban tápanyagot (nitrátot, foszfátot) vonnak ki a vízből, a podoknak búvóhelyet adnak; egyes halak és sünök eleségei." },
+      "en": { "name": "Macroalgae", "def": "Large, plant-like algae such as Chaetomorpha, Caulerpa and red ornamental algae. In a refugium they pull nutrients (nitrate, phosphate) out of the water and shelter pods; some fish and urchins eat them." },
+      "match": { "hu": ["makroalg\\p{L}*", "chaeto(?:morph\\p{L}*)?"], "en": ["macroalga\\p{L}*", "chaeto(?:morph\\p{L}*)?"] },
+      "see": ["refugium", "nitrate", "phosphate"]
+    },
+    {
+      "id": "cyanobacteria",
+      "hu": { "name": "Cianobaktériumok (vörös nyálka)", "def": "Bordó, lila vagy zöldes, nyálkás bevonatot képező baktériumok a homokon és a köveken. Általában tápanyag-egyensúlytalanságra, gyenge áramlásra vagy felhalmozódott detrituszra utalnak; szifonozással és az ok megszüntetésével lehet visszaszorítani." },
+      "en": { "name": "Cyanobacteria (red slime)", "def": "Bacteria forming a slimy maroon, purple or greenish film on sand and rock. They usually point to a nutrient imbalance, weak flow or built-up detritus; siphoning and fixing the cause bring them back under control." },
+      "match": { "hu": ["cianobakt\\p{L}*", "vörös nyálk\\p{L}*"], "en": ["cyanobacteria\\p{L}*", "cyano", "red slime"] },
+      "see": ["dinoflagellates", "diatoms", "detritus"]
+    },
+    {
+      "id": "dinoflagellates",
+      "hu": { "name": "Dinoflagelláták („dinók”)", "def": "Ostoros egysejtű élőlények. Akváriumban kétféleképpen fontosak: buborékos, nyálkás barna bevonatként elszaporodva nehezen kezelhető „dinó-virágzást” okoznak (gyakran túl alacsony nitrát és foszfát mellett), illetve egyes fajaik paraziták, pl. a bársonybetegség kórokozója." },
+      "en": { "name": "Dinoflagellates (“dinos”)", "def": "Single-celled organisms with whip-like flagella. They matter in two ways: as a hard-to-beat bloom of snotty brown film with bubbles (often when nitrate and phosphate are too low), and as parasites, such as the cause of marine velvet." },
+      "match": { "hu": ["dinoflagell\\p{L}*", "dinó(?:k|kat|t|ra|val)?"], "en": ["dinoflagellates?", "dinos"] },
+      "see": ["cyanobacteria", "diatoms"]
+    },
+    {
+      "id": "diatoms",
+      "hu": { "name": "Kovaalgák (barna bevonat)", "def": "Barna, porszerű bevonatot képező egysejtű algák, jellemzően új akváriumban, a beérés utáni hetekben. Szilikátot fogyasztanak, és ha az elfogy, maguktól eltűnnek; a csiga-takarítócsapat segít." },
+      "en": { "name": "Diatoms (brown film)", "def": "Single-celled algae forming a brown, dusty film, typical of new tanks in the weeks after cycling. They use silicate and fade away on their own once it runs out; a snail clean-up crew helps." },
+      "match": { "hu": ["kovaalg\\p{L}*", "kovamoszat\\p{L}*"], "en": ["diatoms?"] },
+      "see": ["dry-rock", "clean-up-crew", "ro-di"]
+    },
+    {
+      "id": "hair-algae",
+      "hu": { "name": "Fonalas alga", "def": "Hosszú, zöld fonalakban növő alga, amely gyorsan benőheti a köveket és a korallokat. Túl sok tápanyagra (nitrát, foszfát) utal; algaevő állatokkal, tápanyag-csökkentéssel és kézi eltávolítással lehet ellene védekezni." },
+      "en": { "name": "Hair algae", "def": "Algae growing in long green strands that can quickly overgrow rock and corals. It points to excess nutrients (nitrate, phosphate) and is fought with algae eaters, nutrient control and manual removal." },
+      "match": { "hu": ["fonalas alg\\p{L}*"], "en": ["hair algae"] },
+      "see": ["nitrate", "phosphate", "clean-up-crew"]
+    },
+    {
+      "id": "valonia",
+      "hu": { "name": "Buborékalga (Valonia)", "def": "Fényes, zöld, golyó alakú alga, amely a kövekről terjed. Kipukkasztva spórákat szór, ezért egészben kell eltávolítani; egyes doktorhalak és rákok eszik." },
+      "en": { "name": "Bubble algae (Valonia)", "def": "Shiny green ball-shaped algae spreading over the rock. Popping a bubble releases spores, so it should be removed whole; some tangs and crabs eat it." },
+      "match": { "hu": ["buborékalg\\p{L}*", "valoni\\p{L}*"], "en": ["bubble algae", "valonia"] },
+      "see": ["hair-algae", "clean-up-crew"]
+    },
+    {
+      "id": "aiptasia",
+      "hu": { "name": "Aiptasia (üveganemóna)", "def": "Kis, barnás, áttetsző kártevő anemóna, amely élő kővel kerül be és gyorsan szaporodik. Csalánozza a korallokat. Ellene pl. Berghia csupaszkopoltyús csiga, borsmentás garnéla, egyes halak vagy célzott oldatok használhatók." },
+      "en": { "name": "Aiptasia (glass anemone)", "def": "A small, brownish, translucent pest anemone that comes in on live rock and spreads fast. It stings corals. Berghia nudibranchs, peppermint shrimp, some fish or spot treatments are used against it." },
+      "match": { "hu": ["aiptasi\\p{L}*", "aiptázi\\p{L}*", "üveganemón\\p{L}*"], "en": ["aiptasia\\p{L}*", "glass anemones?"] },
+      "see": ["hitchhiker", "live-rock"]
+    },
+    {
+      "id": "flatworms",
+      "hu": { "name": "Laposférgek", "def": "Lapos, néhány milliméteres férgek. A vörös laposféreg (Convolutriloba) tömegesen ellepheti a köveket, más fajok korallokat esznek (pl. Acropora-evő laposféreg), egyes fajok halakon élősködnek (fekete pöttyös betegség)." },
+      "en": { "name": "Flatworms", "def": "Flat worms a few millimetres long. Red flatworms (Convolutriloba) can carpet the rock, others eat corals (e.g. Acropora-eating flatworms), and some live on fish (black ich)." },
+      "match": { "hu": ["laposférg\\p{L}*", "laposféreg\\p{L}*"], "en": ["flatworms?"] },
+      "see": ["hitchhiker", "aiptasia"]
+    },
+    {
+      "id": "bristleworms",
+      "hu": { "name": "Serteférgek", "def": "A kövek közt és a homokban élő, sertés testű férgek. Többségük hasznos dögevő a takarítócsapatban; nagy példányaik vagy egyes fajok (pl. tűzférgek) azonban csípnek és károsak lehetnek." },
+      "en": { "name": "Bristleworms", "def": "Bristly worms living in rock and sand. Most are useful scavengers in the clean-up crew, but very large ones and certain species (e.g. fireworms) sting and can cause harm." },
+      "match": { "hu": ["serteférg\\p{L}*", "serteféreg\\p{L}*"], "en": ["bristle ?worms?"] },
+      "see": ["clean-up-crew", "hitchhiker"]
+    },
+    {
+      "id": "hitchhiker",
+      "hu": { "name": "Potyautas", "def": "Élő kővel, korallal vagy homokkal véletlenül bekerülő élőlény. Lehet hasznos (podok, csigák, mészalgák) vagy kártevő (aiptasia, laposférgek, sáskarák, kártékony csigák), ezért az új szerzeményeket érdemes átnézni, korallokat fürdetni." },
+      "en": { "name": "Hitchhiker", "def": "An organism that arrives by accident on live rock, corals or sand. It can be useful (pods, snails, coralline algae) or a pest (Aiptasia, flatworms, mantis shrimp, harmful snails), so new additions are worth inspecting and corals worth dipping." },
+      "match": { "hu": ["potyautas\\p{L}*"], "en": ["hitchhikers?"] },
+      "see": ["live-rock", "aiptasia", "dip"]
+    },
+    {
+      "id": "clean-up-crew",
+      "hu": { "name": "Takarítócsapat (CUC)", "def": "Algát, ételmaradékot és detrituszt fogyasztó gerinctelenek csoportja: csigák, remeterákok, garnélák, sünök. Nem helyettesíti a karbantartást, de sokat segít a tisztaság megtartásában." },
+      "en": { "name": "Clean-up crew (CUC)", "def": "A group of invertebrates that eat algae, leftover food and detritus: snails, hermit crabs, shrimps and urchins. It does not replace maintenance, but helps a lot in keeping the tank clean." },
+      "match": { "hu": ["takarítócsapat\\p{L}*", "takarító csapat\\p{L}*"], "en": ["clean-?up crews?"], "abbr": ["CUC"] },
+      "see": ["detritus", "diatoms", "hair-algae"]
+    },
+    {
+      "id": "reef-safe",
+      "hu": { "name": "Reef-safe (korallbarát)", "def": "Olyan faj, amely általában nem bántja a korallokat és más gerinctelen lakókat, így zátonyakváriumba tehető. Nem garancia: egyes reef-safe halak is csipegethetnek korallokat, és egy „korallbarát” hal is megeheti a garnélákat." },
+      "en": { "name": "Reef-safe", "def": "A species that generally leaves corals and other invertebrates alone, so it can go into a reef tank. It is no guarantee: some reef-safe fish still nip corals, and a coral-safe fish may still eat shrimps." },
+      "match": { "hu": ["reef-safe", "reef safe", "zátonybiztos\\p{L}*", "korallbarát\\p{L}*"], "en": ["reef-safe", "reef safe"] },
+      "see": ["reef-tank", "fowlr"]
+    },
+    {
+      "id": "reef-tank",
+      "hu": { "name": "Zátonyakvárium (reef akvárium)", "def": "Korallokat is tartó tengeri akvárium, ahol a halak mellett a korallok és gerinctelenek igényei (fény, áramlás, stabil vízparaméterek) határozzák meg a technikát és a fajválasztást." },
+      "en": { "name": "Reef tank", "def": "A marine aquarium that keeps corals, where the needs of corals and invertebrates (light, flow, stable water parameters) shape the equipment and the choice of fish." },
+      "match": { "hu": ["zátonyakvárium\\p{L}*", "reef akvárium\\p{L}*", "reefakvárium\\p{L}*", "korallos akvárium\\p{L}*"], "en": ["reef tanks?", "reef aquariums?"] },
+      "see": ["reef-safe", "fowlr", "nano-tank"]
+    },
+    {
+      "id": "fowlr",
+      "hu": { "name": "FOWLR (csak halas, élő kővel)", "def": "„Fish Only With Live Rock”: korallok nélküli tengeri akvárium halakkal és élő kővel. Egyszerűbb a technikája, és olyan halak is tarthatók benne, amelyek korallokat vagy gerincteleneket ennének." },
+      "en": { "name": "FOWLR", "def": "Fish Only With Live Rock: a marine tank without corals, holding fish and live rock. The equipment is simpler, and it can house fish that would eat corals or invertebrates." },
+      "match": { "hu": ["csak halas akvárium\\p{L}*"], "en": ["fish[- ]only"], "abbr": ["FOWLR"] },
+      "see": ["reef-tank", "reef-safe", "live-rock"]
+    },
+    {
+      "id": "nano-tank",
+      "hu": { "name": "Nanoakvárium", "def": "Kis, általában 100 liter alatti tengeri akvárium. Olcsóbb indítani, de kis vízmennyisége miatt a hiba, a párolgás és a hőmérséklet-ingadozás gyorsabban okoz gondot, és csak kevés, kis termetű hal fér el benne." },
+      "en": { "name": "Nano tank", "def": "A small marine tank, usually under 100 litres. It is cheaper to start, but with so little water, mistakes, evaporation and temperature swings hit faster, and only a few small fish fit." },
+      "match": { "hu": ["nanoakvárium\\p{L}*", "nano akvárium\\p{L}*", "nano reef\\p{L}*", "nanoreef\\p{L}*"], "en": ["nano tanks?", "nano reefs?", "nano aquariums?"] },
+      "see": ["reef-tank", "ato"]
+    },
+    {
+      "id": "quarantine",
+      "hu": { "name": "Karantén (QT)", "def": "Külön akvárium, ahol az új halakat (és ha kell, gerincteleneket) néhány hétig megfigyelik vagy megelőzően kezelik, mielőtt a fő akváriumba kerülnek. A betegségek behurcolásának legbiztosabb ellenszere." },
+      "en": { "name": "Quarantine (QT)", "def": "A separate tank where new fish (and, if needed, invertebrates) are observed or treated for a few weeks before they go into the display tank. It is the surest way to keep diseases out." },
+      "match": { "hu": ["karantén\\p{L}*"], "en": ["quarantin\\p{L}*"], "abbr": ["QT"] },
+      "see": ["acclimation", "ttm", "copper"]
+    },
+    {
+      "id": "acclimation",
+      "hu": { "name": "Akklimatizálás (szoktatás)", "def": "Az új állat fokozatos hozzászoktatása az akvárium vizéhez. Halaknál elsősorban a hőmérsékletet és a sótartalmat kell kiegyenlíteni; érzékeny gerincteleneknél (garnélák, tengeri csillagok) lassú, csepegtetéses szoktatás ajánlott, mert rosszul tűrik a gyors változást." },
+      "en": { "name": "Acclimation", "def": "Gradually getting a new animal used to the tank water. For fish, mainly temperature and salinity need matching; sensitive invertebrates (shrimps, sea stars) should be drip acclimated slowly because they handle sudden changes poorly." },
+      "match": { "hu": ["akklimat\\p{L}*", "csepegtetéses\\p{L}*"], "en": ["acclimat\\p{L}*", "drip acclimat\\p{L}*"] },
+      "see": ["quarantine", "salinity"]
+    },
+    {
+      "id": "ttm",
+      "hu": { "name": "Tank Transfer Method (TTM)", "def": "Gyógyszer nélküli kezelés a darakór (ich) ellen: a halat néhány naponta tiszta, új vízzel töltött, kifertőtlenített tartályba teszik át, így a parazita leváló szaporítóalakjai lemaradnak az előző tartályban. Bársonybetegség ellen külön, sűrűbb változata van." },
+      "en": { "name": "Tank Transfer Method (TTM)", "def": "A drug-free treatment for marine ich: the fish is moved every few days into a clean, disinfected tank with fresh water, so the parasite’s reproductive stages that drop off are left behind. A faster variant exists for velvet." },
+      "match": { "hu": ["tankáthelyez\\p{L}*", "tank transfer\\p{L}*"], "en": ["tank[- ]transfer(?: method)?"], "abbr": ["TTM"] },
+      "see": ["quarantine", "hyposalinity", "fallow"]
+    },
+    {
+      "id": "hyposalinity",
+      "hu": { "name": "Hiposzalinitás", "def": "Kezelés, amelyben a sótartalmat hetekig a természetes érték alá (kb. 1,009–1,010 SG-re) csökkentik. A halak ezt elviselik, egyes külső paraziták (pl. darakór) viszont nem. Csak halakkal, karanténban használható: gerinctelenek és korallok nem élik túl." },
+      "en": { "name": "Hyposalinity", "def": "A treatment that lowers salinity well below normal (about 1.009–1.010 SG) for weeks. Fish tolerate it, but some external parasites such as marine ich do not. It is only for fish in quarantine: invertebrates and corals do not survive it." },
+      "match": { "hu": ["hiposzalin\\p{L}*", "hyposalin\\p{L}*"], "en": ["hyposalinity"] },
+      "see": ["salinity", "refractometer", "quarantine"]
+    },
+    {
+      "id": "fallow",
+      "hu": { "name": "Fallow (halmentes időszak)", "def": "Amikor a fő akváriumot hetekig hal nélkül hagyják, hogy a halakon élősködő paraziták (pl. darakór: kb. 76 nap, bársonybetegség: kb. 6 hét) gazda nélkül elpusztuljanak. A halakat ezalatt karanténban kezelik." },
+      "en": { "name": "Fallow period", "def": "Leaving the display tank without fish for weeks so that fish parasites die without a host (marine ich about 76 days, velvet about 6 weeks). The fish are treated in quarantine meanwhile." },
+      "match": { "hu": ["fallow\\p{L}*", "halmentes\\p{L}*"], "en": ["fallow", "going fishless"] },
+      "see": ["quarantine", "ttm"]
+    },
+    {
+      "id": "dip",
+      "hu": { "name": "Fürdetés (dip)", "def": "Rövid, néhány perces kezelés egy külön edényben. Halaknál pl. édesvízi vagy gyógyszeres fürdő a külső paraziták ellen, koralloknál pl. jódos vagy speciális korallfürdő a potyautas kártevők leválasztására." },
+      "en": { "name": "Dip", "def": "A short treatment of a few minutes in a separate container. For fish, e.g. a freshwater or medicated dip against external parasites; for corals, e.g. an iodine or dedicated coral dip to remove hitchhiking pests." },
+      "match": { "hu": ["édesvízi fürd\\p{L}*", "fürdet\\p{L}*", "korallfürd\\p{L}*"], "en": ["freshwater dips?", "coral dips?", "dipping", "dips"] },
+      "see": ["quarantine", "hitchhiker"]
+    },
+    {
+      "id": "copper",
+      "hu": { "name": "Rezes kezelés", "def": "A külső paraziták (darakór, bársonybetegség) elleni egyik leghatékonyabb kezelés: a vízben tartott pontos rézkoncentráció elpusztítja a szabadon úszó parazitákat. Csak karanténban, rendszeres rézteszt mellett: a gerinctelenekre és korallokra halálos, a köveket és a homokot tartósan szennyezi." },
+      "en": { "name": "Copper treatment", "def": "One of the most effective treatments for external parasites (marine ich, velvet): a precise copper level in the water kills the free-swimming stages. Only in quarantine and with regular copper tests: it is lethal to invertebrates and corals and lastingly contaminates rock and sand." },
+      "match": { "hu": ["rezes kezelés\\p{L}*", "réz(?!sáv)\\p{L}*", "rezes\\p{L}*", "rezet"], "en": ["copper"] },
+      "see": ["quarantine", "hyposalinity"]
+    },
+    {
+      "id": "palytoxin",
+      "hu": { "name": "Palitoxin", "def": "Egyes zoák (Palythoa, Zoanthus) által termelt, emberre is nagyon veszélyes méreg. Bőrsérülésen, szembe fröccsenve vagy gőzként (pl. kő kifőzésekor) jut be. A zoákat kesztyűben, védőszemüvegben kell kezelni, és tilos forró vízzel súrolni vagy kifőzni a köveiket." },
+      "en": { "name": "Palytoxin", "def": "A toxin made by some zoanthids (Palythoa, Zoanthus) that is very dangerous to people too. It enters through cuts, splashes in the eye or as vapour (e.g. when boiling rock). Handle zoanthids with gloves and eye protection, and never scrub or boil their rocks with hot water." },
+      "match": { "hu": ["palitoxin\\p{L}*", "palytoxin\\p{L}*"], "en": ["palytoxins?"] },
+      "see": ["soft-coral"]
+    },
+    {
+      "id": "protandry",
+      "hu": { "name": "Hímnősség (protandria)", "def": "Egyes halak (pl. bohóchalak) hímként kezdik az életüket, és a csoport legnagyobb egyede nőstényé alakul. Ezért két fiatal bohóchal általában párt alkot, a folyamat azonban nem fordítható vissza. Más fajoknál (pl. anthiasok, ajakoshalak) épp fordítva, a nőstényből lesz hím (protogínia)." },
+      "en": { "name": "Protandry (sex change)", "def": "Some fish (e.g. clownfish) start life as males, and the largest of the group turns female. That is why two young clownfish usually pair up, but the change cannot be reversed. Other groups (e.g. anthias, wrasses) do the opposite: a female turns male (protogyny)." },
+      "match": { "hu": ["protandri\\p{L}*", "protogíni\\p{L}*", "hímnős\\p{L}*", "nemváltó\\p{L}*", "nemváltás\\p{L}*"], "en": ["protandr\\p{L}*", "protogyn\\p{L}*", "hermaphrodit\\p{L}*", "sex change"] },
+      "see": []
+    },
+    {
+      "id": "protein-skimmer",
+      "hu": { "name": "Fehérjefölöző (skimmer)", "def": "A tengeri akvárium egyik legfontosabb szűrője: apró légbuborékokkal habot képez, amelyhez a szerves szennyeződés hozzátapad, és a hab a gyűjtőpohárba távozik, mielőtt lebomlana. Csökkenti a nitrát- és foszfátterhelést, és oxigénnel dúsítja a vizet." },
+      "en": { "name": "Protein skimmer", "def": "One of the key filters on a marine tank: it makes foam from fine air bubbles, organic waste sticks to the bubbles and is carried into the collection cup before it can break down. It reduces nitrate and phosphate load and oxygenates the water." },
+      "match": { "hu": ["fehérjefölöz\\p{L}*", "fölöző\\p{L}*", "fölözés\\p{L}*", "szkimmer\\p{L}*", "skimmer\\p{L}*"], "en": ["protein skimm\\p{L}*", "skimmers?", "skimming", "skimmate"] },
+      "see": ["sump", "bioload", "nitrate"]
+    },
+    {
+      "id": "sump",
+      "hu": { "name": "Sump (műszaki medence)", "def": "A fő akvárium alatt elhelyezett kisebb tartály, ahová a víz túlfolyón át lefolyik, majd visszanyomó szivattyú juttatja vissza. Itt kap helyet a technika (fehérjefölöző, fűtő, reaktorok), növeli a víztérfogatot, és itt fogy a párolgás." },
+      "en": { "name": "Sump", "def": "A smaller tank under the display tank that water drains into through an overflow and that a return pump sends back up. It houses the equipment (skimmer, heater, reactors), adds water volume and is where evaporation shows." },
+      "match": { "hu": ["sump\\p{L}*", "műszaki medence\\p{L}*"], "en": ["sumps?"] },
+      "see": ["overflow", "return-pump", "refugium", "protein-skimmer"]
+    },
+    {
+      "id": "refugium",
+      "hu": { "name": "Refugium", "def": "Általában a sump egy megvilágított rekesze makroalgával (pl. Chaetomorpha), ahol a podok ragadozóktól védve szaporodhatnak. Az algák tápanyagot vonnak ki a vízből, a kiáramló podok pedig élő eleséget adnak a halaknak." },
+      "en": { "name": "Refugium", "def": "Usually a lit section of the sump with macroalgae (e.g. Chaetomorpha) where pods can breed safe from predators. The algae pull nutrients out of the water, and pods washed out feed the fish." },
+      "match": { "hu": ["refugium\\p{L}*", "refúgium\\p{L}*"], "en": ["refugiums?", "refugia", "fuge"] },
+      "see": ["sump", "macroalgae", "copepods"]
+    },
+    {
+      "id": "overflow",
+      "hu": { "name": "Túlfolyó", "def": "Az akvárium felszíni vizét a sumpba vezető lefolyó, általában fésűs bevezetéssel. A felszíni hártyát is elviszi, és megakadályozza, hogy a vízszint emelkedjen a fő akváriumban." },
+      "en": { "name": "Overflow", "def": "The drain that carries surface water from the display tank to the sump, usually through a comb. It also skims off the surface film and keeps the display water level from rising." },
+      "match": { "hu": ["túlfoly\\p{L}*"], "en": ["overflows?", "overflow box\\p{L}*"] },
+      "see": ["sump", "return-pump"]
+    },
+    {
+      "id": "return-pump",
+      "hu": { "name": "Visszanyomó szivattyú", "def": "A sumpból a vizet a fő akváriumba visszajuttató szivattyú. Áramkimaradáskor a csőben lévő víz visszafolyik a sumpba, ezért a sumpban hagyni kell ennyi szabad helyet." },
+      "en": { "name": "Return pump", "def": "The pump that sends water from the sump back to the display tank. During a power cut, the water in the pipes siphons back into the sump, so the sump needs that much free room." },
+      "match": { "hu": ["visszanyomó\\p{L}*", "visszatáplál\\p{L}*"], "en": ["return pumps?"] },
+      "see": ["sump", "overflow"]
+    },
+    {
+      "id": "wavemaker",
+      "hu": { "name": "Áramoltató pumpa (hullámkeltő)", "def": "Az akváriumon belüli vízmozgást adó pumpa. Oxigénnel dúsítja a vizet, a korallokhoz viszi a táplálékot, és nem hagyja leülepedni a detrituszt. Állítható, változó áramlású (hullámzó) üzemmódban a legjobb." },
+      "en": { "name": "Wavemaker (flow pump)", "def": "A pump that moves water inside the tank. It oxygenates the water, carries food to the corals and keeps detritus from settling. Adjustable, varying (pulsed) flow works best." },
+      "match": { "hu": ["áramoltató\\p{L}*", "hullámkeltő\\p{L}*", "hullámpump\\p{L}*"], "en": ["wavemakers?", "powerheads?", "flow pumps?"] },
+      "see": ["detritus", "sps"]
+    },
+    {
+      "id": "ato",
+      "hu": { "name": "ATO (automatikus utántöltő)", "def": "Úszókapcsolós vagy optikai szenzoros rendszer, amely az elpárolgott vizet automatikusan pótolja RO/DI vízzel. Így a sótartalom állandó marad. Tengervizet nem szabad vele pótolni, mert a só nem párolog el." },
+      "en": { "name": "ATO (auto top-off)", "def": "A float-switch or optical-sensor system that automatically replaces evaporated water with RO/DI water, keeping salinity constant. It must never top off with saltwater, because salt does not evaporate." },
+      "match": { "hu": ["utántölt\\p{L}*"], "en": ["auto[- ]top[- ]?offs?", "top[- ]?offs?", "topping off"], "abbr": ["ATO"] },
+      "see": ["salinity", "ro-di", "sump"]
+    },
+    {
+      "id": "kalkwasser",
+      "hu": { "name": "Kalkwasser (meszes víz)", "def": "Kalcium-hidroxid RO/DI vízben oldva, amelyet általában az utántöltő vízzel adagolnak. Kalciumot és KH-t pótol, és emeli a pH-t. Túladagolva veszélyesen magas pH-t okoz, ezért lassan kell adagolni." },
+      "en": { "name": "Kalkwasser (limewater)", "def": "Calcium hydroxide dissolved in RO/DI water, usually dosed with the top-off water. It replaces calcium and alkalinity and raises pH. Overdosing causes dangerously high pH, so it must be dosed slowly." },
+      "match": { "hu": ["kalkwasser\\p{L}*", "kalkvíz\\p{L}*", "meszes víz\\p{L}*"], "en": ["kalkwasser", "kalk", "limewater"] },
+      "see": ["alkalinity", "balling", "ato"]
+    },
+    {
+      "id": "balling",
+      "hu": { "name": "Balling-módszer", "def": "A kemény korallok által elfogyasztott kalcium, KH és magnézium pótlása három külön oldat napi adagolásával, jellemzően adagolópumpával. Kiegészítő nyomelem-adagolással jár együtt." },
+      "en": { "name": "Balling method", "def": "Replacing the calcium, alkalinity and magnesium that stony corals use up by dosing three separate solutions daily, usually with a dosing pump. It goes together with trace element dosing." },
+      "match": { "hu": ["balling\\p{L}*"], "en": ["balling(?: method)?"] },
+      "see": ["alkalinity", "dosing-pump", "kalkwasser", "calcium-reactor"]
+    },
+    {
+      "id": "calcium-reactor",
+      "hu": { "name": "Kalciumreaktor", "def": "Készülék, amely szén-dioxiddal savasított vízben mészkőgranulátumot old fel, így pótolja a kalciumot és a KH-t. Sok kemény korallt tartó, nagyobb akváriumokhoz való, beállítása tapasztalatot igényel." },
+      "en": { "name": "Calcium reactor", "def": "A device that dissolves calcium carbonate media in water acidified with carbon dioxide, replacing calcium and alkalinity. It suits larger tanks with many stony corals and takes experience to tune." },
+      "match": { "hu": ["kalciumreaktor\\p{L}*", "kalcium reaktor\\p{L}*"], "en": ["calcium reactors?"] },
+      "see": ["alkalinity", "balling", "sps"]
+    },
+    {
+      "id": "dosing-pump",
+      "hu": { "name": "Adagolópumpa", "def": "Programozható, kis mennyiségeket pontosan adagoló pumpa. Kiegészítőket (pl. Balling-oldatokat, nyomelemeket) juttat a vízbe sok kis adagban, így a paraméterek nem ingadoznak." },
+      "en": { "name": "Dosing pump", "def": "A programmable pump that delivers small, precise volumes. It adds supplements (e.g. Balling solutions, trace elements) in many small doses so the parameters do not swing." },
+      "match": { "hu": ["adagolópump\\p{L}*"], "en": ["dosing pumps?", "dosers?"] },
+      "see": ["balling", "alkalinity"]
+    },
+    {
+      "id": "gfo",
+      "hu": { "name": "GFO (foszfátmegkötő)", "def": "„Granular Ferric Oxide”: vas-oxid alapú granulátum, amely megköti a foszfátot. Általában reaktorban, átáramoltatva használják. Túl gyorsan nullára viheti a foszfátot, ami a korallokat stresszeli, ezért mérés mellett, mértékkel kell használni." },
+      "en": { "name": "GFO (phosphate remover)", "def": "Granular Ferric Oxide: an iron oxide media that binds phosphate. It is usually run in a reactor with water flowing through. It can drop phosphate to zero too fast, which stresses corals, so it is used sparingly and with testing." },
+      "match": { "hu": ["foszfátmegköt\\p{L}*", "foszfátmegkötő\\p{L}*"], "en": ["phosphate removers?", "granular ferric oxide"], "abbr": ["GFO"] },
+      "see": ["phosphate", "activated-carbon"]
+    },
+    {
+      "id": "activated-carbon",
+      "hu": { "name": "Aktív szén", "def": "Porózus szűrőanyag, amely megköti a vízben oldott szerves anyagokat, színezőanyagokat és a korallok által kibocsátott vegyületeket. Kristálytisztává teszi a vizet; gyógyszeres kezelés alatt ki kell venni, mert a gyógyszert is megköti." },
+      "en": { "name": "Activated carbon", "def": "A porous filter media that binds dissolved organics, yellowing compounds and chemicals released by corals. It makes the water crystal clear; it must be removed during medication because it binds medicine too." },
+      "match": { "hu": ["aktív szén\\p{L}*", "aktívszén\\p{L}*"], "en": ["activated carbon"], "abbr": ["GAC"] },
+      "see": ["gfo", "soft-coral"]
+    },
+    {
+      "id": "uv-sterilizer",
+      "hu": { "name": "UV-sterilizátor", "def": "Készülék, amelyben a víz egy UV-lámpa mellett áramlik el, és ez elpusztítja a szabadon lebegő baktériumokat, algákat és paraziták úszó alakjait. Segít a vízvirágzás és egyes betegségek ellen, de a köveken és a halakon lévő kórokozókat nem éri el." },
+      "en": { "name": "UV sterilizer", "def": "A device that passes water by a UV lamp, killing free-floating bacteria, algae and the free-swimming stages of parasites. It helps against green water and some diseases but cannot reach pathogens on rock or on the fish." },
+      "match": { "hu": ["uv-steril\\p{L}*", "uv steril\\p{L}*", "uv-lámp\\p{L}*"], "en": ["uv[- ]sterili[sz]\\p{L}*"] },
+      "see": ["ozone", "quarantine"]
+    },
+    {
+      "id": "ozone",
+      "hu": { "name": "Ózon", "def": "Erős oxidálószer, amelyet ózongenerátorral általában a fehérjefölözőbe vezetnek. Tisztítja és kristálytisztává teszi a vizet, emeli az ORP-t. Túladagolva mérgező az állatokra és az emberre is, ezért ORP-szabályozó és aktív szenes utószűrés kell hozzá." },
+      "en": { "name": "Ozone", "def": "A strong oxidiser, usually fed into the protein skimmer by an ozone generator. It clarifies the water and raises ORP. Overdosed it is toxic to the animals and to people, so it needs an ORP controller and activated carbon after it." },
+      "match": { "hu": ["ózon\\p{L}*"], "en": ["ozone"] },
+      "see": ["orp", "protein-skimmer", "activated-carbon"]
+    },
+    {
+      "id": "filter-sock",
+      "hu": { "name": "Szűrőzsák (filter sock)", "def": "A sump bemeneténél lévő finom szövésű zsák, amely kiszűri a lebegő részecskéket és a detrituszt. Néhány naponta cserélni, mosni kell, különben a felfogott szennyeződés benne bomlik le." },
+      "en": { "name": "Filter sock", "def": "A fine mesh bag at the sump inlet that catches floating particles and detritus. It has to be swapped and washed every few days, or the trapped dirt rots inside it." },
+      "match": { "hu": ["szűrőzsák\\p{L}*", "filter sock\\p{L}*"], "en": ["filter socks?"] },
+      "see": ["detritus", "sump"]
+    },
+    {
+      "id": "par",
+      "hu": { "name": "PAR (fotoszintetikusan aktív sugárzás)", "def": "A korallok fotoszintéziséhez használható fény mennyisége (µmol/m²/s), PAR-mérővel mérik. Irányértékek: lágykorallok kb. 50–150, LPS 100–200, SPS 200–400 felett. Az új korallt fokozatosan kell az erősebb fényhez szoktatni." },
+      "en": { "name": "PAR (photosynthetically active radiation)", "def": "The amount of light corals can use for photosynthesis (µmol/m²/s), measured with a PAR meter. Rough targets: soft corals about 50–150, LPS 100–200, SPS 200–400 and above. New corals should be eased into stronger light." },
+      "match": { "hu": ["fotoszintetikusan aktív\\p{L}*"], "en": ["photosynthetically active radiation"], "abbr": ["PAR"] },
+      "see": ["zooxanthellae", "actinic", "sps"]
+    },
+    {
+      "id": "actinic",
+      "hu": { "name": "Aktinikus (kék) fény", "def": "Kék, kb. 420–460 nm hullámhosszú fény, amely a korallok fotoszintéziséhez fontos, és kiemeli a fluoreszkáló színeiket. Tengeri lámpákban a fehér mellett jelentős kék csatorna van, reggel és este gyakran csak ez világít." },
+      "en": { "name": "Actinic (blue) light", "def": "Blue light around 420–460 nm that matters for coral photosynthesis and brings out their fluorescent colours. Marine lights have a strong blue channel next to the white, and often only the blues run at dawn and dusk." },
+      "match": { "hu": ["aktinikus\\p{L}*"], "en": ["actinics?"] },
+      "see": ["par"]
+    },
+    {
+      "id": "aquascape",
+      "hu": { "name": "Kőépítés (aquascape)", "def": "A kövek elrendezése az akváriumban. Jó esetben stabil (ragasztott vagy rögzített), sok búvóhelyet ad, mégis hagy helyet az áramlásnak, hogy ne rakódjon le detritusz a holtterekben." },
+      "en": { "name": "Aquascape (rockwork)", "def": "How the rocks are arranged in the tank. Ideally it is stable (glued or pinned), offers plenty of hiding places and still leaves room for flow so detritus does not settle in dead spots." },
+      "match": { "hu": ["kőépít\\p{L}*", "aquascap\\p{L}*"], "en": ["aquascap\\p{L}*", "rockwork"] },
+      "see": ["live-rock", "dry-rock", "wavemaker"]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+:root {
+  --bg: #f4f8f9;
+  --surface: #ffffff;
+  --surface-2: #eaf2f4;
+  --text: #13262b;
+  --muted: #546a70;
+  --border: #d3e1e4;
+  --accent: #0e7c86;
+  --accent-ink: #ffffff;
+  --accent-soft: #d8efef;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(10, 40, 45, .06), 0 4px 16px rgba(10, 40, 45, .06);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d1719;
+    --surface: #142225;
+    --surface-2: #1b2d31;
+    --text: #e4eff1;
+    --muted: #9db3b8;
+    --border: #2a4146;
+    --accent: #3cc2cc;
+    --accent-ink: #062327;
+    --accent-soft: #163a3e;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 16px rgba(0, 0, 0, .25);
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; font-family: var(--font); font-size: 16px; line-height: 1.5;
+  background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column;
+}
+a { color: var(--accent); }
+h1, h2, h3 { line-height: 1.25; margin: 0 0 .5em; }
+h1 { font-size: clamp(1.35rem, 3.5vw, 1.8rem); }
+p { margin: 0 0 1em; }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Top bar – same as the other reef42 tools */
+.topbar { position: sticky; top: 0; z-index: 20; background: var(--surface); border-bottom: 1px solid var(--border); }
+.bar { display: flex; align-items: center; gap: 12px; min-height: 53px; padding: 8px 16px; max-width: 1100px; margin: 0 auto; }
+.hub {
+  font-weight: 700; font-size: .8rem; text-transform: lowercase; text-decoration: none;
+  color: #fff; background: #000; border-radius: 6px; padding: 3px 8px; white-space: nowrap;
+}
+.hub:hover { background: #222; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+.langsel { margin-left: auto; }
+.lang {
+  font-size: .85rem; font-weight: 600; background: transparent; border: 1px solid var(--border);
+  border-radius: 999px; padding: 5px 12px; cursor: pointer; white-space: nowrap;
+}
+.lang:hover { border-color: var(--accent); }
+@media (max-width: 480px) { .brand span { display: none; } }
+
+main { flex: 1; width: 100%; min-width: 0; max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; outline: none; }
+main:focus-visible { outline: none; }
+.lead { color: var(--muted); max-width: 70ch; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 4px 0 12px; }
+.search {
+  flex: 1 1 220px; max-width: 320px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: 6px 14px;
+}
+.search::placeholder { color: var(--muted); }
+.count { color: var(--muted); font-size: .85rem; margin: 0 0 12px; }
+.empty { color: var(--muted); }
+
+.letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
+.letters a {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 34px; height: 34px; padding: 0 8px;
+  font-weight: 600; text-decoration: none; color: var(--text); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 8px;
+}
+.letters a:hover { border-color: var(--accent); color: var(--accent); }
+
+.group { max-width: 820px; scroll-margin-top: 70px; }
+.group + .group { margin-top: 22px; }
+.letter { font-size: 1.1rem; color: var(--accent); margin: 0 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+.terms { display: grid; gap: 10px; }
+.term {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 14px 18px; scroll-margin-top: 70px; outline: none; transition: border-color .2s, box-shadow .2s;
+}
+.term h3 { font-size: 1.05rem; margin: 0 0 2px; }
+.term .alt { color: var(--muted); font-size: .85rem; margin: 0 0 8px; }
+.term p { margin: 0; max-width: 75ch; }
+.term .see { margin-top: 10px; font-size: .88rem; color: var(--muted); }
+.term.hl { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+.footer { border-top: 1px solid var(--border); background: var(--surface); padding: 16px; font-size: .85rem; color: var(--muted); }
+.footer .inner { max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+.footer a { color: var(--text); }

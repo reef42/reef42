@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Glossary">
+  <rect width="320" height="180" fill="#0f1a1c"/>
+  <path d="M40 40c30-9 62-7 116 6v112c-54-13-86-15-116-6z" fill="#f4f8f9"/>
+  <path d="M280 40c-30-9-62-7-116 6v112c54-13 86-15 116-6z" fill="#e4eff1"/>
+  <path d="M160 46v112" stroke="#9db3b8" stroke-width="2"/>
+  <text x="58" y="82" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#0e7c86">Aa</text>
+  <path d="M58 98h78M58 110h70M58 122h76M58 134h52" stroke="#9db3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M180 76h80" stroke="#0e7c86" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <path d="M180 92h74M180 104h80M180 116h62" stroke="#9db3b8" stroke-width="5" stroke-linecap="round"/>
+  <rect x="170" y="128" width="118" height="40" rx="8" fill="#142225" stroke="#3cc2cc" stroke-width="2"/>
+  <path d="M206 128l8-9 8 9z" fill="#3cc2cc"/>
+  <path d="M182 142h70M182 154h50" stroke="#9db3b8" stroke-width="4" stroke-linecap="round"/>
+</svg>
