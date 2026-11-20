@@ -33,6 +33,13 @@ The diseases listed on a card link to the Fishy Doctor page of the same id (`fis
 from Wikimedia and shown with author, licence and a link to the file page, as the licences require. Species without a
 Hungarian name show the English name.
 
+## Access gate
+
+While the site is under development, every page loads [`shared/gate.js`](shared/gate.js) in its `<head>`: a full-screen
+overlay that asks for a password and links to the Discord server for access. After the right password the browser remembers
+it (`localStorage['reef42-gate']`) for every tool. It only hides the pages; the password and all files stay public. To open
+the site, remove the `gate.js` script tag from each `index.html`.
+
 ## Running locally
 
 Everything is static HTML/CSS/JS with no build step. Serve the repository root over HTTP:
