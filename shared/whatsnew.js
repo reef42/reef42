@@ -20,6 +20,7 @@
         'Fishy Doctor: négy új témakör a nem fertőző okokról: halak közti agresszió, időskor, vízminőségi problémák és oxigénhiány, a kérdéssorban is („Egyszerre több hal rosszul van”).',
         'Tervezés: a fajokat „tervezett lakóként” is felveheted, és megnézheted, hogyan illenének a mostani lakók mellé, és mekkora lenne a halterhelés.',
         'Fajok: mindig látható keresés, vissza gomb és „Nem ajánlottak elrejtése” kapcsoló; a nehézség pöttyökkel látszik, a betegségeknél jelezzük, mire hajlamosabb egy faj, és több fajnál a fiatalkori kinézet is látható.',
+        'Fajok: új „Együtt tartás” rész az adatlapokon: viselkedés, mit eszik, hány tartható egy tankban, mely rokon fajokkal verekszik, és kikkel él szimbiózisban.',
         'Új: ez az újdonságok ablak 🙂'
       ],
       en: [
@@ -34,6 +35,7 @@
         'Fishy Doctor: four new non-infectious topics – aggression between fish, old age, water quality problems and low oxygen – also in the questions (“Several fish are unwell at once”).',
         'Planning: add species as planned livestock and see how they would fit with your current livestock and what the fish load would be.',
         'Species: search, back and “hide not recommended” are always at hand; care level shows as dots, diseases show what a species is more prone to, and several species show their juvenile look too.',
+        'Species: a new “Keeping with others” part on the cards: temperament, what it eats, how many fit in one tank, which related species it fights with, and its symbiotic partners.',
         'New: this what’s new window 🙂'
       ]
     }

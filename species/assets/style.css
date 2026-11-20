@@ -260,3 +260,7 @@ main:focus-visible { outline: none; }
 .phototoggle button { border: 0; background: transparent; color: #fff; font-weight: 600; font-size: .85rem; padding: 4px 12px; border-radius: 999px; cursor: pointer; }
 .phototoggle button[aria-pressed="true"] { background: #fff; color: #13262b; }
 @media (max-width: 480px) { .phototoggle { top: 8px; right: 8px; } }
+.dtag { display: inline-flex; align-items: center; gap: 5px; font-size: .8rem; font-weight: 600; white-space: nowrap; }
+.dtag .dlabel { margin-left: 0; }
+.facts.compat { margin-top: 8px; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); }
+.facts.compat dd { font-weight: 500; line-height: 1.45; }

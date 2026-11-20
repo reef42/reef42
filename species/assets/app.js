@@ -41,7 +41,12 @@
       fitCta: 'Add your tank (type, size, start date and livestock) in Tank Log to see whether this species suits it.',
       fitNote: 'Estimate. If you want to know more, let’s talk about it on {discord}.', discordWord: 'Discord',
       fitPlanAdd: 'Add to the plan', fitNow: 'With your current livestock', fitWithPlan: 'With the planned livestock too', planTag: 'with plan',
-      adult: 'Adult', juvenile: 'Juvenile', searchAll: 'Search all species…'
+      adult: 'Adult', juvenile: 'Juvenile', searchAll: 'Search all species…',
+      cTitle: 'Keeping with others', cTemper: 'Temperament', cShy: 'shy, slow eater', cEats: 'Eats', cMayEat: 'May eat or nip',
+      cOwn: 'With its own kind', cOwnOne: 'keep only one per tank', cOwnPair: 'at most one pair', cOwnMax: 'at most {n} per tank', cGroup: 'in a group of at least {n}',
+      cRivals: 'With related species', cRivalNever: 'does not get along with: {names}', cRivalUnder: 'fights under {l} L with: {names}',
+      cAge: 'Needs a settled tank', cAgeText: 'at least {n} months old', cCorals: 'Next to corals', cWanders: 'wanders around the tank',
+      cAvoid: 'Dangerous to it', cPartners: 'Symbiosis', cJumper: 'Jumps', cJumperText: 'the tank needs a lid or a net', cMore: '+{n} more'
     },
     hu: {
       app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invertebrate: 'Gerinctelenek',
@@ -69,7 +74,12 @@
       fitCta: 'Vedd fel az akváriumodat (fajta, méret, indulás és lakók) a Tank Logban, és megmutatjuk, illik-e hozzá ez a faj.',
       fitNote: 'Becslés. Ha többet szeretnél tudni, beszéljünk róla {discord}.', discordWord: 'Discordon',
       fitPlanAdd: 'Hozzáadás tervezéshez', fitNow: 'A mostani lakókkal', fitWithPlan: 'A tervezett lakókkal együtt', planTag: 'tervvel',
-      adult: 'Felnőtt', juvenile: 'Fiatal', searchAll: 'Keresés az összes faj között…'
+      adult: 'Felnőtt', juvenile: 'Fiatal', searchAll: 'Keresés az összes faj között…',
+      cTitle: 'Együtt tartás', cTemper: 'Viselkedés', cShy: 'félénk, lassú evő', cEats: 'Megeszi', cMayEat: 'Csipegetheti, megeheti',
+      cOwn: 'Fajtársaival', cOwnOne: 'egyedül tartandó', cOwnPair: 'legfeljebb egy pár', cOwnMax: 'legfeljebb {n} példány egy tankban', cGroup: 'csoportban, legalább {n} példány',
+      cRivals: 'Rokon fajokkal', cRivalNever: 'nem fér meg velük: {names}', cRivalUnder: '{l} l alatt verekszik velük: {names}',
+      cAge: 'Beállt tank kell', cAgeText: 'legalább {n} hónapos', cCorals: 'Korallok mellett', cWanders: 'vándorol az akváriumban',
+      cAvoid: 'Veszélyes rá', cPartners: 'Szimbiózis', cJumper: 'Kiugrik', cJumperText: 'fedő vagy háló kell az akváriumra', cMore: '+{n} további'
     }
   };
 
@@ -278,6 +288,8 @@
     const label = lab('difficulty', d);
     return '<span class="dots d' + DOTS[d] + '" title="' + esc(label) + '" role="img" aria-label="' + esc(t('care') + ': ' + label) + '">' + '<i></i>'.repeat(DOTS[d]) + '</span>';
   }
+  // Dots with the level written next to them (tiles, filter chips).
+  const dotsText = (d) => (DOTS[d] ? '<span class="dtag">' + dots(d) + '<span class="dlabel">' + esc(lab('difficulty', d)) + '</span></span>' : '');
   const matchesCare = (s) => !filt.care || s.difficulty === filt.care;
   function miniFacts(s) {
     const f = [];
@@ -297,7 +309,7 @@
       const path = pathOf(s.group, s.category);
       path.forEach((p, i) => out.push('<span class="tag group">' + esc(catName(s.group, path.slice(0, i + 1))) + '</span>'));
     }
-    if (DOTS[s.difficulty]) out.push(dots(s.difficulty));
+    if (DOTS[s.difficulty]) out.push(dotsText(s.difficulty));
     if (lab('reef_safety', s.reef_safety)) out.push('<span class="tag ' + (REEF_CLASS[s.reef_safety] || '') + '">' + esc(lab('reef_safety', s.reef_safety)) + '</span>');
     return '<div class="tags">' + out.join('') + '</div>';
   }
@@ -386,7 +398,7 @@
     const cares = CARE_ORDER.filter((c) => xs.some((s) => s.difficulty === c));
     if (filt.care && !cares.includes(filt.care)) filt.care = '';
     app.innerHTML = tankBar() + '<h1>' + esc(catName(CAT, PATH)) + '</h1>' +
-      (cares.length > 1 ? '<div class="filters">' + chipRow('care', cares, (v) => lab('difficulty', v), dots) + '</div>' : '') +
+      (cares.length > 1 ? '<div class="filters">' + chipRow('care', cares, (v) => lab('difficulty', v), dotsText) + '</div>' : '') +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     const items = xs.filter(matchesCare).filter(matchesFit).sort(bySpecies);
     document.getElementById('count').textContent = t('count', { n: items.length });
@@ -404,6 +416,41 @@
     return value ? '<div><dt>' + esc(label) + '</dt><dd>' + (html ? value : esc(value)) + '</dd></div>' : '';
   }
   const careFact = (s) => fact(t('care'), DOTS[s.difficulty] ? dots(s.difficulty) + ' <span class="dlabel">' + esc(lab('difficulty', s.difficulty)) + '</span>' : '', true);
+
+  // "Keeping with others": the species' own compat data, independent of the user's tank.
+  const spLink = (x) => '<a href="' + speciesHref(x) + '">' + esc(title(x)) + '</a>';
+  function linkList(xs, max) {
+    const shown = xs.slice(0, max).map(spLink).join(', ');
+    return shown + (xs.length > max ? ' ' + esc(t('cMore', { n: xs.length - max })) : '');
+  }
+  const preyList = (keys) => (keys || []).map((k) => lab('prey', k) || k).join(', ');
+  function compatSect(s) {
+    const c = s.compat || {};
+    const out = [];
+    if (c.temperament || c.shy) out.push(fact(t('cTemper'), [lab('temperament', c.temperament), c.shy ? t('cShy') : ''].filter(Boolean).join(', ')));
+    if ((c.eats || []).length) out.push(fact(t('cEats'), preyList(c.eats)));
+    if ((c.may_eat || []).length) out.push(fact(t('cMayEat'), preyList(c.may_eat)));
+    const own = [c.max_same === 1 ? t('cOwnOne') : c.max_same === 2 ? t('cOwnPair') : c.max_same ? t('cOwnMax', { n: c.max_same }) : '',
+      c.group_min ? t('cGroup', { n: c.group_min }) : ''].filter(Boolean).join('; ');
+    if (own) out.push(fact(t('cOwn'), own));
+    // Rival groups have no readable names in the data, so the other species of the group stand for it.
+    const rivals = (c.rivals || []).map((r) => {
+      const xs = all.filter((x) => x.id !== s.id && ((x.compat || {}).rivals || []).some((q) => q.key === r.key));
+      if (!xs.length) return '';
+      return esc(r.ok_from_l == null ? t('cRivalNever', { names: '' }) : t('cRivalUnder', { l: r.ok_from_l, names: '' })) + linkList(xs, 3);
+    }).filter(Boolean);
+    if (rivals.length) out.push(fact(t('cRivals'), rivals.join('<br>'), true));
+    if (c.min_age_months) out.push(fact(t('cAge'), t('cAgeText', { n: c.min_age_months })));
+    const corals = [c.neighbours ? lab('neighbours', c.neighbours) : '', c.wanders ? t('cWanders') : ''].filter(Boolean).join('; ');
+    if (corals) out.push(fact(t('cCorals'), corals));
+    if ((c.avoid || []).length) out.push(fact(t('cAvoid'), preyList(c.avoid)));
+    // Partners are often recorded on one side only (clownfish → anemone), so both directions count.
+    const partners = (c.partners || []).map(byId).filter(Boolean)
+      .concat(all.filter((x) => ((x.compat || {}).partners || []).includes(s.id) && !(c.partners || []).includes(x.id)));
+    if (partners.length) out.push(fact(t('cPartners'), linkList(partners, 6), true));
+    if (c.jumper) out.push(fact(t('cJumper'), t('cJumperText')));
+    return out.length ? '<section class="sect"><h2>' + esc(t('cTitle')) + '</h2><dl class="facts compat">' + out.join('') + '</dl></section>' : '';
+  }
   function textSect(head, text) {
     const x = tr(text).trim();
     return x ? '<section class="sect"><h2>' + esc(head) + '</h2><p>' + esc(x) + '</p></section>' : '';
@@ -450,7 +497,7 @@
     const src = (s.sources || []).filter((x) => x && x.url);
     app.innerHTML = tankBar() +
       '<article class="card">' + photoFigure(s) + '<div class="card-head"><h1>' + esc(title(s)) + '</h1><p class="names">' + names.join(' · ') + '</p>' +
-      tags(s, true) + '</div>' + verdictBox(s) + fitBox(s) + '<dl class="facts">' + facts(s) + '</dl>' +
+      tags(s, true) + '</div>' + verdictBox(s) + fitBox(s) + '<dl class="facts">' + facts(s) + '</dl>' + compatSect(s) +
       sections + textSect(t('origin'), s.origin) + textSect(t('notes'), s.notes) + diseaseSect(s) +
       (src.length ? '<section class="sect sources"><h2>' + esc(t('sources')) + '</h2><ul>' + src.map((x) =>
         '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.name || x.url) + '</a></li>').join('') + '</ul></section>' : '') +
