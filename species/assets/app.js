@@ -237,7 +237,17 @@
     }
     groupGrid([], count, list);
   }
-  // Tiles for the child types of a path ([] = the category's main types), each with a photo of its first species.
+  // Random photos, picked once per page load so they stay put while browsing but change on every visit.
+  const PICKS = {};
+  function pickPhotos(key, xs, n) {
+    if (!PICKS[key]) {
+      const pool = xs.filter((s) => s.image);
+      for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+      PICKS[key] = pool.slice(0, n);
+    }
+    return PICKS[key];
+  }
+  // Tiles for the child types of a path ([] = the category's main types), each with a photo of a random species.
   function groupGrid(path, count, list) {
     const node = nodeAt(CAT, path);
     const xs = species.filter(inPath(path));
@@ -246,7 +256,7 @@
     list.innerHTML = '<ul class="grid">' + groups.map(groupTile).join('') + '</ul>';
   }
   function groupTile({ path, xs }) {
-    const rep = xs.find((s) => s.image);
+    const rep = pickPhotos(CAT + '/' + path.join('/'), xs, 1)[0];
     const img = rep ? photoImg(rep, false, true, '') : '';
     return '<li><a class="tile group-tile' + (img ? ' has-photo' : '') + '" href="' + pathHref(CAT, path) + '">' +
       (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(catName(CAT, path)) + '</h2>' +
@@ -330,11 +340,20 @@
   }
 
   /* ---------- overview ---------- */
+  // Each category tile shows a mosaic of random species photos from that category (the icon when there are none).
+  function catTile(c) {
+    const xs = all.filter((s) => s.group === c);
+    const pics = pickPhotos(c, xs, 4);
+    const icon = '<img class="cat-icon" src="assets/' + ICON[c] + '.svg" alt="" width="' + (pics.length ? 32 : 44) + '" height="' + (pics.length ? 32 : 44) + '">';
+    const mosaic = pics.length ? '<div class="thumb mosaic n' + pics.length + '">' + pics.map((s) => photoImg(s, false, false, '')).join('') + '</div>' : '';
+    return '<li><a class="tile cat' + (mosaic ? ' has-photo' : '') + '" href="#/' + SLUG[c] + '">' + mosaic +
+      (mosaic ? '<div class="cat-head">' + icon + '<h2>' + esc(t(c)) + '</h2></div>' : icon + '<h2>' + esc(t(c)) + '</h2>') +
+      '<span class="go">' + esc(t('open', { n: xs.length })) + '</span></a></li>';
+  }
   function renderHome() {
     document.title = t('app') + ' – reef42';
     app.innerHTML = '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
-      CATS.map((c) => '<li><a class="tile cat" href="#/' + SLUG[c] + '"><img src="assets/' + ICON[c] + '.svg" alt="" width="44" height="44">' +
-        '<h2>' + esc(t(c)) + '</h2><span class="go">' + esc(t('open', { n: all.filter((s) => s.group === c).length })) + '</span></a></li>').join('') + '</ul>';
+      CATS.map(catTile).join('') + '</ul>';
   }
 
   /* ---------- routing ---------- */
