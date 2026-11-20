@@ -391,6 +391,7 @@ main { flex: 1; width: 100%; min-width: 0; max-width: 1100px; margin: 0 auto; pa
 .tfacts dd { margin: 0; font-weight: 600; }
 .stage { display: inline-block; font-size: .75rem; font-weight: 700; padding: 0 7px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
 .stage.s-cycling, .stage.s-planned { background: var(--warn-soft); color: var(--warn); }
+.stage[title] { cursor: help; }
 .dchip.fit { font-size: .78rem; font-weight: 700; padding: 1px 8px; }
 .loadcard .lhead { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
 .loadcard h2 { margin: 0; }

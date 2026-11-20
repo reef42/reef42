@@ -35,10 +35,11 @@
       noticeText: 'The species database is currently being reviewed. Care cards may contain inaccuracies or missing and outdated data, and the content keeps changing as we check it.',
       noticeCheck: 'Always double-check the details from several sources before you buy or decide anything.',
       noticeMail: 'Spotted a mistake? Write to us:', noticeOk: 'Got it',
-      fitTitle: 'Does it suit your tank?', fitFor: 'Estimate for', fitAdd: 'Add to the livestock', fitOnly: 'Suits my tank',
+      fitTitle: 'Does it suit your tank?', fitFor: 'Estimate for', fitAdd: 'Add to the livestock', fitOnly: 'Hide not recommended',
+      mine: 'My species', mineLead: 'Living in your tank: {tank}.', mineEdit: 'Edit the livestock in Tank Log →', mineEmpty: 'No livestock in this tank yet.',
       fitHint: 'Add your tank in Tank Log, and every species will show whether it suits it.', fitHintGo: 'Set up my tank →', fitHide: 'Hide',
       fitCta: 'Add your tank (type, size, start date and livestock) in Tank Log to see whether this species suits it.',
-      fitNote: 'Rules-of-thumb estimate; individual animals can differ. Ask on Discord before buying.'
+      fitNote: 'This is only an estimate based on rules of thumb; individual animals may behave differently. It is worth asking on Discord before you buy.'
     },
     hu: {
       app: 'Fajok', home: 'Áttekintés', fish: 'Halak', coral: 'Korallok', invertebrate: 'Gerinctelenek',
@@ -60,10 +61,11 @@
       noticeText: 'A fajadatbázis jelenleg átnézés alatt áll. Az adatlapokon előfordulhatnak pontatlanságok, hiányzó vagy elavult adatok, és a tartalom az ellenőrzés során folyamatosan változik.',
       noticeCheck: 'Vásárlás vagy döntés előtt mindig ellenőrizd az adatokat több forrásból is.',
       noticeMail: 'Hibát találtál? Írj nekünk:', noticeOk: 'Értem',
-      fitTitle: 'Illik az akváriumodba?', fitFor: 'Becslés ehhez:', fitAdd: 'Hozzáadás a lakókhoz', fitOnly: 'Nekem való',
+      fitTitle: 'Illik az akváriumodba?', fitFor: 'Becslés ehhez:', fitAdd: 'Hozzáadás a lakókhoz', fitOnly: 'Nem ajánlottak elrejtése',
+      mine: 'Fajaim', mineLead: 'Ezek élnek ebben az akváriumodban: {tank}.', mineEdit: 'Lakók szerkesztése a Tank Logban →', mineEmpty: 'Ebben az akváriumban még nincsenek lakók.',
       fitHint: 'Vedd fel az akváriumodat a Tank Logban, és minden fajnál megmutatjuk, illik-e hozzá.', fitHintGo: 'Akváriumom felvétele →', fitHide: 'Elrejtés',
       fitCta: 'Vedd fel az akváriumodat (fajta, méret, indulás és lakók) a Tank Logban, és megmutatjuk, illik-e hozzá ez a faj.',
-      fitNote: 'Ökölszabályokon alapuló becslés, egyes állatok eltérhetnek. Vásárlás előtt kérdezz rá a Discordon.'
+      fitNote: 'Ez csak tapasztalati szabályokon alapuló becslés, az egyes állatok viselkedése ettől eltérhet. Vásárlás előtt érdemes rákérdezni a Discordon.'
     }
   };
 
@@ -80,7 +82,7 @@
   let species = [];
   let PATH = [];
   const FILTERS = {};
-  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '', fit: '' }; });
+  CATS.forEach((c) => { FILTERS[c] = { q: '', care: '' }; });
   let filt = FILTERS.fish;
   const listScroll = {};
 
@@ -265,19 +267,24 @@
   }
   // The tank the estimates are for, refreshed on every render (Tank Log may change it in another tab).
   let TANK = null;
-  const matchesFit = (s) => !filt.fit || !TANK || fitOf(s, TANK).level !== 'bad';
+  // "Hide not recommended" is one switch for every list, kept between visits.
+  const HIDE_KEY = 'reef42-species-hidebad';
+  let hideBad = ls(true, HIDE_KEY) === '1';
+  const matchesFit = (s) => !hideBad || !TANK || fitOf(s, TANK).level !== 'bad';
+  const fitChip = () => (TANK ? '<button type="button" class="chip" data-f="fit" aria-pressed="' + hideBad + '">' + esc(t('fitOnly')) + '</button>' : '');
   function chipRow(key, values, labelOf) {
     return '<div class="chips" role="group">' + [''].concat(values).map((v) =>
       '<button type="button" class="chip" data-f="' + key + '" data-v="' + esc(v) + '" aria-pressed="' + (filt[key] === v) + '">' +
       esc(v ? labelOf(v) : t('all')) + '</button>').join('') + '</div>';
   }
   const backLink = (href, label) => '<a class="back" href="' + href + '">' + esc(t('back', { x: label })) + '</a>';
-  function tile(s, withGroup) {
+  // fitResult / count: on "My species" the estimate is for a resident (the rest of the tank) and shows how many there are.
+  function tile(s, withGroup, fitResult, count) {
     const img = photoImg(s, false, true);
     const sub = (lang === 'hu' && s.name_hu && s.name_en ? esc(s.name_en) + ' · ' : '') + '<span class="sci">' + esc(s.scientific_name) + '</span>';
-    const fit = fitTag(fitOf(s, TANK));
+    const fit = fitTag(fitResult || fitOf(s, TANK));
     return '<li><a class="tile' + (img ? ' has-photo' : '') + '" href="' + speciesHref(s) + '">' +
-      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + '</h2>' +
+      (img ? '<div class="thumb">' + img + '</div>' : '') + '<h2>' + esc(title(s)) + (count > 1 ? ' × ' + count : '') + '</h2>' +
       '<p class="sub">' + sub + '</p>' + (fit ? '<div class="tags">' + fit + '</div>' : '') + tags(s, withGroup) + '<p class="facts-mini">' + miniFacts(s) + '</p></a></li>';
   }
 
@@ -285,7 +292,7 @@
   function renderCategory() {
     document.title = t(CAT) + ' – reef42';
     app.innerHTML = tankBar() + '<h1>' + esc(t(CAT)) + '</h1><p class="lead">' + esc(t('lead_' + CAT)) + '</p>' +
-      '<div class="filters"><input class="search" id="q" type="search" autocomplete="off" placeholder="' + esc(t('search')) + '" aria-label="' + esc(t('search')) + '" value="' + esc(filt.q) + '"></div>' +
+      '<div class="filters"><input class="search" id="q" type="search" autocomplete="off" placeholder="' + esc(t('search')) + '" aria-label="' + esc(t('search')) + '" value="' + esc(filt.q) + '">' + fitChip() + '</div>' +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     renderCategoryItems();
   }
@@ -338,9 +345,9 @@
     document.title = catName(CAT, PATH) + ' – ' + t(CAT) + ' – reef42';
     const cares = CARE_ORDER.filter((c) => xs.some((s) => s.difficulty === c));
     if (filt.care && !cares.includes(filt.care)) filt.care = '';
-    const fitChip = TANK ? '<button type="button" class="chip" data-f="fit" data-v="' + (filt.fit ? '' : '1') + '" aria-pressed="' + !!filt.fit + '">' + esc(t('fitOnly')) + '</button>' : '';
+    const fc = fitChip();
     app.innerHTML = upLink(PATH) + tankBar() + '<h1>' + esc(catName(CAT, PATH)) + '</h1>' +
-      (cares.length > 1 || fitChip ? '<div class="filters">' + (cares.length > 1 ? chipRow('care', cares, (v) => lab('difficulty', v)) : '') + fitChip + '</div>' : '') +
+      (cares.length > 1 || fc ? '<div class="filters">' + (cares.length > 1 ? chipRow('care', cares, (v) => lab('difficulty', v)) : '') + fc + '</div>' : '') +
       '<p class="count" id="count" aria-live="polite"></p><div id="list"></div>';
     const items = xs.filter(matchesCare).filter(matchesFit).sort(bySpecies);
     document.getElementById('count').textContent = t('count', { n: items.length });
@@ -414,10 +421,38 @@
       (mosaic ? '<div class="cat-head">' + icon + '<h2>' + esc(t(c)) + '</h2></div>' : icon + '<h2>' + esc(t(c)) + '</h2>') +
       '<span class="go">' + esc(t('open', { n: xs.length })) + '</span></a></li>';
   }
+  // The residents of the chosen Tank Log tank that are in the database.
+  const myLive = () => (TANK ? (TANK.livestock || []).filter((x) => all.some((s) => s.id === x.sp)) : []);
+  function mineTile() {
+    const live = myLive();
+    if (!live.length) return '';
+    const xs = live.map((x) => all.find((s) => s.id === x.sp));
+    const pics = pickPhotos('mine', xs, 4);
+    const icon = '<img class="cat-icon" src="assets/icon.svg" alt="" width="32" height="32">';
+    return '<li><a class="tile cat mine' + (pics.length ? ' has-photo' : '') + '" href="#/mine">' +
+      (pics.length ? '<div class="thumb mosaic n' + pics.length + '">' + pics.map((s) => photoImg(s, false, false, '')).join('') + '</div>' : '') +
+      '<div class="cat-head">' + icon + '<h2>' + esc(t('mine')) + '</h2></div>' +
+      '<span class="go">' + esc(t('open', { n: xs.length })) + '</span></a></li>';
+  }
   function renderHome() {
     document.title = t('app') + ' – reef42';
     app.innerHTML = tankBar() + '<h1>' + esc(t('app')) + '</h1><p class="lead">' + esc(t('lead_home')) + '</p><ul class="grid cats">' +
-      CATS.map(catTile).join('') + '</ul>';
+      CATS.map(catTile).join('') + mineTile() + '</ul>';
+  }
+  // "My species": the residents of the chosen tank, each judged against the rest of the tank.
+  function renderMine() {
+    document.title = t('mine') + ' – reef42';
+    const live = myLive();
+    let h = backLink('#/', t('home')) + tankBar() + '<h1>' + esc(t('mine')) + '</h1>';
+    if (TANK) h += '<p class="lead" data-no-gloss>' + esc(t('mineLead', { tank: TANK.name })) + '</p>';
+    h += live.length
+      ? '<ul class="grid">' + live.map((x) => {
+        const s = all.find((y) => y.id === x.sp);
+        return tile(s, true, Fit.evaluate(Fit.index(DB), s, TANK, lang, { exclude: x.id, n: x.n }), x.n);
+      }).join('') + '</ul>'
+      : '<p class="empty">' + esc(t('mineEmpty')) + '</p>';
+    h += '<p><a class="btn-s" href="../tank-log/#/livestock">' + esc(t('mineEdit')) + '</a></p>';
+    app.innerHTML = h;
   }
 
   /* ---------- routing ---------- */
@@ -430,6 +465,7 @@
     const here = '#/' + parts.map(encodeURIComponent).join('/');
     const go = (r, href) => Object.assign(r, { href, moved: href !== here });
     if (!parts.length) return { cat: null, path: [] };
+    if (parts[0] === 'mine') return { cat: null, path: [], mine: true };
     const cat = BY_SLUG[parts[0]];
     if (!cat) { const s = byId(parts[0]); return s ? go({ cat: s.group, path: pathOf(s.group, s.category), id: s.id }, speciesHref(s)) : go({ cat: null, path: [] }, '#/'); }
     const path = [];
@@ -451,7 +487,8 @@
     TANK = myTank();
     renderChrome();
     const node = CAT && PATH.length ? nodeAt(CAT, PATH) : null;
-    if (!CAT) renderHome();
+    if (r.mine) renderMine();
+    else if (!CAT) renderHome();
     else if (r.id) renderSpecies(r.id);
     else if (node && node.children) renderGroups();
     else if (node) renderSub(keepFocus);
@@ -461,8 +498,16 @@
   app.addEventListener('click', (e) => {
     const b = e.target.closest('button[data-f]');
     if (!b) return;
+    if (b.dataset.f === 'fit') {
+      hideBad = !hideBad;
+      ls(false, HIDE_KEY, hideBad ? '1' : '');
+      render();
+      const c = app.querySelector('.chip[data-f="fit"]');
+      if (c) c.focus();
+      return;
+    }
     filt[b.dataset.f] = b.dataset.v;
-    renderSub(b.dataset.f === 'fit' ? '.chip[data-f="fit"]' : '.chip[data-f="' + b.dataset.f + '"][data-v="' + b.dataset.v + '"]');
+    renderSub('.chip[data-f="' + b.dataset.f + '"][data-v="' + b.dataset.v + '"]');
   });
   app.addEventListener('input', (e) => { if (e.target.id === 'q') { filt.q = e.target.value; renderCategoryItems(); } });
   app.addEventListener('change', (e) => { if (e.target.id === 'fitTank') { ls(false, TANK_KEY, e.target.value); render(); } });

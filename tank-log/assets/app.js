@@ -108,10 +108,10 @@
       setupNudge: 'Add the type, size and start date of your tank to see which species suit it.', setupBtn: 'Set up', setupHide: 'Not now',
       lvEmpty: 'No livestock yet.', lvAdd: '+ Add livestock', lvEditTank: 'Edit tank details', lvLoad: 'Fish load',
       lvLoadHelp: 'Rough estimate from the adult size of the fish and the tank volume.', lvAdded: 'added {date}',
-      lvDisclaimer: 'Rules-of-thumb estimate; individual animals can differ. Ask on Discord before buying.',
+      lvDisclaimer: 'This is only an estimate based on rules of thumb; individual animals may behave differently. It is worth asking on Discord before you buy.',
       lvRemove: 'Remove', confirmRemoveLive: 'Remove {name} from {tank}?', lvMore: 'Details', lvCard: 'Care card →',
       lvFish: 'Fish', lvCoral: 'Corals', lvInvert: 'Invertebrates', lvCount: 'Count', lvLess: 'One less', lvPlus: 'One more',
-      pkTitle: 'Add livestock', pkSearch: 'Search species…', pkAll: 'All', pkFit: 'Only suitable ones', pkMore: 'Show more',
+      pkTitle: 'Add livestock', pkSearch: 'Search species…', pkAll: 'All', pkFit: 'Hide not recommended', pkMore: 'Show more',
       pkNone: 'No species match.', pkAddBtn: 'Add to the tank', pkDate: 'Added on', pkBack: '← Back to the list',
       pkBadConfirm: '{name} is not recommended for this tank. Add it anyway?', pkAdded: '{name} added', dbErr: 'The species data could not be loaded.'
     },
@@ -180,10 +180,10 @@
       setupNudge: 'Add meg az akváriumod fajtáját, méretét és indulását, és megmutatjuk, mely fajok illenek hozzá.', setupBtn: 'Beállítás', setupHide: 'Most nem',
       lvEmpty: 'Még nincsenek lakók.', lvAdd: '+ Lakó hozzáadása', lvEditTank: 'Adatok szerkesztése', lvLoad: 'Halterhelés',
       lvLoadHelp: 'Durva becslés a halak felnőttkori mérete és a térfogat alapján.', lvAdded: 'hozzáadva: {date}',
-      lvDisclaimer: 'Ökölszabályokon alapuló becslés, egyes állatok eltérhetnek. Vásárlás előtt kérdezz rá a Discordon.',
+      lvDisclaimer: 'Ez csak tapasztalati szabályokon alapuló becslés, az egyes állatok viselkedése ettől eltérhet. Vásárlás előtt érdemes rákérdezni a Discordon.',
       lvRemove: 'Eltávolítás', confirmRemoveLive: 'Eltávolítod ezt a lakót: {name} ({tank})?', lvMore: 'Részletek', lvCard: 'Adatlap →',
       lvFish: 'Halak', lvCoral: 'Korallok', lvInvert: 'Gerinctelenek', lvCount: 'Darab', lvLess: 'Eggyel kevesebb', lvPlus: 'Eggyel több',
-      pkTitle: 'Lakó hozzáadása', pkSearch: 'Faj keresése…', pkAll: 'Mind', pkFit: 'Csak a nekem valók', pkMore: 'Továbbiak',
+      pkTitle: 'Lakó hozzáadása', pkSearch: 'Faj keresése…', pkAll: 'Mind', pkFit: 'Nem ajánlottak elrejtése', pkMore: 'Továbbiak',
       pkNone: 'Nincs ilyen faj.', pkAddBtn: 'Hozzáadás a tankhoz', pkDate: 'Bekerült', pkBack: '← Vissza a listához',
       pkBadConfirm: 'Ez a faj ebbe a tankba nem ajánlott: {name}. Mégis hozzáadod?', pkAdded: 'Hozzáadva: {name}', dbErr: 'Nem sikerült betölteni a fajadatokat.'
     }
@@ -1175,7 +1175,8 @@
     const start = tank.planned ? '' : tank.start ? fmtDate(dayMs(tank.start), true) + ' · ' + ageText(tank) : '–';
     return '<dl class="tfacts" data-no-gloss><div><dt>' + esc(t('typeLbl')) + '</dt><dd>' + esc(typeLabel(tank.type)) + '</dd></div>' +
       '<div><dt>' + esc(t('volume')) + '</dt><dd>' + esc(tank.volume ? fmtNum(tank.volume) : '–') + '</dd></div>' +
-      '<div><dt>' + esc(t('startLbl')) + '</dt><dd>' + esc(start) + (st ? ' <span class="stage s-' + st + '">' + esc(C.text(lang, st)) + '</span>' : '') + '</dd></div></dl>';
+      '<div><dt>' + esc(t('startLbl')) + '</dt><dd>' + esc(start) + (st ? ' <span class="stage s-' + st + '"' +
+      (st === 'mature' ? ' title="' + esc(C.text(lang, 'matureTip')) + '" tabindex="0"' : '') + '>' + esc(C.text(lang, st)) + '</span>' : '') + '</dd></div></dl>';
   }
   const FIT = { good: 'good', caution: 'warn', bad: 'bad', unknown: 'neutral' };
   const fitBadge = (r) => '<span class="dchip fit ' + FIT[r.level] + '">' + esc(r.label) + '</span>';

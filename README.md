@@ -31,8 +31,9 @@ the only file the page loads. With errors it writes nothing.
 Fit estimate: each fish, coral and invertebrate has a `compat` field (temperament, what it eats, how many fit in one tank,
 rival species, how settled the tank must be, partners…). [`shared/compat.js`](shared/compat.js) judges a species against a
 tank (type, volume, start date, livestock) and lists every reason; Tank Log uses it for the livestock, and the species pages for
-the user's Tank Log tanks (a "suits my tank" filter, a badge on the tiles and the reasons on the card). Without a tank set up,
-the species pages show a hint that links to the Tank Log wizard.
+the user's Tank Log tanks (a badge on the tiles, the reasons on the card, a "hide not recommended" switch kept in
+`localStorage['reef42-species-hidebad']`, and a "My species" tile and page, `#/mine`, with the tank's livestock). Without a
+tank set up, the species pages show a hint that links to the Tank Log wizard.
 Reef42's own verdicts live apart from the delivered data in `databases/reef42_verdicts.json` (`"<id>": { "recommendation":
 "not_recommended", "reason": { "hu", "en" } }`); such species get a "Reef42: not recommended" badge and the reason on the card.
 
@@ -66,7 +67,8 @@ the site, remove the `gate.js` script tag from each `index.html`.
 
 Every page loads [`shared/whatsnew.js`](shared/whatsnew.js), which shows the release notes once per new version, after the
 gate and after any dialog the page opens itself. The newest seen version is kept in `localStorage['reef42-seen-version']`;
-first-time visitors see only the latest entry. For a new release, add an entry to the top of `VERSIONS` in that file (`id` is
+first-time visitors get a three-step welcome tour instead (what reef42 is, set up your tank in Tank Log with a link to its
+wizard, underlined glossary terms), which also marks the current notes as seen. For a new release, add an entry to the top of `VERSIONS` in that file (`id` is
 the date, `YYYY-MM-DD`, with `hu` and `en` bullet lists).
 
 ## Running locally
