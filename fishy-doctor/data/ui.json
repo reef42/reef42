@@ -41,8 +41,8 @@
   "openDisease": { "en": "Details & treatment", "hu": "Részletek és kezelés" },
 
   "diseasesLead": {
-    "en": "All diseases covered by the humble.fish disease index. Filter by affected area or search for a symptom.",
-    "hu": "A humble.fish betegségjegyzékében szereplő összes betegség. Szűrj érintett testrész szerint, vagy keress tünetre."
+    "en": "All diseases covered by the humble.fish disease index, plus a few non-infectious problems (aggression, old age, water quality, low oxygen). Filter by affected area or search for a symptom.",
+    "hu": "A humble.fish betegségjegyzékében szereplő összes betegség, kiegészítve néhány nem fertőző problémával (agresszió, időskor, vízminőség, oxigénhiány). Szűrj érintett testrész szerint, vagy keress tünetre."
   },
   "search": {
     "en": "Search name or symptom…",
@@ -181,8 +181,8 @@
   "legendResult": { "en": "Possible diagnosis", "hu": "Lehetséges diagnózis" },
 
   "sourcesLead": {
-    "en": "All disease descriptions, treatment details and pictures on this site are summarised from, and link back to, the humble.fish community articles (mostly written by Humblefish and the humble.fish team). Please visit and support the original site.",
-    "hu": "Az oldalon található betegségleírások, kezelési részletek és képek a humble.fish közösségi cikkeinek összefoglalói, és azokra hivatkoznak vissza (többségüket Humblefish és a humble.fish csapata írta). Kérjük, látogasd meg és támogasd az eredeti oldalt."
+    "en": "All disease descriptions, treatment details and pictures on this site are summarised from, and link back to, the humble.fish community articles (mostly written by Humblefish and the humble.fish team). Please visit and support the original site. The entries on aggression, old age, water quality and low oxygen are not from humble.fish: they are written by reef42 and list their references under Further reading.",
+    "hu": "Az oldalon található betegségleírások, kezelési részletek és képek a humble.fish közösségi cikkeinek összefoglalói, és azokra hivatkoznak vissza (többségüket Humblefish és a humble.fish csapata írta). Kérjük, látogasd meg és támogasd az eredeti oldalt. Az agresszióról, az időskorról, a vízminőségről és az oxigénhiányról szóló leírások nem a humble.fish-ről származnak: ezeket a reef42 írta, és a forrásaik a További olvasnivaló alatt találhatók."
   },
   "primarySources": { "en": "Primary sources", "hu": "Elsődleges források" },
   "articleSources": { "en": "Articles used", "hu": "Felhasznált cikkek" },

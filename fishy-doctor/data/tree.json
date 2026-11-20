@@ -12,8 +12,27 @@
         { "label": { "en": "Sores, red areas or erosion", "hu": "Sebek, vörös területek vagy erózió" }, "hint": { "en": "Open wounds, bloody streaks, ragged fins, pits on the head", "hu": "Nyílt sebek, véres csíkok, rongyos úszók, gödrök a fejen" }, "img": "uronema#1", "next": "n-sores" },
         { "label": { "en": "Eye problems", "hu": "Szemprobléma" }, "hint": { "en": "Cloudy, bulging or damaged eyes", "hu": "Homályos, kidülledő vagy sérült szem" }, "img": "eye-problems#0", "next": "n-eyes" },
         { "label": { "en": "Breathing or behaviour only", "hu": "Csak légzés vagy viselkedés" }, "img": "gill-hyperplasia#0", "hint": { "en": "Fast breathing, scratching on rocks, hiding – but little visible on the body", "hu": "Gyors légzés, dörgölőzés a köveken, bujkálás – de a testen alig látszik valami" }, "next": "n-behave" },
-        { "label": { "en": "Belly, feces or weight", "hu": "Has, ürülék vagy testsúly" }, "hint": { "en": "Wasting away, swollen belly, white stringy poop", "hu": "Lesoványodás, duzzadt has, fehér, fonalszerű ürülék" }, "img": "internal-problems#0", "next": "n-body" }
+        { "label": { "en": "Belly, feces or weight", "hu": "Has, ürülék vagy testsúly" }, "hint": { "en": "Wasting away, swollen belly, white stringy poop", "hu": "Lesoványodás, duzzadt has, fehér, fonalszerű ürülék" }, "img": "internal-problems#0", "next": "n-body" },
+        { "label": { "en": "Several fish (or the whole tank) are unwell at once", "hu": "Egyszerre több hal (vagy az egész tank) rosszul van" }, "hint": { "en": "Many fish, often of different species, got sick suddenly; corals or invertebrates may be affected too", "hu": "Hirtelen sok hal betegedett meg, gyakran különböző fajok; a korallok vagy a gerinctelenek is érintettek lehetnek" }, "next": "n-tank" }
       ]
+    },
+
+    "n-tank": {
+      "q": { "en": "What do you see in the tank?", "hu": "Mit látsz az akváriumban?" },
+      "short": { "en": "Whole tank?", "hu": "Egész tank?" },
+      "help": { "en": "When several fish get sick at the same time or within hours, the cause is usually the water or the oxygen supply, not a disease. Check the pumps, heater and temperature right away. If you see spots, dust or slime spreading from fish to fish, go back and pick that sign instead.", "hu": "Ha egyszerre vagy órákon belül több hal betegszik meg, az ok általában a víz vagy az oxigénellátás, nem betegség. Azonnal ellenőrizd a szivattyúkat, a fűtőt és a hőmérsékletet. Ha halról halra terjedő pöttyöket, poros bevonatot vagy nyálkát látsz, lépj vissza, és inkább azt a tünetet válaszd." },
+      "options": [
+        { "label": { "en": "All fish breathe fast or gasp at the surface", "hu": "Minden hal gyorsan lélegzik vagy levegő után kapkod a felszínen" }, "hint": { "en": "Often worst at night or in the morning, or after a power cut, pump stop, heat or medication", "hu": "Gyakran éjjel vagy reggel a legrosszabb, vagy áramszünet, szivattyúleállás, hőség vagy gyógyszerezés után jelentkezik" }, "next": "r-lowoxygen" },
+        { "label": { "en": "Other sudden problems in many fish", "hu": "Más hirtelen tünetek sok halon" }, "hint": { "en": "Hiding, not eating, clamped fins, odd swimming; corals or inverts suffer too; often after a water change, dosing or an equipment fault", "hu": "Bujkálás, étvágytalanság, összecsukott úszók, furcsa úszás; a korallok vagy a gerinctelenek is szenvednek; gyakran vízcsere, adagolás vagy eszközhiba után" }, "next": "r-water" }
+      ]
+    },
+    "r-lowoxygen": {
+      "result": ["low-oxygen", "water-quality"],
+      "note": { "en": "Treat this as an emergency: aerate first (powerhead aimed at the surface, air stone, restart the pumps and skimmer, open the lid), then test the water. If breathing does not improve quickly with strong aeration, look for a water quality problem.", "hu": "Kezeld vészhelyzetként: először levegőztess (áramoltató a felszín felé, porlasztókő, a szivattyúk és a fehérjefölöző újraindítása, fedél nyitva), utána mérd meg a vizet. Ha az erős levegőztetésre a légzés nem javul gyorsan, vízminőségi problémát keress." }
+    },
+    "r-water": {
+      "result": ["water-quality", "low-oxygen"],
+      "note": { "en": "Test the water now (ammonia, nitrite, salinity, temperature, pH, alkalinity) and think about what changed in the last day or two. A water change with matched saltwater is the safest first step. Log the results in Tank Log so sudden jumps stand out.", "hu": "Mérd meg most a vizet (ammónia, nitrit, sótartalom, hőmérséklet, pH, KH), és gondold végig, mi változott az elmúlt egy-két napban. A legbiztonságosabb első lépés egy vízcsere egyező paraméterű sós vízzel. Rögzítsd az eredményeket a Tank Logban, hogy a hirtelen ugrások szembetűnjenek." }
     },
 
     "n-spots": {
@@ -94,8 +113,13 @@
       "options": [
         { "label": { "en": "Deep red ulcers, spreading very fast", "hu": "Mély vörös fekélyek, nagyon gyorsan terjednek" }, "hint": { "en": "Bloody holes that eat into the flesh within hours/days; often small fish or fish weakened by other treatments", "hu": "Véres lyukak, amelyek órák/napok alatt a húsba mélyednek; gyakran kis halaknál vagy más kezelésektől legyengült halaknál" }, "img": "uronema#1", "next": "r-uronema" },
         { "label": { "en": "Frayed fins, red streaks, cloudy patches", "hu": "Rongyos úszók, vörös csíkok, homályos foltok" }, "hint": { "en": "Fin rot, reddened skin or ulcers developing over several days", "hu": "Úszórothadás, kipirosodott bőr vagy fekélyek, több nap alatt alakulnak ki" }, "img": "bacterial-infections#4", "next": "r-bact" },
-        { "label": { "en": "Pits and erosion on the head / lateral line", "hu": "Gödrök és erózió a fejen / oldalvonalon" }, "hint": { "en": "Shallow, pale pits that slowly enlarge over weeks or months; not bloody", "hu": "Sekély, sápadt gödrök, amelyek hetek-hónapok alatt lassan nőnek; nem véresek" }, "img": "hlle#0", "next": "r-hlle" }
+        { "label": { "en": "Pits and erosion on the head / lateral line", "hu": "Gödrök és erózió a fejen / oldalvonalon" }, "hint": { "en": "Shallow, pale pits that slowly enlarge over weeks or months; not bloody", "hu": "Sekély, sápadt gödrök, amelyek hetek-hónapok alatt lassan nőnek; nem véresek" }, "img": "hlle#0", "next": "r-hlle" },
+        { "label": { "en": "Torn fins, bite marks, being chased", "hu": "Szakadt úszók, harapásnyomok, kergetik" }, "hint": { "en": "Sharp-edged tears or missing scales that appeared suddenly; a tankmate chases or nips the fish", "hu": "Hirtelen megjelent, éles szélű szakadások vagy hiányzó pikkelyek; egy társa kergeti vagy csipkedi" }, "next": "r-aggression" }
       ]
+    },
+    "r-aggression": {
+      "result": ["fish-aggression", "bacterial-infections"],
+      "note": { "en": "Clean, sharp-edged tears that appear suddenly are typical of bites. Stop the aggression first, then watch the wounds: a white or red edge that keeps spreading means a secondary bacterial infection.", "hu": "A hirtelen megjelenő, tiszta, éles szélű szakadások harapásra jellemzők. Először az agressziót szüntesd meg, aztán figyeld a sebeket: a tovább terjedő fehér vagy vörös szél másodlagos bakteriális fertőzést jelez." }
     },
     "r-uronema": {
       "result": ["uronema", "bacterial-infections", "brooklynella"],
@@ -138,8 +162,13 @@
       "options": [
         { "label": { "en": "Fast or heavy breathing", "hu": "Gyors vagy nehézkes légzés" }, "hint": { "en": "Gills moving rapidly, maybe gasping or hanging near the surface", "hu": "A kopoltyú gyorsan mozog, esetleg kapkod a levegő után vagy a felszín közelében lebeg" }, "next": "n-breath" },
         { "label": { "en": "Scratching / flashing on rocks or sand", "hu": "Dörgölőzés a kövekhez vagy a homokhoz" }, "hint": { "en": "Darting and rubbing, with nothing obvious on the body", "hu": "Hirtelen rándulások és dörgölőzés, a testen nincs feltűnő elváltozás" }, "next": "n-flash" },
-        { "label": { "en": "Not eating, getting thin", "hu": "Nem eszik, soványodik" }, "hint": { "en": "Refuses food or eats but still wastes away", "hu": "Visszautasítja az ételt, vagy eszik, mégis lesoványodik" }, "next": "r-noteat" }
+        { "label": { "en": "Not eating, getting thin", "hu": "Nem eszik, soványodik" }, "hint": { "en": "Refuses food or eats but still wastes away", "hu": "Visszautasítja az ételt, vagy eszik, mégis lesoványodik" }, "next": "r-noteat" },
+        { "label": { "en": "Gasping at the surface", "hu": "Levegő után kapkod a felszínen" }, "hint": { "en": "Gulping at the surface or crowding in the outflow, often several fish at once", "hu": "A felszínen kapkod, vagy a kiáramlásnál tolong, gyakran egyszerre több hal" }, "next": "r-gasping" }
       ]
+    },
+    "r-gasping": {
+      "result": ["low-oxygen", "water-quality", "marine-velvet"],
+      "note": { "en": "Gasping at the surface means the fish cannot get enough oxygen: either the water holds too little (pump or power failure, heat, poor surface movement) or the gills are damaged (velvet, ammonia). Increase aeration immediately. If only one fish gasps while the others are fine, velvet or another gill problem is more likely.", "hu": "A felszíni kapkodás azt jelenti, hogy a hal nem jut elég oxigénhez: vagy a víz tart meg túl keveset (szivattyú- vagy áramkimaradás, hőség, gyenge felszíni vízmozgás), vagy a kopoltyú sérült (bársonybetegség, ammónia). Azonnal fokozd a levegőztetést. Ha csak egy hal kapkod, a többi rendben van, inkább bársonybetegség vagy más kopoltyúprobléma valószínű." }
     },
     "n-breath": {
       "q": { "en": "How quickly is the fish getting worse?", "hu": "Milyen gyorsan romlik a hal állapota?" },
@@ -150,7 +179,7 @@
       ]
     },
     "r-fastbreath": {
-      "result": ["marine-velvet", "brooklynella", "flukes"],
+      "result": ["marine-velvet", "brooklynella", "flukes", "low-oxygen"],
       "note": { "en": "Rapid breathing that gets worse quickly is a red flag for velvet (gills are attacked first). Also check water quality and oxygen.", "hu": "A gyorsan romló, szapora légzés bársonybetegségre utaló vészjel (először a kopoltyút támadja). Ellenőrizd a vízminőséget és az oxigénszintet is." }
     },
     "r-slowbreath": {
@@ -184,8 +213,13 @@
       "options": [
         { "label": { "en": "Thin or sunken belly despite eating", "hu": "Sovány, beesett has evés ellenére" }, "next": "r-wasting" },
         { "label": { "en": "White, stringy feces", "hu": "Fehér, fonalszerű ürülék" }, "img": "internal-problems#0", "next": "r-feces" },
-        { "label": { "en": "Swollen belly, bloating, abnormal swimming", "hu": "Duzzadt has, puffadás, rendellenes úszás" }, "next": "r-bloat" }
+        { "label": { "en": "Swollen belly, bloating, abnormal swimming", "hu": "Duzzadt has, puffadás, rendellenes úszás" }, "next": "r-bloat" },
+        { "label": { "en": "Old fish slowing down, losing weight", "hu": "Idős hal, lelassul, fogy" }, "hint": { "en": "Kept for many years; slow decline over months, fading colours, maybe cloudy eyes or a bent spine", "hu": "Sok éve tartott hal; hónapok alatt lassan romlik, fakulnak a színei, esetleg homályos a szeme vagy görbe a gerince" }, "next": "r-oldage" }
       ]
+    },
+    "r-oldage": {
+      "result": ["old-age", "internal-problems"],
+      "note": { "en": "Old age is diagnosed by ruling out everything else: if the fish wastes despite eating, has white stringy feces or the decline is fast, treat it as an internal problem first.", "hu": "Az időskor kizárásos diagnózis: ha a hal evés ellenére fogy, fehér, fonalas az ürüléke, vagy gyorsan romlik az állapota, először belső problémaként kezeld." }
     },
     "r-wasting": {
       "result": ["internal-problems"],

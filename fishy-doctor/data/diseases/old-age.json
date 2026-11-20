@@ -1,0 +1,124 @@
+{
+  "id": "old-age",
+  "source": null,
+  "author": "reef42",
+  "name": {"en": "Old Age", "hu": "Időskor"},
+  "scientific": null,
+  "category": "other",
+  "summary": {
+    "en": "Fish kept for many years eventually slow down. Lifespans vary a lot – some tiny gobies live only a year or two, while clownfish, tangs and angelfish can live well over ten years in good care. Signs of ageing develop slowly, over months: less activity, smaller appetite, weight loss, fading colours, cloudy eyes and, in very old fish, a curving spine. Age itself cannot be treated, but treatable problems (internal parasites, water quality, bullying, poor diet) cause the same signs and must be ruled out first; after that, comfort care can still give the fish good months or years.",
+    "hu": "A sok éve tartott halak idővel lelassulnak. Az élettartam nagyon eltérő: egyes apró gébek csak egy-két évig élnek, míg a bohóchalak, doktorhalak és császárhalak jó tartás mellett jóval tíz év fölé is eljuthatnak. Az öregedés jelei lassan, hónapok alatt jelennek meg: kevesebb mozgás, kisebb étvágy, fogyás, fakuló színek, homályos szem, nagyon idős halaknál pedig görbülő gerinc. Magát az időskort nem lehet kezelni, de ugyanezeket a jeleket kezelhető problémák (belső élősködők, vízminőség, zaklatás, hiányos táplálás) is okozhatják, ezért először ezeket kell kizárni; utána a kíméletes gondozással a hal még jó hónapokat vagy éveket élhet."
+  },
+  "symptoms": {
+    "en": [
+      "Gradual slowing down: rests more, swims less, reacts to food more slowly",
+      "Smaller appetite – takes only a few bites, prefers soft food",
+      "Slow weight loss over months: thinner back and belly",
+      "Colours fade or become dull over months or years",
+      "Cloudy eyes or cataracts, sometimes poorer vision (misses food)",
+      "In very old fish: a bent or curving spine, stiff or uneven swimming",
+      "Loses rank – a former 'boss' fish may now be pushed around by tankmates",
+      "Otherwise normal: no spots, no rapid breathing, normal feces"
+    ],
+    "hu": [
+      "Fokozatos lelassulás: többet pihen, kevesebbet úszik, lassabban reagál az eleségre",
+      "Kisebb étvágy – csak néhányat harap, a puha eleséget részesíti előnyben",
+      "Hónapok alatt lassú fogyás: vékonyabb hát és has",
+      "A színek hónapok vagy évek alatt kifakulnak, tompábbá válnak",
+      "Homályos szem vagy szürkehályog, néha gyengébb látás (mellékap az eleségnek)",
+      "Nagyon idős halaknál: hajlott vagy görbülő gerinc, merev vagy egyenetlen úszás",
+      "Elveszíti a rangját – egy korábbi „főnök” halat most a társai lökdöshetnek",
+      "Egyébként semmi rendellenes: nincsenek pöttyök, nincs gyors légzés, az ürülék normális"
+    ]
+  },
+  "body_areas": ["behavior", "body-shape", "color", "eyes"],
+  "appearance": ["lethargy", "not-eating", "thin-wasting", "pale", "cloudy-eye", "abnormal-swimming"],
+  "speed": "chronic",
+  "lethality": "medium",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "Fish that have lived in the tank for many years, especially long-lived groups such as clownfish, tangs, angelfish, wrasses and damselfish. Very small, short-lived species (some tiny gobies) can reach old age within a year or two.",
+    "hu": "Azok a halak, amelyek már sok éve élnek az akváriumban, különösen a hosszú életű csoportok, mint a bohóchalak, doktorhalak, császárhalak, ajakoshalak és korallsügérek. A nagyon kicsi, rövid életű fajok (egyes apró gébek) már egy-két év alatt megöregedhetnek."
+  },
+  "distinguish": {
+    "en": [
+      "Old age vs. internal parasites: ageing is slow (months) in a fish kept for years; worms and flagellates cause weight loss despite eating well, white stringy feces and a pinched belly, often in a recently added fish (see Internal problems).",
+      "A change within days is almost never old age – look for a disease, a water problem or bullying.",
+      "If several fish decline at the same time, the cause is the tank (water quality, oxygen, an infection), not age.",
+      "A cloudiness that develops slowly in both eyes of an old fish is often a cataract; a sudden cloudy or bulging eye points to injury, infection or eye flukes (see Eye problems).",
+      "A bent spine that appears suddenly, after a jump or a crash, or in a young fish, is more likely a spinal injury (see Internal problems).",
+      "An old fish that gets picked on: check Aggression and fighting injuries as well."
+    ],
+    "hu": [
+      "Időskor vs. belső élősködők: az öregedés lassú (hónapok), és sok éve tartott halat érint; a férgek és ostorosok bőséges evés melletti fogyást, fehér, fonalas ürüléket és beesett hasat okoznak, gyakran nemrég beszerzett halon (lásd: Belső problémák).",
+      "A napok alatt bekövetkező változás szinte soha nem időskor – keress betegséget, vízproblémát vagy zaklatást.",
+      "Ha egyszerre több hal állapota romlik, az ok az akváriumban van (vízminőség, oxigén, fertőzés), nem az életkorban.",
+      "Ha egy idős hal mindkét szeme lassan homályosodik, az gyakran szürkehályog; a hirtelen homályossá váló vagy kidülledő szem sérülésre, fertőzésre vagy szemmételyekre utal (lásd: Szemproblémák).",
+      "A hirtelen, ugrás vagy ütközés után, illetve fiatal halon megjelenő gerincgörbület inkább gerincsérülés (lásd: Belső problémák).",
+      "Ha egy idős halat a társai bántják, nézd meg az Agresszió és verekedés okozta sérülések leírást is."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "treat-underlying-cause",
+      "name": {"en": "Rule out treatable causes first", "hu": "Először a kezelhető okok kizárása"},
+      "priority": "first-line",
+      "details": {
+        "en": "Test the water (ammonia, nitrite, nitrate, salinity, temperature, pH), check the feces and belly for signs of internal parasites, and watch whether a tankmate bullies the fish. If the fish wastes despite eating or has white stringy feces, treat it as described under Internal problems before concluding it is old age.",
+        "hu": "Mérd meg a vizet (ammónia, nitrit, nitrát, sótartalom, hőmérséklet, pH), nézd meg az ürüléket és a hasat belső élősködők jeleit keresve, és figyeld, nem bántja-e valamelyik társa. Ha a hal evés ellenére fogy, vagy fehér, fonalas az ürüléke, előbb kezeld a Belső problémák leírás szerint, mielőtt időskorra gondolnál."
+      }
+    },
+    {
+      "treatment_id": "diet-improvement",
+      "name": {"en": "Easy-to-eat, nutritious food", "hu": "Könnyen ehető, tápláló eleség"},
+      "priority": "supportive",
+      "details": {
+        "en": "Offer small, soft, high-quality foods (e.g. mysis or finely chopped seafood) several times a day, soaked in fish vitamins. Target-feed with a pipette or feeding tube so the old fish does not have to compete with faster tankmates.",
+        "hu": "Naponta többször adj kis méretű, puha, jó minőségű eleséget (pl. mysist vagy apróra vágott tengeri eleséget), halvitaminba áztatva. Pipettával vagy etetőcsővel célzottan etesd, hogy az idős halnak ne kelljen a gyorsabb társakkal versenyeznie."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Stable water and a calm tank", "hu": "Stabil víz és nyugodt akvárium"},
+      "priority": "supportive",
+      "details": {
+        "en": "Keep the parameters stable, avoid big swings, provide a calmer spot out of the strongest flow, and avoid adding boisterous new fish. If tankmates harass a weak old fish, a quiet, established tank or a QT with stable water can be kinder.",
+        "hu": "Tartsd stabilan a vízparamétereket, kerüld a nagy ingadozást, legyen egy nyugodtabb rész a legerősebb áramlástól távol, és ne tegyél be új, hevesebb halakat. Ha a társak zaklatják a legyengült idős halat, egy nyugodt, beállt akvárium vagy egy stabil vizű QT kíméletesebb lehet."
+      }
+    },
+    {
+      "treatment_id": "euthanasia",
+      "name": {"en": "Humane euthanasia", "hu": "Kíméletes eutanázia"},
+      "priority": "supportive",
+      "details": {
+        "en": "When the fish can no longer eat, swim or stay upright and no treatable cause is found, humane euthanasia is kinder than a long decline. Ask a vet with aquatic experience; at home an anaesthetic overdose (clove oil) is considered the most humane method – follow the RSPCA guide under Further reading. Never flush a live fish, put it in the freezer alive or leave it out of water.",
+        "hu": "Ha a hal már nem tud enni, úszni vagy egyensúlyban maradni, és nem található kezelhető ok, a kíméletes eutanázia emberségesebb, mint a hosszú leépülés. Kérj tanácsot halakkal foglalkozó állatorvostól; otthon az érzéstelenítő túladagolása (szegfűszegolaj) számít a legkíméletesebb módszernek – kövesd a További olvasnivaló alatti RSPCA útmutatót. Élő halat soha ne húzz le a vécén, ne tegyél élve a fagyasztóba, és ne hagyd víz nélkül megfulladni."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Good lifelong care slows ageing: a varied, high-quality diet, stable water and low stress.",
+      "Consider the lifespan before buying – some fish can live well over ten years.",
+      "Note when each fish was added (e.g. under Livestock in Tank Log), so you know how old it is.",
+      "Watch older fish at every feeding so a slow decline is noticed early."
+    ],
+    "hu": [
+      "Az egész életen át tartó jó gondozás lassítja az öregedést: változatos, jó minőségű eleség, stabil víz, kevés stressz.",
+      "Vásárlás előtt gondold végig az élettartamot – egyes halak jóval tíz év fölött is élhetnek.",
+      "Jegyezd fel, melyik hal mikor került be (pl. a Tank Log Lakók részében), hogy tudd, milyen idős.",
+      "Az idős halakat minden etetéskor figyeld meg, hogy a lassú romlást időben észrevedd."
+    ]
+  },
+  "images": [],
+  "related_links": [
+    {"title": "Disorders and Diseases of Fish (MSD Veterinary Manual, pet owner version)", "url": "https://www.msdvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish"},
+    {"title": "Internal Problems (humble.fish)", "url": "https://humble.fish/community/threads/internal-problems.9/"},
+    {"title": "What is the most humane way to euthanase aquarium fish? (RSPCA Knowledgebase)", "url": "https://kb.rspca.org.au/knowledge-base/what-is-the-most-humane-way-to-euthanase-aquarium-fish/"}
+  ],
+  "notes": {
+    "en": "This entry is written by reef42 and is not part of the humble.fish disease index; the references are listed under Further reading. Old age is a diagnosis of exclusion: only settle on it after disease, water quality and aggression have been ruled out. Ageing in aquarium fish is far less researched than their diseases, so the signs above are general husbandry experience.",
+    "hu": "Ezt a leírást a reef42 írta, nem része a humble.fish betegségjegyzékének; a felhasznált források a További olvasnivaló alatt találhatók. Az időskor kizárásos diagnózis: csak akkor gondolj rá, ha a betegséget, a vízminőségi problémát és az agressziót már kizártad. Az akváriumi halak öregedését sokkal kevésbé kutatták, mint a betegségeiket, ezért a fenti jelek általános tartási tapasztalatokon alapulnak."
+  }
+}

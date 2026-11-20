@@ -4,10 +4,12 @@ Interactive, bilingual (English / Hungarian) identification guide for common sal
 Answer picture-guided questions to narrow down the likely cause, then read the matching treatment
 options and methods (copper, chloroquine phosphate, Tank Transfer Method, Hybrid TTM, etc.).
 
-All disease and treatment content is summarised from the
+The disease and treatment content is summarised from the
 [humble.fish Fish Diseases index](https://humble.fish/community/threads/fish-diseases.3/) and the threads
-it links to. Every page links back to its source article. This is an unofficial project, not affiliated
-with humble.fish, and not veterinary advice.
+it links to; every such page links back to its source article. Four non-infectious entries – fish aggression,
+old age, water quality problems and low oxygen – are written by reef42 (`author: "reef42"`, `source: null`) with
+their references in `related_links`. This is an unofficial project, not affiliated with humble.fish, and not
+veterinary advice.
 
 ## Running locally
 

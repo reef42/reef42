@@ -1,0 +1,106 @@
+{
+  "id": "low-oxygen",
+  "source": null,
+  "author": "reef42",
+  "name": {"en": "Low Oxygen (Hypoxia)", "hu": "Oxigénhiány (hipoxia)"},
+  "scientific": null,
+  "category": "environmental",
+  "summary": {
+    "en": "An emergency: when the water holds or takes up too little oxygen, all fish start breathing fast at the same time, gather at the surface or in the outflow, and can die within hours. Typical causes are a power or pump failure, overheating, poor surface agitation, a switched-off skimmer, overstocking, decaying organic matter, CO2 build-up or a medication that uses up oxygen. It is often worst at night and early in the morning. Restore aeration first, then look for the cause.",
+    "hu": "Vészhelyzet: ha a víz túl kevés oxigént tart meg vagy vesz fel, egyszerre minden hal gyorsan kezd lélegezni, a felszínen vagy a kiáramlásnál gyűlnek össze, és órákon belül elpusztulhatnak. Jellemző okai az áramszünet vagy a szivattyú leállása, a túlmelegedés, a gyenge felszíni vízmozgás, a kikapcsolt fehérjefölöző, a túlnépesítés, a bomló szerves anyag, a CO2 felhalmozódása vagy egy oxigént fogyasztó gyógyszer. Gyakran éjjel és kora reggel a legsúlyosabb. Először a levegőztetést állítsd helyre, utána keresd az okot."
+  },
+  "symptoms": {
+    "en": [
+      "All or most fish breathing very fast at the same time",
+      "Gasping at the surface, or crowding in the return or powerhead outflow",
+      "Worst at night or when the lights come on in the morning, better during the day",
+      "Larger fish are often affected before small ones",
+      "Lethargy and loss of appetite; in severe cases fish lie on the bottom",
+      "Snails and crabs climbing to the waterline, corals closed",
+      "Started after a power cut, a pump or skimmer stop, a heat wave, a medication or a large die-off"
+    ],
+    "hu": [
+      "Egyszerre minden vagy majdnem minden hal nagyon gyorsan lélegzik",
+      "Levegő után kapkodás a felszínen, vagy tolongás a visszanyomó szivattyú, illetve az áramoltató kiáramlásánál",
+      "Éjjel vagy reggel, a világítás felkapcsolásakor a legrosszabb, napközben javul",
+      "Gyakran a nagyobb halak érintettek előbb, mint a kisebbek",
+      "Bágyadtság, étvágytalanság; súlyos esetben a halak a fenéken fekszenek",
+      "A csigák és rákok a vízvonalig másznak fel, a korallok zárva vannak",
+      "Áramszünet, szivattyú- vagy fehérjefölöző-leállás, hőség, gyógyszerezés vagy nagyobb elhullás után kezdődött"
+    ]
+  },
+  "body_areas": ["gills", "behavior"],
+  "appearance": ["rapid-breathing", "lethargy", "not-eating", "abnormal-swimming"],
+  "speed": "sudden-fast",
+  "lethality": "very-high",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "The whole tank. Larger and more active fish (tangs, angelfish, larger wrasses) usually show it first. Most at risk are heavily stocked or warm tanks, tanks with little surface movement or a closed lid, and QT/hospital tanks under medication.",
+    "hu": "Az egész akvárium. Általában a nagyobb és aktívabb halakon (doktorhalak, császárhalak, nagyobb ajakoshalak) jelentkezik először. A legveszélyeztetettebb a sűrűn népesített vagy meleg akvárium, a gyenge felszíni vízmozgású vagy zárt fedelű akvárium, valamint a gyógyszeres kezelés alatt álló QT/kórházi akvárium."
+  },
+  "distinguish": {
+    "en": [
+      "Low oxygen vs. velvet: velvet usually starts with one or a few fish, gets worse over 1–3 days and a dusty sheen often appears; low oxygen hits all fish at once, is worse at night or early morning and improves within minutes to hours of strong aeration.",
+      "Low oxygen vs. a water toxin: both affect the whole tank; if strong aeration does not help quickly, test the water (see Water quality problems).",
+      "Low oxygen vs. gill parasites or flukes: parasites cause fast breathing in individual fish over days, often with scratching; low oxygen is tank-wide and usually follows an event (pump stop, heat, medication).",
+      "Dissolved oxygen is rarely measured at home, so the clues are the event: a stopped pump, warm water, a closed lid, medication, or a big pH drop at night (CO2 build-up). A DO meter or test kit confirms it – healthy water has more than about 5 mg/L."
+    ],
+    "hu": [
+      "Oxigénhiány vs. bársonybetegség: a bársonybetegség általában egy vagy néhány halon kezdődik, 1–3 nap alatt súlyosbodik, és gyakran poros bevonat jelenik meg; az oxigénhiány egyszerre minden halat érint, éjjel vagy kora reggel rosszabb, és erős levegőztetésre perceken-órákon belül javul.",
+      "Oxigénhiány vs. mérgező anyag a vízben: mindkettő az egész akváriumot érinti; ha az erős levegőztetés nem segít gyorsan, mérd meg a vizet (lásd: Vízminőségi problémák).",
+      "Oxigénhiány vs. kopoltyúparaziták vagy mételyek: a paraziták egyes halaknál napok alatt okoznak gyors légzést, gyakran dörgölőzéssel; az oxigénhiány az egész akváriumot érinti, és általában egy eseményt követ (szivattyúleállás, hőség, gyógyszerezés).",
+      "Az oldott oxigént otthon ritkán mérik, ezért az esemény a kulcs: leállt szivattyú, meleg víz, zárt fedél, gyógyszerezés vagy éjszakai nagy pH-esés (CO2-felhalmozódás). Oldottoxigén-mérő vagy -teszt megerősítheti – egészséges vízben kb. 5 mg/l fölött van."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Emergency: aerate now", "hu": "Vészhelyzet: azonnali levegőztetés"},
+      "priority": "first-line",
+      "details": {
+        "en": "Increase gas exchange immediately: restart the return pump and the skimmer, aim a powerhead at the surface so it ripples strongly, add an air stone, and open the lid or canopy. During a power cut use a battery air pump, or stir the water to break the surface. Do not feed until breathing is back to normal, and remove any dead animals.",
+        "hu": "Azonnal fokozd a gázcserét: indítsd újra a visszanyomó szivattyút és a fehérjefölözőt, fordíts egy áramoltatót a felszín felé, hogy erősen fodrozódjon, tegyél be porlasztókövet, és nyisd ki a fedelet. Áramszünetben használj elemes légpumpát, vagy kevergesd a vizet, hogy megtörd a felszínt. Amíg a légzés nem áll helyre, ne etess, és távolítsd el az elpusztult állatokat."
+      }
+    },
+    {
+      "treatment_id": "treat-underlying-cause",
+      "name": {"en": "Find and fix the cause", "hu": "Az ok megkeresése és megszüntetése"},
+      "priority": "first-line",
+      "details": {
+        "en": "Check the power, pumps, skimmer and temperature. If the tank is too warm (above about 28–29 °C), cool it gradually (fan across the surface, lights off) – warm water holds less oxygen while the fish need more. Some medications (e.g. formalin, antibiotics) lower oxygen, so a medicated tank always needs extra aeration. If decay or pollution was the trigger, do a water change with matched, well-aerated saltwater. In the long run reduce stocking and organic load.",
+        "hu": "Ellenőrizd az áramellátást, a szivattyúkat, a fehérjefölözőt és a hőmérsékletet. Ha a víz túl meleg (kb. 28–29 °C felett), fokozatosan hűtsd (ventilátor a felszínre, világítás le) – a meleg víz kevesebb oxigént tart meg, miközben a halaknak többre van szükségük. Egyes gyógyszerek (pl. a formalin és az antibiotikumok) csökkentik az oxigénszintet, ezért gyógyszeres kezelés alatt mindig kell plusz levegőztetés. Ha bomlás vagy szennyeződés volt a kiváltó ok, végezz vízcserét egyező paraméterű, jól átlevegőztetett sós vízzel. Hosszabb távon csökkentsd a halállományt és a szervesanyag-terhelést."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Keep strong surface agitation at all times; a running skimmer adds a lot of gas exchange.",
+      "Keep a battery air pump (or a UPS for the return pump) ready for power cuts.",
+      "Keep the temperature in range (about 25–27 °C) and plan cooling for heat waves.",
+      "Do not overstock; remove dead animals and uneaten food promptly.",
+      "Add an air stone or extra flow to any tank under medication, especially a QT.",
+      "If the pH drops a lot at night, improve aeration or give the skimmer fresh outdoor air (excess CO2).",
+      "After maintenance or a power cut, check that every pump has really restarted."
+    ],
+    "hu": [
+      "Mindig legyen erős a felszíni vízmozgás; a működő fehérjefölöző is sokat javít a gázcserén.",
+      "Áramszünetre tarts készenlétben elemes légpumpát (vagy szünetmentes tápot a visszanyomó szivattyúhoz).",
+      "Tartsd a hőmérsékletet a tartományban (kb. 25–27 °C), és készülj fel a kánikula alatti hűtésre.",
+      "Ne népesítsd túl az akváriumot; az elpusztult állatokat és az eleségmaradékot azonnal távolítsd el.",
+      "Gyógyszeres kezelés alatt minden akváriumba – különösen a QT-be – tegyél porlasztókövet vagy plusz áramlást.",
+      "Ha a pH éjjel nagyon leesik, javítsd a levegőztetést, vagy a fehérjefölöző kapjon friss kinti levegőt (túl sok CO2).",
+      "Karbantartás vagy áramszünet után ellenőrizd, hogy minden szivattyú valóban újraindult-e."
+    ]
+  },
+  "images": [],
+  "related_links": [
+    {"title": "Dissolved Oxygen for Fish Production (UF/IFAS Extension)", "url": "https://ask.ifas.ufl.edu/publication/FA002"},
+    {"title": "Environmental Diseases of Aquatic Animals in Aquatic Systems (Merck Veterinary Manual)", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems"},
+    {"title": "Dealing With Aquariums and Ponds During Power Outages (NC State College of Veterinary Medicine)", "url": "https://cvm.ncsu.edu/news/dealing-with-aquariums-and-ponds-during-power-outages/"}
+  ],
+  "notes": {
+    "en": "This entry is written by reef42 and is not part of the humble.fish disease index; the references are listed under Further reading. According to UF/IFAS, 5 mg/L dissolved oxygen or more is recommended; most fish are distressed at 2–4 mg/L and deaths usually occur below 2 mg/L. Warm saltwater holds less oxygen than cool or fresh water, so a reef tank has less reserve than many people think.",
+    "hu": "Ezt a leírást a reef42 írta, nem része a humble.fish betegségjegyzékének; a felhasznált források a További olvasnivaló alatt találhatók. A UF/IFAS szerint legalább 5 mg/l oldott oxigén ajánlott; a legtöbb hal 2–4 mg/l-nél már szenved, 2 mg/l alatt pedig általában elhullás következik be. A meleg sós víz kevesebb oxigént tart meg, mint a hideg vagy az édesvíz, ezért egy tengeri akvárium tartaléka kisebb, mint sokan gondolják."
+  }
+}

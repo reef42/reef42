@@ -17,6 +17,9 @@
         'Illik hozzád? A Tank Logba felvett akváriumod alapján minden fajnál megmutatjuk, hogy jó választás-e, és miért (méret, fajta, a tank kora, ki kit eszik, ki kivel nem fér meg).',
         'Fajok: „Fajaim” nézet az akváriumod lakóival, és egy kapcsoló a nem ajánlott fajok elrejtéséhez.',
         'Az első látogatáskor rövid bemutató segít eligazodni.',
+        'Fishy Doctor: négy új témakör a nem fertőző okokról: halak közti agresszió, időskor, vízminőségi problémák és oxigénhiány, a kérdéssorban is („Egyszerre több hal rosszul van”).',
+        'Tervezés: a fajokat „tervezett lakóként” is felveheted, és megnézheted, hogyan illenének a mostani lakók mellé, és mekkora lenne a halterhelés.',
+        'Fajok: mindig látható keresés, vissza gomb és „Nem ajánlottak elrejtése” kapcsoló; a nehézség pöttyökkel látszik, a betegségeknél jelezzük, mire hajlamosabb egy faj, és több fajnál a fiatalkori kinézet is látható.',
         'Új: ez az újdonságok ablak 🙂'
       ],
       en: [
@@ -28,6 +31,9 @@
         'Does it suit you? Based on your Tank Log tank, every species shows whether it is a good choice, and why (size, tank type and age, who eats whom, who does not get along).',
         'Species: a “My species” view with your tank’s livestock, and a switch to hide species that are not recommended.',
         'First-time visitors get a short tour.',
+        'Fishy Doctor: four new non-infectious topics – aggression between fish, old age, water quality problems and low oxygen – also in the questions (“Several fish are unwell at once”).',
+        'Planning: add species as planned livestock and see how they would fit with your current livestock and what the fish load would be.',
+        'Species: search, back and “hide not recommended” are always at hand; care level shows as dots, diseases show what a species is more prone to, and several species show their juvenile look too.',
         'New: this what’s new window 🙂'
       ]
     }

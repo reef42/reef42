@@ -1,0 +1,145 @@
+{
+  "id": "fish-aggression",
+  "source": null,
+  "author": "reef42",
+  "name": {"en": "Aggression and Fighting Injuries", "hu": "Agresszió és verekedés okozta sérülések"},
+  "scientific": null,
+  "category": "other",
+  "summary": {
+    "en": "Not a disease, but a very common reason why a fish looks sick: bullying by a tankmate causes torn or split fins, bite marks, missing scales and constant stress. A bullied fish hides, is chased away from food and slowly starves, and its wounds can pick up a secondary bacterial infection. The fix is to stop the aggression – medication alone will not help while the bully can still reach the fish.",
+    "hu": "Nem betegség, de nagyon gyakori oka annak, hogy egy hal betegnek tűnik: ha egy társa zaklatja, szakadt vagy hasadt úszók, harapásnyomok, hiányzó pikkelyek és folyamatos stressz a következmény. A zaklatott hal bujkál, elüldözik az etetéstől, lassan éhezik, a sebei pedig másodlagosan bakteriálisan elfertőződhetnek. A megoldás az agresszió megszüntetése – amíg a támadó hozzáfér, a gyógyszer önmagában nem segít."
+  },
+  "symptoms": {
+    "en": [
+      "Torn, split or ragged fins with sharp, clean edges or crescent-shaped 'bites' missing, appearing suddenly",
+      "Bite marks, scrapes, missing scales or small round wounds, mostly on the flanks, tail and fins",
+      "A specific tankmate chases, nips or corners the fish, often at feeding time or near a favourite cave",
+      "Constant hiding, or staying high up in a corner, behind the heater or near the overflow",
+      "Not eating, or darting out for food and being chased back",
+      "Clamped fins, faded or darkened 'stress' colours, slow weight loss",
+      "Sometimes a damaged or cloudy eye on one side (bite or crash into rock while fleeing)",
+      "Later: white or red edges and fraying that keeps spreading – a sign of secondary bacterial infection"
+    ],
+    "hu": [
+      "Hirtelen megjelenő szakadt, hasadt vagy rongyos úszók éles, tiszta széllel, vagy félhold alakú „harapásokkal”",
+      "Harapásnyomok, horzsolások, hiányzó pikkelyek vagy kis, kerek sebek, főleg az oldalon, a farkon és az úszókon",
+      "Egy bizonyos társa kergeti, csipkedi vagy sarokba szorítja, gyakran etetéskor vagy egy kedvelt barlang körül",
+      "Folyamatosan bujkál, vagy fent húzódik meg egy sarokban, a fűtő mögött, a túlfolyó közelében",
+      "Nem eszik, vagy kiúszik az eleségért, de visszakergetik",
+      "Összecsukott úszók, kifakult vagy besötétedett „stresszszínek”, lassú fogyás",
+      "Néha sérült vagy homályos szem az egyik oldalon (harapás, vagy menekülés közben kőnek ütközött)",
+      "Később: fehér vagy vörös szélű, tovább terjedő rongyosodás – másodlagos bakteriális fertőzés jele"
+    ]
+  },
+  "body_areas": ["fins", "skin", "behavior"],
+  "appearance": ["lesions-ulcers", "clamped-fins", "hiding", "not-eating", "thin-wasting", "cloudy-eye"],
+  "speed": "days",
+  "lethality": "medium",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "Newcomers added to an established tank, the smallest or most peaceful fish, and fish that look like a resident or eat the same food (same species, similar shape or colour – e.g. two tangs in a small tank). Typical aggressors include territorial damselfish, dottybacks, many tangs towards other tangs, larger angelfish, triggerfish, and clownfish pairs guarding their host or eggs.",
+    "hu": "Egy berendezett akváriumba újonnan behelyezett halak, a legkisebb vagy legbékésebb halak, valamint azok, amelyek egy régebbi lakóhoz hasonlítanak vagy ugyanazt eszik (azonos faj, hasonló forma vagy szín – pl. két doktorhal egy kis akváriumban). Gyakori támadók a territoriális korallsügérek, a dottybackek, a doktorhalak más doktorhalakkal szemben, a nagyobb császárhalak, az íjhalak, valamint a gazdaállatukat vagy ikráikat védő bohóchalpárok."
+  },
+  "distinguish": {
+    "en": [
+      "Aggression vs. bacterial fin rot: bite damage appears suddenly and has sharp, clean, often crescent-shaped edges; fin rot shows a white, red or milky edge that slowly eats back over several days. A bite that later turns white or red at the edge has become infected (see Bacterial infections).",
+      "Watch the tank for 10–15 minutes, including feeding time and right after the lights go on or off: if one fish is repeatedly chased or nipped, aggression is the likely cause.",
+      "Aggression usually hurts one or two fish; if many fish show sores or fast breathing at the same time, think of a disease or a water problem instead.",
+      "Hiding and not eating without any visible injury can also be the start of ich, velvet or flukes – look for spots, fast breathing and scratching.",
+      "Red ulcers that spread very fast and eat into the flesh are typical of Uronema, not of a simple bite wound."
+    ],
+    "hu": [
+      "Agresszió vs. bakteriális úszórothadás: a harapás okozta sérülés hirtelen jelenik meg, éles, tiszta, gyakran félhold alakú szélű; az úszórothadásnak fehér, vörös vagy tejszerű széle van, és napok alatt lassan halad előre. Ha egy harapás széle később kifehéredik vagy bevörösödik, elfertőződött (lásd: Bakteriális fertőzések).",
+      "Figyeld az akváriumot 10–15 percig, etetéskor és közvetlenül a világítás fel- vagy lekapcsolása után is: ha egy halat újra meg újra kergetnek vagy csipkednek, valószínűleg agresszió áll a háttérben.",
+      "Az agresszió jellemzően egy-két halat sebez meg; ha egyszerre sok halon látsz sebet vagy gyors légzést, inkább betegségre vagy vízproblémára gyanakodj.",
+      "A látható sérülés nélküli bujkálás és étvágytalanság darakór, bársonybetegség vagy mételyek kezdete is lehet – keress pöttyöket, gyors légzést és dörgölőzést.",
+      "A nagyon gyorsan terjedő, húsba mélyedő vörös fekélyek az Uronemára jellemzők, nem egy egyszerű harapásra."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "treat-underlying-cause",
+      "name": {"en": "Stop the aggression", "hu": "Az agresszió megszüntetése"},
+      "priority": "first-line",
+      "details": {
+        "en": "Find the bully (watch at feeding time), then separate the fish: move the aggressor – or the victim if it is badly hurt – to a QT, a hang-on acclimation box or behind a tank divider, so they share water but cannot touch. Rearrange the rockwork before putting the aggressor back, so every fish has to claim new territory. If two fish are simply incompatible, rehome one of them – this kind of aggression rarely stops by itself.",
+        "hu": "Keresd meg a támadót (figyeld etetéskor), majd válaszd szét a halakat: a támadót – vagy ha súlyosan sérült, az áldozatot – tedd QT-be, akasztható akklimatizáló dobozba vagy elválasztó fal mögé, így közös a víz, de nem érik el egymást. Mielőtt a támadót visszaengeded, rendezd át a köveket, hogy minden halnak újra ki kelljen alakítania a területét. Ha két hal egyszerűen nem fér meg egymással, az egyiknek új otthont kell keresni – az ilyen agresszió ritkán szűnik meg magától."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Clean water and peace to heal", "hu": "Tiszta víz és nyugalom a gyógyuláshoz"},
+      "priority": "first-line",
+      "details": {
+        "en": "Torn fins and small wounds usually regrow within a few weeks in clean, stable water without any medication. Keep the injured fish where it can eat undisturbed and offer several small meals a day.",
+        "hu": "A szakadt úszók és a kisebb sebek tiszta, stabil vízben, gyógyszer nélkül általában néhány hét alatt visszanőnek, begyógyulnak. A sérült hal olyan helyen legyen, ahol zavartalanul ehet, és naponta többször kapjon kevés eleséget."
+      }
+    },
+    {
+      "treatment_id": "diet-improvement",
+      "name": {"en": "Vitamin-soaked food", "hu": "Vitaminba áztatott eleség"},
+      "priority": "supportive",
+      "details": {
+        "en": "Soak the food in fish vitamins to support healing and to help the fish regain the weight it lost while it was kept away from food.",
+        "hu": "Áztasd az eleséget halvitaminba, hogy segítsd a gyógyulást, és hogy a hal visszanyerje a súlyát, amit akkor veszített, amikor elzavarták az eleségtől."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {"en": "Methylene Blue for open wounds (QT only)", "hu": "Metilénkék nyílt sebekre (csak QT-ben)"},
+      "priority": "supportive",
+      "details": {
+        "en": "For a fresh, deep wound on a fish that is already in a QT, Methylene Blue can help protect it from infection. Do not use it in the display tank – it can harm the biofilter.",
+        "hu": "Ha a hal már QT-ben van, és friss, mély sebe van, a metilénkék segíthet megvédeni a fertőzéstől. A díszakváriumban ne használd – károsíthatja a biofiltert."
+      }
+    },
+    {
+      "treatment_id": "antibiotics",
+      "name": {"en": "Antibiotics only for infected wounds", "hu": "Antibiotikum csak fertőzött sebre"},
+      "priority": "alternative",
+      "details": {
+        "en": "Only needed if a wound becomes infected (white or red spreading edges, fraying that keeps eating back, ulcers): then treat it as a bacterial infection in a QT. Antibiotics do not speed up fins that are healing cleanly.",
+        "hu": "Csak akkor kell, ha a seb elfertőződik (fehér vagy vörös, terjedő szél, tovább rongyosodó úszó, fekély): ekkor bakteriális fertőzésként kezeld QT-ben. A tisztán gyógyuló úszók regenerálódását az antibiotikum nem gyorsítja."
+      }
+    },
+    {
+      "treatment_id": "hydrogen-peroxide-bath",
+      "name": {"en": "Peroxide baths on wounded fish", "hu": "Peroxidos fürdő sebes halon"},
+      "priority": "not-recommended",
+      "details": {
+        "en": "Skip hydrogen peroxide baths (e.g. as a routine pre-QT step) while the fish has open wounds – they can slow healing and worsen scarring.",
+        "hu": "Amíg a halon nyílt seb van, hagyd ki a hidrogén-peroxidos fürdőt (pl. a rutinszerű QT előtti fürdetést) – lassíthatja a gyógyulást és ronthatja a hegesedést."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Check compatibility before buying; avoid fish of the same species, genus or body shape unless the tank is large and they are added together.",
+      "Add the most peaceful fish first and the most aggressive ones last.",
+      "Rearrange the rockwork just before adding a new fish, and provide plenty of caves and sight barriers.",
+      "Use an acclimation box or divider for a few days so the residents get used to the newcomer without contact.",
+      "Do not overstock: the smaller the tank, the harder it is for a bullied fish to get away.",
+      "Feed enough, in several places at once, so a dominant fish cannot guard all the food."
+    ],
+    "hu": [
+      "Vásárlás előtt nézz utána az összeférhetőségnek; azonos fajú, nemzetségű vagy testformájú halakat csak nagy akváriumba és egyszerre tegyél be.",
+      "A legbékésebb halakat tedd be először, a legagresszívebbeket utoljára.",
+      "Közvetlenül egy új hal behelyezése előtt rendezd át a köveket, és legyen sok barlang és takarás.",
+      "Néhány napig használj akklimatizáló dobozt vagy elválasztót, hogy a régi lakók érintkezés nélkül szokják meg az újoncot.",
+      "Ne túlnépesítsd az akváriumot: minél kisebb a medence, annál nehezebben tud elmenekülni a zaklatott hal.",
+      "Etess eleget, egyszerre több helyen, hogy egy domináns hal ne tudja az összes eleséget őrizni."
+    ]
+  },
+  "images": [],
+  "related_links": [
+    {"title": "Stress – Its Role in Fish Disease (UF/IFAS Extension)", "url": "https://ask.ifas.ufl.edu/publication/FA005"},
+    {"title": "Tips for Adding New Fish to an Established Community (Reef Builders)", "url": "https://reefbuilders.com/2013/06/17/tips-adding-new-fish-established-marine-aquarium-community"},
+    {"title": "Why Territoriality is a Major Issue in Marine Tanks (Reef Builders)", "url": "https://reefbuilders.com/2014/10/27/why-territoriality-is-a-major-issue-in-marine-tanks"},
+    {"title": "Bacterial Infections (humble.fish)", "url": "https://humble.fish/community/threads/bacterial-infections.120/"}
+  ],
+  "notes": {
+    "en": "This entry is written by reef42 and is not part of the humble.fish disease index; the references are listed under Further reading. Fins usually grow back fully if the edge stays clean; a broken fin ray may leave a small permanent kink.",
+    "hu": "Ezt a leírást a reef42 írta, nem része a humble.fish betegségjegyzékének; a felhasznált források a További olvasnivaló alatt találhatók. Ha a szél tiszta marad, az úszók általában teljesen visszanőnek; egy eltört úszósugár helyén kis maradandó törés maradhat."
+  }
+}

@@ -24,7 +24,7 @@ for (const id of manifest.diseases) {
   const d = read(p);
   if (!d) continue;
   if (d.id !== id) errors.push(`${p}: id "${d.id}" does not match file name`);
-  if (!d.source) warnings.push(`${p}: no source`);
+  if (!d.source && !d.author) warnings.push(`${p}: no source`);
   diseases[id] = d;
 }
 const treatments = Object.fromEntries(tx.treatments.map((t) => [t.id, t]));

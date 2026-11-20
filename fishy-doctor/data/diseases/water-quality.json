@@ -1,0 +1,236 @@
+{
+  "id": "water-quality",
+  "source": null,
+  "author": "reef42",
+  "name": {"en": "Water Quality Problems", "hu": "Vízminőségi problémák"},
+  "scientific": null,
+  "category": "environmental",
+  "summary": {
+    "en": "Wrong or swinging water parameters – ammonia or nitrite, salinity, temperature or pH – or a toxin (copper, chlorine, cleaning products, a dosing mistake) make fish ill without any pathogen. The key sign: several fish, often of different species, and frequently corals and invertebrates are affected at the same time or suddenly, often shortly after something changed in the tank. Test the water first; most problems are solved with water changes and slow, careful correction.",
+    "hu": "A rossz vagy ingadozó vízparaméterek – ammónia vagy nitrit, sótartalom, hőmérséklet vagy pH – illetve egy mérgező anyag (réz, klór, tisztítószer, adagolási hiba) kórokozó nélkül is megbetegítik a halakat. A legfontosabb jel: egyszerre vagy hirtelen több hal – gyakran különböző fajok –, és sokszor a korallok és gerinctelenek is érintettek, gyakran röviddel azután, hogy valami megváltozott az akváriumban. Először mérd meg a vizet; a legtöbb probléma vízcserével és lassú, óvatos korrekcióval megoldható."
+  },
+  "symptoms": {
+    "en": [
+      "Several fish, often of different species, unwell at the same time",
+      "Corals closed or bleaching, shrimps, snails or starfish inactive or dying",
+      "Rapid breathing, hanging near the surface or in the outflow, lethargy, hiding",
+      "Loss of appetite across the tank",
+      "Clamped fins, faded or darkened colours, excess mucus",
+      "Red or inflamed gills (ammonia burn)",
+      "Erratic swimming, twitching or loss of balance (acute toxin, sudden salinity or temperature change)",
+      "Started after a water change, a new salt batch, a top-off or heater fault, a dosing change, medication or new decoration"
+    ],
+    "hu": [
+      "Egyszerre több hal – gyakran különböző fajok – van rosszul",
+      "A korallok zárva vannak vagy kifehérednek, a garnélák, csigák vagy tengeri csillagok bágyadtak vagy elpusztulnak",
+      "Gyors légzés, a felszín közelében vagy a kiáramlásnál lebegés, bágyadtság, bujkálás",
+      "Az egész akváriumban étvágytalanság",
+      "Összecsukott úszók, kifakult vagy besötétedett színek, túlzott nyálkatermelés",
+      "Vörös, gyulladt kopoltyú (ammóniaégés)",
+      "Rendezetlen úszás, rángatózás vagy egyensúlyvesztés (akut mérgezés, hirtelen só- vagy hőmérséklet-változás)",
+      "Vízcsere, új sókeverék, utántöltő- vagy fűtőhiba, adagolásváltoztatás, gyógyszerezés vagy új dekoráció után kezdődött"
+    ]
+  },
+  "body_areas": ["behavior", "gills", "color", "skin"],
+  "appearance": ["rapid-breathing", "lethargy", "not-eating", "hiding", "clamped-fins", "red-gills", "slime-mucus", "abnormal-swimming", "pale"],
+  "speed": "sudden-fast",
+  "lethality": "high",
+  "contagious": false,
+  "commonly_affected": {
+    "en": "Every animal in the tank, but invertebrates (shrimps, snails, starfish, corals) often react first. New tanks that are still cycling, small tanks (they swing quickly), overstocked tanks and tanks after medication, a dosing change or a long power cut are at highest risk.",
+    "hu": "Az akvárium összes lakója, de gyakran a gerinctelenek (garnélák, csigák, tengeri csillagok, korallok) reagálnak elsőként. A legnagyobb kockázatú a még be nem járatott új akvárium, a kis akvárium (gyorsan ingadozik), a túlnépesített akvárium, valamint a gyógyszerezés, adagolásváltoztatás vagy hosszú áramszünet utáni állapot."
+  },
+  "distinguish": {
+    "en": [
+      "Water problem vs. infectious disease: a parasite or bacterium usually starts on one fish (often a new one) and spreads over days; a water problem hits many fish and species at once, and invertebrates and corals react too.",
+      "Look at the timing: trouble that starts within hours of a water change, dosing, new salt, a heater fault or medication points to the water, not to a disease.",
+      "Low oxygen looks similar (all fish breathe fast at the surface) but is worst at night or early morning and improves quickly with strong aeration – see Low oxygen.",
+      "Velvet also causes fast breathing, but usually starts with one or a few fish and a dusty sheen follows; a water problem causes no spots or coating.",
+      "Red gills can be ammonia burn or gill parasites – an ammonia and nitrite test settles it."
+    ],
+    "hu": [
+      "Vízprobléma vs. fertőző betegség: a parazita vagy baktérium általában egy halon (gyakran egy újon) kezdődik, és napok alatt terjed; a vízprobléma egyszerre sok halat és fajt érint, és a gerinctelenek, korallok is reagálnak.",
+      "Figyeld az időzítést: ha a gond egy vízcsere, adagolás, új só, fűtőhiba vagy gyógyszerezés után órákon belül kezdődik, az a vízre utal, nem betegségre.",
+      "Az oxigénhiány hasonlóan néz ki (minden hal gyorsan lélegzik a felszínen), de éjszaka vagy kora reggel a legrosszabb, és erős levegőztetésre gyorsan javul – lásd: Oxigénhiány.",
+      "A bársonybetegség is gyors légzést okoz, de általában egy vagy néhány halon kezdődik, és poros bevonat követi; a vízprobléma nem okoz pöttyöket vagy bevonatot.",
+      "A vörös kopoltyú lehet ammóniaégés vagy kopoltyúparazita is – az ammónia- és nitritmérés eldönti."
+    ]
+  },
+  "life_cycle": {"en": null, "hu": null},
+  "treatments": [
+    {
+      "treatment_id": "treat-underlying-cause",
+      "name": {"en": "Test the water now", "hu": "Azonnali vízmérés"},
+      "priority": "first-line",
+      "details": {
+        "en": "Test ammonia, nitrite, nitrate, salinity, temperature, pH and alkalinity (and copper if copper was ever used in this water). Typical safe values: ammonia and nitrite 0, salinity about 35 ppt (SG 1.025–1.026), temperature about 25–27 °C, pH about 7.9–8.4, KH about 7–11 dKH. Log the results in Tank Log (Measure tab); its Guide tab explains each parameter, and the charts show sudden jumps and slow drifts. No test kits? Ask a fish shop to test a sample.",
+        "hu": "Mérd meg az ammóniát, a nitritet, a nitrátot, a sótartalmat, a hőmérsékletet, a pH-t és a KH-t (és a rezet, ha ebben a vízben valaha használtál rezet). Jellemző biztonságos értékek: ammónia és nitrit 0, sótartalom kb. 35 ppt (fajsúly 1,025–1,026), hőmérséklet kb. 25–27 °C, pH kb. 7,9–8,4, KH kb. 7–11 dKH. Rögzítsd az eredményeket a Tank Logban (Mérés fül); az Útmutató fül minden paramétert elmagyaráz, a grafikonokon pedig látszanak a hirtelen ugrások és a lassú elcsúszások. Nincs tesztkészleted? Vigyél mintát egy akvarisztikai szaküzletbe."
+      }
+    },
+    {
+      "treatment_id": "improve-water-quality",
+      "name": {"en": "Water change with matched saltwater", "hu": "Vízcsere egyező paraméterű sós vízzel"},
+      "priority": "first-line",
+      "details": {
+        "en": "Change about 10–30 % of the water and repeat over the next days if needed. The new water must be fully mixed RO/DI saltwater with the same salinity and temperature as the tank – a mismatched water change is itself a common cause of sudden problems. Run fresh activated carbon to remove many organic toxins and medication residues, and fix the cause (remove dead animals or uneaten food, repair the heater or top-off, stop the faulty dosing).",
+        "hu": "Cseréld le a víz kb. 10–30 %-át, és ha kell, a következő napokban ismételd meg. Az új víz teljesen elkevert, RO/DI vízből készült sós víz legyen, az akváriuméval azonos sótartalommal és hőmérséklettel – az eltérő paraméterű vízcsere maga is gyakori oka a hirtelen problémáknak. Tegyél be friss aktív szenet, amely sok szerves méreganyagot és gyógyszermaradványt megköt, és szüntesd meg az okot (távolítsd el az elpusztult állatokat és az eleségmaradékot, javítsd meg a fűtőt vagy az utántöltőt, állítsd le a hibás adagolást)."
+      }
+    },
+    {
+      "treatment_id": "methylene-blue",
+      "name": {"en": "Methylene Blue for ammonia burn (QT only)", "hu": "Metilénkék ammóniaégésre (csak QT-ben)"},
+      "priority": "supportive",
+      "details": {
+        "en": "A fish with ammonia burn (red, inflamed gills) can be moved to a QT with clean water and treated with Methylene Blue (see its page). Do not use it in the display tank – it can harm the biofilter and make the original problem worse.",
+        "hu": "Az ammóniaégéses (vörös, gyulladt kopoltyújú) hal tiszta vizű QT-be tehető, és metilénkékkel kezelhető (lásd annak oldalát). A díszakváriumban ne használd – károsíthatja a biofiltert, és ronthat az eredeti problémán."
+      }
+    }
+  ],
+  "subconditions": [
+    {
+      "name": {"en": "Ammonia or nitrite", "hu": "Ammónia vagy nitrit"},
+      "symptoms": {
+        "en": [
+          "Any measurable ammonia or nitrite in an established tank",
+          "Red gills, fast breathing, lethargy, not eating",
+          "New tank still cycling, a dead animal rotting in the rocks, overfeeding, overstocking, a stopped filter or skimmer, or a medication that damaged the biofilter"
+        ],
+        "hu": [
+          "Bármilyen mérhető ammónia vagy nitrit egy beállt akváriumban",
+          "Vörös kopoltyú, gyors légzés, bágyadtság, étvágytalanság",
+          "Még be nem járatott új akvárium, a kövek között bomló elpusztult állat, túletetés, túlnépesítés, leállt szűrő vagy fehérjefölöző, vagy a biofiltert károsító gyógyszer"
+        ]
+      },
+      "treatment": {
+        "en": "Target 0. Do a water change with matched saltwater; an ammonia-binding water conditioner can detoxify ammonia temporarily (tests may still show it). Find and remove the source, feed very lightly, and add bottled nitrifying bacteria if the biofilter was damaged. Ammonia becomes more toxic as pH and temperature rise, so do not raise the pH while ammonia is present.",
+        "hu": "Célérték: 0. Végezz vízcserét egyező paraméterű sós vízzel; egy ammóniamegkötő vízelőkészítő átmenetileg méregteleníti az ammóniát (a teszt ilyenkor is kimutathatja). Keresd meg és távolítsd el a forrást, etess nagyon keveset, és ha a biofilter károsodott, adj hozzá palackos nitrifikáló baktériumot. Az ammónia a pH és a hőmérséklet emelkedésével mérgezőbbé válik, ezért amíg van ammónia, ne emeld a pH-t."
+      }
+    },
+    {
+      "name": {"en": "Salinity too high, too low or swinging", "hu": "Túl magas, túl alacsony vagy ingadozó sótartalom"},
+      "symptoms": {
+        "en": [
+          "Salinity creeping up (evaporation, failed auto top-off) or dropping (top-off stuck on, wrongly mixed water)",
+          "Sudden change after a water change with unmatched water",
+          "Fast breathing and lethargy in fish; shrimps, starfish and urchins are especially sensitive"
+        ],
+        "hu": [
+          "Lassan emelkedő (párolgás, leállt automata utántöltő) vagy csökkenő (beragadt utántöltő, rosszul kevert víz) sótartalom",
+          "Hirtelen változás egy nem egyező paraméterű vízzel végzett vízcsere után",
+          "A halak gyorsan lélegeznek és bágyadtak; a garnélák, tengeri csillagok és sünök különösen érzékenyek"
+        ]
+      },
+      "treatment": {
+        "en": "Target about 35 ppt (SG 1.025–1.026), measured with a calibrated refractometer or meter. Correct slowly, in small steps of about 0.001 SG (~1 ppt) per day, by adjusting the top-off or with water changes of slightly saltier or fresher water. Always match the salinity and temperature of new water to the tank.",
+        "hu": "Célérték kb. 35 ppt (fajsúly 1,025–1,026), kalibrált refraktométerrel vagy mérővel mérve. Lassan korrigálj, naponta kb. 0,001 fajsúlynyi (~1 ppt) lépésekben, az utántöltés módosításával vagy kissé sósabb, illetve édesebb vízzel végzett vízcserével. Az új víz sótartalmát és hőmérsékletét mindig igazítsd az akváriuméhoz."
+      }
+    },
+    {
+      "name": {"en": "Temperature too high, too low or swinging", "hu": "Túl magas, túl alacsony vagy ingadozó hőmérséklet"},
+      "symptoms": {
+        "en": [
+          "Above about 28–29 °C: fast breathing and gasping (warm water holds less oxygen), coral bleaching",
+          "Below about 24 °C, e.g. after a heater failure: sluggish fish that stop eating",
+          "Daily swings of more than 1–2 °C"
+        ],
+        "hu": [
+          "Kb. 28–29 °C felett: gyors légzés, levegő után kapkodás (a meleg víz kevesebb oxigént tart meg), korallfehéredés",
+          "Kb. 24 °C alatt, pl. fűtőhiba után: lomha halak, amelyek abbahagyják az evést",
+          "Napi 1–2 °C-nál nagyobb ingadozás"
+        ]
+      },
+      "treatment": {
+        "en": "Target about 25–27 °C and keep it steady. Fix the cause (stuck or failed heater, chiller, hot room, lighting). Correct gradually, about a degree per hour rather than in one big step. When overheating, increase aeration, blow a fan across the water surface and switch off the lights. Use a temperature controller as a safety cut-off for the heater.",
+        "hu": "Célérték kb. 25–27 °C, egyenletesen. Szüntesd meg az okot (beragadt vagy elromlott fűtő, hűtő, meleg szoba, világítás). Fokozatosan korrigálj, óránként kb. egy fokkal, ne egyetlen nagy lépésben. Túlmelegedéskor fokozd a levegőztetést, fújass ventilátorral a vízfelszínre, és kapcsold le a világítást. A fűtő biztonsági lekapcsolására használj hőmérséklet-szabályozót."
+      }
+    },
+    {
+      "name": {"en": "pH or alkalinity out of range", "hu": "A pH vagy a KH a tartományon kívül"},
+      "symptoms": {
+        "en": [
+          "pH below about 7.8 (often lowest at night and early morning) or above about 8.5",
+          "Falling KH (alkalinity), stalled coral growth",
+          "Sudden pH jump after dosing kalkwasser or a buffer"
+        ],
+        "hu": [
+          "A pH kb. 7,8 alatt (gyakran éjjel és kora reggel a legalacsonyabb) vagy kb. 8,5 felett",
+          "Csökkenő KH, megálló korallnövekedés",
+          "Hirtelen pH-ugrás kalkwasser vagy puffer adagolása után"
+        ]
+      },
+      "treatment": {
+        "en": "Target pH about 7.9–8.4 and KH about 7–11 dKH. Low pH usually comes from excess CO2 (closed room, poor aeration) or low alkalinity: improve surface agitation, give the skimmer fresh outdoor air, and raise alkalinity slowly – by about 1 dKH per day at most. A sudden high pH usually comes from overdosing kalkwasser or buffer: stop dosing and let it settle; do not try to push it back down with chemicals.",
+        "hu": "Célérték: pH kb. 7,9–8,4, KH kb. 7–11 dKH. Az alacsony pH oka általában a túl sok CO2 (zárt szoba, gyenge levegőztetés) vagy az alacsony KH: javítsd a felszín mozgását, a fehérjefölöző kapjon friss kinti levegőt, a KH-t pedig lassan emeld – naponta legfeljebb kb. 1 dKH-val. A hirtelen magas pH oka általában a kalkwasser vagy a puffer túladagolása: állítsd le az adagolást, és hagyd, hogy rendeződjön; ne próbáld vegyszerrel visszanyomni."
+      }
+    },
+    {
+      "name": {"en": "Toxins: copper, chlorine, cleaning products, metals", "hu": "Mérgező anyagok: réz, klór, tisztítószerek, fémek"},
+      "symptoms": {
+        "en": [
+          "Sudden stress or deaths across the tank while the usual parameters look normal",
+          "Invertebrates and corals die first (copper, metals)",
+          "After untreated tap water, a new decoration or pump, metal in the water, cleaning products or aerosols near the tank, or medication used in the display"
+        ],
+        "hu": [
+          "Hirtelen stressz vagy elhullás az egész akváriumban, miközben a szokásos paraméterek rendben vannak",
+          "Először a gerinctelenek és a korallok pusztulnak el (réz, fémek)",
+          "Kezeletlen csapvíz, új dekoráció vagy szivattyú, vízbe került fém, az akvárium közelében használt tisztítószer vagy aeroszolos termék, illetve a díszakváriumban alkalmazott gyógyszer után"
+        ]
+      },
+      "treatment": {
+        "en": "Remove the source, do large water changes with clean, matched saltwater and run fresh activated carbon (plus a copper-removing resin if copper is suspected; test copper if you have a kit). Use only RO/DI water for mixing and top-off – chlorine and chloramine in tap water are highly toxic to fish.",
+        "hu": "Távolítsd el a forrást, végezz nagyobb vízcseréket tiszta, egyező paraméterű sós vízzel, és tegyél be friss aktív szenet (réz gyanújánál rézmegkötő gyantát is; ha van tesztkészleted, mérd a rezet). A keveréshez és az utántöltéshez csak RO/DI vizet használj – a csapvízben lévő klór és klóramin rendkívül mérgező a halakra."
+      }
+    },
+    {
+      "name": {"en": "Sudden change after a water change or dosing", "hu": "Hirtelen változás vízcsere vagy adagolás után"},
+      "symptoms": {
+        "en": [
+          "Animals react within minutes to hours of a water change, new salt batch or new additive",
+          "Several species affected at once, invertebrates often first"
+        ],
+        "hu": [
+          "Az állatok egy vízcsere, új sókeverék vagy új adalék után perceken-órákon belül reagálnak",
+          "Egyszerre több faj érintett, gyakran elsőként a gerinctelenek"
+        ]
+      },
+      "treatment": {
+        "en": "Measure the salinity, temperature and pH of the leftover new water and compare them with the tank; check dosing pump volumes and your calculations. Undo the change with a water change of correctly prepared water, then return to the right values slowly.",
+        "hu": "Mérd meg a megmaradt új víz sótartalmát, hőmérsékletét és pH-ját, és hasonlítsd össze az akváriuméval; ellenőrizd az adagolópumpa mennyiségeit és a számításaidat. A változást helyesen előkészített vízzel végzett vízcserével fordítsd vissza, majd lassan állítsd vissza a helyes értékeket."
+      }
+    }
+  ],
+  "prevention": {
+    "en": [
+      "Test regularly and keep a log (e.g. in Tank Log) so drifts are spotted before the animals react.",
+      "Fully cycle a new tank before adding fish, and add fish gradually.",
+      "Always match new saltwater to the tank (salinity, temperature) and let it mix completely.",
+      "Use RO/DI water for mixing and top-off, never untreated tap water.",
+      "Use a temperature controller as a heater safety, and an auto top-off with a failsafe.",
+      "Do not overfeed or overstock; remove dead animals promptly.",
+      "Change dosing only in small steps and double-check every calculation.",
+      "Keep aerosols, cleaning products and loose metal away from the tank."
+    ],
+    "hu": [
+      "Mérj rendszeresen, és vezess naplót (pl. a Tank Logban), hogy az elcsúszásokat még azelőtt észrevedd, hogy az állatok reagálnának.",
+      "Az új akváriumot a halak betelepítése előtt teljesen járasd be, és a halakat fokozatosan tedd be.",
+      "Az új sós vizet mindig igazítsd az akváriumhoz (sótartalom, hőmérséklet), és hagyd teljesen elkeveredni.",
+      "A keveréshez és az utántöltéshez RO/DI vizet használj, soha ne kezeletlen csapvizet.",
+      "A fűtőt hőmérséklet-szabályozó védje, az automata utántöltőnek legyen biztonsági leállása.",
+      "Ne etess túl és ne népesítsd túl az akváriumot; az elpusztult állatokat azonnal távolítsd el.",
+      "Az adagolást csak kis lépésekben változtasd, és minden számítást ellenőrizz kétszer.",
+      "Az aeroszolos termékeket, tisztítószereket és fémtárgyakat tartsd távol az akváriumtól."
+    ]
+  },
+  "images": [],
+  "related_links": [
+    {"title": {"en": "Tank Log – Guide to water parameters", "hu": "Tank Log – útmutató a vízparaméterekhez"}, "url": "../tank-log/#/guide"},
+    {"title": "Environmental Diseases of Aquatic Animals in Aquatic Systems (Merck Veterinary Manual)", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems"},
+    {"title": "Ammonia in Aquatic Systems (UF/IFAS Extension)", "url": "https://ask.ifas.ufl.edu/publication/FA031"},
+    {"title": "Stress – Its Role in Fish Disease (UF/IFAS Extension)", "url": "https://ask.ifas.ufl.edu/publication/FA005"}
+  ],
+  "notes": {
+    "en": "This entry is written by reef42 and is not part of the humble.fish disease index; the references are listed under Further reading. The target values match the Tank Log guide. Stability matters more than an exact number: correcting a slightly-off value too fast can do more harm than the value itself.",
+    "hu": "Ezt a leírást a reef42 írta, nem része a humble.fish betegségjegyzékének; a felhasznált források a További olvasnivaló alatt találhatók. A célértékek megegyeznek a Tank Log útmutatójával. A stabilitás fontosabb, mint egy pontos szám: egy kicsit eltérő érték túl gyors korrigálása több kárt okozhat, mint maga az eltérés."
+  }
+}

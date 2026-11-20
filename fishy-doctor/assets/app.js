@@ -108,7 +108,7 @@
     return '<ol class="steps">' + items.map((i) => '<li>' + fmt(i) + '</li>').join('') + '</ol>';
   }
   function sourceLine(url, author) {
-    if (!url) return '';
+    if (!url) return author ? '<p class="source-line">' + esc(u('author')) + ': ' + esc(author) + '</p>' : '';
     return '<p class="source-line">' + esc(u('source')) + ': <a href="' + esc(url) + '" target="_blank" rel="noopener">' +
       esc(url.replace(/^https?:\/\//, '')) + '</a>' + (author ? ' · ' + esc(u('author')) + ': ' + esc(author) : '') +
       '<br>' + esc(u('summaryNote')) + '</p>';
